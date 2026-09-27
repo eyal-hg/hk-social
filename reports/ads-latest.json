@@ -1,0 +1,306 @@
+{
+ "generated": "27.09.2026 14:20",
+ "account": {
+  "name": "HK",
+  "currency": "ILS",
+  "account_status": 1,
+  "amount_spent": "7932716",
+  "id": "act_1886192278456348"
+ },
+ "campaigns": [
+  {
+   "id": "120245939439290740",
+   "name": "קמפיין לידים אייל",
+   "status": "ACTIVE",
+   "objective": "OUTCOME_LEADS",
+   "daily_budget": null,
+   "lifetime_budget": null,
+   "last7": {
+    "spend": 69.92,
+    "impressions": 581,
+    "reach": 495,
+    "clicks": 15,
+    "ctr": 2.581756,
+    "cpc": 4.661333,
+    "leads": 1.0,
+    "cost_per_lead": 69.92,
+    "landing_page_views": 0.0
+   },
+   "last30": {
+    "spend": 289.26,
+    "impressions": 2299,
+    "reach": 1737,
+    "clicks": 63,
+    "ctr": 2.740322,
+    "cpc": 4.591429,
+    "leads": 7.0,
+    "cost_per_lead": 41.322857,
+    "landing_page_views": 0.0
+   },
+   "ads_last7": [
+    {
+     "id": "120249034172750740",
+     "adset": "‏סדרת מודעות לידים חדשה‏ - בעלי עסקים",
+     "name": "סרטון יום שישי",
+     "spend": 69.92,
+     "impressions": 581,
+     "reach": 495,
+     "clicks": 15,
+     "ctr": 2.581756,
+     "cpc": 4.661333,
+     "leads": 1.0,
+     "cost_per_lead": 69.92,
+     "landing_page_views": 0.0
+    }
+   ]
+  },
+  {
+   "id": "120245264833640740",
+   "name": "קמפיין VSL - תנועה, מיקסום צפיות בדף נחיתה",
+   "status": "PAUSED",
+   "objective": "OUTCOME_TRAFFIC",
+   "daily_budget": null,
+   "lifetime_budget": null,
+   "last7": {
+    "spend": 0.0,
+    "impressions": 0,
+    "reach": 0,
+    "clicks": 0,
+    "ctr": 0.0,
+    "cpc": 0.0,
+    "leads": 0.0,
+    "cost_per_lead": null,
+    "landing_page_views": 0.0
+   },
+   "last30": {
+    "spend": 0.0,
+    "impressions": 0,
+    "reach": 0,
+    "clicks": 0,
+    "ctr": 0.0,
+    "cpc": 0.0,
+    "leads": 0.0,
+    "cost_per_lead": null,
+    "landing_page_views": 0.0
+   },
+   "ads_last7": []
+  },
+  {
+   "id": "120245262843710740",
+   "name": "קמפיין טופס לידים 14.4 |רילקס|",
+   "status": "PAUSED",
+   "objective": "OUTCOME_LEADS",
+   "daily_budget": null,
+   "lifetime_budget": null,
+   "last7": {
+    "spend": 0.0,
+    "impressions": 0,
+    "reach": 0,
+    "clicks": 0,
+    "ctr": 0.0,
+    "cpc": 0.0,
+    "leads": 0.0,
+    "cost_per_lead": null,
+    "landing_page_views": 0.0
+   },
+   "last30": {
+    "spend": 0.0,
+    "impressions": 0,
+    "reach": 0,
+    "clicks": 0,
+    "ctr": 0.0,
+    "cpc": 0.0,
+    "leads": 0.0,
+    "cost_per_lead": null,
+    "landing_page_views": 0.0
+   },
+   "ads_last7": []
+  },
+  {
+   "id": "120241842177650740",
+   "name": "‏‏קמפיין כספים AI טופס לידים | טסט 2 | HK Money‏‏",
+   "status": "PAUSED",
+   "objective": "OUTCOME_LEADS",
+   "daily_budget": null,
+   "lifetime_budget": null,
+   "last7": {
+    "spend": 0.0,
+    "impressions": 0,
+    "reach": 0,
+    "clicks": 0,
+    "ctr": 0.0,
+    "cpc": 0.0,
+    "leads": 0.0,
+    "cost_per_lead": null,
+    "landing_page_views": 0.0
+   },
+   "last30": {
+    "spend": 0.0,
+    "impressions": 0,
+    "reach": 0,
+    "clicks": 0,
+    "ctr": 0.0,
+    "cpc": 0.0,
+    "leads": 0.0,
+    "cost_per_lead": null,
+    "landing_page_views": 0.0
+   },
+   "ads_last7": []
+  },
+  {
+   "id": "120234694036040740",
+   "name": "‏קמפיין כספים AI טופס לידים || HK Money‏",
+   "status": "PAUSED",
+   "objective": "OUTCOME_LEADS",
+   "daily_budget": null,
+   "lifetime_budget": null,
+   "last7": {
+    "spend": 0.0,
+    "impressions": 0,
+    "reach": 0,
+    "clicks": 0,
+    "ctr": 0.0,
+    "cpc": 0.0,
+    "leads": 0.0,
+    "cost_per_lead": null,
+    "landing_page_views": 0.0
+   },
+   "last30": {
+    "spend": 0.0,
+    "impressions": 0,
+    "reach": 0,
+    "clicks": 0,
+    "ctr": 0.0,
+    "cpc": 0.0,
+    "leads": 0.0,
+    "cost_per_lead": null,
+    "landing_page_views": 0.0
+   },
+   "ads_last7": []
+  },
+  {
+   "id": "120233960830590740",
+   "name": "קמפיין לידים לאתר || HK Money",
+   "status": "PAUSED",
+   "objective": "OUTCOME_LEADS",
+   "daily_budget": "10000",
+   "lifetime_budget": null,
+   "last7": {
+    "spend": 0.0,
+    "impressions": 0,
+    "reach": 0,
+    "clicks": 0,
+    "ctr": 0.0,
+    "cpc": 0.0,
+    "leads": 0.0,
+    "cost_per_lead": null,
+    "landing_page_views": 0.0
+   },
+   "last30": {
+    "spend": 0.0,
+    "impressions": 0,
+    "reach": 0,
+    "clicks": 0,
+    "ctr": 0.0,
+    "cpc": 0.0,
+    "leads": 0.0,
+    "cost_per_lead": null,
+    "landing_page_views": 0.0
+   },
+   "ads_last7": []
+  },
+  {
+   "id": "120218471148070740",
+   "name": "‎טופס לידים || ניהול תזרים || קהל חדש || טסט‎ - Copy",
+   "status": "PAUSED",
+   "objective": "OUTCOME_SALES",
+   "daily_budget": null,
+   "lifetime_budget": null,
+   "last7": {
+    "spend": 0.0,
+    "impressions": 0,
+    "reach": 0,
+    "clicks": 0,
+    "ctr": 0.0,
+    "cpc": 0.0,
+    "leads": 0.0,
+    "cost_per_lead": null,
+    "landing_page_views": 0.0
+   },
+   "last30": {
+    "spend": 0.0,
+    "impressions": 0,
+    "reach": 0,
+    "clicks": 0,
+    "ctr": 0.0,
+    "cpc": 0.0,
+    "leads": 0.0,
+    "cost_per_lead": null,
+    "landing_page_views": 0.0
+   },
+   "ads_last7": []
+  },
+  {
+   "id": "120216039932250740",
+   "name": "‏טופס לידים || ניהול תזרים ||",
+   "status": "PAUSED",
+   "objective": "OUTCOME_LEADS",
+   "daily_budget": "10000",
+   "lifetime_budget": null,
+   "last7": {
+    "spend": 0.0,
+    "impressions": 0,
+    "reach": 0,
+    "clicks": 0,
+    "ctr": 0.0,
+    "cpc": 0.0,
+    "leads": 0.0,
+    "cost_per_lead": null,
+    "landing_page_views": 0.0
+   },
+   "last30": {
+    "spend": 0.0,
+    "impressions": 0,
+    "reach": 0,
+    "clicks": 0,
+    "ctr": 0.0,
+    "cpc": 0.0,
+    "leads": 0.0,
+    "cost_per_lead": null,
+    "landing_page_views": 0.0
+   },
+   "ads_last7": []
+  },
+  {
+   "id": "120216011568420740",
+   "name": "טופס לידים || ניהול תזרים || קהל חדש || טסט",
+   "status": "PAUSED",
+   "objective": "OUTCOME_LEADS",
+   "daily_budget": null,
+   "lifetime_budget": null,
+   "last7": {
+    "spend": 0.0,
+    "impressions": 0,
+    "reach": 0,
+    "clicks": 0,
+    "ctr": 0.0,
+    "cpc": 0.0,
+    "leads": 0.0,
+    "cost_per_lead": null,
+    "landing_page_views": 0.0
+   },
+   "last30": {
+    "spend": 0.0,
+    "impressions": 0,
+    "reach": 0,
+    "clicks": 0,
+    "ctr": 0.0,
+    "cpc": 0.0,
+    "leads": 0.0,
+    "cost_per_lead": null,
+    "landing_page_views": 0.0
+   },
+   "ads_last7": []
+  }
+ ]
+}
