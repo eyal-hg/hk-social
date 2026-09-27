@@ -1,0 +1,26 @@
+name: ads-report
+on:
+  schedule:
+    - cron: "30 4 * * *"   # 07:30 שעון קיץ ישראל, לפני הפרסום היומי
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: { group: repo-write, cancel-in-progress: false }
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: read-only ads report
+        env:
+          META_TOKEN: ${{ secrets.META_TOKEN }}
+          AD_ACCOUNT_ID: "1886192278456348"
+        run: python scripts/ads.py
+      - name: commit report
+        run: |
+          git config user.name "hk-social-bot"
+          git config user.email "hk-social-bot@users.noreply.github.com"
+          git add reports
+          git diff --cached --quiet || (git commit -m "ads report" && git push)
