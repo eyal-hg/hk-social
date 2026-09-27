@@ -39,7 +39,7 @@ CSS = """
 .sh-card img{width:100%;display:block;aspect-ratio:4/5;object-fit:cover;background:var(--off)}
 .sh-card .m{padding:12px 14px;font-size:14px}.sh-card .r{display:flex;justify-content:space-between;font-weight:700}
 .sh-card .cap{color:var(--ink);white-space:pre-line;margin:8px 0 0;font-size:13.5px;line-height:1.5}
-.sh-card .st{font-size:12px;color:var(--muted)}.s-approved{border-top-color:var(--good)}.s-published{border-top-color:var(--navy);opacity:.75}
+.sh-card .st{font-size:12px;color:var(--muted)}.sh-h small{font-size:.6em;font-weight:400}.s-approved{border-top-color:var(--good)}.s-published{border-top-color:var(--navy);opacity:.75}
 .sh-h{font-family:Rubik,Heebo,sans-serif;color:var(--navy);margin:28px 0 12px;font-size:22px}.sh-h:first-child{margin-top:0}
 .sh-empty{color:var(--muted);padding:14px;border:1px dashed var(--line);border-radius:12px}
 @media(max-width:600px){.sh-panel{padding:16px}}
@@ -95,6 +95,7 @@ PAGE = """<!DOCTYPE html><html lang="he" dir="rtl"><head><meta charset="utf-8">
 <section class="sh-panel" id="posts" role="tabpanel" hidden>
   <h2 class="sh-h">הפוסטים הבאים</h2>%(upcoming)s
   <h2 class="sh-h">הפוסטים שהיו</h2>%(past)s
+  <h2 class="sh-h">מודעות ממומנות <small class="st">— לא מופיעות בפיד</small></h2>%(ads)s
 </section>
 <script>
 (function(){
@@ -111,7 +112,7 @@ def card(post):
     return f"""<article class="sh-card s-{html.escape(st)}">
   <img src="{IMAGE_BASE}/{html.escape(post['id'])}.jpg" alt="" loading="lazy">
   <div class="m"><div class="r"><span>{html.escape(post['publish_date'])}</span><span class="st">{STATUS.get(st, st)}</span></div>
-  <div class="st">{html.escape(post.get('kicker') or post.get('type',''))} · {html.escape(post.get('layout','statement'))}</div>
+  <div class="st">{'<b>מודעה</b> · ' if post.get('dark') else ''}{html.escape(post.get('kicker') or post.get('type',''))} · {html.escape(post.get('layout','statement'))}</div>
   <p class="cap">{html.escape(post.get('caption',''))}</p></div></article>"""
 
 
@@ -126,13 +127,15 @@ def main():
     posts = [json.loads(p.read_text(encoding="utf-8")) for p in sorted((ROOT / "posts").rglob("*.json"))]
     (DOCS / "index.html").write_text(INDEX % {"css": CSS, "gate": GATE_JS, "hash": GATE_HASH}, encoding="utf-8")
     for key, meta in PAGES.items():
-        mine = [p for p in posts if p.get("page", "money") == key and p.get("status") != "rejected"]
+        allmine = [p for p in posts if p.get("page", "money") == key and p.get("status") != "rejected"]
+        ads = sorted([p for p in allmine if p.get("dark")], key=lambda p: p["publish_date"])
+        mine = [p for p in allmine if not p.get("dark")]
         past = sorted([p for p in mine if p.get("status") == "published" or p["publish_date"] < today], key=lambda p: p["publish_date"], reverse=True)
         upcoming = sorted([p for p in mine if p not in past], key=lambda p: p["publish_date"])
         plan_file = ROOT / "content" / f"plan-{key}.html"
         plan = plan_file.read_text(encoding="utf-8") if plan_file.exists() else '<p class="sh-empty">תוכנית השיווק עוד לא נכנסה לכאן.</p>'
         (DOCS / f"{key}.html").write_text(PAGE % {"css": CSS, "gate": GATE_JS, "title": meta["title"], "sub": meta["sub"], "site": meta["site"],
-                                                  "plan": plan, "upcoming": grid(upcoming), "past": grid(past)}, encoding="utf-8")
+                                                  "plan": plan, "upcoming": grid(upcoming), "past": grid(past), "ads": grid(ads)}, encoding="utf-8")
         print(f"docs/{key}.html  upcoming={len(upcoming)} past={len(past)} plan={'yes' if plan_file.exists() else 'placeholder'}")
     print("docs/index.html")
 
