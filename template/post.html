@@ -16,6 +16,7 @@
   .cta span { color: var(--salmon); }
   .bottom img { height: 56px; }
   .url { font-family: 'Rubik', sans-serif; font-weight: 700; font-size: 32px; direction: ltr; }
+  .no-cta .bottom { justify-content: center; gap: 60px; }
   .main { position: absolute; right: 80px; left: 80px; top: 200px; bottom: 200px; display: flex; flex-direction: column; justify-content: center; }
   .title { font-family: 'Karantina', sans-serif; font-weight: 700; font-size: 190px; line-height: .92; letter-spacing: -.01em; }
   .body { margin-top: 50px; font-size: 50px; line-height: 1.45; font-weight: 500; max-width: 880px; }
@@ -102,7 +103,9 @@
   document.body.classList.add('l-' + layout);
   document.getElementById('kicker').textContent = P.kicker || '';
   document.getElementById('url').textContent = P.url || 'hak.co.il';
-  document.getElementById('cta').innerHTML = P.cta || 'פגישת אבחון <span>חינם</span>';
+  const cta = document.getElementById('cta');
+  if (P.cta === '' || (typeof P.cta === 'string' && !P.cta.trim())) { cta.remove(); document.body.classList.add('no-cta'); }
+  else cta.innerHTML = P.cta || 'פגישת אבחון <span>חינם</span>';
   const svc = document.getElementById('svc');
   const logos = { hkmoney: 'assets/hkmoney-logo.png', hkpro: 'assets/hkpro-logo.png', studio: 'assets/studio-logo.png' };
   if (logos[P.logo]) svc.src = logos[P.logo]; else svc.remove();
