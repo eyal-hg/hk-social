@@ -11,6 +11,7 @@ nothing is applied. Raising N is a deliberate edit by a human, not something a p
 """
 import json
 import os
+import re
 import sys
 import urllib.parse
 import urllib.request
@@ -38,13 +39,22 @@ def call(method, path, **params):
         raise RuntimeError(f"{method} {path} -> {e.code}: {e.read().decode(errors='replace')[:400]}") from None
 
 
+def norm(name):
+    """Meta names carry invisible RTL marks and stray spaces; compare without them."""
+    return re.sub(r"\s+", " ", re.sub(r"[\u200e\u200f\u202a-\u202e\u2066-\u2069]", "", name or "")).strip()
+
+
+def same(a, b):
+    return norm(a) == norm(b)
+
+
 def ils(v):
     return str(int(round(float(v) * 100)))
 
 
 def find_campaign(name):
     for c in call("GET", f"{ACCT}/campaigns", fields="name,daily_budget,lifetime_budget,effective_status", limit=100).get("data", []):
-        if c["name"].strip() == name.strip():
+        if same(c["name"], name):
             return c
     raise RuntimeError(f"campaign not found: {name}")
 
@@ -52,7 +62,7 @@ def find_campaign(name):
 def set_budget(a):
     c = find_campaign(a["campaign_name"])
     if a.get("adset_name"):  # one named ad set only; the others are left as they are
-        s = next(x for x in call("GET", f"{c['id']}/adsets", fields="name", limit=50)["data"] if x["name"].strip() == a["adset_name"].strip())
+        s = next(x for x in call("GET", f"{c['id']}/adsets", fields="name", limit=50)["data"] if same(x["name"], a["adset_name"]))
         call("POST", s["id"], daily_budget=ils(a["daily_budget_ils"]))
         return {"campaign_id": c["id"], "level": "adset", "adsets": [{"adset_id": s["id"], "name": s["name"], "daily_budget_ils": a["daily_budget_ils"]}]}
     if c.get("daily_budget"):  # campaign-level budget
@@ -100,15 +110,15 @@ def revive(a):
     """Un-pause one campaign with exactly one ad set and the named ads inside it; everything else in it stays paused."""
     c = find_campaign(a["campaign_name"])
     adsets = call("GET", f"{c['id']}/adsets", fields="name,status,daily_budget", limit=50)["data"]
-    keep = next(s for s in adsets if s["name"].strip() == a["adset_name"].strip())
+    keep = next(s for s in adsets if same(s["name"], a["adset_name"]))
     for s in adsets:
         if s["id"] != keep["id"] and s.get("status") != "PAUSED":
             call("POST", s["id"], status="PAUSED")
     ads = call("GET", f"{keep['id']}/ads", fields="name,status", limit=100)["data"]
-    wanted = [n.strip() for n in a["ad_names"]]
+    wanted = [norm(n) for n in a["ad_names"]]
     on, off = [], []
     for ad in ads:
-        if ad["name"].strip() in wanted:
+        if norm(ad["name"]) in wanted:
             call("POST", ad["id"], status="ACTIVE"); on.append(ad["name"])
         elif ad.get("status") != "PAUSED":
             call("POST", ad["id"], status="PAUSED"); off.append(ad["name"])
@@ -145,7 +155,7 @@ def projected_total(plan):
         if a["type"] == "set_adset_budget":
             c = find_campaign(a["campaign_name"])
             if a.get("adset_name"):
-                s = next(x for x in call("GET", f"{c['id']}/adsets", fields="name", limit=50)["data"] if x["name"].strip() == a["adset_name"].strip())
+                s = next(x for x in call("GET", f"{c['id']}/adsets", fields="name", limit=50)["data"] if same(x["name"], a["adset_name"]))
                 ex_adsets.add(s["id"])
             else:
                 ex_camps.add(c["id"])
