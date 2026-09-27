@@ -113,17 +113,28 @@ def main():
             L += ["לא רצה ב-7 הימים האחרונים.", ""]
 
     # ads that Meta flags (errors, disapproved, in review) — the Ads Manager "שגיאות במודעה" badge
-    flagged = get(f"{ACCT}/ads", fields="name,effective_status,issues_info,adset{name},campaign{name}",
-                  effective_status='["WITH_ISSUES","DISAPPROVED","PENDING_REVIEW","PREAPPROVED","CAMPAIGN_PAUSED","ADSET_PAUSED","ACTIVE"]', limit=200).get("data", [])
-    flagged = [x for x in flagged if x.get("issues_info") or x.get("effective_status") in ("WITH_ISSUES", "DISAPPROVED", "PENDING_REVIEW")]
-    report["flagged_ads"] = flagged
-    if flagged:
-        L += ["## מודעות עם בעיות", ""]
-        for x in flagged:
-            for i in x.get("issues_info") or [{}]:
-                L += [f"- {x.get('campaign', {}).get('name')} › {x.get('adset', {}).get('name')} › {x['name']} ({x.get('effective_status')}): "
-                      f"{i.get('error_summary', '')} — {i.get('error_message', '')} [{i.get('level', '')} {i.get('error_code', '')}]"]
+    # everything Meta flags on ACTIVE campaigns: ad-set issues, ad issues, review feedback (the "שגיאות במודעה" badge)
+    active_ids = [c["id"] for c in camps if c.get("effective_status") == "ACTIVE"]
+    L += ["## מצב מפורט של הקמפיינים הפעילים", ""]
+    detail = {}
+    for cid in active_ids:
+        name = next(c["name"] for c in camps if c["id"] == cid)
+        sets = get(f"{cid}/adsets", fields="name,status,effective_status,issues_info,daily_budget", limit=50).get("data", [])
+        ads_ = get(f"{cid}/ads", fields="name,status,effective_status,issues_info,ad_review_feedback,adset_id", limit=100).get("data", [])
+        detail[cid] = {"adsets": sets, "ads": ads_}
+        L += [f"### {name}"]
+        for st in sets:
+            L += [f"- קבוצה {st['name']}: {st.get('status')}/{st.get('effective_status')} · יומי {agor(st.get('daily_budget'))}"]
+            for i in st.get("issues_info") or []:
+                L += [f"  - ⚠ {i.get('error_summary', '')}: {i.get('error_message', '')} [{i.get('level', '')} {i.get('error_code', '')}]"]
+            for ad in [a for a in ads_ if a.get("adset_id") == st["id"]]:
+                L += [f"  - מודעה {ad['name']}: {ad.get('status')}/{ad.get('effective_status')}"]
+                for i in ad.get("issues_info") or []:
+                    L += [f"    - ⚠ {i.get('error_summary', '')}: {i.get('error_message', '')} [{i.get('level', '')} {i.get('error_code', '')}]"]
+                if ad.get("ad_review_feedback"):
+                    L += [f"    - ביקורת: {json.dumps(ad['ad_review_feedback'], ensure_ascii=False)[:400]}"]
         L += [""]
+    report["active_detail"] = detail
 
     out = ROOT / "reports"; out.mkdir(exist_ok=True)
     (out / "ads-latest.json").write_text(json.dumps(report, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
