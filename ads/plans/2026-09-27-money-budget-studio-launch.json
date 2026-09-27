@@ -88,5 +88,9 @@
       "error": "POST act_1886192278456348/adimages -> 400: {\"error\":{\"message\":\"(#3) Application does not have the capability to make this API call.\",\"type\":\"OAuthException\",\"code\":3,\"fbtrace_id\":\"A51AP6TYdFY4_7W7HkTtRpz\"}}"
     }
   ],
-  "retry_note": "ניסיון 5: תמונה דרך URL ציבורי במקום adimages (סגור לאפליקציה במצב פיתוח); קבוצה ומודעות קיימות ממוחזרות"
+  "retry_note": "ניסיון 5: תמונה דרך URL ציבורי במקום adimages (סגור לאפליקציה במצב פיתוח); קבוצה ומודעות קיימות ממוחזרות",
+  "blocked": {
+    "at": "2026-09-27T15:33+03:00",
+    "reason": "projected daily total 250 ILS > cap 200 ILS (ads/limits.json)"
+  }
 }
