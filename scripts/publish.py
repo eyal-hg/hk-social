@@ -38,6 +38,14 @@ def call(method, path, **params):
         raise RuntimeError(f"{method} {path} -> {e.code}: {body}") from None
 
 
+def page_token():
+    # עובד גם עם טוקן משתמש (נמשך ממנו טוקן הדף) וגם עם טוקן דף (מוחזר כמו שהוא)
+    try:
+        return call("GET", PAGE_ID, fields="access_token", access_token=TOKEN).get("access_token") or TOKEN
+    except RuntimeError:
+        return TOKEN
+
+
 def caption(post):
     tags = " ".join("#" + t.lstrip("#") for t in post.get("hashtags", []))
     return (post["caption"].strip() + ("\n\n" + tags if tags else "")).strip()
@@ -70,13 +78,14 @@ def main():
     if not due:
         print("nothing due", today)
         return
+    ptoken = None if DRY else page_token()
     failed = False
     for p, post in due:
         channels = post.get("channels", ["facebook", "instagram"])
         res = post.setdefault("results", {})
         try:
             if "facebook" in channels and "facebook" not in res:
-                res["facebook"] = "dry-run" if DRY else to_facebook(post, TOKEN)
+                res["facebook"] = "dry-run" if DRY else to_facebook(post, ptoken)
             if "instagram" in channels and "instagram" not in res:
                 res["instagram"] = "dry-run" if DRY else to_instagram(post)
             post["status"] = "published"
