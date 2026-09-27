@@ -61,7 +61,9 @@ def main():
 
     copy = {}  # video_id -> [{message,title}] from the ad creatives that used it
     if acct:
-        for c in paged(f"act_{acct.removeprefix('act_')}/adcreatives", TOKEN, fields="video_id,body,title,object_story_spec", limit=200):
+        # per-ad creative fields, small pages: the account-wide adcreatives edge answers 500 "reduce the amount of data"
+        for ad in paged(f"act_{acct.removeprefix('act_')}/ads", TOKEN, fields="creative{video_id,body,title,object_story_spec{video_data{video_id,message,title}}}", limit=25):
+            c = ad.get("creative") or {}
             vd = ((c.get("object_story_spec") or {}).get("video_data") or {})
             vid = c.get("video_id") or vd.get("video_id")
             text = (vd.get("message") or c.get("body") or "").strip()
