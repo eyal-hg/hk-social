@@ -23,4 +23,4 @@ jobs:
           git config user.name "hk-social-bot"
           git config user.email "hk-social-bot@users.noreply.github.com"
           git add reports
-          git diff --cached --quiet || (git commit -m "ads report" && git push)
+          git diff --cached --quiet || (git commit -m "ads report" && git pull --rebase origin main && git push)
