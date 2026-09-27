@@ -2,7 +2,12 @@
 into the plan file under "applied". Never touches campaigns not named in the plan.
 
 Env: META_TOKEN (ads_management), AD_ACCOUNT_ID, PAGE_ID, STUDIO_PAGE_ID, IMAGE_BASE_URL.
-Usage: ads_apply.py ads/plans/2026-09-27-x.json
+Usage: ads_apply.py ads/plans/2026-09-27-x.json     one plan
+       ads_apply.py --auto                          every plan with "approved": true that still has unapplied actions
+
+Guard: ads/limits.json {"max_daily_total_ils": N}. Before touching anything the script projects the
+account's total daily budget after the plan; if it would exceed N the plan is marked "blocked" and
+nothing is applied. Raising N is a deliberate edit by a human, not something a plan can do.
 """
 import json
 import os
@@ -118,10 +123,51 @@ def revive(a):
     return {"campaign_id": c["id"], "adset_id": keep["id"], "ads_on": on, "ads_paused_now": off, "daily_budget_ils": a["daily_budget_ils"]}
 
 
-def main():
-    plan_path = ROOT / sys.argv[1]
+def daily_total(exclude_adsets=(), exclude_campaigns=()):
+    """Sum of daily budgets currently able to spend: active CBO campaigns + active ad sets in non-CBO campaigns."""
+    camps = {c["id"]: c for c in call("GET", f"{ACCT}/campaigns", fields="daily_budget,effective_status", limit=200)["data"]}
+    total = sum(int(c.get("daily_budget") or 0) for cid, c in camps.items()
+                if c.get("effective_status") == "ACTIVE" and cid not in exclude_campaigns)
+    for s in call("GET", f"{ACCT}/adsets", fields="campaign_id,daily_budget,effective_status", limit=500)["data"]:
+        if s.get("effective_status") == "ACTIVE" and s["id"] not in exclude_adsets and s["campaign_id"] not in exclude_campaigns \
+                and not camps.get(s["campaign_id"], {}).get("daily_budget"):
+            total += int(s.get("daily_budget") or 0)
+    return total / 100
+
+
+def projected_total(plan):
+    """Account daily total after the plan's still-unapplied actions, in ILS."""
+    done = {x["index"] for x in plan.get("applied", []) if x.get("ok")}
+    pending = [a for i, a in enumerate(plan["actions"]) if i not in done]
+    ex_adsets, ex_camps, add = set(), set(), 0.0
+    for a in pending:
+        add += float(a["daily_budget_ils"])
+        if a["type"] == "set_adset_budget":
+            c = find_campaign(a["campaign_name"])
+            if a.get("adset_name"):
+                s = next(x for x in call("GET", f"{c['id']}/adsets", fields="name", limit=50)["data"] if x["name"].strip() == a["adset_name"].strip())
+                ex_adsets.add(s["id"])
+            else:
+                ex_camps.add(c["id"])
+        elif a["type"] == "revive":
+            ex_camps.add(find_campaign(a["campaign_name"])["id"])
+    return daily_total(ex_adsets, ex_camps) + add
+
+
+def apply_plan(plan_path):
     plan = json.loads(plan_path.read_text(encoding="utf-8"))
     applied = plan.setdefault("applied", [])
+    limits = json.loads((ROOT / "ads" / "limits.json").read_text(encoding="utf-8"))
+    cap = float(limits["max_daily_total_ils"])
+    total = projected_total(plan)
+    if total > cap:
+        plan["blocked"] = {"at": datetime.now(ZoneInfo("Asia/Jerusalem")).isoformat(timespec="minutes"),
+                           "reason": f"projected daily total {total:.0f} ILS > cap {cap:.0f} ILS (ads/limits.json)"}
+        plan_path.write_text(json.dumps(plan, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        print("BLOCKED", plan_path.name, plan["blocked"]["reason"], file=sys.stderr)
+        return False
+    plan.pop("blocked", None)
+    print(f"{plan_path.name}: projected daily total {total:.0f} ILS (cap {cap:.0f})")
     failed = False
     for i, a in enumerate(plan["actions"]):
         if any(x.get("index") == i and x.get("ok") for x in applied):
@@ -135,7 +181,24 @@ def main():
             applied.append({"index": i, "type": a["type"], "ok": False, "at": datetime.now(ZoneInfo("Asia/Jerusalem")).isoformat(timespec="minutes"), "error": str(e)[:500]})
             print("FAILED", i, a["type"], e, file=sys.stderr)
         plan_path.write_text(json.dumps(plan, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    if failed:
+    return not failed
+
+
+def unapplied(plan):
+    done = {x["index"] for x in plan.get("applied", []) if x.get("ok")}
+    return [i for i in range(len(plan["actions"])) if i not in done]
+
+
+def main():
+    if sys.argv[1] == "--auto":
+        paths = [p for p in sorted((ROOT / "ads" / "plans").glob("*.json"))
+                 if (d := json.loads(p.read_text(encoding="utf-8"))).get("approved") is True and unapplied(d) and not d.get("blocked")]
+        if not paths:
+            print("nothing to do: no approved plan with unapplied actions"); return
+    else:
+        paths = [ROOT / sys.argv[1]]
+    ok = all([apply_plan(p) for p in paths])  # list(): apply every plan even if an earlier one failed
+    if not ok:
         sys.exit(1)
 
 

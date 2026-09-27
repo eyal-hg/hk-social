@@ -1,10 +1,13 @@
 name: ads-apply
 on:
+  push:
+    branches: [main]
+    paths: ["ads/plans/**"]   # תוכנית עם "approved": true מופעלת לבד
   workflow_dispatch:
     inputs:
       plan:
-        description: "plan file, e.g. ads/plans/2026-09-27-x.json"
-        required: true
+        description: "plan file, e.g. ads/plans/2026-09-27-x.json (empty = every approved plan)"
+        required: false
 permissions:
   contents: write
 concurrency: { group: repo-write, cancel-in-progress: false }
@@ -22,11 +25,11 @@ jobs:
           PAGE_ID: "459554967250420"
           STUDIO_PAGE_ID: ${{ vars.STUDIO_PAGE_ID }}
           IMAGE_BASE_URL: https://raw.githubusercontent.com/${{ github.repository }}/main/out
-        run: python scripts/ads_apply.py "${{ inputs.plan }}"
+        run: python scripts/ads_apply.py "${{ inputs.plan || '--auto' }}"
       - name: record
         if: always()
         run: |
           git config user.name "hk-social-bot"
           git config user.email "hk-social-bot@users.noreply.github.com"
           git add ads
-          git diff --cached --quiet || (git commit -m "ads plan applied: ${{ inputs.plan }}" && git push)
+          git diff --cached --quiet || (git commit -m "ads plan applied: ${{ inputs.plan || 'auto' }}" && git push)
