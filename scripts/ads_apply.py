@@ -271,20 +271,22 @@ def add_ads(a):
     page_id = PAGES[a.get("page", "money")]
     have = {norm(x["name"]) for x in call("GET", f"{adset['id']}/ads", fields="name", limit=100)["data"]}
     ads = []
+    suffix = a.get("suffix", "")  # e.g. " · b" to re-create an ad Meta flagged, next to the old one
     for post_id in a["posts"]:
-        if norm(post_id) in have:
-            print("ad exists, skipping", post_id); continue
+        ad_name = post_id + suffix
+        if norm(ad_name) in have:
+            print("ad exists, skipping", ad_name); continue
         p = next(d for d in (json.loads(q.read_text(encoding="utf-8")) for q in ROOT.glob("posts/**/*.json")) if d["id"] == post_id)
         fb_post = (p.get("results") or {}).get("facebook")
         if not fb_post:
             raise RuntimeError(f"{post_id} is not on the Page yet (publish it first)")
         fb_post = story_id(fb_post, page_id)
         print(post_id, "->", fb_post)
-        creative = call("POST", f"{ACCT}/adcreatives", name=post_id, object_story_id=fb_post,
+        creative = call("POST", f"{ACCT}/adcreatives", name=ad_name, object_story_id=fb_post,
                         call_to_action=json.dumps({"type": a.get("cta", "LEARN_MORE"), "value": {"link": a["link"]}}))
-        ad = call("POST", f"{ACCT}/ads", name=post_id, adset_id=adset["id"], creative=json.dumps({"creative_id": creative["id"]}),
+        ad = call("POST", f"{ACCT}/ads", name=ad_name, adset_id=adset["id"], creative=json.dumps({"creative_id": creative["id"]}),
                   status=a.get("status", "ACTIVE"))
-        ads.append({"post": post_id, "ad_id": ad["id"], "creative_id": creative["id"]})
+        ads.append({"post": post_id, "ad": ad_name, "ad_id": ad["id"], "creative_id": creative["id"]})
     return {"campaign_id": c["id"], "adset_id": adset["id"], "ads": ads}
 
 

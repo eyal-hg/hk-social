@@ -1,0 +1,20 @@
+{
+  "requested_by": "קלוד 27.09 ערב: Meta השהתה את SA1 עם 3843057 'האפליקציה בארגז החול'; SA2/SA3 פעילות. יוצרים את SA1 מחדש מאותו פוסט כדי לבדוק אם זו תקלה חד-פעמית",
+  "approved": true,
+  "approved_by": "במסגרת אישור אייל למודעות SA1-SA3 (27.09) — אותו קריאייטיב, אותו תקציב, בלי שינוי כסף",
+  "actions": [
+    {
+      "type": "add_ads",
+      "page": "studio",
+      "campaign_name": "HK Studio · יועצים · כניסות לדף",
+      "adset_name": "HK Studio · יועצים · כניסות לדף · קבוצה 1",
+      "posts": [
+        "2026-W40-SA1"
+      ],
+      "suffix": " · b",
+      "link": "https://studio.hak.co.il/?utm_source=facebook&utm_medium=paid&utm_campaign=studio",
+      "cta": "LEARN_MORE",
+      "status": "ACTIVE"
+    }
+  ]
+}
