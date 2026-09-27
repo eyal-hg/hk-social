@@ -62,10 +62,13 @@ def agor(v):
 def main():
     now = datetime.now(ZoneInfo("Asia/Jerusalem")).strftime("%d.%m.%Y %H:%M")
     acct = get(ACCT, fields="name,currency,account_status,amount_spent")
-    camps = get(f"{ACCT}/campaigns", fields="name,effective_status,objective,daily_budget,lifetime_budget", limit=50).get("data", [])
+    camps = get(f"{ACCT}/campaigns", fields="name,effective_status,objective,daily_budget,lifetime_budget,start_time,stop_time,updated_time", limit=50).get("data", [])
     c7, c30, ad7 = insights("campaign", "last_7d"), insights("campaign", "last_30d"), insights("ad", "last_7d")
     call_ = insights("campaign", "maximum")
     adall = insights("ad", "maximum")
+    adsets = defaultdict(list)
+    for s in get(f"{ACCT}/adsets", fields="campaign_id,name,effective_status,daily_budget,optimization_goal,destination_type,start_time,end_time", limit=200).get("data", []):
+        adsets[s["campaign_id"]].append(s)
     zero = parse({})
     by_camp = defaultdict(list)
     for aid, row in ad7.items():
@@ -83,11 +86,14 @@ def main():
                 **{k: v for k, v in r.items() if k != "_names"}} for aid, r in by_camp.get(c["id"], [])]
         report["campaigns"].append({"id": c["id"], "name": c["name"], "status": c.get("effective_status"), "objective": c.get("objective"),
                                     "daily_budget": c.get("daily_budget"), "lifetime_budget": c.get("lifetime_budget"),
+                                    "start_time": c.get("start_time"), "stop_time": c.get("stop_time"), "updated_time": c.get("updated_time"),
+                                    "adsets": adsets.get(c["id"], []),
                                     "last7": {k: v for k, v in a.items() if k != "_names"}, "last30": {k: v for k, v in b.items() if k != "_names"},
                                     "lifetime": {k: v for k, v in z.items() if k != "_names"}, "ads_last7": ads,
                                     "ads_lifetime": [{"adset": r["_names"].get("adset_name"), "name": r["_names"].get("ad_name"), **{k: v for k, v in r.items() if k != "_names"}} for _, r in by_camp_all.get(c["id"], [])]})
         L += [f"## {c['name']}  ({c.get('effective_status')}, {c.get('objective')})",
-              f"תקציב: יומי {agor(c.get('daily_budget'))} · כולל {agor(c.get('lifetime_budget'))}", "",
+              f"תקציב: יומי {agor(c.get('daily_budget'))} · כולל {agor(c.get('lifetime_budget'))} · התחלה {str(c.get('start_time',''))[:10]} · עדכון אחרון {str(c.get('updated_time',''))[:10]}", "",
+              *[f"- קבוצה: {x['name']} ({x.get('effective_status')}, {x.get('optimization_goal')}, {x.get('destination_type')}, יומי {agor(x.get('daily_budget'))}, {str(x.get('start_time',''))[:10]}→{str(x.get('end_time',''))[:10]})" for x in adsets.get(c["id"], [])], "",
               "| טווח | הוצאה | חשיפות | קליקים | CTR | לידים | עלות לליד |", "|---|---|---|---|---|---|---|",
               f"| 7 ימים | {money(a['spend'])} | {a['impressions']:,} | {a['clicks']:,} | {a['ctr']:.2f}% | {a['leads']:.0f} | {money(a['cost_per_lead'])} |",
               f"| 30 ימים | {money(b['spend'])} | {b['impressions']:,} | {b['clicks']:,} | {b['ctr']:.2f}% | {b['leads']:.0f} | {money(b['cost_per_lead'])} |",
