@@ -17,8 +17,10 @@ from zoneinfo import ZoneInfo
 ROOT = Path(__file__).resolve().parent.parent
 GRAPH = "https://graph.facebook.com/v21.0"
 TOKEN = os.environ["META_TOKEN"]
-PAGE_ID = os.environ["PAGE_ID"]
-IG_ID = os.environ["IG_ID"]
+PAGES = {
+    "money": {"page": os.environ.get("PAGE_ID", ""), "ig": os.environ.get("IG_ID", "")},
+    "studio": {"page": os.environ.get("STUDIO_PAGE_ID", ""), "ig": os.environ.get("STUDIO_IG_ID", "")},
+}
 IMAGE_BASE = os.environ["IMAGE_BASE_URL"].rstrip("/")
 DRY = "--dry-run" in sys.argv
 
@@ -38,10 +40,10 @@ def call(method, path, **params):
         raise RuntimeError(f"{method} {path} -> {e.code}: {body}") from None
 
 
-def page_token():
+def page_token(page_id):
     # עובד גם עם טוקן משתמש (נמשך ממנו טוקן הדף) וגם עם טוקן דף (מוחזר כמו שהוא)
     try:
-        return call("GET", PAGE_ID, fields="access_token", access_token=TOKEN).get("access_token") or TOKEN
+        return call("GET", page_id, fields="access_token", access_token=TOKEN).get("access_token") or TOKEN
     except RuntimeError:
         return TOKEN
 
@@ -51,13 +53,13 @@ def caption(post):
     return (post["caption"].strip() + ("\n\n" + tags if tags else "")).strip()
 
 
-def to_facebook(post, ptoken):
-    r = call("POST", f"{PAGE_ID}/photos", url=f"{IMAGE_BASE}/{post['id']}.jpg", message=caption(post), access_token=ptoken)
+def to_facebook(post, ptoken, page_id):
+    r = call("POST", f"{page_id}/photos", url=f"{IMAGE_BASE}/{post['id']}.jpg", message=caption(post), access_token=ptoken)
     return r.get("post_id") or r.get("id")
 
 
-def to_instagram(post):
-    c = call("POST", f"{IG_ID}/media", image_url=f"{IMAGE_BASE}/{post['id']}.jpg", caption=caption(post), access_token=TOKEN)["id"]
+def to_instagram(post, ig_id):
+    c = call("POST", f"{ig_id}/media", image_url=f"{IMAGE_BASE}/{post['id']}.jpg", caption=caption(post), access_token=TOKEN)["id"]
     for _ in range(20):
         st = call("GET", c, fields="status_code", access_token=TOKEN).get("status_code")
         if st == "FINISHED":
@@ -65,7 +67,7 @@ def to_instagram(post):
         if st == "ERROR":
             raise RuntimeError(f"instagram container {c} failed")
         time.sleep(3)
-    return call("POST", f"{IG_ID}/media_publish", creation_id=c, access_token=TOKEN)["id"]
+    return call("POST", f"{ig_id}/media_publish", creation_id=c, access_token=TOKEN)["id"]
 
 
 def main():
@@ -78,16 +80,23 @@ def main():
     if not due:
         print("nothing due", today)
         return
-    ptoken = None if DRY else page_token()
+    tokens = {}
     failed = False
     for p, post in due:
+        ids = PAGES.get(post.get("page", "money"), {})
+        if not ids.get("page"):
+            print("skip", post["id"], "- no page ids for", post.get("page")); continue
+        if not DRY and ids["page"] not in tokens:
+            tokens[ids["page"]] = page_token(ids["page"])
         channels = post.get("channels", ["facebook", "instagram"])
         res = post.setdefault("results", {})
         try:
             if "facebook" in channels and "facebook" not in res:
-                res["facebook"] = "dry-run" if DRY else to_facebook(post, ptoken)
+                res["facebook"] = "dry-run" if DRY else to_facebook(post, tokens[ids["page"]], ids["page"])
             if "instagram" in channels and "instagram" not in res:
-                res["instagram"] = "dry-run" if DRY else to_instagram(post)
+                if not ids.get("ig"):
+                    raise RuntimeError("no instagram id for page " + post.get("page", "money"))
+                res["instagram"] = "dry-run" if DRY else to_instagram(post, ids["ig"])
             post["status"] = "published"
             post["published_at"] = datetime.now(ZoneInfo("Asia/Jerusalem")).isoformat(timespec="minutes")
             print("published", post["id"], res)

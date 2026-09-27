@@ -93,16 +93,17 @@
   <div class="bottom">
     <div class="cta" id="cta"></div>
     <img id="svc" src="" alt="" />
-    <div class="url">hak.co.il</div>
+    <div class="url" id="url">hak.co.il</div>
   </div>
 <script>
   const P = /*POST_JSON*/{}/*END*/;
   const layout = P.layout || 'statement';
   document.body.classList.add('l-' + layout);
   document.getElementById('kicker').textContent = P.kicker || '';
+  document.getElementById('url').textContent = P.url || 'hak.co.il';
   document.getElementById('cta').innerHTML = P.cta || 'פגישת אבחון <span>חינם</span>';
   const svc = document.getElementById('svc');
-  const logos = { hkmoney: 'assets/hkmoney-logo.png', hkpro: 'assets/hkpro-logo.png' };
+  const logos = { hkmoney: 'assets/hkmoney-logo.png', hkpro: 'assets/hkpro-logo.png', studio: 'assets/studio-logo.png' };
   if (logos[P.logo]) svc.src = logos[P.logo]; else svc.remove();
   const main = document.getElementById('main');
   const h = P.title ? `<h1 class="title">${P.title}</h1>` : '';

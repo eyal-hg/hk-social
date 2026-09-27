@@ -39,7 +39,7 @@ def safe_inline(text):
 
 
 def render(post, chrome):
-    data = {k: v for k, v in post.items() if k in ("layout", "kicker", "body", "logo", "photo", "chat", "steps", "left", "right")}
+    data = {k: v for k, v in post.items() if k in ("layout", "kicker", "body", "logo", "photo", "chat", "steps", "left", "right", "url")}
     data["title"] = safe_inline(post.get("title", ""))
     data["cta"] = safe_inline(post.get("cta", "פגישת אבחון <span>חינם</span>"))
     data.setdefault("logo", "hk")
