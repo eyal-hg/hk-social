@@ -1,0 +1,165 @@
+<style>.plan-studio body{margin:0;background:var(--bg);color:var(--ink);font-family:Rubik,system-ui,sans-serif;font-size:17px;line-height:1.7}
+.plan-studio h1, .plan-studio h2, .plan-studio h3{font-family:'Frank Ruhl Libre',Georgia,serif;line-height:1.15;text-wrap:balance;margin:0}
+.plan-studio h1{font-weight:800;font-size:clamp(2.2rem,6vw,3.4rem);letter-spacing:-.02em}
+.plan-studio h1 em{font-style:normal;color:var(--sky)}
+.plan-studio h2{font-weight:700;font-size:1.9rem;margin-top:64px;margin-bottom:14px;padding-top:28px;border-top:1px solid var(--line)}
+.plan-studio h3{font-weight:700;font-size:1.25rem;margin-top:26px;margin-bottom:6px}
+.plan-studio p{margin:0 0 14px;max-width:68ch} .lead{font-size:1.2rem;color:var(--muted);margin-top:14px;max-width:60ch}
+.plan-studio .k{color:var(--sky);font-size:.85rem;letter-spacing:.1em;font-weight:700;margin-bottom:10px}
+.plan-studio .dec{background:var(--soft);border-inline-start:4px solid var(--sky);padding:18px 22px;border-radius:0 12px 12px 0;margin:22px 0}
+.plan-studio .dec b{font-family:'Frank Ruhl Libre',serif;font-size:1.15rem;display:block;margin-bottom:4px}
+.plan-studio ul{padding-inline-start:22px;margin:0 0 14px} li{margin-bottom:6px}
+.plan-studio table{border-collapse:collapse;width:100%;margin:14px 0 20px;font-size:.98rem} th,td{text-align:right;padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+.plan-studio th{font-weight:700;color:var(--muted);font-size:.85rem;letter-spacing:.04em} .tw{overflow-x:auto}
+.plan-studio .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin:16px 0}
+.plan-studio .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 20px}
+.plan-studio .card b{display:block;font-family:'Frank Ruhl Libre',serif;font-size:1.1rem;margin-bottom:6px}
+.plan-studio .card small{color:var(--muted)}
+.plan-studio .pill{display:inline-block;font-size:.8rem;font-weight:700;padding:3px 10px;border-radius:50px;background:var(--soft);color:var(--sky);margin-inline-end:6px}
+.plan-studio .pill.h{background:rgba(232,99,90,.14);color:var(--coral)} .pill.g{background:rgba(19,137,91,.14);color:var(--green)}
+.plan-studio code{font-family:ui-monospace,Menlo,monospace;font-size:.9em;background:var(--soft);padding:2px 6px;border-radius:6px;direction:ltr;unicode-bidi:embed}
+.plan-studio .copy{background:var(--card);border:1px dashed var(--line);border-radius:12px;padding:14px 18px;margin:10px 0 18px;white-space:pre-wrap}
+.plan-studio .no{border-inline-start-color:var(--coral)} .no li::marker{color:var(--coral)}
+.plan-studio .check li{list-style:none;position:relative;padding-inline-start:30px} .check li::before{content:'☐';position:absolute;inset-inline-start:0;color:var(--sky);font-weight:700}
+.plan-studio .week{display:grid;grid-template-columns:70px 1fr;gap:12px;padding:12px 0;border-bottom:1px solid var(--line)} .week b{font-family:'Frank Ruhl Libre',serif;color:var(--sky);font-size:1.3rem}
+.plan-studio .foot{margin-top:56px;color:var(--muted);font-size:.9rem}
+@media (max-width:480px){ .week{grid-template-columns:1fr} h2{font-size:1.6rem} }
+
+.plan-studio{font-family:Rubik,Heebo,system-ui,sans-serif;line-height:1.7}</style>
+<div class="plan-studio">
+
+<p class="k">HK STUDIO · אסטרטגיית סושיאל · 27.09.2026</p>
+<h1>אתה מייעץ. <em>ה-AI ואנחנו עושים את כל השאר.</em></h1>
+<p class="lead">איך HK Studio מדבר ליועצים בפייסבוק ובאינסטגרם — בנפרד מ-HK Money, עם אותה מכונה, ובלי להבטיח דבר שהמוצר לא מקיים.</p>
+
+<div class="dec"><b>ההכרעה של אייל: הפרדה מלאה.</b> HK Money נשאר בעמודים הקיימים ומדבר לבעלי עסקים. HK Studio מקבל עמוד פייסבוק וחשבון אינסטגרם משלו, ומדבר ליועצים. המסמך הזה הוא ערכת הפתיחה של הצד של סטודיו.</div>
+
+<h2>1 · למה להפריד, ולא לשלב</h2>
+<p>שני המותגים מוכרים לשני אנשים שונים, ולפעמים <b>אחד נגד השני</b>:</p>
+<div class="tw"><table>
+<tr><th></th><th>HK Money</th><th>HK Studio</th></tr>
+<tr><td>למי</td><td>בעל עסק קטן-בינוני</td><td>יועץ עסקי · רואה חשבון שמנהל כספים ללקוחות</td></tr>
+<tr><td>מה כואב</td><td>"אני מאבד שליטה על הכסף"</td><td>"אין לי שעות ליותר לקוחות"</td></tr>
+<tr><td>מה מוכרים</td><td>ליווי פיננסי: מנהל תזרים + יועץ + AI</td><td>תשתית ליועץ: מערכת + AI + צוות, בשם המשרד שלו</td></tr>
+<tr><td>הסתירה</td><td colspan="2">Money אומר לבעל העסק "בוא אלינו". Studio אומר ליועץ "הלקוח נשאר שלך, אנחנו מאחוריך". יועץ שרואה את שני המסרים באותו עמוד שואל: <i>אתם השותף שלי או המתחרה שלי?</i></td></tr>
+</table></div>
+<p>שלוש סיבות נוספות: <b>פיקסל וקהלים</b> נפרדים לפרסום ממומן; <b>אלגוריתם</b> שלומד קהל אחד ולא מתבלבל; ו<b>הכתובת שהמכונה מפרסמת אליה</b> — היום היא עמוד אחד, ודף שני זה שינוי קטן ומסודר (סעיף 7).</p>
+
+<h2>2 · למי מדברים, ומה כואב לו</h2>
+<div class="grid">
+<div class="card"><b>יועץ עסקי עצמאי</b><small>מחזיק תיק לקוחות לבד. הפגישה היא השעה שבה הוא שווה כסף; כל השאר — הכנות, סיכומים, רדיפה אחרי חומר, וואטסאפ — הוא תפעול שאף אחד לא משלם עליו.</small></div>
+<div class="card"><b>רואה חשבון שמנהל כספים ללקוחות</b><small>יש לו את הנתונים אבל אין לו שכבת ליווי שוטף. רוצה להציע יותר בלי להעסיק עוד אדם.</small></div>
+<div class="card"><b>מה שמשותף</b><small>מספר הלקוחות שלהם מוגבל בשעות תפעול, לא ביכולת ייעוץ. וכל מערכת שהם ראו עד היום מכרה להם מסכים — לא עבודה.</small></div>
+</div>
+<p>הרגע שאנחנו מכוונים אליו, מהבריף: <b>יועץ רואה פוסט, ותוך פחות מדקה אומר "אני רוצה פגישה עם אופיר."</b></p>
+
+<h2>3 · המסר</h2>
+<p>כותרת המותג היא המשפט שאייל קרא לו "משפט מחץ", ומאחוריה שלושה משפטים שכל פוסט נשען על אחד מהם:</p>
+<div class="dec"><b>אתה מייעץ. ה-AI ואנחנו עושים את כל השאר.</b>
+1 · <strong>לא פיצ׳רים — עבודה.</strong> ליד כל דבר: מי עושה אותו (AI · בן אדם · אתה).<br>
+2 · <strong>הלוגו שלך. העבודה שלנו.</strong> הלקוח רואה את המשרד שלו, לא אותנו.<br>
+3 · <strong>שום דבר לא יוצא ללקוח בלי שאישרת.</strong> הבטחת השליטה שהופכת את זה לאמין.</div>
+<p><b>הטון:</b> ישיר, בגובה העיניים, בגוף שני יחיד. בלי "מהפכני", בלי "AI חכם". משפטים קצרים. הפוסט מדבר על <i>מצב</i> של היועץ, לא על יכולת של המוצר.</p>
+
+<h2>4 · הערוצים</h2>
+<h3>פייסבוק — הערוץ הראשי <span class="pill">עמוד חדש</span></h3>
+<p>יועצים ורואי חשבון בישראל חיים בפייסבוק: בקבוצות המקצועיות, ובפרופיל האישי של אייל. העמוד הוא הבית (וגם יחידת הפרסום הממומן), אבל <b>ההפצה האמיתית היא מהפרופיל של אייל לקבוצות</b> — מייסד bizibox שמדבר ליועצים זו סמכות שאין לעמוד עסקי חדש עם אפס עוקבים.</p>
+<h3>אינסטגרם — הגלריה <span class="pill">חשבון חדש</span></h3>
+<p>פחות יועצים גולשים שם בשביל תוכן מקצועי, אבל זה המקום שבו "מה נוחת אצלך" נראה הכי טוב: המסכים האמיתיים, הפנים של אופיר ואייל, ורילס קצרים. ההיילייטס הם התפריט של המוצר (סעיף 5).</p>
+<h3>לינקדאין — המלצה, לא בקשה</h3>
+<p>אייל ביקש פייסבוק ואינסטגרם, וזה מה שנפתח. אני מציין פעם אחת: רואי חשבון ויועצים נמצאים בלינקדאין יותר מבאינסטגרם, ואותם פוסטים בדיוק עובדים שם בלי עבודה נוספת. ההחלטה של אייל.</p>
+
+<h2>5 · ערכת הפתיחה של העמודים</h2>
+<p>את החשבונות פותח אייל בעצמו (אני לא פותח חשבונות בשם אף אחד). כל מה שנכנס לתוכם מוכן ב-<code>social/brand/</code>.</p>
+<div class="tw"><table>
+<tr><th>שדה</th><th>פייסבוק</th><th>אינסטגרם</th></tr>
+<tr><td>שם</td><td>HK Studio</td><td>HK Studio</td></tr>
+<tr><td>כינוי (לבדוק זמינות)</td><td><code>@hkstudio.il</code> · חלופות: <code>@hk.studio.il</code> · <code>@hkstudio_il</code></td><td>אותו כינוי כמו בפייסבוק — אחד לשניהם</td></tr>
+<tr><td>קטגוריה</td><td>שירות עסקי · תוכנה</td><td>עסק · חשבון מקצועי</td></tr>
+<tr><td>קישור</td><td colspan="2"><code>https://studio.hak.co.il/?utm_source=facebook&utm_medium=social&utm_campaign=studio</code><br><code>https://studio.hak.co.il/?utm_source=instagram&utm_medium=social&utm_campaign=studio</code></td></tr>
+<tr><td>תמונת פרופיל</td><td colspan="2"><code>profile-1080.png</code> — הסמל HK על נייבי, 1080×1080</td></tr>
+<tr><td>קאבר</td><td><code>cover-fb-1640x624.png</code></td><td>—</td></tr>
+<tr><td>היילייטס</td><td>—</td><td><code>highlight-1..5.png</code>: מה נוחת אצלך · מי עושה מה · הלקוח שלך · אופיר עונה · שלושים דקות</td></tr>
+</table></div>
+
+<h3>ביו לאינסטגרם (עד 150 תווים)</h3>
+<div class="copy">אתה מייעץ. ה-AI ואנחנו עושים את כל השאר.
+תשתית ליועצים עסקיים ולרו״ח שמנהלים כספים ללקוחות — בשם המשרד שלך.
+↓ שלושים דקות עם אופיר</div>
+
+<h3>אודות לפייסבוק</h3>
+<div class="copy">HK Studio היא התשתית שמאחורי יועץ עסקי: מערכת אחת לכל העבודה עם הלקוחות, AI שמסכם כל פגישה, זוכר כל מה שנאמר ומכין אותך לפגישה הבאה — וצוות HK שרודף אחרי החומר ובודק לפני שמשהו יוצא.
+
+הכל בשם המשרד שלך. הלקוח רואה את הלוגו שלך, לא אותנו. ושום דבר לא יוצא אליו בלי שאישרת.
+
+מאחורי HK: אייל חזות (מייסד bizibox) ואופיר קריספין (רו״ח, לשעבר CFO).
+שלושים דקות עם אופיר → studio.hak.co.il</div>
+
+<h3>הפוסט המוצמד</h3>
+<p>פוסט 02 — "אתה מייעץ. כל השאר נעשה." עם רשימת מי-עושה-מה. זה הפוסט שמסביר את המוצר במבט אחד, ולכן הוא זה שנשאר למעלה.</p>
+
+<h2>6 · עמודי התוכן — חמישה סוגים בסבב</h2>
+<p>מקביל לחמשת הסוגים של מכונת Money, מתורגם ליועץ. כל פוסט הוא סוג אחד.</p>
+<div class="grid">
+<div class="card"><b>כאב</b><small>מצב מוכר מהיום של יועץ. "עשרה לקוחות. ואין מקום לאחד־עשר." בלי מספרים אחרים, בלי הבטחות — רק זיהוי.</small></div>
+<div class="card"><b>מה נוחת אצלך</b><small>תוצר אחד, עם צילום אמיתי של מסך היועץ: ההכנה לפגישה, הזיכרון, הסיכום והמשימות, הדוח החודשי. הצילום הוא הראיה.</small></div>
+<div class="card"><b>מי עושה מה</b><small>פעולה אחת ולידה מי עושה אותה: AI · בן אדם · אתה. זה הבידול מכל "מערכת" אחרת.</small></div>
+<div class="card"><b>הלקוח שלך</b><small>מה הלקוח של היועץ מקבל, תמיד עם הלוגו של משרד הדגמה ולעולם לא עם HK על המסך.</small></div>
+<div class="card"><b>אופיר עונה</b><small>שאלה שיועץ שואל בפגישה, ותשובה של אופיר בשלוש שורות. הפנים של המותג, בלי סטוק.</small></div>
+</div>
+<p><b>צילומי מסך:</b> רק מהסט המאושר ב-<code>assets/shots/</code> אחרי חיתוך מעטפת הפיתוח. מסכי לקוח (<code>cli-*</code>) רק עם מותג משרד הדגמה; <code>cli-meetings</code> ו-<code>cli-brief</code> לא בשימוש. אין נתוני לקוח אמיתי.</p>
+
+<h2>7 · הקצב והמכונה</h2>
+<p>לא בונים מכונה שנייה. <code>hk-social</code> כבר יודע לרנדר, לאשר ולפרסם — חסר לו רק "לאיזה עמוד". השינוי:</p>
+<ul>
+<li>לכל פוסט מפתח <code>"brand": "studio"</code> (ברירת מחדל: <code>money</code>).</li>
+<li>הסקריפט בוחר <code>PAGE_ID</code> / <code>IG_ID</code> לפי המותג — שני זוגות במקום זוג אחד. הטוקן משותף אם שני העמודים תחת אותו Business.</li>
+<li>תבנית <code>studio</code>: הלוגו של סטודיו, הכתובת <code>studio.hak.co.il</code>, ההנעה "שלושים דקות עם אופיר". קיימת ב-<code>social/template/</code>, כבר מרונדרת.</li>
+</ul>
+<div class="tw"><table>
+<tr><th></th><th>Money</th><th>Studio</th></tr>
+<tr><td>קצב</td><td>כל יומיים, 10:00</td><td><b>פעמיים בשבוע</b>, ראשון ורביעי, 10:00 — כדי לא להתחרות על אותו בוקר</td></tr>
+<tr><td>אישור</td><td>פגישת ראשון</td><td>אותה פגישה, אותו <code>approve-week</code></td></tr>
+<tr><td>הנעה</td><td>פגישת אבחון חינם</td><td>שלושים דקות עם אופיר → studio.hak.co.il</td></tr>
+</table></div>
+
+<h2>8 · שלושים הימים הראשונים</h2>
+<div class="week"><b>שבוע 1</b><div><b>לפתוח.</b> שני החשבונות, כינוי אחד, פרופיל, קאבר, ביו, אודות, קישור עם UTM. אייל מזמין את אופיר כמנהל. פוסט 01 (כאב) + פוסט 02 (מי עושה מה) מוצמד.</div></div>
+<div class="week"><b>שבוע 2</b><div><b>הראיה.</b> "מה נוחת אצלך" עם ההכנה לפגישה — הצילום שגורם ליועץ להזדקף. פוסט "הלקוח שלך". אייל משתף את 01 בפרופיל האישי ובקבוצה אחת של יועצים, עם משפט משלו.</div></div>
+<div class="week"><b>שבוע 3</b><div><b>הפנים.</b> "אופיר עונה" ראשון — וידאו 40–60 שניות למצלמה, שאלה אחת. רילס באינסטגרם, אותו וידאו בפייסבוק. פוסט "מה נוחת אצלך" שני: הזיכרון.</div></div>
+<div class="week"><b>שבוע 4</b><div><b>לבדוק.</b> מה הביא כניסות ל-studio.hak.co.il לפי UTM, ומה הביא פגישות. להחליט על ממומן קטן על הפוסט שעבד, ואם לפתוח לינקדאין.</div></div>
+
+<h2>9 · מה אסור</h2>
+<p>הרשימה של Money חלה גם כאן. ובנוסף, מה שנלמד בדפי הנחיתה:</p>
+<div class="dec no"><ul>
+<li><b>"הקלטה אוטומטית" / בוט שנכנס לפגישה.</b> קיים בסטייג׳ בלבד, ונכנס לחדר בשם HK — לא בשם המשרד. עד שזה משתנה, לא בסושיאל.</li>
+<li><b>מספרים.</b> אין "10 → 25", אין שעות, אין אחוזים, אין מספר לקוחות. ה-10→25 חי בדף הנחיתה עם ההסתייגות שלו; בפוסט אין מקום להסתייגות.</li>
+<li><b>HK על מסך של לקוח.</b> כולל "לפי Money+" וכל שם מוצר פנימי.</li>
+<li><b>"סוגרים לו את החודש" לכל יועץ.</b> מנהל תזרים אנושי קיים רק ללקוחות שהתזרים שלהם מנוהל אצלנו. תמיד עם התנאי.</li>
+<li><b>ש-AI מחליט.</b> AI מסכם, זוכר ומכין. החלטה מקצועית חוזרת ליועץ.</li>
+<li><b>Teams.</b> שער ההקלטה בנוי ל-Meet ול-Zoom בלבד.</li>
+<li>שמות לקוחות, לקוחות של יועצים, שמות יועצים — בלי אישור בכתב.</li>
+<li>"מהפכני", "פורץ דרך", "AI חכם", "בזמן אמת", "24/7".</li>
+</ul></div>
+
+<h2>10 · איך יודעים שזה עובד</h2>
+<p>בלי יעדים מספריים ביום הראשון — אין בסיס להשוואה. מודדים ארבעה דברים, וכל חודש מחליטים לפיהם:</p>
+<ul>
+<li><b>כניסות ל-studio.hak.co.il לפי UTM</b> (Google Analytics כבר מותקן ב-hak.co.il; לוודא שגם בסטודיו).</li>
+<li><b>פגישות עם אופיר</b> שהגיעו מהטופס — עם מקור.</li>
+<li><b>שמירות ושיתופים</b>, לא לייקים. יועץ ששומר פוסט מתכנן לחזור אליו.</li>
+<li><b>פוסטים שאושרו ויצאו בזמן</b> — המדד של המכונה, לא של הקהל.</li>
+</ul>
+
+<h2>11 · מה צריך מאייל</h2>
+<ul class="check">
+<li>לפתוח עמוד פייסבוק וחשבון אינסטגרם בשם HK Studio, ולבחור כינוי אחד לשניהם.</li>
+<li>להעלות פרופיל, קאבר, ביו, אודות והקישור עם UTM — הכל בתיקייה <code>social/brand/</code>.</li>
+<li>לאשר או לתקן את ארבעת הפוסטים הראשונים ב-<code>social/out/</code>.</li>
+<li>להכריע: הרחבת <code>hk-social</code> למותג שני (סעיף 7) — אני או "hk אתר" עושים את השינוי.</li>
+<li>לחבר את העמוד החדש לאותו Business Manager, כדי שהטוקן הקיים יעבוד.</li>
+<li>להחליט על לינקדאין — כן, לא, או אחרי חודש.</li>
+</ul>
+
+<p class="foot">כל טענת מוצר במסמך נבדקה מול הבריפים (<code>LANDING_PAGE_V2.md</code>, <code>HK_advisors_final_handoff.md</code>) ומול הקוד. מה שלא אומת — לא נכנס.</p>
+</div>

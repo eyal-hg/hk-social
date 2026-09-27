@@ -1,0 +1,344 @@
+<!DOCTYPE html><html lang="he" dir="rtl"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>HK Money · סושיאל</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800&family=Rubik:wght@500;700;800&family=Karantina:wght@400;700&family=Frank+Ruhl+Libre:wght@700;800&display=swap">
+<style>
+:root{--navy:#0c4068;--navy-2:#082f4d;--navy2:#082f4d;--salmon:#e48375;--blue:#39abe2;--sky:#39abe2;--coral:#E8635A;--off:#eef4f9;
+--bg:#f6f9fc;--surface:#fff;--card:#fff;--ink:#16283a;--muted:#5a6b7c;--line:#d5e2ec;--tint:#e4f0f8;--soft:#e4f0f8;--good:#2e9e6b;--green:#13895B;--bad:#c0392b;--amber:#D9922B}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:Heebo,Rubik,Arial,sans-serif;line-height:1.6}
+.sh-top{background:var(--navy-2);color:#fff;padding:18px 24px;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.sh-top a{color:#fff;text-decoration:none;font-weight:700}.sh-top .sh-sub{color:var(--blue);font-size:14px}
+.sh-tabs{display:flex;gap:6px;padding:16px 24px 0;max-width:1100px;margin:0 auto}
+.sh-tabs button{font:inherit;font-weight:700;padding:10px 18px;border:1px solid var(--line);border-bottom:0;background:#fff;color:var(--muted);border-radius:12px 12px 0 0;cursor:pointer}
+.sh-tabs button[aria-selected=true]{color:var(--navy);border-color:var(--navy);border-bottom:2px solid #fff;margin-bottom:-1px}
+.sh-panel{max-width:1100px;margin:0 auto;padding:24px;background:#fff;border-top:1px solid var(--navy)}
+.sh-panel[hidden]{display:none}
+.sh-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:18px}
+.sh-card{border:1px solid var(--line);border-radius:14px;overflow:hidden;background:#fff;border-top:4px solid var(--salmon)}
+.sh-card img{width:100%;display:block;aspect-ratio:4/5;object-fit:cover;background:var(--off)}
+.sh-card .m{padding:12px 14px;font-size:14px}.sh-card .r{display:flex;justify-content:space-between;font-weight:700}
+.sh-card .cap{color:var(--ink);white-space:pre-line;margin:8px 0 0;font-size:13.5px;line-height:1.5}
+.sh-card .st{font-size:12px;color:var(--muted)}.s-approved{border-top-color:var(--good)}.s-published{border-top-color:var(--navy);opacity:.75}
+.sh-h{font-family:Rubik,Heebo,sans-serif;color:var(--navy);margin:28px 0 12px;font-size:22px}.sh-h:first-child{margin-top:0}
+.sh-empty{color:var(--muted);padding:14px;border:1px dashed var(--line);border-radius:12px}
+@media(max-width:600px){.sh-panel{padding:16px}}
+</style><script>
+(function(){
+  try{ if(sessionStorage.getItem('hk-site-ok')==='1'){ document.documentElement.classList.add('ok'); return; } }catch(e){}
+  if(/index\.html$|\/$/.test(location.pathname)) return;
+  location.replace('index.html');
+})();
+</script></head><body>
+<div class="sh-top"><div><a href="index.html">← כל העמודים</a></div><div><b>HK Money</b> <span class="sh-sub">לבעלי עסקים · hak.co.il</span></div></div>
+<div class="sh-tabs" role="tablist">
+  <button role="tab" aria-selected="true" aria-controls="plan">תוכנית שיווק</button>
+  <button role="tab" aria-selected="false" aria-controls="posts">פוסטים</button>
+</div>
+<section class="sh-panel" id="plan" role="tabpanel"><style>
+
+
+
+.plan-money *{box-sizing:border-box}
+
+.plan-money .wrap{max-width:980px;margin:0 auto;padding-block:40px 80px;padding-inline:20px}
+.plan-money h1,.plan-money h2,.plan-money h3{font-family:Rubik,Heebo,sans-serif;color:var(--navy);text-wrap:balance;margin:0}
+.plan-money .hero{display:grid;grid-template-columns:1.3fr 1fr;gap:32px;align-items:center;margin-bottom:56px}
+.plan-money .hero h1{font-family:Karantina,Rubik,sans-serif;font-weight:700;font-size:clamp(52px,8vw,96px);line-height:.92;letter-spacing:-.01em}
+.plan-money .hero h1 em{font-style:normal;color:var(--salmon)}
+.plan-money .hero p{font-size:18px;color:var(--muted);max-width:52ch;margin:18px 0 0}
+.plan-money .thesis{background:var(--navy-2);color:#fff;border-radius:22px;padding:28px 28px 24px;box-shadow:0 18px 50px rgba(12,64,104,.18)}
+.plan-money .thesis .k{font-family:Rubik,sans-serif;font-size:12px;font-weight:700;letter-spacing:.12em;color:var(--blue);text-transform:uppercase}
+.plan-money .thesis .t{font-family:Karantina,sans-serif;font-size:56px;line-height:.95;margin:10px 0 14px}
+.plan-money .thesis .t em{font-style:normal;color:var(--salmon)}
+.plan-money .thesis p{margin:0;color:rgba(255,255,255,.85);font-size:15px}
+.plan-money section{margin-bottom:56px}
+.plan-money .eyebrow{font-family:Rubik,sans-serif;font-size:12px;font-weight:700;letter-spacing:.12em;color:var(--blue);text-transform:uppercase;margin-bottom:6px}
+.plan-money h2{font-size:30px;font-weight:800;margin-bottom:18px}
+.plan-money h3{font-size:18px;font-weight:700}
+.plan-money p{margin:0 0 12px}
+.plan-money .lead{font-size:17px;color:var(--muted);max-width:66ch}
+.plan-money .grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.plan-money .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.plan-money .card{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:20px}
+.plan-money .card h3{margin-bottom:8px}
+.plan-money .card p{color:var(--muted);font-size:15px}
+.plan-money .tag{display:inline-block;font-family:Rubik,sans-serif;font-size:12px;font-weight:700;padding:3px 10px;border-radius:50px;background:var(--tint);color:var(--navy);margin-bottom:8px}
+.plan-money .tag.s{background:rgba(228,131,117,.18)}
+.plan-money table{width:100%;border-collapse:collapse;background:var(--surface);border:1px solid var(--line);border-radius:14px;overflow:hidden;font-size:15px}
+.plan-money th,.plan-money td{padding:12px 14px;text-align:right;border-bottom:1px solid var(--line);vertical-align:top}
+.plan-money th{font-family:Rubik,sans-serif;font-weight:700;color:var(--navy);background:var(--tint)}
+.plan-money tr:last-child td{border-bottom:0}
+.plan-money .tblwrap{overflow-x:auto}
+.plan-money ul{margin:0;padding-right:20px}li{margin-bottom:6px}
+.plan-money .rule{color:var(--muted);font-size:15px}
+.plan-money /* grid preview */
+.feed{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;max-width:420px;direction:rtl}
+.plan-money .tile{aspect-ratio:4/5;border-radius:8px;display:flex;flex-direction:column;justify-content:center;padding:12px;font-family:Karantina,sans-serif;font-size:26px;line-height:.95;font-weight:700;position:relative;overflow:hidden}
+.plan-money .tile small{display:block;font-family:Heebo,sans-serif;font-size:10px;font-weight:500;opacity:.8;margin-top:8px;line-height:1.3}
+.plan-money .tile.navy{background:#0c4068;color:#fff}.tile.navy em{color:#e48375;font-style:normal}
+.plan-money .tile.light{background:#eef4f9;color:#0c4068}.tile.light em{color:#e48375;font-style:normal}
+.plan-money .tile.salmon{background:#e48375;color:#0c4068}.tile.salmon em{color:#fff;font-style:normal}
+.plan-money .tile.photo{background:linear-gradient(160deg,#0c4068,#082f4d);color:#fff}
+.plan-money .tile.photo::after{content:'';position:absolute;left:-10px;bottom:-10px;width:55%;height:70%;background:radial-gradient(ellipse at 40% 30%,rgba(255,255,255,.35),rgba(255,255,255,0) 60%)}
+.plan-money .tile.video{background:#082f4d;color:#fff}.tile.video b{position:absolute;top:8px;left:8px;font:700 9px Rubik,sans-serif;background:#39abe2;color:#082f4d;padding:2px 6px;border-radius:20px}
+.plan-money .tile.quote{background:#fff;color:#0c4068;border:1px solid #d5e2ec;font-family:Heebo,sans-serif;font-size:11px;font-weight:500;line-height:1.4}
+.plan-money .tile.quote b{display:block;font-family:Karantina,sans-serif;font-size:40px;color:#e48375;line-height:.8}
+.plan-money .feedwrap{display:grid;grid-template-columns:auto 1fr;gap:28px;align-items:start}
+.plan-money /* highlights */
+.hl{display:flex;flex-wrap:wrap;gap:18px}
+.plan-money .hl div{width:84px;text-align:center;font-size:12px;color:var(--muted)}
+.plan-money .hl i{display:flex;align-items:center;justify-content:center;width:72px;height:72px;border-radius:50%;margin:0 auto 6px;border:2px solid var(--line);background:var(--surface);font-style:normal;font-family:Karantina,sans-serif;font-size:26px;color:var(--navy)}
+.plan-money .hl i.s{background:#0c4068;color:#fff;border-color:#0c4068}
+.plan-money .hl i.a{background:#e48375;color:#0c4068;border-color:#e48375}
+.plan-money /* week */
+.week{display:grid;grid-template-columns:repeat(7,1fr);gap:6px}
+.plan-money .day{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px 8px;min-height:96px;font-size:12px}
+.plan-money .day b{display:block;font-family:Rubik,sans-serif;color:var(--navy);margin-bottom:4px}
+.plan-money .day.on{border-color:var(--salmon);background:rgba(228,131,117,.08)}
+.plan-money .day span{color:var(--muted)}
+.plan-money .two{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.plan-money .no{border-right:4px solid var(--bad)}.yes{border-right:4px solid var(--good)}
+.plan-money .roadmap{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.plan-money .roadmap .card{border-top:4px solid var(--blue)}
+.plan-money .roadmap .card:nth-child(2){border-top-color:var(--salmon)}
+.plan-money .roadmap .card:nth-child(3){border-top-color:var(--navy)}
+.plan-money .foot{color:var(--muted);font-size:13px;border-top:1px solid var(--line);padding-top:16px}
+@media (max-width:760px){.plan-money .hero,.plan-money .grid2,.plan-money .grid3,.plan-money .feedwrap,.plan-money .two,.plan-money .roadmap{grid-template-columns:1fr}.plan-money .week{grid-template-columns:repeat(2,1fr)}.plan-money .feed{max-width:100%}}</style>
+<div class="plan-money"><div class="wrap">
+
+<header class="hero">
+  <div>
+    <div class="eyebrow">אסטרטגיית סושיאל · פייסבוק + אינסטגרם · ספטמבר 2026</div>
+    <h1>לא עוד פוסטים.<br><em>עמוד שמוכר.</em></h1>
+    <p>העמוד "HK Money · חזות קריספין" פונה לבעלי עסקים קטנים ובינוניים בישראל. המסמך הזה קובע פעם אחת מה העמוד מבטיח, אילו סדרות קבועות יש בו, איך הוא נראה, מה עושים עם הסרטונים ומה אסור. מכאן ואילך כל פוסט נולד מהמסמך, לא מהשרוול.</p>
+  </div>
+  <div class="thesis">
+    <div class="k">ההבטחה של העמוד</div>
+    <div class="t">תראה היום מה צפוי בחשבון <em>בעוד חודש.</em></div>
+    <p>מנהל תזרים אישי, יועץ פיננסי ו-AI שעוזר להם. יש בן אדם שמסתכל על הכסף שלך, כל יום עסקים.</p>
+  </div>
+</header>
+
+<section>
+  <div class="eyebrow">1 · מה למדנו מהמובילים</div>
+  <h2>מה מבדיל עמוד פרימיום מעמוד רגיל</h2>
+  <p class="lead">בדקנו עמודים של רו"ח, יועצים, פינטק ובנקים בישראל ובעולם (Morning, רשות המסים, אסנת מתתוב, ONE ZERO, Payoneer, Brex, Pilot). ארבעה דפוסים חזרו אצל כל מי שנראה רציני:</p>
+  <div class="grid2">
+    <div class="card"><h3>ביו עם הבטחה אחת</h3><p>לא רשימת שירותים. משפט אחד שאומר מה קורה לך אם תעקוב. הדוגמה הישראלית הכי טובה: "העסק שלך רווחי – אז איפה הכסף?"</p></div>
+    <div class="card"><h3>סדרות עם שם קבוע</h3><p>"טיפ זהב", "Money Master", "$0 to $1M". שם חוזר הופך פוסט בודד למותג, ונותן לעוקב סיבה לחזור.</p></div>
+    <div class="card"><h3>היילייטס כאתר-מיני</h3><p>מי אנחנו · לקוחות · המוצר · טיפים · שאלות. מי שנוחת בפרופיל מוצא תשובה בלי לגלול.</p></div>
+    <div class="card"><h3>וידאו: אדם מדבר, כתוביות בעברית</h3><p>הרילים שעובדים בנישה הם טוקינג-הד עם הוק בשלוש השניות הראשונות, לא אנימציות.</p></div>
+  </div>
+  <p class="rule" style="margin-top:14px">ומה שנראה זול בנישה: ערבוב לייפסטייל עם מקצוע, עמוד שנפתח וננטש (bizibox.biz רדום מ-2022), אימוג'ים בשפע והבטחות "מיליון בשנה".</p>
+</section>
+
+<section>
+  <div class="eyebrow">2 · למי ומה</div>
+  <h2>הקהל, ההבטחה והביו</h2>
+  <div class="grid2">
+    <div class="card">
+      <h3>הקהל</h3>
+      <p>בעל עסק קטן-בינוני בישראל, 3–40 עובדים, לא איש כספים. יש לו רו"ח, אין לו מישהו שמסתכל על הכסף כל יום. הכאב: לא יודע מה תהיה היתרה בעוד חודש, וכסף יוצא לפני שנכנס. פונים אליו בגוף שני יחיד.</p>
+    </div>
+    <div class="card">
+      <h3>הביו (אינסטגרם)</h3>
+      <p><b>HK Money · חזות קריספין</b><br>תראה היום מה צפוי בחשבון בעוד חודש.<br>מנהל תזרים אישי + יועץ פיננסי + AI, לעסקים קטנים ובינוניים.<br>↓ פגישת אבחון חינם</p>
+      <p class="rule">קישור אחד בביו: טופס באתר hak.co.il. כל CTA בפוסטים מצביע לשם.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="eyebrow">3 · עמודי התוכן</div>
+  <h2>חמש סדרות קבועות, לכל אחת שם וצבע</h2>
+  <p class="lead">כל פוסט שייך לסדרה. הסדרה קובעת את הצבע, את סוג התמונה ואת ההוק. ככה הפיד נראה מגוון בלי להיראות מבולגן.</p>
+  <div class="tblwrap"><table>
+    <tr><th>סדרה</th><th>מה זה</th><th>פורמט ורקע</th><th>דוגמת הוק</th></tr>
+    <tr><td><span class="tag">מכיר את זה?</span></td><td>כאב מוכר מהעסק, בלי פתרון מיידי. הפוסט שגורם לשיתוף.</td><td>Statement · navy, כותרת ענק</td><td>"כסף יוצא לפני שנכנס."</td></tr>
+    <tr><td><span class="tag s">מושג בדקה</span></td><td>מונח פיננסי אחד, בעברית פשוטה.</td><td>Salmon · או קרוסלה 5 שקפים</td><td>"רווח זה לא כסף בבנק."</td></tr>
+    <tr><td><span class="tag">בשיחה עם מנהל התזרים</span></td><td>שאלה ותשובה כמו בוואטסאפ. מראה את השירות בלי להסביר אותו.</td><td>Chat · בועות</td><td>"יש לי חריגה בחמישי?"</td></tr>
+    <tr><td><span class="tag s">אופיר מסביר</span></td><td>ריל טוקינג-הד, 20–45 שניות, כתוביות.</td><td>וידאו · הוק על המסך</td><td>"למה הרו"ח לא רואה את זה?"</td></tr>
+    <tr><td><span class="tag">לקוחות מספרים</span></td><td>ציטוט של לקוח אמיתי, באישור, עם ענף ולא עם מספרים.</td><td>Quote · לבן, גרש סלמון</td><td>"פעם הייתי מנחש."</td></tr>
+  </table></div>
+  <p class="rule" style="margin-top:12px">סדרה שישית, "שלושה דברים" (רשימה ממוספרת על רקע בהיר), נכנסת רק כשיש טיפ פרקטי אמיתי. פוסטי מוצר ("מה מקבלים ב-Money+") הם לכל היותר אחד מכל שישה.</p>
+</section>
+
+<section>
+  <div class="eyebrow">4 · איך זה נראה</div>
+  <h2>המערכת הוויזואלית</h2>
+  <div class="feedwrap">
+    <div class="feed" aria-label="דוגמת גריד של תשעה פוסטים">
+      <div class="tile navy">כסף יוצא <em>לפני</em> שנכנס.<small>מכיר את זה?</small></div>
+      <div class="tile video"><b>REEL</b>למה הרו"ח לא רואה את זה?<small>אופיר מסביר</small></div>
+      <div class="tile salmon">רווח זה <em>לא</em> כסף בבנק.<small>מושג בדקה</small></div>
+      <div class="tile quote"><b>"</b>פעם הייתי מנחש אם יש כסף למשכורות.<br>— בעל חברת ייבוא</div>
+      <div class="tile light">שלושה תאריכים <em>ביומן.</em><small>שלושה דברים</small></div>
+      <div class="tile photo">מישהו מסתכל על הכסף שלך.<small>מותג · אייל ואופיר</small></div>
+      <div class="tile navy">יש לי חריגה בחמישי?<small>בשיחה עם מנהל התזרים</small></div>
+      <div class="tile video"><b>REEL</b>מה קורה ב-10 לחודש<small>אופיר מסביר</small></div>
+      <div class="tile light">מה זה <em>מסגרת</em> באמת.<small>מושג בדקה</small></div>
+    </div>
+    <div>
+      <h3>הכללים</h3>
+      <ul class="rule">
+        <li><b>שלושה רקעים מתחלפים:</b> navy, בהיר (off-white) וסלמון. אין שני פוסטים סמוכים באותו רקע. וידאו תמיד navy כהה.</li>
+        <li><b>הוק אחד לפוסט:</b> כותרת Karantina ענקית, עד 8 מילים, מילה אחת בסלמון. שורת משנה Heebo עד 14 מילים.</li>
+        <li><b>מיתוג קבוע:</b> לוגו "HK חזות קריספין" ימין למעלה, תגית הסדרה שמאל למעלה, פס תחתון עם "פגישת אבחון חינם" ו-hak.co.il. לוגו HK Money / HK Pro רק כשהפוסט על המוצר.</li>
+        <li><b>אנשים:</b> אחד מכל שלושה-ארבעה פוסטים עם פנים (אופיר בריל, אייל בפוסט מותג). זה מה שמבדיל "יש בן אדם" מתוכנה.</li>
+        <li><b>קרוסלות:</b> 5–7 שקפים, שקף ראשון = הוק, שקף אחרון = CTA. אותה תבנית, רקע לפי סדרה.</li>
+        <li><b>שום מספר על תמונה</b> שהוא לא דוגמה בדויה מסומנת. לא אחוזים, לא "X לקוחות".</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="eyebrow">5 · פרופיל</div>
+  <h2>היילייטס: הפרופיל כאתר-מיני</h2>
+  <p class="lead">שבעה עיגולים, כיסוי אחיד: עיגול navy עם אייקון קו לבן, או סלמון לשניים החשובים. הסדר משמאל לימין הוא סדר הקריאה של מי שנוחת בפרופיל.</p>
+  <div class="hl">
+    <div><i class="a">מי</i>מי אנחנו</div>
+    <div><i class="s">₪</i>HK Money</div>
+    <div><i class="s">+</i>Money+</div>
+    <div><i class="a">"</i>לקוחות</div>
+    <div><i>?</i>שאלות</div>
+    <div><i>1·2·3</i>טיפים</div>
+    <div><i>▶</i>אופיר מסביר</div>
+  </div>
+  <div class="grid2" style="margin-top:20px">
+    <div class="card"><h3>מה נכנס לכל היילייט</h3><p><b>מי אנחנו:</b> אייל ואופיר, 3–4 סטוריז. <b>HK Money / Money+:</b> מה מקבלים, מסך אחד לכל יכולת (תזרים עתידי, דשבורד, עוזר AI, פגישה), מנתוני דמו בלבד. <b>לקוחות:</b> ציטוטים באישור. <b>שאלות:</b> ה-FAQ מהאתר, שאלה לסטורי. <b>טיפים:</b> הקרוסלות. <b>אופיר מסביר:</b> הרילים.</p></div>
+    <div class="card"><h3>סטוריז יומיים</h3><p>הפוסטים מתוזמנים; הסטוריז לא. 2–3 בשבוע, לא מופקים, מהטלפון: מסך של תחזית (דמו), שאלה שהגיעה למנהל התזרים (מטושטשת), רגע מהמשרד. הם מזינים את ההיילייטס. זו העבודה היחידה שנשארת ידנית.</p></div>
+  </div>
+</section>
+
+<section>
+  <div class="eyebrow">6 · וידאו</div>
+  <h2>שמונה סרטונים, ארבעה חודשים</h2>
+  <div class="grid2">
+    <div class="card">
+      <h3>אופיר מדבר למצלמה</h3>
+      <p>כל סרטון נחתך לשתי גרסאות: ריל של 20–45 שניות עם ההוק על המסך ב-3 השניות הראשונות, וגרסה מלאה לפייסבוק. כתוביות בעברית תמיד; רוב הצפייה בלי סאונד. הריל עולה ביום ה׳ של השבוע, וכתמונת הפתיחה שלו: פריים של אופיר + הכותרת בקרנטינה, כמו שאר הפיד.</p>
+    </div>
+    <div class="card">
+      <h3>סרטוני התדמית</h3>
+      <p>לא לפיד השוטף. שימושים: סרטון הפתיחה של המהלך (שבוע 1), היילייט "מי אנחנו", וידאו נעוץ בראש הפרופיל, וקאבר בפייסבוק. סרטון תדמית בפיד כל שבועיים נראה כמו פרסומת; פעם ברבעון הוא מרגיש כמו אירוע.</p>
+    </div>
+  </div>
+  <div class="tblwrap" style="margin-top:16px"><table>
+    <tr><th>שבוע</th><th>ריל (אופיר מסביר)</th><th>הוק מוצע על המסך</th></tr>
+    <tr><td>1</td><td>סרטון פתיחה (תדמית) + ריל ראשון</td><td>"מישהו צריך להסתכל על הכסף שלך כל יום."</td></tr>
+    <tr><td>2–8</td><td>סרטון אחד לשבוע, מהשמונה</td><td>שאלה אחת לכל ריל. הכותרות נקבעות אחרי צפייה בחומר.</td></tr>
+    <tr><td>9–16</td><td>גרסאות חוזרות: חיתוך שני מאותו סרטון</td><td>אותו סרטון, זווית אחרת. אף אחד לא זוכר ריל מלפני חודשיים.</td></tr>
+  </table></div>
+  <p class="rule" style="margin-top:12px">לפני שקובעים כותרות: צריך לצפות בשמונת הסרטונים. תעלה אותם לתיקייה משותפת ואחזור עם כותרת, נקודת חיתוך והוק לכל אחד.</p>
+</section>
+
+<section>
+  <div class="eyebrow">7 · קצב</div>
+  <h2>השבוע הקבוע</h2>
+  <div class="week">
+    <div class="day on"><b>ראשון</b>פוסט 10:00<br><span>מכיר את זה? / מותג</span><br><span>10:00 פגישת אישור</span></div>
+    <div class="day"><b>שני</b><span>סטורי</span></div>
+    <div class="day on"><b>שלישי</b>פוסט 10:00<br><span>מושג בדקה / שיחה</span></div>
+    <div class="day"><b>רביעי</b><span>סטורי</span></div>
+    <div class="day on"><b>חמישי</b>ריל 10:00<br><span>אופיר מסביר / לקוחות</span></div>
+    <div class="day"><b>שישי</b><span>—</span></div>
+    <div class="day"><b>שבת</b><span>המכונה מכינה את השבוע הבא</span></div>
+  </div>
+  <div class="grid2" style="margin-top:16px">
+    <div class="card"><h3>תדירות</h3><p>3 פוסטים בשבוע (א׳, ג׳, ה׳) בפייסבוק ובאינסטגרם יחד, ב-10:00. זה ה"כל יומיים" שביקשת, בלי לפרסם בשבת. סטוריז 2–3 בשבוע, ידניים.</p></div>
+    <div class="card"><h3>המחזור</h3><p>שבת: הפוסטים של השבוע הבא נכתבים ומרונדרים. ראשון 10:00: פגישה, עוברים על עמוד הסקירה, מאשרים בלחיצה. פוסט שלא אושר לא עולה. אחרי האישור הכול אוטומטי.</p></div>
+  </div>
+</section>
+
+<section>
+  <div class="eyebrow">8 · מילים</div>
+  <h2>כתיבה: הוק, גוף, קריאה לפעולה</h2>
+  <div class="two">
+    <div class="card yes">
+      <h3>ככה כותבים</h3>
+      <ul class="rule">
+        <li>שורה ראשונה בכיתוב = שאלה או פרדוקס. "העסק רווחי. אז למה החשבון במינוס?"</li>
+        <li>3–6 שורות. סיפור קטן ואמיתי מהעסק, ואז מה HK עושה עם זה.</li>
+        <li>שורה אחרונה קבועה: "פגישת אבחון חינם — הקישור בביו."</li>
+        <li>5–8 האשטגים, בעברית ובאנגלית: #ניהול_תזרים #תזרים_מזומנים #בעלי_עסקים #עסקים_קטנים #HKMoney #cashflow</li>
+        <li>עונים לכל תגובה בתוך יום עבודה, בשם (אייל / אופיר / מנהל התזרים).</li>
+      </ul>
+    </div>
+    <div class="card no">
+      <h3>אסור, גם אם זה נשמע טוב</h3>
+      <ul class="rule">
+        <li>מספרים וסטטיסטיקות מכל סוג: אחוזים, "חיסכון של", מספר לקוחות.</li>
+        <li>"זמן אמת", "24/7", "עדכון כל בוקר בוואטסאפ", עוזר AI בוואטסאפ.</li>
+        <li>AI שמנהל את הכסף או מייעץ. אדם עושה את העבודה, AI עוזר.</li>
+        <li>הבטחת דיוק לתחזית. הקלטת פגישות אוטומטית.</li>
+        <li>שמות לקוחות או מסכים עם נתוני לקוח. רק דמו, רק באישור.</li>
+        <li>"מהפכני", "פורץ דרך", "AI חכם". אימוג'ים בכותרת.</li>
+        <li>שאנחנו מחליפים את הרו"ח.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="eyebrow">9 · מדידה</div>
+  <h2>מה מודדים, ומה לא</h2>
+  <div class="grid3">
+    <div class="card"><h3>הדבר היחיד שחשוב</h3><p>טפסים שהגיעו מהסושיאל. הטופס באתר מסמן מקור "סושיאל", ואת זה סופרים בפגישת יום ראשון.</p></div>
+    <div class="card"><h3>סימני חיים</h3><p>שמירות ושיתופים לפוסט (לא לייקים), צפיות ריל עד הסוף, ועוקבים חדשים בשבוע. שמירה = "אני אצטרך את זה". זה הקהל הנכון.</p></div>
+    <div class="card"><h3>מה בודקים כל חודש</h3><p>איזו סדרה מביאה שמירות ואיזו לא. סדרה שלא עובדת חודשיים מוחלפת. לא משנים את כל העמוד בגלל פוסט אחד.</p></div>
+  </div>
+</section>
+
+<section>
+  <div class="eyebrow">10 · תוכנית</div>
+  <h2>90 הימים הראשונים</h2>
+  <div class="roadmap">
+    <div class="card"><h3>שבועות 1–2: פתיחה מחדש</h3><ul class="rule"><li>שם חדש לדף ולאינסטגרם, ביו, קישור לטופס</li><li>7 היילייטס עם כיסויים אחידים</li><li>סרטון תדמית נעוץ</li><li>שם משתמש לדף בפייסבוק</li><li>3 פוסטים ראשונים (השבוע הראשון כבר מוכן)</li></ul></div>
+    <div class="card"><h3>שבועות 3–8: הסדרות</h3><ul class="rule"><li>כל חמש הסדרות רצות</li><li>ריל בכל שבוע מהשמונה</li><li>3 עדויות לקוח באישור</li><li>סטוריז שממלאים היילייטס</li><li>Money נכנס לתוכן רק דרך סיפורים, לא דרך רשימות</li></ul></div>
+    <div class="card"><h3>שבועות 9–13: מה עובד</h3><ul class="rule"><li>בדיקה חודשית: איזו סדרה מביאה שמירות וטפסים</li><li>חיתוכים שניים של הסרטונים</li><li>החלטה על צילום סבב שני עם אופיר ואייל</li><li>לינקדאין לאייל ואופיר, אם יש כוח</li></ul></div>
+  </div>
+</section>
+
+<section>
+  <div class="eyebrow">11 · גבולות</div>
+  <h2>HK Money מול HK Studio</h2>
+  <p class="lead">שני עמודים, לפי קהל: העמוד הזה לבעלי עסקים, עמוד הסטודיו ליועצים. אצלנו לא כותבים "דרך היועץ שלך"; אצלם לא פונים לבעלי עסקים ולא מראים HK על מסכי לקוח. אותה שפה עיצובית, אותה מכונה, אותה פגישת אישור ביום ראשון.</p>
+</section>
+
+<p class="foot">מקורות הבנצ'מרק: פרופילי אינסטגרם ציבוריים של Morning, רשות המסים, אסנת מתתוב, אור קליין, ONE ZERO, בנק הפועלים, לאומי, bizibox, Payoneer, Brex, Ramp, Pilot, Melio (ספטמבר 2026). ההנחיות המפורטות למותר ואסור: hk-social/content/guidelines.md.</p>
+
+</div>
+</div></section>
+<section class="sh-panel" id="posts" role="tabpanel" hidden>
+  <h2 class="sh-h">הפוסטים הבאים</h2><div class="sh-grid"><article class="sh-card s-approved">
+  <img src="https://raw.githubusercontent.com/eyal-hg/hk-social/main/out/2026-W40-02.jpg" alt="" loading="lazy">
+  <div class="m"><div class="r"><span>2026-10-01</span><span class="st">מאושר</span></div>
+  <div class="st">מושג בדקה · salmon</div>
+  <p class="cap">רווח נרשם כשמוציאים חשבונית. כסף נכנס כשהלקוח משלם.
+בין שני הרגעים האלה יכולים לעבור חודשיים, ובזמן הזה צריך לשלם לספקים, לעובדים ולמע&quot;מ.
+לכן עסק רווחי יכול להיתקע, ולכן כדאי להסתכל גם על הרווח וגם על התזרים.
+רוצה להבין מה המספרים של העסק שלך אומרים? פגישת אבחון חינם — הקישור בביו.</p></div></article><article class="sh-card s-approved">
+  <img src="https://raw.githubusercontent.com/eyal-hg/hk-social/main/out/2026-W40-03.jpg" alt="" loading="lazy">
+  <div class="m"><div class="r"><span>2026-10-04</span><span class="st">מאושר</span></div>
+  <div class="st">שלושה דברים · list</div>
+  <p class="cap">תרגיל של עשר דקות לתחילת החודש:
+תכתוב ביומן את שלושת התאריכים שהכי משפיעים על הבנק שלך. מתי יוצאות המשכורות, מתי משלמים מע&quot;מ, ומתי אמור להיכנס התשלום הגדול של החודש.
+אם התשלום הגדול נכנס אחרי שני האחרים, כבר מצאת את השבוע הלחוץ של החודש.
+רוצה תוכנית מסודרת לעסק? פגישת אבחון חינם — הקישור בביו.</p></div></article></div>
+  <h2 class="sh-h">הפוסטים שהיו</h2><div class="sh-grid"><article class="sh-card s-published">
+  <img src="https://raw.githubusercontent.com/eyal-hg/hk-social/main/out/2026-W40-01.jpg" alt="" loading="lazy">
+  <div class="m"><div class="r"><span>2026-09-27</span><span class="st">פורסם</span></div>
+  <div class="st">מכיר את זה? · statement</div>
+  <p class="cap">המשכורות יוצאות ב-10, הלקוח הגדול משלם ב-30, ובאמצע הבנק מתחיל להילחץ.
+זה לא עניין של רווחיות. זה עניין של תזמון.
+ב-HK Money מנהל תזרים אישי עובר על התזרים שלך כל יום עסקים, ואתה רואה מראש את היום שבו היתרה צפויה לרדת מתחת למסגרת. כשעוד אפשר לעשות משהו.
+פגישת אבחון חינם — הקישור בביו.</p></div></article></div>
+</section>
+<script>
+(function(){
+  var tabs=document.querySelectorAll('[role=tab]');
+  function show(id){ tabs.forEach(function(t){ var on=t.getAttribute('aria-controls')===id; t.setAttribute('aria-selected',on); document.getElementById(t.getAttribute('aria-controls')).hidden=!on; }); }
+  tabs.forEach(function(t){ t.addEventListener('click',function(){ show(t.getAttribute('aria-controls')); history.replaceState(null,'','#'+t.getAttribute('aria-controls')); }); });
+  if(location.hash==='#posts') show('posts');
+})();
+</script></body></html>
