@@ -86,6 +86,13 @@
       "ok": false,
       "at": "2026-09-27T15:32+03:00",
       "error": "POST act_1886192278456348/adimages -> 400: {\"error\":{\"message\":\"(#3) Application does not have the capability to make this API call.\",\"type\":\"OAuthException\",\"code\":3,\"fbtrace_id\":\"A51AP6TYdFY4_7W7HkTtRpz\"}}"
+    },
+    {
+      "index": 1,
+      "type": "create_campaign",
+      "ok": false,
+      "at": "2026-09-27T15:34+03:00",
+      "error": "POST act_1886192278456348/adcreatives -> 400: {\"error\":{\"message\":\"Invalid parameter\",\"type\":\"OAuthException\",\"code\":100,\"error_subcode\":1885183,\"is_transient\":false,\"error_user_title\":\"\\u05e4\\u05d5\\u05e1\\u05d8 \\u05e9\\u05dc \\u05e7\\u05e8\\u05d9\\u05d0\\u05d9\\u05d9\\u05d8\\u05d9\\u05d1 \\u05dc\\u05de\\u05d5\\u05d3\\u05e2\\u05d5\\u05ea \\u05e0\\u05d5\\u05e6\\u05e8 \\u05e2\\u05dc \\u05d9\\u05d3\\u05d9 \\u05d0\\u05e4\\u05dc\\u05d9\\u05e7\\u05e6\\u05d9\\u05d4 \\u05e9\\u05e0\\u05de"
     }
   ],
   "retry_note": "ניסיון 6: הקבוצה שכבר נוצרה לא נספרת פעמיים בתחזית התקרה"
