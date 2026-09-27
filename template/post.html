@@ -17,6 +17,7 @@
   .bottom img { height: 56px; }
   .url { font-family: 'Rubik', sans-serif; font-weight: 700; font-size: 32px; direction: ltr; }
   .no-cta .bottom { justify-content: center; gap: 60px; }
+  .big-kicker .kicker { font-size: 46px; padding: 18px 44px; top: 64px; }   /* ads: the audience call-out must read at feed size */
   .main { position: absolute; right: 80px; left: 80px; top: 200px; bottom: 200px; display: flex; flex-direction: column; justify-content: center; }
   .title { font-family: 'Karantina', sans-serif; font-weight: 700; font-size: 190px; line-height: .92; letter-spacing: -.01em; }
   .body { margin-top: 50px; font-size: 50px; line-height: 1.45; font-weight: 500; max-width: 880px; }
@@ -102,6 +103,7 @@
   const layout = P.layout || 'statement';
   document.body.classList.add('l-' + layout);
   document.getElementById('kicker').textContent = P.kicker || '';
+  if (P.kicker_size === 'big') document.body.classList.add('big-kicker');
   document.getElementById('url').textContent = P.url || 'hak.co.il';
   const cta = document.getElementById('cta');
   if (P.cta === '' || (typeof P.cta === 'string' && !P.cta.trim())) { cta.remove(); document.body.classList.add('no-cta'); }
