@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8" />
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&family=Karantina:wght@400;700&family=Rubik:wght@500;700;800&display=swap" rel="stylesheet" />
+<style>
+  :root { --navy:#0c4068; --navy2:#082f4d; --salmon:#e48375; --blue:#39abe2; --off:#eef4f9; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: 1080px; height: 1350px; overflow: hidden; }
+  body {
+    font-family: 'Heebo', sans-serif;
+    background: linear-gradient(160deg, var(--navy) 0%, var(--navy2) 100%);
+    color: #fff; position: relative;
+  }
+  .stripe {
+    position: absolute; inset: 0 auto 0 0; width: 520px;
+    background: linear-gradient(115deg, rgba(57,171,226,.22), rgba(57,171,226,0) 60%);
+    clip-path: polygon(0 0, 100% 0, 40% 100%, 0 100%);
+  }
+  .top { position: absolute; top: 70px; right: 80px; left: 80px; display: flex; justify-content: space-between; align-items: center; }
+  .top img { height: 70px; }
+  .kicker {
+    font-family: 'Rubik', sans-serif; font-weight: 700; font-size: 30px; letter-spacing: .02em;
+    color: var(--navy); background: var(--salmon); border-radius: 60px; padding: 12px 30px;
+  }
+  .main { position: absolute; right: 80px; left: 80px; top: 330px; }
+  .title {
+    font-family: 'Karantina', sans-serif; font-weight: 700; font-size: 150px; line-height: .95;
+    letter-spacing: -.01em;
+  }
+  .title em { font-style: normal; color: var(--salmon); }
+  .body {
+    margin-top: 50px; font-size: 44px; line-height: 1.45; font-weight: 500; color: rgba(255,255,255,.88);
+    max-width: 860px; border-right: 8px solid var(--blue); padding-right: 34px;
+  }
+  .bottom {
+    position: absolute; bottom: 0; right: 0; left: 0; height: 170px;
+    background: var(--off); color: var(--navy);
+    display: flex; align-items: center; justify-content: space-between; padding: 0 80px;
+  }
+  .cta { font-family: 'Rubik', sans-serif; font-weight: 800; font-size: 40px; }
+  .cta span { color: var(--salmon); }
+  .bottom img { height: 58px; }
+  .url { font-family: 'Rubik', sans-serif; font-weight: 700; font-size: 32px; color: var(--navy); direction: ltr; }
+</style>
+</head>
+<body>
+  <div class="stripe"></div>
+  <div class="top">
+    <span class="kicker" id="kicker"></span>
+    <img src="assets/hk-logo.png" alt="" />
+  </div>
+  <div class="main">
+    <h1 class="title" id="title"></h1>
+    <p class="body" id="body"></p>
+  </div>
+  <div class="bottom">
+    <div class="cta" id="cta"></div>
+    <img id="svc" src="" alt="" />
+    <div class="url">hak.co.il</div>
+  </div>
+<script>
+  // המידע מוזרק ע"י scripts/render.py
+  const P = /*POST_JSON*/{"kicker":"טיפ","title":"כותרת <em>לדוגמה</em>","body":"משפט משנה לדוגמה","cta":"פגישת אבחון <span>חינם</span>","logo":"hk"}/*END*/;
+  document.getElementById('kicker').textContent = P.kicker;
+  document.getElementById('title').innerHTML = P.title;
+  document.getElementById('body').textContent = P.body;
+  document.getElementById('cta').innerHTML = P.cta || 'פגישת אבחון <span>חינם</span>';
+  const svc = document.getElementById('svc');
+  const logos = { hkmoney: 'assets/hkmoney-logo.png', hkpro: 'assets/hkpro-logo.png' };
+  if (logos[P.logo]) { svc.src = logos[P.logo]; } else { svc.remove(); }
+  // מקטין כותרת ארוכה כדי שלא תגלוש
+  const t = document.getElementById('title');
+  let size = 150;
+  while (t.scrollHeight > 520 && size > 90) { size -= 6; t.style.fontSize = size + 'px'; }
+</script>
+</body>
+</html>

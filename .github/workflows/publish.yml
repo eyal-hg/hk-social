@@ -1,0 +1,34 @@
+name: publish
+on:
+  schedule:
+    - cron: "0 7 * * *"   # 10:00 שעון קיץ ישראל / 09:00 בחורף
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "dry run (no posting)"
+        type: boolean
+        default: false
+permissions:
+  contents: write
+concurrency: { group: repo-write, cancel-in-progress: false }
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: publish due posts
+        env:
+          META_TOKEN: ${{ secrets.META_TOKEN }}
+          PAGE_ID: "459554967250420"
+          IG_ID: "17841465042070519"
+          IMAGE_BASE_URL: https://raw.githubusercontent.com/${{ github.repository }}/main/out
+        run: python scripts/publish.py ${{ inputs.dry_run && '--dry-run' || '' }}
+      - name: commit results
+        if: always()
+        run: |
+          git config user.name "hk-social-bot"
+          git config user.email "hk-social-bot@users.noreply.github.com"
+          git add posts
+          git diff --cached --quiet || (git commit -m "publish results" && git push)
