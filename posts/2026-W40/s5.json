@@ -8,7 +8,7 @@
     "facebook",
     "instagram"
   ],
-  "status": "approved",
+  "status": "published",
   "id": "2026-W40-S5",
   "publish_date": "2026-09-27",
   "type": "הלקוח שלך",
@@ -24,5 +24,10 @@
     "ייעוץ_עסקי",
     "HKStudio",
     "ניהול_כספים"
-  ]
+  ],
+  "results": {
+    "facebook": "1414935705029390_122106367107484790",
+    "instagram": "17903016294578760"
+  },
+  "published_at": "2026-09-27T13:40+03:00"
 }

@@ -8,7 +8,7 @@
     "facebook",
     "instagram"
   ],
-  "status": "approved",
+  "status": "published",
   "id": "2026-W40-S4",
   "publish_date": "2026-09-27",
   "type": "כאב",
@@ -24,5 +24,10 @@
     "ניהול_כספים",
     "HKStudio",
     "AI"
-  ]
+  ],
+  "results": {
+    "facebook": "1414935705029390_122106366705484790",
+    "instagram": "18122163871721272"
+  },
+  "published_at": "2026-09-27T13:40+03:00"
 }

@@ -39,6 +39,11 @@
     "facebook",
     "instagram"
   ],
-  "status": "approved",
-  "url": "studio.hak.co.il"
+  "status": "published",
+  "url": "studio.hak.co.il",
+  "results": {
+    "facebook": "1414935705029390_122106366147484790",
+    "instagram": "18112445819034815"
+  },
+  "published_at": "2026-09-27T13:39+03:00"
 }
