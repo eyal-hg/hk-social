@@ -1,5 +1,5 @@
 {
- "generated": "27.09.2026 21:41",
+ "generated": "27.09.2026 21:44",
  "account": {
   "name": "HK",
   "currency": "ILS",
@@ -121,14 +121,14 @@
     "landing_page_views": 0.0
    },
    "lifetime": {
-    "spend": 14644.0,
-    "impressions": 102573,
+    "spend": 14644.27,
+    "impressions": 102574,
     "reach": 27487,
     "clicks": 2139,
-    "ctr": 2.085344,
-    "cpc": 6.84619,
+    "ctr": 2.085324,
+    "cpc": 6.846316,
     "leads": 180.0,
-    "cost_per_lead": 81.355556,
+    "cost_per_lead": 81.357056,
     "landing_page_views": 0.0
    },
    "ads_last7": [
@@ -203,14 +203,14 @@
     {
      "adset": "‏סדרת מודעות לידים חדשה‏ - בעלי עסקים",
      "name": "סרטון יום שישי",
-     "spend": 4167.17,
-     "impressions": 34892,
+     "spend": 4167.44,
+     "impressions": 34893,
      "reach": 17626,
      "clicks": 780,
-     "ctr": 2.235469,
-     "cpc": 5.342526,
+     "ctr": 2.235405,
+     "cpc": 5.342872,
      "leads": 66.0,
-     "cost_per_lead": 63.138939,
+     "cost_per_lead": 63.14303,
      "landing_page_views": 0.0
     }
    ]
@@ -1169,7 +1169,7 @@
    "lifetime": {
     "spend": 23694.54,
     "impressions": 236667,
-    "reach": 47384,
+    "reach": 47383,
     "clicks": 4583,
     "ctr": 1.936476,
     "cpc": 5.170094,
@@ -2232,6 +2232,13 @@
     }
    ],
    "ads": [
+    {
+     "name": "2026-W40-SA1 · b",
+     "status": "ACTIVE",
+     "effective_status": "PENDING_REVIEW",
+     "adset_id": "120251876298060740",
+     "id": "120251880216690740"
+    },
     {
      "name": "2026-W40-SA1",
      "status": "PAUSED",
