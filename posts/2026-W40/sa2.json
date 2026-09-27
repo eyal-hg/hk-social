@@ -15,9 +15,13 @@
   "channels": [
     "facebook"
   ],
-  "status": "approved",
+  "status": "published",
   "url": "studio.hak.co.il",
   "dark": true,
   "note": "קריאייטיב למודעה בלבד (פוסט לא מפורסם בדף). אייל 27.09: המודעות לא אומרות שזה ליועצים ואין משפט מחץ. | אייל 27.09: מאושר, בלי שורת אופיר בתמונה, קיקר גדול.",
-  "kicker_size": "big"
+  "kicker_size": "big",
+  "results": {
+    "facebook": "122106490959484790"
+  },
+  "published_at": "2026-09-27T15:46+03:00"
 }
