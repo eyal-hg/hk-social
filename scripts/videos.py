@@ -20,8 +20,8 @@ MAX_MB = 95
 FIELDS = "id,title,length,created_time,updated_time,source,permalink_url,thumbnails.limit(1){uri}"
 
 
-def get(path, **params):
-    params["access_token"] = TOKEN
+def get(path, _token=None, **params):
+    params["access_token"] = _token or TOKEN
     req = urllib.request.Request(f"{GRAPH}/{path}?{urllib.parse.urlencode(params)}")
     try:
         with urllib.request.urlopen(req, timeout=90) as r:
@@ -37,10 +37,10 @@ def page_token(page_id):
         return TOKEN
 
 
-def paged(path, **params):
+def paged(path, token, **params):
     out, url = [], None
     while True:
-        r = get(path, **params) if url is None else json.load(urllib.request.urlopen(url, timeout=90))
+        r = get(path, _token=token, **params) if url is None else json.load(urllib.request.urlopen(url, timeout=90))
         out += r.get("data", [])
         url = r.get("paging", {}).get("next")
         if not url:
@@ -59,12 +59,7 @@ def main():
 
     videos = {}
     for origin, path, tok in sources:
-        global TOKEN
-        saved, TOKEN = TOKEN, tok
-        try:
-            rows = paged(path, fields=FIELDS, limit=100)
-        finally:
-            TOKEN = saved
+        rows = paged(path, tok, fields=FIELDS, limit=100)
         for v in rows:
             e = videos.setdefault(v["id"], {"id": v["id"], "title": v.get("title") or "", "seconds": round(float(v.get("length") or 0)),
                                             "created": (v.get("created_time") or "")[:10], "origins": [], "permalink": v.get("permalink_url", ""),
