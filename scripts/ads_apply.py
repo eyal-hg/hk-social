@@ -101,9 +101,13 @@ def create_campaign(a):
     try:
         adset = mk(t)
     except RuntimeError as e:
-        if "1870188" not in str(e) or "targeting_automation" not in t:
+        if "1870188" not in str(e) or not (t.get("targeting_automation") or {}).get("advantage_audience"):
             raise
-        t.pop("targeting_automation"); t.setdefault("age_max", 65)  # fall back to a plain age-bounded audience
+        # Advantage+ audience refuses age bounds: fall back to a plain 28-65 audience. The flag itself must
+        # still be present (0), otherwise Meta answers 1870227 "Advantage audience flag required".
+        t["targeting_automation"] = {"advantage_audience": 0}
+        t["age_max"] = (a.get("targeting") or {}).get("age_max", 65)
+        print("advantage+ audience refused; using a plain audience", t)
         adset = mk(t)
     ads = []
     for post_id in a["posts"]:

@@ -62,13 +62,18 @@ def main():
     copy = {}  # video_id -> [{message,title}] from the ad creatives that used it
     if acct:
         # per-ad creative fields, small pages: the account-wide adcreatives edge answers 500 "reduce the amount of data"
-        for ad in paged(f"act_{acct.removeprefix('act_')}/ads", TOKEN, fields="creative{video_id,body,title,object_story_spec{video_data{video_id,message,title}}}", limit=25):
+        for ad in paged(f"act_{acct.removeprefix('act_')}/ads", TOKEN, fields="creative{video_id,body,title,object_story_spec{video_data{video_id,message,title}},asset_feed_spec{bodies,titles,videos}}", limit=25):
             c = ad.get("creative") or {}
             vd = ((c.get("object_story_spec") or {}).get("video_data") or {})
-            vid = c.get("video_id") or vd.get("video_id")
-            text = (vd.get("message") or c.get("body") or "").strip()
-            if vid and text and text not in [x["message"] for x in copy.get(vid, [])]:
-                copy.setdefault(vid, []).append({"message": text, "title": (vd.get("title") or c.get("title") or "").strip()})
+            afs = c.get("asset_feed_spec") or {}  # dynamic creative ("3 טקסטים"): several bodies per video
+            vids = [v.get("video_id") for v in afs.get("videos", []) if v.get("video_id")] or [c.get("video_id") or vd.get("video_id")]
+            texts = [b.get("text", "") for b in afs.get("bodies", [])] or [vd.get("message") or c.get("body") or ""]
+            title = ((afs.get("titles") or [{}])[0].get("text") or vd.get("title") or c.get("title") or "").strip()
+            for vid in vids:
+                for text in texts:
+                    text = text.strip()
+                    if vid and text and text not in [x["message"] for x in copy.get(vid, [])]:
+                        copy.setdefault(vid, []).append({"message": text, "title": title})
 
     videos = {}
     for origin, path, tok in sources:
