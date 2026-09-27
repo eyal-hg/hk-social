@@ -83,15 +83,28 @@ def create_campaign(a):
     page_id = PAGES[a["page"]]
     if not page_id:
         raise RuntimeError("no page id for " + a["page"])
-    camp = call("POST", f"{ACCT}/campaigns", name=a["name"], objective=a.get("objective", "OUTCOME_TRAFFIC"),
-                status=a.get("status", "ACTIVE"), special_ad_categories="[]", buying_type="AUCTION",
-                is_adset_budget_sharing_enabled="false")  # required since 2025; budget stays on the ad set
-    t = a.get("targeting") or {"geo_locations": {"countries": ["IL"]}, "age_min": 25, "age_max": 65}
-    adset = call("POST", f"{ACCT}/adsets", name=a["name"] + " · קבוצה 1", campaign_id=camp["id"],
-                 daily_budget=ils(a["daily_budget_ils"]), billing_event="IMPRESSIONS",
-                 optimization_goal=a.get("optimization_goal", "LANDING_PAGE_VIEWS"),
-                 bid_strategy="LOWEST_COST_WITHOUT_CAP", targeting=json.dumps(t),
-                 promoted_object=json.dumps({"page_id": page_id}), status=a.get("status", "ACTIVE"))
+    try:  # a retry after a failed run reuses the campaign it already created, never a second one
+        camp = find_campaign(a["name"])
+        print("reusing campaign", camp["id"], a["name"])
+    except RuntimeError:
+        camp = call("POST", f"{ACCT}/campaigns", name=a["name"], objective=a.get("objective", "OUTCOME_TRAFFIC"),
+                    status=a.get("status", "ACTIVE"), special_ad_categories="[]", buying_type="AUCTION",
+                    is_adset_budget_sharing_enabled="false")  # required since 2025; budget stays on the ad set
+    t = dict(a.get("targeting") or {"geo_locations": {"countries": ["IL"]}, "age_min": 25, "age_max": 65})
+    if (t.get("targeting_automation") or {}).get("advantage_audience"):
+        t.pop("age_max", None)  # Advantage+ audience refuses a maximum age (error 1870188)
+    mk = lambda tg: call("POST", f"{ACCT}/adsets", name=a["name"] + " · קבוצה 1", campaign_id=camp["id"],
+                         daily_budget=ils(a["daily_budget_ils"]), billing_event="IMPRESSIONS",
+                         optimization_goal=a.get("optimization_goal", "LANDING_PAGE_VIEWS"),
+                         bid_strategy="LOWEST_COST_WITHOUT_CAP", targeting=json.dumps(tg),
+                         promoted_object=json.dumps({"page_id": page_id}), status=a.get("status", "ACTIVE"))
+    try:
+        adset = mk(t)
+    except RuntimeError as e:
+        if "1870188" not in str(e) or "targeting_automation" not in t:
+            raise
+        t.pop("targeting_automation"); t.setdefault("age_max", 65)  # fall back to a plain age-bounded audience
+        adset = mk(t)
     ads = []
     for post_id in a["posts"]:
         p = next(d for d in (json.loads(q.read_text(encoding="utf-8")) for q in ROOT.glob("posts/**/*.json")) if d["id"] == post_id)
@@ -189,7 +202,7 @@ def apply_plan(plan_path):
             print("ok", i, a["type"], res)
         except Exception as e:  # noqa: BLE001
             failed = True
-            applied.append({"index": i, "type": a["type"], "ok": False, "at": datetime.now(ZoneInfo("Asia/Jerusalem")).isoformat(timespec="minutes"), "error": str(e)[:500]})
+            applied.append({"index": i, "type": a["type"], "ok": False, "at": datetime.now(ZoneInfo("Asia/Jerusalem")).isoformat(timespec="minutes"), "error": str(e)[:1200]})
             print("FAILED", i, a["type"], e, file=sys.stderr)
         plan_path.write_text(json.dumps(plan, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     return not failed

@@ -74,5 +74,5 @@
       "error": "POST act_1886192278456348/adsets -> 400: {\"error\":{\"message\":\"Invalid parameter\",\"type\":\"OAuthException\",\"code\":100,\"error_subcode\":1870188,\"is_transient\":false,\"error_user_title\":\"\\u05d1\\u05e1\\u05d3\\u05e8\\u05d5\\u05ea \\u05de\\u05d5\\u05d3\\u05e2\\u05d5\\u05ea \\u05e9\\u05de\\u05e9\\u05ea\\u05de\\u05e9\\u05d5\\u05ea \\u05d1\\u05e7\\u05d4\\u05dc Advantage+\\u200e, \\u05d0\\u05d9 \\u05d0\\u05e4\\u05e9\\u05e8 \\u05dc\\u05e7\\u05d1\\u05d5\\u05e2 \\u05d0\\u05ea \\u05d4\\u05d2"
     }
   ],
-  "retry_note": "ניסיון 2 אחרי תיקון is_adset_budget_sharing_enabled; פעולה 0 כבר בוצעה ולא תרוץ שוב"
+  "retry_note": "ניסיון 3: קמפיין קיים ימוחזר; Advantage+ בלי גיל מקסימלי, ואם עדיין נדחה - קהל רגיל 28-65"
 }
