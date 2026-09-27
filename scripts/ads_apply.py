@@ -98,8 +98,12 @@ def create_campaign(a):
                          optimization_goal=a.get("optimization_goal", "LANDING_PAGE_VIEWS"),
                          bid_strategy="LOWEST_COST_WITHOUT_CAP", targeting=json.dumps(tg),
                          promoted_object=json.dumps({"page_id": page_id}), status=a.get("status", "ACTIVE"))
+    existing = [x for x in call("GET", f"{camp['id']}/adsets", fields="name", limit=50)["data"] if same(x["name"], a["name"] + " · קבוצה 1")]
+    if existing:
+        adset = existing[0]; print("reusing ad set", adset["id"])
+        t = None
     try:
-        adset = mk(t)
+        adset = adset if existing else mk(t)
     except RuntimeError as e:
         if "1870188" not in str(e) or not (t.get("targeting_automation") or {}).get("advantage_audience"):
             raise
@@ -110,13 +114,15 @@ def create_campaign(a):
         print("advantage+ audience refused; using a plain audience", t)
         adset = mk(t)
     ads = []
+    have = {norm(x["name"]) for x in call("GET", f"{adset['id']}/ads", fields="name", limit=100)["data"]}
     for post_id in a["posts"]:
+        if norm(post_id) in have:
+            print("ad exists, skipping", post_id); continue
         p = next(d for d in (json.loads(q.read_text(encoding="utf-8")) for q in ROOT.glob("posts/**/*.json")) if d["id"] == post_id)
-        img = call("POST", f"{ACCT}/adimages", url=f"{IMAGE_BASE}/{post_id}.jpg")
-        image_hash = next(iter(img["images"].values()))["hash"]
+        # picture by public URL: the adimages upload endpoint is closed to apps in development mode (error #3)
         creative = call("POST", f"{ACCT}/adcreatives", name=post_id,
                         object_story_spec=json.dumps({"page_id": page_id, "link_data": {
-                            "link": a["link"], "message": p["caption"], "image_hash": image_hash,
+                            "link": a["link"], "message": p["caption"], "picture": f"{IMAGE_BASE}/{post_id}.jpg",
                             "name": a.get("headline", ""), "call_to_action": {"type": a.get("cta", "LEARN_MORE"), "value": {"link": a["link"]}}}}))
         ad = call("POST", f"{ACCT}/ads", name=post_id, adset_id=adset["id"], creative=json.dumps({"creative_id": creative["id"]}),
                   status=a.get("status", "ACTIVE"))
