@@ -5,6 +5,11 @@ on:
       week:
         description: "week folder, e.g. 2026-W40"
         required: true
+      page:
+        description: "which brand: money or studio"
+        required: true
+        type: choice
+        options: [money, studio]
       except:
         description: "post ids to reject, comma separated (optional)"
         required: false
@@ -21,12 +26,13 @@ jobs:
         with: { python-version: "3.12" }
       - env:
           WEEK: ${{ inputs.week }}
+          PAGE: ${{ inputs.page }}
           EXCEPT: ${{ inputs.except }}
         run: |
-          if [ -n "$EXCEPT" ]; then python scripts/approve.py "$WEEK" --except "$EXCEPT"; else python scripts/approve.py "$WEEK"; fi
-          pip install pillow >/dev/null && python scripts/review.py
+          if [ -n "$EXCEPT" ]; then python scripts/approve.py "$WEEK" --page "$PAGE" --except "$EXCEPT"; else python scripts/approve.py "$WEEK" --page "$PAGE"; fi
+          pip install pillow >/dev/null && python scripts/review.py && python scripts/site.py
       - run: |
           git config user.name "hk-social-bot"
           git config user.email "hk-social-bot@users.noreply.github.com"
-          git add posts review.html
-          git diff --cached --quiet || (git commit -m "approve ${{ inputs.week }}" && git push)
+          git add posts review.html docs
+          git diff --cached --quiet || (git commit -m "approve ${{ inputs.week }} (${{ inputs.page }})" && git push)
