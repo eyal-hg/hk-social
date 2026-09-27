@@ -1,5 +1,5 @@
 {
- "generated": "27.09.2026 14:33",
+ "generated": "27.09.2026 14:35",
  "account": {
   "name": "HK",
   "currency": "ILS",
@@ -15,6 +15,31 @@
    "objective": "OUTCOME_LEADS",
    "daily_budget": null,
    "lifetime_budget": null,
+   "start_time": "2026-04-29T00:12:18+0300",
+   "stop_time": null,
+   "updated_time": "2026-06-16T00:28:49+0300",
+   "adsets": [
+    {
+     "campaign_id": "120245939439290740",
+     "name": "‏סדרת מודעות לידים חדשה‏ - בעלי עסקים",
+     "effective_status": "ACTIVE",
+     "daily_budget": "1000",
+     "optimization_goal": "LEAD_GENERATION",
+     "destination_type": "ON_AD",
+     "start_time": "2026-06-16T00:24:46+0300",
+     "id": "120249034172770740"
+    },
+    {
+     "campaign_id": "120245939439290740",
+     "name": "סדרת מודעות לידים חדשה",
+     "effective_status": "ACTIVE",
+     "daily_budget": "5000",
+     "optimization_goal": "LEAD_GENERATION",
+     "destination_type": "ON_AD",
+     "start_time": "2026-04-29T00:12:18+0300",
+     "id": "120245939439310740"
+    }
+   ],
    "last7": {
     "spend": 69.92,
     "impressions": 581,
@@ -139,6 +164,21 @@
    "objective": "OUTCOME_TRAFFIC",
    "daily_budget": null,
    "lifetime_budget": null,
+   "start_time": "2026-04-14T16:44:04+0300",
+   "stop_time": null,
+   "updated_time": "2026-04-23T20:35:16+0300",
+   "adsets": [
+    {
+     "campaign_id": "120245264833640740",
+     "name": "קהל רחב | 25-55 | A+ | 80₪ מיקוד מפורט | מקסום צפיות באתר",
+     "effective_status": "CAMPAIGN_PAUSED",
+     "daily_budget": "8000",
+     "optimization_goal": "LANDING_PAGE_VIEWS",
+     "destination_type": "UNDEFINED",
+     "start_time": "2026-04-14T16:44:04+0300",
+     "id": "120245264833660740"
+    }
+   ],
    "last7": {
     "spend": 0.0,
     "impressions": 0,
@@ -196,6 +236,41 @@
    "objective": "OUTCOME_LEADS",
    "daily_budget": null,
    "lifetime_budget": null,
+   "start_time": "2026-04-14T16:44:11+0300",
+   "stop_time": null,
+   "updated_time": "2026-05-03T21:28:36+0300",
+   "adsets": [
+    {
+     "campaign_id": "120245262843710740",
+     "name": "ריטרגט | מבקרי אתר VSL | צפו בסרטונים",
+     "effective_status": "CAMPAIGN_PAUSED",
+     "daily_budget": "8000",
+     "optimization_goal": "LEAD_GENERATION",
+     "destination_type": "ON_AD",
+     "start_time": "2026-04-26T13:19:26+0300",
+     "id": "120245928290980740"
+    },
+    {
+     "campaign_id": "120245262843710740",
+     "name": "ישראל | 25-55| מיקום חופשי | קהל A+ | 220₪ מעודכן",
+     "effective_status": "CAMPAIGN_PAUSED",
+     "daily_budget": "22000",
+     "optimization_goal": "LEAD_GENERATION",
+     "destination_type": "ON_AD",
+     "start_time": "2026-04-26T12:55:00+0300",
+     "id": "120245926246180740"
+    },
+    {
+     "campaign_id": "120245262843710740",
+     "name": "ישראל | 25-55 |מיקום חופשי | ידני, מיקוד מפורט| 120₪",
+     "effective_status": "PAUSED",
+     "daily_budget": "12000",
+     "optimization_goal": "LEAD_GENERATION",
+     "destination_type": "ON_AD",
+     "start_time": "2026-04-14T16:44:11+0300",
+     "id": "120245262843720740"
+    }
+   ],
    "last7": {
     "spend": 0.0,
     "impressions": 0,
@@ -331,6 +406,31 @@
    "objective": "OUTCOME_LEADS",
    "daily_budget": null,
    "lifetime_budget": null,
+   "start_time": "2026-01-27T16:25:50+0200",
+   "stop_time": null,
+   "updated_time": "2026-05-11T17:56:06+0300",
+   "adsets": [
+    {
+     "campaign_id": "120241842177650740",
+     "name": "‏תחומי עניין מסעדות || 25+ || מיקומים ידניים",
+     "effective_status": "CAMPAIGN_PAUSED",
+     "daily_budget": "10000",
+     "optimization_goal": "LEAD_GENERATION",
+     "destination_type": "ON_AD",
+     "start_time": "2026-01-27T16:26:00+0200",
+     "id": "120241842177890740"
+    },
+    {
+     "campaign_id": "120241842177650740",
+     "name": "קהל פתוח || 25+ || מיקומים אוטומטים‏",
+     "effective_status": "PAUSED",
+     "daily_budget": "5000",
+     "optimization_goal": "LEAD_GENERATION",
+     "destination_type": "ON_AD",
+     "start_time": "2026-01-27T16:25:50+0200",
+     "id": "120241842177870740"
+    }
+   ],
    "last7": {
     "spend": 0.0,
     "impressions": 0,
@@ -466,6 +566,51 @@
    "objective": "OUTCOME_LEADS",
    "daily_budget": null,
    "lifetime_budget": null,
+   "start_time": "2025-09-14T17:23:49+0300",
+   "stop_time": null,
+   "updated_time": "2026-04-27T10:29:32+0300",
+   "adsets": [
+    {
+     "campaign_id": "120234694036040740",
+     "name": "קהל פתוח || 25+ || מיקומים ידניים‏ || טסט 3",
+     "effective_status": "PAUSED",
+     "daily_budget": "317",
+     "optimization_goal": "LEAD_GENERATION",
+     "destination_type": "ON_AD",
+     "start_time": "2026-01-19T15:46:18+0200",
+     "id": "120241559852010740"
+    },
+    {
+     "campaign_id": "120234694036040740",
+     "name": "‏‏תחומי עניין בעלי עסקים ועצמאיים || 25+ ||  ‏Advantage+",
+     "effective_status": "PAUSED",
+     "daily_budget": "317",
+     "optimization_goal": "LEAD_GENERATION",
+     "destination_type": "ON_AD",
+     "start_time": "2026-01-15T16:06:19+0200",
+     "id": "120241432103880740"
+    },
+    {
+     "campaign_id": "120234694036040740",
+     "name": "קהל פתוח || 25+ || מיקומים אוטומטים‏",
+     "effective_status": "PAUSED",
+     "daily_budget": "5000",
+     "optimization_goal": "LEAD_GENERATION",
+     "destination_type": "ON_AD",
+     "start_time": "2025-09-14T17:23:50+0300",
+     "id": "120234695696030740"
+    },
+    {
+     "campaign_id": "120234694036040740",
+     "name": "‏תחומי עניין בעלי עסקים ועצמאיים || 25+ || מיקומים ידניים",
+     "effective_status": "PAUSED",
+     "daily_budget": "5000",
+     "optimization_goal": "LEAD_GENERATION",
+     "destination_type": "ON_AD",
+     "start_time": "2025-09-14T17:23:49+0300",
+     "id": "120234694036140740"
+    }
+   ],
    "last7": {
     "spend": 0.0,
     "impressions": 0,
@@ -640,6 +785,38 @@
    "objective": "OUTCOME_LEADS",
    "daily_budget": "10000",
    "lifetime_budget": null,
+   "start_time": "2025-09-02T18:46:31+0300",
+   "stop_time": null,
+   "updated_time": "2025-09-14T17:26:49+0300",
+   "adsets": [
+    {
+     "campaign_id": "120233960830590740",
+     "name": "קהל ריטרגטינג || 25+ || מיקומים אוטומטים‏",
+     "effective_status": "PAUSED",
+     "optimization_goal": "OFFSITE_CONVERSIONS",
+     "destination_type": "UNDEFINED",
+     "start_time": "2025-09-02T18:46:31+0300",
+     "id": "120233971084560740"
+    },
+    {
+     "campaign_id": "120233960830590740",
+     "name": "‏תחומי עניין בעלי עסקים ועצמאיים || 25+ || מיקומים ידניים",
+     "effective_status": "CAMPAIGN_PAUSED",
+     "optimization_goal": "OFFSITE_CONVERSIONS",
+     "destination_type": "UNDEFINED",
+     "start_time": "2025-09-02T18:46:31+0300",
+     "id": "120233971084550740"
+    },
+    {
+     "campaign_id": "120233960830590740",
+     "name": "קהל פתוח || 25+ || מיקומים אוטומטים",
+     "effective_status": "CAMPAIGN_PAUSED",
+     "optimization_goal": "OFFSITE_CONVERSIONS",
+     "destination_type": "UNDEFINED",
+     "start_time": "2025-09-02T18:46:50+0300",
+     "id": "120233960830570740"
+    }
+   ],
    "last7": {
     "spend": 0.0,
     "impressions": 0,
@@ -801,6 +978,21 @@
    "objective": "OUTCOME_SALES",
    "daily_budget": null,
    "lifetime_budget": null,
+   "start_time": "2025-02-25T13:26:21+0200",
+   "stop_time": null,
+   "updated_time": "2025-02-25T13:56:35+0200",
+   "adsets": [
+    {
+     "campaign_id": "120218471148070740",
+     "name": "‏קהל פתוח 21+ || מיקומים ידניים || סרטונים 6-10",
+     "effective_status": "PAUSED",
+     "daily_budget": "6000000",
+     "optimization_goal": "OFFSITE_CONVERSIONS",
+     "destination_type": "UNDEFINED",
+     "start_time": "2025-02-25T13:26:21+0200",
+     "id": "120218471148110740"
+    }
+   ],
    "last7": {
     "spend": 0.0,
     "impressions": 0,
@@ -844,6 +1036,56 @@
    "objective": "OUTCOME_LEADS",
    "daily_budget": "10000",
    "lifetime_budget": null,
+   "start_time": "2025-01-13T15:22:16+0200",
+   "stop_time": null,
+   "updated_time": "2025-10-27T14:44:28+0200",
+   "adsets": [
+    {
+     "campaign_id": "120216039932250740",
+     "name": "‏‏‏‏קהל בעלי עסקים || 25+ || מיקומים אוטומטים || סרטונים 1-10‏ || טסט",
+     "effective_status": "PAUSED",
+     "optimization_goal": "LEAD_GENERATION",
+     "destination_type": "ON_AD",
+     "start_time": "2025-06-08T14:05:08+0300",
+     "id": "120228367969570740"
+    },
+    {
+     "campaign_id": "120216039932250740",
+     "name": "‏‏‏קהל פתוח || 25+ || מיקומים אוטומטים || סרטונים 1-10",
+     "effective_status": "CAMPAIGN_PAUSED",
+     "optimization_goal": "LEAD_GENERATION",
+     "destination_type": "ON_AD",
+     "start_time": "2025-02-13T12:18:21+0200",
+     "id": "120217396577120740"
+    },
+    {
+     "campaign_id": "120216039932250740",
+     "name": "‏‏קהל תחומי עניין || 25+ || מיקומים ידניים || סרטונים 1-10‏‏",
+     "effective_status": "PAUSED",
+     "optimization_goal": "LEAD_GENERATION",
+     "destination_type": "ON_AD",
+     "start_time": "2025-02-05T14:01:24+0200",
+     "id": "120216983022800740"
+    },
+    {
+     "campaign_id": "120216039932250740",
+     "name": "‏רימרקטינג רשימה מותאמת || 21+ || כל המיקומים || סרטונים 1-10‏",
+     "effective_status": "WITH_ISSUES",
+     "optimization_goal": "LEAD_GENERATION",
+     "destination_type": "ON_AD",
+     "start_time": "2025-01-13T15:22:16+0200",
+     "id": "120216040142310740"
+    },
+    {
+     "campaign_id": "120216039932250740",
+     "name": "רימרקטינג רשתות || 21+ || כל המיקומים || סרטונים 1-10",
+     "effective_status": "CAMPAIGN_PAUSED",
+     "optimization_goal": "LEAD_GENERATION",
+     "destination_type": "ON_AD",
+     "start_time": "2025-01-13T15:22:16+0200",
+     "id": "120216039932350740"
+    }
+   ],
    "last7": {
     "spend": 0.0,
     "impressions": 0,
@@ -1512,6 +1754,51 @@
    "objective": "OUTCOME_LEADS",
    "daily_budget": null,
    "lifetime_budget": null,
+   "start_time": "2025-01-13T15:22:16+0200",
+   "stop_time": null,
+   "updated_time": "2025-02-05T14:04:38+0200",
+   "adsets": [
+    {
+     "campaign_id": "120216011568420740",
+     "name": "‏קהל תחומי עניין || ערים גדולות || 25+ || מיקומים אוטומטיים || סרטונים 1-10‏",
+     "effective_status": "CAMPAIGN_PAUSED",
+     "daily_budget": "4000",
+     "optimization_goal": "LEAD_GENERATION",
+     "destination_type": "ON_AD",
+     "start_time": "2025-01-20T14:19:05+0200",
+     "id": "120216289225530740"
+    },
+    {
+     "campaign_id": "120216011568420740",
+     "name": "לוקאלייק רשימה מותאמת || 21+ || מיקומים ידניים || סרטונים 1-5‏ - עותק",
+     "effective_status": "PAUSED",
+     "daily_budget": "2000",
+     "optimization_goal": "LEAD_GENERATION",
+     "destination_type": "ON_AD",
+     "start_time": "2025-01-19T11:13:06+0200",
+     "id": "120216244355760740"
+    },
+    {
+     "campaign_id": "120216011568420740",
+     "name": "‏קהל פתוח 21+ || מיקומים ידניים || סרטונים 6-10",
+     "effective_status": "PAUSED",
+     "daily_budget": "3000",
+     "optimization_goal": "LEAD_GENERATION",
+     "destination_type": "ON_AD",
+     "start_time": "2025-01-13T15:22:16+0200",
+     "id": "120216014501110740"
+    },
+    {
+     "campaign_id": "120216011568420740",
+     "name": "קהל פתוח 21+ || מיקומים ידניים || סרטונים 1-5",
+     "effective_status": "PAUSED",
+     "daily_budget": "5000",
+     "optimization_goal": "LEAD_GENERATION",
+     "destination_type": "ON_AD",
+     "start_time": "2025-01-13T15:22:16+0200",
+     "id": "120216011568450740"
+    }
+   ],
    "last7": {
     "spend": 0.0,
     "impressions": 0,
