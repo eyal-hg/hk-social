@@ -1,0 +1,32 @@
+name: videos
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "list (metadata only) or download (save mp4 files into video/)"
+        type: choice
+        options: [list, download]
+        default: list
+permissions:
+  contents: write
+concurrency: { group: repo-write, cancel-in-progress: false }
+jobs:
+  videos:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: pull videos from Meta
+        env:
+          META_TOKEN: ${{ secrets.META_TOKEN }}
+          AD_ACCOUNT_ID: "1886192278456348"
+          PAGE_ID: "459554967250420"
+          STUDIO_PAGE_ID: ${{ vars.STUDIO_PAGE_ID }}
+        run: python scripts/videos.py "${{ inputs.mode }}"
+      - name: commit
+        run: |
+          git config user.name "hk-social-bot"
+          git config user.email "hk-social-bot@users.noreply.github.com"
+          git add content/videos.json video
+          git diff --cached --quiet || (git commit -m "videos: ${{ inputs.mode }}" && git push)

@@ -69,6 +69,8 @@ def main():
     force = "--force" in sys.argv
     for p in sorted((ROOT / "posts").rglob("*.json")):
         post = json.loads(p.read_text(encoding="utf-8"))
+        if post.get("video"):  # video posts have no rendered card
+            continue
         jpg = OUT / f"{post['id']}.jpg"
         if force or not jpg.exists() or jpg.stat().st_mtime < p.stat().st_mtime:
             print("render", post["id"], "->", render(post, chrome).name)
