@@ -46,6 +46,10 @@ def find_campaign(name):
 
 def set_budget(a):
     c = find_campaign(a["campaign_name"])
+    if a.get("adset_name"):  # one named ad set only; the others are left as they are
+        s = next(x for x in call("GET", f"{c['id']}/adsets", fields="name", limit=50)["data"] if x["name"].strip() == a["adset_name"].strip())
+        call("POST", s["id"], daily_budget=ils(a["daily_budget_ils"]))
+        return {"campaign_id": c["id"], "level": "adset", "adsets": [{"adset_id": s["id"], "name": s["name"], "daily_budget_ils": a["daily_budget_ils"]}]}
     if c.get("daily_budget"):  # campaign-level budget
         call("POST", c["id"], daily_budget=ils(a["daily_budget_ils"]))
         return {"campaign_id": c["id"], "level": "campaign", "daily_budget_ils": a["daily_budget_ils"]}
@@ -87,6 +91,33 @@ def create_campaign(a):
     return {"campaign_id": camp["id"], "adset_id": adset["id"], "ads": ads}
 
 
+def revive(a):
+    """Un-pause one campaign with exactly one ad set and the named ads inside it; everything else in it stays paused."""
+    c = find_campaign(a["campaign_name"])
+    adsets = call("GET", f"{c['id']}/adsets", fields="name,status,daily_budget", limit=50)["data"]
+    keep = next(s for s in adsets if s["name"].strip() == a["adset_name"].strip())
+    for s in adsets:
+        if s["id"] != keep["id"] and s.get("status") != "PAUSED":
+            call("POST", s["id"], status="PAUSED")
+    ads = call("GET", f"{keep['id']}/ads", fields="name,status", limit=100)["data"]
+    wanted = [n.strip() for n in a["ad_names"]]
+    on, off = [], []
+    for ad in ads:
+        if ad["name"].strip() in wanted:
+            call("POST", ad["id"], status="ACTIVE"); on.append(ad["name"])
+        elif ad.get("status") != "PAUSED":
+            call("POST", ad["id"], status="PAUSED"); off.append(ad["name"])
+    if not on:
+        raise RuntimeError("none of the ads found: " + ", ".join(wanted))
+    if c.get("daily_budget"):  # campaign budget (CBO): the budget lives on the campaign
+        call("POST", c["id"], daily_budget=ils(a["daily_budget_ils"]), status="ACTIVE")
+        call("POST", keep["id"], status="ACTIVE")
+    else:
+        call("POST", keep["id"], daily_budget=ils(a["daily_budget_ils"]), status="ACTIVE")
+        call("POST", c["id"], status="ACTIVE")
+    return {"campaign_id": c["id"], "adset_id": keep["id"], "ads_on": on, "ads_paused_now": off, "daily_budget_ils": a["daily_budget_ils"]}
+
+
 def main():
     plan_path = ROOT / sys.argv[1]
     plan = json.loads(plan_path.read_text(encoding="utf-8"))
@@ -96,7 +127,7 @@ def main():
         if any(x.get("index") == i and x.get("ok") for x in applied):
             print("skip (done)", i, a["type"]); continue
         try:
-            res = {"set_adset_budget": set_budget, "create_campaign": create_campaign}[a["type"]](a)
+            res = {"set_adset_budget": set_budget, "create_campaign": create_campaign, "revive": revive}[a["type"]](a)
             applied.append({"index": i, "type": a["type"], "ok": True, "at": datetime.now(ZoneInfo("Asia/Jerusalem")).isoformat(timespec="minutes"), "result": res})
             print("ok", i, a["type"], res)
         except Exception as e:  # noqa: BLE001

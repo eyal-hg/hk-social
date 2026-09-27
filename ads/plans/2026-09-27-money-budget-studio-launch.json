@@ -4,7 +4,9 @@
     {
       "type": "set_adset_budget",
       "campaign_name": "קמפיין לידים אייל",
-      "daily_budget_ils": 50
+      "daily_budget_ils": 50,
+      "adset_name": "סדרת מודעות לידים חדשה - בעלי עסקים",
+      "note": "רק קבוצת 'בעלי עסקים' (זו שרצה בפועל, 41 ₪/ליד ב-30 יום); הקבוצה השנייה נשארת כמו שהיא"
     },
     {
       "type": "create_campaign",
@@ -17,12 +19,23 @@
       "headline": "אתה מייעץ. כל השאר נעשה.",
       "cta": "LEARN_MORE",
       "targeting": {
-        "geo_locations": { "countries": ["IL"] },
+        "geo_locations": {
+          "countries": [
+            "IL"
+          ]
+        },
         "age_min": 28,
         "age_max": 65,
-        "targeting_automation": { "advantage_audience": 1 }
+        "targeting_automation": {
+          "advantage_audience": 1
+        }
       },
-      "posts": ["2026-W40-S3", "2026-W40-S4", "2026-W40-S2", "2026-W40-S5"],
+      "posts": [
+        "2026-W40-S3",
+        "2026-W40-S4",
+        "2026-W40-S2",
+        "2026-W40-S5"
+      ],
       "status": "ACTIVE"
     }
   ]
