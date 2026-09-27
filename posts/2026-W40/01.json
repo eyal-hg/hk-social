@@ -20,6 +20,11 @@
     "facebook",
     "instagram"
   ],
-  "status": "approved",
-  "layout": "statement"
+  "status": "published",
+  "layout": "statement",
+  "results": {
+    "facebook": "459554967250420_122177301236678494",
+    "instagram": "17984719806083577"
+  },
+  "published_at": "2026-09-27T12:42+03:00"
 }
