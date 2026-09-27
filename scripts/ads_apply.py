@@ -185,6 +185,11 @@ def projected_total(plan):
                 ex_camps.add(c["id"])
         elif a["type"] == "revive":
             ex_camps.add(find_campaign(a["campaign_name"])["id"])
+        elif a["type"] == "create_campaign":
+            try:  # a retry: the campaign/ad set from the failed run already counts in the live total, don't count it twice
+                ex_camps.add(find_campaign(a["name"])["id"])
+            except RuntimeError:
+                pass
     return daily_total(ex_adsets, ex_camps) + add
 
 
@@ -226,7 +231,7 @@ def unapplied(plan):
 def main():
     if sys.argv[1] == "--auto":
         paths = [p for p in sorted((ROOT / "ads" / "plans").glob("*.json"))
-                 if (d := json.loads(p.read_text(encoding="utf-8"))).get("approved") is True and unapplied(d) and not d.get("blocked")]
+                 if (d := json.loads(p.read_text(encoding="utf-8"))).get("approved") is True and unapplied(d)]  # a blocked plan is re-checked on every push
         if not paths:
             print("nothing to do: no approved plan with unapplied actions"); return
     else:
