@@ -19,5 +19,6 @@
     "facebook",
     "instagram"
   ],
-  "status": "pending"
+  "status": "pending",
+  "layout": "salmon"
 }

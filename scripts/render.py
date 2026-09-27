@@ -39,13 +39,10 @@ def safe_inline(text):
 
 
 def render(post, chrome):
-    data = {
-        "kicker": post["kicker"],
-        "title": safe_inline(post["title"]),
-        "body": post["body"],
-        "cta": safe_inline(post.get("cta", "פגישת אבחון <span>חינם</span>")),
-        "logo": post.get("logo", "hk"),
-    }
+    data = {k: v for k, v in post.items() if k in ("layout", "kicker", "body", "logo", "photo", "chat", "steps", "left", "right")}
+    data["title"] = safe_inline(post.get("title", ""))
+    data["cta"] = safe_inline(post.get("cta", "פגישת אבחון <span>חינם</span>"))
+    data.setdefault("logo", "hk")
     src = TEMPLATE.read_text(encoding="utf-8")
     src = re.sub(r"/\*POST_JSON\*/.*?/\*END\*/", "/*POST_JSON*/" + json.dumps(data, ensure_ascii=False) + "/*END*/", src, flags=re.S)
     with tempfile.NamedTemporaryFile("w", suffix=".html", dir=TEMPLATE.parent, delete=False, encoding="utf-8") as f:

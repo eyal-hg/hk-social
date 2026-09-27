@@ -2,77 +2,127 @@
 <html lang="he" dir="rtl">
 <head>
 <meta charset="UTF-8" />
-<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&family=Karantina:wght@400;700&family=Rubik:wght@500;700;800&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800&family=Karantina:wght@400;700&family=Rubik:wght@500;700;800&display=swap" rel="stylesheet" />
 <style>
-  :root { --navy:#0c4068; --navy2:#082f4d; --salmon:#e48375; --blue:#39abe2; --off:#eef4f9; }
+  :root { --navy:#0c4068; --navy2:#082f4d; --salmon:#e48375; --salmon2:#d4705f; --blue:#39abe2; --off:#eef4f9; --text:#333344; --muted:#56677a; }
   * { box-sizing: border-box; margin: 0; padding: 0; }
   html, body { width: 1080px; height: 1350px; overflow: hidden; }
-  body {
-    font-family: 'Heebo', sans-serif;
-    background: linear-gradient(160deg, var(--navy) 0%, var(--navy2) 100%);
-    color: #fff; position: relative;
-  }
-  .stripe {
-    position: absolute; inset: 0 auto 0 0; width: 520px;
-    background: linear-gradient(115deg, rgba(57,171,226,.22), rgba(57,171,226,0) 60%);
-    clip-path: polygon(0 0, 100% 0, 40% 100%, 0 100%);
-  }
-  .top { position: absolute; top: 70px; right: 80px; left: 80px; display: flex; justify-content: space-between; align-items: center; }
-  .top img { height: 70px; }
-  .kicker {
-    font-family: 'Rubik', sans-serif; font-weight: 700; font-size: 30px; letter-spacing: .02em;
-    color: var(--navy); background: var(--salmon); border-radius: 60px; padding: 12px 30px;
-  }
-  .main { position: absolute; right: 80px; left: 80px; top: 330px; }
-  .title {
-    font-family: 'Karantina', sans-serif; font-weight: 700; font-size: 150px; line-height: .95;
-    letter-spacing: -.01em;
-  }
-  .title em { font-style: normal; color: var(--salmon); }
-  .body {
-    margin-top: 50px; font-size: 44px; line-height: 1.45; font-weight: 500; color: rgba(255,255,255,.88);
-    max-width: 860px; border-right: 8px solid var(--blue); padding-right: 34px;
-  }
-  .bottom {
-    position: absolute; bottom: 0; right: 0; left: 0; height: 170px;
-    background: var(--off); color: var(--navy);
-    display: flex; align-items: center; justify-content: space-between; padding: 0 80px;
-  }
+  body { font-family: 'Heebo', sans-serif; position: relative; color: #fff; background: linear-gradient(160deg, var(--navy) 0%, var(--navy2) 100%); }
+  em { font-style: normal; color: var(--salmon); }
+  .logo { position: absolute; top: 70px; right: 80px; height: 66px; }
+  .kicker { position: absolute; top: 70px; left: 80px; font-family: 'Rubik', sans-serif; font-weight: 700; font-size: 30px; color: var(--navy); background: var(--salmon); border-radius: 60px; padding: 12px 30px; }
+  .bottom { position: absolute; bottom: 0; right: 0; left: 0; height: 160px; background: var(--off); color: var(--navy); display: flex; align-items: center; justify-content: space-between; padding: 0 80px; }
   .cta { font-family: 'Rubik', sans-serif; font-weight: 800; font-size: 40px; }
   .cta span { color: var(--salmon); }
-  .bottom img { height: 58px; }
-  .url { font-family: 'Rubik', sans-serif; font-weight: 700; font-size: 32px; color: var(--navy); direction: ltr; }
+  .bottom img { height: 56px; }
+  .url { font-family: 'Rubik', sans-serif; font-weight: 700; font-size: 32px; direction: ltr; }
+  .main { position: absolute; right: 80px; left: 80px; top: 200px; bottom: 200px; display: flex; flex-direction: column; justify-content: center; }
+  .title { font-family: 'Karantina', sans-serif; font-weight: 700; font-size: 190px; line-height: .92; letter-spacing: -.01em; }
+  .body { margin-top: 50px; font-size: 50px; line-height: 1.45; font-weight: 500; max-width: 880px; }
+
+  /* ── statement: כותרת ענקית על navy (ברירת מחדל) ── */
+  .l-statement .stripe { position: absolute; inset: 0 auto 0 0; width: 520px; background: linear-gradient(115deg, rgba(57,171,226,.22), rgba(57,171,226,0) 60%); clip-path: polygon(0 0, 100% 0, 40% 100%, 0 100%); }
+  .l-statement .body { color: rgba(255,255,255,.88); border-right: 8px solid var(--blue); padding-right: 34px; }
+
+  /* ── light: רקע בהיר, כותרת navy ── */
+  .l-light { background: var(--off); color: var(--navy); }
+  .l-light .kicker { background: var(--navy); color: #fff; }
+  .l-light .body { color: var(--muted); border-right: 8px solid var(--salmon); padding-right: 34px; }
+  .l-light .bottom { background: var(--navy); color: #fff; }
+  .l-light .bottom img { filter: brightness(0) invert(1); }
+  .l-light::after { content: ''; position: absolute; width: 900px; height: 900px; border-radius: 50%; background: radial-gradient(circle, rgba(57,171,226,.18), transparent 65%); left: -300px; bottom: -200px; }
+
+  /* ── salmon: רקע סלמון, טקסט navy ── */
+  .l-salmon { background: var(--salmon); color: var(--navy); }
+  .l-salmon em { color: #fff; }
+  .l-salmon .kicker { background: var(--navy); color: #fff; }
+  .l-salmon .body { color: rgba(12,64,104,.85); border-right: 8px solid #fff; padding-right: 34px; }
+  .l-salmon .bottom { background: var(--navy); color: #fff; }
+  .l-salmon .bottom .cta span { color: var(--salmon); }
+  .l-salmon .bottom img { filter: brightness(0) invert(1); }
+
+  /* ── chat: שיחת וואטסאפ ── */
+  .l-chat .main { justify-content: flex-start; padding-top: 30px; }
+  .l-chat .title { font-size: 120px; margin-bottom: 40px; }
+  .chat { display: flex; flex-direction: column; gap: 22px; }
+  .bub { max-width: 82%; padding: 26px 34px; border-radius: 28px; font-size: 40px; line-height: 1.4; font-weight: 500; position: relative; }
+  .bub.q { align-self: flex-start; background: #dcf8c6; color: #1a1a1a; border-top-left-radius: 6px; }
+  .bub.a { align-self: flex-end; background: #fff; color: #1a1a1a; border-top-right-radius: 6px; }
+  .bub .t { display: block; font-size: 22px; color: #7a8a99; margin-top: 8px; text-align: left; }
+  .bub.a b { color: var(--navy); }
+
+  /* ── versus: זה מול זה ── */
+  .l-versus .title { font-size: 130px; margin-bottom: 44px; text-align: center; }
+  .vs { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+  .col { border-radius: 26px; padding: 40px 34px; min-height: 520px; }
+  .col.bad { background: rgba(255,255,255,.08); border: 2px solid rgba(255,255,255,.18); }
+  .col.good { background: #fff; color: var(--navy); }
+  .col h3 { font-family: 'Rubik', sans-serif; font-size: 44px; font-weight: 800; margin-bottom: 26px; }
+  .col.bad h3 { color: rgba(255,255,255,.7); }
+  .col.good h3 { color: var(--salmon2); }
+  .col li { list-style: none; font-size: 36px; line-height: 1.4; margin-bottom: 18px; padding-right: 44px; position: relative; }
+  .col li::before { position: absolute; right: 0; font-weight: 800; }
+  .col.bad li::before { content: '✕'; color: var(--salmon); }
+  .col.good li::before { content: '✓'; color: #2e9e6b; }
+
+  /* ── list: רשימה ממוספרת ── */
+  .l-list { background: var(--off); color: var(--navy); }
+  .l-list .kicker { background: var(--navy); color: #fff; }
+  .l-list .bottom { background: var(--navy); color: #fff; }
+  .l-list .bottom img { filter: brightness(0) invert(1); }
+  .l-list .title { font-size: 140px; margin-bottom: 44px; }
+  .steps { display: flex; flex-direction: column; gap: 22px; }
+  .step { display: flex; gap: 30px; align-items: flex-start; background: #fff; border-radius: 24px; padding: 30px 34px; box-shadow: 0 6px 24px rgba(12,64,104,.08); }
+  .step i { font-style: normal; font-family: 'Karantina', sans-serif; font-size: 96px; line-height: .8; color: var(--salmon); flex-shrink: 0; width: 80px; }
+  .step div { font-size: 38px; line-height: 1.4; color: var(--text); }
+  .step b { display: block; font-family: 'Rubik', sans-serif; font-size: 42px; color: var(--navy); margin-bottom: 4px; }
+
+  /* ── photo: אדם + כותרת ── */
+  .l-photo .photo { position: absolute; left: -40px; bottom: 160px; height: 760px; }
+  .l-photo .main { right: 80px; left: 520px; top: 200px; bottom: 200px; }
+  .l-photo .title { font-size: 150px; }
+  .l-photo .body { color: rgba(255,255,255,.88); font-size: 44px; border-right: 8px solid var(--blue); padding-right: 30px; }
 </style>
 </head>
 <body>
   <div class="stripe"></div>
-  <div class="top">
-    <span class="kicker" id="kicker"></span>
-    <img src="assets/hk-logo.png" alt="" />
-  </div>
-  <div class="main">
-    <h1 class="title" id="title"></h1>
-    <p class="body" id="body"></p>
-  </div>
+  <img class="logo" src="assets/hk-logo.png" alt="" />
+  <span class="kicker" id="kicker"></span>
+  <img class="photo" id="photo" src="" alt="" hidden />
+  <div class="main" id="main"></div>
   <div class="bottom">
     <div class="cta" id="cta"></div>
     <img id="svc" src="" alt="" />
     <div class="url">hak.co.il</div>
   </div>
 <script>
-  // המידע מוזרק ע"י scripts/render.py
-  const P = /*POST_JSON*/{"kicker":"טיפ","title":"כותרת <em>לדוגמה</em>","body":"משפט משנה לדוגמה","cta":"פגישת אבחון <span>חינם</span>","logo":"hk"}/*END*/;
-  document.getElementById('kicker').textContent = P.kicker;
-  document.getElementById('title').innerHTML = P.title;
-  document.getElementById('body').textContent = P.body;
+  const P = /*POST_JSON*/{}/*END*/;
+  const layout = P.layout || 'statement';
+  document.body.classList.add('l-' + layout);
+  document.getElementById('kicker').textContent = P.kicker || '';
   document.getElementById('cta').innerHTML = P.cta || 'פגישת אבחון <span>חינם</span>';
   const svc = document.getElementById('svc');
   const logos = { hkmoney: 'assets/hkmoney-logo.png', hkpro: 'assets/hkpro-logo.png' };
-  if (logos[P.logo]) { svc.src = logos[P.logo]; } else { svc.remove(); }
+  if (logos[P.logo]) svc.src = logos[P.logo]; else svc.remove();
+  const main = document.getElementById('main');
+  const h = P.title ? `<h1 class="title">${P.title}</h1>` : '';
+  if (layout === 'chat') {
+    main.innerHTML = h + '<div class="chat">' + (P.chat || []).map(m =>
+      `<div class="bub ${m.from === 'q' ? 'q' : 'a'}">${m.text}<span class="t">${m.time || ''}</span></div>`).join('') + '</div>';
+  } else if (layout === 'versus') {
+    const li = a => (a || []).map(x => `<li>${x}</li>`).join('');
+    main.innerHTML = h + `<div class="vs"><div class="col bad"><h3>${P.left.title}</h3><ul>${li(P.left.items)}</ul></div><div class="col good"><h3>${P.right.title}</h3><ul>${li(P.right.items)}</ul></div></div>`;
+  } else if (layout === 'list') {
+    main.innerHTML = h + '<div class="steps">' + (P.steps || []).map((s, i) =>
+      `<div class="step"><i>${String(i + 1).padStart(2, '0')}</i><div><b>${s.title}</b>${s.text || ''}</div></div>`).join('') + '</div>';
+  } else {
+    main.innerHTML = h + (P.body ? `<p class="body">${P.body}</p>` : '');
+    if (layout === 'photo') { const ph = document.getElementById('photo'); ph.src = P.photo || 'assets/person-phone.png'; ph.hidden = false; }
+  }
   // מקטין כותרת ארוכה כדי שלא תגלוש
-  const t = document.getElementById('title');
-  let size = 150;
-  while (t.scrollHeight > 520 && size > 90) { size -= 6; t.style.fontSize = size + 'px'; }
+  const t = main.querySelector('.title');
+  if (t) { let size = parseFloat(getComputedStyle(t).fontSize); const max = { chat: 260, versus: 280, list: 300, photo: 480 }[layout] || 620;
+    while (t.scrollHeight > max && size > 90) { size -= 6; t.style.fontSize = size + 'px'; } }
 </script>
 </body>
 </html>
