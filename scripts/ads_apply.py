@@ -84,7 +84,8 @@ def create_campaign(a):
     if not page_id:
         raise RuntimeError("no page id for " + a["page"])
     camp = call("POST", f"{ACCT}/campaigns", name=a["name"], objective=a.get("objective", "OUTCOME_TRAFFIC"),
-                status=a.get("status", "ACTIVE"), special_ad_categories="[]", buying_type="AUCTION")
+                status=a.get("status", "ACTIVE"), special_ad_categories="[]", buying_type="AUCTION",
+                is_adset_budget_sharing_enabled="false")  # required since 2025; budget stays on the ad set
     t = a.get("targeting") or {"geo_locations": {"countries": ["IL"]}, "age_min": 25, "age_max": 65}
     adset = call("POST", f"{ACCT}/adsets", name=a["name"] + " · קבוצה 1", campaign_id=camp["id"],
                  daily_budget=ils(a["daily_budget_ils"]), billing_event="IMPRESSIONS",
