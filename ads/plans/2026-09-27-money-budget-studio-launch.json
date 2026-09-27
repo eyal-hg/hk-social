@@ -40,5 +40,31 @@
     }
   ],
   "approved": true,
-  "approved_by": "אייל בצ'אט, 27.09.2026: 'אני איתך! בוא נתחיל' ו-'תריץ אתה'; ביקש להפעיל אוטומטית מ-push"
+  "approved_by": "אייל בצ'אט, 27.09.2026: 'אני איתך! בוא נתחיל' ו-'תריץ אתה'; ביקש להפעיל אוטומטית מ-push",
+  "applied": [
+    {
+      "index": 0,
+      "type": "set_adset_budget",
+      "ok": true,
+      "at": "2026-09-27T15:25+03:00",
+      "result": {
+        "campaign_id": "120245939439290740",
+        "level": "adset",
+        "adsets": [
+          {
+            "adset_id": "120249034172770740",
+            "name": "‏סדרת מודעות לידים חדשה‏ - בעלי עסקים",
+            "daily_budget_ils": 50
+          }
+        ]
+      }
+    },
+    {
+      "index": 1,
+      "type": "create_campaign",
+      "ok": false,
+      "at": "2026-09-27T15:25+03:00",
+      "error": "POST act_1886192278456348/campaigns -> 400: {\"error\":{\"message\":\"Invalid parameter\",\"type\":\"OAuthException\",\"code\":100,\"error_subcode\":4834011,\"is_transient\":false,\"error_user_title\":\"\\u05d7\\u05d5\\u05d1\\u05d4 \\u05dc\\u05e6\\u05d9\\u05d9\\u05df '\\u05e0\\u05db\\u05d5\\u05df' \\u05d0\\u05d5 '\\u05dc\\u05d0 \\u05e0\\u05db\\u05d5\\u05df' \\u05d1\\u05e9\\u05d3\\u05d4 is_adset_budget_sharing_enabled\",\"error_user_msg\":\"\\u05d0\\u05dd \\u05d1\\u05d7\\u05e8\\u05ea \\u05dc\\u05"
+    }
+  ]
 }
