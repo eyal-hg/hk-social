@@ -184,7 +184,7 @@ def projected_total(plan):
     pending = [a for i, a in enumerate(plan["actions"]) if i not in done]
     ex_adsets, ex_camps, add = set(), set(), 0.0
     for a in pending:
-        add += float(a["daily_budget_ils"])
+        add += float(a.get("daily_budget_ils") or 0)  # add_ads / pause_ads move no budget
         if a["type"] == "set_adset_budget":
             c = find_campaign(a["campaign_name"])
             if a.get("adset_name"):
@@ -221,7 +221,8 @@ def apply_plan(plan_path):
         if any(x.get("index") == i and x.get("ok") for x in applied):
             print("skip (done)", i, a["type"]); continue
         try:
-            res = {"set_adset_budget": set_budget, "create_campaign": create_campaign, "revive": revive}[a["type"]](a)
+            res = {"set_adset_budget": set_budget, "create_campaign": create_campaign, "revive": revive,
+                   "add_ads": add_ads, "pause_ads": pause_ads}[a["type"]](a)
             applied.append({"index": i, "type": a["type"], "ok": True, "at": datetime.now(ZoneInfo("Asia/Jerusalem")).isoformat(timespec="minutes"), "result": res})
             print("ok", i, a["type"], res)
         except Exception as e:  # noqa: BLE001
@@ -235,6 +236,40 @@ def apply_plan(plan_path):
 def unapplied(plan):
     done = {x["index"] for x in plan.get("applied", []) if x.get("ok")}
     return [i for i in range(len(plan["actions"])) if i not in done]
+
+
+def _adset(a):
+    c = find_campaign(a["campaign_name"])
+    return c, next(x for x in call("GET", f"{c['id']}/adsets", fields="name", limit=50)["data"] if same(x["name"], a["adset_name"]))
+
+
+def add_ads(a):
+    """Add ads to an existing ad set from posts that are already on the Page (dark or public)."""
+    c, adset = _adset(a)
+    have = {norm(x["name"]) for x in call("GET", f"{adset['id']}/ads", fields="name", limit=100)["data"]}
+    ads = []
+    for post_id in a["posts"]:
+        if norm(post_id) in have:
+            print("ad exists, skipping", post_id); continue
+        p = next(d for d in (json.loads(q.read_text(encoding="utf-8")) for q in ROOT.glob("posts/**/*.json")) if d["id"] == post_id)
+        fb_post = (p.get("results") or {}).get("facebook")
+        if not fb_post:
+            raise RuntimeError(f"{post_id} is not on the Page yet (publish it first)")
+        creative = call("POST", f"{ACCT}/adcreatives", name=post_id, object_story_id=fb_post,
+                        call_to_action=json.dumps({"type": a.get("cta", "LEARN_MORE"), "value": {"link": a["link"]}}))
+        ad = call("POST", f"{ACCT}/ads", name=post_id, adset_id=adset["id"], creative=json.dumps({"creative_id": creative["id"]}),
+                  status=a.get("status", "ACTIVE"))
+        ads.append({"post": post_id, "ad_id": ad["id"], "creative_id": creative["id"]})
+    return {"campaign_id": c["id"], "adset_id": adset["id"], "ads": ads}
+
+
+def pause_ads(a):
+    c, adset = _adset(a)
+    wanted, done = [norm(n) for n in a["ad_names"]], []
+    for ad in call("GET", f"{adset['id']}/ads", fields="name,status", limit=100)["data"]:
+        if norm(ad["name"]) in wanted and ad.get("status") != "PAUSED":
+            call("POST", ad["id"], status="PAUSED"); done.append(ad["name"])
+    return {"campaign_id": c["id"], "adset_id": adset["id"], "paused": done}
 
 
 def main():

@@ -1,0 +1,30 @@
+{
+  "requested_by": "אייל 27.09.2026: 'המודעות של הסטודיו לא טובות - לא מבינים שזה ליועצים עסקיים ואין משפט מחץ' — מחליפים ל-SA1-SA3, מושהים S2-S5",
+  "approved": false,
+  "actions": [
+    {
+      "type": "add_ads",
+      "campaign_name": "HK Studio · יועצים · כניסות לדף",
+      "adset_name": "HK Studio · יועצים · כניסות לדף · קבוצה 1",
+      "posts": [
+        "2026-W40-SA1",
+        "2026-W40-SA2",
+        "2026-W40-SA3"
+      ],
+      "link": "https://studio.hak.co.il",
+      "cta": "LEARN_MORE",
+      "status": "ACTIVE"
+    },
+    {
+      "type": "pause_ads",
+      "campaign_name": "HK Studio · יועצים · כניסות לדף",
+      "adset_name": "HK Studio · יועצים · כניסות לדף · קבוצה 1",
+      "ad_names": [
+        "2026-W40-S3",
+        "2026-W40-S4",
+        "2026-W40-S2",
+        "2026-W40-S5"
+      ]
+    }
+  ]
+}

@@ -3,6 +3,7 @@
 Env: META_TOKEN (long-lived Page access token of the HK page, secret), PAGE_ID, IG_ID,
 IMAGE_BASE_URL (public base for out/*.jpg), VIDEO_BASE_URL (public base for video/*.mp4).
 A post with "video": "<meta video id>" is published as a Page video + Instagram reel instead of a photo.
+A post with "dark": true is created as an unpublished Page post (for promoting as an ad), facebook only.
 A post is published only if status == "approved" and publish_date <= today (Asia/Jerusalem).
 """
 import json
@@ -64,7 +65,8 @@ def to_facebook(post, ptoken, page_id):
         r = call("POST", f"{page_id}/videos", file_url=video_url(post), description=caption(post),
                  title=post.get("video_title", ""), access_token=ptoken)
         return r.get("id")
-    r = call("POST", f"{page_id}/photos", url=f"{IMAGE_BASE}/{post['id']}.jpg", message=caption(post), access_token=ptoken)
+    extra = {"published": "false"} if post.get("dark") else {}  # dark post: exists for ads only, never in the feed
+    r = call("POST", f"{page_id}/photos", url=f"{IMAGE_BASE}/{post['id']}.jpg", message=caption(post), access_token=ptoken, **extra)
     return r.get("post_id") or r.get("id")
 
 
