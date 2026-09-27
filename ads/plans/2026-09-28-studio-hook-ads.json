@@ -13,7 +13,8 @@
       ],
       "link": "https://studio.hak.co.il/?utm_source=facebook&utm_medium=paid&utm_campaign=studio",
       "cta": "LEARN_MORE",
-      "status": "ACTIVE"
+      "status": "ACTIVE",
+      "page": "studio"
     },
     {
       "type": "pause_ads",
@@ -52,5 +53,6 @@
         ]
       }
     }
-  ]
+  ],
+  "retry_note": "ניסיון 2: פוסט dark חוזר כמזהה תמונה; ממירים ל-page_story_id"
 }

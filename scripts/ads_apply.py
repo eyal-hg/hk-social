@@ -28,7 +28,7 @@ IMAGE_BASE = os.environ.get("IMAGE_BASE_URL", "").rstrip("/")
 
 
 def call(method, path, **params):
-    params["access_token"] = TOKEN
+    params.setdefault("access_token", TOKEN)
     data = urllib.parse.urlencode(params).encode()
     req = urllib.request.Request(f"{GRAPH}/{path}" + ("?" + data.decode() if method == "GET" else ""),
                                  data=None if method == "GET" else data, method=method)
@@ -243,9 +243,32 @@ def _adset(a):
     return c, next(x for x in call("GET", f"{c['id']}/adsets", fields="name", limit=50)["data"] if same(x["name"], a["adset_name"]))
 
 
+def page_token(page_id):
+    try:
+        return call("GET", page_id, fields="access_token").get("access_token") or TOKEN
+    except RuntimeError:
+        return TOKEN
+
+
+def story_id(fb_id, page_id):
+    """An unpublished (dark) photo comes back as a bare photo id; ads need the page post id PAGE_POSTID."""
+    if "_" in fb_id:
+        return fb_id
+    ptok = page_token(page_id)
+    for fields in ("page_story_id", "id"):
+        try:
+            r = call("GET", fb_id, fields=fields, access_token=ptok)
+            if r.get("page_story_id"):
+                return r["page_story_id"]
+        except RuntimeError as e:
+            print("lookup", fb_id, fields, "->", str(e)[:120])
+    return f"{page_id}_{fb_id}"
+
+
 def add_ads(a):
     """Add ads to an existing ad set from posts that are already on the Page (dark or public)."""
     c, adset = _adset(a)
+    page_id = PAGES[a.get("page", "money")]
     have = {norm(x["name"]) for x in call("GET", f"{adset['id']}/ads", fields="name", limit=100)["data"]}
     ads = []
     for post_id in a["posts"]:
@@ -255,6 +278,8 @@ def add_ads(a):
         fb_post = (p.get("results") or {}).get("facebook")
         if not fb_post:
             raise RuntimeError(f"{post_id} is not on the Page yet (publish it first)")
+        fb_post = story_id(fb_post, page_id)
+        print(post_id, "->", fb_post)
         creative = call("POST", f"{ACCT}/adcreatives", name=post_id, object_story_id=fb_post,
                         call_to_action=json.dumps({"type": a.get("cta", "LEARN_MORE"), "value": {"link": a["link"]}}))
         ad = call("POST", f"{ACCT}/ads", name=post_id, adset_id=adset["id"], creative=json.dumps({"creative_id": creative["id"]}),
