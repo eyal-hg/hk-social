@@ -20,6 +20,13 @@ if studio:
     try:
         st = publish.call("GET", studio, fields="name,access_token", access_token=publish.TOKEN)
         print("studio page:", st.get("name"), "| token ok:", bool(st.get("access_token")))
+        sig = publish.PAGES["studio"]["ig"]
+        if sig:
+            linked = publish.call("GET", studio, fields="instagram_business_account", access_token=st["access_token"]).get("instagram_business_account", {}).get("id")
+            ig2 = publish.call("GET", sig, fields="username", access_token=st["access_token"])
+            print("studio instagram:", ig2.get("username"), "| linked to page:", linked == sig)
+            if linked != sig:
+                sys.exit("STUDIO IG not linked to the studio page (linked id: %s)" % linked)
     except RuntimeError as e:
         print("STUDIO NOT REACHABLE:", str(e)[:200])
 print("OK")
