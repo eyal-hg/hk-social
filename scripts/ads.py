@@ -112,6 +112,19 @@ def main():
         else:
             L += ["לא רצה ב-7 הימים האחרונים.", ""]
 
+    # ads that Meta flags (errors, disapproved, in review) — the Ads Manager "שגיאות במודעה" badge
+    flagged = get(f"{ACCT}/ads", fields="name,effective_status,issues_info,adset{name},campaign{name}",
+                  effective_status='["WITH_ISSUES","DISAPPROVED","PENDING_REVIEW","PREAPPROVED","CAMPAIGN_PAUSED","ADSET_PAUSED","ACTIVE"]', limit=200).get("data", [])
+    flagged = [x for x in flagged if x.get("issues_info") or x.get("effective_status") in ("WITH_ISSUES", "DISAPPROVED", "PENDING_REVIEW")]
+    report["flagged_ads"] = flagged
+    if flagged:
+        L += ["## מודעות עם בעיות", ""]
+        for x in flagged:
+            for i in x.get("issues_info") or [{}]:
+                L += [f"- {x.get('campaign', {}).get('name')} › {x.get('adset', {}).get('name')} › {x['name']} ({x.get('effective_status')}): "
+                      f"{i.get('error_summary', '')} — {i.get('error_message', '')} [{i.get('level', '')} {i.get('error_code', '')}]"]
+        L += [""]
+
     out = ROOT / "reports"; out.mkdir(exist_ok=True)
     (out / "ads-latest.json").write_text(json.dumps(report, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     (out / "ads-latest.md").write_text("\n".join(L) + "\n", encoding="utf-8")
