@@ -120,10 +120,19 @@ def create_campaign(a):
             print("ad exists, skipping", post_id); continue
         p = next(d for d in (json.loads(q.read_text(encoding="utf-8")) for q in ROOT.glob("posts/**/*.json")) if d["id"] == post_id)
         # picture by public URL: the adimages upload endpoint is closed to apps in development mode (error #3)
-        creative = call("POST", f"{ACCT}/adcreatives", name=post_id,
-                        object_story_spec=json.dumps({"page_id": page_id, "link_data": {
-                            "link": a["link"], "message": p["caption"], "picture": f"{IMAGE_BASE}/{post_id}.jpg",
-                            "name": a.get("headline", ""), "call_to_action": {"type": a.get("cta", "LEARN_MORE"), "value": {"link": a["link"]}}}}))
+        spec = {"page_id": page_id, "link_data": {
+            "link": a["link"], "message": p["caption"], "picture": f"{IMAGE_BASE}/{post_id}.jpg",
+            "name": a.get("headline", ""), "call_to_action": {"type": a.get("cta", "LEARN_MORE"), "value": {"link": a["link"]}}}}
+        try:
+            creative = call("POST", f"{ACCT}/adcreatives", name=post_id, object_story_spec=json.dumps(spec))
+        except RuntimeError as e:
+            fb_post = (p.get("results") or {}).get("facebook", "")
+            if "1885183" not in str(e) or not fb_post:
+                raise
+            # dev-mode apps may not create ad posts; promote the already-published Page post instead
+            print("creative from new post refused (dev-mode app); promoting existing post", fb_post)
+            creative = call("POST", f"{ACCT}/adcreatives", name=post_id, object_story_id=fb_post,
+                            call_to_action=json.dumps({"type": a.get("cta", "LEARN_MORE"), "value": {"link": a["link"]}}))
         ad = call("POST", f"{ACCT}/ads", name=post_id, adset_id=adset["id"], creative=json.dumps({"creative_id": creative["id"]}),
                   status=a.get("status", "ACTIVE"))
         ads.append({"post": post_id, "ad_id": ad["id"], "creative_id": creative["id"]})
