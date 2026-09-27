@@ -27,5 +27,30 @@
       ]
     }
   ],
-  "approved_by": "אייל בצ'אט 27.09.2026: 'מאשר, ותוריד את השורה של אופיר מהתמונה'"
+  "approved_by": "אייל בצ'אט 27.09.2026: 'מאשר, ותוריד את השורה של אופיר מהתמונה'",
+  "applied": [
+    {
+      "index": 0,
+      "type": "add_ads",
+      "ok": false,
+      "at": "2026-09-27T15:47+03:00",
+      "error": "POST act_1886192278456348/adcreatives -> 400: {\"error\":{\"message\":\"(#100) Invalid post_id parameter\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AHHnZBx_-APKy2FlbFFAEl0\"}}"
+    },
+    {
+      "index": 1,
+      "type": "pause_ads",
+      "ok": true,
+      "at": "2026-09-27T15:47+03:00",
+      "result": {
+        "campaign_id": "120251876259960740",
+        "adset_id": "120251876298060740",
+        "paused": [
+          "2026-W40-S2",
+          "2026-W40-S4",
+          "2026-W40-S3",
+          "2026-W40-S5"
+        ]
+      }
+    }
+  ]
 }
