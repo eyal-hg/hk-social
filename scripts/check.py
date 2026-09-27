@@ -13,4 +13,13 @@ print("page:", page.get("name"), "| linked IG id:", page.get("instagram_business
 print("instagram:", ig.get("username"))
 if page.get("instagram_business_account", {}).get("id") != IG_ID:
     sys.exit("IG account linked to the page does not match IG_ID")
+studio = publish.PAGES["studio"]["page"]
+names = [a.get("name") for a in publish.call("GET", "me/accounts", fields="name", limit="100", access_token=publish.TOKEN).get("data", [])]
+print("pages the saved token can reach:", names)
+if studio:
+    try:
+        st = publish.call("GET", studio, fields="name,access_token", access_token=publish.TOKEN)
+        print("studio page:", st.get("name"), "| token ok:", bool(st.get("access_token")))
+    except RuntimeError as e:
+        print("STUDIO NOT REACHABLE:", str(e)[:200])
 print("OK")

@@ -16,6 +16,8 @@ jobs:
           META_TOKEN: ${{ secrets.META_TOKEN }}
           PAGE_ID: "459554967250420"
           IG_ID: "17841465042070519"
+          STUDIO_PAGE_ID: ${{ vars.STUDIO_PAGE_ID }}
+          STUDIO_IG_ID: ${{ vars.STUDIO_IG_ID }}
           IMAGE_BASE_URL: https://raw.githubusercontent.com/${{ github.repository }}/main/out
         working-directory: scripts
         run: python check.py
