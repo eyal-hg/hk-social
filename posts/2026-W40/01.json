@@ -1,6 +1,6 @@
 {
   "id": "2026-W40-01",
-  "publish_date": "2026-09-29",
+  "publish_date": "2026-09-27",
   "type": "כאב",
   "service": "HK Money",
   "logo": "hkmoney",
@@ -20,6 +20,6 @@
     "facebook",
     "instagram"
   ],
-  "status": "pending",
+  "status": "approved",
   "layout": "statement"
 }
