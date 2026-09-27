@@ -3,8 +3,10 @@ reposted slowly as organic posts.
 
 Env: META_TOKEN, AD_ACCOUNT_ID, PAGE_ID, STUDIO_PAGE_ID.
   videos.py list      -> content/videos.json (id, title, length, dates, where it came from). Read-only.
-  videos.py download  -> also saves video/<id>.mp4 for every video not yet on disk (skips files > 95 MB,
-                         raw.githubusercontent.com will not serve those).
+  videos.py download  -> also saves video/<id>.mp4 for every ORIGINAL not yet on disk: Meta's Auto_Cropped
+                         variants and Page re-uploads of the same cut are skipped, as are files > 95 MB
+                         (raw.githubusercontent.com will not serve those).
+Also collects the ad copy (message/title) that ran with each video, so a repost can reuse proven text.
 """
 import json
 import os
@@ -57,6 +59,15 @@ def main():
         if os.environ.get(env):
             sources.append((key, f"{os.environ[env]}/videos", page_token(os.environ[env])))
 
+    copy = {}  # video_id -> [{message,title}] from the ad creatives that used it
+    if acct:
+        for c in paged(f"act_{acct.removeprefix('act_')}/adcreatives", TOKEN, fields="video_id,body,title,object_story_spec", limit=200):
+            vd = ((c.get("object_story_spec") or {}).get("video_data") or {})
+            vid = c.get("video_id") or vd.get("video_id")
+            text = (vd.get("message") or c.get("body") or "").strip()
+            if vid and text and text not in [x["message"] for x in copy.get(vid, [])]:
+                copy.setdefault(vid, []).append({"message": text, "title": (vd.get("title") or c.get("title") or "").strip()})
+
     videos = {}
     for origin, path, tok in sources:
         rows = paged(path, tok, fields=FIELDS, limit=100)
@@ -66,12 +77,14 @@ def main():
                                             "thumb": ((v.get("thumbnails") or {}).get("data") or [{}])[0].get("uri", "")})
             e["origins"].append(origin)
             e["_source"] = v.get("source")  # signed CDN url, not committed
+            e["ad_copy"] = copy.get(v["id"], [])
+            e["original"] = origin == "ads" and not e["title"].startswith("Auto_Cropped")
 
     vdir = ROOT / "video"; vdir.mkdir(exist_ok=True)
     for e in videos.values():
         f = vdir / f"{e['id']}.mp4"
         e["file"] = f"video/{f.name}" if f.exists() else ""
-        if mode == "download" and not f.exists() and e.get("_source"):
+        if mode == "download" and e["original"] and not f.exists() and e.get("_source"):
             with urllib.request.urlopen(e["_source"], timeout=600) as r:
                 size = int(r.headers.get("Content-Length") or 0)
                 if size > MAX_MB * 1024 * 1024:
@@ -86,7 +99,7 @@ def main():
     (ROOT / "content" / "videos.json").write_text(json.dumps(rows, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     print(f"{len(rows)} videos; on disk: {sum(1 for r in rows if r['file'])}")
     for r in rows:
-        print(f"- {r['id']}  {r['seconds']:>4}s  {r['created']}  {'/'.join(r['origins']):<12} {r['title'][:60]}")
+        print(f"- {r['id']}  {r['seconds']:>4}s  {r['created']}  {'orig' if r['original'] else 'dup ':<5} copy×{len(r['ad_copy'])}  {r['title'][:60]}")
 
 
 if __name__ == "__main__":
