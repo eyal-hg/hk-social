@@ -1,0 +1,29 @@
+{
+  "requested_by": "אייל, 27.09.2026 (בצ'אט): להעלות את התקציב ל-50 ₪ ביום, ולהקים קמפיין לסטודיו ב-50 ₪ ליום עם המודעות שעשינו",
+  "actions": [
+    {
+      "type": "set_adset_budget",
+      "campaign_name": "קמפיין לידים אייל",
+      "daily_budget_ils": 50
+    },
+    {
+      "type": "create_campaign",
+      "page": "studio",
+      "name": "HK Studio · יועצים · כניסות לדף",
+      "objective": "OUTCOME_TRAFFIC",
+      "optimization_goal": "LANDING_PAGE_VIEWS",
+      "daily_budget_ils": 50,
+      "link": "https://studio.hak.co.il",
+      "headline": "אתה מייעץ. כל השאר נעשה.",
+      "cta": "LEARN_MORE",
+      "targeting": {
+        "geo_locations": { "countries": ["IL"] },
+        "age_min": 28,
+        "age_max": 65,
+        "targeting_automation": { "advantage_audience": 1 }
+      },
+      "posts": ["2026-W40-S3", "2026-W40-S4", "2026-W40-S2", "2026-W40-S5"],
+      "status": "ACTIVE"
+    }
+  ]
+}
