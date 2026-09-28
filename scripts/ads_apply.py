@@ -222,7 +222,7 @@ def apply_plan(plan_path):
             print("skip (done)", i, a["type"]); continue
         try:
             res = {"set_adset_budget": set_budget, "create_campaign": create_campaign, "revive": revive,
-                   "add_ads": add_ads, "pause_ads": pause_ads, "set_targeting": set_targeting}[a["type"]](a)
+                   "add_ads": add_ads, "pause_ads": pause_ads, "set_targeting": set_targeting, "create_pixel": create_pixel}[a["type"]](a)
             applied.append({"index": i, "type": a["type"], "ok": True, "at": datetime.now(ZoneInfo("Asia/Jerusalem")).isoformat(timespec="minutes"), "result": res})
             print("ok", i, a["type"], res)
         except Exception as e:  # noqa: BLE001
@@ -307,6 +307,15 @@ def set_targeting(a):
         call("POST", adset["id"], targeting=json.dumps(t))
     est = call("GET", f"{adset['id']}/delivery_estimate", fields="estimate_mau_lower_bound,estimate_mau_upper_bound,estimate_ready").get("data", [{}])
     return {"campaign_id": c["id"], "adset_id": adset["id"], "targeting": t, "before": before, "estimate": est[0] if est else None}
+
+
+def create_pixel(a):
+    """Create (or reuse by name) a Meta pixel on the ad account and record its id."""
+    for px in call("GET", f"{ACCT}/adspixels", fields="name,id", limit=50).get("data", []):
+        if same(px["name"], a["name"]):
+            print("pixel exists", px["id"]); return {"pixel_id": px["id"], "name": px["name"], "existing": True}
+    px = call("POST", f"{ACCT}/adspixels", name=a["name"])
+    return {"pixel_id": px["id"], "name": a["name"], "existing": False}
 
 
 def pause_ads(a):

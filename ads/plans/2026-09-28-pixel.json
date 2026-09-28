@@ -1,0 +1,11 @@
+{
+  "requested_by": "אייל 28.09.2026: 'כן' לפיקסל (hak.co.il + studio.hak.co.il, אירוע Lead על הטופס)",
+  "approved": true,
+  "approved_by": "אייל בצ'אט 28.09; הגדרה, לא כסף",
+  "actions": [
+    {
+      "type": "create_pixel",
+      "name": "HK Pixel"
+    }
+  ]
+}
