@@ -49,7 +49,17 @@ def main():
         print(f"\n## {kind}: {len(rows)}")
         for x in out[kind]:
             print(f"- {x['id']}  {x['name']}  ({x['audience_lower'] or '?'}–{x['audience_upper'] or '?'})  [{' > '.join(x['path'] or [])}]  ← {x['q']}")
-    # IL-only reach estimate for the strongest interests, so we know the real size of the audience here
+    # IL reach estimates for candidate audiences (read-only, nothing is changed on the ad set)
+    vf = ROOT / "ads" / "audience-variants.json"
+    if vf.exists():
+        variants = json.loads(vf.read_text(encoding="utf-8"))
+        print("\n## audience estimates (monthly active, IL)")
+        for v in variants:
+            r = get(f"{ACCT}/delivery_estimate", targeting_spec=json.dumps(v["targeting"]), optimization_goal="LANDING_PAGE_VIEWS").get("data", [{}])
+            r = r[0] if r else {}
+            v["estimate"] = {k: r.get(k) for k in ("estimate_mau_lower_bound", "estimate_mau_upper_bound", "estimate_ready")}
+            print(f"- {v['name']}: {r.get('estimate_mau_lower_bound')}–{r.get('estimate_mau_upper_bound')}")
+        vf.write_text(json.dumps(variants, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     (ROOT / "ads").mkdir(exist_ok=True)
     (ROOT / "ads" / "targeting-options.json").write_text(json.dumps(out, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
 
