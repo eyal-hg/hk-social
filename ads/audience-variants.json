@@ -37,6 +37,11 @@
      ]
     }
    ]
+  },
+  "estimate": {
+   "estimate_mau_lower_bound": 383500,
+   "estimate_mau_upper_bound": 451200,
+   "estimate_ready": true
   }
  },
  {
@@ -79,28 +84,29 @@
     {
      "education_majors": [
       {
-       "type": "adeducationmajor",
-       "q": "Accounting"
+       "id": "101026586619843",
+       "name": "Accounting & Finance"
       },
       {
-       "type": "adeducationmajor",
-       "q": "Economics"
+       "id": "106299439401513",
+       "name": "Financial economics"
       },
       {
-       "type": "adeducationmajor",
-       "q": "Finance"
+       "id": "107870585903083",
+       "name": "Finance"
       },
       {
-       "type": "adeducationmajor",
-       "q": "Business administration"
-      },
-      {
-       "type": "adeducationmajor",
-       "q": "Taxation"
+       "id": "103999156302829",
+       "name": "Master of Business Administration"
       }
      ]
     }
    ]
+  },
+  "estimate": {
+   "estimate_mau_lower_bound": 1000,
+   "estimate_mau_upper_bound": 1000,
+   "estimate_ready": true
   }
  },
  {
@@ -159,28 +165,29 @@
     {
      "education_majors": [
       {
-       "type": "adeducationmajor",
-       "q": "Accounting"
+       "id": "101026586619843",
+       "name": "Accounting & Finance"
       },
       {
-       "type": "adeducationmajor",
-       "q": "Economics"
+       "id": "106299439401513",
+       "name": "Financial economics"
       },
       {
-       "type": "adeducationmajor",
-       "q": "Finance"
+       "id": "107870585903083",
+       "name": "Finance"
       },
       {
-       "type": "adeducationmajor",
-       "q": "Business administration"
-      },
-      {
-       "type": "adeducationmajor",
-       "q": "Taxation"
+       "id": "103999156302829",
+       "name": "Master of Business Administration"
       }
      ]
     }
    ]
+  },
+  "estimate": {
+   "estimate_mau_lower_bound": 1000,
+   "estimate_mau_upper_bound": 1000,
+   "estimate_ready": true
   }
  },
  {
@@ -203,28 +210,29 @@
     {
      "education_majors": [
       {
-       "type": "adeducationmajor",
-       "q": "Accounting"
+       "id": "101026586619843",
+       "name": "Accounting & Finance"
       },
       {
-       "type": "adeducationmajor",
-       "q": "Economics"
+       "id": "106299439401513",
+       "name": "Financial economics"
       },
       {
-       "type": "adeducationmajor",
-       "q": "Finance"
+       "id": "107870585903083",
+       "name": "Finance"
       },
       {
-       "type": "adeducationmajor",
-       "q": "Business administration"
-      },
-      {
-       "type": "adeducationmajor",
-       "q": "Taxation"
+       "id": "103999156302829",
+       "name": "Master of Business Administration"
       }
      ]
     }
    ]
+  },
+  "estimate": {
+   "estimate_mau_lower_bound": 1000,
+   "estimate_mau_upper_bound": 1100,
+   "estimate_ready": true
   }
  },
  {
@@ -281,6 +289,11 @@
      ]
     }
    ]
+  },
+  "estimate": {
+   "estimate_mau_lower_bound": 277600,
+   "estimate_mau_upper_bound": 326600,
+   "estimate_ready": true
   }
  },
  {
@@ -321,24 +334,20 @@
      ],
      "education_majors": [
       {
-       "type": "adeducationmajor",
-       "q": "Accounting"
+       "id": "101026586619843",
+       "name": "Accounting & Finance"
       },
       {
-       "type": "adeducationmajor",
-       "q": "Economics"
+       "id": "106299439401513",
+       "name": "Financial economics"
       },
       {
-       "type": "adeducationmajor",
-       "q": "Finance"
+       "id": "107870585903083",
+       "name": "Finance"
       },
       {
-       "type": "adeducationmajor",
-       "q": "Business administration"
-      },
-      {
-       "type": "adeducationmajor",
-       "q": "Taxation"
+       "id": "103999156302829",
+       "name": "Master of Business Administration"
       }
      ]
     },
@@ -359,6 +368,11 @@
      ]
     }
    ]
+  },
+  "estimate": {
+   "estimate_mau_lower_bound": 277200,
+   "estimate_mau_upper_bound": 326100,
+   "estimate_ready": true
   }
  },
  {
@@ -401,24 +415,20 @@
     {
      "education_majors": [
       {
-       "type": "adeducationmajor",
-       "q": "Accounting"
+       "id": "101026586619843",
+       "name": "Accounting & Finance"
       },
       {
-       "type": "adeducationmajor",
-       "q": "Economics"
+       "id": "106299439401513",
+       "name": "Financial economics"
       },
       {
-       "type": "adeducationmajor",
-       "q": "Finance"
+       "id": "107870585903083",
+       "name": "Finance"
       },
       {
-       "type": "adeducationmajor",
-       "q": "Business administration"
-      },
-      {
-       "type": "adeducationmajor",
-       "q": "Taxation"
+       "id": "103999156302829",
+       "name": "Master of Business Administration"
       }
      ]
     },
@@ -439,6 +449,11 @@
      ]
     }
    ]
+  },
+  "estimate": {
+   "estimate_mau_lower_bound": 1000,
+   "estimate_mau_upper_bound": 1000,
+   "estimate_ready": true
   }
  }
 ]

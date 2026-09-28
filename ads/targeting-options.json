@@ -740,5 +740,312 @@
    "audience_upper": null,
    "q": "Grant Thornton"
   }
- ]
+ ],
+ "adeducationmajor": [
+  {
+   "id": "101026586619843",
+   "name": "Accounting & Finance",
+   "path": null,
+   "audience_lower": null,
+   "audience_upper": null,
+   "q": "Accounting"
+  },
+  {
+   "id": "103808756324711",
+   "name": "Management accounting",
+   "path": null,
+   "audience_lower": null,
+   "audience_upper": null,
+   "q": "Accounting"
+  },
+  {
+   "id": "108580785840629",
+   "name": "Accounting management",
+   "path": null,
+   "audience_lower": null,
+   "audience_upper": null,
+   "q": "Accounting"
+  },
+  {
+   "id": "188057141224995",
+   "name": "Accounting and Financial Management",
+   "path": null,
+   "audience_lower": null,
+   "audience_upper": null,
+   "q": "Accounting"
+  },
+  {
+   "id": "164779446904960",
+   "name": "ACCA Accounting",
+   "path": null,
+   "audience_lower": null,
+   "audience_upper": null,
+   "q": "Accounting"
+  },
+  {
+   "id": "110142099063189",
+   "name": "Finance, Accounting and Management",
+   "path": null,
+   "audience_lower": null,
+   "audience_upper": null,
+   "q": "Accounting"
+  },
+  {
+   "id": "108312999223548",
+   "name": "Accounting Dept.",
+   "path": null,
+   "audience_lower": null,
+   "audience_upper": null,
+   "q": "Accounting"
+  },
+  {
+   "id": "112358675444985",
+   "name": "Cost accounting",
+   "path": null,
+   "audience_lower": null,
+   "audience_upper": null,
+   "q": "Accounting"
+  },
+  {
+   "id": "106299439401513",
+   "name": "Financial economics",
+   "path": null,
+   "audience_lower": null,
+   "audience_upper": null,
+   "q": "Economics"
+  },
+  {
+   "id": "114866605196718",
+   "name": "Managerial economics",
+   "path": null,
+   "audience_lower": null,
+   "audience_upper": null,
+   "q": "Economics"
+  },
+  {
+   "id": "115076568504109",
+   "name": "Business economics",
+   "path": null,
+   "audience_lower": null,
+   "audience_upper": null,
+   "q": "Economics"
+  },
+  {
+   "id": "112026658813817",
+   "name": "International economics",
+   "path": null,
+   "audience_lower": null,
+   "audience_upper": null,
+   "q": "Economics"
+  },
+  {
+   "id": "112652822079211",
+   "name": "Agricultural economics",
+   "path": null,
+   "audience_lower": null,
+   "audience_upper": null,
+   "q": "Economics"
+  },
+  {
+   "id": "108308165856947",
+   "name": "Mathematical economics",
+   "path": null,
+   "audience_lower": null,
+   "audience_upper": null,
+   "q": "Economics"
+  },
+  {
+   "id": "106101372754237",
+   "name": "Applied economics",
+   "path": null,
+   "audience_lower": null,
+   "audience_upper": null,
+   "q": "Economics"
+  },
+  {
+   "id": "103142599725340",
+   "name": "Behavioral economics",
+   "path": null,
+   "audience_lower": null,
+   "audience_upper": null,
+   "q": "Economics"
+  },
+  {
+   "id": "107870585903083",
+   "name": "Finance",
+   "path": null,
+   "audience_lower": null,
+   "audience_upper": null,
+   "q": "Finance"
+  },
+  {
+   "id": "1620955998142035",
+   "name": "Finance",
+   "path": null,
+   "audience_lower": null,
+   "audience_upper": null,
+   "q": "Finance"
+  },
+  {
+   "id": "133731313333572",
+   "name": "Business and Finance",
+   "path": null,
+   "audience_lower": null,
+   "audience_upper": null,
+   "q": "Finance"
+  },
+  {
+   "id": "112340512111220",
+   "name": "Matemática financeira",
+   "path": null,
+   "audience_lower": null,
+   "audience_upper": null,
+   "q": "Finance"
+  },
+  {
+   "id": "108751925815304",
+   "name": "International Finance",
+   "path": null,
+   "audience_lower": null,
+   "audience_upper": null,
+   "q": "Finance"
+  },
+  {
+   "id": "103867872985418",
+   "name": "Public finance",
+   "path": null,
+   "audience_lower": null,
+   "audience_upper": null,
+   "q": "Finance"
+  },
+  {
+   "id": "112241092121969",
+   "name": "Business & Finance",
+   "path": null,
+   "audience_lower": null,
+   "audience_upper": null,
+   "q": "Finance"
+  },
+  {
+   "id": "205291832931031",
+   "name": "M.Com( Finance)",
+   "path": null,
+   "audience_lower": null,
+   "audience_upper": null,
+   "q": "Finance"
+  },
+  {
+   "id": "103999156302829",
+   "name": "Master of Business Administration",
+   "path": null,
+   "audience_lower": null,
+   "audience_upper": null,
+   "q": "Business administration"
+  },
+  {
+   "id": "154453934610480",
+   "name": "Bachelor Business of Administration",
+   "path": null,
+   "audience_lower": null,
+   "audience_upper": null,
+   "q": "Business administration"
+  },
+  {
+   "id": "193450237340877",
+   "name": "Master Degree of Business Administration (MBA)",
+   "path": null,
+   "audience_lower": null,
+   "audience_upper": null,
+   "q": "Business administration"
+  },
+  {
+   "id": "193889833971826",
+   "name": "경영학(Business Administration)",
+   "path": null,
+   "audience_lower": null,
+   "audience_upper": null,
+   "q": "Business administration"
+  },
+  {
+   "id": "197134023631962",
+   "name": "Master of Business Administration (Finance)",
+   "path": null,
+   "audience_lower": null,
+   "audience_upper": null,
+   "q": "Business administration"
+  },
+  {
+   "id": "190420901050089",
+   "name": "Executive- Master of Business Administration",
+   "path": null,
+   "audience_lower": null,
+   "audience_upper": null,
+   "q": "Business administration"
+  },
+  {
+   "id": "200488253301806",
+   "name": "Business Administration - Management & Marketing",
+   "path": null,
+   "audience_lower": null,
+   "audience_upper": null,
+   "q": "Business management"
+  },
+  {
+   "id": "142804195748314",
+   "name": "Faculty of Commerce and Business Administration - Helwan...",
+   "path": null,
+   "audience_lower": null,
+   "audience_upper": null,
+   "q": "Business administration"
+  },
+  {
+   "id": "106335129403847",
+   "name": "Business management",
+   "path": null,
+   "audience_lower": null,
+   "audience_upper": null,
+   "q": "Business management"
+  },
+  {
+   "id": "135598143141262",
+   "name": "Bachelor of Business Management",
+   "path": null,
+   "audience_lower": null,
+   "audience_upper": null,
+   "q": "Business management"
+  },
+  {
+   "id": "162990383752047",
+   "name": "Business, Management, & Marketing",
+   "path": null,
+   "audience_lower": null,
+   "audience_upper": null,
+   "q": "Business management"
+  },
+  {
+   "id": "361981517209349",
+   "name": "Small Business & Retail Management",
+   "path": null,
+   "audience_lower": null,
+   "audience_upper": null,
+   "q": "Business management"
+  },
+  {
+   "id": "162517590464314",
+   "name": "Master's Degree in Business Management",
+   "path": null,
+   "audience_lower": null,
+   "audience_upper": null,
+   "q": "Business management"
+  },
+  {
+   "id": "182665471769495",
+   "name": "International Business & Management Studies",
+   "path": null,
+   "audience_lower": null,
+   "audience_upper": null,
+   "q": "Business management"
+  }
+ ],
+ "behaviors": []
 }
