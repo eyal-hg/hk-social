@@ -222,7 +222,7 @@ def apply_plan(plan_path):
             print("skip (done)", i, a["type"]); continue
         try:
             res = {"set_adset_budget": set_budget, "create_campaign": create_campaign, "revive": revive,
-                   "add_ads": add_ads, "pause_ads": pause_ads}[a["type"]](a)
+                   "add_ads": add_ads, "pause_ads": pause_ads, "set_targeting": set_targeting}[a["type"]](a)
             applied.append({"index": i, "type": a["type"], "ok": True, "at": datetime.now(ZoneInfo("Asia/Jerusalem")).isoformat(timespec="minutes"), "result": res})
             print("ok", i, a["type"], res)
         except Exception as e:  # noqa: BLE001
@@ -288,6 +288,14 @@ def add_ads(a):
                   status=a.get("status", "ACTIVE"))
         ads.append({"post": post_id, "ad": ad_name, "ad_id": ad["id"], "creative_id": creative["id"]})
     return {"campaign_id": c["id"], "adset_id": adset["id"], "ads": ads}
+
+
+def set_targeting(a):
+    """Replace an ad set's audience. The plan carries the full targeting spec (geo, ages, flexible_spec, flag)."""
+    c, adset = _adset(a)
+    before = call("GET", adset["id"], fields="targeting").get("targeting")
+    call("POST", adset["id"], targeting=json.dumps(a["targeting"]))
+    return {"campaign_id": c["id"], "adset_id": adset["id"], "targeting": a["targeting"], "before": before}
 
 
 def pause_ads(a):
