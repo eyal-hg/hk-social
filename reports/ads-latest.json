@@ -1,5 +1,5 @@
 {
- "generated": "28.09.2026 09:45",
+ "generated": "28.09.2026 09:54",
  "account": {
   "name": "HK",
   "currency": "ILS",
@@ -121,14 +121,14 @@
     "landing_page_views": 0.0
    },
    "lifetime": {
-    "spend": 14666.54,
-    "impressions": 102713,
+    "spend": 14666.56,
+    "impressions": 102714,
     "reach": 27545,
     "clicks": 2143,
-    "ctr": 2.086396,
-    "cpc": 6.843929,
+    "ctr": 2.086376,
+    "cpc": 6.843938,
     "leads": 180.0,
-    "cost_per_lead": 81.480778,
+    "cost_per_lead": 81.480889,
     "landing_page_views": 0.0
    },
    "ads_last7": [
@@ -203,14 +203,14 @@
     {
      "adset": "‏סדרת מודעות לידים חדשה‏ - בעלי עסקים",
      "name": "סרטון יום שישי",
-     "spend": 4189.71,
-     "impressions": 35032,
-     "reach": 17678,
+     "spend": 4189.73,
+     "impressions": 35033,
+     "reach": 17675,
      "clicks": 784,
-     "ctr": 2.237954,
-     "cpc": 5.344018,
+     "ctr": 2.23789,
+     "cpc": 5.344043,
      "leads": 66.0,
-     "cost_per_lead": 63.480455,
+     "cost_per_lead": 63.480758,
      "landing_page_views": 0.0
     }
    ]
@@ -1169,7 +1169,7 @@
    "lifetime": {
     "spend": 23712.05,
     "impressions": 236841,
-    "reach": 47424,
+    "reach": 47423,
     "clicks": 4584,
     "ctr": 1.935476,
     "cpc": 5.172786,
@@ -1641,7 +1641,7 @@
      "name": "וידיאו 1 || 3 טקסטים",
      "spend": 16137.84,
      "impressions": 148726,
-     "reach": 40396,
+     "reach": 40394,
      "clicks": 2143,
      "ctr": 1.440905,
      "cpc": 7.53049,
@@ -2248,6 +2248,13 @@
    ],
    "ads": [
     {
+     "name": "2026-W40-SA1 · b",
+     "status": "PAUSED",
+     "effective_status": "PAUSED",
+     "adset_id": "120251876298060740",
+     "id": "120251880216690740"
+    },
+    {
      "name": "2026-W40-SA2",
      "status": "ACTIVE",
      "effective_status": "ACTIVE",
@@ -2295,13 +2302,6 @@
      "effective_status": "PAUSED",
      "adset_id": "120251876298060740",
      "id": "120251876321800740"
-    },
-    {
-     "name": "2026-W40-SA1 · b",
-     "status": "ACTIVE",
-     "effective_status": "ACTIVE",
-     "adset_id": "120251876298060740",
-     "id": "120251880216690740"
     }
    ]
   },
@@ -3008,5 +3008,43 @@
     "PageView": 6
    }
   }
- ]
+ ],
+ "yesterday": {
+  "date": "27.09.2026",
+  "campaigns": {
+   "120216039932250740": {
+    "spend": 29.25,
+    "impressions": 268,
+    "reach": 211,
+    "clicks": 4,
+    "ctr": 1.492537,
+    "cpc": 7.3125,
+    "leads": 0.0,
+    "cost_per_lead": null,
+    "landing_page_views": 0.0
+   },
+   "120245939439290740": {
+    "spend": 48.32,
+    "impressions": 265,
+    "reach": 255,
+    "clicks": 6,
+    "ctr": 2.264151,
+    "cpc": 8.053333,
+    "leads": 0.0,
+    "cost_per_lead": null,
+    "landing_page_views": 0.0
+   }
+  },
+  "total": {
+   "spend": 77.57,
+   "impressions": 533,
+   "reach": 466,
+   "clicks": 10,
+   "ctr": 1.876172607879925,
+   "cpc": 7.757,
+   "leads": 0.0,
+   "cost_per_lead": null,
+   "landing_page_views": 0.0
+  }
+ }
 }
