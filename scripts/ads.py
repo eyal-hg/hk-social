@@ -67,6 +67,7 @@ def main():
     call_ = insights("campaign", "maximum")
     adall = insights("ad", "maximum")
     cy, sy, ady = insights("campaign", "yesterday"), insights("adset", "yesterday"), insights("ad", "yesterday")
+    ctd, adtd = insights("campaign", "today"), insights("ad", "today")
     adsets = defaultdict(list)
     for s in get(f"{ACCT}/adsets", fields="campaign_id,name,effective_status,daily_budget,optimization_goal,destination_type,start_time,end_time", limit=200).get("data", []):
         adsets[s["campaign_id"]].append(s)
@@ -136,6 +137,19 @@ def main():
                     L += [f"    - ביקורת: {json.dumps(ad['ad_review_feedback'], ensure_ascii=False)[:400]}"]
         L += [""]
     report["active_detail"] = detail
+
+    # today so far, per active campaign and ad (for intraday questions)
+    L += [f"## היום עד עכשיו ({now})", ""]
+    for c in camps:
+        if c.get("effective_status") != "ACTIVE":
+            continue
+        t = ctd.get(c["id"], zero)
+        L += [f"- {c['name']}: {money(t['spend'])}, {t['impressions']:,} חשיפות, {t['clicks']} קליקים, {t['landing_page_views']:.0f} צפיות בדף, {t['leads']:.0f} לידים ({money(t['cost_per_lead'])}/ליד)"]
+        for aid, r in adtd.items():
+            if r["_names"].get("campaign_id") == c["id"] and (r["spend"] or r["leads"]):
+                L += [f"  - {r['_names'].get('ad_name')}: {money(r['spend'])}, {r['clicks']} קליקים, {r['leads']:.0f} לידים"]
+    L += [""]
+    report["today"] = {cid: {k: v for k, v in r.items() if k != "_names"} for cid, r in ctd.items()}
 
     # pixel health: last event time + last-day event counts (PageView / Lead)
     L += ["## פיקסל", ""]
