@@ -151,6 +151,21 @@ def main():
     L += [""]
     report["today"] = {cid: {k: v for k, v in r.items() if k != "_names"} for cid, r in ctd.items()}
 
+    # delivery diagnostics for active campaigns with zero impressions today (why is Meta not showing the ads?)
+    stuck = [c for c in camps if c.get("effective_status") == "ACTIVE" and not ctd.get(c["id"], zero)["impressions"]]
+    if stuck:
+        L += ["## אבחון אי-הצגה", ""]
+        acct_diag = get(ACCT, fields="account_status,disable_reason,spend_cap,amount_spent,funding_source_details")
+        L += [f"- חשבון: status {acct_diag.get('account_status')} · disable_reason {acct_diag.get('disable_reason')} · spend_cap {acct_diag.get('spend_cap')} · מימון {json.dumps(acct_diag.get('funding_source_details'), ensure_ascii=False)[:120]}"]
+        for c in stuck:
+            cd = get(c["id"], fields="effective_status,configured_status,issues_info,start_time,stop_time,daily_budget,lifetime_budget,special_ad_categories")
+            L += [f"- קמפיין {c['name']}: {json.dumps(cd, ensure_ascii=False)[:400]}"]
+            for st in get(f"{c['id']}/adsets", fields="name,effective_status,configured_status,learning_stage_info,issues_info,start_time,end_time,daily_budget,bid_strategy,optimization_goal,billing_event,targeting,recommendations", limit=20).get("data", []):
+                L += [f"  - קבוצה {st['name']}: {json.dumps({k: v for k, v in st.items() if k not in ('name', 'id')}, ensure_ascii=False)[:1500]}"]
+            for ad in get(f"{c['id']}/ads", fields="name,effective_status,configured_status,issues_info,ad_review_feedback,preview_shareable_link,created_time,updated_time", limit=20).get("data", []):
+                L += [f"  - מודעה {ad['name']}: {json.dumps({k: v for k, v in ad.items() if k not in ('name', 'id')}, ensure_ascii=False)[:600]}"]
+        L += [""]
+
     # pixel health: last event time + last-day event counts (PageView / Lead)
     L += ["## פיקסל", ""]
     pixels = get(f"{ACCT}/adspixels", fields="name,last_fired_time", limit=10).get("data", [])
