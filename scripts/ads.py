@@ -128,7 +128,7 @@ def main():
             for i in st.get("issues_info") or []:
                 L += [f"  - ⚠ {i.get('error_summary', '')}: {i.get('error_message', '')} [{i.get('level', '')} {i.get('error_code', '')}]"]
             for ad in [a for a in ads_ if a.get("adset_id") == st["id"]]:
-                L += [f"  - מודעה {ad['name']}: {ad.get('status')}/{ad.get('effective_status')}"]
+                L += [f"  - מודעה {ad['name']} ({ad['id']}): {ad.get('status')}/{ad.get('effective_status')}"]
                 for i in ad.get("issues_info") or []:
                     L += [f"    - ⚠ {i.get('error_summary', '')}: {i.get('error_message', '')} [{i.get('level', '')} {i.get('error_code', '')}]"]
                 if ad.get("ad_review_feedback"):
@@ -138,7 +138,15 @@ def main():
 
     # pixel health: last event time + last-day event counts (PageView / Lead)
     L += ["## פיקסל", ""]
-    for px in get(f"{ACCT}/adspixels", fields="name,last_fired_time", limit=10).get("data", []):
+    pixels = get(f"{ACCT}/adspixels", fields="name,last_fired_time", limit=10).get("data", [])
+    if not pixels:  # the account listing comes back empty for this app; fall back to the ids recorded by ads_apply
+        ids = set()
+        for q in (ROOT / "ads" / "plans").glob("*.json"):
+            for x in json.loads(q.read_text(encoding="utf-8")).get("applied", []):
+                if x.get("ok") and (x.get("result") or {}).get("pixel_id"):
+                    ids.add(x["result"]["pixel_id"])
+        pixels = [get(i, fields="name,last_fired_time") | {"id": i} for i in sorted(ids)]
+    for px in pixels:
         stats = get(f"{px['id']}/stats", aggregation="event", start_time=int(datetime.now().timestamp()) - 86400 * 3).get("data", [])
         counts = {}
         for row in stats:
