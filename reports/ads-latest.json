@@ -1,5 +1,5 @@
 {
- "generated": "28.09.2026 09:54",
+ "generated": "28.09.2026 14:10",
  "account": {
   "name": "HK",
   "currency": "ILS",
@@ -121,14 +121,14 @@
     "landing_page_views": 0.0
    },
    "lifetime": {
-    "spend": 14666.56,
-    "impressions": 102714,
-    "reach": 27545,
-    "clicks": 2143,
-    "ctr": 2.086376,
-    "cpc": 6.843938,
+    "spend": 14673.28,
+    "impressions": 102756,
+    "reach": 27548,
+    "clicks": 2144,
+    "ctr": 2.086496,
+    "cpc": 6.843881,
     "leads": 180.0,
-    "cost_per_lead": 81.480889,
+    "cost_per_lead": 81.518222,
     "landing_page_views": 0.0
    },
    "ads_last7": [
@@ -203,14 +203,14 @@
     {
      "adset": "‏סדרת מודעות לידים חדשה‏ - בעלי עסקים",
      "name": "סרטון יום שישי",
-     "spend": 4189.73,
-     "impressions": 35033,
-     "reach": 17675,
-     "clicks": 784,
-     "ctr": 2.23789,
-     "cpc": 5.344043,
+     "spend": 4196.45,
+     "impressions": 35075,
+     "reach": 17690,
+     "clicks": 785,
+     "ctr": 2.238061,
+     "cpc": 5.345796,
      "leads": 66.0,
-     "cost_per_lead": 63.480758,
+     "cost_per_lead": 63.582576,
      "landing_page_views": 0.0
     }
    ]
@@ -1167,14 +1167,14 @@
     "landing_page_views": 0.0
    },
    "lifetime": {
-    "spend": 23712.05,
-    "impressions": 236841,
+    "spend": 23715.53,
+    "impressions": 236868,
     "reach": 47423,
     "clicks": 4584,
-    "ctr": 1.935476,
-    "cpc": 5.172786,
+    "ctr": 1.935255,
+    "cpc": 5.173545,
     "leads": 414.0,
-    "cost_per_lead": 57.275483,
+    "cost_per_lead": 57.283889,
     "landing_page_views": 0.0
    },
    "ads_last7": [
@@ -1639,14 +1639,14 @@
     {
      "adset": "‏‏‏קהל פתוח || 25+ || מיקומים אוטומטים || סרטונים 1-10",
      "name": "וידיאו 1 || 3 טקסטים",
-     "spend": 16137.84,
-     "impressions": 148726,
+     "spend": 16141.32,
+     "impressions": 148753,
      "reach": 40394,
      "clicks": 2143,
-     "ctr": 1.440905,
-     "cpc": 7.53049,
+     "ctr": 1.440643,
+     "cpc": 7.532114,
      "leads": 290.0,
-     "cost_per_lead": 55.647724,
+     "cost_per_lead": 55.659724,
      "landing_page_views": 0.0
     },
     {
@@ -3003,9 +3003,9 @@
   {
    "id": "1750634382895124",
    "name": "HK Pixel",
-   "last_fired_time": "2026-09-28T09:40:50+0300",
+   "last_fired_time": "2026-09-28T13:13:36+0300",
    "events_3d": {
-    "PageView": 6
+    "PageView": 10
    }
   }
  ],
