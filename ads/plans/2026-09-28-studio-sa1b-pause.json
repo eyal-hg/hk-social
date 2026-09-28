@@ -1,0 +1,15 @@
+{
+  "requested_by": "קלוד 28.09: SA1 המקורית שוחררה ע\"י Meta ופעילה; SA1 · b כפילות — משהים אותה",
+  "approved": true,
+  "approved_by": "במסגרת אישור אייל ל-SA1-SA3; ללא שינוי תקציב",
+  "actions": [
+    {
+      "type": "pause_ads",
+      "campaign_name": "HK Studio · יועצים · כניסות לדף",
+      "adset_name": "HK Studio · יועצים · כניסות לדף · קבוצה 1",
+      "ad_names": [
+        "2026-W40-SA1 · b"
+      ]
+    }
+  ]
+}
