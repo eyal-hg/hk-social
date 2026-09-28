@@ -160,5 +160,191 @@
       },
       "note": "ישראל בלבד (מגורים, לא מבקרים), 28-65, תחומי עניין OR תפקידי עבודה של יועצים/רו״ח/יועצים פיננסיים; בלי Advantage+ כדי שההגדרה תהיה קשיחה"
     }
+  ],
+  "applied": [
+    {
+      "index": 0,
+      "type": "set_targeting",
+      "ok": true,
+      "at": "2026-09-28T06:56+03:00",
+      "result": {
+        "campaign_id": "120251876259960740",
+        "adset_id": "120251876298060740",
+        "targeting": {
+          "geo_locations": {
+            "countries": [
+              "IL"
+            ],
+            "location_types": [
+              "home"
+            ]
+          },
+          "age_min": 28,
+          "age_max": 65,
+          "targeting_automation": {
+            "advantage_audience": 0
+          },
+          "flexible_spec": [
+            {
+              "interests": [
+                {
+                  "id": "6003274244908",
+                  "name": "Management consulting"
+                },
+                {
+                  "id": "6003215620345",
+                  "name": "Financial adviser"
+                },
+                {
+                  "id": "6003138589139",
+                  "name": "Accounting"
+                },
+                {
+                  "id": "6002984410123",
+                  "name": "Certified Public Accountant"
+                },
+                {
+                  "id": "6003649965713",
+                  "name": "Bookkeeping"
+                },
+                {
+                  "id": "6006252868071",
+                  "name": "Consulting firm"
+                },
+                {
+                  "id": "6899293316073",
+                  "name": "Consulting"
+                },
+                {
+                  "id": "6003280183843",
+                  "name": "Business development"
+                },
+                {
+                  "id": "6003389795312",
+                  "name": "Financial accounting"
+                },
+                {
+                  "id": "6003373929051",
+                  "name": "Accounting software"
+                },
+                {
+                  "id": "6003122830124",
+                  "name": "Tax preparation"
+                },
+                {
+                  "id": "6003282114841",
+                  "name": "Certified Financial Planner"
+                },
+                {
+                  "id": "6003197139767",
+                  "name": "Financial analysis"
+                },
+                {
+                  "id": "6003156575084",
+                  "name": "Financial plan"
+                }
+              ],
+              "work_positions": [
+                {
+                  "id": "112303612129140",
+                  "name": "Business consultant"
+                },
+                {
+                  "id": "775020095880331",
+                  "name": "Business Management Consultant"
+                },
+                {
+                  "id": "599903136775985",
+                  "name": "Business Process Consultant"
+                },
+                {
+                  "id": "108173379210853",
+                  "name": "Financial adviser"
+                },
+                {
+                  "id": "113837198626859",
+                  "name": "Independent Financial Adviser"
+                },
+                {
+                  "id": "402211249948034",
+                  "name": "Personal Financial Advisor"
+                },
+                {
+                  "id": "112926212054966",
+                  "name": "Accountant"
+                },
+                {
+                  "id": "107452832618122",
+                  "name": "Certified Public Accountant"
+                },
+                {
+                  "id": "347436648798594",
+                  "name": "Certified Public Accountant (CPA)"
+                },
+                {
+                  "id": "105525432814378",
+                  "name": "Chartered accountant"
+                },
+                {
+                  "id": "146778582007205",
+                  "name": "Tax Manager, CPA"
+                },
+                {
+                  "id": "347309745475304",
+                  "name": "Accounting Bookkeeper"
+                },
+                {
+                  "id": "995726960456380",
+                  "name": "Head Bookkeeper"
+                },
+                {
+                  "id": "829235287146800",
+                  "name": "Tax Consultant"
+                },
+                {
+                  "id": "622111074509802",
+                  "name": "Tax Professional/Consultant"
+                },
+                {
+                  "id": "112558655421889",
+                  "name": "Chief financial officer"
+                },
+                {
+                  "id": "537667672938714",
+                  "name": "Controller"
+                },
+                {
+                  "id": "1377626565889039",
+                  "name": "Corporate Controller"
+                }
+              ]
+            }
+          ]
+        },
+        "before": {
+          "age_max": 65,
+          "age_min": 28,
+          "geo_locations": {
+            "countries": [
+              "IL"
+            ],
+            "location_types": [
+              "frequently_in",
+              "home",
+              "recent"
+            ]
+          },
+          "targeting_automation": {
+            "advantage_audience": 0
+          },
+          "user_age_unknown": false
+        },
+        "estimate": {
+          "estimate_mau_lower_bound": 1500000,
+          "estimate_mau_upper_bound": 1800000,
+          "estimate_ready": true
+        }
+      }
+    }
   ]
 }
