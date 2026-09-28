@@ -1,0 +1,66 @@
+{
+  "requested_by": "אייל 28.09.2026: קהל יועצים עסקיים / יועצים פיננסיים / רו״ח, רק בישראל",
+  "approved": true,
+  "approved_by": "אותה דרישה של אייל; אין שינוי תקציב. גרסה J מתוך השוואת 13 גרסאות (ads/audience-variants.json): 278–327K בישראל לעומת 1.5–1.8M",
+  "actions": [
+    {
+      "type": "set_targeting",
+      "campaign_name": "HK Studio · יועצים · כניסות לדף",
+      "adset_name": "HK Studio · יועצים · כניסות לדף · קבוצה 1",
+      "targeting": {
+        "geo_locations": {
+          "countries": [
+            "IL"
+          ],
+          "location_types": [
+            "home"
+          ]
+        },
+        "age_min": 28,
+        "age_max": 65,
+        "targeting_automation": {
+          "advantage_audience": 0
+        },
+        "flexible_spec": [
+          {
+            "interests": [
+              {
+                "id": "6003274244908",
+                "name": "Management consulting"
+              },
+              {
+                "id": "6002984410123",
+                "name": "Certified Public Accountant"
+              },
+              {
+                "id": "6003649965713",
+                "name": "Bookkeeping"
+              },
+              {
+                "id": "6006252868071",
+                "name": "Consulting firm"
+              }
+            ]
+          },
+          {
+            "interests": [
+              {
+                "id": "6002884511422",
+                "name": "Small business"
+              },
+              {
+                "id": "6003280183843",
+                "name": "Business development"
+              },
+              {
+                "id": "6003184559502",
+                "name": "Professional services"
+              }
+            ]
+          }
+        ]
+      },
+      "note": "ישראל תושבים 28-65; (CPA OR Management consulting OR Bookkeeping OR Consulting firm) AND (Small business OR Business development OR Professional services); בלי Advantage+. תפקידי עבודה ומקצועות לימוד מחזירים ~1,000 בישראל - Meta רוקנה אותם, לכן לא בשימוש"
+    }
+  ]
+}
