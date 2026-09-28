@@ -1,6 +1,6 @@
 [
  {
-  "name": "A · נוכחי: 14 תחומי עניין OR 18 תפקידים",
+  "name": "F · 4 תחומי עניין הדוקים",
   "targeting": {
    "geo_locations": {
     "countries": [
@@ -33,133 +33,14 @@
       {
        "id": "6006252868071",
        "name": "Consulting firm"
-      },
-      {
-       "id": "6899293316073",
-       "name": "Consulting"
-      },
-      {
-       "id": "6003122830124",
-       "name": "Tax preparation"
-      },
-      {
-       "id": "6003282114841",
-       "name": "Certified Financial Planner"
-      },
-      {
-       "id": "6003197139767",
-       "name": "Financial analysis"
-      },
-      {
-       "id": "6003215620345",
-       "name": "Financial adviser"
-      },
-      {
-       "id": "6003138589139",
-       "name": "Accounting"
-      },
-      {
-       "id": "6003280183843",
-       "name": "Business development"
-      },
-      {
-       "id": "6003389795312",
-       "name": "Financial accounting"
-      },
-      {
-       "id": "6003373929051",
-       "name": "Accounting software"
-      },
-      {
-       "id": "6003156575084",
-       "name": "Financial plan"
-      }
-     ],
-     "work_positions": [
-      {
-       "id": "112303612129140",
-       "name": "Business consultant"
-      },
-      {
-       "id": "775020095880331",
-       "name": "Business Management Consultant"
-      },
-      {
-       "id": "599903136775985",
-       "name": "Business Process Consultant"
-      },
-      {
-       "id": "108173379210853",
-       "name": "Financial adviser"
-      },
-      {
-       "id": "113837198626859",
-       "name": "Independent Financial Adviser"
-      },
-      {
-       "id": "402211249948034",
-       "name": "Personal Financial Advisor"
-      },
-      {
-       "id": "112926212054966",
-       "name": "Accountant"
-      },
-      {
-       "id": "107452832618122",
-       "name": "Certified Public Accountant"
-      },
-      {
-       "id": "347436648798594",
-       "name": "Certified Public Accountant (CPA)"
-      },
-      {
-       "id": "105525432814378",
-       "name": "Chartered accountant"
-      },
-      {
-       "id": "146778582007205",
-       "name": "Tax Manager, CPA"
-      },
-      {
-       "id": "347309745475304",
-       "name": "Accounting Bookkeeper"
-      },
-      {
-       "id": "995726960456380",
-       "name": "Head Bookkeeper"
-      },
-      {
-       "id": "829235287146800",
-       "name": "Tax Consultant"
-      },
-      {
-       "id": "622111074509802",
-       "name": "Tax Professional/Consultant"
-      },
-      {
-       "id": "112558655421889",
-       "name": "Chief financial officer"
-      },
-      {
-       "id": "537667672938714",
-       "name": "Controller"
-      },
-      {
-       "id": "1377626565889039",
-       "name": "Corporate Controller"
       }
      ]
     }
    ]
-  },
-  "estimate": {
-   "estimate_mau_lower_bound": 1500000,
-   "estimate_mau_upper_bound": 1800000,
-   "estimate_ready": true
   }
  },
  {
-  "name": "B · 8 תחומי עניין צרים OR 18 תפקידים",
+  "name": "G · הדוקים AND מקצוע לימודים (חשבונאות/כלכלה/מימון/מנהל עסקים/מיסוי)",
   "targeting": {
    "geo_locations": {
     "countries": [
@@ -192,210 +73,38 @@
       {
        "id": "6006252868071",
        "name": "Consulting firm"
-      },
-      {
-       "id": "6899293316073",
-       "name": "Consulting"
-      },
-      {
-       "id": "6003122830124",
-       "name": "Tax preparation"
-      },
-      {
-       "id": "6003282114841",
-       "name": "Certified Financial Planner"
-      },
-      {
-       "id": "6003197139767",
-       "name": "Financial analysis"
-      }
-     ],
-     "work_positions": [
-      {
-       "id": "112303612129140",
-       "name": "Business consultant"
-      },
-      {
-       "id": "775020095880331",
-       "name": "Business Management Consultant"
-      },
-      {
-       "id": "599903136775985",
-       "name": "Business Process Consultant"
-      },
-      {
-       "id": "108173379210853",
-       "name": "Financial adviser"
-      },
-      {
-       "id": "113837198626859",
-       "name": "Independent Financial Adviser"
-      },
-      {
-       "id": "402211249948034",
-       "name": "Personal Financial Advisor"
-      },
-      {
-       "id": "112926212054966",
-       "name": "Accountant"
-      },
-      {
-       "id": "107452832618122",
-       "name": "Certified Public Accountant"
-      },
-      {
-       "id": "347436648798594",
-       "name": "Certified Public Accountant (CPA)"
-      },
-      {
-       "id": "105525432814378",
-       "name": "Chartered accountant"
-      },
-      {
-       "id": "146778582007205",
-       "name": "Tax Manager, CPA"
-      },
-      {
-       "id": "347309745475304",
-       "name": "Accounting Bookkeeper"
-      },
-      {
-       "id": "995726960456380",
-       "name": "Head Bookkeeper"
-      },
-      {
-       "id": "829235287146800",
-       "name": "Tax Consultant"
-      },
-      {
-       "id": "622111074509802",
-       "name": "Tax Professional/Consultant"
-      },
-      {
-       "id": "112558655421889",
-       "name": "Chief financial officer"
-      },
-      {
-       "id": "537667672938714",
-       "name": "Controller"
-      },
-      {
-       "id": "1377626565889039",
-       "name": "Corporate Controller"
       }
      ]
-    }
-   ]
-  },
-  "estimate": {
-   "estimate_mau_lower_bound": 441000,
-   "estimate_mau_upper_bound": 518800,
-   "estimate_ready": true
-  }
- },
- {
-  "name": "C · תפקידים בלבד",
-  "targeting": {
-   "geo_locations": {
-    "countries": [
-     "IL"
-    ],
-    "location_types": [
-     "home"
-    ]
-   },
-   "age_min": 28,
-   "age_max": 65,
-   "targeting_automation": {
-    "advantage_audience": 0
-   },
-   "flexible_spec": [
+    },
     {
-     "work_positions": [
+     "education_majors": [
       {
-       "id": "112303612129140",
-       "name": "Business consultant"
+       "type": "adeducationmajor",
+       "q": "Accounting"
       },
       {
-       "id": "775020095880331",
-       "name": "Business Management Consultant"
+       "type": "adeducationmajor",
+       "q": "Economics"
       },
       {
-       "id": "599903136775985",
-       "name": "Business Process Consultant"
+       "type": "adeducationmajor",
+       "q": "Finance"
       },
       {
-       "id": "108173379210853",
-       "name": "Financial adviser"
+       "type": "adeducationmajor",
+       "q": "Business administration"
       },
       {
-       "id": "113837198626859",
-       "name": "Independent Financial Adviser"
-      },
-      {
-       "id": "402211249948034",
-       "name": "Personal Financial Advisor"
-      },
-      {
-       "id": "112926212054966",
-       "name": "Accountant"
-      },
-      {
-       "id": "107452832618122",
-       "name": "Certified Public Accountant"
-      },
-      {
-       "id": "347436648798594",
-       "name": "Certified Public Accountant (CPA)"
-      },
-      {
-       "id": "105525432814378",
-       "name": "Chartered accountant"
-      },
-      {
-       "id": "146778582007205",
-       "name": "Tax Manager, CPA"
-      },
-      {
-       "id": "347309745475304",
-       "name": "Accounting Bookkeeper"
-      },
-      {
-       "id": "995726960456380",
-       "name": "Head Bookkeeper"
-      },
-      {
-       "id": "829235287146800",
-       "name": "Tax Consultant"
-      },
-      {
-       "id": "622111074509802",
-       "name": "Tax Professional/Consultant"
-      },
-      {
-       "id": "112558655421889",
-       "name": "Chief financial officer"
-      },
-      {
-       "id": "537667672938714",
-       "name": "Controller"
-      },
-      {
-       "id": "1377626565889039",
-       "name": "Corporate Controller"
+       "type": "adeducationmajor",
+       "q": "Taxation"
       }
      ]
     }
    ]
-  },
-  "estimate": {
-   "estimate_mau_lower_bound": 1000,
-   "estimate_mau_upper_bound": 1000,
-   "estimate_ready": true
   }
  },
  {
-  "name": "D · תחומי עניין צרים בלבד",
+  "name": "H · צרים(8) AND מקצוע לימודים",
   "targeting": {
    "geo_locations": {
     "countries": [
@@ -446,17 +155,80 @@
        "name": "Financial analysis"
       }
      ]
+    },
+    {
+     "education_majors": [
+      {
+       "type": "adeducationmajor",
+       "q": "Accounting"
+      },
+      {
+       "type": "adeducationmajor",
+       "q": "Economics"
+      },
+      {
+       "type": "adeducationmajor",
+       "q": "Finance"
+      },
+      {
+       "type": "adeducationmajor",
+       "q": "Business administration"
+      },
+      {
+       "type": "adeducationmajor",
+       "q": "Taxation"
+      }
+     ]
     }
    ]
-  },
-  "estimate": {
-   "estimate_mau_lower_bound": 440600,
-   "estimate_mau_upper_bound": 518400,
-   "estimate_ready": true
   }
  },
  {
-  "name": "E · צרים OR תפקידים, וגם AND 'Small business'/Business development",
+  "name": "I · מקצוע לימודים בלבד",
+  "targeting": {
+   "geo_locations": {
+    "countries": [
+     "IL"
+    ],
+    "location_types": [
+     "home"
+    ]
+   },
+   "age_min": 28,
+   "age_max": 65,
+   "targeting_automation": {
+    "advantage_audience": 0
+   },
+   "flexible_spec": [
+    {
+     "education_majors": [
+      {
+       "type": "adeducationmajor",
+       "q": "Accounting"
+      },
+      {
+       "type": "adeducationmajor",
+       "q": "Economics"
+      },
+      {
+       "type": "adeducationmajor",
+       "q": "Finance"
+      },
+      {
+       "type": "adeducationmajor",
+       "q": "Business administration"
+      },
+      {
+       "type": "adeducationmajor",
+       "q": "Taxation"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "name": "J · הדוקים AND (Small business/Business development/Professional services)",
   "targeting": {
    "geo_locations": {
     "countries": [
@@ -489,96 +261,6 @@
       {
        "id": "6006252868071",
        "name": "Consulting firm"
-      },
-      {
-       "id": "6899293316073",
-       "name": "Consulting"
-      },
-      {
-       "id": "6003122830124",
-       "name": "Tax preparation"
-      },
-      {
-       "id": "6003282114841",
-       "name": "Certified Financial Planner"
-      },
-      {
-       "id": "6003197139767",
-       "name": "Financial analysis"
-      }
-     ],
-     "work_positions": [
-      {
-       "id": "112303612129140",
-       "name": "Business consultant"
-      },
-      {
-       "id": "775020095880331",
-       "name": "Business Management Consultant"
-      },
-      {
-       "id": "599903136775985",
-       "name": "Business Process Consultant"
-      },
-      {
-       "id": "108173379210853",
-       "name": "Financial adviser"
-      },
-      {
-       "id": "113837198626859",
-       "name": "Independent Financial Adviser"
-      },
-      {
-       "id": "402211249948034",
-       "name": "Personal Financial Advisor"
-      },
-      {
-       "id": "112926212054966",
-       "name": "Accountant"
-      },
-      {
-       "id": "107452832618122",
-       "name": "Certified Public Accountant"
-      },
-      {
-       "id": "347436648798594",
-       "name": "Certified Public Accountant (CPA)"
-      },
-      {
-       "id": "105525432814378",
-       "name": "Chartered accountant"
-      },
-      {
-       "id": "146778582007205",
-       "name": "Tax Manager, CPA"
-      },
-      {
-       "id": "347309745475304",
-       "name": "Accounting Bookkeeper"
-      },
-      {
-       "id": "995726960456380",
-       "name": "Head Bookkeeper"
-      },
-      {
-       "id": "829235287146800",
-       "name": "Tax Consultant"
-      },
-      {
-       "id": "622111074509802",
-       "name": "Tax Professional/Consultant"
-      },
-      {
-       "id": "112558655421889",
-       "name": "Chief financial officer"
-      },
-      {
-       "id": "537667672938714",
-       "name": "Controller"
-      },
-      {
-       "id": "1377626565889039",
-       "name": "Corporate Controller"
       }
      ]
     },
@@ -599,15 +281,10 @@
      ]
     }
    ]
-  },
-  "estimate": {
-   "estimate_mau_lower_bound": 313100,
-   "estimate_mau_upper_bound": 368300,
-   "estimate_ready": true
   }
  },
  {
-  "name": "F · רק CPA/Management consulting/Bookkeeping/Consulting firm OR תפקידים",
+  "name": "K · (הדוקים OR מקצוע לימודים) AND עסקים",
   "targeting": {
    "geo_locations": {
     "countries": [
@@ -642,87 +319,126 @@
        "name": "Consulting firm"
       }
      ],
-     "work_positions": [
+     "education_majors": [
       {
-       "id": "112303612129140",
-       "name": "Business consultant"
+       "type": "adeducationmajor",
+       "q": "Accounting"
       },
       {
-       "id": "775020095880331",
-       "name": "Business Management Consultant"
+       "type": "adeducationmajor",
+       "q": "Economics"
       },
       {
-       "id": "599903136775985",
-       "name": "Business Process Consultant"
+       "type": "adeducationmajor",
+       "q": "Finance"
       },
       {
-       "id": "108173379210853",
-       "name": "Financial adviser"
+       "type": "adeducationmajor",
+       "q": "Business administration"
       },
       {
-       "id": "113837198626859",
-       "name": "Independent Financial Adviser"
+       "type": "adeducationmajor",
+       "q": "Taxation"
+      }
+     ]
+    },
+    {
+     "interests": [
+      {
+       "id": "6002884511422",
+       "name": "Small business"
       },
       {
-       "id": "402211249948034",
-       "name": "Personal Financial Advisor"
+       "id": "6003280183843",
+       "name": "Business development"
       },
       {
-       "id": "112926212054966",
-       "name": "Accountant"
-      },
-      {
-       "id": "107452832618122",
-       "name": "Certified Public Accountant"
-      },
-      {
-       "id": "347436648798594",
-       "name": "Certified Public Accountant (CPA)"
-      },
-      {
-       "id": "105525432814378",
-       "name": "Chartered accountant"
-      },
-      {
-       "id": "146778582007205",
-       "name": "Tax Manager, CPA"
-      },
-      {
-       "id": "347309745475304",
-       "name": "Accounting Bookkeeper"
-      },
-      {
-       "id": "995726960456380",
-       "name": "Head Bookkeeper"
-      },
-      {
-       "id": "829235287146800",
-       "name": "Tax Consultant"
-      },
-      {
-       "id": "622111074509802",
-       "name": "Tax Professional/Consultant"
-      },
-      {
-       "id": "112558655421889",
-       "name": "Chief financial officer"
-      },
-      {
-       "id": "537667672938714",
-       "name": "Controller"
-      },
-      {
-       "id": "1377626565889039",
-       "name": "Corporate Controller"
+       "id": "6003184559502",
+       "name": "Professional services"
       }
      ]
     }
    ]
-  },
-  "estimate": {
-   "estimate_mau_lower_bound": 382900,
-   "estimate_mau_upper_bound": 450500,
-   "estimate_ready": true
+  }
+ },
+ {
+  "name": "L · הדוקים AND מקצוע לימודים AND עסקים",
+  "targeting": {
+   "geo_locations": {
+    "countries": [
+     "IL"
+    ],
+    "location_types": [
+     "home"
+    ]
+   },
+   "age_min": 28,
+   "age_max": 65,
+   "targeting_automation": {
+    "advantage_audience": 0
+   },
+   "flexible_spec": [
+    {
+     "interests": [
+      {
+       "id": "6003274244908",
+       "name": "Management consulting"
+      },
+      {
+       "id": "6002984410123",
+       "name": "Certified Public Accountant"
+      },
+      {
+       "id": "6003649965713",
+       "name": "Bookkeeping"
+      },
+      {
+       "id": "6006252868071",
+       "name": "Consulting firm"
+      }
+     ]
+    },
+    {
+     "education_majors": [
+      {
+       "type": "adeducationmajor",
+       "q": "Accounting"
+      },
+      {
+       "type": "adeducationmajor",
+       "q": "Economics"
+      },
+      {
+       "type": "adeducationmajor",
+       "q": "Finance"
+      },
+      {
+       "type": "adeducationmajor",
+       "q": "Business administration"
+      },
+      {
+       "type": "adeducationmajor",
+       "q": "Taxation"
+      }
+     ]
+    },
+    {
+     "interests": [
+      {
+       "id": "6002884511422",
+       "name": "Small business"
+      },
+      {
+       "id": "6003280183843",
+       "name": "Business development"
+      },
+      {
+       "id": "6003184559502",
+       "name": "Professional services"
+      }
+     ]
+    }
+   ]
   }
  }
 ]

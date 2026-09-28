@@ -23,6 +23,7 @@ TERMS = {
                        "Management Consultant", "Business Coach", "Tax Consultant", "CFO", "Chief Financial Officer", "Controller",
                        "יועץ עסקי", "רואה חשבון", "יועץ פיננסי", "מנהל כספים", "יועץ מס"],
     "adworkemployer": ["Deloitte", "EY", "KPMG", "PwC", "BDO", "Grant Thornton"],
+    "adeducationmajor": ["Accounting", "Economics", "Finance", "Business administration", "Business management", "Taxation", "חשבונאות", "כלכלה"],
 }
 
 
@@ -49,10 +50,31 @@ def main():
         print(f"\n## {kind}: {len(rows)}")
         for x in out[kind]:
             print(f"- {x['id']}  {x['name']}  ({x['audience_lower'] or '?'}–{x['audience_upper'] or '?'})  [{' > '.join(x['path'] or [])}]  ← {x['q']}")
+    # behaviors are a fixed catalogue, not searchable: list the business-related ones
+    beh = get(f"{ACCT}/adTargetingCategory", **{"class": "behaviors"}).get("data", [])
+    beh = [b for b in beh if any(k in (b.get("name", "") + " ".join(b.get("path", []))).lower() for k in ("business", "admin", "owner", "engaged shopper", "professional"))]
+    out["behaviors"] = beh
+    print(f"\n## behaviors (business-related): {len(beh)}")
+    for b in beh:
+        print(f"- {b['id']}  {b['name']}  ({b.get('audience_size_lower_bound')}–{b.get('audience_size_upper_bound')})  [{' > '.join(b.get('path') or [])}]")
+
+    def resolve(node):
+        """{"type": "adeducationmajor", "q": "Accounting"} inside a variant -> the top search hit {id, name}."""
+        if isinstance(node, dict) and "q" in node and "type" in node:
+            hit = (get("search", type=node["type"], q=node["q"], limit=3, locale="en_US").get("data") or [{}])[0]
+            return {"id": hit.get("id"), "name": hit.get("name")} if hit.get("id") else None
+        if isinstance(node, dict):
+            return {k: resolve(v) for k, v in node.items()}
+        if isinstance(node, list):
+            return [x for x in (resolve(v) for v in node) if x is not None]
+        return node
+
     # IL reach estimates for candidate audiences (read-only, nothing is changed on the ad set)
     vf = ROOT / "ads" / "audience-variants.json"
     if vf.exists():
         variants = json.loads(vf.read_text(encoding="utf-8"))
+        for v in variants:
+            v["targeting"] = resolve(v["targeting"])
         print("\n## audience estimates (monthly active, IL)")
         for v in variants:
             r = get(f"{ACCT}/delivery_estimate", targeting_spec=json.dumps(v["targeting"]), optimization_goal="LANDING_PAGE_VIEWS").get("data", [{}])
