@@ -194,7 +194,9 @@ def main():
         a7, a30 = c7.get(c["id"], zero), c30.get(c["id"], zero)
         H += [f"<p class=muted>7 ימים: {money(a7['spend'])}, {a7['leads']:.0f} לידים ({money(a7['cost_per_lead'])}/ליד) · 30 ימים: {money(a30['spend'])}, {a30['leads']:.0f} לידים ({money(a30['cost_per_lead'])}/ליד)</p>"]
         issues = [(st["name"], i) for st in detail.get(c["id"], {}).get("adsets", []) if st.get("effective_status") == "ACTIVE" for i in st.get("issues_info") or []]
-        issues += [(ad["name"], i) for ad in detail.get(c["id"], {}).get("ads", []) if ad.get("effective_status") in ("WITH_ISSUES", "DISAPPROVED") for i in ad.get("issues_info") or []]
+        live_sets = {st["id"] for st in detail.get(c["id"], {}).get("adsets", []) if st.get("effective_status") == "ACTIVE"}
+        issues += [(ad["name"], i) for ad in detail.get(c["id"], {}).get("ads", [])
+                   if ad.get("adset_id") in live_sets and ad.get("effective_status") in ("WITH_ISSUES", "DISAPPROVED") for i in ad.get("issues_info") or []]
         for nm, i in issues:
             H += [f"<div class=warn>⚠ {nm}: {i.get('error_summary', '')} — {i.get('error_message', '')}</div>"]
     if tot["impressions"]:
