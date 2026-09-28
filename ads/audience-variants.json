@@ -151,6 +151,11 @@
      ]
     }
    ]
+  },
+  "estimate": {
+   "estimate_mau_lower_bound": 1500000,
+   "estimate_mau_upper_bound": 1800000,
+   "estimate_ready": true
   }
  },
  {
@@ -281,6 +286,11 @@
      ]
     }
    ]
+  },
+  "estimate": {
+   "estimate_mau_lower_bound": 441000,
+   "estimate_mau_upper_bound": 518800,
+   "estimate_ready": true
   }
  },
  {
@@ -377,6 +387,11 @@
      ]
     }
    ]
+  },
+  "estimate": {
+   "estimate_mau_lower_bound": 1000,
+   "estimate_mau_upper_bound": 1000,
+   "estimate_ready": true
   }
  },
  {
@@ -433,6 +448,11 @@
      ]
     }
    ]
+  },
+  "estimate": {
+   "estimate_mau_lower_bound": 440600,
+   "estimate_mau_upper_bound": 518400,
+   "estimate_ready": true
   }
  },
  {
@@ -579,6 +599,11 @@
      ]
     }
    ]
+  },
+  "estimate": {
+   "estimate_mau_lower_bound": 313100,
+   "estimate_mau_upper_bound": 368300,
+   "estimate_ready": true
   }
  },
  {
@@ -693,6 +718,11 @@
      ]
     }
    ]
+  },
+  "estimate": {
+   "estimate_mau_lower_bound": 382900,
+   "estimate_mau_upper_bound": 450500,
+   "estimate_ready": true
   }
  }
 ]
