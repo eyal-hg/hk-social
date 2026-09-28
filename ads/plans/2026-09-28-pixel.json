@@ -7,5 +7,18 @@
       "type": "create_pixel",
       "name": "HK Pixel"
     }
+  ],
+  "applied": [
+    {
+      "index": 0,
+      "type": "create_pixel",
+      "ok": true,
+      "at": "2026-09-28T07:24+03:00",
+      "result": {
+        "pixel_id": "1750634382895124",
+        "name": "HK Pixel",
+        "existing": false
+      }
+    }
   ]
 }
