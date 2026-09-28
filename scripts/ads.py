@@ -66,6 +66,7 @@ def main():
     c7, c30, ad7 = insights("campaign", "last_7d"), insights("campaign", "last_30d"), insights("ad", "last_7d")
     call_ = insights("campaign", "maximum")
     adall = insights("ad", "maximum")
+    cy, sy, ady = insights("campaign", "yesterday"), insights("adset", "yesterday"), insights("ad", "yesterday")
     adsets = defaultdict(list)
     for s in get(f"{ACCT}/adsets", fields="campaign_id,name,effective_status,daily_budget,optimization_goal,destination_type,start_time,end_time", limit=200).get("data", []):
         adsets[s["campaign_id"]].append(s)
@@ -155,6 +156,59 @@ def main():
         L += [f"- {px['name']} ({px['id']}): ירה לאחרונה {str(px.get('last_fired_time', '—'))[:16]} · 3 ימים: " + (", ".join(f"{k} {v}" for k, v in sorted(counts.items())) or "אין אירועים")]
         report.setdefault("pixels", []).append({"id": px["id"], "name": px["name"], "last_fired_time": px.get("last_fired_time"), "events_3d": counts})
     L += [""]
+
+    # ---- daily e-mail: yesterday, per active campaign / ad set / ad ----
+    yday = (datetime.now(ZoneInfo("Asia/Jerusalem")) - __import__("datetime").timedelta(days=1)).strftime("%d.%m.%Y")
+    def pct(v): return f"{float(v):.2f}%"
+    def num(v): return f"{int(v):,}"
+    def row(name, r, bold=False):
+        st = ' style="font-weight:700;background:#eef4f9"' if bold else ""
+        return (f"<tr{st}><td>{name}</td><td>{money(r['spend'])}</td><td>{num(r['impressions'])}</td><td>{num(r['reach'])}</td>"
+                f"<td>{num(r['clicks'])}</td><td>{pct(r['ctr'])}</td><td>{money(r['cpc'])}</td><td>{num(r['landing_page_views'])}</td>"
+                f"<td>{r['leads']:.0f}</td><td>{money(r['cost_per_lead'])}</td></tr>")
+    head = ("<tr><th>שם</th><th>הוצאה</th><th>חשיפות</th><th>הגעה</th><th>קליקים</th><th>CTR</th><th>עלות לקליק</th>"
+            "<th>צפיות בדף</th><th>לידים</th><th>עלות לליד</th></tr>")
+    css = ("<style>body{font-family:Arial,Helvetica,sans-serif;direction:rtl;color:#0c4068;max-width:900px;margin:0 auto;padding:16px}"
+           "h1{font-size:22px}h2{font-size:17px;margin:22px 0 6px}table{border-collapse:collapse;width:100%;font-size:13px}"
+           "th,td{border:1px solid #d6e0ea;padding:6px 8px;text-align:right;white-space:nowrap}th{background:#0c4068;color:#fff}"
+           ".muted{color:#5a6f84;font-size:12px}.warn{background:#fff1ee;border:1px solid #e48375;padding:8px 12px;border-radius:8px;margin:8px 0}</style>")
+    H = [f"<!doctype html><html lang=he dir=rtl><head><meta charset=utf-8>{css}</head><body>",
+         f"<h1>דוח מודעות יומי · HK · ביצועי אתמול {yday}</h1>",
+         f"<p class=muted>נוצר {now} · חשבון {acct.get('name')} · הוצאה מצטברת {agor(acct.get('amount_spent'))}</p>"]
+    tot = parse({})
+    for c in camps:
+        if c.get("effective_status") != "ACTIVE":
+            continue
+        y = cy.get(c["id"], zero)
+        for k in ("spend", "impressions", "reach", "clicks", "leads", "landing_page_views"):
+            tot[k] += y[k]
+        H += [f"<h2>{c['name']} <span class=muted>({c.get('objective')})</span></h2>", "<table>", head, row("קמפיין · אתמול", y, True)]
+        for st in detail.get(c["id"], {}).get("adsets", []):
+            if st.get("effective_status") != "ACTIVE":
+                continue
+            H += [row(f"קבוצה · {st['name']} · יומי {agor(st.get('daily_budget'))}", sy.get(st["id"], zero))]
+            for ad in detail[c["id"]]["ads"]:
+                if ad.get("adset_id") == st["id"] and ad.get("effective_status") == "ACTIVE":
+                    H += [row(f"&nbsp;&nbsp;מודעה · {ad['name']}", ady.get(ad["id"], zero))]
+        H += ["</table>"]
+        a7, a30 = c7.get(c["id"], zero), c30.get(c["id"], zero)
+        H += [f"<p class=muted>7 ימים: {money(a7['spend'])}, {a7['leads']:.0f} לידים ({money(a7['cost_per_lead'])}/ליד) · 30 ימים: {money(a30['spend'])}, {a30['leads']:.0f} לידים ({money(a30['cost_per_lead'])}/ליד)</p>"]
+        issues = [(st["name"], i) for st in detail.get(c["id"], {}).get("adsets", []) if st.get("effective_status") == "ACTIVE" for i in st.get("issues_info") or []]
+        issues += [(ad["name"], i) for ad in detail.get(c["id"], {}).get("ads", []) if ad.get("effective_status") in ("WITH_ISSUES", "DISAPPROVED") for i in ad.get("issues_info") or []]
+        for nm, i in issues:
+            H += [f"<div class=warn>⚠ {nm}: {i.get('error_summary', '')} — {i.get('error_message', '')}</div>"]
+    if tot["impressions"]:
+        tot["ctr"] = tot["clicks"] / tot["impressions"] * 100
+        tot["cpc"] = tot["spend"] / tot["clicks"] if tot["clicks"] else 0
+        tot["cost_per_lead"] = tot["spend"] / tot["leads"] if tot["leads"] else None
+    H += ["<h2>סה״כ אתמול (קמפיינים פעילים)</h2>", "<table>", head, row("סה״כ", tot, True), "</table>"]
+    if report.get("pixels"):
+        H += ["<h2>פיקסל</h2><ul>"] + [f"<li>{p['name']}: ירה לאחרונה {str(p.get('last_fired_time', '—'))[:16]} · 3 ימים: " +
+                                        (", ".join(f"{k} {v}" for k, v in sorted(p['events_3d'].items())) or "אין אירועים") + "</li>" for p in report["pixels"]] + ["</ul>"]
+    H += ["<p class=muted>הדוח המלא (7/30 ימים, כל הזמן, קמפיינים מושהים): github.com/eyal-hg/hk-social/blob/main/reports/ads-latest.md</p>", "</body></html>"]
+    (ROOT / "reports").mkdir(exist_ok=True)
+    (ROOT / "reports" / "daily-email.html").write_text("\n".join(H), encoding="utf-8")
+    report["yesterday"] = {"date": yday, "campaigns": {cid: {k: v for k, v in r.items() if k != "_names"} for cid, r in cy.items()}, "total": tot}
 
     out = ROOT / "reports"; out.mkdir(exist_ok=True)
     (out / "ads-latest.json").write_text(json.dumps(report, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
