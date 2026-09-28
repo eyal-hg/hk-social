@@ -294,8 +294,19 @@ def set_targeting(a):
     """Replace an ad set's audience. The plan carries the full targeting spec (geo, ages, flexible_spec, flag)."""
     c, adset = _adset(a)
     before = call("GET", adset["id"], fields="targeting").get("targeting")
-    call("POST", adset["id"], targeting=json.dumps(a["targeting"]))
-    return {"campaign_id": c["id"], "adset_id": adset["id"], "targeting": a["targeting"], "before": before}
+    t = json.loads(json.dumps(a["targeting"]))
+    try:
+        call("POST", adset["id"], targeting=json.dumps(t))
+    except RuntimeError as e:
+        # job titles are the fragile part of Meta targeting (many were retired); keep the interests if they are refused
+        if not any("work_positions" in fs for fs in t.get("flexible_spec", [])):
+            raise
+        print("targeting refused, retrying without job titles:", str(e)[:200])
+        for fs in t.get("flexible_spec", []):
+            fs.pop("work_positions", None)
+        call("POST", adset["id"], targeting=json.dumps(t))
+    est = call("GET", f"{adset['id']}/delivery_estimate", fields="estimate_mau_lower_bound,estimate_mau_upper_bound,estimate_ready").get("data", [{}])
+    return {"campaign_id": c["id"], "adset_id": adset["id"], "targeting": t, "before": before, "estimate": est[0] if est else None}
 
 
 def pause_ads(a):
