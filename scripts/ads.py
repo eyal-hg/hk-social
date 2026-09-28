@@ -136,6 +136,18 @@ def main():
         L += [""]
     report["active_detail"] = detail
 
+    # pixel health: last event time + last-day event counts (PageView / Lead)
+    L += ["## פיקסל", ""]
+    for px in get(f"{ACCT}/adspixels", fields="name,last_fired_time", limit=10).get("data", []):
+        stats = get(f"{px['id']}/stats", aggregation="event", start_time=int(datetime.now().timestamp()) - 86400 * 3).get("data", [])
+        counts = {}
+        for row in stats:
+            for d in row.get("data", []):
+                counts[d.get("value")] = counts.get(d.get("value"), 0) + int(d.get("count", 0))
+        L += [f"- {px['name']} ({px['id']}): ירה לאחרונה {str(px.get('last_fired_time', '—'))[:16]} · 3 ימים: " + (", ".join(f"{k} {v}" for k, v in sorted(counts.items())) or "אין אירועים")]
+        report.setdefault("pixels", []).append({"id": px["id"], "name": px["name"], "last_fired_time": px.get("last_fired_time"), "events_3d": counts})
+    L += [""]
+
     out = ROOT / "reports"; out.mkdir(exist_ok=True)
     (out / "ads-latest.json").write_text(json.dumps(report, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     (out / "ads-latest.md").write_text("\n".join(L) + "\n", encoding="utf-8")
