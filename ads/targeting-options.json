@@ -1,0 +1,744 @@
+{
+ "adinterest": [
+  {
+   "id": "6003225556345",
+   "name": "Hip hop music",
+   "path": [
+    "Interests",
+    "Entertainment",
+    "Music",
+    "Hip hop music"
+   ],
+   "audience_lower": 824386198,
+   "audience_upper": 969478170,
+   "q": "Cash flow"
+  },
+  {
+   "id": "6003327060545",
+   "name": "Education",
+   "path": [
+    "Interests",
+    "Additional interests",
+    "Education"
+   ],
+   "audience_lower": 725918801,
+   "audience_upper": 853680510,
+   "q": "Business development"
+  },
+  {
+   "id": "6002884511422",
+   "name": "Small business",
+   "path": [
+    "Interests",
+    "Small business"
+   ],
+   "audience_lower": 177101195,
+   "audience_upper": 208271006,
+   "q": "Small business"
+  },
+  {
+   "id": "6003493205765",
+   "name": "Federal government of the United States",
+   "path": [
+    "Interests",
+    "Additional interests",
+    "Federal government of the United States"
+   ],
+   "audience_lower": 149651641,
+   "audience_upper": 175990330,
+   "q": "Business development"
+  },
+  {
+   "id": "6003141785766",
+   "name": "Mortgage loans",
+   "path": [
+    "Interests",
+    "Personal finance",
+    "Mortgage loans"
+   ],
+   "audience_lower": 144190748,
+   "audience_upper": 169568320,
+   "q": "Cash flow"
+  },
+  {
+   "id": "6003138589139",
+   "name": "Accounting",
+   "path": [
+    "Interests",
+    "Additional interests",
+    "Accounting"
+   ],
+   "audience_lower": 84462780,
+   "audience_upper": 99328230,
+   "q": "Certified Public Accountant"
+  },
+  {
+   "id": "6002964301046",
+   "name": "Business school",
+   "path": [
+    "Interests",
+    "Additional interests",
+    "Business school"
+   ],
+   "audience_lower": 37760850,
+   "audience_upper": 44406760,
+   "q": "Business development"
+  },
+  {
+   "id": "6003274244908",
+   "name": "Management consulting",
+   "path": [
+    "Interests",
+    "Additional interests",
+    "Management consulting"
+   ],
+   "audience_lower": 19103579,
+   "audience_upper": 22465810,
+   "q": "Consulting"
+  },
+  {
+   "id": "6003215620345",
+   "name": "Financial adviser",
+   "path": [
+    "Interests",
+    "Additional interests",
+    "Financial adviser"
+   ],
+   "audience_lower": 13501666,
+   "audience_upper": 15877960,
+   "q": "Financial adviser"
+  },
+  {
+   "id": "6003258526157",
+   "name": "Small Business Administration",
+   "path": [
+    "Interests",
+    "Additional interests",
+    "Small Business Administration"
+   ],
+   "audience_lower": 12849421,
+   "audience_upper": 15110920,
+   "q": "Small business"
+  },
+  {
+   "id": "6003373929051",
+   "name": "Accounting software",
+   "path": [
+    "Interests",
+    "Additional interests",
+    "Accounting software"
+   ],
+   "audience_lower": 8823962,
+   "audience_upper": 10376980,
+   "q": "Accounting"
+  },
+  {
+   "id": "6003389795312",
+   "name": "Financial accounting",
+   "path": [
+    "Interests",
+    "Additional interests",
+    "Financial accounting"
+   ],
+   "audience_lower": 7947763,
+   "audience_upper": 9346570,
+   "q": "Accounting"
+  },
+  {
+   "id": "6003649965713",
+   "name": "Bookkeeping",
+   "path": [
+    "Interests",
+    "Additional interests",
+    "Bookkeeping"
+   ],
+   "audience_lower": 7154795,
+   "audience_upper": 8414040,
+   "q": "הנהלת חשבונות"
+  },
+  {
+   "id": "6003156575084",
+   "name": "Financial plan",
+   "path": [
+    "Interests",
+    "Additional interests",
+    "Financial plan"
+   ],
+   "audience_lower": 7110532,
+   "audience_upper": 8361986,
+   "q": "Financial planner"
+  },
+  {
+   "id": "6002984410123",
+   "name": "Certified Public Accountant",
+   "path": [
+    "Interests",
+    "Additional interests",
+    "Certified Public Accountant"
+   ],
+   "audience_lower": 6506513,
+   "audience_upper": 7651660,
+   "q": "רואה חשבון"
+  },
+  {
+   "id": "6003184559502",
+   "name": "Professional services",
+   "path": [
+    "Interests",
+    "Additional interests",
+    "Professional services"
+   ],
+   "audience_lower": 6095034,
+   "audience_upper": 7167760,
+   "q": "Business coaching"
+  },
+  {
+   "id": "6006252868071",
+   "name": "Consulting firm",
+   "path": [
+    "Interests",
+    "Additional interests",
+    "Consulting firm"
+   ],
+   "audience_lower": 6001471,
+   "audience_upper": 7057730,
+   "q": "Consulting"
+  },
+  {
+   "id": "6003057317756",
+   "name": "Business education",
+   "path": [
+    "Interests",
+    "Additional interests",
+    "Business education"
+   ],
+   "audience_lower": 4131888,
+   "audience_upper": 4859101,
+   "q": "Certified Public Accountant"
+  },
+  {
+   "id": "6003280183843",
+   "name": "Business development",
+   "path": [
+    "Interests",
+    "Additional interests",
+    "Business development"
+   ],
+   "audience_lower": 2955595,
+   "audience_upper": 3475780,
+   "q": "Business development"
+  },
+  {
+   "id": "6003142970561",
+   "name": "Information technology consulting",
+   "path": [
+    "Interests",
+    "Additional interests",
+    "Information technology consulting"
+   ],
+   "audience_lower": 2776760,
+   "audience_upper": 3265470,
+   "q": "Consulting"
+  },
+  {
+   "id": "6003292781530",
+   "name": "Boston Consulting Group",
+   "path": [
+    "Interests",
+    "Additional interests",
+    "Boston Consulting Group"
+   ],
+   "audience_lower": 1040119,
+   "audience_upper": 1223180,
+   "q": "Consulting"
+  },
+  {
+   "id": "6899293316073",
+   "name": "Consulting",
+   "path": [
+    "Interests",
+    "Additional interests",
+    "Consulting"
+   ],
+   "audience_lower": 850340,
+   "audience_upper": 1000000,
+   "q": "Consulting"
+  },
+  {
+   "id": "6797095139936",
+   "name": "Branches of law",
+   "path": [
+    "Interests",
+    "Additional interests",
+    "Branches of law"
+   ],
+   "audience_lower": 850340,
+   "audience_upper": 1000000,
+   "q": "Consulting"
+  },
+  {
+   "id": "6899293586673",
+   "name": "Fitness services",
+   "path": [
+    "Interests",
+    "Additional interests",
+    "Fitness services"
+   ],
+   "audience_lower": 850340,
+   "audience_upper": 1000000,
+   "q": "Consulting"
+  },
+  {
+   "id": "6866302901418",
+   "name": "Business and Finance",
+   "path": [
+    "Interests",
+    "Additional interests",
+    "Business and Finance"
+   ],
+   "audience_lower": 850340,
+   "audience_upper": 1000000,
+   "q": "Business development"
+  },
+  {
+   "id": "6773765650692",
+   "name": "British banks",
+   "path": [
+    "Interests",
+    "Additional interests",
+    "British banks"
+   ],
+   "audience_lower": 850340,
+   "audience_upper": 1000000,
+   "q": "Corporate finance"
+  },
+  {
+   "id": "6003122830124",
+   "name": "Tax preparation",
+   "path": [
+    "Interests",
+    "Additional interests",
+    "Tax preparation"
+   ],
+   "audience_lower": 687695,
+   "audience_upper": 808730,
+   "q": "Accounting"
+  },
+  {
+   "id": "6003282114841",
+   "name": "Certified Financial Planner",
+   "path": [
+    "Interests",
+    "Additional interests",
+    "Certified Financial Planner"
+   ],
+   "audience_lower": 677729,
+   "audience_upper": 797010,
+   "q": "Financial planner"
+  },
+  {
+   "id": "6003158099475",
+   "name": "Human resource consulting",
+   "path": [
+    "Interests",
+    "Additional interests",
+    "Human resource consulting"
+   ],
+   "audience_lower": 328052,
+   "audience_upper": 385790,
+   "q": "Consulting"
+  },
+  {
+   "id": "6003755775353",
+   "name": "Small business software",
+   "path": [
+    "Interests",
+    "Additional interests",
+    "Small business software"
+   ],
+   "audience_lower": 269642,
+   "audience_upper": 317100,
+   "q": "Small business"
+  },
+  {
+   "id": "6003197139767",
+   "name": "Financial analysis",
+   "path": [
+    "Interests",
+    "Additional interests",
+    "Financial analysis"
+   ],
+   "audience_lower": 259370,
+   "audience_upper": 305020,
+   "q": "Financial analysis"
+  },
+  {
+   "id": "6012894934015",
+   "name": "Small Business Expo",
+   "path": [
+    "Interests",
+    "Additional interests",
+    "Small Business Expo"
+   ],
+   "audience_lower": 86760,
+   "audience_upper": 102030,
+   "q": "Small business"
+  },
+  {
+   "id": "6007977195248",
+   "name": "Small Business Week",
+   "path": [
+    "Interests",
+    "Additional interests",
+    "Small Business Week"
+   ],
+   "audience_lower": 65375,
+   "audience_upper": 76882,
+   "q": "Small business"
+  },
+  {
+   "id": "6003156333233",
+   "name": "Federation of Small Businesses",
+   "path": [
+    "Interests",
+    "Additional interests",
+    "Federation of Small Businesses"
+   ],
+   "audience_lower": 61096,
+   "audience_upper": 71850,
+   "q": "Small business"
+  },
+  {
+   "id": "6017015601826",
+   "name": "Small Business Funding",
+   "path": [
+    "Interests",
+    "Additional interests",
+    "Small Business Funding"
+   ],
+   "audience_lower": 43863,
+   "audience_upper": 51584,
+   "q": "Small business"
+  },
+  {
+   "id": "6003243476813",
+   "name": "Venture capital financing",
+   "path": [
+    "Interests",
+    "Additional interests",
+    "Venture capital financing"
+   ],
+   "audience_lower": 30105,
+   "audience_upper": 35404,
+   "q": "Business development"
+  },
+  {
+   "id": "6006406543169",
+   "name": "International business development",
+   "path": [
+    "Interests",
+    "Additional interests",
+    "International business development"
+   ],
+   "audience_lower": 13903,
+   "audience_upper": 16350,
+   "q": "Business development"
+  },
+  {
+   "id": "6002958216723",
+   "name": "Small Business Innovation Research",
+   "path": [
+    "Interests",
+    "Additional interests",
+    "Small Business Innovation Research"
+   ],
+   "audience_lower": 4965,
+   "audience_upper": 5840,
+   "q": "Small business"
+  }
+ ],
+ "adworkposition": [
+  {
+   "id": "112303612129140",
+   "name": "Business consultant",
+   "path": null,
+   "audience_lower": null,
+   "audience_upper": null,
+   "q": "Business Consultant"
+  },
+  {
+   "id": "775020095880331",
+   "name": "Business Management Consultant",
+   "path": null,
+   "audience_lower": null,
+   "audience_upper": null,
+   "q": "Management Consultant"
+  },
+  {
+   "id": "599903136775985",
+   "name": "Business Process Consultant",
+   "path": null,
+   "audience_lower": null,
+   "audience_upper": null,
+   "q": "Business Consultant"
+  },
+  {
+   "id": "108173379210853",
+   "name": "Financial adviser",
+   "path": null,
+   "audience_lower": null,
+   "audience_upper": null,
+   "q": "Financial Advisor"
+  },
+  {
+   "id": "402211249948034",
+   "name": "Personal Financial Advisor",
+   "path": null,
+   "audience_lower": null,
+   "audience_upper": null,
+   "q": "Financial Advisor"
+  },
+  {
+   "id": "1551285628487803",
+   "name": "Financial Aid Advisor",
+   "path": null,
+   "audience_lower": null,
+   "audience_upper": null,
+   "q": "Financial Advisor"
+  },
+  {
+   "id": "113837198626859",
+   "name": "Independent Financial Adviser",
+   "path": null,
+   "audience_lower": null,
+   "audience_upper": null,
+   "q": "Financial Advisor"
+  },
+  {
+   "id": "112926212054966",
+   "name": "Accountant",
+   "path": null,
+   "audience_lower": null,
+   "audience_upper": null,
+   "q": "Accountant"
+  },
+  {
+   "id": "107452832618122",
+   "name": "Certified Public Accountant",
+   "path": null,
+   "audience_lower": null,
+   "audience_upper": null,
+   "q": "Accountant"
+  },
+  {
+   "id": "105525432814378",
+   "name": "Chartered accountant",
+   "path": null,
+   "audience_lower": null,
+   "audience_upper": null,
+   "q": "Accountant"
+  },
+  {
+   "id": "106219146076369",
+   "name": "Accountant General",
+   "path": null,
+   "audience_lower": null,
+   "audience_upper": null,
+   "q": "Accountant"
+  },
+  {
+   "id": "110118162345027",
+   "name": "Institute of Chartered Accountants of India",
+   "path": null,
+   "audience_lower": null,
+   "audience_upper": null,
+   "q": "Accountant"
+  },
+  {
+   "id": "112782495435827",
+   "name": "The Institute of Chartered Accountants of India (ICAI) -...",
+   "path": null,
+   "audience_lower": null,
+   "audience_upper": null,
+   "q": "Accountant"
+  },
+  {
+   "id": "172145176165392",
+   "name": "CA(Chartered Accountant)",
+   "path": null,
+   "audience_lower": null,
+   "audience_upper": null,
+   "q": "Accountant"
+  },
+  {
+   "id": "106199479410401",
+   "name": "Institute of Chartered Accountants of Pakistan",
+   "path": null,
+   "audience_lower": null,
+   "audience_upper": null,
+   "q": "Accountant"
+  },
+  {
+   "id": "347436648798594",
+   "name": "Certified Public Accountant (CPA)",
+   "path": null,
+   "audience_lower": null,
+   "audience_upper": null,
+   "q": "CPA"
+  },
+  {
+   "id": "146778582007205",
+   "name": "Tax Manager, CPA",
+   "path": null,
+   "audience_lower": null,
+   "audience_upper": null,
+   "q": "CPA"
+  },
+  {
+   "id": "347309745475304",
+   "name": "Accounting Bookkeeper",
+   "path": null,
+   "audience_lower": null,
+   "audience_upper": null,
+   "q": "Bookkeeper"
+  },
+  {
+   "id": "633091490169267",
+   "name": "Secretary-Bookkeeper",
+   "path": null,
+   "audience_lower": null,
+   "audience_upper": null,
+   "q": "Bookkeeper"
+  },
+  {
+   "id": "815068205248716",
+   "name": "Bookkeeper Assistant",
+   "path": null,
+   "audience_lower": null,
+   "audience_upper": null,
+   "q": "Bookkeeper"
+  },
+  {
+   "id": "1411692589132057",
+   "name": "Full Charge Bookkeeper",
+   "path": null,
+   "audience_lower": null,
+   "audience_upper": null,
+   "q": "Bookkeeper"
+  },
+  {
+   "id": "995726960456380",
+   "name": "Head Bookkeeper",
+   "path": null,
+   "audience_lower": null,
+   "audience_upper": null,
+   "q": "Bookkeeper"
+  },
+  {
+   "id": "829235287146800",
+   "name": "Tax Consultant",
+   "path": null,
+   "audience_lower": null,
+   "audience_upper": null,
+   "q": "Tax Consultant"
+  },
+  {
+   "id": "622111074509802",
+   "name": "Tax Professional/Consultant",
+   "path": null,
+   "audience_lower": null,
+   "audience_upper": null,
+   "q": "Tax Consultant"
+  },
+  {
+   "id": "112558655421889",
+   "name": "Chief financial officer",
+   "path": null,
+   "audience_lower": null,
+   "audience_upper": null,
+   "q": "Chief Financial Officer"
+  },
+  {
+   "id": "108040382556790",
+   "name": "Air traffic controller",
+   "path": null,
+   "audience_lower": null,
+   "audience_upper": null,
+   "q": "Controller"
+  },
+  {
+   "id": "537667672938714",
+   "name": "Controller",
+   "path": null,
+   "audience_lower": null,
+   "audience_upper": null,
+   "q": "Controller"
+  },
+  {
+   "id": "1536329236647402",
+   "name": "Material Controller",
+   "path": null,
+   "audience_lower": null,
+   "audience_upper": null,
+   "q": "Controller"
+  },
+  {
+   "id": "918115054889966",
+   "name": "Cost Controller",
+   "path": null,
+   "audience_lower": null,
+   "audience_upper": null,
+   "q": "Controller"
+  },
+  {
+   "id": "1555818981362913",
+   "name": "Inventory Controller",
+   "path": null,
+   "audience_lower": null,
+   "audience_upper": null,
+   "q": "Controller"
+  },
+  {
+   "id": "195118900504052",
+   "name": "Project controller",
+   "path": null,
+   "audience_lower": null,
+   "audience_upper": null,
+   "q": "Controller"
+  },
+  {
+   "id": "1377626565889039",
+   "name": "Corporate Controller",
+   "path": null,
+   "audience_lower": null,
+   "audience_upper": null,
+   "q": "Controller"
+  }
+ ],
+ "adworkemployer": [
+  {
+   "id": "111918042198070",
+   "name": "Deloitte",
+   "path": null,
+   "audience_lower": null,
+   "audience_upper": null,
+   "q": "Deloitte"
+  },
+  {
+   "id": "109513735742506",
+   "name": "Eyüboğlu High School",
+   "path": null,
+   "audience_lower": null,
+   "audience_upper": null,
+   "q": "EY"
+  },
+  {
+   "id": "107914062563749",
+   "name": "Grant Thornton LLP",
+   "path": null,
+   "audience_lower": null,
+   "audience_upper": null,
+   "q": "Grant Thornton"
+  }
+ ]
+}
