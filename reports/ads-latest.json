@@ -1,5 +1,5 @@
 {
- "generated": "29.09.2026 13:08",
+ "generated": "29.09.2026 13:51",
  "account": {
   "name": "HK",
   "currency": "ILS",
@@ -121,14 +121,14 @@
     "landing_page_views": 0.0
    },
    "lifetime": {
-    "spend": 14730.47,
-    "impressions": 103044,
+    "spend": 14731.07,
+    "impressions": 103050,
     "reach": 27548,
     "clicks": 2156,
-    "ctr": 2.09231,
-    "cpc": 6.832314,
+    "ctr": 2.092188,
+    "cpc": 6.832593,
     "leads": 181.0,
-    "cost_per_lead": 81.383812,
+    "cost_per_lead": 81.387127,
     "landing_page_views": 0.0
    },
    "ads_last7": [
@@ -203,14 +203,14 @@
     {
      "adset": "‏סדרת מודעות לידים חדשה‏ - בעלי עסקים",
      "name": "סרטון יום שישי",
-     "spend": 4253.64,
-     "impressions": 35363,
+     "spend": 4254.24,
+     "impressions": 35369,
      "reach": 17738,
      "clicks": 797,
-     "ctr": 2.253768,
-     "cpc": 5.337064,
+     "ctr": 2.253386,
+     "cpc": 5.337817,
      "leads": 67.0,
-     "cost_per_lead": 63.487164,
+     "cost_per_lead": 63.496119,
      "landing_page_views": 0.0
     }
    ]
@@ -1167,14 +1167,14 @@
     "landing_page_views": 0.0
    },
    "lifetime": {
-    "spend": 23788.35,
-    "impressions": 237433,
-    "reach": 47616,
-    "clicks": 4599,
-    "ctr": 1.936967,
-    "cpc": 5.172505,
+    "spend": 23788.64,
+    "impressions": 237439,
+    "reach": 47617,
+    "clicks": 4601,
+    "ctr": 1.937761,
+    "cpc": 5.17032,
     "leads": 415.0,
-    "cost_per_lead": 57.321325,
+    "cost_per_lead": 57.322024,
     "landing_page_views": 0.0
    },
    "ads_last7": [
@@ -1639,14 +1639,14 @@
     {
      "adset": "‏‏‏קהל פתוח || 25+ || מיקומים אוטומטים || סרטונים 1-10",
      "name": "וידיאו 1 || 3 טקסטים",
-     "spend": 16214.14,
-     "impressions": 149318,
+     "spend": 16214.43,
+     "impressions": 149324,
      "reach": 40601,
-     "clicks": 2158,
-     "ctr": 1.445238,
-     "cpc": 7.513503,
+     "clicks": 2160,
+     "ctr": 1.446519,
+     "cpc": 7.506681,
      "leads": 291.0,
-     "cost_per_lead": 55.718694,
+     "cost_per_lead": 55.719691,
      "landing_page_views": 0.0
     },
     {
@@ -2995,25 +2995,25 @@
  },
  "today": {
   "120216039932250740": {
-   "spend": 29.98,
-   "impressions": 211,
-   "reach": 192,
-   "clicks": 2,
-   "ctr": 0.947867,
-   "cpc": 14.99,
+   "spend": 30.27,
+   "impressions": 217,
+   "reach": 193,
+   "clicks": 4,
+   "ctr": 1.843318,
+   "cpc": 7.5675,
    "leads": 0.0,
    "cost_per_lead": null,
    "landing_page_views": 0.0
   },
   "120245939439290740": {
-   "spend": 21.86,
-   "impressions": 85,
-   "reach": 76,
+   "spend": 22.46,
+   "impressions": 91,
+   "reach": 83,
    "clicks": 3,
-   "ctr": 3.529412,
-   "cpc": 7.286667,
+   "ctr": 3.296703,
+   "cpc": 7.486667,
    "leads": 1.0,
-   "cost_per_lead": 21.86,
+   "cost_per_lead": 22.46,
    "landing_page_views": 0.0
   }
  },
