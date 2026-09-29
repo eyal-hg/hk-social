@@ -1,0 +1,24 @@
+{
+  "requested_by": "אייל 29.09.2026: האפליקציה פורסמה (Live). המודעות הקיימות נוצרו במצב פיתוח ולא הוצגו יומיים — יוצרים אותן מחדש מאפליקציה מפורסמת. אותו קופי, אותו קהל, אותו תקציב.",
+  "approved": true,
+  "approved_by": "אישור אייל ל-SA1-SA3 (27.09) + 'כן' ל-Live (29.09); ללא שינוי תקציב",
+  "actions": [
+    {
+      "type": "add_ads",
+      "fresh": true,
+      "suffix": " · live",
+      "page": "studio",
+      "campaign_name": "HK Studio · יועצים · כניסות לדף",
+      "adset_name": "HK Studio · יועצים · כניסות לדף · קבוצה 1",
+      "posts": [
+        "2026-W40-SA1",
+        "2026-W40-SA2",
+        "2026-W40-SA3"
+      ],
+      "headline": "HK Studio — המערכת שמאחורי היועץ",
+      "link": "https://studio.hak.co.il/?utm_source=facebook&utm_medium=paid&utm_campaign=studio",
+      "cta": "LEARN_MORE",
+      "status": "ACTIVE"
+    }
+  ]
+}

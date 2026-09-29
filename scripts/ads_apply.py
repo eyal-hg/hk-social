@@ -277,13 +277,19 @@ def add_ads(a):
         if norm(ad_name) in have:
             print("ad exists, skipping", ad_name); continue
         p = next(d for d in (json.loads(q.read_text(encoding="utf-8")) for q in ROOT.glob("posts/**/*.json")) if d["id"] == post_id)
-        fb_post = (p.get("results") or {}).get("facebook")
-        if not fb_post:
-            raise RuntimeError(f"{post_id} is not on the Page yet (publish it first)")
-        fb_post = story_id(fb_post, page_id)
-        print(post_id, "->", fb_post)
-        creative = call("POST", f"{ACCT}/adcreatives", name=ad_name, object_story_id=fb_post,
-                        call_to_action=json.dumps({"type": a.get("cta", "LEARN_MORE"), "value": {"link": a["link"]}}))
+        if a.get("fresh"):  # a brand-new ad post, born from the (now Live) app — not tied to a post made in development mode
+            spec = {"page_id": page_id, "link_data": {
+                "link": a["link"], "message": p["caption"], "picture": f"{IMAGE_BASE}/{post_id}.jpg",
+                "name": a.get("headline", ""), "call_to_action": {"type": a.get("cta", "LEARN_MORE"), "value": {"link": a["link"]}}}}
+            creative = call("POST", f"{ACCT}/adcreatives", name=ad_name, object_story_spec=json.dumps(spec))
+        else:
+            fb_post = (p.get("results") or {}).get("facebook")
+            if not fb_post:
+                raise RuntimeError(f"{post_id} is not on the Page yet (publish it first)")
+            fb_post = story_id(fb_post, page_id)
+            print(post_id, "->", fb_post)
+            creative = call("POST", f"{ACCT}/adcreatives", name=ad_name, object_story_id=fb_post,
+                            call_to_action=json.dumps({"type": a.get("cta", "LEARN_MORE"), "value": {"link": a["link"]}}))
         ad = call("POST", f"{ACCT}/ads", name=ad_name, adset_id=adset["id"], creative=json.dumps({"creative_id": creative["id"]}),
                   status=a.get("status", "ACTIVE"))
         ads.append({"post": post_id, "ad": ad_name, "ad_id": ad["id"], "creative_id": creative["id"]})
