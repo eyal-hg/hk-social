@@ -166,6 +166,24 @@ def main():
                 L += [f"  - מודעה {ad['name']}: {json.dumps({k: v for k, v in ad.items() if k not in ('name', 'id')}, ensure_ascii=False)[:600]}"]
         L += [""]
 
+    # when exactly did leads arrive: hourly breakdown for the last 3 days (advertiser time zone = Israel)
+    L += ["## לידים לפי שעה (3 ימים אחרונים)", ""]
+    lead_times = []
+    for preset in ("yesterday", "today"):
+        pass
+    rows = get(f"{ACCT}/insights", level="ad", fields="ad_name,campaign_name,actions", date_preset="last_3d",
+               time_increment=1, breakdowns="hourly_stats_aggregated_by_advertiser_time_zone", limit=500).get("data", [])
+    for row in rows:
+        n = sum(float(a.get("value", 0)) for a in row.get("actions", []) or [] if a.get("action_type") in LEAD_TYPES)
+        if n:
+            lead_times.append((row.get("date_start"), row.get("hourly_stats_aggregated_by_advertiser_time_zone", "")[:5], row.get("campaign_name"), row.get("ad_name"), int(n)))
+    for d, h, cn, an, n in sorted(lead_times):
+        L += [f"- {d} {h} · {cn} › {an}: {n}"]
+    if not lead_times:
+        L += ["- אין לידים ב-3 הימים האחרונים"]
+    L += [""]
+    report["lead_times"] = [{"date": d, "hour": h, "campaign": cn, "ad": an, "leads": n} for d, h, cn, an, n in sorted(lead_times)]
+
     # pixel health: last event time + last-day event counts (PageView / Lead)
     L += ["## פיקסל", ""]
     pixels = get(f"{ACCT}/adspixels", fields="name,last_fired_time", limit=10).get("data", [])
