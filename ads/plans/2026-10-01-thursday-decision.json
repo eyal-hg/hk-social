@@ -1,0 +1,27 @@
+{
+  "requested_by": "החלטת חמישי 1.10 (קלוד, בתוך התקרה של 200 ₪ שאייל קבע): הכסף הולך למה שמביא לידים",
+  "approved": true,
+  "approved_by": "בתוך התקרה; אייל 1.10: 'מאד מאוכזב מהניהול' — פועלים במקום לשאול. וידיאו 1: 4 לידים ב-50 ₪ · סרטון יום שישי: 1 ליד ב-246 ₪ · SA1 בסטודיו: CTR 0.56% עם 63% מהתקציב",
+  "actions": [
+    {
+      "type": "set_adset_budget",
+      "campaign_name": "טופס לידים || ניהול תזרים ||",
+      "daily_budget_ils": 80,
+      "note": "קמפיין CBO — התקציב על הקמפיין"
+    },
+    {
+      "type": "set_adset_budget",
+      "campaign_name": "קמפיין לידים אייל",
+      "adset_name": "סדרת מודעות לידים חדשה - בעלי עסקים",
+      "daily_budget_ils": 20
+    },
+    {
+      "type": "pause_ads",
+      "campaign_name": "HK Studio · יועצים · כניסות לדף",
+      "adset_name": "HK Studio · יועצים · כניסות לדף · קבוצה 1",
+      "ad_names": [
+        "2026-W40-SA1 · live"
+      ]
+    }
+  ]
+}
