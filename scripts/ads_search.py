@@ -50,6 +50,16 @@ def main():
         print(f"\n## {kind}: {len(rows)}")
         for x in out[kind]:
             print(f"- {x['id']}  {x['name']}  ({x['audience_lower'] or '?'}–{x['audience_upper'] or '?'})  [{' > '.join(x['path'] or [])}]  ← {x['q']}")
+    # the account's own audiences: customer lists, website/engagement audiences, lookalikes — with sizes and health
+    aud = paged(f"{ACCT}/customaudiences", TOKEN, fields="name,subtype,approximate_count_lower_bound,approximate_count_upper_bound,delivery_status,operation_status,time_updated,time_created,lookalike_spec,data_source,rule", limit=100)
+    out["custom_audiences"] = aud
+    print(f"\n## custom audiences: {len(aud)}")
+    for a in sorted(aud, key=lambda x: -(x.get("approximate_count_lower_bound") or 0)):
+        ds = (a.get("data_source") or {}).get("type", ""); ls = a.get("lookalike_spec") or {}
+        print(f"- {a['id']}  {a.get('name')}  [{a.get('subtype')}/{ds}]  ~{a.get('approximate_count_lower_bound')}–{a.get('approximate_count_upper_bound')}  "
+              f"delivery={ (a.get('delivery_status') or {}).get('description','') }  op={ (a.get('operation_status') or {}).get('description','') }  "
+              f"עודכן={str(a.get('time_updated',''))[:10]}  {('LAL '+str(ls.get('ratio'))+' של '+str([o.get('name') or o.get('id') for o in ls.get('origin',[])])) if ls else ''}")
+
     # behaviors are a fixed catalogue, not searchable: list the business-related ones
     beh = get(f"{ACCT}/adTargetingCategory", **{"class": "behaviors"}).get("data", [])
     beh = [b for b in beh if any(k in (b.get("name", "") + " ".join(b.get("path", []))).lower() for k in ("business", "admin", "owner", "engaged shopper", "professional"))]
