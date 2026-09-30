@@ -89,7 +89,10 @@ def to_instagram(post, ig_id):
 
 
 def main():
-    today = datetime.now(ZoneInfo("Asia/Jerusalem")).date().isoformat()
+    now_il = datetime.now(ZoneInfo("Asia/Jerusalem"))
+    today = now_il.date().isoformat()
+    if now_il.hour < 10 and "--now" not in sys.argv:  # posts go out at 10:00 Israel, whichever cron slot actually fires
+        print("before 10:00 Israel, nothing published yet", now_il.strftime("%H:%M")); return
     due = []
     for p in sorted((ROOT / "posts").rglob("*.json")):
         post = json.loads(p.read_text(encoding="utf-8"))

@@ -1,7 +1,11 @@
 name: publish
 on:
-  schedule:
-    - cron: "0 7 * * *"   # 10:00 שעון קיץ ישראל / 09:00 בחורף
+  schedule:                # GitHub מאחר שעות בדקות עגולות; כמה מועדים בדקות לא עגולות, והסקריפט לא מפרסם לפני 10:00 ישראל
+    - cron: "23 7 * * *"   # 10:23 קיץ
+    - cron: "41 7 * * *"
+    - cron: "23 8 * * *"
+    - cron: "41 8 * * *"
+    - cron: "23 9 * * *"
   workflow_dispatch:
     inputs:
       dry_run:
