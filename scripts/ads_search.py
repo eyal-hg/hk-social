@@ -38,6 +38,20 @@ def get(path, **params):
         return {}
 
 
+def paged(path, token, **params):
+    out, url = [], None
+    while True:
+        if url is None:
+            r = get(path, **params)
+        else:
+            with urllib.request.urlopen(url, timeout=60) as resp:
+                r = json.load(resp)
+        out += r.get("data", [])
+        url = r.get("paging", {}).get("next")
+        if not url:
+            return out
+
+
 def main():
     out = {}
     for kind, terms in TERMS.items():
