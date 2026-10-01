@@ -8,7 +8,7 @@
     "facebook",
     "instagram"
   ],
-  "status": "approved",
+  "status": "published",
   "id": "2026-W40-S6",
   "publish_date": "2026-10-01",
   "type": "מה נוחת אצלך",
@@ -37,5 +37,10 @@
     "ייעוץ_עסקי",
     "HKStudio",
     "AI"
-  ]
+  ],
+  "results": {
+    "facebook": "1414935705029390_122110324629484790",
+    "instagram": "17905882323589848"
+  },
+  "published_at": "2026-10-01T17:38+03:00"
 }
