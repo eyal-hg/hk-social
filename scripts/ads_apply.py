@@ -222,7 +222,7 @@ def apply_plan(plan_path):
             print("skip (done)", i, a["type"]); continue
         try:
             res = {"set_adset_budget": set_budget, "create_campaign": create_campaign, "revive": revive,
-                   "add_ads": add_ads, "pause_ads": pause_ads, "set_targeting": set_targeting, "create_pixel": create_pixel}[a["type"]](a)
+                   "add_ads": add_ads, "pause_ads": pause_ads, "set_targeting": set_targeting, "create_pixel": create_pixel, "clone_adset": clone_adset}[a["type"]](a)
             applied.append({"index": i, "type": a["type"], "ok": True, "at": datetime.now(ZoneInfo("Asia/Jerusalem")).isoformat(timespec="minutes"), "result": res})
             print("ok", i, a["type"], res)
         except Exception as e:  # noqa: BLE001
@@ -322,6 +322,39 @@ def create_pixel(a):
             print("pixel exists", px["id"]); return {"pixel_id": px["id"], "name": px["name"], "existing": True}
     px = call("POST", f"{ACCT}/adspixels", name=a["name"])
     return {"pixel_id": px["id"], "name": a["name"], "existing": False}
+
+
+def clone_adset(a):
+    """Duplicate an ad set (settings + its active ads) with a different audience — an A/B inside the same campaign.
+    In a CBO campaign the budget is shared, so this adds no spend; otherwise daily_budget_ils is required."""
+    c, src = _adset(a)
+    srcd = call("GET", src["id"], fields="name,targeting,optimization_goal,billing_event,bid_strategy,promoted_object,destination_type,attribution_spec,daily_budget")
+    for x in call("GET", f"{c['id']}/adsets", fields="name", limit=50)["data"]:
+        if same(x["name"], a["name"]):
+            raise RuntimeError("ad set already exists: " + a["name"])
+    t = srcd.get("targeting") or {}
+    nt = {"geo_locations": t.get("geo_locations", {"countries": ["IL"]}), "age_min": t.get("age_min", 25), "age_max": t.get("age_max", 65),
+          "targeting_automation": {"advantage_audience": 0},
+          "custom_audiences": [{"id": i} for i in a["custom_audiences"]]}
+    if a.get("excluded_custom_audiences"):
+        nt["excluded_custom_audiences"] = [{"id": i} for i in a["excluded_custom_audiences"]]
+    if t.get("publisher_platforms"): nt["publisher_platforms"] = t["publisher_platforms"]
+    params = dict(name=a["name"], campaign_id=c["id"], optimization_goal=srcd.get("optimization_goal"), billing_event=srcd.get("billing_event"),
+                  bid_strategy=srcd.get("bid_strategy") or "LOWEST_COST_WITHOUT_CAP", targeting=json.dumps(nt), status=a.get("status", "ACTIVE"))
+    if srcd.get("promoted_object"): params["promoted_object"] = json.dumps(srcd["promoted_object"])
+    if srcd.get("destination_type"): params["destination_type"] = srcd["destination_type"]
+    if srcd.get("attribution_spec"): params["attribution_spec"] = json.dumps(srcd["attribution_spec"])
+    if not c.get("daily_budget"):  # not CBO: the new ad set needs its own budget
+        params["daily_budget"] = ils(a["daily_budget_ils"])
+    new = call("POST", f"{ACCT}/adsets", **params)
+    ads = []
+    for ad in call("GET", f"{src['id']}/ads", fields="name,status,creative", limit=100)["data"]:
+        if ad.get("status") != "ACTIVE": continue
+        r = call("POST", f"{ACCT}/ads", name=ad["name"] + " · " + a.get("tag", "LAL"), adset_id=new["id"],
+                 creative=json.dumps({"creative_id": ad["creative"]["id"]}), status=a.get("status", "ACTIVE"))
+        ads.append({"from": ad["name"], "ad_id": r["id"]})
+    est = call("GET", f"{new['id']}/delivery_estimate", fields="estimate_mau_lower_bound,estimate_mau_upper_bound").get("data", [{}])
+    return {"campaign_id": c["id"], "adset_id": new["id"], "targeting": nt, "ads": ads, "estimate": est[0] if est else None}
 
 
 def pause_ads(a):
