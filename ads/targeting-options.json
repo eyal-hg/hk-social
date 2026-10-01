@@ -1047,5 +1047,480 @@
    "q": "Business management"
   }
  ],
+ "custom_audiences": [
+  {
+   "name": "דומה (1%) - קהל אפריל 26",
+   "subtype": "LOOKALIKE",
+   "approximate_count_lower_bound": -1,
+   "approximate_count_upper_bound": -1,
+   "delivery_status": {
+    "code": 200,
+    "description": "קהל זה מוכן לשימוש."
+   },
+   "operation_status": {
+    "code": 200,
+    "description": "רגיל"
+   },
+   "time_updated": 1777402930,
+   "time_created": 1777402930,
+   "lookalike_spec": {
+    "origin": [
+     {
+      "id": "120245943759880740",
+      "name": "קהל אפריל 26",
+      "type": "custom_audience"
+     }
+    ],
+    "ratio": 0.01,
+    "type": "custom_ratio"
+   },
+   "data_source": {
+    "type": "SEED_BASED",
+    "sub_type": "CUSTOM_AUDIENCE_USERS",
+    "creation_params": "[]"
+   },
+   "id": "120246050525520740"
+  },
+  {
+   "name": "קהל אפריל 26",
+   "subtype": "CUSTOM",
+   "approximate_count_lower_bound": 25500,
+   "approximate_count_upper_bound": 30000,
+   "delivery_status": {
+    "code": 200,
+    "description": "קהל זה מוכן לשימוש."
+   },
+   "operation_status": {
+    "code": 200,
+    "description": "רגיל"
+   },
+   "time_updated": 1777236291,
+   "time_created": 1777235997,
+   "data_source": {
+    "type": "UNKNOWN",
+    "sub_type": "ANYTHING",
+    "creation_params": "[]"
+   },
+   "id": "120245943759880740"
+  },
+  {
+   "name": "דומה (1% to 2%) - צפו לפחות ב75% מהסרטונים",
+   "subtype": "LOOKALIKE",
+   "approximate_count_lower_bound": -1,
+   "approximate_count_upper_bound": -1,
+   "delivery_status": {
+    "code": 200,
+    "description": "קהל זה מוכן לשימוש."
+   },
+   "operation_status": {
+    "code": 200,
+    "description": "רגיל"
+   },
+   "time_updated": 1777198650,
+   "time_created": 1777198650,
+   "lookalike_spec": {
+    "origin": [
+     {
+      "id": "120245928458530740",
+      "name": "צפו לפחות ב75% מהסרטונים",
+      "type": "custom_audience"
+     }
+    ],
+    "starting_ratio": 0.01,
+    "ratio": 0.02,
+    "type": "custom_ratio"
+   },
+   "data_source": {
+    "type": "SEED_BASED",
+    "sub_type": "ENGAGEMENT_EVENT_USERS",
+    "creation_params": "[]"
+   },
+   "id": "120245928460550740"
+  },
+  {
+   "name": "דומה (1%) - צפו לפחות ב75% מהסרטונים",
+   "subtype": "LOOKALIKE",
+   "approximate_count_lower_bound": -1,
+   "approximate_count_upper_bound": -1,
+   "delivery_status": {
+    "code": 200,
+    "description": "קהל זה מוכן לשימוש."
+   },
+   "operation_status": {
+    "code": 200,
+    "description": "רגיל"
+   },
+   "time_updated": 1777198648,
+   "time_created": 1777198648,
+   "lookalike_spec": {
+    "origin": [
+     {
+      "id": "120245928458530740",
+      "name": "צפו לפחות ב75% מהסרטונים",
+      "type": "custom_audience"
+     }
+    ],
+    "ratio": 0.01,
+    "type": "custom_ratio"
+   },
+   "data_source": {
+    "type": "SEED_BASED",
+    "sub_type": "ENGAGEMENT_EVENT_USERS",
+    "creation_params": "[]"
+   },
+   "id": "120245928460500740"
+  },
+  {
+   "name": "צפו לפחות ב75% מהסרטונים",
+   "subtype": "ENGAGEMENT",
+   "approximate_count_lower_bound": 8100,
+   "approximate_count_upper_bound": 9500,
+   "delivery_status": {
+    "code": 200,
+    "description": "קהל זה מוכן לשימוש."
+   },
+   "operation_status": {
+    "code": 200,
+    "description": "רגיל"
+   },
+   "time_updated": 1790821796,
+   "time_created": 1777198643,
+   "data_source": {
+    "type": "EVENT_BASED",
+    "sub_type": "ENGAGEMENT_EVENTS",
+    "creation_params": "{\"prefill\":\"true\"}"
+   },
+   "rule": "[{\"event_name\":\"video_view_75_percent\",\"object_id\":1256506519968895},{\"event_name\":\"video_view_75_percent\",\"object_id\":2634656626931925},{\"event_name\":\"video_view_75_percent\",\"object_id\":26461160973553739},{\"event_name\":\"video_view_75_percent\",\"object_id\":4012826482348521},{\"event_name\":\"video_view_75_percent\",\"object_id\":2030518724179367},{\"event_name\":\"video_view_75_percent\",\"object_id\":1560300055238422},{\"event_name\":\"video_view_75_percent\",\"object_id\":1832350821485938},{\"event_name\":\"video_view_75_percent\",\"object_id\":2018738662264052},{\"event_name\":\"video_view_75_percent\",\"object_id\":1827632757961614},{\"event_name\":\"video_view_75_percent\",\"object_id\":1317069019820105},{\"event_name\":\"video_view_75_percent\",\"object_id\":619584057683801},{\"event_name\":\"video_view_75_percent\",\"object_id\":985070203704499},{\"event_name\":\"video_view_75_percent\",\"object_id\":785315087157996},{\"event_name\":\"video_view_75_percent\",\"object_id\":1326147209514323},{\"event_name\":\"video_view_75_percent\",\"object_id\":1243497583984509},{\"event_name\":\"video_view_75_percent\",\"object_id\":2318638075218417},{\"event_name\":\"video_view_75_percent\",\"object_id\":1046599247669363},{\"event_name\":\"video_view_75_percent\",\"object_id\":788884176900690},{\"event_name\":\"video_view_75_percent\",\"object_id\":1227373836066654},{\"event_name\":\"video_view_75_percent\",\"object_id\":460486710334951},{\"event_name\":\"video_view_75_percent\",\"object_id\":997905292388298},{\"event_name\":\"video_view_75_percent\",\"object_id\":637324062058992},{\"event_name\":\"video_view_75_percent\",\"object_id\":1266607997940817},{\"event_name\":\"video_view_75_percent\",\"object_id\":1649333212673377},{\"event_name\":\"video_view_75_percent\",\"object_id\":1524392698270074},{\"event_name\":\"video_view_75_percent\",\"object_id\":1145437913673651}]",
+   "id": "120245928458530740"
+  },
+  {
+   "name": "דומה (1% to 2%) - מבקרים באתר כללי",
+   "subtype": "LOOKALIKE",
+   "approximate_count_lower_bound": -1,
+   "approximate_count_upper_bound": -1,
+   "delivery_status": {
+    "code": 200,
+    "description": "קהל זה מוכן לשימוש."
+   },
+   "operation_status": {
+    "code": 433,
+    "description": "לא יכולנו ליצור את הקהל הדומה שלך. מחק קהל זה ונסה ליצור אותו שוב."
+   },
+   "time_updated": 1777198413,
+   "time_created": 1777198413,
+   "lookalike_spec": {
+    "origin": [
+     {
+      "id": "120245928424090740",
+      "name": "מבקרים באתר כללי",
+      "type": "custom_audience"
+     }
+    ],
+    "starting_ratio": 0.01,
+    "ratio": 0.02,
+    "type": "custom_ratio"
+   },
+   "data_source": {
+    "type": "SEED_BASED",
+    "sub_type": "PLATFORM_USERS",
+    "creation_params": "[]"
+   },
+   "id": "120245928427920740"
+  },
+  {
+   "name": "דומה (1%) - מבקרים באתר כללי",
+   "subtype": "LOOKALIKE",
+   "approximate_count_lower_bound": -1,
+   "approximate_count_upper_bound": -1,
+   "delivery_status": {
+    "code": 200,
+    "description": "קהל זה מוכן לשימוש."
+   },
+   "operation_status": {
+    "code": 433,
+    "description": "לא יכולנו ליצור את הקהל הדומה שלך. מחק קהל זה ונסה ליצור אותו שוב."
+   },
+   "time_updated": 1777198411,
+   "time_created": 1777198411,
+   "lookalike_spec": {
+    "origin": [
+     {
+      "id": "120245928424090740",
+      "name": "מבקרים באתר כללי",
+      "type": "custom_audience"
+     }
+    ],
+    "ratio": 0.01,
+    "type": "custom_ratio"
+   },
+   "data_source": {
+    "type": "SEED_BASED",
+    "sub_type": "PLATFORM_USERS",
+    "creation_params": "[]"
+   },
+   "id": "120245928426970740"
+  },
+  {
+   "name": "מבקרים באתר כללי",
+   "subtype": "WEBSITE",
+   "approximate_count_lower_bound": 20,
+   "approximate_count_upper_bound": 20,
+   "delivery_status": {
+    "code": 200,
+    "description": "קהל זה מוכן לשימוש."
+   },
+   "operation_status": {
+    "code": 450,
+    "description": "לא נעשה שימוש בקהל זה במודעה במשך ‏30‏ ימים לפחות או שהוא נוצר לפני יותר מ-90 יום ומעולם לא נעשה בו שימוש. מסיבה זו, הקהל שלך אינו מעודכן."
+   },
+   "time_updated": 1777198406,
+   "time_created": 1777198406,
+   "data_source": {
+    "type": "EVENT_BASED",
+    "sub_type": "WEB_PIXEL_HITS",
+    "creation_params": "{\"prefill\":\"true\"}"
+   },
+   "rule": "{\"inclusions\":{\"operator\":\"or\",\"rules\":[{\"event_sources\":[{\"type\":\"pixel\",\"id\":4161502784179798}],\"retention_seconds\":5184000,\"filter\":{\"operator\":\"and\",\"filters\":[{\"field\":\"event\",\"operator\":\"eq\",\"value\":\"PageView\"}]}}]}}",
+   "id": "120245928424090740"
+  },
+  {
+   "name": "דומה (1% to 2%) - 10% שביקרו באתר ובילו שם הכי הרבה זמן",
+   "subtype": "LOOKALIKE",
+   "approximate_count_lower_bound": -1,
+   "approximate_count_upper_bound": -1,
+   "delivery_status": {
+    "code": 200,
+    "description": "קהל זה מוכן לשימוש."
+   },
+   "operation_status": {
+    "code": 433,
+    "description": "לא יכולנו ליצור את הקהל הדומה שלך. מחק קהל זה ונסה ליצור אותו שוב."
+   },
+   "time_updated": 1777198354,
+   "time_created": 1777198354,
+   "lookalike_spec": {
+    "origin": [
+     {
+      "id": "120245928402950740",
+      "name": "10% שביקרו באתר ובילו שם הכי הרבה זמן",
+      "type": "custom_audience"
+     }
+    ],
+    "starting_ratio": 0.01,
+    "ratio": 0.02,
+    "type": "custom_ratio"
+   },
+   "data_source": {
+    "type": "SEED_BASED",
+    "sub_type": "PLATFORM_USERS",
+    "creation_params": "[]"
+   },
+   "id": "120245928406250740"
+  },
+  {
+   "name": "דומה (1%) - 10% שביקרו באתר ובילו שם הכי הרבה זמן",
+   "subtype": "LOOKALIKE",
+   "approximate_count_lower_bound": -1,
+   "approximate_count_upper_bound": -1,
+   "delivery_status": {
+    "code": 200,
+    "description": "קהל זה מוכן לשימוש."
+   },
+   "operation_status": {
+    "code": 433,
+    "description": "לא יכולנו ליצור את הקהל הדומה שלך. מחק קהל זה ונסה ליצור אותו שוב."
+   },
+   "time_updated": 1777198353,
+   "time_created": 1777198353,
+   "lookalike_spec": {
+    "origin": [
+     {
+      "id": "120245928402950740",
+      "name": "10% שביקרו באתר ובילו שם הכי הרבה זמן",
+      "type": "custom_audience"
+     }
+    ],
+    "ratio": 0.01,
+    "type": "custom_ratio"
+   },
+   "data_source": {
+    "type": "SEED_BASED",
+    "sub_type": "PLATFORM_USERS",
+    "creation_params": "[]"
+   },
+   "id": "120245928406200740"
+  },
+  {
+   "name": "10% שביקרו באתר ובילו שם הכי הרבה זמן",
+   "subtype": "WEBSITE",
+   "approximate_count_lower_bound": 20,
+   "approximate_count_upper_bound": 20,
+   "delivery_status": {
+    "code": 200,
+    "description": "קהל זה מוכן לשימוש."
+   },
+   "operation_status": {
+    "code": 450,
+    "description": "לא נעשה שימוש בקהל זה במודעה במשך ‏30‏ ימים לפחות או שהוא נוצר לפני יותר מ-90 יום ומעולם לא נעשה בו שימוש. מסיבה זו, הקהל שלך אינו מעודכן."
+   },
+   "time_updated": 1777198346,
+   "time_created": 1777198346,
+   "data_source": {
+    "type": "EVENT_BASED",
+    "sub_type": "WEB_PIXEL_HITS",
+    "creation_params": "{\"prefill\":\"true\"}"
+   },
+   "rule": "{\"inclusions\":{\"operator\":\"or\",\"rules\":[{\"event_sources\":[{\"type\":\"pixel\",\"id\":4161502784179798}],\"retention_seconds\":5184000,\"filter\":{\"operator\":\"and\",\"filters\":[{\"operator\":\"or\",\"filters\":[{\"field\":\"url\",\"operator\":\"i_contains\",\"value\":\"https:\\/\\/hkmoney.landy-ai.com\"}]},{\"field\":\"url\",\"operator\":\"i_contains\",\"value\":\"\"}]},\"template\":\"TOP_TIME_SPENDERS\",\"aggregation\":{\"type\":\"time_spent\",\"method\":\"percentile\",\"operator\":\"in_range\",\"value\":{\"from\":90,\"to\":100}}}]}}",
+   "id": "120245928402950740"
+  },
+  {
+   "name": "מבקרים באתר - ​ הפיקסל של hk  - בלי לידים 60 יום",
+   "subtype": "WEBSITE",
+   "approximate_count_lower_bound": 20,
+   "approximate_count_upper_bound": 20,
+   "delivery_status": {
+    "code": 200,
+    "description": "קהל זה מוכן לשימוש."
+   },
+   "operation_status": {
+    "code": 450,
+    "description": "לא נעשה שימוש בקהל זה במודעה במשך ‏30‏ ימים לפחות או שהוא נוצר לפני יותר מ-90 יום ומעולם לא נעשה בו שימוש. מסיבה זו, הקהל שלך אינו מעודכן."
+   },
+   "time_updated": 1756825829,
+   "time_created": 1756825829,
+   "data_source": {
+    "type": "EVENT_BASED",
+    "sub_type": "WEB_PIXEL_HITS",
+    "creation_params": "{\"prefill\":\"true\"}"
+   },
+   "rule": "{\"inclusions\":{\"operator\":\"or\",\"rules\":[{\"event_sources\":[{\"type\":\"pixel\",\"id\":3639992246137465}],\"retention_seconds\":5184000,\"filter\":{\"operator\":\"and\",\"filters\":[{\"field\":\"url\",\"operator\":\"i_contains\",\"value\":\"\"}]},\"template\":\"ALL_VISITORS\"}]},\"exclusions\":{\"operator\":\"or\",\"rules\":[{\"event_sources\":[{\"type\":\"pixel\",\"id\":3639992246137465}],\"retention_seconds\":5184000,\"filter\":{\"operator\":\"and\",\"filters\":[{\"field\":\"event\",\"operator\":\"eq\",\"value\":\"Lead\"}]}}]}}",
+   "id": "120233969905870740"
+  },
+  {
+   "name": "פתחו טופס ושלחו אותו​ חזות קריספין 90 יום",
+   "subtype": "ENGAGEMENT",
+   "approximate_count_lower_bound": 1000,
+   "approximate_count_upper_bound": 1000,
+   "delivery_status": {
+    "code": 300,
+    "description": "הקהל קטן מכדי לשמש ליצירת קמפיין"
+   },
+   "operation_status": {
+    "code": 450,
+    "description": "לא נעשה שימוש בקהל זה במודעה במשך ‏30‏ ימים לפחות או שהוא נוצר לפני יותר מ-90 יום ומעולם לא נעשה בו שימוש. מסיבה זו, הקהל שלך אינו מעודכן."
+   },
+   "time_updated": 1737277804,
+   "time_created": 1737277804,
+   "data_source": {
+    "type": "EVENT_BASED",
+    "sub_type": "ENGAGEMENT_EVENTS",
+    "creation_params": "{\"prefill\":\"true\"}"
+   },
+   "rule": "{\"inclusions\":{\"operator\":\"or\",\"rules\":[{\"event_sources\":[{\"type\":\"lead\",\"id\":1221574272265960,\"owner_id\":459554967250420},{\"type\":\"lead\",\"id\":588630470631931,\"owner_id\":459554967250420},{\"type\":\"lead\",\"id\":1941637246364611,\"owner_id\":459554967250420},{\"type\":\"lead\",\"id\":1126388239118883,\"owner_id\":459554967250420},{\"type\":\"ig_lead_generation\",\"id\":1221574272265960,\"owner_id\":459554967250420},{\"type\":\"ig_lead_generation\",\"id\":588630470631931,\"owner_id\":459554967250420},{\"type\":\"ig_lead_generation\",\"id\":1941637246364611,\"owner_id\":459554967250420},{\"type\":\"ig_lead_generation\",\"id\":1126388239118883,\"owner_id\":459554967250420}],\"retention_seconds\":7776000,\"filter\":{\"operator\":\"and\",\"filters\":[{\"field\":\"event\",\"operator\":\"eq\",\"value\":\"lead_generation_submitted\"}]}}]}}",
+   "id": "120216244354130740"
+  },
+  {
+   "name": "דומה (IL, 1%) - lead_csv.csv",
+   "subtype": "LOOKALIKE",
+   "approximate_count_lower_bound": -1,
+   "approximate_count_upper_bound": -1,
+   "delivery_status": {
+    "code": 300,
+    "description": "הקהל קטן מכדי לשמש ליצירת קמפיין"
+   },
+   "operation_status": {
+    "code": 433,
+    "description": "לא יכולנו ליצור את הקהל הדומה שלך. מחק קהל זה ונסה ליצור אותו שוב."
+   },
+   "time_updated": 1737277701,
+   "time_created": 1737277701,
+   "lookalike_spec": {
+    "country": "IL",
+    "origin": [
+     {
+      "id": "120216036829110740",
+      "name": "lead_csv.csv",
+      "type": "custom_audience"
+     }
+    ],
+    "ratio": 0.01,
+    "type": "custom_ratio"
+   },
+   "data_source": {
+    "type": "SEED_BASED",
+    "sub_type": "CUSTOM_AUDIENCE_USERS",
+    "creation_params": "[]"
+   },
+   "id": "120216244332360740"
+  },
+  {
+   "name": "כל מי שהפגין מעורבות בדף פייסבוק hk 365",
+   "subtype": "ENGAGEMENT",
+   "approximate_count_lower_bound": 1000,
+   "approximate_count_upper_bound": 1000,
+   "delivery_status": {
+    "code": 200,
+    "description": "קהל זה מוכן לשימוש."
+   },
+   "operation_status": {
+    "code": 450,
+    "description": "לא נעשה שימוש בקהל זה במודעה במשך ‏30‏ ימים לפחות או שהוא נוצר לפני יותר מ-90 יום ומעולם לא נעשה בו שימוש. מסיבה זו, הקהל שלך אינו מעודכן."
+   },
+   "time_updated": 1736773916,
+   "time_created": 1736773916,
+   "data_source": {
+    "type": "EVENT_BASED",
+    "sub_type": "ENGAGEMENT_EVENTS",
+    "creation_params": "{\"prefill\":\"true\"}"
+   },
+   "rule": "{\"inclusions\":{\"operator\":\"or\",\"rules\":[{\"event_sources\":[{\"type\":\"page\",\"id\":459554967250420}],\"retention_seconds\":31536000,\"filter\":{\"operator\":\"and\",\"filters\":[{\"field\":\"event\",\"operator\":\"eq\",\"value\":\"page_engaged\"}]}}]}}",
+   "id": "120216039921900740"
+  },
+  {
+   "name": "כל מי שיצר אינטראקציה עם חשבון אינסטגרם hk 365",
+   "subtype": "IG_BUSINESS",
+   "approximate_count_lower_bound": 1000,
+   "approximate_count_upper_bound": 1000,
+   "delivery_status": {
+    "code": 200,
+    "description": "קהל זה מוכן לשימוש."
+   },
+   "operation_status": {
+    "code": 450,
+    "description": "לא נעשה שימוש בקהל זה במודעה במשך ‏30‏ ימים לפחות או שהוא נוצר לפני יותר מ-90 יום ומעולם לא נעשה בו שימוש. מסיבה זו, הקהל שלך אינו מעודכן."
+   },
+   "time_updated": 1736773851,
+   "time_created": 1736773851,
+   "data_source": {
+    "type": "EVENT_BASED",
+    "sub_type": "IG_BUSINESS_EVENTS",
+    "creation_params": "{\"prefill\":\"true\"}"
+   },
+   "rule": "{\"inclusions\":{\"operator\":\"or\",\"rules\":[{\"event_sources\":[{\"type\":\"ig_business\",\"id\":7509282692429457}],\"retention_seconds\":31536000,\"filter\":{\"operator\":\"and\",\"filters\":[{\"field\":\"event\",\"operator\":\"eq\",\"value\":\"ig_business_profile_all\"}]}}]}}",
+   "id": "120216039890350740"
+  },
+  {
+   "name": "lead_csv.csv",
+   "subtype": "CUSTOM",
+   "approximate_count_lower_bound": 14200,
+   "approximate_count_upper_bound": 16700,
+   "delivery_status": {
+    "code": 200,
+    "description": "קהל זה מוכן לשימוש."
+   },
+   "operation_status": {
+    "code": 200,
+    "description": "רגיל"
+   },
+   "time_updated": 1736766927,
+   "time_created": 1736766909,
+   "data_source": {
+    "type": "UNKNOWN",
+    "sub_type": "ANYTHING",
+    "creation_params": "[]"
+   },
+   "id": "120216036829110740"
+  }
+ ],
  "behaviors": []
 }
