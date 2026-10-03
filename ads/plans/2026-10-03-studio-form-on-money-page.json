@@ -123,5 +123,39 @@
       },
       "adset_suffix": " · קבוצה 2 · דף HK Money"
     }
+  ],
+  "applied": [
+    {
+      "index": 0,
+      "type": "pause_adset",
+      "ok": true,
+      "at": "2026-10-03T14:25+03:00",
+      "result": {
+        "campaign_id": "120251977931170740",
+        "adset_id": "120251977931600740",
+        "status": "PAUSED"
+      }
+    },
+    {
+      "index": 1,
+      "type": "create_lead_campaign",
+      "ok": true,
+      "at": "2026-10-03T14:25+03:00",
+      "result": {
+        "form_id": "1044423021977751",
+        "campaign_id": "120251977931170740",
+        "adset_id": "120251978093880740",
+        "ads": [
+          {
+            "post": "2026-W40-SA3",
+            "ad_id": "120251978094720740"
+          },
+          {
+            "post": "2026-W40-SA2",
+            "ad_id": "120251978095230740"
+          }
+        ]
+      }
+    }
   ]
 }
