@@ -36,7 +36,7 @@ def call(method, path, **params):
         with urllib.request.urlopen(req, timeout=90) as r:
             return json.load(r)
     except urllib.error.HTTPError as e:
-        raise RuntimeError(f"{method} {path} -> {e.code}: {e.read().decode(errors='replace')[:400]}") from None
+        raise RuntimeError(f"{method} {path} -> {e.code}: {e.read().decode('unicode_escape', errors='replace').encode('latin-1', errors='replace').decode('utf-8', errors='replace')[:1500] if False else e.read().decode(errors='replace')[:1500]}") from None
 
 
 def norm(name):
@@ -230,7 +230,7 @@ def apply_plan(plan_path):
             print("ok", i, a["type"], res)
         except Exception as e:  # noqa: BLE001
             failed = True
-            applied.append({"index": i, "type": a["type"], "ok": False, "at": datetime.now(ZoneInfo("Asia/Jerusalem")).isoformat(timespec="minutes"), "error": str(e)[:1200]})
+            applied.append({"index": i, "type": a["type"], "ok": False, "at": datetime.now(ZoneInfo("Asia/Jerusalem")).isoformat(timespec="minutes"), "error": str(e)[:2500]})
             print("FAILED", i, a["type"], e, file=sys.stderr)
         plan_path.write_text(json.dumps(plan, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     return not failed
@@ -349,6 +349,13 @@ def clone_adset(a):
     if srcd.get("attribution_spec"): params["attribution_spec"] = json.dumps(srcd["attribution_spec"])
     if not c.get("daily_budget"):  # not CBO: the new ad set needs its own budget
         params["daily_budget"] = ils(a["daily_budget_ils"])
+    po = srcd.get("promoted_object") or {}
+    if po.get("page_id"):  # which Page the lead ads run under, and whether its Lead Ads terms are accepted
+        try:
+            pg = call("GET", po["page_id"], fields="name,leadgen_tos_accepted,leadgen_tos_accepting_user", access_token=page_token(po["page_id"]))
+            print("promoted page:", json.dumps(pg, ensure_ascii=False))
+        except RuntimeError as e:
+            print("promoted page lookup failed:", str(e)[:200])
     new = call("POST", f"{ACCT}/adsets", **params)
     ads = []
     for ad in call("GET", f"{src['id']}/ads", fields="name,status,creative", limit=100)["data"]:
