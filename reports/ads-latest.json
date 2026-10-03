@@ -1,10 +1,10 @@
 {
- "generated": "03.10.2026 11:32",
+ "generated": "03.10.2026 12:46",
  "account": {
   "name": "HK",
   "currency": "ILS",
   "account_status": 1,
-  "amount_spent": "8023946",
+  "amount_spent": "8023950",
   "id": "act_1886192278456348"
  },
  "campaigns": [
@@ -31,34 +31,34 @@
     }
    ],
    "last7": {
-    "spend": 274.38,
-    "impressions": 15655,
+    "spend": 274.42,
+    "impressions": 15656,
     "reach": 14092,
     "clicks": 233,
-    "ctr": 1.488342,
-    "cpc": 1.177597,
+    "ctr": 1.488247,
+    "cpc": 1.177768,
     "leads": 0.0,
     "cost_per_lead": null,
     "landing_page_views": 157.0
    },
    "last30": {
-    "spend": 274.38,
-    "impressions": 15655,
+    "spend": 274.42,
+    "impressions": 15656,
     "reach": 14092,
     "clicks": 233,
-    "ctr": 1.488342,
-    "cpc": 1.177597,
+    "ctr": 1.488247,
+    "cpc": 1.177768,
     "leads": 0.0,
     "cost_per_lead": null,
     "landing_page_views": 157.0
    },
    "lifetime": {
-    "spend": 301.16,
-    "impressions": 19375,
-    "reach": 16942,
+    "spend": 301.2,
+    "impressions": 19376,
+    "reach": 16940,
     "clicks": 287,
-    "ctr": 1.48129,
-    "cpc": 1.049338,
+    "ctr": 1.481214,
+    "cpc": 1.049477,
     "leads": 0.0,
     "cost_per_lead": null,
     "landing_page_views": 207.0
@@ -138,12 +138,12 @@
      "id": "120251909729460740",
      "adset": "HK Studio · יועצים · כניסות לדף · קבוצה 1",
      "name": "2026-W40-SA3 · live",
-     "spend": 116.79,
-     "impressions": 8625,
+     "spend": 116.83,
+     "impressions": 8626,
      "reach": 7292,
      "clicks": 162,
-     "ctr": 1.878261,
-     "cpc": 0.720926,
+     "ctr": 1.878043,
+     "cpc": 0.721173,
      "leads": 0.0,
      "cost_per_lead": null,
      "landing_page_views": 115.0
@@ -218,12 +218,12 @@
     {
      "adset": "HK Studio · יועצים · כניסות לדף · קבוצה 1",
      "name": "2026-W40-SA3 · live",
-     "spend": 129.75,
-     "impressions": 10311,
+     "spend": 129.79,
+     "impressions": 10312,
      "reach": 8516,
      "clicks": 189,
-     "ctr": 1.832994,
-     "cpc": 0.686508,
+     "ctr": 1.832816,
+     "cpc": 0.68672,
      "leads": 0.0,
      "cost_per_lead": null,
      "landing_page_views": 139.0
@@ -285,14 +285,14 @@
     "landing_page_views": 0.0
    },
    "lifetime": {
-    "spend": 14870.48,
-    "impressions": 103937,
-    "reach": 27703,
+    "spend": 14871.57,
+    "impressions": 103941,
+    "reach": 27704,
     "clicks": 2173,
-    "ctr": 2.09069,
-    "cpc": 6.843295,
+    "ctr": 2.090609,
+    "cpc": 6.843797,
     "leads": 181.0,
-    "cost_per_lead": 82.157348,
+    "cost_per_lead": 82.16337,
     "landing_page_views": 0.0
    },
    "ads_last7": [
@@ -367,14 +367,14 @@
     {
      "adset": "‏סדרת מודעות לידים חדשה‏ - בעלי עסקים",
      "name": "סרטון יום שישי",
-     "spend": 4393.65,
-     "impressions": 36256,
+     "spend": 4394.74,
+     "impressions": 36260,
      "reach": 18026,
      "clicks": 814,
-     "ctr": 2.245146,
-     "cpc": 5.397604,
+     "ctr": 2.244898,
+     "cpc": 5.398943,
      "leads": 67.0,
-     "cost_per_lead": 65.576866,
+     "cost_per_lead": 65.593134,
      "landing_page_views": 0.0
     }
    ]
@@ -1331,14 +1331,14 @@
     "landing_page_views": 1.0
    },
    "lifetime": {
-    "spend": 24091.94,
-    "impressions": 239768,
-    "reach": 48279,
+    "spend": 24099.03,
+    "impressions": 239793,
+    "reach": 48278,
     "clicks": 4662,
-    "ctr": 1.94438,
-    "cpc": 5.167726,
+    "ctr": 1.944177,
+    "cpc": 5.169247,
     "leads": 423.0,
-    "cost_per_lead": 56.954941,
+    "cost_per_lead": 56.971702,
     "landing_page_views": 1.0
    },
    "ads_last7": [
@@ -1803,14 +1803,14 @@
     {
      "adset": "‏‏‏קהל פתוח || 25+ || מיקומים אוטומטים || סרטונים 1-10",
      "name": "וידיאו 1 || 3 טקסטים",
-     "spend": 16517.73,
-     "impressions": 151653,
-     "reach": 41247,
+     "spend": 16524.82,
+     "impressions": 151678,
+     "reach": 41248,
      "clicks": 2221,
-     "ctr": 1.464528,
-     "cpc": 7.437069,
+     "ctr": 1.464286,
+     "cpc": 7.440261,
      "leads": 299.0,
-     "cost_per_lead": 55.243244,
+     "cost_per_lead": 55.266957,
      "landing_page_views": 1.0
     },
     {
@@ -3180,20 +3180,20 @@
  },
  "today": {
   "120216039932250740": {
-   "spend": 41.5,
-   "impressions": 309,
-   "reach": 284,
+   "spend": 48.59,
+   "impressions": 334,
+   "reach": 306,
    "clicks": 10,
-   "ctr": 3.236246,
-   "cpc": 4.15,
+   "ctr": 2.994012,
+   "cpc": 4.859,
    "leads": 1.0,
-   "cost_per_lead": 41.5,
+   "cost_per_lead": 48.59,
    "landing_page_views": 0.0
   },
   "120245939439290740": {
-   "spend": 5.42,
-   "impressions": 32,
-   "reach": 31,
+   "spend": 6.51,
+   "impressions": 36,
+   "reach": 33,
    "clicks": 0,
    "ctr": 0.0,
    "cpc": 0.0,
@@ -3306,26 +3306,26 @@
     "landing_page_views": 0.0
    },
    "120251876259960740": {
-    "spend": 57.39,
-    "impressions": 4379,
+    "spend": 57.43,
+    "impressions": 4380,
     "reach": 3847,
     "clicks": 102,
-    "ctr": 2.329299,
-    "cpc": 0.562647,
+    "ctr": 2.328767,
+    "cpc": 0.563039,
     "leads": 0.0,
     "cost_per_lead": null,
     "landing_page_views": 75.0
    }
   },
   "total": {
-   "spend": 151.36,
-   "impressions": 5088,
+   "spend": 151.4,
+   "impressions": 5089,
    "reach": 4499,
    "clicks": 124,
-   "ctr": 2.4371069182389937,
-   "cpc": 1.2206451612903226,
+   "ctr": 2.436628021222244,
+   "cpc": 1.2209677419354839,
    "leads": 2.0,
-   "cost_per_lead": 75.68,
+   "cost_per_lead": 75.7,
    "landing_page_views": 75.0
   }
  }
