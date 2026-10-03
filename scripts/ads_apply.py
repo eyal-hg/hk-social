@@ -194,6 +194,8 @@ def projected_total(plan):
                 ex_camps.add(c["id"])
         elif a["type"] == "revive":
             ex_camps.add(find_campaign(a["campaign_name"])["id"])
+        elif a["type"] == "pause_adset":  # an ad set this plan pauses stops counting toward the daily total
+            ex_adsets.add(_adset(a)[1]["id"])
         elif a["type"] in ("create_campaign", "create_lead_campaign"):
             try:  # a retry: the campaign/ad set from the failed run already counts in the live total, don't count it twice
                 ex_camps.add(find_campaign(a["name"])["id"])
