@@ -1084,8 +1084,8 @@
   {
    "name": "קהל אפריל 26",
    "subtype": "CUSTOM",
-   "approximate_count_lower_bound": 25500,
-   "approximate_count_upper_bound": 30000,
+   "approximate_count_lower_bound": 25400,
+   "approximate_count_upper_bound": 29900,
    "delivery_status": {
     "code": 200,
     "description": "קהל זה מוכן לשימוש."
@@ -1526,6 +1526,7 @@
   {
    "name": "HK Studio · יועצים · 2026-10",
    "status": "ACTIVE",
+   "locale": "he_IL",
    "created_time": "2026-10-03T11:25:31+0000",
    "leads_count": 0,
    "questions": [
@@ -1566,11 +1567,42 @@
      "id": "1450694403826836"
     }
    ],
+   "context_card": {
+    "title": "שלושים דקות עם אופיר",
+    "content": [
+     "נראה לך את המערכת על לקוח לדוגמה",
+     "בלי התחייבות ובלי עלות",
+     "אם זה לא מתאים למשרד שלך — נגיד"
+    ],
+    "style": "LIST_STYLE",
+    "button_text": "המשך",
+    "id": "1746727953108998"
+   },
+   "thank_you_page": {
+    "title": "קיבלנו, תודה",
+    "body": "אופיר יחזור אליך בימים הקרובים לתיאום שיחה של שלושים דקות.",
+    "button_text": "לאתר",
+    "enable_messenger": false,
+    "button_type": "VIEW_WEBSITE",
+    "website_url": "https://studio.hak.co.il/?utm_source=facebook&utm_medium=paid&utm_campaign=studio-form",
+    "id": "2252842968841066"
+   },
+   "privacy_policy_url": "https://hak.co.il/privacy.html",
+   "follow_up_action_url": "https://studio.hak.co.il/?utm_source=facebook&utm_medium=paid&utm_campaign=studio-form",
+   "legal_content": {
+    "id": "957595423481146",
+    "privacy_policy": {
+     "url": "https://hak.co.il/privacy.html",
+     "link_text": "מדיניות פרטיות"
+    }
+   },
+   "is_optimized_for_quality": false,
    "id": "1044423021977751"
   },
   {
    "name": "טופס לידים | hk money | רום| 14.4.26",
    "status": "ACTIVE",
+   "locale": "he_IL",
    "created_time": "2026-04-14T09:27:24+0000",
    "leads_count": 0,
    "questions": [
@@ -1639,11 +1671,38 @@
      "id": "1317043370268995"
     }
    ],
+   "context_card": {
+    "title": "ברוכים הבאים! בעלי עסקים- הגיע הזמן להתחדש💯",
+    "content": [
+     "כבר 300+ בעלי עסקים הצטרפו אלינו. \nמעטפת פיננסית חדשנית  בכמה שכבות- שתיצור מהפכה לעסקים בישראל.\nשונה מכל מה שהכרתם!📊 \n\nענו על כמה שאלות קצרות\nונחזור אליכם לשיחת ייעוץ והתאמה בחינם- עם הסבר איך זה עובד בפועל!"
+    ],
+    "style": "PARAGRAPH_STYLE",
+    "id": "959271559795258"
+   },
+   "thank_you_page": {
+    "title": "מעולה, קיבלנו את הפרטים שלכם 👌",
+    "body": "ניצור איתכם קשר בקרוב לשיחת היכרות והתאמה קצרה\n על מנת להבין את העסק ולראות איך המערכת יכולה לעבוד אצלכם בפועל!\n\nבנתיים מוזמנים לדבר איתנו בוואטצפ👇",
+    "button_text": "צ'אט ב-WhatsApp",
+    "enable_messenger": false,
+    "button_type": "WHATSAPP",
+    "id": "1269596271960838"
+   },
+   "privacy_policy_url": "https://www.hak.co.il/privacy",
+   "legal_content": {
+    "id": "954655786952215",
+    "privacy_policy": {
+     "url": "https://www.hak.co.il/privacy",
+     "link_text": "לעיון במדיניות הפרטיות של המפרסם."
+    }
+   },
+   "is_optimized_for_quality": false,
+   "question_page_custom_headline": "השאירו פרטים וניצור עמכם קשר בהקדם האפשרי",
    "id": "1276481301297890"
   },
   {
    "name": "טופס לידים | שאלות חדשות | HK Money AI | 08/02/26",
    "status": "ACTIVE",
+   "locale": "he_IL",
    "created_time": "2026-02-08T18:09:15+0000",
    "leads_count": 42,
    "questions": [
@@ -1736,11 +1795,34 @@
      "id": "1954815881819268"
     }
    ],
+   "context_card": {
+    "title": "כמעט שם! פרטים אחרונים ומתחילים להכניס סדר ושליטה לכסף שלכם!",
+    "content": [
+     "מלאו את הפרטים וקבלו גישה מלאה למערכת HK Money + ליווי של מנהל כספים אישי לחודש שלם, ללא עלות וללא התחייבות. נציג יחזור אליכם לתיאום קצר ומהיר."
+    ],
+    "style": "PARAGRAPH_STYLE",
+    "id": "3833669683605244"
+   },
+   "thank_you_page": {
+    "title": "תודה, קיבלנו את הפרטים ונציג יחזור אליך בהקדם",
+    "body": "לשיחה עם נציג ועוד מידע אפשר להתחיל שיחה מיידית בווצאפ",
+    "button_text": "צ'אט ב-WhatsApp",
+    "enable_messenger": false,
+    "button_type": "WHATSAPP",
+    "id": "25423627347320024"
+   },
+   "privacy_policy_url": "",
+   "legal_content": {
+    "id": "2626207067766698"
+   },
+   "is_optimized_for_quality": false,
+   "question_page_custom_headline": "השאר/י פרטים ונציג יחזור אליך בהקדם למידע נוסף על המערכת.",
    "id": "831087803308460"
   },
   {
    "name": "טופס לידים | HK Money AI | 14/09/25",
    "status": "ACTIVE",
+   "locale": "he_IL",
    "created_time": "2025-09-14T14:13:00+0000",
    "leads_count": 0,
    "questions": [
@@ -1817,11 +1899,38 @@
      "id": "787835563642971"
     }
    ],
+   "context_card": {
+    "title": "כמעט שם! פרטים אחרונים ומתחילים להכניס סדר ושליטה לכסף שלכם!",
+    "content": [
+     "מלאו את הפרטים וקבלו גישה מלאה למערכת HK Money + ליווי של מנהל כספים אישי לחודש שלם, ללא עלות וללא התחייבות. נציג יחזור אליכם לתיאום קצר ומהיר."
+    ],
+    "style": "PARAGRAPH_STYLE",
+    "id": "989373053296236"
+   },
+   "thank_you_page": {
+    "title": "תודה, קיבלנו את הפרטים ונציג יחזור אליך בהקדם",
+    "body": "לשיחה עם נציג ועוד מידע אפשר להתחיל שיחה מיידית בווצאפ",
+    "button_text": "צ'אט ב-WhatsApp",
+    "enable_messenger": false,
+    "button_type": "WHATSAPP",
+    "id": "25010802958523805"
+   },
+   "privacy_policy_url": "https://www.hak.co.il/",
+   "legal_content": {
+    "id": "1831081277794940",
+    "privacy_policy": {
+     "url": "https://www.hak.co.il/",
+     "link_text": "לעיון במדיניות הפרטיות של המפרסם."
+    }
+   },
+   "is_optimized_for_quality": false,
+   "question_page_custom_headline": "השאר/י פרטים ונציג יחזור אליך בהקדם למידע נוסף על המערכת.",
    "id": "755032690672014"
   },
   {
    "name": "טופס לידים 1 || 13.1.2025 || ליווי בניהול תזרים לעסקים || 2 שאלות",
    "status": "ACTIVE",
+   "locale": "he_IL",
    "created_time": "2025-01-13T10:21:46+0000",
    "leads_count": 9,
    "questions": [
@@ -1894,11 +2003,39 @@
      "id": "615599204456550"
     }
    ],
+   "context_card": {
+    "title": "רק בחזות קריספין - ניהול תזרים אישי שיציל לכם את העסק.",
+    "content": [
+     "תשכח מתזרים שלילי! 🤑 קח שליטה על הכסף שלך עם ניהול תזרים חכם לעסקים!\nשירות ניהול תזרים שיעזור לך לקבל שליטה מלאה על הכסף שלך. \nבאמצעות אפליקציה מתקדמת ומנהל תזרים אישי, אנו נספק לך תחזית מדויקת של חשבון הבנק שלך, נעזור לך לקבל החלטות עסקיות מושכלות ונגדיל את הוודאות הפיננסית שלך.\nאנו נטפל בכל ההיבטים הידניים של ניהול תזרים, כולל עדכון העברות בנקאיות וסליקות, כדי שתוכל להתמקד במה שחשוב באמת - הצמיחה של העסק שלך."
+    ],
+    "style": "PARAGRAPH_STYLE",
+    "id": "1390198671949033"
+   },
+   "thank_you_page": {
+    "title": "תודה, קיבלנו את הפרטים ונציג יחזור אליך בהקדם",
+    "body": "לשיחה עם נציג ועוד מידע אפשר להתחיל שיחה מיידית בווצאפ",
+    "button_text": "צ'אט ב-WhatsApp",
+    "enable_messenger": false,
+    "button_type": "WHATSAPP",
+    "id": "1075280410953051"
+   },
+   "privacy_policy_url": "https://www.hak.co.il/",
+   "follow_up_action_url": "https://www.hak.co.il/",
+   "legal_content": {
+    "id": "409965645461470",
+    "privacy_policy": {
+     "url": "https://www.hak.co.il/",
+     "link_text": "ל'מדיניות הפרטיות ' של ‏חזות קריספין‏"
+    }
+   },
+   "is_optimized_for_quality": false,
+   "question_page_custom_headline": "השאר פרטים ונציג יחזור אליך בהקדם למידע נוסף",
    "id": "1221574272265960"
   },
   {
    "name": "טופס לידים 13.1.2025 || ליווי בניהול תזרים לעסקים || 2 שאלות",
    "status": "ACTIVE",
+   "locale": "he_IL",
    "created_time": "2025-01-13T10:20:43+0000",
    "leads_count": 0,
    "questions": [
@@ -1977,11 +2114,39 @@
      "id": "2092202161198282"
     }
    ],
+   "context_card": {
+    "title": "רק בחזות קריספין - ניהול תזרים אישי שיציל לכם את העסק.",
+    "content": [
+     "תשכח מתזרים שלילי! 🤑 קח שליטה על הכסף שלך עם ניהול תזרים חכם לעסקים!\nשירות ניהול תזרים שיעזור לך לקבל שליטה מלאה על הכסף שלך. \nבאמצעות אפליקציה מתקדמת ומנהל תזרים אישי, אנו נספק לך תחזית מדויקת של חשבון הבנק שלך, נעזור לך לקבל החלטות עסקיות מושכלות ונגדיל את הוודאות הפיננסית שלך.\nאנו נטפל בכל ההיבטים הידניים של ניהול תזרים, כולל עדכון העברות בנקאיות וסליקות, כדי שתוכל להתמקד במה שחשוב באמת - הצמיחה של העסק שלך."
+    ],
+    "style": "PARAGRAPH_STYLE",
+    "id": "433708093041456"
+   },
+   "thank_you_page": {
+    "title": "תודה, קיבלנו את הפרטים ונציג יחזור אליך בהקדם",
+    "body": "לשיחה עם נציג ועוד מידע אפשר להתחיל שיחה מיידית בווצאפ",
+    "button_text": "צ'אט ב-WhatsApp",
+    "enable_messenger": false,
+    "button_type": "WHATSAPP",
+    "id": "954822959494248"
+   },
+   "privacy_policy_url": "https://www.hak.co.il/",
+   "follow_up_action_url": "https://www.hak.co.il/",
+   "legal_content": {
+    "id": "1118699273372941",
+    "privacy_policy": {
+     "url": "https://www.hak.co.il/",
+     "link_text": "ל'מדיניות הפרטיות ' של ‏חזות קריספין‏"
+    }
+   },
+   "is_optimized_for_quality": false,
+   "question_page_custom_headline": "השאר פרטים ונציג יחזור אליך בהקדם למידע נוסף",
    "id": "588630470631931"
   },
   {
    "name": "Standard form",
    "status": "ACTIVE",
+   "locale": "en_US",
    "created_time": "2025-01-12T21:12:18+0000",
    "leads_count": 0,
    "questions": [
@@ -2010,11 +2175,15 @@
      "id": "607242695246902"
     }
    ],
+   "privacy_policy_url": "",
+   "follow_up_action_url": "https://instagram.com/hk.hazut.krispin",
+   "is_optimized_for_quality": false,
    "id": "1941637246364611"
   },
   {
    "name": "טופס לידים 12.1.2025 || ליווי בניהול תזרים לעסקים",
    "status": "ACTIVE",
+   "locale": "he_IL",
    "created_time": "2025-01-12T15:03:56+0000",
    "leads_count": 0,
    "questions": [
@@ -2093,6 +2262,34 @@
      "id": "1053630749898167"
     }
    ],
+   "context_card": {
+    "title": "רק בחזות קריספין - ניהול תזרים אישי שיציל לכם את העסק.",
+    "content": [
+     "תשכח מתזרים שלילי! 🤑 קח שליטה על הכסף שלך עם ניהול תזרים חכם לעסקים!\nשירות ניהול תזרים שיעזור לך לקבל שליטה מלאה על הכסף שלך. \nבאמצעות אפליקציה מתקדמת ומנהל תזרים אישי, אנו נספק לך תחזית מדויקת של חשבון הבנק שלך, נעזור לך לקבל החלטות עסקיות מושכלות ונגדיל את הוודאות הפיננסית שלך.\nאנו נטפל בכל ההיבטים הידניים של ניהול תזרים, כולל עדכון העברות בנקאיות וסליקות, כדי שתוכל להתמקד במה שחשוב באמת - הצמיחה של העסק שלך."
+    ],
+    "style": "PARAGRAPH_STYLE",
+    "id": "554058154293318"
+   },
+   "thank_you_page": {
+    "title": "תודה, קיבלנו את הפרטים ונציג יחזור אליך בהקדם",
+    "body": "ניתן לבקר באתר שלנו או לצאת מהטופס כעת.",
+    "button_text": "הצג/הציגי את האתר",
+    "enable_messenger": false,
+    "button_type": "VIEW_WEBSITE",
+    "website_url": "https://www.hak.co.il/",
+    "id": "974704321195073"
+   },
+   "privacy_policy_url": "https://www.hak.co.il/",
+   "follow_up_action_url": "https://www.hak.co.il/",
+   "legal_content": {
+    "id": "2003718523437689",
+    "privacy_policy": {
+     "url": "https://www.hak.co.il/",
+     "link_text": "ל'מדיניות הפרטיות ' של ‏חזות קריספין‏"
+    }
+   },
+   "is_optimized_for_quality": false,
+   "question_page_custom_headline": "השאר פרטים ונציג יחזור אליך בהקדם למידע נוסף",
    "id": "1126388239118883"
   }
  ],

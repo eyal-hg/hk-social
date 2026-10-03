@@ -291,8 +291,8 @@
    ]
   },
   "estimate": {
-   "estimate_mau_lower_bound": 280000,
-   "estimate_mau_upper_bound": 329400,
+   "estimate_mau_lower_bound": 280500,
+   "estimate_mau_upper_bound": 330000,
    "estimate_ready": true
   }
  },
