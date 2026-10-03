@@ -185,5 +185,5 @@
       "error": "GET 1414935705029390/leadgen_forms -> 403: {\"error\":{\"message\":\"(#200) Requires pages_manage_ads permission to manage the object\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"AtgPIBXAGrBD4urvW6TBoRo\"}}"
     }
   ],
-  "retry_note": "ניסיון 2: התקרה חסמה כי ההשהיה של קבוצת התנועה (באותה תוכנית) לא נספרה בתחזית"
+  "retry_note": "ניסיון 3: אייל עדכן טוקן עם pages_manage_ads (3.10)"
 }
