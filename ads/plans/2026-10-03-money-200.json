@@ -26,5 +26,72 @@
     {
       "type": "check"
     }
+  ],
+  "applied": [
+    {
+      "index": 0,
+      "type": "set_adset_budget",
+      "ok": true,
+      "at": "2026-10-03T17:40+03:00",
+      "result": {
+        "campaign_id": "120216039932250740",
+        "level": "campaign",
+        "daily_budget_ils": 100
+      }
+    },
+    {
+      "index": 1,
+      "type": "set_adset_budget",
+      "ok": true,
+      "at": "2026-10-03T17:40+03:00",
+      "result": {
+        "campaign_id": "120245939439290740",
+        "level": "adset",
+        "adsets": [
+          {
+            "adset_id": "120245939439310740",
+            "name": "סדרת מודעות לידים חדשה",
+            "daily_budget_ils": 60
+          }
+        ]
+      }
+    },
+    {
+      "index": 2,
+      "type": "set_adset_budget",
+      "ok": true,
+      "at": "2026-10-03T17:41+03:00",
+      "result": {
+        "campaign_id": "120245939439290740",
+        "level": "adset",
+        "adsets": [
+          {
+            "adset_id": "120249034172770740",
+            "name": "‏סדרת מודעות לידים חדשה‏ - בעלי עסקים",
+            "daily_budget_ils": 40
+          }
+        ]
+      }
+    },
+    {
+      "index": 3,
+      "type": "check",
+      "ok": true,
+      "at": "2026-10-03T17:41+03:00",
+      "result": {
+        "lines": [
+          "CHECK campaign HK Studio · יועצים · טופס לידים | budget 0 | today spend 15.67 impr 108 clicks 3 leads 0",
+          "CHECK   adset HK Studio · יועצים · טופס לידים · קבוצה 2 · דף HK Money [ACTIVE] budget 50 ",
+          "CHECK     ad 2026-W40-SA2 · form [ACTIVE]  ",
+          "CHECK     ad 2026-W40-SA3 · form [ACTIVE]  ",
+          "CHECK campaign HK Studio · יועצים · כניסות לדף | budget 0 | today spend 26.81 impr 3723 clicks 55 leads 0",
+          "CHECK campaign קמפיין לידים אייל | budget 0 | today spend 6.81 impr 38 clicks 0 leads 0",
+          "CHECK   adset ‏סדרת מודעות לידים חדשה‏ - בעלי עסקים [ACTIVE] budget 40 ",
+          "CHECK     ad סרטון 2 · מהפכת ה-AI [ACTIVE]  ",
+          "CHECK   adset סדרת מודעות לידים חדשה [ACTIVE] budget 60 ",
+          "CHECK     ad סרטון מיקונוס 11.5 [ACTIVE]  "
+        ]
+      }
+    }
   ]
 }
