@@ -36,6 +36,13 @@
       "ok": false,
       "at": "2026-10-03T13:44+03:00",
       "error": "POST act_1886192278456348/adsets -> 400: {\"error\":{\"message\":\"Invalid parameter\",\"type\":\"OAuthException\",\"code\":100,\"error_subcode\":1815089,\"is_transient\":false,\"error_user_title\":\"\\u05ea\\u05e0\\u05d0\\u05d9 \\u05d4\\u05e9\\u05d9\\u05e8\\u05d5\\u05ea \\u05dc\\u05d0 \\u05d4\\u05ea\\u05e7\\u05d1\\u05dc\\u05d5\",\"error_user_msg\":\"\\u05dc\\u05d0 \\u05e0\\u05d9\\u05ea\\u05df \\u05dc\\u05d4\\u05e4\\u05e2\\u05d9\\u05dc \\u05d0\\u05ea \\u05de\\u05d5\\u05d3\\u05e2\\u05d5\\u05ea \\u05"
+    },
+    {
+      "index": 0,
+      "type": "clone_adset",
+      "ok": false,
+      "at": "2026-10-03T13:50+03:00",
+      "error": "POST act_1886192278456348/adsets -> 400: {\"error\":{\"message\":\"Invalid parameter\",\"type\":\"OAuthException\",\"code\":100,\"error_subcode\":1815089,\"is_transient\":false,\"error_user_title\":\"\\u05ea\\u05e0\\u05d0\\u05d9 \\u05d4\\u05e9\\u05d9\\u05e8\\u05d5\\u05ea \\u05dc\\u05d0 \\u05d4\\u05ea\\u05e7\\u05d1\\u05dc\\u05d5\",\"error_user_msg\":\"\\u05dc\\u05d0 \\u05e0\\u05d9\\u05ea\\u05df \\u05dc\\u05d4\\u05e4\\u05e2\\u05d9\\u05dc \\u05d0\\u05ea \\u05de\\u05d5\\u05d3\\u05e2\\u05d5\\u05ea \\u05"
     }
   ],
   "retry_note": "ניסיון חוזר 3.10 אחרי שאייל אישר את תנאי מודעות הלידים"

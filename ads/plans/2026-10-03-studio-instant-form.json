@@ -162,6 +162,13 @@
       "ok": false,
       "at": "2026-10-03T13:44+03:00",
       "error": "GET 1414935705029390/leadgen_forms -> 403: {\"error\":{\"message\":\"(#200) Requires pages_manage_ads permission to manage the object\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"AQeiZInuJwmtONMhK-79You\"}}"
+    },
+    {
+      "index": 2,
+      "type": "create_lead_campaign",
+      "ok": false,
+      "at": "2026-10-03T13:50+03:00",
+      "error": "GET 1414935705029390/leadgen_forms -> 403: {\"error\":{\"message\":\"(#200) Requires pages_manage_ads permission to manage the object\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"A18obLZ0GJibMEbd9jYRTq7\"}}"
     }
   ],
   "retry_note": "ניסיון 2: התקרה חסמה כי ההשהיה של קבוצת התנועה (באותה תוכנית) לא נספרה בתחזית"
