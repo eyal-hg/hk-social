@@ -183,6 +183,27 @@
       "ok": false,
       "at": "2026-10-03T13:59+03:00",
       "error": "GET 1414935705029390/leadgen_forms -> 403: {\"error\":{\"message\":\"(#200) Requires pages_manage_ads permission to manage the object\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"AtgPIBXAGrBD4urvW6TBoRo\"}}"
+    },
+    {
+      "index": 2,
+      "type": "create_lead_campaign",
+      "ok": true,
+      "at": "2026-10-03T14:11+03:00",
+      "result": {
+        "form_id": "1978081936210856",
+        "campaign_id": "120251977931170740",
+        "adset_id": "120251977931600740",
+        "ads": [
+          {
+            "post": "2026-W40-SA3",
+            "ad_id": "120251977933100740"
+          },
+          {
+            "post": "2026-W40-SA2",
+            "ad_id": "120251977933490740"
+          }
+        ]
+      }
     }
   ],
   "retry_note": "ניסיון 3: אייל עדכן טוקן עם pages_manage_ads (3.10)"

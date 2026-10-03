@@ -57,6 +57,47 @@
       "ok": false,
       "at": "2026-10-03T13:59+03:00",
       "error": "POST act_1886192278456348/adsets -> 400: {\"error\":{\"message\":\"Invalid parameter\",\"type\":\"OAuthException\",\"code\":100,\"error_subcode\":1815089,\"is_transient\":false,\"error_user_title\":\"\\u05ea\\u05e0\\u05d0\\u05d9 \\u05d4\\u05e9\\u05d9\\u05e8\\u05d5\\u05ea \\u05dc\\u05d0 \\u05d4\\u05ea\\u05e7\\u05d1\\u05dc\\u05d5\",\"error_user_msg\":\"\\u05dc\\u05d0 \\u05e0\\u05d9\\u05ea\\u05df \\u05dc\\u05d4\\u05e4\\u05e2\\u05d9\\u05dc \\u05d0\\u05ea \\u05de\\u05d5\\u05d3\\u05e2\\u05d5\\u05ea \\u05d4\\u05dc\\u05d9\\u05d3\\u05d9\\u05dd \\u05e2\\u05d3 \\u05e9\\u05d3\\u05e3 \\u05e4\\u05d9\\u05d9\\u05e1\\u05d1\\u05d5\\u05e7 \\u05e9\\u05dc\\u05da \\u05d9\\u05e1\\u05db\\u05d9\\u05dd \\u05dc\\u05ea\\u05e0\\u05d0\\u05d9 \\u05d4\\u05e9\\u05d9\\u05e8\\u05d5\\u05ea \\u05e9\\u05dc \\u05d9\\u05e6\\u05d9\\u05e8\\u05ea \\u05dc\\u05d9\\u05d3\\u05d9\\u05dd \\u05e9\\u05dc \\u05e4\\u05d9\\u05d9\\u05e1\\u05d1\\u05d5\\u05e7.\",\"fbtrace_id\":\"A1AO6D_BQVwNQ-cpg4r7JqL\"}}"
+    },
+    {
+      "index": 0,
+      "type": "clone_adset",
+      "ok": true,
+      "at": "2026-10-03T14:11+03:00",
+      "result": {
+        "campaign_id": "120216039932250740",
+        "adset_id": "120251977929100740",
+        "targeting": {
+          "geo_locations": {
+            "countries": [
+              "IL"
+            ],
+            "location_types": [
+              "home",
+              "recent"
+            ]
+          },
+          "age_min": 25,
+          "age_max": 65,
+          "targeting_automation": {
+            "advantage_audience": 0
+          },
+          "custom_audiences": [
+            {
+              "id": "120246050525520740"
+            }
+          ]
+        },
+        "ads": [
+          {
+            "from": "וידיאו 1 || 3 טקסטים",
+            "ad_id": "120251977930680740"
+          }
+        ],
+        "estimate": {
+          "estimate_mau_lower_bound": -1,
+          "estimate_mau_upper_bound": -1
+        }
+      }
     }
   ],
   "retry_note": "ניסיון 5: בצילום של אייל (13:59) הכפתור בדף HK Money מציג \"אושר\""
