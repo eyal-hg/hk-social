@@ -225,7 +225,7 @@ def apply_plan(plan_path):
         try:
             res = {"set_adset_budget": set_budget, "create_campaign": create_campaign, "revive": revive,
                    "add_ads": add_ads, "pause_ads": pause_ads, "set_targeting": set_targeting, "create_pixel": create_pixel, "clone_adset": clone_adset,
-                   "pause_adset": pause_adset, "create_lead_campaign": create_lead_campaign, "resume_ads": resume_ads}[a["type"]](a)
+                   "pause_adset": pause_adset, "create_lead_campaign": create_lead_campaign, "resume_ads": resume_ads, "check": check}[a["type"]](a)
             applied.append({"index": i, "type": a["type"], "ok": True, "at": datetime.now(ZoneInfo("Asia/Jerusalem")).isoformat(timespec="minutes"), "result": res})
             print("ok", i, a["type"], res)
         except Exception as e:  # noqa: BLE001
@@ -365,6 +365,27 @@ def clone_adset(a):
         ads.append({"from": ad["name"], "ad_id": r["id"]})
     est = call("GET", f"{new['id']}/delivery_estimate", fields="estimate_mau_lower_bound,estimate_mau_upper_bound").get("data", [{}])
     return {"campaign_id": c["id"], "adset_id": new["id"], "targeting": nt, "ads": ads, "estimate": est[0] if est else None}
+
+
+def check(a):
+    """Read-only: what is actually live right now — every non-paused ad set and ad, its review state, and today's delivery."""
+    out = []
+    for c in call("GET", f"{ACCT}/campaigns", fields="name,effective_status,daily_budget", limit=100)["data"]:
+        if c.get("effective_status") != "ACTIVE": continue
+        ins = (call("GET", f"{c['id']}/insights", date_preset="today", fields="spend,impressions,clicks,actions").get("data") or [{}])[0]
+        leads = sum(float(x.get("value", 0)) for x in ins.get("actions", []) or [] if x.get("action_type") == "lead")
+        line = f"CHECK campaign {c['name']} | budget {int(c.get('daily_budget') or 0)/100:.0f} | today spend {ins.get('spend', 0)} impr {ins.get('impressions', 0)} clicks {ins.get('clicks', 0)} leads {leads:.0f}"
+        print(line); out.append(line)
+        ads = call("GET", f"{c['id']}/ads", fields="name,effective_status,adset_id,issues_info,ad_review_feedback", limit=200)["data"]
+        for st in call("GET", f"{c['id']}/adsets", fields="name,effective_status,daily_budget,issues_info", limit=50)["data"]:
+            if st.get("effective_status") in ("PAUSED", "CAMPAIGN_PAUSED"): continue
+            line = f"CHECK   adset {st['name']} [{st.get('effective_status')}] budget {int(st.get('daily_budget') or 0)/100:.0f} {json.dumps(st.get('issues_info'), ensure_ascii=False) if st.get('issues_info') else ''}"
+            print(line); out.append(line)
+            for ad in ads:
+                if ad.get("adset_id") != st["id"] or ad.get("effective_status") in ("PAUSED", "ADSET_PAUSED", "CAMPAIGN_PAUSED"): continue
+                line = f"CHECK     ad {ad['name']} [{ad.get('effective_status')}] {json.dumps(ad.get('issues_info'), ensure_ascii=False) if ad.get('issues_info') else ''} {json.dumps(ad.get('ad_review_feedback'), ensure_ascii=False) if ad.get('ad_review_feedback') else ''}"
+                print(line); out.append(line)
+    return {"lines": out}
 
 
 def resume_ads(a):

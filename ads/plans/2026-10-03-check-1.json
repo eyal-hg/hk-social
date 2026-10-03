@@ -1,0 +1,10 @@
+{
+  "requested_by": "אייל 3.10: 'באוויר הכל?' — בדיקת מצב בלבד, לא משנה כלום",
+  "approved": true,
+  "approved_by": "קריאה בלבד",
+  "actions": [
+    {
+      "type": "check"
+    }
+  ]
+}
