@@ -21,5 +21,35 @@
         "2026-W40-SA2 · std"
       ]
     }
+  ],
+  "applied": [
+    {
+      "index": 0,
+      "type": "resume_ads",
+      "ok": true,
+      "at": "2026-10-03T14:51+03:00",
+      "result": {
+        "campaign_id": "120251977931170740",
+        "adset_id": "120251978093880740",
+        "resumed": [
+          "2026-W40-SA3 · form",
+          "2026-W40-SA2 · form"
+        ]
+      }
+    },
+    {
+      "index": 1,
+      "type": "pause_ads",
+      "ok": true,
+      "at": "2026-10-03T14:51+03:00",
+      "result": {
+        "campaign_id": "120251977931170740",
+        "adset_id": "120251978093880740",
+        "paused": [
+          "2026-W40-SA2 · std",
+          "2026-W40-SA3 · std"
+        ]
+      }
+    }
   ]
 }
