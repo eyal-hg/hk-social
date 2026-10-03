@@ -1,0 +1,91 @@
+{
+  "requested_by": "אייל 3.10.2026: הטופס החדש לא מופיע במסך הלידים של HK ('לא שם') → עוברים לטופס קיים שכן מחובר. היחיד שלא שואל על תזרים של עסק: 'Standard form' (שם, טלפון, אימייל, 'What services do you need?').",
+  "approved": true,
+  "approved_by": "הנחיית אייל 3.10 ('או שתשתמש בטופס קיים'); אותו תקציב, אותן מודעות",
+  "actions": [
+    {
+      "type": "create_lead_campaign",
+      "page": "money",
+      "name": "HK Studio · יועצים · טופס לידים",
+      "daily_budget_ils": 50,
+      "targeting": {
+        "geo_locations": {
+          "countries": [
+            "IL"
+          ],
+          "location_types": [
+            "home"
+          ]
+        },
+        "age_min": 28,
+        "age_max": 65,
+        "targeting_automation": {
+          "advantage_audience": 0
+        },
+        "flexible_spec": [
+          {
+            "interests": [
+              {
+                "id": "6003274244908",
+                "name": "Management consulting"
+              },
+              {
+                "id": "6002984410123",
+                "name": "Certified Public Accountant"
+              },
+              {
+                "id": "6003649965713",
+                "name": "Bookkeeping"
+              },
+              {
+                "id": "6006252868071",
+                "name": "Consulting firm"
+              }
+            ]
+          },
+          {
+            "interests": [
+              {
+                "id": "6002884511422",
+                "name": "Small business"
+              },
+              {
+                "id": "6003280183843",
+                "name": "Business development"
+              },
+              {
+                "id": "6003184559502",
+                "name": "Professional services"
+              }
+            ]
+          }
+        ]
+      },
+      "posts": [
+        "2026-W40-SA3",
+        "2026-W40-SA2"
+      ],
+      "captions": {
+        "2026-W40-SA2": "יועץ עסקי, רואה חשבון — מכיר את ההודעה של תשע בערב: \"תגיד, כמה נשאר לי בחשבון?\"\nב-HK Studio הלקוח שלך שואל בוואטסאפ ומקבל תשובה מהמספרים שלו, בשם המשרד שלך. מה שדורש שיקול דעת מקצועי לא נענה במקומך — הוא מגיע אליך.\nאתה נשאר היועץ. אנחנו התשתית שמאחוריך.\nהשאר פרטים — אופיר חוזר אליך לשיחה של שלושים דקות.",
+        "2026-W40-SA3": "ליועצים עסקיים ורואי חשבון: מה קובע כמה לקוחות אתה יכול להחזיק? לא הידע. השעות שמסביב לכל פגישה.\nHK Studio לוקח את השעות האלה: AI שמקליט ומסכם כל פגישה, זוכר כל מה שנאמר ומכין אותך לבאה. צוות שרודף אחרי החומר ובודק לפני שמשהו יוצא ללקוח. והלקוח רואה את הלוגו שלך, לא אותנו.\nהשאר פרטים — אופיר חוזר אליך לשיחה של שלושים דקות."
+      },
+      "headline": "HK Studio — המערכת שמאחורי היועץ",
+      "cta": "SIGN_UP",
+      "status": "ACTIVE",
+      "form": {
+        "name": "Standard form"
+      },
+      "adset_suffix": " · קבוצה 2 · דף HK Money",
+      "ad_suffix": " · std"
+    },
+    {
+      "type": "pause_ads",
+      "campaign_name": "HK Studio · יועצים · טופס לידים",
+      "adset_name": "HK Studio · יועצים · טופס לידים · קבוצה 2 · דף HK Money",
+      "ad_names": [
+        "2026-W40-SA3 · form",
+        "2026-W40-SA2 · form"
+      ]
+    }
+  ]
+}

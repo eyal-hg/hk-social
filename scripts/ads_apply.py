@@ -405,14 +405,15 @@ def create_lead_campaign(a):
         targeting=json.dumps(a["targeting"]), promoted_object=json.dumps({"page_id": page_id}), status=a.get("status", "ACTIVE"))
     have = {norm(x["name"]) for x in call("GET", f"{adset['id']}/ads", fields="name", limit=100)["data"]}
     ads = []
+    sfx = a.get("ad_suffix", " · form")
     for post_id in a["posts"]:
-        if norm(post_id + " · form") in have: continue
+        if norm(post_id + sfx) in have: continue
         p = next(d for d in (json.loads(q.read_text(encoding="utf-8")) for q in ROOT.glob("posts/**/*.json")) if d["id"] == post_id)
         msg = a.get("captions", {}).get(post_id) or p["caption"]
         spec = {"page_id": page_id, "link_data": {"link": "https://fb.me/", "message": msg, "picture": f"{IMAGE_BASE}/{post_id}.jpg",
                 "name": a.get("headline", ""), "call_to_action": {"type": a.get("cta", "SIGN_UP"), "value": {"lead_gen_form_id": form_id}}}}
-        cr = call("POST", f"{ACCT}/adcreatives", name=post_id + " · form", object_story_spec=json.dumps(spec))
-        ad = call("POST", f"{ACCT}/ads", name=post_id + " · form", adset_id=adset["id"], creative=json.dumps({"creative_id": cr["id"]}), status=a.get("status", "ACTIVE"))
+        cr = call("POST", f"{ACCT}/adcreatives", name=post_id + sfx, object_story_spec=json.dumps(spec))
+        ad = call("POST", f"{ACCT}/ads", name=post_id + sfx, adset_id=adset["id"], creative=json.dumps({"creative_id": cr["id"]}), status=a.get("status", "ACTIVE"))
         ads.append({"post": post_id, "ad_id": ad["id"]})
     return {"form_id": form_id, "campaign_id": camp["id"], "adset_id": adset["id"], "ads": ads}
 
