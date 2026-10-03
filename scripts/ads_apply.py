@@ -225,7 +225,7 @@ def apply_plan(plan_path):
         try:
             res = {"set_adset_budget": set_budget, "create_campaign": create_campaign, "revive": revive,
                    "add_ads": add_ads, "pause_ads": pause_ads, "set_targeting": set_targeting, "create_pixel": create_pixel, "clone_adset": clone_adset,
-                   "pause_adset": pause_adset, "create_lead_campaign": create_lead_campaign, "resume_ads": resume_ads, "check": check}[a["type"]](a)
+                   "pause_adset": pause_adset, "create_lead_campaign": create_lead_campaign, "resume_ads": resume_ads, "check": check, "copy_ad": copy_ad}[a["type"]](a)
             applied.append({"index": i, "type": a["type"], "ok": True, "at": datetime.now(ZoneInfo("Asia/Jerusalem")).isoformat(timespec="minutes"), "result": res})
             print("ok", i, a["type"], res)
         except Exception as e:  # noqa: BLE001
@@ -386,6 +386,22 @@ def check(a):
                 line = f"CHECK     ad {ad['name']} [{ad.get('effective_status')}] {json.dumps(ad.get('issues_info'), ensure_ascii=False) if ad.get('issues_info') else ''} {json.dumps(ad.get('ad_review_feedback'), ensure_ascii=False) if ad.get('ad_review_feedback') else ''}"
                 print(line); out.append(line)
     return {"lines": out}
+
+
+def copy_ad(a):
+    """Run an existing ad's creative (same video, text and lead form) as a new ad in another ad set."""
+    src_c = find_campaign(a["source_campaign_name"])
+    cands = [x for x in call("GET", f"{src_c['id']}/ads", fields="name,creative,adset{name}", limit=200)["data"]
+             if norm(a["source_ad_contains"]) in norm(x["name"]) and norm(a.get("source_adset_contains", "")) in norm((x.get("adset") or {}).get("name", ""))]
+    if not cands:
+        raise RuntimeError("source ad not found: " + a["source_ad_contains"])
+    src = cands[0]
+    c, adset = _adset(a)
+    name = a.get("name") or norm(src["name"])
+    if any(same(x["name"], name) for x in call("GET", f"{adset['id']}/ads", fields="name", limit=100)["data"]):
+        raise RuntimeError("ad already exists in target ad set: " + name)
+    ad = call("POST", f"{ACCT}/ads", name=name, adset_id=adset["id"], creative=json.dumps({"creative_id": src["creative"]["id"]}), status=a.get("status", "ACTIVE"))
+    return {"from": src["name"], "from_adset": (src.get("adset") or {}).get("name"), "creative_id": src["creative"]["id"], "ad_id": ad["id"], "adset_id": adset["id"]}
 
 
 def resume_ads(a):
