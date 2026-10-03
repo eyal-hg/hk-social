@@ -80,7 +80,7 @@ def main():
         ptok = get(PAGE, fields="access_token").get("access_token")
         forms = []
         if ptok:
-            req = urllib.request.Request(f"{GRAPH}/{PAGE}/leadgen_forms?" + urllib.parse.urlencode({"fields": "name,status,created_time,leads_count,questions", "limit": 50, "access_token": ptok}))
+            req = urllib.request.Request(f"{GRAPH}/{PAGE}/leadgen_forms?" + urllib.parse.urlencode({"fields": "name,status,locale,created_time,leads_count,questions,context_card,thank_you_page,privacy_policy_url,follow_up_action_url,legal_content,is_optimized_for_quality,question_page_custom_headline", "limit": 50, "access_token": ptok}))
             with urllib.request.urlopen(req, timeout=60) as resp:
                 forms = json.load(resp).get("data", [])
         out["lead_forms"] = forms
@@ -88,6 +88,9 @@ def main():
         for f in forms:
             qs = "; ".join((q.get("label") or q.get("type") or "") for q in f.get("questions", []))
             print(f"- {f['id']}  [{f.get('status')}]  {f.get('name')}  · leads {f.get('leads_count')}  · {str(f.get('created_time',''))[:10]}  · שאלות: {qs}")
+        for f in forms:  # the full definition of the forms the Studio ads can use
+            if f.get("name") in ("Standard form", "HK Studio · יועצים · 2026-10"):
+                print("FORMDETAIL " + json.dumps(f, ensure_ascii=False))
     except Exception as e:  # noqa: BLE001
         print("lead forms lookup failed:", str(e)[:300])
 
