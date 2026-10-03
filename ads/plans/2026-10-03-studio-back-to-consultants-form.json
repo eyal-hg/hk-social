@@ -1,0 +1,25 @@
+{
+  "requested_by": "אייל 3.10.2026: 'לא טוב, תעשה טופס חדש ותשלח מייל לעידו לחבר אותו' — Standard form הוא באנגלית ומפנה לאינסטגרם. חוזרים לטופס היועצים בעברית (HK Studio · יועצים · 2026-10, id 1044423021977751). עד שעידו מחבר אותו למסך הלידים, הלידים נשמרים במרכז הלידים של Meta.",
+  "approved": true,
+  "approved_by": "הנחיית אייל 3.10; אותו תקציב",
+  "actions": [
+    {
+      "type": "resume_ads",
+      "campaign_name": "HK Studio · יועצים · טופס לידים",
+      "adset_name": "HK Studio · יועצים · טופס לידים · קבוצה 2 · דף HK Money",
+      "ad_names": [
+        "2026-W40-SA3 · form",
+        "2026-W40-SA2 · form"
+      ]
+    },
+    {
+      "type": "pause_ads",
+      "campaign_name": "HK Studio · יועצים · טופס לידים",
+      "adset_name": "HK Studio · יועצים · טופס לידים · קבוצה 2 · דף HK Money",
+      "ad_names": [
+        "2026-W40-SA3 · std",
+        "2026-W40-SA2 · std"
+      ]
+    }
+  ]
+}

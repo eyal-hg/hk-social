@@ -225,7 +225,7 @@ def apply_plan(plan_path):
         try:
             res = {"set_adset_budget": set_budget, "create_campaign": create_campaign, "revive": revive,
                    "add_ads": add_ads, "pause_ads": pause_ads, "set_targeting": set_targeting, "create_pixel": create_pixel, "clone_adset": clone_adset,
-                   "pause_adset": pause_adset, "create_lead_campaign": create_lead_campaign}[a["type"]](a)
+                   "pause_adset": pause_adset, "create_lead_campaign": create_lead_campaign, "resume_ads": resume_ads}[a["type"]](a)
             applied.append({"index": i, "type": a["type"], "ok": True, "at": datetime.now(ZoneInfo("Asia/Jerusalem")).isoformat(timespec="minutes"), "result": res})
             print("ok", i, a["type"], res)
         except Exception as e:  # noqa: BLE001
@@ -365,6 +365,15 @@ def clone_adset(a):
         ads.append({"from": ad["name"], "ad_id": r["id"]})
     est = call("GET", f"{new['id']}/delivery_estimate", fields="estimate_mau_lower_bound,estimate_mau_upper_bound").get("data", [{}])
     return {"campaign_id": c["id"], "adset_id": new["id"], "targeting": nt, "ads": ads, "estimate": est[0] if est else None}
+
+
+def resume_ads(a):
+    c, adset = _adset(a)
+    wanted, done = [norm(n) for n in a["ad_names"]], []
+    for ad in call("GET", f"{adset['id']}/ads", fields="name,status", limit=100)["data"]:
+        if norm(ad["name"]) in wanted and ad.get("status") != "ACTIVE":
+            call("POST", ad["id"], status="ACTIVE"); done.append(ad["name"])
+    return {"campaign_id": c["id"], "adset_id": adset["id"], "resumed": done}
 
 
 def pause_adset(a):
