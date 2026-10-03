@@ -1,0 +1,134 @@
+{
+  "requested_by": "אייל 3.10.2026: 'הסטודיו לא עובד, מה עושים?' — 157 כניסות לדף, 0 טפסים. עוברים לטופס מיידי בפייסבוק (הפורמט שמביא ליד ב-47 ₪ ב-Money), עם שאלת סינון ליועצים. קמפיין התנועה מושהה; אותו תקציב.",
+  "approved": true,
+  "approved_by": "החלטת ניהול בתוך התקרה (ההכרעה שסוכמה ליום ראשון, הוקדמה בעקבות אייל). גם 'סרטון יום שישי' (267 ₪ לליד) מושהה.",
+  "actions": [
+    {
+      "type": "pause_adset",
+      "campaign_name": "HK Studio · יועצים · כניסות לדף",
+      "adset_name": "HK Studio · יועצים · כניסות לדף · קבוצה 1"
+    },
+    {
+      "type": "pause_ads",
+      "campaign_name": "קמפיין לידים אייל",
+      "adset_name": "סדרת מודעות לידים חדשה - בעלי עסקים",
+      "ad_names": [
+        "סרטון יום שישי"
+      ]
+    },
+    {
+      "type": "create_lead_campaign",
+      "page": "studio",
+      "name": "HK Studio · יועצים · טופס לידים",
+      "daily_budget_ils": 50,
+      "targeting": {
+        "geo_locations": {
+          "countries": [
+            "IL"
+          ],
+          "location_types": [
+            "home"
+          ]
+        },
+        "age_min": 28,
+        "age_max": 65,
+        "targeting_automation": {
+          "advantage_audience": 0
+        },
+        "flexible_spec": [
+          {
+            "interests": [
+              {
+                "id": "6003274244908",
+                "name": "Management consulting"
+              },
+              {
+                "id": "6002984410123",
+                "name": "Certified Public Accountant"
+              },
+              {
+                "id": "6003649965713",
+                "name": "Bookkeeping"
+              },
+              {
+                "id": "6006252868071",
+                "name": "Consulting firm"
+              }
+            ]
+          },
+          {
+            "interests": [
+              {
+                "id": "6002884511422",
+                "name": "Small business"
+              },
+              {
+                "id": "6003280183843",
+                "name": "Business development"
+              },
+              {
+                "id": "6003184559502",
+                "name": "Professional services"
+              }
+            ]
+          }
+        ]
+      },
+      "posts": [
+        "2026-W40-SA3",
+        "2026-W40-SA2"
+      ],
+      "captions": {
+        "2026-W40-SA2": "יועץ עסקי, רואה חשבון — מכיר את ההודעה של תשע בערב: \"תגיד, כמה נשאר לי בחשבון?\"\nב-HK Studio הלקוח שלך שואל בוואטסאפ ומקבל תשובה מהמספרים שלו, בשם המשרד שלך. מה שדורש שיקול דעת מקצועי לא נענה במקומך — הוא מגיע אליך.\nאתה נשאר היועץ. אנחנו התשתית שמאחוריך.\nהשאר פרטים — אופיר חוזר אליך לשיחה של שלושים דקות.",
+        "2026-W40-SA3": "ליועצים עסקיים ורואי חשבון: מה קובע כמה לקוחות אתה יכול להחזיק? לא הידע. השעות שמסביב לכל פגישה.\nHK Studio לוקח את השעות האלה: AI שמקליט ומסכם כל פגישה, זוכר כל מה שנאמר ומכין אותך לבאה. צוות שרודף אחרי החומר ובודק לפני שמשהו יוצא ללקוח. והלקוח רואה את הלוגו שלך, לא אותנו.\nהשאר פרטים — אופיר חוזר אליך לשיחה של שלושים דקות."
+      },
+      "headline": "HK Studio — המערכת שמאחורי היועץ",
+      "cta": "SIGN_UP",
+      "status": "ACTIVE",
+      "form": {
+        "name": "HK Studio · יועצים · 2026-10",
+        "privacy_url": "https://hak.co.il/privacy.html",
+        "thank_you_url": "https://studio.hak.co.il/?utm_source=facebook&utm_medium=paid&utm_campaign=studio-form",
+        "intro_title": "שלושים דקות עם אופיר",
+        "intro_lines": [
+          "נראה לך את המערכת על לקוח לדוגמה",
+          "בלי התחייבות ובלי עלות",
+          "אם זה לא מתאים למשרד שלך — נגיד"
+        ],
+        "thanks_title": "קיבלנו, תודה",
+        "thanks_body": "אופיר יחזור אליך בימים הקרובים לתיאום שיחה של שלושים דקות.",
+        "questions": [
+          {
+            "type": "FULL_NAME"
+          },
+          {
+            "type": "PHONE"
+          },
+          {
+            "type": "CUSTOM",
+            "key": "clients",
+            "label": "כמה לקוחות עסקיים אתה מלווה היום?",
+            "options": [
+              {
+                "key": "lt10",
+                "value": "עד 10"
+              },
+              {
+                "key": "10to30",
+                "value": "10 עד 30"
+              },
+              {
+                "key": "gt30",
+                "value": "מעל 30"
+              },
+              {
+                "key": "none",
+                "value": "אני לא יועץ / רואה חשבון"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

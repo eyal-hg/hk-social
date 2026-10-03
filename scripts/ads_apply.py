@@ -194,7 +194,7 @@ def projected_total(plan):
                 ex_camps.add(c["id"])
         elif a["type"] == "revive":
             ex_camps.add(find_campaign(a["campaign_name"])["id"])
-        elif a["type"] == "create_campaign":
+        elif a["type"] in ("create_campaign", "create_lead_campaign"):
             try:  # a retry: the campaign/ad set from the failed run already counts in the live total, don't count it twice
                 ex_camps.add(find_campaign(a["name"])["id"])
             except RuntimeError:
@@ -222,7 +222,8 @@ def apply_plan(plan_path):
             print("skip (done)", i, a["type"]); continue
         try:
             res = {"set_adset_budget": set_budget, "create_campaign": create_campaign, "revive": revive,
-                   "add_ads": add_ads, "pause_ads": pause_ads, "set_targeting": set_targeting, "create_pixel": create_pixel, "clone_adset": clone_adset}[a["type"]](a)
+                   "add_ads": add_ads, "pause_ads": pause_ads, "set_targeting": set_targeting, "create_pixel": create_pixel, "clone_adset": clone_adset,
+                   "pause_adset": pause_adset, "create_lead_campaign": create_lead_campaign}[a["type"]](a)
             applied.append({"index": i, "type": a["type"], "ok": True, "at": datetime.now(ZoneInfo("Asia/Jerusalem")).isoformat(timespec="minutes"), "result": res})
             print("ok", i, a["type"], res)
         except Exception as e:  # noqa: BLE001
@@ -355,6 +356,56 @@ def clone_adset(a):
         ads.append({"from": ad["name"], "ad_id": r["id"]})
     est = call("GET", f"{new['id']}/delivery_estimate", fields="estimate_mau_lower_bound,estimate_mau_upper_bound").get("data", [{}])
     return {"campaign_id": c["id"], "adset_id": new["id"], "targeting": nt, "ads": ads, "estimate": est[0] if est else None}
+
+
+def pause_adset(a):
+    c, adset = _adset(a)
+    call("POST", adset["id"], status="PAUSED")
+    return {"campaign_id": c["id"], "adset_id": adset["id"], "status": "PAUSED"}
+
+
+def lead_form(page_id, f):
+    """Find (by name) or create an Instant Form on the Page. Needs the Page's Lead Ads terms accepted."""
+    ptok = page_token(page_id)
+    for x in call("GET", f"{page_id}/leadgen_forms", fields="name,status", limit=100, access_token=ptok).get("data", []):
+        if same(x["name"], f["name"]) and x.get("status") == "ACTIVE":
+            return x["id"], True
+    r = call("POST", f"{page_id}/leadgen_forms", access_token=ptok, name=f["name"], locale="he_IL",
+             questions=json.dumps(f["questions"]), privacy_policy=json.dumps({"url": f["privacy_url"], "link_text": "מדיניות פרטיות"}),
+             follow_up_action_url=f["thank_you_url"],
+             context_card=json.dumps({"title": f["intro_title"], "content": f["intro_lines"], "style": "LIST_STYLE", "button_text": "המשך"}),
+             thank_you_page=json.dumps({"title": f["thanks_title"], "body": f["thanks_body"], "button_type": "VIEW_WEBSITE",
+                                        "button_text": "לאתר", "website_url": f["thank_you_url"]}))
+    return r["id"], False
+
+
+def create_lead_campaign(a):
+    """Instant-form (on-Facebook) lead campaign: form on the Page + campaign + ad set + one ad per post. Reuses what already exists."""
+    page_id = PAGES[a["page"]]
+    form_id, reused = lead_form(page_id, a["form"])
+    print("lead form", form_id, "(existing)" if reused else "(created)")
+    try:
+        camp = find_campaign(a["name"]); print("reusing campaign", camp["id"])
+    except RuntimeError:
+        camp = call("POST", f"{ACCT}/campaigns", name=a["name"], objective="OUTCOME_LEADS", status=a.get("status", "ACTIVE"),
+                    special_ad_categories="[]", buying_type="AUCTION", is_adset_budget_sharing_enabled="false")
+    aname = a["name"] + " · קבוצה 1"
+    existing = [x for x in call("GET", f"{camp['id']}/adsets", fields="name", limit=50)["data"] if same(x["name"], aname)]
+    adset = existing[0] if existing else call("POST", f"{ACCT}/adsets", name=aname, campaign_id=camp["id"], daily_budget=ils(a["daily_budget_ils"]),
+        billing_event="IMPRESSIONS", optimization_goal="LEAD_GENERATION", destination_type="ON_AD", bid_strategy="LOWEST_COST_WITHOUT_CAP",
+        targeting=json.dumps(a["targeting"]), promoted_object=json.dumps({"page_id": page_id}), status=a.get("status", "ACTIVE"))
+    have = {norm(x["name"]) for x in call("GET", f"{adset['id']}/ads", fields="name", limit=100)["data"]}
+    ads = []
+    for post_id in a["posts"]:
+        if norm(post_id + " · form") in have: continue
+        p = next(d for d in (json.loads(q.read_text(encoding="utf-8")) for q in ROOT.glob("posts/**/*.json")) if d["id"] == post_id)
+        msg = a.get("captions", {}).get(post_id) or p["caption"]
+        spec = {"page_id": page_id, "link_data": {"link": "https://fb.me/", "message": msg, "picture": f"{IMAGE_BASE}/{post_id}.jpg",
+                "name": a.get("headline", ""), "call_to_action": {"type": a.get("cta", "SIGN_UP"), "value": {"lead_gen_form_id": form_id}}}}
+        cr = call("POST", f"{ACCT}/adcreatives", name=post_id + " · form", object_story_spec=json.dumps(spec))
+        ad = call("POST", f"{ACCT}/ads", name=post_id + " · form", adset_id=adset["id"], creative=json.dumps({"creative_id": cr["id"]}), status=a.get("status", "ACTIVE"))
+        ads.append({"post": post_id, "ad_id": ad["id"]})
+    return {"form_id": form_id, "campaign_id": camp["id"], "adset_id": adset["id"], "ads": ads}
 
 
 def pause_ads(a):
