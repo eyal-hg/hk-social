@@ -398,7 +398,7 @@ def create_lead_campaign(a):
     except RuntimeError:
         camp = call("POST", f"{ACCT}/campaigns", name=a["name"], objective="OUTCOME_LEADS", status=a.get("status", "ACTIVE"),
                     special_ad_categories="[]", buying_type="AUCTION", is_adset_budget_sharing_enabled="false")
-    aname = a["name"] + " · קבוצה 1"
+    aname = a["name"] + a.get("adset_suffix", " · קבוצה 1")
     existing = [x for x in call("GET", f"{camp['id']}/adsets", fields="name", limit=50)["data"] if same(x["name"], aname)]
     adset = existing[0] if existing else call("POST", f"{ACCT}/adsets", name=aname, campaign_id=camp["id"], daily_budget=ils(a["daily_budget_ils"]),
         billing_event="IMPRESSIONS", optimization_goal="LEAD_GENERATION", destination_type="ON_AD", bid_strategy="LOWEST_COST_WITHOUT_CAP",
