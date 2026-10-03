@@ -130,5 +130,10 @@
         ]
       }
     }
-  ]
+  ],
+  "applied": [],
+  "blocked": {
+    "at": "2026-10-03T13:43+03:00",
+    "reason": "projected daily total 250 ILS > cap 200 ILS (ads/limits.json)"
+  }
 }
