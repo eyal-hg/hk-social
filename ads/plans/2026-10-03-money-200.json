@@ -1,0 +1,30 @@
+{
+  "requested_by": "אייל 3.10.2026: 'תעשה כולם סהכ 200 (ללא סטודיו) - תחלק'. חלוקה: וידיאו 1 (המנצח, 47 ₪ לליד) 100 · מיקונוס המקוצר 60 · מהפכת ה-AI 40. הסטודיו נשאר 50. סה\"כ חשבון 250.",
+  "approved": true,
+  "approved_by": "הנחיה מפורשת של אייל בצ'אט 3.10.2026; התקרה ב-limits.json עודכנה ל-250 בהתאם",
+  "actions": [
+    {
+      "type": "set_adset_budget",
+      "campaign_name": "טופס לידים || ניהול תזרים ||",
+      "daily_budget_ils": 100,
+      "note": "CBO: וידיאו 1, קהל פתוח + Lookalike"
+    },
+    {
+      "type": "set_adset_budget",
+      "campaign_name": "קמפיין לידים אייל",
+      "adset_name": "סדרת מודעות לידים חדשה",
+      "daily_budget_ils": 60,
+      "note": "מיקונוס המקוצר"
+    },
+    {
+      "type": "set_adset_budget",
+      "campaign_name": "קמפיין לידים אייל",
+      "adset_name": "סדרת מודעות לידים חדשה - בעלי עסקים",
+      "daily_budget_ils": 40,
+      "note": "מהפכת ה-AI"
+    },
+    {
+      "type": "check"
+    }
+  ]
+}
