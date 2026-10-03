@@ -74,6 +74,23 @@ def main():
               f"delivery={ (a.get('delivery_status') or {}).get('description','') }  op={ (a.get('operation_status') or {}).get('description','') }  "
               f"עודכן={str(a.get('time_updated',''))[:10]}  {('LAL '+str(ls.get('ratio'))+' של '+str([o.get('name') or o.get('id') for o in ls.get('origin',[])])) if ls else ''}")
 
+    # the instant forms on the Money page (the page wired to HK's lead screen): which exist, what they ask
+    PAGE = os.environ.get("PAGE_ID", "459554967250420")
+    try:
+        ptok = get(PAGE, fields="access_token").get("access_token")
+        forms = []
+        if ptok:
+            req = urllib.request.Request(f"{GRAPH}/{PAGE}/leadgen_forms?" + urllib.parse.urlencode({"fields": "name,status,created_time,leads_count,questions", "limit": 50, "access_token": ptok}))
+            with urllib.request.urlopen(req, timeout=60) as resp:
+                forms = json.load(resp).get("data", [])
+        out["lead_forms"] = forms
+        print(f"\n## lead forms on page {PAGE}: {len(forms)}")
+        for f in forms:
+            qs = "; ".join((q.get("label") or q.get("type") or "") for q in f.get("questions", []))
+            print(f"- {f['id']}  [{f.get('status')}]  {f.get('name')}  · leads {f.get('leads_count')}  · {str(f.get('created_time',''))[:10]}  · שאלות: {qs}")
+    except Exception as e:  # noqa: BLE001
+        print("lead forms lookup failed:", str(e)[:300])
+
     # behaviors are a fixed catalogue, not searchable: list the business-related ones
     beh = get(f"{ACCT}/adTargetingCategory", **{"class": "behaviors"}).get("data", [])
     beh = [b for b in beh if any(k in (b.get("name", "") + " ".join(b.get("path", []))).lower() for k in ("business", "admin", "owner", "engaged shopper", "professional"))]
