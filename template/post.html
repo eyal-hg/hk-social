@@ -103,6 +103,33 @@
   .sm-ben div { display: flex; flex-direction: column; align-items: center; gap: 12px; font-family: 'Rubik', sans-serif; font-weight: 700; font-size: 28px; width: 290px; }
   .sm-ben svg { width: 62px; height: 62px; padding: 14px; border-radius: 50%; background: #EAF4FB; stroke: var(--navy); fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; box-sizing: content-box; }
   .sm-cta { margin-top: auto; background: #E8635A; color: #fff; font-family: 'Rubik', sans-serif; font-weight: 800; font-size: 40px; padding: 22px 76px; border-radius: 60px; box-shadow: 0 14px 30px rgba(232,99,90,.35); }
+
+  /* ── l-studio-secret: "ששש… יש משהו שאסור לנו לספר לך (עד עכשיו)" — בריף אייל 04.10: סוד/חשיפה, נייר קרוע, דמות, מוקאפ מחשב+מובייל ── */
+  .l-studio-secret { background: #fff; color: var(--navy); }
+  .l-studio-secret .logo, .l-studio-secret .kicker, .l-studio-secret .bottom, .l-studio-secret .stripe { display: none; }
+  .l-studio-secret .main { inset: 0; padding: 0; justify-content: flex-start; display: block; }
+  .ss-logo { position: absolute; top: 44px; right: 64px; height: 54px; }
+  .ss-head { position: absolute; top: 118px; right: 64px; left: 330px; text-align: right; font-family: 'Rubik', sans-serif; font-weight: 800; color: var(--navy); line-height: 1.04; letter-spacing: -.02em; }
+  .ss-head .sh { font-size: 96px; color: #E8635A; letter-spacing: .01em; }
+  .ss-head .t { font-size: 78px; display: block; }
+  .ss-head .u { font-size: 46px; font-weight: 700; color: #E8635A; display: block; margin-top: 10px; letter-spacing: 0; }
+  .ss-fig { position: absolute; top: 108px; left: 30px; width: 300px; }
+  .ss-band { position: absolute; top: 500px; left: 0; right: 0; height: 480px; background: linear-gradient(165deg, var(--navy), var(--navy2)); }
+  .ss-tear { position: absolute; left: 0; right: 0; height: 46px; width: 100%; display: block; }
+  .ss-tear.top { top: -1px; } .ss-tear.bot { bottom: -1px; transform: scaleY(-1); }
+  .ss-sub { position: absolute; top: 66px; right: 64px; width: 420px; color: #fff; font-family: 'Rubik', sans-serif; font-weight: 800; font-size: 40px; line-height: 1.2; text-align: right; }
+  .ss-plus { position: absolute; top: 256px; right: 64px; width: 420px; color: #8fd0f3; font-family: 'Rubik', sans-serif; font-weight: 600; font-size: 25px; line-height: 1.4; text-align: right; }
+  .ss-lap { position: absolute; top: 66px; left: 64px; width: 470px; }
+  .ss-lap .scr { border: 9px solid #0b1b2b; border-radius: 14px 14px 3px 3px; overflow: hidden; background: #0b1b2b; box-shadow: 0 26px 50px rgba(0,0,0,.4); }
+  .ss-lap img { display: block; width: 100%; } .ss-lap .base { height: 13px; margin: 0 -34px; background: linear-gradient(#e6edf3, #b9c6d2); border-radius: 0 0 20px 20px; }
+  .ss-ph { position: absolute; top: 112px; left: 430px; width: 150px; border: 7px solid #0b1b2b; border-radius: 26px; overflow: hidden; background: #0b1b2b; box-shadow: 0 22px 44px rgba(0,0,0,.5); }
+  .ss-ph img { display: block; width: 100%; }
+  .ss-feat { position: absolute; top: 1010px; left: 48px; right: 48px; display: flex; gap: 22px; }
+  .ss-feat div { flex: 1; text-align: center; }
+  .ss-feat svg { width: 46px; height: 46px; padding: 12px; border-radius: 50%; background: #FDECEA; stroke: #E8635A; fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; box-sizing: content-box; }
+  .ss-feat b { display: block; font-family: 'Rubik', sans-serif; font-weight: 800; font-size: 27px; margin: 8px 0 2px; color: var(--navy); }
+  .ss-feat span { font-size: 21px; color: var(--muted); line-height: 1.3; display: block; }
+  .ss-cta { position: absolute; bottom: 40px; left: 50%; transform: translateX(-50%); background: #E8635A; color: #fff; font-family: 'Rubik', sans-serif; font-weight: 800; font-size: 38px; padding: 18px 70px; border-radius: 60px; box-shadow: 0 14px 30px rgba(232,99,90,.35); white-space: nowrap; }
 </style>
 </head>
 <body>
@@ -149,6 +176,30 @@
       `<div class="sm-mock"><div class="sm-screen"><img src="${P.photo || 'assets/studio-timeline.jpg'}" alt=""></div><div class="sm-base"></div></div>` +
       '<div class="sm-ben">' + (P.steps || []).map(b => `<div><svg viewBox="0 0 24 24">${ic[b.text] || ic.full}</svg>${b.title}</div>`).join('') + '</div>' +
       (P.cta ? `<div class="sm-cta">${P.cta}</div>` : '');
+  } else if (layout === 'studio-secret') {
+    const tear = '<svg class="ss-tear TT" viewBox="0 0 1080 46" preserveAspectRatio="none"><path fill="#fff" d="M0 0H1080V20L1052 31 1021 18 990 34 957 22 921 37 886 21 850 33 816 17 779 36 742 23 707 39 668 20 633 34 596 19 560 37 521 24 486 35 449 18 412 38 376 22 338 33 303 19 266 37 229 21 193 36 157 20 121 34 84 18 47 35 20 23 0 31Z"/></svg>';
+    const ic = ['<path d="M3 3v18h18"/><path d="m7 15 4-5 4 3 5-7"/>', '<rect x="3" y="4" width="18" height="13" rx="2"/><path d="M8 21h8M12 17v4"/><path d="m9 10 2 2 4-4"/>', '<path d="M12 3 4 6v6c0 5 3.5 8 8 9 4.500-1 8-4 8-9V6l-8-3z"/><path d="m9 12 2 2 4-4"/>'];
+    const fig = '<svg class="ss-fig" viewBox="0 0 310 400" fill="none" stroke-linecap="round" stroke-linejoin="round">' +
+      '<path d="M22 400c4-62 52-100 133-100s129 38 133 100z" fill="#0c4068"/>' +
+      '<path d="M120 300l35 34 35-34" stroke="#fff" stroke-width="5"/>' +
+      '<path d="M126 248h58v52c0 18-58 18-58 0z" fill="#f2cfb8"/>' +
+      '<ellipse cx="68" cy="176" rx="14" ry="20" fill="#f2cfb8"/><ellipse cx="242" cy="176" rx="14" ry="20" fill="#f2cfb8"/>' +
+      '<path d="M72 150c0-58 36-92 83-92s83 34 83 92v30c0 56-36 92-83 92s-83-36-83-92z" fill="#f7dcc8"/>' +
+      '<path d="M68 152c-6-66 34-112 90-112 50 0 90 32 86 104-18-10-30-30-34-52-30 26-84 34-126 30-8 8-14 18-16 30z" fill="#082f4d"/>' +
+      '<path d="M104 150q18-12 34-2" stroke="#082f4d" stroke-width="6"/><path d="M174 148q18-10 34 2" stroke="#082f4d" stroke-width="6"/>' +
+      '<circle cx="122" cy="176" r="8" fill="#082f4d"/><path d="M178 178q13-10 26 0" stroke="#082f4d" stroke-width="6"/>' +
+      '<path d="M128 236q27 12 54 0" stroke="#c9695a" stroke-width="6"/>' +
+      '<rect x="143" y="186" width="24" height="96" rx="12" fill="#f7dcc8" stroke="#082f4d" stroke-width="4.5"/>' +
+      '<path d="M128 284c0-12 8-18 20-18h24c26 0 40 12 40 30v20c0 20-16 30-42 30s-42-10-42-30z" fill="#f7dcc8" stroke="#082f4d" stroke-width="4.5"/>' +
+      '<path d="M146 296h44M146 314h44" stroke="#082f4d" stroke-width="3.5" opacity=".3"/>' +
+      '<path d="M262 104q14-10 22-26M274 134q16-4 28-14M254 78q6-14 8-30" stroke="#E8635A" stroke-width="6"/></svg>';
+    const t = (P.title || '').split('|');
+    main.innerHTML = '<img class="ss-logo" src="assets/studio-logo.png" alt="">' + fig +
+      `<div class="ss-head"><span class="sh">${P.kicker || ''}</span><span class="t">${t[0] || ''}</span><span class="t">${t[1] || ''}</span><span class="u">${t[2] || ''}</span></div>` +
+      `<div class="ss-band">${tear.replace('TT','top')}<div class="ss-sub">${P.body || ''}</div><div class="ss-plus">${(P.left && P.left.title) || ''}</div>` +
+      `<div class="ss-lap"><div class="scr"><img src="${P.photo || 'assets/studio-timeline.jpg'}" alt=""></div><div class="base"></div></div><div class="ss-ph"><img src="assets/studio-app-home.jpg" alt=""></div>${tear.replace('TT','bot')}</div>` +
+      '<div class="ss-feat">' + (P.steps || []).map((b, i) => `<div><svg viewBox="0 0 24 24">${ic[i % 3]}</svg><b>${b.title}</b><span>${b.text || ''}</span></div>`).join('') + '</div>' +
+      (P.cta ? `<div class="ss-cta">${P.cta}</div>` : '');
   } else {
     main.innerHTML = h + (P.body ? `<p class="body">${P.body}</p>` : '');
     if (layout === 'photo') { const ph = document.getElementById('photo'); ph.src = P.photo || 'assets/person-phone.png'; ph.hidden = false; }
