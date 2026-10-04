@@ -116,5 +116,24 @@
       },
       "adset_suffix": " · קבוצה 2 · דף HK Money"
     }
+  ],
+  "applied": [
+    {
+      "index": 0,
+      "type": "create_lead_campaign",
+      "ok": true,
+      "at": "2026-10-04T13:11+03:00",
+      "result": {
+        "form_id": "1044423021977751",
+        "campaign_id": "120251977931170740",
+        "adset_id": "120251978093880740",
+        "ads": [
+          {
+            "post": "2026-W41-SA4",
+            "ad_id": "120251987340540740"
+          }
+        ]
+      }
+    }
   ]
 }
