@@ -85,6 +85,24 @@
   .l-photo .main { right: 80px; left: 520px; top: 200px; bottom: 200px; }
   .l-photo .title { font-size: 150px; }
   .l-photo .body { color: rgba(255,255,255,.88); font-size: 44px; border-right: 8px solid var(--blue); padding-right: 30px; }
+
+  /* ── l-studio-mock: קריאייטיב הסטודיו לפי בריף 04.10 — רקע לבן, לוגו למעלה, כותרת ענקית במרכז, מוקאפ, שלושה יתרונות, כפתור קורל ── */
+  .l-studio-mock { background: #fff; color: var(--navy); }
+  .l-studio-mock .logo, .l-studio-mock .kicker, .l-studio-mock .bottom, .l-studio-mock .stripe { display: none; }
+  .l-studio-mock .main { inset: 0; padding: 56px 64px 54px; justify-content: flex-start; align-items: center; text-align: center; }
+  .sm-logo { height: 62px; margin-bottom: 34px; }
+  .l-studio-mock .title { font-family: 'Rubik', sans-serif; font-weight: 800; font-size: 84px; line-height: 1.08; letter-spacing: -.02em; color: var(--navy); }
+  .l-studio-mock .title em { color: #E8635A; }
+  .sm-sub { font-family: 'Rubik', sans-serif; font-weight: 700; font-size: 31px; color: var(--navy); margin-top: 20px; }
+  .sm-line { font-size: 27px; color: var(--muted); margin-top: 8px; }
+  .sm-mock { margin-top: 30px; width: 800px; }
+  .sm-screen { border: 12px solid #16283a; border-bottom-width: 14px; border-radius: 20px 20px 4px 4px; overflow: hidden; background: #16283a; box-shadow: 0 30px 60px rgba(12,64,104,.22); }
+  .sm-screen img { display: block; width: 100%; }
+  .sm-base { height: 18px; margin: 0 -56px; background: linear-gradient(#dfe7ee, #b9c6d2); border-radius: 0 0 26px 26px; }
+  .sm-ben { display: flex; justify-content: center; gap: 46px; margin-top: 34px; }
+  .sm-ben div { display: flex; flex-direction: column; align-items: center; gap: 12px; font-family: 'Rubik', sans-serif; font-weight: 700; font-size: 28px; width: 290px; }
+  .sm-ben svg { width: 62px; height: 62px; padding: 14px; border-radius: 50%; background: #EAF4FB; stroke: var(--navy); fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; box-sizing: content-box; }
+  .sm-cta { margin-top: auto; background: #E8635A; color: #fff; font-family: 'Rubik', sans-serif; font-weight: 800; font-size: 40px; padding: 22px 76px; border-radius: 60px; box-shadow: 0 14px 30px rgba(232,99,90,.35); }
 </style>
 </head>
 <body>
@@ -122,6 +140,15 @@
   } else if (layout === 'list') {
     main.innerHTML = h + '<div class="steps">' + (P.steps || []).map((s, i) =>
       `<div class="step"><i>${String(i + 1).padStart(2, '0')}</i><div><b>${s.title}</b>${s.text || ''}</div></div>`).join('') + '</div>';
+  } else if (layout === 'studio-mock') {
+    const ic = { keep: '<path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="m16 11 2 2 4-4"/>',
+                 full: '<path d="M12 2 2 7l10 5 10-5-10-5z"/><path d="m2 17 10 5 10-5"/><path d="m2 12 10 5 10-5"/>',
+                 load: '<path d="M12 5v14"/><path d="m19 12-7 7-7-7"/>' };
+    main.innerHTML = '<img class="sm-logo" src="assets/studio-logo.png" alt="">' + h +
+      (P.body ? `<div class="sm-sub">${P.body}</div>` : '') + (P.kicker ? `<div class="sm-line">${P.kicker}</div>` : '') +
+      `<div class="sm-mock"><div class="sm-screen"><img src="${P.photo || 'assets/studio-timeline.jpg'}" alt=""></div><div class="sm-base"></div></div>` +
+      '<div class="sm-ben">' + (P.steps || []).map(b => `<div><svg viewBox="0 0 24 24">${ic[b.text] || ic.full}</svg>${b.title}</div>`).join('') + '</div>' +
+      (P.cta ? `<div class="sm-cta">${P.cta}</div>` : '');
   } else {
     main.innerHTML = h + (P.body ? `<p class="body">${P.body}</p>` : '');
     if (layout === 'photo') { const ph = document.getElementById('photo'); ph.src = P.photo || 'assets/person-phone.png'; ph.hidden = false; }
