@@ -1,0 +1,19 @@
+{
+  "requested_by": "אייל 4.10.2026: 'מאשר, תעלה את המודעה' — SA4 עלתה (ad 120251987340540740). משהים את SA2/SA3 כדי שכל ה-50 ₪ ילכו לקריאייטיב החדש.",
+  "approved": true,
+  "approved_by": "אייל 4.10 בצ'אט; אין שינוי תקציב",
+  "actions": [
+    {
+      "type": "pause_ads",
+      "campaign_name": "HK Studio · יועצים · טופס לידים",
+      "adset_name": "HK Studio · יועצים · טופס לידים · קבוצה 2 · דף HK Money",
+      "ad_names": [
+        "2026-W40-SA3 · form",
+        "2026-W40-SA2 · form"
+      ]
+    },
+    {
+      "type": "check"
+    }
+  ]
+}
