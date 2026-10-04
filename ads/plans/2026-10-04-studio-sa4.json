@@ -1,0 +1,120 @@
+{
+  "requested_by": "אייל 4.10.2026: בריף חדש לפוסט הממומן של הסטודיו ('אנחנו מנהלים את התזרים. אתם נשארים עם הייעוץ.', CTA: לקביעת הדגמה). סשן הסטודיו בנה את 2026-W41-SA4; אייל: 'מאשר, תעלה את המודעה'.",
+  "approved": true,
+  "approved_by": "אייל 4.10 בצ'אט; אותו תקציב (50 ₪), אותו קהל, אותו טופס יועצים (1044423021977751). SA2/SA3 מושהות בתוכנית נפרדת אחרי ש-SA4 עולה.",
+  "actions": [
+    {
+      "type": "create_lead_campaign",
+      "page": "money",
+      "name": "HK Studio · יועצים · טופס לידים",
+      "daily_budget_ils": 50,
+      "targeting": {
+        "geo_locations": {
+          "countries": [
+            "IL"
+          ],
+          "location_types": [
+            "home"
+          ]
+        },
+        "age_min": 28,
+        "age_max": 65,
+        "targeting_automation": {
+          "advantage_audience": 0
+        },
+        "flexible_spec": [
+          {
+            "interests": [
+              {
+                "id": "6003274244908",
+                "name": "Management consulting"
+              },
+              {
+                "id": "6002984410123",
+                "name": "Certified Public Accountant"
+              },
+              {
+                "id": "6003649965713",
+                "name": "Bookkeeping"
+              },
+              {
+                "id": "6006252868071",
+                "name": "Consulting firm"
+              }
+            ]
+          },
+          {
+            "interests": [
+              {
+                "id": "6002884511422",
+                "name": "Small business"
+              },
+              {
+                "id": "6003280183843",
+                "name": "Business development"
+              },
+              {
+                "id": "6003184559502",
+                "name": "Professional services"
+              }
+            ]
+          }
+        ]
+      },
+      "posts": [
+        "2026-W41-SA4"
+      ],
+      "captions": {
+        "2026-W41-SA4": "ליועצים פיננסיים:\nאנחנו מנהלים את התזרים של הלקוחות שלכם — מנהלי תזרים, מערכת ו-AI שמכיר את העסק. אתם נשארים עם הייעוץ.\nשירות ניהול תזרים מלא, תחת המשרד והמותג שלכם. הלקוח נשאר שלכם.\nלקביעת הדגמה — השאירו פרטים ונחזור אליכם."
+      },
+      "headline": "ניהול תזרים ללקוחות שלכם, תחת המותג שלכם",
+      "cta": "SIGN_UP",
+      "status": "ACTIVE",
+      "form": {
+        "name": "HK Studio · יועצים · 2026-10",
+        "privacy_url": "https://hak.co.il/privacy.html",
+        "thank_you_url": "https://studio.hak.co.il/?utm_source=facebook&utm_medium=paid&utm_campaign=studio-form",
+        "intro_title": "שלושים דקות עם אופיר",
+        "intro_lines": [
+          "נראה לך את המערכת על לקוח לדוגמה",
+          "בלי התחייבות ובלי עלות",
+          "אם זה לא מתאים למשרד שלך — נגיד"
+        ],
+        "thanks_title": "קיבלנו, תודה",
+        "thanks_body": "אופיר יחזור אליך בימים הקרובים לתיאום שיחה של שלושים דקות.",
+        "questions": [
+          {
+            "type": "FULL_NAME"
+          },
+          {
+            "type": "PHONE"
+          },
+          {
+            "type": "CUSTOM",
+            "key": "clients",
+            "label": "כמה לקוחות עסקיים אתה מלווה היום?",
+            "options": [
+              {
+                "key": "lt10",
+                "value": "עד 10"
+              },
+              {
+                "key": "10to30",
+                "value": "10 עד 30"
+              },
+              {
+                "key": "gt30",
+                "value": "מעל 30"
+              },
+              {
+                "key": "none",
+                "value": "אני לא יועץ / רואה חשבון"
+              }
+            ]
+          }
+        ]
+      },
+      "adset_suffix": " · קבוצה 2 · דף HK Money"
+    }
+  ]
+}
