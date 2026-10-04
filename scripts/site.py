@@ -126,6 +126,13 @@ CONSULTANTS = r"""<!DOCTYPE html><html lang="he" dir="rtl"><head><meta charset="
 .cz-bar label{display:inline-flex;align-items:center;gap:6px;font-size:14px;color:var(--ink);white-space:nowrap}
 .cz-bar button,.cz-more{font:inherit;font-weight:700;padding:9px 16px;border-radius:10px;border:1px solid var(--navy);background:var(--navy);color:#fff;cursor:pointer}
 .cz-bar button.sec{background:#fff;color:var(--navy)}
+.cz-fin{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 14px}.cz-fin div{background:#fff;border:1px solid var(--line);border-radius:12px;padding:10px 16px;min-width:130px}
+.cz-fin b{display:block;font-family:Rubik,Heebo,sans-serif;font-size:24px;color:var(--navy);line-height:1.2;font-variant-numeric:tabular-nums}.cz-fin span{font-size:13px;color:var(--muted)}
+.cz-fin .all{background:transparent;border-style:dashed}.cz-fin .all b{color:var(--muted)}.cz-count a{color:var(--navy);font-weight:700}
+.cz-tabs{display:flex;gap:8px;overflow-x:auto;padding:2px 2px 10px;margin:0 0 6px}
+.cz-tabs button{font:inherit;font-weight:700;flex:0 0 auto;padding:9px 14px;border:1px solid var(--line);border-radius:12px;background:#fff;color:var(--muted);cursor:pointer;text-align:right;line-height:1.3}
+.cz-tabs button b{color:var(--navy);font-variant-numeric:tabular-nums}.cz-tabs button small{display:block;font-weight:400;font-size:12px;color:var(--muted)}
+.cz-tabs button[aria-selected=true]{background:var(--navy);border-color:var(--navy);color:#fff}.cz-tabs button[aria-selected=true] b{color:#fff}.cz-tabs button[aria-selected=true] small{color:#cfe3f1}
 .cz-count{margin:14px 2px 8px;color:var(--muted);font-size:14px}.cz-count b{color:var(--navy);font-size:17px}
 .cz-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:14px;background:#fff}
 .cz table{border-collapse:collapse;width:100%;font-size:14px;min-width:880px}
@@ -152,9 +159,11 @@ CONSULTANTS = r"""<!DOCTYPE html><html lang="he" dir="rtl"><head><meta charset="
     <form id="lf"><input id="lpw" type="password" autocomplete="current-password" placeholder="סיסמה" required><button>פתיחה</button><div class="cz-err" id="lerr"></div></form></div>
   <div id="app" hidden>
     <h1>יועצים לפנייה</h1><p class="lede" id="lede"></p>
+    <div class="cz-fin" id="fin"></div>
+    <div class="cz-tabs" id="tabs" role="tablist" aria-label="סוג היועץ"></div>
     <div class="cz-bar">
       <input id="q" type="search" placeholder="חיפוש לפי שם, עיר, טלפון או מייל" aria-label="חיפוש">
-      <select id="fseg" aria-label="תחום"></select><select id="fcity" aria-label="עיר"></select><select id="fsrc" aria-label="מקור"></select>
+      <select id="fcity" aria-label="עיר"></select><select id="fsrc" aria-label="מקור"></select>
       <select id="sort" aria-label="מיון"><option value="pri">מיון: לפי עדיפות</option><option value="rating">מיון: דירוג</option><option value="reviews">מיון: מספר ביקורות</option><option value="name">מיון: שם</option></select>
       <label><input type="checkbox" id="hideex" checked> להסתיר לקוחות קיימים</label>
       <label><input type="checkbox" id="hasmail"> יש מייל</label>
@@ -169,7 +178,13 @@ CONSULTANTS = r"""<!DOCTYPE html><html lang="he" dir="rtl"><head><meta charset="
 <script>
 (function(){
   var PRI=['יועץ פיננסי לעסקים','CFO / ניהול כספים','כלכלן','יועץ עסקי','תכנון פיננסי','יועץ משכנתאות','יועץ מס','רואה חשבון'];
+  var FIN=['יועץ פיננסי לעסקים','CFO / ניהול כספים','כלכלן','תכנון פיננסי'];
+  // לשונית לכל סוג: [מפתח לקישור (#tab=…), ערך segment בקובץ, כותרת]. 'all' = הכל.
+  var TABS=[['fin','יועץ פיננסי לעסקים','יועצים פיננסיים לעסקים'],['cfo','CFO / ניהול כספים','CFO / ניהול כספים'],['econ','כלכלן','כלכלנים'],['plan','תכנון פיננסי','תכנון פיננסי'],
+    ['biz','יועץ עסקי','יועצים עסקיים'],['tax','יועץ מס','יועצי מס'],['all','','הכל']], tab='fin';
+  function tabSeg(){for(var i=0;i<TABS.length;i++)if(TABS[i][0]===tab)return TABS[i][1];return ''}
   var PAGE=100, $=function(id){return document.getElementById(id)}, meta=null, all=[], view=[], shown=0;
+  function fin(r){return FIN.indexOf(r.segment)>=0}
   function dec(t){return Uint8Array.from(atob(t),function(c){return c.charCodeAt(0)})}
   function esc(v){return String(v==null?'':v).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})}
   async function derive(pw){
@@ -202,7 +217,7 @@ CONSULTANTS = r"""<!DOCTYPE html><html lang="he" dir="rtl"><head><meta charset="
   }
   function more(){var next=view.slice(shown,shown+PAGE);$('rows').insertAdjacentHTML('beforeend',next.map(row).join(''));shown+=next.length;$('more').hidden=shown>=view.length;if(!$('more').hidden)$('more').textContent='הצג עוד ('+(view.length-shown).toLocaleString('he-IL')+' נוספים)'}
   function apply(){
-    var q=$('q').value.trim().toLowerCase(), seg=$('fseg').value, city=$('fcity').value, src=$('fsrc').value, he=$('hideex').checked, hm=$('hasmail').checked, hs=$('hassite').checked, so=$('sort').value;
+    var q=$('q').value.trim().toLowerCase(), seg=tabSeg(), city=$('fcity').value, src=$('fsrc').value, he=$('hideex').checked, hm=$('hasmail').checked, hs=$('hassite').checked, so=$('sort').value;
     var qd=q.replace(/[^0-9]/g,'');
     view=all.filter(function(r){
       if(he&&r.existing)return false; if(seg&&r.segment!==seg)return false; if(city&&r.city!==city)return false;
@@ -214,25 +229,33 @@ CONSULTANTS = r"""<!DOCTYPE html><html lang="he" dir="rtl"><head><meta charset="
     view.sort(so==='rating'?function(a,b){return num(b.rating)-num(a.rating)||num(b.reviews)-num(a.reviews)}
       :so==='reviews'?function(a,b){return num(b.reviews)-num(a.reviews)}
       :so==='name'?function(a,b){return String(a.name).localeCompare(String(b.name),'he')}
-      :function(a,b){return pri(a)-pri(b)||num(b.rating)-num(a.rating)||num(b.reviews)-num(a.reviews)||String(a.name).localeCompare(String(b.name),'he')});
+      :function(a,b){return pri(a)-pri(b)||num(b.reviews)-num(a.reviews)||num(b.rating)-num(a.rating)||String(a.name).localeCompare(String(b.name),'he')});
     $('rows').innerHTML='';shown=0;more();
-    $('count').innerHTML='<b>'+view.length.toLocaleString('he-IL')+'</b> מתוך '+all.length.toLocaleString('he-IL')+' אנשי קשר';
+    var inTab=seg?all.filter(function(r){return r.segment===seg}).length:all.length;
+    $('count').innerHTML='מוצגים <b>'+view.length.toLocaleString('he-IL')+'</b> מתוך '+inTab.toLocaleString('he-IL')+' בלשונית הזו';
   }
   function csv(){
     var cols=[['name','שם'],['segment','תחום'],['city','עיר'],['phone','טלפון'],['email','מייל'],['website','אתר'],['rating','דירוג'],['reviews','ביקורות'],['source','מקור'],['existing_status','סטטוס לקוח קיים'],['note','הערה']];
     var q=function(v){v=String(v==null?'':v);if(/^[=+\-@]/.test(v)&&!/^\+?[0-9 ()-]+$/.test(v))v="'"+v;return '"'+v.replace(/"/g,'""')+'"'};
     var out=[cols.map(function(c){return q(c[1])}).join(',')].concat(view.map(function(r){return cols.map(function(c){return q(r[c[0]])}).join(',')}));
     var a=document.createElement('a');a.href=URL.createObjectURL(new Blob(['﻿'+out.join('\r\n')],{type:'text/csv;charset=utf-8'}));
-    a.download='consultants-'+view.length+'.csv';document.body.appendChild(a);a.click();setTimeout(function(){URL.revokeObjectURL(a.href);a.remove()},500);
+    a.download='consultants-'+tab+'-'+view.length+'.csv';document.body.appendChild(a);a.click();setTimeout(function(){URL.revokeObjectURL(a.href);a.remove()},500);
   }
   function start(rows){
     all=rows;all.forEach(function(r){r._t=[r.name,r.city,r.email,r.segment,r.note].join(' ').toLowerCase();r._d=String(r.phone||'').replace(/[^0-9]/g,'')});
-    fill($('fseg'),'כל התחומים',counts('segment',function(x,y){return PRI.indexOf(x[0])-PRI.indexOf(y[0])}));
+    var f=all.filter(fin), n=function(v){return v.toLocaleString('he-IL')};
+    var hm=(location.hash.match(/tab=([a-z]+)/)||[])[1]; if(hm&&TABS.some(function(t){return t[0]===hm})) tab=hm;
+    $('tabs').innerHTML=TABS.map(function(t){var rs=t[1]?all.filter(function(r){return r.segment===t[1]}):all;
+      return '<button type="button" role="tab" data-tab="'+t[0]+'" aria-selected="'+(t[0]===tab)+'">'+esc(t[2])+' <b>'+n(rs.length)+'</b><small>'+n(rs.filter(function(r){return r.email}).length)+' עם מייל</small></button>'}).join('');
+    $('tabs').addEventListener('click',function(e){var b=e.target.closest('button[data-tab]');if(!b)return;tab=b.getAttribute('data-tab');
+      $('tabs').querySelectorAll('button').forEach(function(x){x.setAttribute('aria-selected',x===b)});try{history.replaceState(null,'','#tab='+tab)}catch(x){} apply()});
+    $('fin').innerHTML='<div><b>'+n(f.length)+'</b><span>יועצים פיננסיים (4 הלשוניות הראשונות)</span></div><div><b>'+n(f.filter(function(r){return r.phone}).length)+'</b><span>מהם עם טלפון</span></div>'
+      +'<div><b>'+n(f.filter(function(r){return r.email}).length)+'</b><span>מהם עם מייל</span></div><div class="all"><b>'+n(all.length)+'</b><span>סך הכול ברשימה, כל התחומים</span></div>';
     fill($('fcity'),'כל הערים',counts('city'));
     var sm={};all.forEach(function(r){String(r.source||'').split(' + ').forEach(function(v){if(v)sm[v]=(sm[v]||0)+1})});
     fill($('fsrc'),'כל המקורות',Object.keys(sm).map(function(k){return [k,sm[k]]}).sort(function(x,y){return y[1]-x[1]}));
-    $('lede').textContent='יועצים פיננסיים למעלה. עודכן: '+String(meta.updated||'').replace('T',' ')+' · לשימוש פנימי בלבד.';
-    ['q','fseg','fcity','fsrc','sort','hideex','hasmail','hassite'].forEach(function(id){$(id).addEventListener(id==='q'?'input':'change',apply)});
+    $('lede').textContent='לשונית לכל סוג יועץ, הפיננסיים ראשונים. החיפוש, הסינון והייצוא פועלים בתוך הלשונית הפתוחה. עודכן: '+String(meta.updated||'').replace('T',' ')+' · לשימוש פנימי בלבד.';
+    ['q','fcity','fsrc','sort','hideex','hasmail','hassite'].forEach(function(id){$(id).addEventListener(id==='q'?'input':'change',apply)});
     $('more').addEventListener('click',more);$('csv').addEventListener('click',csv);
     $('lock').hidden=true;$('app').hidden=false;apply();
   }
