@@ -225,7 +225,7 @@ def apply_plan(plan_path):
         try:
             res = {"set_adset_budget": set_budget, "create_campaign": create_campaign, "revive": revive,
                    "add_ads": add_ads, "pause_ads": pause_ads, "set_targeting": set_targeting, "create_pixel": create_pixel, "clone_adset": clone_adset,
-                   "pause_adset": pause_adset, "create_lead_campaign": create_lead_campaign, "resume_ads": resume_ads, "check": check, "copy_ad": copy_ad}[a["type"]](a)
+                   "pause_adset": pause_adset, "create_lead_campaign": create_lead_campaign, "resume_ads": resume_ads, "check": check, "copy_ad": copy_ad, "inspect_ads": inspect_ads}[a["type"]](a)
             applied.append({"index": i, "type": a["type"], "ok": True, "at": datetime.now(ZoneInfo("Asia/Jerusalem")).isoformat(timespec="minutes"), "result": res})
             print("ok", i, a["type"], res)
         except Exception as e:  # noqa: BLE001
@@ -402,6 +402,23 @@ def copy_ad(a):
         raise RuntimeError("ad already exists in target ad set: " + name)
     ad = call("POST", f"{ACCT}/ads", name=name, adset_id=adset["id"], creative=json.dumps({"creative_id": src["creative"]["id"]}), status=a.get("status", "ACTIVE"))
     return {"from": src["name"], "from_adset": (src.get("adset") or {}).get("name"), "creative_id": src["creative"]["id"], "ad_id": ad["id"], "adset_id": adset["id"]}
+
+
+def inspect_ads(a):
+    """Read-only: for the active ads of one campaign — link clicks vs all clicks, every action Meta counted, the form attached, and a preview link."""
+    c = find_campaign(a["campaign_name"])
+    out = []
+    for ad in call("GET", f"{c['id']}/ads", fields="name,effective_status,preview_shareable_link,creative{object_story_spec,call_to_action_type,effective_object_story_id}", limit=100)["data"]:
+        if ad.get("effective_status") != "ACTIVE": continue
+        ins = (call("GET", f"{ad['id']}/insights", date_preset="maximum", fields="spend,impressions,reach,clicks,inline_link_clicks,unique_inline_link_clicks,actions,outbound_clicks").get("data") or [{}])[0]
+        spec = ((ad.get("creative") or {}).get("object_story_spec") or {}).get("link_data") or {}
+        line = "INSPECT " + json.dumps({"ad": ad["name"], "spend": ins.get("spend"), "impressions": ins.get("impressions"), "reach": ins.get("reach"),
+            "clicks_all": ins.get("clicks"), "link_clicks": ins.get("inline_link_clicks"), "unique_link_clicks": ins.get("unique_inline_link_clicks"),
+            "actions": {x["action_type"]: x["value"] for x in ins.get("actions", []) or []},
+            "cta": spec.get("call_to_action"), "link": spec.get("link"), "story": (ad.get("creative") or {}).get("effective_object_story_id"),
+            "preview": ad.get("preview_shareable_link")}, ensure_ascii=False)
+        print(line); out.append(line)
+    return {"lines": out}
 
 
 def resume_ads(a):

@@ -1,0 +1,11 @@
+{
+  "requested_by": "אייל 4.10: 'אולי יש בעיה בטופס?' — בדיקה בלבד של מודעות הטופס של הסטודיו",
+  "approved": true,
+  "approved_by": "קריאה בלבד",
+  "actions": [
+    {
+      "type": "inspect_ads",
+      "campaign_name": "HK Studio · יועצים · טופס לידים"
+    }
+  ]
+}
