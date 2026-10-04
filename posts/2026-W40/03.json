@@ -18,7 +18,7 @@
     "facebook",
     "instagram"
   ],
-  "status": "approved",
+  "status": "published",
   "layout": "list",
   "steps": [
     {
@@ -34,5 +34,10 @@
       "text": "אם הוא אחרי שני הראשונים, מצאת את השבוע הלחוץ."
     }
   ],
-  "page": "money"
+  "page": "money",
+  "results": {
+    "facebook": "459554967250420_122178053678678494",
+    "instagram": "18073802483742361"
+  },
+  "published_at": "2026-10-04T16:20+03:00"
 }
