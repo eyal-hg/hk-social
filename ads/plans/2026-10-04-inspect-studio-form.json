@@ -7,5 +7,19 @@
       "type": "inspect_ads",
       "campaign_name": "HK Studio · יועצים · טופס לידים"
     }
+  ],
+  "applied": [
+    {
+      "index": 0,
+      "type": "inspect_ads",
+      "ok": true,
+      "at": "2026-10-04T12:23+03:00",
+      "result": {
+        "lines": [
+          "INSPECT {\"ad\": \"2026-W40-SA2 · form\", \"spend\": \"42.53\", \"impressions\": \"276\", \"reach\": \"204\", \"clicks_all\": \"10\", \"link_clicks\": \"3\", \"unique_link_clicks\": \"3\", \"actions\": {\"link_click\": \"3\", \"post_engagement\": \"3\", \"page_engagement\": \"3\"}, \"cta\": {\"type\": \"SIGN_UP\", \"value\": {\"lead_gen_form_id\": \"1044423021977751\"}}, \"link\": \"https://fb.me/\", \"story\": \"459554967250420_122177928326678494\", \"preview\": \"https://fb.me/235tuGkx311Mwaz\"}",
+          "INSPECT {\"ad\": \"2026-W40-SA3 · form\", \"spend\": \"14.08\", \"impressions\": \"107\", \"reach\": \"87\", \"clicks_all\": \"3\", \"link_clicks\": \"2\", \"unique_link_clicks\": \"2\", \"actions\": {\"link_click\": \"2\", \"post_engagement\": \"2\", \"page_engagement\": \"2\"}, \"cta\": {\"type\": \"SIGN_UP\", \"value\": {\"lead_gen_form_id\": \"1044423021977751\"}}, \"link\": \"https://fb.me/\", \"story\": \"459554967250420_122177928308678494\", \"preview\": \"https://fb.me/1VRP3OHi6Q0B2Jx\"}"
+        ]
+      }
+    }
   ]
 }
