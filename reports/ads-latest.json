@@ -1,5 +1,5 @@
 {
- "generated": "05.10.2026 12:34",
+ "generated": "05.10.2026 14:20",
  "account": {
   "name": "HK",
   "currency": "ILS",
@@ -63,12 +63,12 @@
     "landing_page_views": 0.0
    },
    "lifetime": {
-    "spend": 111.46,
-    "impressions": 633,
-    "reach": 380,
-    "clicks": 25,
-    "ctr": 3.949447,
-    "cpc": 4.4584,
+    "spend": 117.25,
+    "impressions": 663,
+    "reach": 390,
+    "clicks": 26,
+    "ctr": 3.921569,
+    "cpc": 4.509615,
     "leads": 0.0,
     "cost_per_lead": null,
     "landing_page_views": 0.0
@@ -147,12 +147,12 @@
     {
      "adset": "HK Studio · יועצים · טופס לידים · קבוצה 2 · דף HK Money",
      "name": "2026-W41-SA4 · form",
-     "spend": 52.53,
-     "impressions": 233,
-     "reach": 159,
-     "clicks": 12,
-     "ctr": 5.150215,
-     "cpc": 4.3775,
+     "spend": 58.32,
+     "impressions": 263,
+     "reach": 169,
+     "clicks": 13,
+     "ctr": 4.942966,
+     "cpc": 4.486154,
      "leads": 0.0,
      "cost_per_lead": null,
      "landing_page_views": 0.0
@@ -436,14 +436,14 @@
     "landing_page_views": 0.0
    },
    "lifetime": {
-    "spend": 15078.01,
-    "impressions": 105438,
+    "spend": 15084.35,
+    "impressions": 105488,
     "reach": 27839,
     "clicks": 2209,
-    "ctr": 2.09507,
-    "cpc": 6.825718,
+    "ctr": 2.094077,
+    "cpc": 6.828588,
     "leads": 186.0,
-    "cost_per_lead": 81.06457,
+    "cost_per_lead": 81.098656,
     "landing_page_views": 0.0
    },
    "ads_last7": [
@@ -507,14 +507,14 @@
     {
      "adset": "סדרת מודעות לידים חדשה",
      "name": "סרטון מיקונוס 11.5",
-     "spend": 2540.25,
-     "impressions": 18483,
-     "reach": 9210,
+     "spend": 2543.65,
+     "impressions": 18509,
+     "reach": 9212,
      "clicks": 323,
-     "ctr": 1.747552,
-     "cpc": 7.864551,
+     "ctr": 1.745097,
+     "cpc": 7.875077,
      "leads": 28.0,
-     "cost_per_lead": 90.723214,
+     "cost_per_lead": 90.844643,
      "landing_page_views": 0.0
     },
     {
@@ -559,14 +559,14 @@
     {
      "adset": "‏סדרת מודעות לידים חדשה‏ - בעלי עסקים",
      "name": "סרטון 2 · מהפכת ה-AI",
-     "spend": 79.68,
-     "impressions": 545,
-     "reach": 389,
+     "spend": 82.62,
+     "impressions": 569,
+     "reach": 395,
      "clicks": 13,
-     "ctr": 2.385321,
-     "cpc": 6.129231,
+     "ctr": 2.28471,
+     "cpc": 6.355385,
      "leads": 2.0,
-     "cost_per_lead": 39.84,
+     "cost_per_lead": 41.31,
      "landing_page_views": 0.0
     }
    ]
@@ -1532,14 +1532,14 @@
     "landing_page_views": 1.0
    },
    "lifetime": {
-    "spend": 24284.02,
-    "impressions": 241268,
-    "reach": 48562,
+    "spend": 24287.96,
+    "impressions": 241290,
+    "reach": 48563,
     "clicks": 4695,
-    "ctr": 1.945969,
-    "cpc": 5.172315,
+    "ctr": 1.945791,
+    "cpc": 5.173154,
     "leads": 425.0,
-    "cost_per_lead": 57.138871,
+    "cost_per_lead": 57.148141,
     "landing_page_views": 1.0
    },
    "ads_last7": [
@@ -2018,14 +2018,14 @@
     {
      "adset": "‏‏‏קהל פתוח || 25+ || מיקומים אוטומטים || סרטונים 1-10",
      "name": "וידיאו 1 || 3 טקסטים",
-     "spend": 16688.11,
-     "impressions": 153051,
+     "spend": 16692.02,
+     "impressions": 153072,
      "reach": 41469,
      "clicks": 2251,
-     "ctr": 1.470752,
-     "cpc": 7.413643,
+     "ctr": 1.47055,
+     "cpc": 7.41538,
      "leads": 301.0,
-     "cost_per_lead": 55.442226,
+     "cost_per_lead": 55.455216,
      "landing_page_views": 1.0
     },
     {
@@ -3497,34 +3497,34 @@
  },
  "today": {
   "120216039932250740": {
-   "spend": 19.02,
-   "impressions": 168,
-   "reach": 142,
+   "spend": 22.96,
+   "impressions": 190,
+   "reach": 154,
    "clicks": 2,
-   "ctr": 1.190476,
-   "cpc": 9.51,
+   "ctr": 1.052632,
+   "cpc": 11.48,
    "leads": 0.0,
    "cost_per_lead": null,
    "landing_page_views": 0.0
   },
   "120245939439290740": {
-   "spend": 19.91,
-   "impressions": 164,
-   "reach": 143,
+   "spend": 26.25,
+   "impressions": 214,
+   "reach": 182,
    "clicks": 2,
-   "ctr": 1.219512,
-   "cpc": 9.955,
+   "ctr": 0.934579,
+   "cpc": 13.125,
    "leads": 0.0,
    "cost_per_lead": null,
    "landing_page_views": 0.0
   },
   "120251977931170740": {
-   "spend": 25.7,
-   "impressions": 105,
-   "reach": 90,
-   "clicks": 4,
-   "ctr": 3.809524,
-   "cpc": 6.425,
+   "spend": 31.49,
+   "impressions": 135,
+   "reach": 105,
+   "clicks": 5,
+   "ctr": 3.703704,
+   "cpc": 6.298,
    "leads": 0.0,
    "cost_per_lead": null,
    "landing_page_views": 0.0
@@ -3614,7 +3614,7 @@
    "name": "HK Pixel",
    "last_fired_time": "2026-10-04T22:53:15+0300",
    "events_3d": {
-    "PageView": 140,
+    "PageView": 135,
     "Lead": 2
    }
   }
