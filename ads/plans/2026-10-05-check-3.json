@@ -1,0 +1,10 @@
+{
+  "requested_by": "בדיקת מצב אחרי יצירת מודעת 'כושר פיננסי' (קריאה בלבד).",
+  "approved": true,
+  "approved_by": "קריאה בלבד",
+  "actions": [
+    {
+      "type": "check"
+    }
+  ]
+}
