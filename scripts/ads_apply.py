@@ -15,7 +15,7 @@ import re
 import sys
 import urllib.parse
 import urllib.request
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -225,7 +225,7 @@ def apply_plan(plan_path):
         try:
             res = {"set_adset_budget": set_budget, "create_campaign": create_campaign, "revive": revive,
                    "add_ads": add_ads, "pause_ads": pause_ads, "set_targeting": set_targeting, "create_pixel": create_pixel, "clone_adset": clone_adset,
-                   "pause_adset": pause_adset, "create_lead_campaign": create_lead_campaign, "resume_ads": resume_ads, "check": check, "copy_ad": copy_ad, "inspect_ads": inspect_ads}[a["type"]](a)
+                   "pause_adset": pause_adset, "create_lead_campaign": create_lead_campaign, "resume_ads": resume_ads, "check": check, "copy_ad": copy_ad, "inspect_ads": inspect_ads, "daily": daily}[a["type"]](a)
             applied.append({"index": i, "type": a["type"], "ok": True, "at": datetime.now(ZoneInfo("Asia/Jerusalem")).isoformat(timespec="minutes"), "result": res})
             print("ok", i, a["type"], res)
         except Exception as e:  # noqa: BLE001
@@ -385,6 +385,29 @@ def check(a):
                 if ad.get("adset_id") != st["id"] or ad.get("effective_status") in ("PAUSED", "ADSET_PAUSED", "CAMPAIGN_PAUSED"): continue
                 line = f"CHECK     ad {ad['name']} [{ad.get('effective_status')}] {json.dumps(ad.get('issues_info'), ensure_ascii=False) if ad.get('issues_info') else ''} {json.dumps(ad.get('ad_review_feedback'), ensure_ascii=False) if ad.get('ad_review_feedback') else ''}"
                 print(line); out.append(line)
+    return {"lines": out}
+
+
+def daily(a):
+    """Read-only: day-by-day delivery of every active campaign (spend, impressions, CPM, frequency, clicks, leads), and today by hour."""
+    days = int(a.get("days", 10))
+    today = datetime.now(ZoneInfo("Asia/Jerusalem")).date()
+    rng = json.dumps({"since": (today - timedelta(days=days - 1)).isoformat(), "until": today.isoformat()})
+    lead = lambda r: sum(float(x.get("value", 0)) for x in r.get("actions", []) or [] if x.get("action_type") == "lead")
+    out = []
+    for c in call("GET", f"{ACCT}/campaigns", fields="name,effective_status", limit=100)["data"]:
+        if c.get("effective_status") != "ACTIVE": continue
+        rows = call("GET", f"{c['id']}/insights", time_range=rng, time_increment=1, limit=100,
+                    fields="spend,impressions,reach,frequency,cpm,clicks,inline_link_clicks,actions").get("data", [])
+        for r in rows:
+            line = (f"DAILY {c['name']} | {r.get('date_start')} | spend {float(r.get('spend', 0)):.0f} | impr {r.get('impressions', 0)} | reach {r.get('reach', 0)}"
+                    f" | freq {float(r.get('frequency', 0)):.2f} | cpm {float(r.get('cpm', 0)):.0f} | clicks {r.get('clicks', 0)} | link {r.get('inline_link_clicks', 0)} | leads {lead(r):.0f}")
+            print(line); out.append(line)
+        hours = call("GET", f"{c['id']}/insights", date_preset="today", breakdowns="hourly_stats_aggregated_by_advertiser_time_zone", limit=100,
+                     fields="spend,impressions,clicks,actions").get("data", [])
+        for r in hours:
+            line = f"HOURLY {c['name']} | {r.get('hourly_stats_aggregated_by_advertiser_time_zone', '')[:5]} | spend {float(r.get('spend', 0)):.1f} | impr {r.get('impressions', 0)} | clicks {r.get('clicks', 0)} | leads {lead(r):.0f}"
+            print(line); out.append(line)
     return {"lines": out}
 
 
