@@ -8,7 +8,7 @@
     "facebook",
     "instagram"
   ],
-  "status": "approved",
+  "status": "published",
   "id": "2026-W40-S7",
   "publish_date": "2026-10-05",
   "type": "השולחן שלך",
@@ -26,7 +26,9 @@
     "AI"
   ],
   "results": {
-    "facebook": "1414935705029390_122112591351484790"
+    "facebook": "1414935705029390_122112591351484790",
+    "instagram": "18118720873841189"
   },
-  "last_error": "POST 17841425239018806/media_publish -> 400: {\"error\":{\"message\":\"Media ID is not available\",\"type\":\"OAuthException\",\"code\":9007,\"error_subcode\":2207027,\"is_transient\":false,\"error_user_title\":\"\\u05dc\\u05d0 \\u05e0\\u05d9\\u05ea\\u05df \\u05dc\\u05e4\\u05e8\\u05e1\\u05dd\",\"error_user_msg\":\"\\u05d4\\u05de\\u05d3\\u05d9\\u05d4 \\u05dc\\u05d0 \\u05de\\u05d5\\u05db\\u05e0\\u05d4 \\u05dc\\u05e4\\u05e8\\u05e1\\u05d5\\u05dd, \\u05d9\\u05e9 \\u05dc\\u05d4\\u05de\\u05ea\\u05d9\\u05df \\u05e8\\u05d2\\u05e2\",\"fbtrace_id\":\"A--k9OqH_38HAi81XJgov"
+  "last_error": "POST 17841425239018806/media_publish -> 400: {\"error\":{\"message\":\"Media ID is not available\",\"type\":\"OAuthException\",\"code\":9007,\"error_subcode\":2207027,\"is_transient\":false,\"error_user_title\":\"\\u05dc\\u05d0 \\u05e0\\u05d9\\u05ea\\u05df \\u05dc\\u05e4\\u05e8\\u05e1\\u05dd\",\"error_user_msg\":\"\\u05d4\\u05de\\u05d3\\u05d9\\u05d4 \\u05dc\\u05d0 \\u05de\\u05d5\\u05db\\u05e0\\u05d4 \\u05dc\\u05e4\\u05e8\\u05e1\\u05d5\\u05dd, \\u05d9\\u05e9 \\u05dc\\u05d4\\u05de\\u05ea\\u05d9\\u05df \\u05e8\\u05d2\\u05e2\",\"fbtrace_id\":\"A--k9OqH_38HAi81XJgov",
+  "published_at": "2026-10-05T19:22+03:00"
 }
