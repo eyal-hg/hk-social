@@ -1,0 +1,63 @@
+<!doctype html><html lang="he" dir="rtl"><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Karantina:wght@400;700&family=Rubik:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1350px;overflow:hidden}
+body{font-family:Rubik,sans-serif;color:#fff;background:#0b3a5e;position:relative}
+.bg{position:absolute;inset:0;background:
+  radial-gradient(900px 700px at 88% -8%, rgba(57,171,226,.30), transparent 62%),
+  radial-gradient(760px 620px at -6% 104%, rgba(228,131,117,.26), transparent 60%),
+  linear-gradient(160deg,#0d4470 0%,#0a3556 55%,#082c48 100%)}
+.wrap{position:absolute;inset:0;padding:64px 72px 60px;display:flex;flex-direction:column}
+.top{display:flex;align-items:center;justify-content:space-between}
+.logo{background:#fff;border-radius:18px;padding:14px 22px;display:flex;align-items:center}
+.logo img{height:46px;display:block}
+.tag{font-weight:700;font-size:28px;letter-spacing:.02em;color:#0b3a5e;background:#fff;border-radius:50px;padding:10px 26px}
+h1{font-family:Karantina,Rubik,sans-serif;font-weight:700;font-size:158px;line-height:.9;margin-top:60px;white-space:nowrap;letter-spacing:.005em}
+h1 span{color:#f09384;display:block}
+.sub{font-size:42px;font-weight:500;line-height:1.35;margin-top:30px;color:rgba(255,255,255,.92);max-width:860px}
+.sub b{font-weight:800;color:#fff}
+/* the ladder */
+.ladder{margin-top:auto;display:grid;grid-template-columns:repeat(5,1fr);gap:14px;align-items:end;height:400px;position:relative}
+.step{border-radius:22px 22px 0 0;display:flex;flex-direction:column;justify-content:flex-start;padding:22px 18px 0;position:relative}
+.step i{font-style:normal;font-family:Karantina,sans-serif;font-weight:700;font-size:92px;line-height:.8}
+.step b{font-weight:800;font-size:38px;line-height:1.08;display:block}
+.s1{height:42%;background:#e48375;color:#fff}
+.s2{height:55%;background:#eaa08b;color:#fff}
+.s3{height:69%;background:#9cc3da;color:#0b3a5e}
+.s4{height:84%;background:#39abe2;color:#fff}
+.s5{height:100%;background:#fff;color:#0b3a5e}
+.you{position:absolute;inset-inline-start:calc(20% + 7px);width:calc(20% - 14px);bottom:calc(55% + 18px);text-align:center}
+.you span{display:inline-block;background:#fff;color:#0b3a5e;font-weight:800;font-size:27px;padding:9px 18px;border-radius:14px;position:relative;white-space:nowrap;box-shadow:0 10px 26px rgba(0,0,0,.28)}
+.you span::after{content:'';position:absolute;top:100%;left:50%;transform:translateX(-50%);border:11px solid transparent;border-top-color:#fff}
+.floor{height:12px;background:rgba(255,255,255,.22);border-radius:0 0 12px 12px}
+.axis{display:flex;align-items:center;gap:18px;margin-top:16px;font-weight:700;font-size:28px;color:#f3a497}
+.axis .good{color:#fff}
+.axis i{flex:1;height:5px;border-radius:5px;background:linear-gradient(to left,#e48375,#39abe2 55%,#fff);position:relative}
+.axis i::after{content:'';position:absolute;left:-4px;top:50%;transform:translateY(-50%);border:13px solid transparent;border-right-color:#fff;border-left:0}
+.bottom{display:flex;align-items:center;justify-content:space-between;gap:24px;margin-top:30px}
+.cta{background:#e8735f;color:#fff;font-weight:800;font-size:40px;padding:22px 44px;border-radius:60px;white-space:nowrap;box-shadow:0 16px 36px rgba(232,115,95,.42)}
+.note{font-size:28px;font-weight:500;color:rgba(255,255,255,.82);line-height:1.35;text-align:start}
+</style></head><body><div class="bg"></div>
+<div class="wrap">
+  <div class="top">
+    <div class="logo"><img src="../../template/assets/hkmoney-logo.png" alt="HK Money"></div>
+    <div class="tag">לבעלי עסקים</div>
+  </div>
+  <h1>כמה הפתעות היו לך<span>בבנק החודש?</span></h1>
+  <p class="sub">פחות הפתעות, <b>כושר פיננסי</b> גבוה יותר.<br>באיזו דרגה העסק שלך?</p>
+  <div class="ladder">
+    <div class="step s1"><b>דורש<br>טיפול</b></div>
+    <div class="step s2"><b>בבנייה</b></div>
+    <div class="step s3"><b>יציב</b></div>
+    <div class="step s4"><b>בכושר</b></div>
+    <div class="step s5"><b>כושר<br>שיא</b></div>
+    <div class="you"><span>אתה כאן?</span></div>
+  </div>
+  <div class="floor"></div>
+  <div class="axis"><span>הרבה הפתעות</span><i></i><span class="good">בלי הפתעות</span></div>
+  <div class="bottom">
+    <div class="cta">בדיקת כושר פיננסי, חינם</div>
+    <div class="note">מאמן אישי לעסק, כל יום.<br>בלי התחייבות.</div>
+  </div>
+</div></body></html>
