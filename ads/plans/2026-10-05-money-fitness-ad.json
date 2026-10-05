@@ -16,5 +16,21 @@
       "cta": "LEARN_MORE",
       "status": "ACTIVE"
     }
+  ],
+  "applied": [
+    {
+      "index": 0,
+      "type": "image_lead_ad",
+      "ok": true,
+      "at": "2026-10-05T20:43+03:00",
+      "result": {
+        "campaign_id": "120245939439290740",
+        "adset_id": "120252003082500740",
+        "ad_id": "120252003084460740",
+        "form_id": "831087803308460",
+        "page_id": "459554967250420",
+        "start_time": "2026-10-06T07:00:00+0300"
+      }
+    }
   ]
 }
