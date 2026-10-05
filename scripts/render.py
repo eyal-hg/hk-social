@@ -71,6 +71,8 @@ def main():
         post = json.loads(p.read_text(encoding="utf-8"))
         if post.get("video"):  # video posts have no rendered card
             continue
+        if post.get("image") == "custom":  # the image was designed by hand and committed to out/ as is
+            continue
         jpg = OUT / f"{post['id']}.jpg"
         if force or not jpg.exists() or jpg.stat().st_mtime < p.stat().st_mtime:
             print("render", post["id"], "->", render(post, chrome).name)

@@ -196,6 +196,12 @@ def projected_total(plan):
             ex_camps.add(find_campaign(a["campaign_name"])["id"])
         elif a["type"] == "pause_adset":  # an ad set this plan pauses stops counting toward the daily total
             ex_adsets.add(_adset(a)[1]["id"])
+        elif a["type"] == "image_lead_ad":
+            try:
+                c = find_campaign(a["campaign_name"])
+                ex_adsets.update(x["id"] for x in call("GET", f"{c['id']}/adsets", fields="name", limit=50)["data"] if same(x["name"], a["name"]))
+            except RuntimeError:
+                pass
         elif a["type"] in ("create_campaign", "create_lead_campaign"):
             try:  # a retry: the campaign/ad set from the failed run already counts in the live total, don't count it twice
                 ex_camps.add(find_campaign(a["name"])["id"])
@@ -225,7 +231,7 @@ def apply_plan(plan_path):
         try:
             res = {"set_adset_budget": set_budget, "create_campaign": create_campaign, "revive": revive,
                    "add_ads": add_ads, "pause_ads": pause_ads, "set_targeting": set_targeting, "create_pixel": create_pixel, "clone_adset": clone_adset,
-                   "pause_adset": pause_adset, "create_lead_campaign": create_lead_campaign, "resume_ads": resume_ads, "check": check, "copy_ad": copy_ad, "inspect_ads": inspect_ads, "daily": daily}[a["type"]](a)
+                   "pause_adset": pause_adset, "create_lead_campaign": create_lead_campaign, "resume_ads": resume_ads, "check": check, "copy_ad": copy_ad, "inspect_ads": inspect_ads, "daily": daily, "image_lead_ad": image_lead_ad}[a["type"]](a)
             applied.append({"index": i, "type": a["type"], "ok": True, "at": datetime.now(ZoneInfo("Asia/Jerusalem")).isoformat(timespec="minutes"), "result": res})
             print("ok", i, a["type"], res)
         except Exception as e:  # noqa: BLE001
@@ -411,6 +417,53 @@ def daily(a):
     return {"lines": out}
 
 
+def _form_of(adset_id):
+    """The instant form used by the active ads of an ad set (so a new ad keeps sending leads to the same place)."""
+    for ad in call("GET", f"{adset_id}/ads", fields="name,effective_status,creative{object_story_spec}", limit=100)["data"]:
+        if ad.get("effective_status") != "ACTIVE": continue
+        oss = (ad.get("creative") or {}).get("object_story_spec") or {}
+        for part in ("video_data", "link_data"):
+            fid = (((oss.get(part) or {}).get("call_to_action") or {}).get("value") or {}).get("lead_gen_form_id")
+            if fid: return fid
+    return None
+
+
+def image_lead_ad(a):
+    """A new ad set inside an existing lead campaign, with one image ad on an existing instant form.
+    Audience and settings are copied from a source ad set of that campaign; the form is the one its active ad uses
+    (or form_id). Image: out/<post>.jpg; text: the post's caption. Optional start_time (ISO) schedules the ad set."""
+    c, src = _adset(a)
+    srcd = call("GET", src["id"], fields="targeting,optimization_goal,billing_event,bid_strategy,promoted_object,destination_type,attribution_spec")
+    page_id = (srcd.get("promoted_object") or {}).get("page_id")
+    form_id = a.get("form_id") or _form_of(src["id"])
+    if not (page_id and form_id):
+        raise RuntimeError(f"could not resolve page/form from the source ad set (page {page_id}, form {form_id}); pass form_id")
+    existing = [x for x in call("GET", f"{c['id']}/adsets", fields="name", limit=50)["data"] if same(x["name"], a["name"])]
+    if existing:
+        adset = existing[0]
+    else:
+        t = dict(srcd.get("targeting") or {})
+        t.setdefault("targeting_automation", {"advantage_audience": 0})
+        params = dict(name=a["name"], campaign_id=c["id"], daily_budget=ils(a["daily_budget_ils"]), targeting=json.dumps(t),
+                      optimization_goal=srcd.get("optimization_goal") or "LEAD_GENERATION", billing_event=srcd.get("billing_event") or "IMPRESSIONS",
+                      bid_strategy=srcd.get("bid_strategy") or "LOWEST_COST_WITHOUT_CAP", destination_type=srcd.get("destination_type") or "ON_AD",
+                      promoted_object=json.dumps({"page_id": page_id}), status=a.get("status", "ACTIVE"))
+        if srcd.get("attribution_spec"): params["attribution_spec"] = json.dumps(srcd["attribution_spec"])
+        if a.get("start_time"): params["start_time"] = a["start_time"]
+        adset = call("POST", f"{ACCT}/adsets", **params)
+    post_id = a["post"]
+    p = next(d for d in (json.loads(q.read_text(encoding="utf-8")) for q in ROOT.glob("posts/**/*.json")) if d["id"] == post_id)
+    ad_name = post_id + a.get("ad_suffix", " · form")
+    have = {norm(x["name"]) for x in call("GET", f"{adset['id']}/ads", fields="name", limit=100)["data"]}
+    ad_id = None
+    if norm(ad_name) not in have:
+        spec = {"page_id": page_id, "link_data": {"link": "https://fb.me/", "message": a.get("caption") or p["caption"], "picture": f"{IMAGE_BASE}/{post_id}.jpg",
+                "name": a.get("headline", ""), "call_to_action": {"type": a.get("cta", "SIGN_UP"), "value": {"lead_gen_form_id": form_id}}}}
+        cr = call("POST", f"{ACCT}/adcreatives", name=ad_name, object_story_spec=json.dumps(spec))
+        ad_id = call("POST", f"{ACCT}/ads", name=ad_name, adset_id=adset["id"], creative=json.dumps({"creative_id": cr["id"]}), status=a.get("status", "ACTIVE"))["id"]
+    return {"campaign_id": c["id"], "adset_id": adset["id"], "ad_id": ad_id, "form_id": form_id, "page_id": page_id, "start_time": a.get("start_time")}
+
+
 def copy_ad(a):
     """Run an existing ad's creative (same video, text and lead form) as a new ad in another ad set."""
     src_c = find_campaign(a["source_campaign_name"])
@@ -434,11 +487,12 @@ def inspect_ads(a):
     for ad in call("GET", f"{c['id']}/ads", fields="name,effective_status,preview_shareable_link,creative{object_story_spec,call_to_action_type,effective_object_story_id}", limit=100)["data"]:
         if ad.get("effective_status") != "ACTIVE": continue
         ins = (call("GET", f"{ad['id']}/insights", date_preset="maximum", fields="spend,impressions,reach,clicks,inline_link_clicks,unique_inline_link_clicks,actions,outbound_clicks").get("data") or [{}])[0]
-        spec = ((ad.get("creative") or {}).get("object_story_spec") or {}).get("link_data") or {}
+        oss = (ad.get("creative") or {}).get("object_story_spec") or {}
+        spec = oss.get("link_data") or oss.get("video_data") or {}
         line = "INSPECT " + json.dumps({"ad": ad["name"], "spend": ins.get("spend"), "impressions": ins.get("impressions"), "reach": ins.get("reach"),
             "clicks_all": ins.get("clicks"), "link_clicks": ins.get("inline_link_clicks"), "unique_link_clicks": ins.get("unique_inline_link_clicks"),
             "actions": {x["action_type"]: x["value"] for x in ins.get("actions", []) or []},
-            "cta": spec.get("call_to_action"), "link": spec.get("link"), "story": (ad.get("creative") or {}).get("effective_object_story_id"),
+            "cta": spec.get("call_to_action") or (ad.get("creative") or {}).get("call_to_action_type"), "page": oss.get("page_id"), "link": spec.get("link"), "story": (ad.get("creative") or {}).get("effective_object_story_id"),
             "preview": ad.get("preview_shareable_link")}, ensure_ascii=False)
         print(line); out.append(line)
     return {"lines": out}
