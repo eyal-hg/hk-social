@@ -7,5 +7,20 @@
       "type": "inspect_ads",
       "campaign_name": "קמפיין לידים אייל"
     }
+  ],
+  "applied": [
+    {
+      "index": 0,
+      "type": "inspect_ads",
+      "ok": true,
+      "at": "2026-10-06T11:46+03:00",
+      "result": {
+        "lines": [
+          "INSPECT {\"ad\": \"2026-W41-MA1 · form\", \"spend\": \"16.32\", \"impressions\": \"68\", \"reach\": \"54\", \"clicks_all\": \"1\", \"link_clicks\": \"0\", \"unique_link_clicks\": null, \"actions\": {}, \"cta\": {\"type\": \"LEARN_MORE\", \"value\": {\"lead_gen_form_id\": \"831087803308460\"}}, \"page\": \"459554967250420\", \"link\": \"https://fb.me/\", \"story\": \"459554967250420_122178185342678494\", \"preview\": \"https://fb.me/1Wu4biz9ZlHOEF5\"}",
+          "INSPECT {\"ad\": \"סרטון 2 · מהפכת ה-AI\", \"spend\": \"115.25\", \"impressions\": \"757\", \"reach\": \"502\", \"clicks_all\": \"15\", \"link_clicks\": \"8\", \"unique_link_clicks\": \"7\", \"actions\": {\"offsite_complete_registration_add_meta_leads\": \"2\", \"link_click\": \"8\", \"offsite_search_add_meta_leads\": \"2\", \"post_reaction\": \"1\", \"onsite_conversion.messaging_conversation_replied_7d\": \"2\", \"onsite_conversion.total_messaging_connection\": \"3\", \"onsite_conversion.post_unlike\": \"1\", \"post_engagement\": \"141\", \"post_interaction_gross\": \"2\", \"page_engagement\": \"141\", \"post_interaction_net\": \"3\", \"onsite_conversion.messaging_first_reply\": \"3\", \"post\": \"1\", \"onsite_conversion.post_net_like\": \"0\", \"lead\": \"2\", \"offsite_content_view_add_meta_leads\": \"2\", \"onsite_conversion.messaging_conversation_started_7d\": \"3\", \"onsite_conversion.lead_grouped\": \"2\", \"video_view\": \"131\"}, \"cta\": {\"type\": \"LEARN_MORE\", \"value\": {\"lead_gen_form_id\": \"831087803308460\", \"link\": \"http://fb.me/\"}}, \"page\": \"459554967250420\", \"link\": null, \"story\": \"459554967250420_122157292112678494\", \"preview\": \"https://fb.me/1VO7twkUrRqJhnU\"}",
+          "INSPECT {\"ad\": \"סרטון מיקונוס 11.5\", \"spend\": \"2600.97\", \"impressions\": \"18820\", \"reach\": \"9471\", \"clicks_all\": \"330\", \"link_clicks\": \"176\", \"unique_link_clicks\": \"169\", \"actions\": {\"offsite_complete_registration_add_meta_leads\": \"29\", \"link_click\": \"176\", \"offsite_search_add_meta_leads\": \"29\", \"post_reaction\": \"14\", \"onsite_conversion.messaging_conversation_replied_7d\": \"14\", \"onsite_conversion.total_messaging_connection\": \"17\", \"onsite_conversion.post_unlike\": \"2\", \"post_engagement\": \"4028\", \"like\": \"1\", \"post_interaction_gross\": \"28\", \"comment\": \"1\", \"page_engagement\": \"4029\", \"post_interaction_net\": \"30\", \"onsite_conversion.messaging_user_depth_2_message_send\": \"2\", \"onsite_conversion.messaging_first_reply\": \"16\", \"post\": \"9\", \"onsite_conversion.post_save\": \"4\", \"onsite_conversion.post_net_comment\": \"1\", \"onsite_conversion.messaging_user_depth_3_message_send\": \"1\", \"onsite_conversion.post_net_save\": \"4\", \"onsite_conversion.post_net_like\": \"12\", \"lead\": \"29\", \"offsite_content_view_add_meta_leads\": \"29\", \"onsite_conversion.messaging_conversation_started_7d\": \"17\", \"onsite_conversion.lead_grouped\": \"29\", \"video_view\": \"3824\"}, \"cta\": {\"type\": \"LEARN_MORE\", \"value\": {\"lead_gen_form_id\": \"831087803308460\", \"link\": \"http://fb.me/\"}}, \"page\": \"459554967250420\", \"link\": null, \"story\": \"459554967250420_122165048174678494\", \"preview\": \"https://fb.me/2bzyz4cMOmfVFPx\"}"
+        ]
+      }
+    }
   ]
 }
