@@ -1,0 +1,11 @@
+{
+  "requested_by": "אייל 6.10: 'עלה?' — נתוני המודעה החדשה עצמה (קריאה בלבד).",
+  "approved": true,
+  "approved_by": "קריאה בלבד",
+  "actions": [
+    {
+      "type": "inspect_ads",
+      "campaign_name": "קמפיין לידים אייל"
+    }
+  ]
+}
