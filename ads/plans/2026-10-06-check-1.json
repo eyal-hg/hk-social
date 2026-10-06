@@ -1,0 +1,14 @@
+{
+  "requested_by": "אייל 6.10.2026: 'עלה?' — האם מודעת 'כושר פיננסי' אושרה ורצה (קריאה בלבד).",
+  "approved": true,
+  "approved_by": "קריאה בלבד",
+  "actions": [
+    {
+      "type": "check"
+    },
+    {
+      "type": "daily",
+      "days": 2
+    }
+  ]
+}
