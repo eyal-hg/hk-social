@@ -1,0 +1,15 @@
+{
+  "requested_by": "אייל 7.10.2026: 'תעצור קמפיין יועצים'.",
+  "approved": true,
+  "approved_by": "אייל 7.10 בצ'אט. משהים את קבוצת המודעות הפעילה של הסטודיו (SA4, 50 ₪ ליום). קמפיין הכניסות לדף כבר מושהה.",
+  "actions": [
+    {
+      "type": "pause_adset",
+      "campaign_name": "HK Studio · יועצים · טופס לידים",
+      "adset_name": "HK Studio · יועצים · טופס לידים · קבוצה 2 · דף HK Money"
+    },
+    {
+      "type": "check"
+    }
+  ]
+}
