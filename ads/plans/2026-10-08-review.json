@@ -1,0 +1,22 @@
+{
+  "requested_by": "אייל: 'הקצב ממשיך - תן לי סקירה מכל קמפיין' (קריאה בלבד).",
+  "approved": true,
+  "approved_by": "קריאה בלבד",
+  "actions": [
+    {
+      "type": "check"
+    },
+    {
+      "type": "inspect_ads",
+      "campaign_name": "קמפיין לידים אייל"
+    },
+    {
+      "type": "inspect_ads",
+      "campaign_name": "טופס לידים || ניהול תזרים ||"
+    },
+    {
+      "type": "daily",
+      "days": 8
+    }
+  ]
+}
