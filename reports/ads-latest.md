@@ -1,6 +1,6 @@
-# דוח מודעות · HK · 07.10.2026 04:47
+# דוח מודעות · HK · 07.10.2026 09:24
 
-מצב חשבון: 1 · מטבע: ILS · הוצאה מצטברת: 81,267 ₪
+מצב חשבון: 1 · מטבע: ILS · הוצאה מצטברת: 81,269 ₪
 
 ## HK Studio · יועצים · טופס לידים  (ACTIVE, OUTCOME_LEADS)
 תקציב: יומי — · כולל — · התחלה 2026-10-03 · עדכון אחרון 2026-10-03
@@ -12,10 +12,10 @@
 |---|---|---|---|---|---|---|
 | 7 ימים | 191 ₪ | 1,068 | 27 | 2.53% | 0 | — |
 | 30 ימים | 191 ₪ | 1,068 | 27 | 2.53% | 0 | — |
-| כל הזמן | 206 ₪ | 1,098 | 29 | 2.64% | 0 | — |
+| כל הזמן | 211 ₪ | 1,252 | 31 | 2.48% | 0 | — |
 
 מודעות (כל הזמן, 5 הגדולות):
-- HK Studio · יועצים · טופס לידים · קבוצה 2 · דף HK Money › 2026-W41-SA4 · form: 147 ₪, 16 קליקים, CTR 2.29%, 0 לידים, עלות לליד —
+- HK Studio · יועצים · טופס לידים · קבוצה 2 · דף HK Money › 2026-W41-SA4 · form: 152 ₪, 18 קליקים, CTR 2.11%, 0 לידים, עלות לליד —
 - HK Studio · יועצים · טופס לידים · קבוצה 2 · דף HK Money › 2026-W40-SA2 · form: 45 ₪, 10 קליקים, CTR 3.41%, 0 לידים, עלות לליד —
 - HK Studio · יועצים · טופס לידים · קבוצה 2 · דף HK Money › 2026-W40-SA3 · form: 14 ₪, 3 קליקים, CTR 2.80%, 0 לידים, עלות לליד —
 
@@ -56,20 +56,20 @@
 
 | טווח | הוצאה | חשיפות | קליקים | CTR | לידים | עלות לליד |
 |---|---|---|---|---|---|---|
-| 7 ימים | 522 ₪ | 3,334 | 73 | 2.19% | 7 | 75 ₪ |
-| 30 ימים | 878 ₪ | 5,683 | 139 | 2.45% | 12 | 73 ₪ |
-| כל הזמן | 15,308 ₪ | 106,658 | 2,234 | 2.09% | 189 | 81 ₪ |
+| 7 ימים | 522 ₪ | 3,335 | 73 | 2.19% | 7 | 75 ₪ |
+| 30 ימים | 878 ₪ | 5,684 | 139 | 2.45% | 12 | 73 ₪ |
+| כל הזמן | 15,337 ₪ | 106,793 | 2,235 | 2.09% | 189 | 81 ₪ |
 
 מודעות (כל הזמן, 5 הגדולות):
 - ‏סדרת מודעות לידים חדשה‏ - בעלי עסקים › סרטון יום שישי: 4,396 ₪, 814 קליקים, CTR 2.24%, 67 לידים, עלות לליד 66 ₪
 - סדרת מודעות לידים חדשה › סרטון יום שישי: 4,041 ₪, 732 קליקים, CTR 2.65%, 58 לידים, עלות לליד 70 ₪
 - סדרת מודעות לידים חדשה › מודעת לידים אייל: 3,992 ₪, 320 קליקים, CTR 1.43%, 31 לידים, עלות לליד 129 ₪
-- סדרת מודעות לידים חדשה › סרטון מיקונוס 11.5: 2,650 ₪, 341 קליקים, CTR 1.79%, 31 לידים, עלות לליד 85 ₪
-- ‏סדרת מודעות לידים חדשה‏ - בעלי עסקים › סרטון 2 · מהפכת ה-AI: 138 ₪, 17 קליקים, CTR 1.94%, 2 לידים, עלות לליד 69 ₪
+- סדרת מודעות לידים חדשה › סרטון מיקונוס 11.5: 2,666 ₪, 342 קליקים, CTR 1.79%, 31 לידים, עלות לליד 86 ₪
+- ‏סדרת מודעות לידים חדשה‏ - בעלי עסקים › סרטון 2 · מהפכת ה-AI: 147 ₪, 17 קליקים, CTR 1.85%, 2 לידים, עלות לליד 73 ₪
 
 מודעות (7 ימים):
 - סדרת מודעות לידים חדשה › סרטון מיקונוס 11.5: 225 ₪, 39 קליקים, 5 לידים, עלות לליד 45 ₪
-- ‏סדרת מודעות לידים חדשה‏ - בעלי עסקים › סרטון 2 · מהפכת ה-AI: 133 ₪, 17 קליקים, 2 לידים, עלות לליד 67 ₪
+- ‏סדרת מודעות לידים חדשה‏ - בעלי עסקים › סרטון 2 · מהפכת ה-AI: 134 ₪, 17 קליקים, 2 לידים, עלות לליד 67 ₪
 - ‏סדרת מודעות לידים חדשה‏ - בעלי עסקים › סרטון יום שישי: 107 ₪, 14 קליקים, 0 לידים, עלות לליד —
 - כושר פיננסי · מודעת תמונה · 2026-10 › 2026-W41-MA1 · form: 57 ₪, 3 קליקים, 0 לידים, עלות לליד —
 
@@ -202,19 +202,19 @@
 
 | טווח | הוצאה | חשיפות | קליקים | CTR | לידים | עלות לליד |
 |---|---|---|---|---|---|---|
-| 7 ימים | 619 ₪ | 4,577 | 108 | 2.36% | 12 | 52 ₪ |
-| 30 ימים | 765 ₪ | 5,767 | 135 | 2.34% | 13 | 59 ₪ |
-| כל הזמן | 24,449 ₪ | 242,312 | 4,715 | 1.95% | 427 | 57 ₪ |
+| 7 ימים | 621 ₪ | 4,582 | 108 | 2.36% | 12 | 52 ₪ |
+| 30 ימים | 767 ₪ | 5,772 | 135 | 2.34% | 13 | 59 ₪ |
+| כל הזמן | 24,485 ₪ | 242,454 | 4,716 | 1.95% | 427 | 57 ₪ |
 
 מודעות (כל הזמן, 5 הגדולות):
-- ‏‏‏קהל פתוח || 25+ || מיקומים אוטומטים || סרטונים 1-10 › וידיאו 1 || 3 טקסטים: 16,849 ₪, 2270 קליקים, CTR 1.47%, 303 לידים, עלות לליד 56 ₪
+- ‏‏‏קהל פתוח || 25+ || מיקומים אוטומטים || סרטונים 1-10 › וידיאו 1 || 3 טקסטים: 16,885 ₪, 2271 קליקים, CTR 1.47%, 303 לידים, עלות לליד 56 ₪
 - ‏‏קהל תחומי עניין || 25+ || מיקומים ידניים || סרטונים 1-10‏‏ › וידיאו 1 || 3 טקסטים: 1,959 ₪, 398 קליקים, CTR 1.67%, 36 לידים, עלות לליד 54 ₪
 - ‏‏‏קהל פתוח || 25+ || מיקומים אוטומטים || סרטונים 1-10 › ‏‏וידיאו 4 || 3 טקסטים‏: 1,123 ₪, 408 קליקים, CTR 3.41%, 11 לידים, עלות לליד 102 ₪
 - ‏‏קהל תחומי עניין || 25+ || מיקומים ידניים || סרטונים 1-10‏‏ › ‏‏וידיאו 4 || 3 טקסטים‏: 1,034 ₪, 493 קליקים, CTR 3.54%, 11 לידים, עלות לליד 94 ₪
 - ‏רימרקטינג רשימה מותאמת || 21+ || כל המיקומים || סרטונים 1-10‏ › ‏‏‏וידיאו 4 || 3 טקסטים‏‏ - עותק: 725 ₪, 289 קליקים, CTR 4.56%, 11 לידים, עלות לליד 66 ₪
 
 מודעות (7 ימים):
-- ‏‏‏קהל פתוח || 25+ || מיקומים אוטומטים || סרטונים 1-10 › וידיאו 1 || 3 טקסטים: 593 ₪, 104 קליקים, 12 לידים, עלות לליד 49 ₪
+- ‏‏‏קהל פתוח || 25+ || מיקומים אוטומטים || סרטונים 1-10 › וידיאו 1 || 3 טקסטים: 595 ₪, 104 קליקים, 12 לידים, עלות לליד 50 ₪
 - LAL 1% · קהל אפריל 26 · וידיאו 1 › וידיאו 1 || 3 טקסטים · LAL אפריל 26: 25 ₪, 4 קליקים, 0 לידים, עלות לליד —
 
 ## טופס לידים || ניהול תזרים || קהל חדש || טסט  (PAUSED, OUTCOME_LEADS)
@@ -368,17 +368,17 @@
   - מודעה ‏‏וידיאו 5 || 3 טקסטים‏‏ - עותק (120216040036430740): ACTIVE/ADSET_PAUSED
   - מודעה ‏‏וידיאו 9 || 3 טקסטים‏ (120216039932290740): ACTIVE/ADSET_PAUSED
 
-## היום עד עכשיו (07.10.2026 04:47)
+## היום עד עכשיו (07.10.2026 09:24)
 
-- HK Studio · יועצים · טופס לידים: 15 ₪, 30 חשיפות, 2 קליקים, 0 צפיות בדף, 0 לידים (—/ליד)
-  - 2026-W41-SA4 · form: 15 ₪, 2 קליקים, 0 לידים
+- HK Studio · יועצים · טופס לידים: 21 ₪, 184 חשיפות, 4 קליקים, 0 צפיות בדף, 0 לידים (—/ליד)
+  - 2026-W41-SA4 · form: 21 ₪, 4 קליקים, 0 לידים
 - HK Studio · יועצים · כניסות לדף: —, 0 חשיפות, 0 קליקים, 0 צפיות בדף, 0 לידים (—/ליד)
-- קמפיין לידים אייל: 20 ₪, 89 חשיפות, 2 קליקים, 0 צפיות בדף, 1 לידים (20 ₪/ליד)
-  - סרטון מיקונוס 11.5: 10 ₪, 2 קליקים, 1 לידים
-  - סרטון 2 · מהפכת ה-AI: 4 ₪, 0 קליקים, 0 לידים
-  - 2026-W41-MA1 · form: 6 ₪, 0 קליקים, 0 לידים
-- ‏טופס לידים || ניהול תזרים ||: 11 ₪, 60 חשיפות, 1 קליקים, 0 צפיות בדף, 0 לידים (—/ליד)
-  - וידיאו 1 || 3 טקסטים: 11 ₪, 1 קליקים, 0 לידים
+- קמפיין לידים אייל: 49 ₪, 223 חשיפות, 3 קליקים, 0 צפיות בדף, 1 לידים (49 ₪/ליד)
+  - סרטון מיקונוס 11.5: 26 ₪, 3 קליקים, 1 לידים
+  - סרטון 2 · מהפכת ה-AI: 13 ₪, 0 קליקים, 0 לידים
+  - 2026-W41-MA1 · form: 10 ₪, 0 קליקים, 0 לידים
+- ‏טופס לידים || ניהול תזרים ||: 46 ₪, 197 חשיפות, 2 קליקים, 0 צפיות בדף, 0 לידים (—/ליד)
+  - וידיאו 1 || 3 טקסטים: 45 ₪, 2 קליקים, 0 לידים
   - וידיאו 1 || 3 טקסטים · LAL אפריל 26: 0 ₪, 0 קליקים, 0 לידים
 
 ## אבחון אי-הצגה
@@ -386,17 +386,17 @@
 - חשבון: status 1 · disable_reason 0 · spend_cap 0 · מימון {"id": "28585320271153326", "display_string": "‏‎Mastercard‎‏ *‏4851‏", "type": 1}
 - קמפיין HK Studio · יועצים · כניסות לדף: {"id": "120251876259960740", "configured_status": "ACTIVE", "effective_status": "ACTIVE", "start_time": "2026-09-27T15:32:33+0300", "special_ad_categories": []}
   - קבוצה HK Studio · יועצים · כניסות לדף · קבוצה 1: {"effective_status": "PAUSED", "configured_status": "PAUSED", "learning_stage_info": {"attribution_windows": ["1d_click"], "last_sig_edit_ts": 1790568093}, "start_time": "2026-09-27T15:32:33+0300", "daily_budget": "5000", "bid_strategy": "LOWEST_COST_WITHOUT_CAP", "optimization_goal": "LANDING_PAGE_VIEWS", "billing_event": "IMPRESSIONS", "targeting": {"age_max": 65, "age_min": 28, "flexible_spec": [{"interests": [{"id": "6002984410123", "name": "רואה חשבון"}, {"id": "6003274244908", "name": "ייעוץ אסטרטגי"}, {"id": "6003649965713", "name": "הנהלת חשבונות"}, {"id": "6006252868071", "name": "Consulting firm"}]}, {"interests": [{"id": "6002884511422", "name": "עסק קטן (עסקים ופיננסים)"}, {"id": "6003184559502", "name": "Professional services"}, {"id": "6003280183843", "name": "פיתוח עסקי (פעילויות עסקיות)"}]}], "geo_locations": {"countries": ["IL"], "location_types": ["frequently_in", "home"]}, "targeting_automation": {"advantage_audience": 0}, "user_age_unknown": false}}
-  - מודעה 2026-W40-SA1 · live: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/28ifshZ4vRN0qOF", "created_time": "2026-09-29T16:56:34+0300", "updated_time": "2026-10-01T00:17:55+0300"}
-  - מודעה 2026-W40-SA3 · live: {"effective_status": "ADSET_PAUSED", "configured_status": "ACTIVE", "preview_shareable_link": "https://fb.me/1VkwTHxjhd4jJEc", "created_time": "2026-09-29T16:56:46+0300", "updated_time": "2026-09-29T16:59:38+0300"}
-  - מודעה 2026-W40-SA2 · live: {"effective_status": "ADSET_PAUSED", "configured_status": "ACTIVE", "preview_shareable_link": "https://fb.me/zdmGNT5T8qlQKQI", "created_time": "2026-09-29T16:56:41+0300", "updated_time": "2026-09-29T16:59:30+0300"}
-  - מודעה 2026-W40-SA1: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/23iuAZ6bvHf2Zvo", "created_time": "2026-09-27T15:48:29+0300", "updated_time": "2026-09-29T16:58:20+0300"}
-  - מודעה 2026-W40-SA3: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/2Qp05Wq5eowkiTs", "created_time": "2026-09-27T15:48:39+0300", "updated_time": "2026-09-29T16:58:18+0300"}
-  - מודעה 2026-W40-SA2: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/271mA6qhGAfPers", "created_time": "2026-09-27T15:48:34+0300", "updated_time": "2026-09-29T16:58:16+0300"}
-  - מודעה 2026-W40-SA1 · b: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/2aUNuH3vPV4GTke", "created_time": "2026-09-27T21:42:49+0300", "updated_time": "2026-09-28T09:46:34+0300"}
-  - מודעה 2026-W40-S3: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/2g7ScIl1egrjflo", "created_time": "2026-09-27T15:35:51+0300", "updated_time": "2026-09-28T07:04:02+0300"}
-  - מודעה 2026-W40-S2: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/1WIhq97ekiLaYu9", "created_time": "2026-09-27T15:36:06+0300", "updated_time": "2026-09-28T07:03:58+0300"}
-  - מודעה 2026-W40-S5: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/1XbhE0w2bJT0uu9", "created_time": "2026-09-27T15:36:13+0300", "updated_time": "2026-09-28T07:03:51+0300"}
-  - מודעה 2026-W40-S4: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/2bP0pB6xxEjzxJh", "created_time": "2026-09-27T15:35:58+0300", "updated_time": "2026-09-28T07:03:33+0300"}
+  - מודעה 2026-W40-SA1 · live: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/1WFkdi4x0kyomli", "created_time": "2026-09-29T16:56:34+0300", "updated_time": "2026-10-01T00:17:55+0300"}
+  - מודעה 2026-W40-SA3 · live: {"effective_status": "ADSET_PAUSED", "configured_status": "ACTIVE", "preview_shareable_link": "https://fb.me/2iRkCmorKcAn3Is", "created_time": "2026-09-29T16:56:46+0300", "updated_time": "2026-09-29T16:59:38+0300"}
+  - מודעה 2026-W40-SA2 · live: {"effective_status": "ADSET_PAUSED", "configured_status": "ACTIVE", "preview_shareable_link": "https://fb.me/243nfdpzyzHRFe4", "created_time": "2026-09-29T16:56:41+0300", "updated_time": "2026-09-29T16:59:30+0300"}
+  - מודעה 2026-W40-SA1: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/2vOWZNC7C4dx0px", "created_time": "2026-09-27T15:48:29+0300", "updated_time": "2026-09-29T16:58:20+0300"}
+  - מודעה 2026-W40-SA3: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/1RcnR216RwtOrax", "created_time": "2026-09-27T15:48:39+0300", "updated_time": "2026-09-29T16:58:18+0300"}
+  - מודעה 2026-W40-SA2: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/2o2JahDLddQjuaH", "created_time": "2026-09-27T15:48:34+0300", "updated_time": "2026-09-29T16:58:16+0300"}
+  - מודעה 2026-W40-SA1 · b: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/2bC0ojJDvT2wum8", "created_time": "2026-09-27T21:42:49+0300", "updated_time": "2026-09-28T09:46:34+0300"}
+  - מודעה 2026-W40-S3: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/1TnxrtSuewHDwgX", "created_time": "2026-09-27T15:35:51+0300", "updated_time": "2026-09-28T07:04:02+0300"}
+  - מודעה 2026-W40-S2: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/1Wkmh4AXubKEK1E", "created_time": "2026-09-27T15:36:06+0300", "updated_time": "2026-09-28T07:03:58+0300"}
+  - מודעה 2026-W40-S5: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/2k93RxgCKeV4TQ9", "created_time": "2026-09-27T15:36:13+0300", "updated_time": "2026-09-28T07:03:51+0300"}
+  - מודעה 2026-W40-S4: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/z44tXMEDt2OuJSs", "created_time": "2026-09-27T15:35:58+0300", "updated_time": "2026-09-28T07:03:33+0300"}
 
 ## לידים לפי שעה (3 ימים אחרונים)
 
@@ -412,5 +412,5 @@
 ## פיקסל
 
 - פיקסל, משפך VSL דף נחיתה (4161502784179798): ירה לאחרונה 2026-05-10T12:24 · 3 ימים: אין אירועים
-- HK Pixel (1750634382895124): ירה לאחרונה 2026-10-06T23:03 · 3 ימים: Lead 2, PageView 60
+- HK Pixel (1750634382895124): ירה לאחרונה 2026-10-06T23:03 · 3 ימים: Lead 2, PageView 58
 
