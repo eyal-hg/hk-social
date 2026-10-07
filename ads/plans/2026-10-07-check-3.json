@@ -1,0 +1,19 @@
+{
+  "requested_by": "אייל: 'היום הכי טוב שלנו היום!' (קריאה בלבד).",
+  "approved": true,
+  "approved_by": "קריאה בלבד",
+  "actions": [
+    {
+      "type": "inspect_ads",
+      "campaign_name": "קמפיין לידים אייל"
+    },
+    {
+      "type": "inspect_ads",
+      "campaign_name": "טופס לידים || ניהול תזרים ||"
+    },
+    {
+      "type": "daily",
+      "days": 2
+    }
+  ]
+}
