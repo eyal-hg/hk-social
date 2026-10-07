@@ -1,5 +1,5 @@
 {
- "generated": "07.10.2026 09:24",
+ "generated": "07.10.2026 12:12",
  "account": {
   "name": "HK",
   "currency": "ILS",
@@ -22,7 +22,7 @@
     {
      "campaign_id": "120251977931170740",
      "name": "HK Studio · יועצים · טופס לידים · קבוצה 2 · דף HK Money",
-     "effective_status": "ACTIVE",
+     "effective_status": "PAUSED",
      "daily_budget": "5000",
      "optimization_goal": "LEAD_GENERATION",
      "destination_type": "ON_AD",
@@ -63,14 +63,14 @@
     "landing_page_views": 0.0
    },
    "lifetime": {
-    "spend": 211.13,
-    "impressions": 1252,
-    "reach": 748,
-    "clicks": 31,
-    "ctr": 2.476038,
-    "cpc": 6.810645,
-    "leads": 0.0,
-    "cost_per_lead": null,
+    "spend": 221.94,
+    "impressions": 1385,
+    "reach": 849,
+    "clicks": 35,
+    "ctr": 2.527076,
+    "cpc": 6.341143,
+    "leads": 1.0,
+    "cost_per_lead": 221.94,
     "landing_page_views": 0.0
    },
    "ads_last7": [
@@ -147,14 +147,14 @@
     {
      "adset": "HK Studio · יועצים · טופס לידים · קבוצה 2 · דף HK Money",
      "name": "2026-W41-SA4 · form",
-     "spend": 152.2,
-     "impressions": 852,
-     "reach": 554,
-     "clicks": 18,
-     "ctr": 2.112676,
-     "cpc": 8.455556,
-     "leads": 0.0,
-     "cost_per_lead": null,
+     "spend": 163.01,
+     "impressions": 985,
+     "reach": 661,
+     "clicks": 22,
+     "ctr": 2.233503,
+     "cpc": 7.409545,
+     "leads": 1.0,
+     "cost_per_lead": 163.01,
      "landing_page_views": 0.0
     }
    ]
@@ -404,14 +404,14 @@
     "landing_page_views": 0.0
    },
    "lifetime": {
-    "spend": 15337.01,
-    "impressions": 106793,
-    "reach": 27870,
-    "clicks": 2235,
-    "ctr": 2.092834,
-    "cpc": 6.862197,
-    "leads": 189.0,
-    "cost_per_lead": 81.148201,
+    "spend": 15356.88,
+    "impressions": 106894,
+    "reach": 27871,
+    "clicks": 2238,
+    "ctr": 2.093663,
+    "cpc": 6.861877,
+    "leads": 190.0,
+    "cost_per_lead": 80.825684,
     "landing_page_views": 0.0
    },
    "ads_last7": [
@@ -489,14 +489,14 @@
     {
      "adset": "סדרת מודעות לידים חדשה",
      "name": "סרטון מיקונוס 11.5",
-     "spend": 2665.64,
-     "impressions": 19141,
-     "reach": 9362,
-     "clicks": 342,
-     "ctr": 1.786741,
-     "cpc": 7.794269,
+     "spend": 2673.3,
+     "impressions": 19193,
+     "reach": 9387,
+     "clicks": 343,
+     "ctr": 1.78711,
+     "cpc": 7.793878,
      "leads": 31.0,
-     "cost_per_lead": 85.988387,
+     "cost_per_lead": 86.235484,
      "landing_page_views": 0.0
     },
     {
@@ -541,27 +541,27 @@
     {
      "adset": "‏סדרת מודעות לידים חדשה‏ - בעלי עסקים",
      "name": "סרטון 2 · מהפכת ה-AI",
-     "spend": 146.99,
-     "impressions": 918,
-     "reach": 576,
+     "spend": 150.07,
+     "impressions": 931,
+     "reach": 584,
      "clicks": 17,
-     "ctr": 1.851852,
-     "cpc": 8.646471,
+     "ctr": 1.825994,
+     "cpc": 8.827647,
      "leads": 2.0,
-     "cost_per_lead": 73.495,
+     "cost_per_lead": 75.035,
      "landing_page_views": 0.0
     },
     {
      "adset": "כושר פיננסי · מודעת תמונה · 2026-10",
      "name": "2026-W41-MA1 · form",
-     "spend": 66.3,
-     "impressions": 324,
-     "reach": 211,
-     "clicks": 3,
-     "ctr": 0.925926,
-     "cpc": 22.1,
-     "leads": 0.0,
-     "cost_per_lead": null,
+     "spend": 75.43,
+     "impressions": 360,
+     "reach": 219,
+     "clicks": 5,
+     "ctr": 1.388889,
+     "cpc": 15.086,
+     "leads": 1.0,
+     "cost_per_lead": 75.43,
      "landing_page_views": 0.0
     }
    ]
@@ -1527,14 +1527,14 @@
     "landing_page_views": 1.0
    },
    "lifetime": {
-    "spend": 24485.44,
-    "impressions": 242454,
-    "reach": 48650,
+    "spend": 24495.53,
+    "impressions": 242521,
+    "reach": 48674,
     "clicks": 4716,
-    "ctr": 1.945111,
-    "cpc": 5.191993,
+    "ctr": 1.944574,
+    "cpc": 5.194133,
     "leads": 427.0,
-    "cost_per_lead": 57.342951,
+    "cost_per_lead": 57.366581,
     "landing_page_views": 1.0
    },
    "ads_last7": [
@@ -2013,14 +2013,14 @@
     {
      "adset": "‏‏‏קהל פתוח || 25+ || מיקומים אוטומטים || סרטונים 1-10",
      "name": "וידיאו 1 || 3 טקסטים",
-     "spend": 16885.39,
-     "impressions": 154219,
-     "reach": 41551,
+     "spend": 16895.45,
+     "impressions": 154285,
+     "reach": 41568,
      "clicks": 2271,
-     "ctr": 1.472581,
-     "cpc": 7.435222,
+     "ctr": 1.471951,
+     "cpc": 7.439652,
      "leads": 303.0,
-     "cost_per_lead": 55.72736,
+     "cost_per_lead": 55.760561,
      "landing_page_views": 1.0
     },
     {
@@ -2195,12 +2195,12 @@
     {
      "adset": "LAL 1% · קהל אפריל 26 · וידיאו 1",
      "name": "וידיאו 1 || 3 טקסטים · LAL אפריל 26",
-     "spend": 25.84,
-     "impressions": 120,
+     "spend": 25.87,
+     "impressions": 121,
      "reach": 99,
      "clicks": 4,
-     "ctr": 3.333333,
-     "cpc": 6.46,
+     "ctr": 3.305785,
+     "cpc": 6.4675,
      "leads": 0.0,
      "cost_per_lead": null,
      "landing_page_views": 0.0
@@ -2627,8 +2627,8 @@
    "adsets": [
     {
      "name": "HK Studio · יועצים · טופס לידים · קבוצה 2 · דף HK Money",
-     "status": "ACTIVE",
-     "effective_status": "ACTIVE",
+     "status": "PAUSED",
+     "effective_status": "PAUSED",
      "daily_budget": "5000",
      "id": "120251978093880740"
     },
@@ -2644,7 +2644,7 @@
     {
      "name": "2026-W41-SA4 · form",
      "status": "ACTIVE",
-     "effective_status": "ACTIVE",
+     "effective_status": "ADSET_PAUSED",
      "adset_id": "120251978093880740",
      "id": "120251987340540740"
     },
@@ -3506,36 +3506,36 @@
  },
  "today": {
   "120216039932250740": {
-   "spend": 45.67,
-   "impressions": 197,
-   "reach": 184,
+   "spend": 55.76,
+   "impressions": 264,
+   "reach": 244,
    "clicks": 2,
-   "ctr": 1.015228,
-   "cpc": 22.835,
+   "ctr": 0.757576,
+   "cpc": 27.88,
    "leads": 0.0,
    "cost_per_lead": null,
    "landing_page_views": 0.0
   },
   "120245939439290740": {
-   "spend": 49.06,
-   "impressions": 223,
-   "reach": 198,
-   "clicks": 3,
-   "ctr": 1.345291,
-   "cpc": 16.353333,
-   "leads": 1.0,
-   "cost_per_lead": 49.06,
+   "spend": 68.93,
+   "impressions": 324,
+   "reach": 267,
+   "clicks": 6,
+   "ctr": 1.851852,
+   "cpc": 11.488333,
+   "leads": 2.0,
+   "cost_per_lead": 34.465,
    "landing_page_views": 0.0
   },
   "120251977931170740": {
-   "spend": 20.58,
-   "impressions": 184,
-   "reach": 169,
-   "clicks": 4,
-   "ctr": 2.173913,
-   "cpc": 5.145,
-   "leads": 0.0,
-   "cost_per_lead": null,
+   "spend": 31.39,
+   "impressions": 317,
+   "reach": 287,
+   "clicks": 8,
+   "ctr": 2.523659,
+   "cpc": 3.92375,
+   "leads": 1.0,
+   "cost_per_lead": 31.39,
    "landing_page_views": 0.0
   }
  },
@@ -3609,7 +3609,7 @@
    "name": "HK Pixel",
    "last_fired_time": "2026-10-06T23:03:13+0300",
    "events_3d": {
-    "PageView": 58,
+    "PageView": 59,
     "Lead": 2
    }
   }
