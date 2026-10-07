@@ -11,5 +11,76 @@
       "type": "daily",
       "days": 3
     }
+  ],
+  "applied": [
+    {
+      "index": 0,
+      "type": "inspect_ads",
+      "ok": true,
+      "at": "2026-10-07T12:06+03:00",
+      "result": {
+        "lines": [
+          "INSPECT {\"ad\": \"2026-W41-MA1 · form\", \"spend\": \"75.36\", \"impressions\": \"359\", \"reach\": \"217\", \"clicks_all\": \"5\", \"link_clicks\": \"1\", \"unique_link_clicks\": \"1\", \"actions\": {\"offsite_complete_registration_add_meta_leads\": \"1\", \"link_click\": \"1\", \"offsite_search_add_meta_leads\": \"1\", \"onsite_conversion.total_messaging_connection\": \"1\", \"post_engagement\": \"1\", \"page_engagement\": \"1\", \"onsite_conversion.messaging_user_depth_2_message_send\": \"1\", \"onsite_conversion.messaging_first_reply\": \"1\", \"onsite_conversion.messaging_user_depth_3_message_send\": \"1\", \"onsite_conversion.messaging_user_depth_5_message_send\": \"1\", \"lead\": \"1\", \"offsite_content_view_add_meta_leads\": \"1\", \"onsite_conversion.messaging_conversation_started_7d\": \"1\", \"onsite_conversion.lead_grouped\": \"1\"}, \"cta\": {\"type\": \"LEARN_MORE\", \"value\": {\"lead_gen_form_id\": \"831087803308460\"}}, \"page\": \"459554967250420\", \"link\": \"https://fb.me/\", \"story\": \"459554967250420_122178185342678494\", \"preview\": \"https://fb.me/28iNFQvZKKTfyxE\"}",
+          "INSPECT {\"ad\": \"סרטון 2 · מהפכת ה-AI\", \"spend\": \"150.07\", \"impressions\": \"931\", \"reach\": \"589\", \"clicks_all\": \"17\", \"link_clicks\": \"10\", \"unique_link_clicks\": \"9\", \"actions\": {\"offsite_complete_registration_add_meta_leads\": \"2\", \"link_click\": \"10\", \"offsite_search_add_meta_leads\": \"2\", \"post_reaction\": \"2\", \"onsite_conversion.messaging_conversation_replied_7d\": \"2\", \"onsite_conversion.total_messaging_connection\": \"3\", \"onsite_conversion.post_unlike\": \"1\", \"post_engagement\": \"184\", \"post_interaction_gross\": \"3\", \"page_engagement\": \"184\", \"post_interaction_net\": \"4\", \"onsite_conversion.messaging_first_reply\": \"3\", \"post\": \"1\", \"onsite_conversion.post_net_like\": \"1\", \"lead\": \"2\", \"offsite_content_view_add_meta_leads\": \"2\", \"onsite_conversion.messaging_conversation_started_7d\": \"3\", \"onsite_conversion.lead_grouped\": \"2\", \"video_view\": \"171\"}, \"cta\": {\"type\": \"LEARN_MORE\", \"value\": {\"lead_gen_form_id\": \"831087803308460\", \"link\": \"http://fb.me/\"}}, \"page\": \"459554967250420\", \"link\": null, \"story\": \"459554967250420_122157292112678494\", \"preview\": \"https://fb.me/qzuvaiwektcZtAG\"}",
+          "INSPECT {\"ad\": \"סרטון מיקונוס 11.5\", \"spend\": \"2672.23\", \"impressions\": \"19191\", \"reach\": \"9573\", \"clicks_all\": \"343\", \"link_clicks\": \"181\", \"unique_link_clicks\": \"174\", \"actions\": {\"offsite_complete_registration_add_meta_leads\": \"31\", \"link_click\": \"181\", \"offsite_search_add_meta_leads\": \"31\", \"post_reaction\": \"15\", \"onsite_conversion.messaging_conversation_replied_7d\": \"15\", \"onsite_conversion.total_messaging_connection\": \"19\", \"onsite_conversion.post_unlike\": \"3\", \"post_engagement\": \"4127\", \"like\": \"1\", \"post_interaction_gross\": \"30\", \"comment\": \"1\", \"page_engagement\": \"4128\", \"post_interaction_net\": \"33\", \"onsite_conversion.messaging_user_depth_2_message_send\": \"3\", \"onsite_conversion.messaging_first_reply\": \"18\", \"post\": \"10\", \"onsite_conversion.post_save\": \"4\", \"onsite_conversion.post_net_comment\": \"1\", \"onsite_conversion.messaging_user_depth_3_message_send\": \"2\", \"onsite_conversion.post_net_save\": \"4\", \"onsite_conversion.post_net_like\": \"12\", \"onsite_conversion.messaging_user_depth_5_message_send\": \"1\", \"lead\": \"31\", \"offsite_content_view_add_meta_leads\": \"31\", \"onsite_conversion.messaging_conversation_started_7d\": \"20\", \"onsite_conversion.lead_grouped\": \"31\", \"video_view\": \"3916\"}, \"cta\": {\"type\": \"LEARN_MORE\", \"value\": {\"lead_gen_form_id\": \"831087803308460\", \"link\": \"http://fb.me/\"}}, \"page\": \"459554967250420\", \"link\": null, \"story\": \"459554967250420_122165048174678494\", \"preview\": \"https://fb.me/2cTzvx7zL3o676V\"}"
+        ]
+      }
+    },
+    {
+      "index": 1,
+      "type": "daily",
+      "ok": true,
+      "at": "2026-10-07T12:06+03:00",
+      "result": {
+        "lines": [
+          "DAILY HK Studio · יועצים · טופס לידים | 2026-10-05 | spend 48 | impr 286 | reach 209 | freq 1.37 | cpm 167 | clicks 5 | link 5 | leads 0",
+          "DAILY HK Studio · יועצים · טופס לידים | 2026-10-06 | spend 57 | impr 254 | reach 187 | freq 1.36 | cpm 224 | clicks 1 | link 1 | leads 0",
+          "DAILY HK Studio · יועצים · טופס לידים | 2026-10-07 | spend 31 | impr 317 | reach 285 | freq 1.11 | cpm 99 | clicks 8 | link 6 | leads 1",
+          "HOURLY HK Studio · יועצים · טופס לידים | 00:00 | spend 10.5 | impr 8 | clicks 0 | leads 0",
+          "HOURLY HK Studio · יועצים · טופס לידים | 01:00 | spend 0.3 | impr 9 | clicks 0 | leads 0",
+          "HOURLY HK Studio · יועצים · טופס לידים | 02:00 | spend 0.0 | impr 5 | clicks 2 | leads 0",
+          "HOURLY HK Studio · יועצים · טופס לידים | 03:00 | spend 0.1 | impr 7 | clicks 0 | leads 0",
+          "HOURLY HK Studio · יועצים · טופס לידים | 04:00 | spend 4.5 | impr 9 | clicks 0 | leads 0",
+          "HOURLY HK Studio · יועצים · טופס לידים | 05:00 | spend 0.6 | impr 33 | clicks 0 | leads 0",
+          "HOURLY HK Studio · יועצים · טופס לידים | 06:00 | spend 1.2 | impr 47 | clicks 0 | leads 0",
+          "HOURLY HK Studio · יועצים · טופס לידים | 07:00 | spend 2.5 | impr 43 | clicks 1 | leads 0",
+          "HOURLY HK Studio · יועצים · טופס לידים | 08:00 | spend 0.7 | impr 18 | clicks 0 | leads 0",
+          "HOURLY HK Studio · יועצים · טופס לידים | 09:00 | spend 2.0 | impr 35 | clicks 3 | leads 1",
+          "HOURLY HK Studio · יועצים · טופס לידים | 10:00 | spend 6.8 | impr 49 | clicks 0 | leads 0",
+          "HOURLY HK Studio · יועצים · טופס לידים | 11:00 | spend 2.3 | impr 53 | clicks 2 | leads 0",
+          "HOURLY HK Studio · יועצים · טופס לידים | 12:00 | spend 0.0 | impr 1 | clicks 0 | leads 0",
+          "DAILY קמפיין לידים אייל | 2026-10-05 | spend 95 | impr 622 | reach 483 | freq 1.29 | cpm 152 | clicks 11 | link 8 | leads 1",
+          "DAILY קמפיין לידים אייל | 2026-10-06 | spend 135 | impr 673 | reach 479 | freq 1.41 | cpm 201 | clicks 14 | link 6 | leads 1",
+          "DAILY קמפיין לידים אייל | 2026-10-07 | spend 68 | impr 321 | reach 264 | freq 1.22 | cpm 211 | clicks 6 | link 2 | leads 2",
+          "HOURLY קמפיין לידים אייל | 00:00 | spend 6.9 | impr 36 | clicks 2 | leads 1",
+          "HOURLY קמפיין לידים אייל | 01:00 | spend 7.5 | impr 20 | clicks 0 | leads 0",
+          "HOURLY קמפיין לידים אייל | 02:00 | spend 4.3 | impr 21 | clicks 0 | leads 0",
+          "HOURLY קמפיין לידים אייל | 03:00 | spend 2.0 | impr 12 | clicks 0 | leads 0",
+          "HOURLY קמפיין לידים אייל | 04:00 | spend 1.3 | impr 5 | clicks 0 | leads 0",
+          "HOURLY קמפיין לידים אייל | 05:00 | spend 3.3 | impr 19 | clicks 0 | leads 0",
+          "HOURLY קמפיין לידים אייל | 06:00 | spend 6.3 | impr 22 | clicks 0 | leads 0",
+          "HOURLY קמפיין לידים אייל | 07:00 | spend 12.5 | impr 51 | clicks 1 | leads 0",
+          "HOURLY קמפיין לידים אייל | 08:00 | spend 4.2 | impr 33 | clicks 0 | leads 0",
+          "HOURLY קמפיין לידים אייל | 09:00 | spend 8.3 | impr 35 | clicks 2 | leads 1",
+          "HOURLY קמפיין לידים אייל | 10:00 | spend 4.7 | impr 26 | clicks 0 | leads 0",
+          "HOURLY קמפיין לידים אייל | 11:00 | spend 6.2 | impr 41 | clicks 1 | leads 0",
+          "DAILY ‏טופס לידים || ניהול תזרים || | 2026-10-05 | spend 74 | impr 528 | reach 422 | freq 1.25 | cpm 139 | clicks 11 | link 4 | leads 1",
+          "DAILY ‏טופס לידים || ניהול תזרים || | 2026-10-06 | spend 101 | impr 628 | reach 517 | freq 1.21 | cpm 161 | clicks 10 | link 8 | leads 1",
+          "DAILY ‏טופס לידים || ניהול תזרים || | 2026-10-07 | spend 56 | impr 262 | reach 242 | freq 1.08 | cpm 212 | clicks 2 | link 1 | leads 0",
+          "HOURLY ‏טופס לידים || ניהול תזרים || | 00:00 | spend 7.4 | impr 28 | clicks 1 | leads 0",
+          "HOURLY ‏טופס לידים || ניהול תזרים || | 01:00 | spend 2.2 | impr 15 | clicks 0 | leads 0",
+          "HOURLY ‏טופס לידים || ניהול תזרים || | 02:00 | spend 1.4 | impr 10 | clicks 0 | leads 0",
+          "HOURLY ‏טופס לידים || ניהול תזרים || | 03:00 | spend 0.3 | impr 2 | clicks 0 | leads 0",
+          "HOURLY ‏טופס לידים || ניהול תזרים || | 04:00 | spend 1.6 | impr 9 | clicks 0 | leads 0",
+          "HOURLY ‏טופס לידים || ניהול תזרים || | 05:00 | spend 1.1 | impr 11 | clicks 0 | leads 0",
+          "HOURLY ‏טופס לידים || ניהול תזרים || | 06:00 | spend 6.4 | impr 37 | clicks 0 | leads 0",
+          "HOURLY ‏טופס לידים || ניהול תזרים || | 07:00 | spend 15.7 | impr 42 | clicks 1 | leads 0",
+          "HOURLY ‏טופס לידים || ניהול תזרים || | 08:00 | spend 9.3 | impr 39 | clicks 0 | leads 0",
+          "HOURLY ‏טופס לידים || ניהול תזרים || | 09:00 | spend 4.5 | impr 27 | clicks 0 | leads 0",
+          "HOURLY ‏טופס לידים || ניהול תזרים || | 10:00 | spend 2.1 | impr 23 | clicks 0 | leads 0",
+          "HOURLY ‏טופס לידים || ניהול תזרים || | 11:00 | spend 3.3 | impr 19 | clicks 0 | leads 0"
+        ]
+      }
+    }
   ]
 }
