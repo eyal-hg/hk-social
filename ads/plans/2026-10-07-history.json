@@ -7,5 +7,45 @@
       "type": "history",
       "months": 7
     }
+  ],
+  "applied": [
+    {
+      "index": 0,
+      "type": "history",
+      "ok": true,
+      "at": "2026-10-07T20:25+03:00",
+      "result": {
+        "lines": [
+          "HIST HK Studio · יועצים · טופס לידים | ACTIVE | total spend 224 leads 1",
+          "HIST   HK Studio · יועצים · טופס לידים | 2026-10 | spend 224 | impr 1390 | clicks 35 | leads 1",
+          "HIST HK Studio · יועצים · כניסות לדף | ACTIVE | total spend 301 leads 0",
+          "HIST   HK Studio · יועצים · כניסות לדף | 2026-09 | spend 175 | impr 7751 | clicks 61 | leads 0",
+          "HIST   HK Studio · יועצים · כניסות לדף | 2026-10 | spend 126 | impr 11629 | clicks 227 | leads 0",
+          "HIST קמפיין לידים אייל | ACTIVE | total spend 15424 leads 191",
+          "HIST   קמפיין לידים אייל | 2026-04 | spend 685 | impr 3893 | clicks 64 | leads 7",
+          "HIST   קמפיין לידים אייל | 2026-05 | spend 7153 | impr 46235 | clicks 856 | leads 73",
+          "HIST   קמפיין לידים אייל | 2026-06 | spend 3969 | impr 30317 | clicks 728 | leads 54",
+          "HIST   קמפיין לידים אייל | 2026-07 | spend 1410 | impr 12218 | clicks 247 | leads 21",
+          "HIST   קמפיין לידים אייל | 2026-08 | spend 1136 | impr 7728 | clicks 189 | leads 20",
+          "HIST   קמפיין לידים אייל | 2026-09 | spend 461 | impr 3146 | clicks 81 | leads 6",
+          "HIST   קמפיין לידים אייל | 2026-10 | spend 609 | impr 3814 | clicks 84 | leads 10",
+          "HIST קמפיין VSL - תנועה, מיקסום צפיות בדף נחיתה | PAUSED | total spend 714 leads 0",
+          "HIST   קמפיין VSL - תנועה, מיקסום צפיות בדף נחיתה | 2026-04 | spend 714 | impr 101677 | clicks 1787 | leads 0",
+          "HIST קמפיין טופס לידים 14.4 |רילקס| | PAUSED | total spend 3477 leads 18",
+          "HIST   קמפיין טופס לידים 14.4 |רילקס| | 2026-04 | spend 2791 | impr 20098 | clicks 231 | leads 14",
+          "HIST   קמפיין טופס לידים 14.4 |רילקס| | 2026-05 | spend 686 | impr 3244 | clicks 36 | leads 4",
+          "HIST ‏‏קמפיין כספים AI טופס לידים | טסט 2 | HK Money‏‏ | PAUSED | total spend 7159 leads 56",
+          "HIST   ‏‏קמפיין כספים AI טופס לידים | טסט 2 | HK Money‏‏ | 2026-03 | spend 3141 | impr 22223 | clicks 400 | leads 23",
+          "HIST   ‏‏קמפיין כספים AI טופס לידים | טסט 2 | HK Money‏‏ | 2026-04 | spend 2973 | impr 18327 | clicks 308 | leads 27",
+          "HIST   ‏‏קמפיין כספים AI טופס לידים | טסט 2 | HK Money‏‏ | 2026-05 | spend 1046 | impr 5374 | clicks 101 | leads 6",
+          "HIST ‏קמפיין כספים AI טופס לידים || HK Money‏ | PAUSED | total spend 5757 leads 56",
+          "HIST   ‏קמפיין כספים AI טופס לידים || HK Money‏ | 2026-03 | spend 3145 | impr 22713 | clicks 360 | leads 26",
+          "HIST   ‏קמפיין כספים AI טופס לידים || HK Money‏ | 2026-04 | spend 2612 | impr 17278 | clicks 276 | leads 30",
+          "HIST ‏טופס לידים || ניהול תזרים || | ACTIVE | total spend 862 leads 14",
+          "HIST   ‏טופס לידים || ניהול תזרים || | 2026-09 | spend 201 | impr 1645 | clicks 43 | leads 4",
+          "HIST   ‏טופס לידים || ניהול תזרים || | 2026-10 | spend 661 | impr 4661 | clicks 102 | leads 10"
+        ]
+      }
+    }
   ]
 }
