@@ -1,0 +1,11 @@
+{
+  "requested_by": "אייל 7.10: 'סקירה של חצי שנה אחרונה כמה לידים מכל קמפיין' (קריאה בלבד).",
+  "approved": true,
+  "approved_by": "קריאה בלבד",
+  "actions": [
+    {
+      "type": "history",
+      "months": 7
+    }
+  ]
+}

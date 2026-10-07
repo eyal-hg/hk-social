@@ -231,7 +231,7 @@ def apply_plan(plan_path):
         try:
             res = {"set_adset_budget": set_budget, "create_campaign": create_campaign, "revive": revive,
                    "add_ads": add_ads, "pause_ads": pause_ads, "set_targeting": set_targeting, "create_pixel": create_pixel, "clone_adset": clone_adset,
-                   "pause_adset": pause_adset, "create_lead_campaign": create_lead_campaign, "resume_ads": resume_ads, "check": check, "copy_ad": copy_ad, "inspect_ads": inspect_ads, "daily": daily, "image_lead_ad": image_lead_ad}[a["type"]](a)
+                   "pause_adset": pause_adset, "create_lead_campaign": create_lead_campaign, "resume_ads": resume_ads, "check": check, "copy_ad": copy_ad, "inspect_ads": inspect_ads, "daily": daily, "image_lead_ad": image_lead_ad, "history": history}[a["type"]](a)
             applied.append({"index": i, "type": a["type"], "ok": True, "at": datetime.now(ZoneInfo("Asia/Jerusalem")).isoformat(timespec="minutes"), "result": res})
             print("ok", i, a["type"], res)
         except Exception as e:  # noqa: BLE001
@@ -462,6 +462,26 @@ def image_lead_ad(a):
         cr = call("POST", f"{ACCT}/adcreatives", name=ad_name, object_story_spec=json.dumps(spec))
         ad_id = call("POST", f"{ACCT}/ads", name=ad_name, adset_id=adset["id"], creative=json.dumps({"creative_id": cr["id"]}), status=a.get("status", "ACTIVE"))["id"]
     return {"campaign_id": c["id"], "adset_id": adset["id"], "ad_id": ad_id, "form_id": form_id, "page_id": page_id, "start_time": a.get("start_time")}
+
+
+def history(a):
+    """Read-only: every campaign (active or not) over the last N months — spend, leads, cost per lead, by month."""
+    months = int(a.get("months", 6))
+    today = datetime.now(ZoneInfo("Asia/Jerusalem")).date()
+    since = (today.replace(day=1) - timedelta(days=31 * (months - 1))).replace(day=1)
+    rng = json.dumps({"since": since.isoformat(), "until": today.isoformat()})
+    lead = lambda r: sum(float(x.get("value", 0)) for x in r.get("actions", []) or [] if x.get("action_type") == "lead")
+    out = []
+    for c in call("GET", f"{ACCT}/campaigns", fields="name,effective_status,objective,start_time", limit=200)["data"]:
+        rows = call("GET", f"{c['id']}/insights", time_range=rng, time_increment="monthly", limit=100, fields="spend,impressions,clicks,actions").get("data", [])
+        tot_s = sum(float(r.get("spend", 0)) for r in rows); tot_l = sum(lead(r) for r in rows)
+        if tot_s < 1: continue
+        line = f"HIST {c['name']} | {c.get('effective_status')} | total spend {tot_s:.0f} leads {tot_l:.0f}"
+        print(line); out.append(line)
+        for r in rows:
+            line = f"HIST   {c['name']} | {r.get('date_start')[:7]} | spend {float(r.get('spend', 0)):.0f} | impr {r.get('impressions', 0)} | clicks {r.get('clicks', 0)} | leads {lead(r):.0f}"
+            print(line); out.append(line)
+    return {"lines": out}
 
 
 def copy_ad(a):
