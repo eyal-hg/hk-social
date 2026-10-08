@@ -1,10 +1,10 @@
 {
- "generated": "08.10.2026 09:37",
+ "generated": "08.10.2026 12:25",
  "account": {
   "name": "HK",
   "currency": "ILS",
   "account_status": 1,
-  "amount_spent": "8161539",
+  "amount_spent": "8161554",
   "id": "act_1886192278456348"
  },
  "campaigns": [
@@ -368,36 +368,36 @@
     }
    ],
    "last7": {
-    "spend": 658.98,
-    "impressions": 4059,
+    "spend": 659.13,
+    "impressions": 4060,
     "reach": 2222,
     "clicks": 88,
-    "ctr": 2.168022,
-    "cpc": 7.488409,
+    "ctr": 2.167488,
+    "cpc": 7.490114,
     "leads": 11.0,
-    "cost_per_lead": 59.907273,
+    "cost_per_lead": 59.920909,
     "landing_page_views": 0.0
    },
    "last30": {
-    "spend": 1050.18,
-    "impressions": 6614,
+    "spend": 1050.33,
+    "impressions": 6615,
     "reach": 3565,
     "clicks": 156,
-    "ctr": 2.358633,
-    "cpc": 6.731923,
+    "ctr": 2.358277,
+    "cpc": 6.732885,
     "leads": 16.0,
-    "cost_per_lead": 65.63625,
+    "cost_per_lead": 65.645625,
     "landing_page_views": 0.0
    },
    "lifetime": {
-    "spend": 15531.04,
-    "impressions": 107822,
-    "reach": 27961,
-    "clicks": 2260,
-    "ctr": 2.096047,
-    "cpc": 6.872142,
+    "spend": 15540.44,
+    "impressions": 107862,
+    "reach": 27960,
+    "clicks": 2263,
+    "ctr": 2.098051,
+    "cpc": 6.867185,
     "leads": 193.0,
-    "cost_per_lead": 80.47171,
+    "cost_per_lead": 80.520415,
     "landing_page_views": 0.0
    },
    "ads_last7": [
@@ -405,14 +405,14 @@
      "id": "120246717051220740",
      "adset": "סדרת מודעות לידים חדשה",
      "name": "סרטון מיקונוס 11.5",
-     "spend": 298.58,
-     "impressions": 1945,
+     "spend": 298.73,
+     "impressions": 1946,
      "reach": 1360,
      "clicks": 50,
-     "ctr": 2.570694,
-     "cpc": 5.9716,
+     "ctr": 2.569373,
+     "cpc": 5.9746,
      "leads": 7.0,
-     "cost_per_lead": 42.654286,
+     "cost_per_lead": 42.675714,
      "landing_page_views": 0.0
     },
     {
@@ -475,14 +475,14 @@
     {
      "adset": "סדרת מודעות לידים חדשה",
      "name": "סרטון מיקונוס 11.5",
-     "spend": 2734.04,
-     "impressions": 19584,
-     "reach": 9453,
-     "clicks": 352,
-     "ctr": 1.797386,
-     "cpc": 7.767159,
+     "spend": 2736.0,
+     "impressions": 19602,
+     "reach": 9451,
+     "clicks": 354,
+     "ctr": 1.805938,
+     "cpc": 7.728814,
      "leads": 32.0,
-     "cost_per_lead": 85.43875,
+     "cost_per_lead": 85.5,
      "landing_page_views": 0.0
     },
     {
@@ -527,27 +527,27 @@
     {
      "adset": "‏סדרת מודעות לידים חדשה‏ - בעלי עסקים",
      "name": "סרטון 2 · מהפכת ה-AI",
-     "spend": 191.7,
-     "impressions": 1132,
+     "spend": 192.61,
+     "impressions": 1139,
      "reach": 679,
      "clicks": 21,
-     "ctr": 1.855124,
-     "cpc": 9.128571,
+     "ctr": 1.843723,
+     "cpc": 9.171905,
      "leads": 2.0,
-     "cost_per_lead": 95.85,
+     "cost_per_lead": 96.305,
      "landing_page_views": 0.0
     },
     {
      "adset": "כושר פיננסי · מודעת תמונה · 2026-10",
      "name": "2026-W41-MA1 · form",
-     "spend": 147.22,
-     "impressions": 696,
-     "reach": 361,
-     "clicks": 14,
-     "ctr": 2.011494,
-     "cpc": 10.515714,
+     "spend": 153.75,
+     "impressions": 711,
+     "reach": 368,
+     "clicks": 15,
+     "ctr": 2.109705,
+     "cpc": 10.25,
      "leads": 3.0,
-     "cost_per_lead": 49.073333,
+     "cost_per_lead": 51.25,
      "landing_page_views": 0.0
     }
    ]
@@ -1513,14 +1513,14 @@
     "landing_page_views": 1.0
    },
    "lifetime": {
-    "spend": 24607.11,
-    "impressions": 243181,
-    "reach": 48774,
+    "spend": 24610.28,
+    "impressions": 243212,
+    "reach": 48791,
     "clicks": 4734,
-    "ctr": 1.946698,
-    "cpc": 5.197953,
+    "ctr": 1.94645,
+    "cpc": 5.198623,
     "leads": 430.0,
-    "cost_per_lead": 57.225837,
+    "cost_per_lead": 57.233209,
     "landing_page_views": 1.0
    },
    "ads_last7": [
@@ -1999,14 +1999,14 @@
     {
      "adset": "‏‏‏קהל פתוח || 25+ || מיקומים אוטומטים || סרטונים 1-10",
      "name": "וידיאו 1 || 3 טקסטים",
-     "spend": 17004.59,
-     "impressions": 154938,
+     "spend": 17007.74,
+     "impressions": 154968,
      "reach": 41643,
      "clicks": 2289,
-     "ctr": 1.477365,
-     "cpc": 7.428829,
+     "ctr": 1.477079,
+     "cpc": 7.430205,
      "leads": 306.0,
-     "cost_per_lead": 55.570556,
+     "cost_per_lead": 55.58085,
      "landing_page_views": 1.0
     },
     {
@@ -2181,12 +2181,12 @@
     {
      "adset": "LAL 1% · קהל אפריל 26 · וידיאו 1",
      "name": "וידיאו 1 || 3 טקסטים · LAL אפריל 26",
-     "spend": 28.31,
-     "impressions": 128,
-     "reach": 106,
+     "spend": 28.33,
+     "impressions": 129,
+     "reach": 107,
      "clicks": 4,
-     "ctr": 3.125,
-     "cpc": 7.0775,
+     "ctr": 3.100775,
+     "cpc": 7.0825,
      "leads": 0.0,
      "cost_per_lead": null,
      "landing_page_views": 0.0
@@ -3492,25 +3492,25 @@
  },
  "today": {
   "120216039932250740": {
-   "spend": 40.3,
-   "impressions": 184,
-   "reach": 173,
+   "spend": 43.47,
+   "impressions": 215,
+   "reach": 202,
    "clicks": 4,
-   "ctr": 2.173913,
-   "cpc": 10.075,
+   "ctr": 1.860465,
+   "cpc": 10.8675,
    "leads": 1.0,
-   "cost_per_lead": 40.3,
+   "cost_per_lead": 43.47,
    "landing_page_views": 0.0
   },
   "120245939439290740": {
-   "spend": 57.37,
-   "impressions": 226,
-   "reach": 194,
-   "clicks": 7,
-   "ctr": 3.097345,
-   "cpc": 8.195714,
+   "spend": 66.62,
+   "impressions": 265,
+   "reach": 228,
+   "clicks": 10,
+   "ctr": 3.773585,
+   "cpc": 6.662,
    "leads": 1.0,
-   "cost_per_lead": 57.37,
+   "cost_per_lead": 66.62,
    "landing_page_views": 0.0
   }
  },
@@ -3605,7 +3605,7 @@
    "name": "HK Pixel",
    "last_fired_time": "2026-10-07T19:22:19+0300",
    "events_3d": {
-    "PageView": 32
+    "PageView": 33
    }
   }
  ],
@@ -3624,14 +3624,14 @@
     "landing_page_views": 0.0
    },
    "120245939439290740": {
-    "spend": 185.72,
-    "impressions": 1026,
-    "reach": 759,
+    "spend": 185.87,
+    "impressions": 1027,
+    "reach": 760,
     "clicks": 21,
-    "ctr": 2.046784,
-    "cpc": 8.84381,
+    "ctr": 2.044791,
+    "cpc": 8.850952,
     "leads": 4.0,
-    "cost_per_lead": 46.43,
+    "cost_per_lead": 46.4675,
     "landing_page_views": 0.0
    },
    "120251977931170740": {
@@ -3647,14 +3647,14 @@
    }
   },
   "total": {
-   "spend": 346.21000000000004,
-   "impressions": 2085,
-   "reach": 1703,
+   "spend": 346.36,
+   "impressions": 2086,
+   "reach": 1704,
    "clicks": 45,
-   "ctr": 2.158273381294964,
-   "cpc": 7.693555555555556,
+   "ctr": 2.1572387344199426,
+   "cpc": 7.696888888888889,
    "leads": 7.0,
-   "cost_per_lead": 49.45857142857143,
+   "cost_per_lead": 49.480000000000004,
    "landing_page_views": 0.0
   }
  }
