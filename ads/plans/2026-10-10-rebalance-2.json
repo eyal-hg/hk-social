@@ -1,0 +1,22 @@
+{
+  "requested_by": "אייל 10.10: 'כן' לעלייה מדורגת — כושר 75, מיקונוס 75, וידיאו 1 50 = 200 ₪ ליום.",
+  "approved": true,
+  "approved_by": "אייל 10.10 בצ'אט. סך Money 200 בדיוק.",
+  "actions": [
+    {
+      "type": "set_adset_budget",
+      "campaign_name": "קמפיין לידים אייל",
+      "adset_name": "כושר פיננסי · מודעת תמונה · 2026-10",
+      "daily_budget_ils": 75
+    },
+    {
+      "type": "set_adset_budget",
+      "campaign_name": "קמפיין לידים אייל",
+      "adset_name": "סדרת מודעות לידים חדשה",
+      "daily_budget_ils": 75
+    },
+    {
+      "type": "check"
+    }
+  ]
+}
