@@ -1,0 +1,32 @@
+{
+  "requested_by": "אייל 10.10.2026: אישר ('כן') את ההצעה אחרי יומיים חלשים: מודעת הכושר ל-100, וידיאו 1 ל-50, להשהות את 'מהפכת ה-AI' ולהעביר את ה-40 שלה למיקונוס.",
+  "approved": true,
+  "approved_by": "אייל 10.10 בצ'אט. סך Money נשאר 200 ₪ ליום (50 וידיאו 1 + 100 כושר + 100 מיקונוס); הסטודיו מושהה. התקרה 300 לא משתנה.",
+  "actions": [
+    {
+      "type": "set_adset_budget",
+      "campaign_name": "טופס לידים || ניהול תזרים ||",
+      "daily_budget_ils": 50
+    },
+    {
+      "type": "set_adset_budget",
+      "campaign_name": "קמפיין לידים אייל",
+      "adset_name": "כושר פיננסי · מודעת תמונה · 2026-10",
+      "daily_budget_ils": 100
+    },
+    {
+      "type": "pause_adset",
+      "campaign_name": "קמפיין לידים אייל",
+      "adset_name": "סדרת מודעות לידים חדשה - בעלי עסקים"
+    },
+    {
+      "type": "set_adset_budget",
+      "campaign_name": "קמפיין לידים אייל",
+      "adset_name": "סדרת מודעות לידים חדשה",
+      "daily_budget_ils": 100
+    },
+    {
+      "type": "check"
+    }
+  ]
+}
