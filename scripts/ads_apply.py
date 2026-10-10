@@ -231,7 +231,7 @@ def apply_plan(plan_path):
         try:
             res = {"set_adset_budget": set_budget, "create_campaign": create_campaign, "revive": revive,
                    "add_ads": add_ads, "pause_ads": pause_ads, "set_targeting": set_targeting, "create_pixel": create_pixel, "clone_adset": clone_adset,
-                   "pause_adset": pause_adset, "create_lead_campaign": create_lead_campaign, "resume_ads": resume_ads, "check": check, "copy_ad": copy_ad, "inspect_ads": inspect_ads, "daily": daily, "image_lead_ad": image_lead_ad, "history": history}[a["type"]](a)
+                   "pause_adset": pause_adset, "create_lead_campaign": create_lead_campaign, "resume_ads": resume_ads, "check": check, "copy_ad": copy_ad, "inspect_ads": inspect_ads, "daily": daily, "image_lead_ad": image_lead_ad, "history": history, "add_lead_ads": add_lead_ads}[a["type"]](a)
             applied.append({"index": i, "type": a["type"], "ok": True, "at": datetime.now(ZoneInfo("Asia/Jerusalem")).isoformat(timespec="minutes"), "result": res})
             print("ok", i, a["type"], res)
         except Exception as e:  # noqa: BLE001
@@ -482,6 +482,44 @@ def history(a):
             line = f"HIST   {c['name']} | {r.get('date_start')[:7]} | spend {float(r.get('spend', 0)):.0f} | impr {r.get('impressions', 0)} | clicks {r.get('clicks', 0)} | leads {lead(r):.0f}"
             print(line); out.append(line)
     return {"lines": out}
+
+
+def add_lead_ads(a):
+    """Add image lead ads (and optionally one carousel) to an EXISTING ad set, on the instant form its active ad uses.
+    posts: list of post ids (one image ad each). carousel: {"name": ad name, "cards": [post ids], "headlines": [...]} (optional)."""
+    c, adset = _adset(a)
+    srcd = call("GET", adset["id"], fields="promoted_object")
+    page_id = (srcd.get("promoted_object") or {}).get("page_id")
+    form_id = a.get("form_id") or _form_of(adset["id"])
+    if not (page_id and form_id):
+        raise RuntimeError(f"could not resolve page/form (page {page_id}, form {form_id})")
+    posts = {d["id"]: d for d in (json.loads(q.read_text(encoding="utf-8")) for q in ROOT.glob("posts/**/*.json"))}
+    have = {norm(x["name"]) for x in call("GET", f"{adset['id']}/ads", fields="name", limit=100)["data"]}
+    sfx = a.get("ad_suffix", " · form"); cta = {"type": a.get("cta", "LEARN_MORE"), "value": {"lead_gen_form_id": form_id}}
+    out = []
+    for pid in a.get("posts", []):
+        name = pid + sfx
+        if norm(name) in have: out.append({"post": pid, "skipped": "exists"}); continue
+        p = posts[pid]
+        spec = {"page_id": page_id, "link_data": {"link": "https://fb.me/", "message": a.get("caption") or p["caption"], "picture": f"{IMAGE_BASE}/{pid}.jpg",
+                "name": a.get("headline", ""), "call_to_action": cta}}
+        cr = call("POST", f"{ACCT}/adcreatives", name=name, object_story_spec=json.dumps(spec))
+        ad = call("POST", f"{ACCT}/ads", name=name, adset_id=adset["id"], creative=json.dumps({"creative_id": cr["id"]}), status=a.get("status", "ACTIVE"))
+        out.append({"post": pid, "ad_id": ad["id"]})
+    car = a.get("carousel")
+    if car:
+        name = car["name"] + sfx
+        if norm(name) in have: out.append({"carousel": car["name"], "skipped": "exists"})
+        else:
+            first = posts[car["cards"][0]]
+            children = [{"picture": f"{IMAGE_BASE}/{pid}.jpg", "name": (car.get("headlines") or [""] * 9)[i] if i < len(car.get("headlines") or []) else posts[pid].get("title", ""),
+                         "link": "https://fb.me/", "call_to_action": cta} for i, pid in enumerate(car["cards"])]
+            spec = {"page_id": page_id, "link_data": {"link": "https://fb.me/", "message": a.get("caption") or first["caption"], "child_attachments": children,
+                    "multi_share_optimized": False, "multi_share_end_card": False, "call_to_action": cta}}
+            cr = call("POST", f"{ACCT}/adcreatives", name=name, object_story_spec=json.dumps(spec))
+            ad = call("POST", f"{ACCT}/ads", name=name, adset_id=adset["id"], creative=json.dumps({"creative_id": cr["id"]}), status=a.get("status", "ACTIVE"))
+            out.append({"carousel": car["name"], "ad_id": ad["id"]})
+    return {"campaign_id": c["id"], "adset_id": adset["id"], "form_id": form_id, "ads": out}
 
 
 def copy_ad(a):
