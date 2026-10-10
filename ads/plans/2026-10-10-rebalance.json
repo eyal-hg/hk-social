@@ -28,5 +28,80 @@
     {
       "type": "check"
     }
+  ],
+  "applied": [
+    {
+      "index": 0,
+      "type": "set_adset_budget",
+      "ok": true,
+      "at": "2026-10-10T11:17+03:00",
+      "result": {
+        "campaign_id": "120216039932250740",
+        "level": "campaign",
+        "daily_budget_ils": 50
+      }
+    },
+    {
+      "index": 1,
+      "type": "set_adset_budget",
+      "ok": true,
+      "at": "2026-10-10T11:17+03:00",
+      "result": {
+        "campaign_id": "120245939439290740",
+        "level": "adset",
+        "adsets": [
+          {
+            "adset_id": "120252003082500740",
+            "name": "כושר פיננסי · מודעת תמונה · 2026-10",
+            "daily_budget_ils": 100
+          }
+        ]
+      }
+    },
+    {
+      "index": 2,
+      "type": "pause_adset",
+      "ok": true,
+      "at": "2026-10-10T11:17+03:00",
+      "result": {
+        "campaign_id": "120245939439290740",
+        "adset_id": "120249034172770740",
+        "status": "PAUSED"
+      }
+    },
+    {
+      "index": 3,
+      "type": "set_adset_budget",
+      "ok": true,
+      "at": "2026-10-10T11:17+03:00",
+      "result": {
+        "campaign_id": "120245939439290740",
+        "level": "adset",
+        "adsets": [
+          {
+            "adset_id": "120245939439310740",
+            "name": "סדרת מודעות לידים חדשה",
+            "daily_budget_ils": 100
+          }
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "type": "check",
+      "ok": true,
+      "at": "2026-10-10T11:17+03:00",
+      "result": {
+        "lines": [
+          "CHECK campaign HK Studio · יועצים · טופס לידים | budget 0 | today spend 0 impr 0 clicks 0 leads 0",
+          "CHECK campaign HK Studio · יועצים · כניסות לדף | budget 0 | today spend 0 impr 0 clicks 0 leads 0",
+          "CHECK campaign קמפיין לידים אייל | budget 0 | today spend 49.4 impr 173 clicks 1 leads 0",
+          "CHECK   adset כושר פיננסי · מודעת תמונה · 2026-10 [ACTIVE] budget 100 ",
+          "CHECK     ad 2026-W41-MA1 · form [ACTIVE]  ",
+          "CHECK   adset סדרת מודעות לידים חדשה [ACTIVE] budget 100 ",
+          "CHECK     ad סרטון מיקונוס 11.5 [ACTIVE]  "
+        ]
+      }
+    }
   ]
 }
