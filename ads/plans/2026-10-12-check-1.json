@@ -1,0 +1,11 @@
+{
+  "requested_by": "אייל 12.10: 'מה קורה עם הלידים?' (קריאה בלבד).",
+  "approved": true,
+  "approved_by": "קריאה בלבד",
+  "actions": [
+    {"type": "check"},
+    {"type": "inspect_ads", "campaign_name": "קמפיין לידים אייל"},
+    {"type": "inspect_ads", "campaign_name": "טופס לידים || ניהול תזרים ||"},
+    {"type": "daily", "days": 4}
+  ]
+}
