@@ -444,6 +444,9 @@ def image_lead_ad(a):
     else:
         t = dict(srcd.get("targeting") or {})
         t.setdefault("targeting_automation", {"advantage_audience": 0})
+        if a.get("custom_audiences"):  # only these people (a customer list): no interests, no age bounds, no Advantage+ expansion
+            t = {"geo_locations": t.get("geo_locations", {"countries": ["IL"]}), "age_min": 18,
+                 "custom_audiences": [{"id": i} for i in a["custom_audiences"]], "targeting_automation": {"advantage_audience": 0}}
         params = dict(name=a["name"], campaign_id=c["id"], daily_budget=ils(a["daily_budget_ils"]), targeting=json.dumps(t),
                       optimization_goal=srcd.get("optimization_goal") or "LEAD_GENERATION", billing_event=srcd.get("billing_event") or "IMPRESSIONS",
                       bid_strategy=srcd.get("bid_strategy") or "LOWEST_COST_WITHOUT_CAP", destination_type=srcd.get("destination_type") or "ON_AD",
