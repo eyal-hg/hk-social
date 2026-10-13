@@ -3,9 +3,136 @@
   "approved": true,
   "approved_by": "קריאה בלבד",
   "actions": [
-    {"type": "check"},
-    {"type": "inspect_ads", "campaign_name": "קמפיין לידים אייל"},
-    {"type": "inspect_ads", "campaign_name": "טופס לידים || ניהול תזרים ||"},
-    {"type": "daily", "days": 7}
+    {
+      "type": "check"
+    },
+    {
+      "type": "inspect_ads",
+      "campaign_name": "קמפיין לידים אייל"
+    },
+    {
+      "type": "inspect_ads",
+      "campaign_name": "טופס לידים || ניהול תזרים ||"
+    },
+    {
+      "type": "daily",
+      "days": 7
+    }
+  ],
+  "applied": [
+    {
+      "index": 0,
+      "type": "check",
+      "ok": true,
+      "at": "2026-10-13T15:46+03:00",
+      "result": {
+        "lines": [
+          "CHECK campaign HK Studio · יועצים · טופס לידים | budget 0 | today spend 0 impr 0 clicks 0 leads 0",
+          "CHECK campaign HK Studio · יועצים · כניסות לדף | budget 0 | today spend 0 impr 0 clicks 0 leads 0",
+          "CHECK campaign קמפיין לידים אייל | budget 0 | today spend 109.2 impr 559 clicks 12 leads 1",
+          "CHECK   adset לקוחות bizibox · קהל מותאם · 2026-10 [ACTIVE] budget 50 ",
+          "CHECK     ad 2026-W42-BZ1 · form [ACTIVE]  ",
+          "CHECK   adset סדרת מודעות לידים חדשה [ACTIVE] budget 150 ",
+          "CHECK     ad סרטון מיקונוס 11.5 [ACTIVE]  ",
+          "CHECK campaign ‏טופס לידים || ניהול תזרים || | budget 50 | today spend 24.04 impr 107 clicks 2 leads 1",
+          "CHECK   adset LAL 1% · קהל אפריל 26 · וידיאו 1 [ACTIVE] budget 0 ",
+          "CHECK     ad וידיאו 1 || 3 טקסטים · LAL אפריל 26 [ACTIVE]  ",
+          "CHECK   adset ‏‏‏קהל פתוח || 25+ || מיקומים אוטומטים || סרטונים 1-10 [ACTIVE] budget 0 ",
+          "CHECK     ad וידיאו 1 || 3 טקסטים [ACTIVE]  ",
+          "CHECK   adset ‏רימרקטינג רשימה מותאמת || 21+ || כל המיקומים || סרטונים 1-10‏ [WITH_ISSUES] budget 0 [{\"level\": \"AD_SET\", \"error_code\": 4469003, \"error_summary\": \"מודעה זו אינה מציגה\", \"error_message\": \"מודעה זו אינה מציגה: מודעה זו אינה מוצגת. יש לנסות ליצור סדרת מודעות חדשה עם הגדרות שונות כדי להתחיל להציג מודעות לקהל שלך.\", \"error_type\": \"HARD_ERROR\"}]",
+          "CHECK     ad ‏‏‏וידיאו 4 || 3 טקסטים‏‏ - עותק [WITH_ISSUES] [{\"level\": \"AD_SET\", \"error_code\": 4469003, \"error_summary\": \"מודעה זו אינה מציגה\", \"error_message\": \"מודעה זו אינה מציגה: מודעה זו אינה מוצגת. יש לנסות ליצור סדרת מודעות חדשה עם הגדרות שונות כדי להתחיל להציג מודעות לקהל שלך.\", \"error_type\": \"HARD_ERROR\"}] ",
+          "CHECK     ad ‏‏וידיאו 5 || 3 טקסטים‏‏ - עותק [WITH_ISSUES] [{\"level\": \"AD\", \"error_code\": 4469003, \"error_summary\": \"מודעה זו אינה מציגה\", \"error_message\": \"מודעה זו אינה מציגה: מודעה זו אינה מוצגת. יש לנסות ליצור סדרת מודעות חדשה עם הגדרות שונות כדי להתחיל להציג מודעות לקהל שלך.\", \"error_type\": \"HARD_ERROR\"}, {\"level\": \"AD_SET\", \"error_code\": 4469003, \"error_summary\": \"מודעה זו אינה מציגה\", \"error_message\": \"מודעה זו אינה מציגה: מודעה זו אינה מוצגת. יש לנסות ליצור סדרת מודעות חדשה עם הגדרות שונות כדי להתחיל להציג מודעות לקהל שלך.\", \"error_type\": \"HARD_ERROR\"}] ",
+          "CHECK     ad וידיאו 6 || 3 טקסטים [WITH_ISSUES] [{\"level\": \"AD\", \"error_code\": 4469003, \"error_summary\": \"מודעה זו אינה מציגה\", \"error_message\": \"מודעה זו אינה מציגה: מודעה זו אינה מוצגת. יש לנסות ליצור סדרת מודעות חדשה עם הגדרות שונות כדי להתחיל להציג מודעות לקהל שלך.\", \"error_type\": \"HARD_ERROR\"}, {\"level\": \"AD_SET\", \"error_code\": 4469003, \"error_summary\": \"מודעה זו אינה מציגה\", \"error_message\": \"מודעה זו אינה מציגה: מודעה זו אינה מוצגת. יש לנסות ליצור סדרת מודעות חדשה עם הגדרות שונות כדי להתחיל להציג מודעות לקהל שלך.\", \"error_type\": \"HARD_ERROR\"}] ",
+          "CHECK     ad ‏וידיאו 1 || 3 טקסטים‏ - עותק [WITH_ISSUES] [{\"level\": \"AD\", \"error_code\": 4469003, \"error_summary\": \"מודעה זו אינה מציגה\", \"error_message\": \"מודעה זו אינה מציגה: מודעה זו אינה מוצגת. יש לנסות ליצור סדרת מודעות חדשה עם הגדרות שונות כדי להתחיל להציג מודעות לקהל שלך.\", \"error_type\": \"HARD_ERROR\"}, {\"level\": \"AD_SET\", \"error_code\": 4469003, \"error_summary\": \"מודעה זו אינה מציגה\", \"error_message\": \"מודעה זו אינה מציגה: מודעה זו אינה מוצגת. יש לנסות ליצור סדרת מודעות חדשה עם הגדרות שונות כדי להתחיל להציג מודעות לקהל שלך.\", \"error_type\": \"HARD_ERROR\"}] ",
+          "CHECK     ad ‏‏וידיאו 9 || 3 טקסטים‏ [WITH_ISSUES] [{\"level\": \"AD\", \"error_code\": 4469003, \"error_summary\": \"מודעה זו אינה מציגה\", \"error_message\": \"מודעה זו אינה מציגה: מודעה זו אינה מוצגת. יש לנסות ליצור סדרת מודעות חדשה עם הגדרות שונות כדי להתחיל להציג מודעות לקהל שלך.\", \"error_type\": \"HARD_ERROR\"}, {\"level\": \"AD_SET\", \"error_code\": 4469003, \"error_summary\": \"מודעה זו אינה מציגה\", \"error_message\": \"מודעה זו אינה מציגה: מודעה זו אינה מוצגת. יש לנסות ליצור סדרת מודעות חדשה עם הגדרות שונות כדי להתחיל להציג מודעות לקהל שלך.\", \"error_type\": \"HARD_ERROR\"}] ",
+          "CHECK     ad ‏‏וידיאו 3 || 3 טקסטים‏ - עותק [WITH_ISSUES] [{\"level\": \"AD\", \"error_code\": 4469003, \"error_summary\": \"מודעה זו אינה מציגה\", \"error_message\": \"מודעה זו אינה מציגה: מודעה זו אינה מוצגת. יש לנסות ליצור סדרת מודעות חדשה עם הגדרות שונות כדי להתחיל להציג מודעות לקהל שלך.\", \"error_type\": \"HARD_ERROR\"}, {\"level\": \"AD_SET\", \"error_code\": 4469003, \"error_summary\": \"מודעה זו אינה מציגה\", \"error_message\": \"מודעה זו אינה מציגה: מודעה זו אינה מוצגת. יש לנסות ליצור סדרת מודעות חדשה עם הגדרות שונות כדי להתחיל להציג מודעות לקהל שלך.\", \"error_type\": \"HARD_ERROR\"}] ",
+          "CHECK     ad ‏וידיאו 8 || 3 טקסטים [WITH_ISSUES] [{\"level\": \"AD\", \"error_code\": 4469003, \"error_summary\": \"מודעה זו אינה מציגה\", \"error_message\": \"מודעה זו אינה מציגה: מודעה זו אינה מוצגת. יש לנסות ליצור סדרת מודעות חדשה עם הגדרות שונות כדי להתחיל להציג מודעות לקהל שלך.\", \"error_type\": \"HARD_ERROR\"}, {\"level\": \"AD_SET\", \"error_code\": 4469003, \"error_summary\": \"מודעה זו אינה מציגה\", \"error_message\": \"מודעה זו אינה מציגה: מודעה זו אינה מוצגת. יש לנסות ליצור סדרת מודעות חדשה עם הגדרות שונות כדי להתחיל להציג מודעות לקהל שלך.\", \"error_type\": \"HARD_ERROR\"}] ",
+          "CHECK     ad ‏וידיאו 10 || 3 טקסטים‏ [WITH_ISSUES] [{\"level\": \"AD\", \"error_code\": 4469003, \"error_summary\": \"מודעה זו אינה מציגה\", \"error_message\": \"מודעה זו אינה מציגה: מודעה זו אינה מוצגת. יש לנסות ליצור סדרת מודעות חדשה עם הגדרות שונות כדי להתחיל להציג מודעות לקהל שלך.\", \"error_type\": \"HARD_ERROR\"}, {\"level\": \"AD_SET\", \"error_code\": 4469003, \"error_summary\": \"מודעה זו אינה מציגה\", \"error_message\": \"מודעה זו אינה מציגה: מודעה זו אינה מוצגת. יש לנסות ליצור סדרת מודעות חדשה עם הגדרות שונות כדי להתחיל להציג מודעות לקהל שלך.\", \"error_type\": \"HARD_ERROR\"}] ",
+          "CHECK     ad ‏‏וידיאו 2 || 3 טקסטים‏ - עותק [WITH_ISSUES] [{\"level\": \"AD\", \"error_code\": 4469003, \"error_summary\": \"מודעה זו אינה מציגה\", \"error_message\": \"מודעה זו אינה מציגה: מודעה זו אינה מוצגת. יש לנסות ליצור סדרת מודעות חדשה עם הגדרות שונות כדי להתחיל להציג מודעות לקהל שלך.\", \"error_type\": \"HARD_ERROR\"}, {\"level\": \"AD_SET\", \"error_code\": 4469003, \"error_summary\": \"מודעה זו אינה מציגה\", \"error_message\": \"מודעה זו אינה מציגה: מודעה זו אינה מוצגת. יש לנסות ליצור סדרת מודעות חדשה עם הגדרות שונות כדי להתחיל להציג מודעות לקהל שלך.\", \"error_type\": \"HARD_ERROR\"}] ",
+          "CHECK     ad ‏וידיאו 7 || 3 טקסטים [WITH_ISSUES] [{\"level\": \"AD\", \"error_code\": 4469003, \"error_summary\": \"מודעה זו אינה מציגה\", \"error_message\": \"מודעה זו אינה מציגה: מודעה זו אינה מוצגת. יש לנסות ליצור סדרת מודעות חדשה עם הגדרות שונות כדי להתחיל להציג מודעות לקהל שלך.\", \"error_type\": \"HARD_ERROR\"}, {\"level\": \"AD_SET\", \"error_code\": 4469003, \"error_summary\": \"מודעה זו אינה מציגה\", \"error_message\": \"מודעה זו אינה מציגה: מודעה זו אינה מוצגת. יש לנסות ליצור סדרת מודעות חדשה עם הגדרות שונות כדי להתחיל להציג מודעות לקהל שלך.\", \"error_type\": \"HARD_ERROR\"}] "
+        ]
+      }
+    },
+    {
+      "index": 1,
+      "type": "inspect_ads",
+      "ok": true,
+      "at": "2026-10-13T15:46+03:00",
+      "result": {
+        "lines": [
+          "INSPECT {\"ad\": \"2026-W42-BZ1 · form\", \"spend\": \"58.7\", \"impressions\": \"254\", \"reach\": \"143\", \"clicks_all\": \"4\", \"link_clicks\": \"1\", \"unique_link_clicks\": \"1\", \"actions\": {\"link_click\": \"1\", \"post_engagement\": \"1\", \"page_engagement\": \"1\"}, \"cta\": {\"type\": \"LEARN_MORE\", \"value\": {\"lead_gen_form_id\": \"831087803308460\"}}, \"page\": \"459554967250420\", \"link\": \"https://fb.me/\", \"story\": \"459554967250420_122178899870678494\", \"preview\": \"https://fb.me/31BY81SfUPtHeVz\"}",
+          "INSPECT {\"ad\": \"סרטון מיקונוס 11.5\", \"spend\": \"3175.36\", \"impressions\": \"22080\", \"reach\": \"10404\", \"clicks_all\": \"403\", \"link_clicks\": \"222\", \"unique_link_clicks\": \"213\", \"actions\": {\"offsite_complete_registration_add_meta_leads\": \"36\", \"link_click\": \"222\", \"offsite_search_add_meta_leads\": \"36\", \"post_reaction\": \"19\", \"onsite_conversion.messaging_conversation_replied_7d\": \"20\", \"onsite_conversion.total_messaging_connection\": \"26\", \"onsite_conversion.post_unlike\": \"3\", \"post_engagement\": \"4831\", \"like\": \"2\", \"post_interaction_gross\": \"35\", \"comment\": \"1\", \"page_engagement\": \"4833\", \"post_interaction_net\": \"38\", \"onsite_conversion.messaging_user_depth_2_message_send\": \"3\", \"onsite_conversion.messaging_first_reply\": \"25\", \"post\": \"11\", \"onsite_conversion.post_save\": \"4\", \"onsite_conversion.post_net_comment\": \"1\", \"onsite_conversion.messaging_user_depth_3_message_send\": \"2\", \"onsite_conversion.post_net_save\": \"4\", \"onsite_conversion.post_net_like\": \"16\", \"lead\": \"36\", \"offsite_content_view_add_meta_leads\": \"36\", \"onsite_conversion.messaging_conversation_started_7d\": \"27\", \"onsite_conversion.lead_grouped\": \"36\", \"video_view\": \"4574\"}, \"cta\": {\"type\": \"LEARN_MORE\", \"value\": {\"lead_gen_form_id\": \"831087803308460\", \"link\": \"http://fb.me/\"}}, \"page\": \"459554967250420\", \"link\": null, \"story\": \"459554967250420_122165048174678494\", \"preview\": \"https://fb.me/283o1AJOnLXAZkj\"}"
+        ]
+      }
+    },
+    {
+      "index": 2,
+      "type": "inspect_ads",
+      "ok": true,
+      "at": "2026-10-13T15:46+03:00",
+      "result": {
+        "lines": [
+          "INSPECT {\"ad\": \"וידיאו 1 || 3 טקסטים · LAL אפריל 26\", \"spend\": \"32.44\", \"impressions\": \"164\", \"reach\": \"126\", \"clicks_all\": \"4\", \"link_clicks\": \"2\", \"unique_link_clicks\": \"2\", \"actions\": {\"link_click\": \"2\", \"post_engagement\": \"32\", \"page_engagement\": \"32\", \"video_view\": \"30\"}, \"cta\": {\"type\": \"LEARN_MORE\", \"value\": {\"lead_gen_form_id\": \"1221574272265960\", \"link\": \"http://fb.me/\"}}, \"page\": \"459554967250420\", \"link\": null, \"story\": \"459554967250420_122115317480678494\", \"preview\": \"https://fb.me/1WuknTI8CEb0NKG\"}",
+          "INSPECT {\"ad\": \"וידיאו 1 || 3 טקסטים\", \"spend\": \"17353.57\", \"impressions\": \"156723\", \"reach\": \"41934\", \"clicks_all\": \"2341\", \"link_clicks\": \"1078\", \"unique_link_clicks\": \"904\", \"actions\": {\"onsite_conversion.lead\": \"33\", \"offsite_complete_registration_add_meta_leads\": \"312\", \"link_click\": \"1078\", \"offsite_search_add_meta_leads\": \"312\", \"post_reaction\": \"172\", \"onsite_conversion.messaging_conversation_replied_7d\": \"47\", \"landing_page_view\": \"1\", \"onsite_web_lead\": \"33\", \"omni_landing_page_view\": \"1\", \"onsite_conversion.total_messaging_connection\": \"195\", \"onsite_conversion.post_unlike\": \"2\", \"post_engagement\": \"26678\", \"like\": \"10\", \"post_interaction_gross\": \"200\", \"comment\": \"5\", \"page_engagement\": \"26688\", \"post_interaction_net\": \"202\", \"onsite_conversion.messaging_user_depth_2_message_send\": \"8\", \"onsite_conversion.messaging_first_reply\": \"198\", \"post\": \"17\", \"onsite_conversion.post_save\": \"6\", \"onsite_conversion.post_net_comment\": \"5\", \"onsite_conversion.messaging_user_depth_3_message_send\": \"2\", \"onsite_conversion.post_net_save\": \"6\", \"onsite_conversion.post_net_like\": \"170\", \"lead\": \"312\", \"offsite_content_view_add_meta_leads\": \"312\", \"onsite_conversion.messaging_conversation_started_7d\": \"218\", \"onsite_conversion.lead_grouped\": \"312\", \"video_view\": \"25400\"}, \"cta\": {\"type\": \"LEARN_MORE\", \"value\": {\"lead_gen_form_id\": \"1221574272265960\", \"link\": \"http://fb.me/\"}}, \"page\": \"459554967250420\", \"link\": null, \"story\": \"459554967250420_122115317480678494\", \"preview\": \"https://fb.me/1W5RpPrp8PzFNoT\"}"
+        ]
+      }
+    },
+    {
+      "index": 3,
+      "type": "daily",
+      "ok": true,
+      "at": "2026-10-13T15:46+03:00",
+      "result": {
+        "lines": [
+          "DAILY HK Studio · יועצים · טופס לידים | 2026-10-07 | spend 33 | impr 321 | reach 295 | freq 1.09 | cpm 104 | clicks 8 | link 7 | leads 1",
+          "DAILY קמפיין לידים אייל | 2026-10-07 | spend 186 | impr 1027 | reach 760 | freq 1.35 | cpm 181 | clicks 21 | link 11 | leads 4",
+          "DAILY קמפיין לידים אייל | 2026-10-08 | spend 135 | impr 657 | reach 507 | freq 1.30 | cpm 205 | clicks 21 | link 11 | leads 1",
+          "DAILY קמפיין לידים אייל | 2026-10-09 | spend 127 | impr 574 | reach 483 | freq 1.19 | cpm 222 | clicks 13 | link 8 | leads 0",
+          "DAILY קמפיין לידים אייל | 2026-10-10 | spend 188 | impr 971 | reach 737 | freq 1.32 | cpm 193 | clicks 14 | link 7 | leads 1",
+          "DAILY קמפיין לידים אייל | 2026-10-11 | spend 183 | impr 1091 | reach 831 | freq 1.31 | cpm 168 | clicks 18 | link 12 | leads 1",
+          "DAILY קמפיין לידים אייל | 2026-10-12 | spend 167 | impr 973 | reach 825 | freq 1.18 | cpm 172 | clicks 20 | link 12 | leads 1",
+          "DAILY קמפיין לידים אייל | 2026-10-13 | spend 109 | impr 559 | reach 474 | freq 1.18 | cpm 195 | clicks 12 | link 6 | leads 1",
+          "HOURLY קמפיין לידים אייל | 00:00 | spend 9.7 | impr 51 | clicks 0 | leads 0",
+          "HOURLY קמפיין לידים אייל | 01:00 | spend 3.4 | impr 30 | clicks 1 | leads 0",
+          "HOURLY קמפיין לידים אייל | 02:00 | spend 2.9 | impr 13 | clicks 0 | leads 0",
+          "HOURLY קמפיין לידים אייל | 03:00 | spend 7.6 | impr 14 | clicks 0 | leads 0",
+          "HOURLY קמפיין לידים אייל | 04:00 | spend 2.3 | impr 9 | clicks 0 | leads 0",
+          "HOURLY קמפיין לידים אייל | 05:00 | spend 10.8 | impr 17 | clicks 0 | leads 0",
+          "HOURLY קמפיין לידים אייל | 06:00 | spend 6.7 | impr 44 | clicks 1 | leads 0",
+          "HOURLY קמפיין לידים אייל | 07:00 | spend 10.2 | impr 63 | clicks 0 | leads 0",
+          "HOURLY קמפיין לידים אייל | 08:00 | spend 13.4 | impr 61 | clicks 0 | leads 0",
+          "HOURLY קמפיין לידים אייל | 09:00 | spend 5.0 | impr 49 | clicks 1 | leads 0",
+          "HOURLY קמפיין לידים אייל | 10:00 | spend 2.9 | impr 26 | clicks 0 | leads 0",
+          "HOURLY קמפיין לידים אייל | 11:00 | spend 3.1 | impr 30 | clicks 1 | leads 0",
+          "HOURLY קמפיין לידים אייל | 12:00 | spend 6.0 | impr 29 | clicks 3 | leads 1",
+          "HOURLY קמפיין לידים אייל | 13:00 | spend 6.2 | impr 30 | clicks 1 | leads 0",
+          "HOURLY קמפיין לידים אייל | 14:00 | spend 9.8 | impr 45 | clicks 3 | leads 0",
+          "HOURLY קמפיין לידים אייל | 15:00 | spend 9.2 | impr 48 | clicks 1 | leads 0",
+          "DAILY ‏טופס לידים || ניהול תזרים || | 2026-10-07 | spend 127 | impr 738 | reach 649 | freq 1.14 | cpm 172 | clicks 16 | link 8 | leads 2",
+          "DAILY ‏טופס לידים || ניהול תזרים || | 2026-10-08 | spend 99 | impr 528 | reach 479 | freq 1.10 | cpm 187 | clicks 16 | link 8 | leads 2",
+          "DAILY ‏טופס לידים || ניהול תזרים || | 2026-10-09 | spend 82 | impr 427 | reach 385 | freq 1.11 | cpm 193 | clicks 11 | link 5 | leads 1",
+          "DAILY ‏טופס לידים || ניהול תזרים || | 2026-10-10 | spend 68 | impr 324 | reach 298 | freq 1.09 | cpm 210 | clicks 10 | link 4 | leads 1",
+          "DAILY ‏טופס לידים || ניהול תזרים || | 2026-10-11 | spend 69 | impr 361 | reach 312 | freq 1.16 | cpm 192 | clicks 7 | link 5 | leads 1",
+          "DAILY ‏טופס לידים || ניהול תזרים || | 2026-10-12 | spend 51 | impr 258 | reach 210 | freq 1.23 | cpm 200 | clicks 10 | link 4 | leads 1",
+          "DAILY ‏טופס לידים || ניהול תזרים || | 2026-10-13 | spend 24 | impr 107 | reach 91 | freq 1.18 | cpm 225 | clicks 2 | link 1 | leads 1",
+          "HOURLY ‏טופס לידים || ניהול תזרים || | 00:00 | spend 4.8 | impr 10 | clicks 0 | leads 1",
+          "HOURLY ‏טופס לידים || ניהול תזרים || | 01:00 | spend 1.3 | impr 8 | clicks 0 | leads 0",
+          "HOURLY ‏טופס לידים || ניהול תזרים || | 02:00 | spend 0.5 | impr 3 | clicks 0 | leads 0",
+          "HOURLY ‏טופס לידים || ניהול תזרים || | 03:00 | spend 2.2 | impr 6 | clicks 0 | leads 0",
+          "HOURLY ‏טופס לידים || ניהול תזרים || | 04:00 | spend 0.2 | impr 1 | clicks 0 | leads 0",
+          "HOURLY ‏טופס לידים || ניהול תזרים || | 05:00 | spend 0.8 | impr 5 | clicks 0 | leads 0",
+          "HOURLY ‏טופס לידים || ניהול תזרים || | 06:00 | spend 1.2 | impr 8 | clicks 0 | leads 0",
+          "HOURLY ‏טופס לידים || ניהול תזרים || | 07:00 | spend 5.1 | impr 16 | clicks 1 | leads 0",
+          "HOURLY ‏טופס לידים || ניהול תזרים || | 08:00 | spend 1.4 | impr 6 | clicks 0 | leads 0",
+          "HOURLY ‏טופס לידים || ניהול תזרים || | 09:00 | spend 1.2 | impr 9 | clicks 0 | leads 0",
+          "HOURLY ‏טופס לידים || ניהול תזרים || | 10:00 | spend 0.4 | impr 7 | clicks 0 | leads 0",
+          "HOURLY ‏טופס לידים || ניהול תזרים || | 11:00 | spend 0.3 | impr 4 | clicks 1 | leads 0",
+          "HOURLY ‏טופס לידים || ניהול תזרים || | 12:00 | spend 1.0 | impr 3 | clicks 0 | leads 0",
+          "HOURLY ‏טופס לידים || ניהול תזרים || | 13:00 | spend 0.5 | impr 7 | clicks 0 | leads 0",
+          "HOURLY ‏טופס לידים || ניהול תזרים || | 14:00 | spend 2.2 | impr 7 | clicks 0 | leads 0",
+          "HOURLY ‏טופס לידים || ניהול תזרים || | 15:00 | spend 1.0 | impr 7 | clicks 0 | leads 0"
+        ]
+      }
+    }
   ]
 }
