@@ -1,5 +1,5 @@
 {
- "generated": "13.10.2026 12:43",
+ "generated": "13.10.2026 14:37",
  "account": {
   "name": "HK",
   "currency": "ILS",
@@ -343,14 +343,14 @@
     "landing_page_views": 0.0
    },
    "lifetime": {
-    "spend": 16356.86,
-    "impressions": 112283,
+    "spend": 16366.78,
+    "impressions": 112347,
     "reach": 28398,
-    "clicks": 2343,
-    "ctr": 2.086692,
-    "cpc": 6.981161,
-    "leads": 196.0,
-    "cost_per_lead": 83.453367,
+    "clicks": 2348,
+    "ctr": 2.089953,
+    "cpc": 6.97052,
+    "leads": 197.0,
+    "cost_per_lead": 83.080102,
     "landing_page_views": 0.0
    },
    "ads_last7": [
@@ -470,14 +470,14 @@
     {
      "adset": "סדרת מודעות לידים חדשה",
      "name": "סרטון מיקונוס 11.5",
-     "spend": 3156.88,
-     "impressions": 21981,
-     "reach": 10227,
-     "clicks": 397,
-     "ctr": 1.806105,
-     "cpc": 7.951839,
-     "leads": 35.0,
-     "cost_per_lead": 90.196571,
+     "spend": 3162.63,
+     "impressions": 22026,
+     "reach": 10245,
+     "clicks": 401,
+     "ctr": 1.820576,
+     "cpc": 7.886858,
+     "leads": 36.0,
+     "cost_per_lead": 87.850833,
      "landing_page_views": 0.0
     },
     {
@@ -587,12 +587,12 @@
     {
      "adset": "לקוחות bizibox · קהל מותאם · 2026-10",
      "name": "2026-W42-BZ1 · form",
-     "spend": 51.02,
-     "impressions": 214,
-     "reach": 134,
-     "clicks": 2,
-     "ctr": 0.934579,
-     "cpc": 25.51,
+     "spend": 55.19,
+     "impressions": 233,
+     "reach": 139,
+     "clicks": 3,
+     "ctr": 1.287554,
+     "cpc": 18.396667,
      "leads": 0.0,
      "cost_per_lead": null,
      "landing_page_views": 0.0
@@ -1560,14 +1560,14 @@
     "landing_page_views": 1.0
    },
    "lifetime": {
-    "spend": 24955.96,
-    "impressions": 244979,
+    "spend": 24956.52,
+    "impressions": 244988,
     "reach": 49129,
-    "clicks": 4785,
-    "ctr": 1.953229,
-    "cpc": 5.215457,
+    "clicks": 4786,
+    "ctr": 1.953565,
+    "cpc": 5.214484,
     "leads": 436.0,
-    "cost_per_lead": 57.23844,
+    "cost_per_lead": 57.239725,
     "landing_page_views": 1.0
    },
    "ads_last7": [
@@ -2046,14 +2046,14 @@
     {
      "adset": "‏‏‏קהל פתוח || 25+ || מיקומים אוטומטים || סרטונים 1-10",
      "name": "וידיאו 1 || 3 טקסטים",
-     "spend": 17349.31,
-     "impressions": 156700,
+     "spend": 17349.87,
+     "impressions": 156709,
      "reach": 41934,
-     "clicks": 2340,
-     "ctr": 1.493299,
-     "cpc": 7.414235,
+     "clicks": 2341,
+     "ctr": 1.493852,
+     "cpc": 7.411307,
      "leads": 312.0,
-     "cost_per_lead": 55.606763,
+     "cost_per_lead": 55.608558,
      "landing_page_views": 1.0
     },
     {
@@ -3581,25 +3581,25 @@
  },
  "today": {
   "120216039932250740": {
-   "spend": 19.78,
-   "impressions": 84,
-   "reach": 75,
-   "clicks": 1,
-   "ctr": 1.190476,
-   "cpc": 19.78,
+   "spend": 20.34,
+   "impressions": 93,
+   "reach": 83,
+   "clicks": 2,
+   "ctr": 2.150538,
+   "cpc": 10.17,
    "leads": 1.0,
-   "cost_per_lead": 19.78,
+   "cost_per_lead": 20.34,
    "landing_page_views": 0.0
   },
   "120245939439290740": {
-   "spend": 83.04,
-   "impressions": 420,
-   "reach": 375,
-   "clicks": 4,
-   "ctr": 0.952381,
-   "cpc": 20.76,
-   "leads": 0.0,
-   "cost_per_lead": null,
+   "spend": 92.96,
+   "impressions": 484,
+   "reach": 423,
+   "clicks": 9,
+   "ctr": 1.859504,
+   "cpc": 10.328889,
+   "leads": 1.0,
+   "cost_per_lead": 92.96,
    "landing_page_views": 0.0
   }
  },
@@ -3659,7 +3659,7 @@
    "name": "HK Pixel",
    "last_fired_time": "2026-10-12T16:20:58+0300",
    "events_3d": {
-    "PageView": 36
+    "PageView": 37
    }
   }
  ],
