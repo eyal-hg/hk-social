@@ -231,7 +231,7 @@ def apply_plan(plan_path):
         try:
             res = {"set_adset_budget": set_budget, "create_campaign": create_campaign, "revive": revive,
                    "add_ads": add_ads, "pause_ads": pause_ads, "set_targeting": set_targeting, "create_pixel": create_pixel, "clone_adset": clone_adset,
-                   "pause_adset": pause_adset, "create_lead_campaign": create_lead_campaign, "resume_ads": resume_ads, "check": check, "copy_ad": copy_ad, "inspect_ads": inspect_ads, "daily": daily, "image_lead_ad": image_lead_ad, "history": history, "add_lead_ads": add_lead_ads}[a["type"]](a)
+                   "pause_adset": pause_adset, "create_lead_campaign": create_lead_campaign, "resume_ads": resume_ads, "check": check, "copy_ad": copy_ad, "inspect_ads": inspect_ads, "daily": daily, "image_lead_ad": image_lead_ad, "history": history, "add_lead_ads": add_lead_ads, "ad_ranking": ad_ranking}[a["type"]](a)
             applied.append({"index": i, "type": a["type"], "ok": True, "at": datetime.now(ZoneInfo("Asia/Jerusalem")).isoformat(timespec="minutes"), "result": res})
             print("ok", i, a["type"], res)
         except Exception as e:  # noqa: BLE001
@@ -523,6 +523,29 @@ def add_lead_ads(a):
             ad = call("POST", f"{ACCT}/ads", name=name, adset_id=adset["id"], creative=json.dumps({"creative_id": cr["id"]}), status=a.get("status", "ACTIVE"))
             out.append({"carousel": car["name"], "ad_id": ad["id"]})
     return {"campaign_id": c["id"], "adset_id": adset["id"], "form_id": form_id, "ads": out}
+
+
+def ad_ranking(a):
+    """Read-only: every ad in the account that ever brought a lead (paused ones too) — lifetime and last-90-days spend, leads and cost per lead,
+    with its campaign, ad set, status and a preview link. Used to pick a past winner to revive."""
+    rows = {}
+    for preset in ("maximum", "last_90d"):
+        url, params = f"{ACCT}/insights", dict(level="ad", date_preset=preset, fields="ad_id,ad_name,adset_name,campaign_name,spend,impressions,actions,date_start,date_stop", limit=500)
+        while url:
+            r = call("GET", url, **params)
+            for x in r.get("data", []):
+                leads = sum(float(y["value"]) for y in (x.get("actions") or []) if y["action_type"] == "lead")
+                d = rows.setdefault(x["ad_id"], {"ad": x["ad_name"], "adset": x.get("adset_name"), "campaign": x.get("campaign_name")})
+                d[preset] = {"spend": round(float(x.get("spend") or 0)), "leads": int(leads), "cpl": round(float(x.get("spend") or 0) / leads) if leads else None}
+            nxt = (r.get("paging") or {}).get("next")
+            url, params = (nxt, {}) if nxt else (None, None)
+    out = []
+    for ad_id, d in sorted(rows.items(), key=lambda kv: -(kv[1].get("maximum") or {}).get("leads", 0)):
+        if not (d.get("maximum") or {}).get("leads"): continue
+        meta = call("GET", ad_id, fields="effective_status,created_time,preview_shareable_link")
+        line = "RANK " + json.dumps({**d, "status": meta.get("effective_status"), "created": (meta.get("created_time") or "")[:10], "preview": meta.get("preview_shareable_link")}, ensure_ascii=False)
+        print(line); out.append(line)
+    return {"lines": out[: int(a.get("limit", 40))]}
 
 
 def copy_ad(a):
