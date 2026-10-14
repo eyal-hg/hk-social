@@ -572,7 +572,7 @@ def audience_info(a):
     """Read-only: what a custom audience is (type, source, description, size)."""
     out = []
     for i in a["ids"]:
-        r = call("GET", i, fields="name,subtype,description,approximate_count_lower_bound,approximate_count_upper_bound,time_created,data_source,lookalike_spec,rule")
+        r = call("GET", i, fields="name,subtype,approximate_count_lower_bound,approximate_count_upper_bound,time_created,time_content_updated,operation_status,delivery_status,data_source,lookalike_spec")
         line = "AINFO " + json.dumps(r, ensure_ascii=False)[:1500]; print(line); out.append(line)
     return {"lines": out}
 
