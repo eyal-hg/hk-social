@@ -9,7 +9,7 @@ Guard: ads/limits.json {"max_daily_total_ils": N}. Before touching anything the 
 account's total daily budget after the plan; if it would exceed N the plan is marked "blocked" and
 nothing is applied. Raising N is a deliberate edit by a human, not something a plan can do.
 """
-import json
+import json, time
 import os
 import re
 import sys
@@ -231,7 +231,7 @@ def apply_plan(plan_path):
         try:
             res = {"set_adset_budget": set_budget, "create_campaign": create_campaign, "revive": revive,
                    "add_ads": add_ads, "pause_ads": pause_ads, "set_targeting": set_targeting, "create_pixel": create_pixel, "clone_adset": clone_adset,
-                   "pause_adset": pause_adset, "create_lead_campaign": create_lead_campaign, "resume_ads": resume_ads, "check": check, "copy_ad": copy_ad, "inspect_ads": inspect_ads, "daily": daily, "image_lead_ad": image_lead_ad, "history": history, "add_lead_ads": add_lead_ads, "ad_ranking": ad_ranking, "audiences": audiences, "audience_info": audience_info}[a["type"]](a)
+                   "pause_adset": pause_adset, "create_lead_campaign": create_lead_campaign, "resume_ads": resume_ads, "check": check, "copy_ad": copy_ad, "inspect_ads": inspect_ads, "daily": daily, "image_lead_ad": image_lead_ad, "history": history, "add_lead_ads": add_lead_ads, "ad_ranking": ad_ranking, "audiences": audiences, "audience_info": audience_info, "video_lead_ad": video_lead_ad}[a["type"]](a)
             applied.append({"index": i, "type": a["type"], "ok": True, "at": datetime.now(ZoneInfo("Asia/Jerusalem")).isoformat(timespec="minutes"), "result": res})
             print("ok", i, a["type"], res)
         except Exception as e:  # noqa: BLE001
@@ -573,6 +573,35 @@ def audience_info(a):
         r = call("GET", i, fields="name,subtype,description,approximate_count_lower_bound,approximate_count_upper_bound,time_created,data_source,lookalike_spec,rule")
         line = "AINFO " + json.dumps(r, ensure_ascii=False)[:1500]; print(line); out.append(line)
     return {"lines": out}
+
+
+def video_lead_ad(a):
+    """Upload a video from the repo (raw GitHub URL) to the ad account and run it as a lead ad in an EXISTING ad set,
+    on the instant form that ad set's active ads use (or form_id). Thumbnail: out/<thumb>. Optionally pauses named ads in that ad set."""
+    c, adset = _adset(a)
+    page_id = (call("GET", adset["id"], fields="promoted_object").get("promoted_object") or {}).get("page_id")
+    form_id = a.get("form_id") or _form_of(adset["id"])
+    if not (page_id and form_id):
+        raise RuntimeError(f"could not resolve page/form (page {page_id}, form {form_id})")
+    name = a["ad_name"]
+    if any(same(x["name"], name) for x in call("GET", f"{adset['id']}/ads", fields="name", limit=100)["data"]):
+        return {"skipped": "exists", "adset_id": adset["id"]}
+    repo = os.environ.get("GITHUB_REPOSITORY", "eyal-hg/hk-social")
+    vid = call("POST", f"{ACCT}/advideos", file_url=f"https://raw.githubusercontent.com/{repo}/main/{a['video']}", name=name)["id"]
+    for _ in range(40):  # wait until Meta finished processing the upload
+        st = (call("GET", vid, fields="status").get("status") or {}).get("video_status")
+        if st == "ready": break
+        if st == "error": raise RuntimeError("video processing failed")
+        time.sleep(15)
+    spec = {"page_id": page_id, "video_data": {"video_id": vid, "image_url": f"{IMAGE_BASE}/{a['thumb']}", "message": a["caption"],
+            "title": a.get("headline", ""), "call_to_action": {"type": a.get("cta", "LEARN_MORE"), "value": {"lead_gen_form_id": form_id}}}}
+    cr = call("POST", f"{ACCT}/adcreatives", name=name, object_story_spec=json.dumps(spec))
+    ad = call("POST", f"{ACCT}/ads", name=name, adset_id=adset["id"], creative=json.dumps({"creative_id": cr["id"]}), status=a.get("status", "ACTIVE"))
+    paused = []
+    for x in call("GET", f"{adset['id']}/ads", fields="name,status", limit=100)["data"]:
+        if any(same(x["name"], n) for n in a.get("pause_ads", [])) and x.get("status") != "PAUSED":
+            call("POST", x["id"], status="PAUSED"); paused.append(x["name"])
+    return {"adset_id": adset["id"], "video_id": vid, "ad_id": ad["id"], "form_id": form_id, "paused": paused}
 
 
 def copy_ad(a):
