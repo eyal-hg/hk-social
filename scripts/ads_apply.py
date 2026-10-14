@@ -231,7 +231,7 @@ def apply_plan(plan_path):
         try:
             res = {"set_adset_budget": set_budget, "create_campaign": create_campaign, "revive": revive,
                    "add_ads": add_ads, "pause_ads": pause_ads, "set_targeting": set_targeting, "create_pixel": create_pixel, "clone_adset": clone_adset,
-                   "pause_adset": pause_adset, "create_lead_campaign": create_lead_campaign, "resume_ads": resume_ads, "check": check, "copy_ad": copy_ad, "inspect_ads": inspect_ads, "daily": daily, "image_lead_ad": image_lead_ad, "history": history, "add_lead_ads": add_lead_ads, "ad_ranking": ad_ranking, "audiences": audiences, "audience_info": audience_info, "video_lead_ad": video_lead_ad}[a["type"]](a)
+                   "pause_adset": pause_adset, "create_lead_campaign": create_lead_campaign, "resume_ads": resume_ads, "check": check, "copy_ad": copy_ad, "inspect_ads": inspect_ads, "daily": daily, "image_lead_ad": image_lead_ad, "history": history, "add_lead_ads": add_lead_ads, "ad_ranking": ad_ranking, "audiences": audiences, "audience_info": audience_info, "video_lead_ad": video_lead_ad, "create_lookalike": create_lookalike}[a["type"]](a)
             applied.append({"index": i, "type": a["type"], "ok": True, "at": datetime.now(ZoneInfo("Asia/Jerusalem")).isoformat(timespec="minutes"), "result": res})
             print("ok", i, a["type"], res)
         except Exception as e:  # noqa: BLE001
@@ -445,8 +445,10 @@ def image_lead_ad(a):
         t = dict(srcd.get("targeting") or {})
         t.setdefault("targeting_automation", {"advantage_audience": 0})
         if a.get("custom_audiences"):  # only these people (a customer list): no interests, no age bounds, no Advantage+ expansion
-            t = {"geo_locations": t.get("geo_locations", {"countries": ["IL"]}), "age_min": 18,
+            t = {"geo_locations": t.get("geo_locations", {"countries": ["IL"]}), "age_min": a.get("age_min", 18), "age_max": a.get("age_max", 65),
                  "custom_audiences": [{"id": i} for i in a["custom_audiences"]], "targeting_automation": {"advantage_audience": 0}}
+            if a.get("excluded_custom_audiences"):
+                t["excluded_custom_audiences"] = [{"id": i} for i in a["excluded_custom_audiences"]]
         params = dict(name=a["name"], campaign_id=c["id"], daily_budget=ils(a["daily_budget_ils"]), targeting=json.dumps(t),
                       optimization_goal=srcd.get("optimization_goal") or "LEAD_GENERATION", billing_event=srcd.get("billing_event") or "IMPRESSIONS",
                       bid_strategy=srcd.get("bid_strategy") or "LOWEST_COST_WITHOUT_CAP", destination_type=srcd.get("destination_type") or "ON_AD",
@@ -602,6 +604,16 @@ def video_lead_ad(a):
         if any(same(x["name"], n) for n in a.get("pause_ads", [])) and x.get("status") != "PAUSED":
             call("POST", x["id"], status="PAUSED"); paused.append(x["name"])
     return {"adset_id": adset["id"], "video_id": vid, "ad_id": ad["id"], "form_id": form_id, "paused": paused}
+
+
+def create_lookalike(a):
+    """Create (or reuse by name) a lookalike audience in Israel from a seed custom audience. starting_ratio/ratio = the band, e.g. 0.01-0.04."""
+    for x in call("GET", f"{ACCT}/customaudiences", fields="name", limit=200).get("data", []):
+        if same(x["name"], a["name"]):
+            return {"audience_id": x["id"], "reused": True}
+    spec = {"type": "custom_ratio", "starting_ratio": a.get("starting_ratio", 0.0), "ratio": a["ratio"], "country": a.get("country", "IL")}
+    r = call("POST", f"{ACCT}/customaudiences", name=a["name"], subtype="LOOKALIKE", origin_audience_id=a["seed"], lookalike_spec=json.dumps(spec))
+    return {"audience_id": r["id"], "reused": False, "spec": spec}
 
 
 def copy_ad(a):
