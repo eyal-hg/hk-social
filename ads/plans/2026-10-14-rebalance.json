@@ -1,0 +1,11 @@
+{
+  "requested_by": "אייל 14.10: 'אין לידים, מה עושים' → המלצה: bizibox מושהה, סרטון 1 120, מיקונוס 130.",
+  "approved": true,
+  "approved_by": "אייל בצ'אט 14.10: 'מאשר' (bizibox מושהה, סרטון 1 50→120, מיקונוס+יום שישי 150→130; הסך נשאר 250 ₪ ביום)",
+  "actions": [
+    {"type": "pause_adset", "campaign_name": "קמפיין לידים אייל", "adset_name": "לקוחות bizibox · קהל מותאם · 2026-10"},
+    {"type": "set_adset_budget", "campaign_name": "קמפיין לידים אייל", "adset_name": "סדרת מודעות לידים חדשה", "daily_budget_ils": 130},
+    {"type": "set_adset_budget", "campaign_name": "טופס לידים || ניהול תזרים ||", "daily_budget_ils": 120},
+    {"type": "check"}
+  ]
+}
