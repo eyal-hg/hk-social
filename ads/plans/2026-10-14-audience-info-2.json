@@ -1,1 +1,26 @@
-{"requested_by":"קריאה בלבד: גודל קהל לקוחות bizibox","approved":true,"approved_by":"קריאה בלבד","actions":[{"type":"audience_info","ids":["120252120707080740"]}]}
+{
+  "requested_by": "קריאה בלבד: גודל קהל לקוחות bizibox",
+  "approved": true,
+  "approved_by": "קריאה בלבד",
+  "actions": [
+    {
+      "type": "audience_info",
+      "ids": [
+        "120252120707080740"
+      ]
+    }
+  ],
+  "applied": [
+    {
+      "index": 0,
+      "type": "audience_info",
+      "ok": true,
+      "at": "2026-10-14T19:25+03:00",
+      "result": {
+        "lines": [
+          "AINFO {\"name\": \"active.csv\", \"subtype\": \"CUSTOM\", \"description\": \"\", \"approximate_count_lower_bound\": 2800, \"approximate_count_upper_bound\": 3300, \"time_created\": 1791820560, \"data_source\": {\"type\": \"UNKNOWN\", \"sub_type\": \"ANYTHING\", \"creation_params\": \"[]\"}, \"id\": \"120252120707080740\"}"
+        ]
+      }
+    }
+  ]
+}
