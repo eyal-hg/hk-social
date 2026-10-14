@@ -1,1 +1,30 @@
-{"requested_by":"בדיקת קריאה בלבד: סטטוס האכלוס של רשימת 60 האלף והקהל הדומה","approved":true,"approved_by":"קריאה בלבד, בלי כסף","actions":[{"type":"audience_info","ids":["120252155829030740","120252155150880740","120252155846370740"]}]}
+{
+  "requested_by": "בדיקת קריאה בלבד: סטטוס האכלוס של רשימת 60 האלף והקהל הדומה",
+  "approved": true,
+  "approved_by": "קריאה בלבד, בלי כסף",
+  "actions": [
+    {
+      "type": "audience_info",
+      "ids": [
+        "120252155829030740",
+        "120252155150880740",
+        "120252155846370740"
+      ]
+    }
+  ],
+  "applied": [
+    {
+      "index": 0,
+      "type": "audience_info",
+      "ok": true,
+      "at": "2026-10-14T20:48+03:00",
+      "result": {
+        "lines": [
+          "AINFO {\"name\": \"HK-business-owners-fixed.csv\", \"subtype\": \"CUSTOM\", \"approximate_count_lower_bound\": 23100, \"approximate_count_upper_bound\": 27200, \"time_created\": 1791998598, \"time_content_updated\": 1791998623, \"operation_status\": {\"code\": 300, \"description\": \"מעדכן\"}, \"delivery_status\": {\"code\": 200, \"description\": \"קהל זה מוכן לשימוש.\"}, \"data_source\": {\"type\": \"UNKNOWN\", \"sub_type\": \"ANYTHING\", \"creation_params\": \"[]\"}, \"id\": \"120252155829030740\"}",
+          "AINFO {\"name\": \"אוגוסט26\", \"subtype\": \"CUSTOM\", \"approximate_count_lower_bound\": 28000, \"approximate_count_upper_bound\": 33000, \"time_created\": 1791995516, \"time_content_updated\": 1791995542, \"operation_status\": {\"code\": 200, \"description\": \"רגיל\"}, \"delivery_status\": {\"code\": 200, \"description\": \"קהל זה מוכן לשימוש.\"}, \"data_source\": {\"type\": \"UNKNOWN\", \"sub_type\": \"ANYTHING\", \"creation_params\": \"[]\"}, \"id\": \"120252155150880740\"}",
+          "AINFO {\"name\": \"דומה 1-4% · בעלי עסקים bizibox (קהל אפריל 26)\", \"subtype\": \"LOOKALIKE\", \"approximate_count_lower_bound\": 1000, \"approximate_count_upper_bound\": 1000, \"time_created\": 1791998796, \"time_content_updated\": 1791999355, \"operation_status\": {\"code\": 300, \"description\": \"מעדכן\"}, \"delivery_status\": {\"code\": 300, \"description\": \"הקהל קטן מכדי לשמש ליצירת קמפיין\"}, \"data_source\": {\"type\": \"SEED_BASED\", \"sub_type\": \"CUSTOM_AUDIENCE_USERS\", \"creation_params\": \"[]\"}, \"lookalike_spec\": {\"country\": \"IL\", \"origin\": [{\"id\": \"120245943759880740\", \"name\": \"קהל אפריל 26\", \"type\": \"custom_audience\"}], \"starting_ratio\": 0.01, \"ratio\": 0.04, \"type\": \"custom_ratio\"}, \"id\": \"120252155846370740\"}"
+        ]
+      }
+    }
+  ]
+}
