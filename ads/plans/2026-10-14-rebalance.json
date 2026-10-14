@@ -3,9 +3,81 @@
   "approved": true,
   "approved_by": "אייל בצ'אט 14.10: 'מאשר' (bizibox מושהה, סרטון 1 50→120, מיקונוס+יום שישי 150→130; הסך נשאר 250 ₪ ביום)",
   "actions": [
-    {"type": "pause_adset", "campaign_name": "קמפיין לידים אייל", "adset_name": "לקוחות bizibox · קהל מותאם · 2026-10"},
-    {"type": "set_adset_budget", "campaign_name": "קמפיין לידים אייל", "adset_name": "סדרת מודעות לידים חדשה", "daily_budget_ils": 130},
-    {"type": "set_adset_budget", "campaign_name": "טופס לידים || ניהול תזרים ||", "daily_budget_ils": 120},
-    {"type": "check"}
+    {
+      "type": "pause_adset",
+      "campaign_name": "קמפיין לידים אייל",
+      "adset_name": "לקוחות bizibox · קהל מותאם · 2026-10"
+    },
+    {
+      "type": "set_adset_budget",
+      "campaign_name": "קמפיין לידים אייל",
+      "adset_name": "סדרת מודעות לידים חדשה",
+      "daily_budget_ils": 130
+    },
+    {
+      "type": "set_adset_budget",
+      "campaign_name": "טופס לידים || ניהול תזרים ||",
+      "daily_budget_ils": 120
+    },
+    {
+      "type": "check"
+    }
+  ],
+  "applied": [
+    {
+      "index": 0,
+      "type": "pause_adset",
+      "ok": true,
+      "at": "2026-10-14T10:25+03:00",
+      "result": {
+        "campaign_id": "120245939439290740",
+        "adset_id": "120252120865840740",
+        "status": "PAUSED"
+      }
+    },
+    {
+      "index": 1,
+      "type": "set_adset_budget",
+      "ok": true,
+      "at": "2026-10-14T10:25+03:00",
+      "result": {
+        "campaign_id": "120245939439290740",
+        "level": "adset",
+        "adsets": [
+          {
+            "adset_id": "120245939439310740",
+            "name": "סדרת מודעות לידים חדשה",
+            "daily_budget_ils": 130
+          }
+        ]
+      }
+    },
+    {
+      "index": 2,
+      "type": "set_adset_budget",
+      "ok": true,
+      "at": "2026-10-14T10:25+03:00",
+      "result": {
+        "campaign_id": "120216039932250740",
+        "level": "campaign",
+        "daily_budget_ils": 120
+      }
+    },
+    {
+      "index": 3,
+      "type": "check",
+      "ok": true,
+      "at": "2026-10-14T10:25+03:00",
+      "result": {
+        "lines": [
+          "CHECK campaign HK Studio · יועצים · טופס לידים | budget 0 | today spend 0 impr 0 clicks 0 leads 0",
+          "CHECK campaign HK Studio · יועצים · כניסות לדף | budget 0 | today spend 0 impr 0 clicks 0 leads 0",
+          "CHECK campaign קמפיין לידים אייל | budget 0 | today spend 50.49 impr 244 clicks 8 leads 0",
+          "CHECK   adset סדרת מודעות לידים חדשה [ACTIVE] budget 130 ",
+          "CHECK     ad סרטון יום שישי · חזרה 13.10 [ACTIVE]  ",
+          "CHECK     ad סרטון מיקונוס 11.5 [ACTIVE]  "
+        ]
+      }
+    }
   ]
 }
