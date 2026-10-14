@@ -587,19 +587,14 @@ def today_ads(a):
 
 
 def lead_times(a):
-    """Read-only, no personal data: creation time (Israel) of today's leads per ad. Never reads field_data."""
+    """Read-only, no personal data: today's leads per ad by hour (account time zone), from insights."""
     lead = lambda r: sum(float(x.get("value", 0)) for x in r.get("actions", []) or [] if x.get("action_type") == "lead")
-    rows = call("GET", f"{ACCT}/insights", level="ad", date_preset="today", fields="ad_id,ad_name,adset_name,actions", limit=200).get("data", [])
-    out = []
-    for r in rows:
-        if not lead(r):
-            continue
-        for l in call("GET", f"{r['ad_id']}/leads", fields="created_time", limit=25).get("data", []):
-            t = datetime.fromisoformat(l["created_time"].replace("+0000", "+00:00")).astimezone(ZoneInfo("Asia/Jerusalem"))
-            if t.date() == datetime.now(ZoneInfo("Asia/Jerusalem")).date():
-                out.append(f"LEADTIME {t:%H:%M} | {r['adset_name']} | {r['ad_name']}")
-    for l in sorted(out): print(l)
-    return {"lines": sorted(out)}
+    rows = call("GET", f"{ACCT}/insights", level="ad", date_preset="today", fields="ad_name,adset_name,actions",
+                breakdowns="hourly_stats_aggregated_by_advertiser_time_zone", limit=500).get("data", [])
+    out = sorted(f"LEADHOUR {r['hourly_stats_aggregated_by_advertiser_time_zone'][:5]} | {r['adset_name']} | {r['ad_name']} | {lead(r):.0f}"
+                 for r in rows if lead(r))
+    for l in out: print(l)
+    return {"lines": out}
 
 
 def video_lead_ad(a):
