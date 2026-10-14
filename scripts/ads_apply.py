@@ -231,7 +231,7 @@ def apply_plan(plan_path):
         try:
             res = {"set_adset_budget": set_budget, "create_campaign": create_campaign, "revive": revive,
                    "add_ads": add_ads, "pause_ads": pause_ads, "set_targeting": set_targeting, "create_pixel": create_pixel, "clone_adset": clone_adset,
-                   "pause_adset": pause_adset, "create_lead_campaign": create_lead_campaign, "resume_ads": resume_ads, "check": check, "copy_ad": copy_ad, "inspect_ads": inspect_ads, "daily": daily, "image_lead_ad": image_lead_ad, "history": history, "add_lead_ads": add_lead_ads, "ad_ranking": ad_ranking, "audiences": audiences}[a["type"]](a)
+                   "pause_adset": pause_adset, "create_lead_campaign": create_lead_campaign, "resume_ads": resume_ads, "check": check, "copy_ad": copy_ad, "inspect_ads": inspect_ads, "daily": daily, "image_lead_ad": image_lead_ad, "history": history, "add_lead_ads": add_lead_ads, "ad_ranking": ad_ranking, "audiences": audiences, "audience_info": audience_info}[a["type"]](a)
             applied.append({"index": i, "type": a["type"], "ok": True, "at": datetime.now(ZoneInfo("Asia/Jerusalem")).isoformat(timespec="minutes"), "result": res})
             print("ok", i, a["type"], res)
         except Exception as e:  # noqa: BLE001
@@ -563,6 +563,15 @@ def audiences(a):
                 "automation": t.get("targeting_automation"), "platforms": t.get("publisher_platforms"), "positions": {k: t.get(k) for k in ("facebook_positions","instagram_positions") if t.get(k)},
                 "locales": t.get("locales"), "estimate": [est.get("estimate_mau_lower_bound"), est.get("estimate_mau_upper_bound")]}, ensure_ascii=False)
             print(line); out.append(line)
+    return {"lines": out}
+
+
+def audience_info(a):
+    """Read-only: what a custom audience is (type, source, description, size)."""
+    out = []
+    for i in a["ids"]:
+        r = call("GET", i, fields="name,subtype,description,approximate_count_lower_bound,approximate_count_upper_bound,time_created,data_source,lookalike_spec,rule")
+        line = "AINFO " + json.dumps(r, ensure_ascii=False)[:1500]; print(line); out.append(line)
     return {"lines": out}
 
 
