@@ -1,2 +1,29 @@
-{"requested_by": "אייל 14.10: 'איזה קהל יש היום לכל מודעה?' (קריאה בלבד).", "approved": true, "approved_by": "קריאה בלבד",
- "actions": [{"type": "audiences", "campaign_names": ["קמפיין לידים אייל", "טופס לידים || ניהול תזרים ||"]}]}
+{
+  "requested_by": "אייל 14.10: 'איזה קהל יש היום לכל מודעה?' (קריאה בלבד).",
+  "approved": true,
+  "approved_by": "קריאה בלבד",
+  "actions": [
+    {
+      "type": "audiences",
+      "campaign_names": [
+        "קמפיין לידים אייל",
+        "טופס לידים || ניהול תזרים ||"
+      ]
+    }
+  ],
+  "applied": [
+    {
+      "index": 0,
+      "type": "audiences",
+      "ok": true,
+      "at": "2026-10-14T19:21+03:00",
+      "result": {
+        "lines": [
+          "AUD {\"campaign\": \"קמפיין לידים אייל\", \"adset\": \"סדרת מודעות לידים חדשה\", \"budget\": \"13000\", \"goal\": \"LEAD_GENERATION\", \"age\": [18, 65], \"genders\": null, \"geo\": {\"countries\": [\"IL\"], \"location_types\": [\"home\", \"recent\"]}, \"flexible_spec\": null, \"custom_audiences\": [{\"id\": \"120245943759880740\", \"name\": \"קהל אפריל 26\"}, {\"id\": \"120246050525520740\", \"name\": \"דומה (1%) - קהל אפריל 26\"}], \"excluded_custom_audiences\": null, \"automation\": {\"advantage_audience\": 1, \"individual_setting\": {\"age\": 1, \"gender\": 1}}, \"platforms\": null, \"positions\": {}, \"locales\": null, \"estimate\": [73900, 87000]}",
+          "AUD {\"campaign\": \"טופס לידים || ניהול תזרים ||\", \"adset\": \"LAL 1% · קהל אפריל 26 · וידיאו 1\", \"budget\": null, \"goal\": \"LEAD_GENERATION\", \"age\": [25, 65], \"genders\": null, \"geo\": {\"countries\": [\"IL\"], \"location_types\": [\"home\", \"recent\"]}, \"flexible_spec\": null, \"custom_audiences\": [{\"id\": \"120246050525520740\", \"name\": \"דומה (1%) - קהל אפריל 26\"}], \"excluded_custom_audiences\": null, \"automation\": {\"advantage_audience\": 0}, \"platforms\": null, \"positions\": {}, \"locales\": null, \"estimate\": [54600, 64300]}",
+          "AUD {\"campaign\": \"טופס לידים || ניהול תזרים ||\", \"adset\": \"‏‏‏קהל פתוח || 25+ || מיקומים אוטומטים || סרטונים 1-10\", \"budget\": null, \"goal\": \"LEAD_GENERATION\", \"age\": [25, 65], \"genders\": null, \"geo\": {\"countries\": [\"IL\"], \"location_types\": [\"home\", \"recent\"]}, \"flexible_spec\": null, \"custom_audiences\": null, \"excluded_custom_audiences\": null, \"automation\": {\"advantage_audience\": 0}, \"platforms\": null, \"positions\": {}, \"locales\": [6, 24, 29], \"estimate\": [4500000, 5300000]}"
+        ]
+      }
+    }
+  ]
+}
