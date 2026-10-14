@@ -231,7 +231,7 @@ def apply_plan(plan_path):
         try:
             res = {"set_adset_budget": set_budget, "create_campaign": create_campaign, "revive": revive,
                    "add_ads": add_ads, "pause_ads": pause_ads, "set_targeting": set_targeting, "create_pixel": create_pixel, "clone_adset": clone_adset,
-                   "pause_adset": pause_adset, "create_lead_campaign": create_lead_campaign, "resume_ads": resume_ads, "check": check, "copy_ad": copy_ad, "inspect_ads": inspect_ads, "daily": daily, "image_lead_ad": image_lead_ad, "history": history, "add_lead_ads": add_lead_ads, "ad_ranking": ad_ranking}[a["type"]](a)
+                   "pause_adset": pause_adset, "create_lead_campaign": create_lead_campaign, "resume_ads": resume_ads, "check": check, "copy_ad": copy_ad, "inspect_ads": inspect_ads, "daily": daily, "image_lead_ad": image_lead_ad, "history": history, "add_lead_ads": add_lead_ads, "ad_ranking": ad_ranking, "audiences": audiences}[a["type"]](a)
             applied.append({"index": i, "type": a["type"], "ok": True, "at": datetime.now(ZoneInfo("Asia/Jerusalem")).isoformat(timespec="minutes"), "result": res})
             print("ok", i, a["type"], res)
         except Exception as e:  # noqa: BLE001
@@ -546,6 +546,24 @@ def ad_ranking(a):
         line = "RANK " + json.dumps({**d, "status": meta.get("effective_status"), "created": (meta.get("created_time") or "")[:10], "preview": meta.get("preview_shareable_link")}, ensure_ascii=False)
         print(line); out.append(line)
     return {"lines": out[: int(a.get("limit", 40))]}
+
+
+def audiences(a):
+    """Read-only: the targeting of every active ad set in the named campaigns, with Meta's estimated audience size."""
+    out = []
+    for name in a["campaign_names"]:
+        c = find_campaign(name)
+        for s in call("GET", f"{c['id']}/adsets", fields="name,effective_status,daily_budget,targeting,optimization_goal", limit=50)["data"]:
+            if s.get("effective_status") != "ACTIVE": continue
+            t = s.get("targeting") or {}
+            est = (call("GET", f"{s['id']}/delivery_estimate", fields="estimate_mau_lower_bound,estimate_mau_upper_bound").get("data") or [{}])[0]
+            line = "AUD " + json.dumps({"campaign": name, "adset": s["name"], "budget": s.get("daily_budget"), "goal": s.get("optimization_goal"),
+                "age": [t.get("age_min"), t.get("age_max")], "genders": t.get("genders"), "geo": t.get("geo_locations"),
+                "flexible_spec": t.get("flexible_spec"), "custom_audiences": t.get("custom_audiences"), "excluded_custom_audiences": t.get("excluded_custom_audiences"),
+                "automation": t.get("targeting_automation"), "platforms": t.get("publisher_platforms"), "positions": {k: t.get(k) for k in ("facebook_positions","instagram_positions") if t.get(k)},
+                "locales": t.get("locales"), "estimate": [est.get("estimate_mau_lower_bound"), est.get("estimate_mau_upper_bound")]}, ensure_ascii=False)
+            print(line); out.append(line)
+    return {"lines": out}
 
 
 def copy_ad(a):
