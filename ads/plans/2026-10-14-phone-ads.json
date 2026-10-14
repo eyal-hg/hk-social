@@ -47,5 +47,74 @@
     {
       "type": "check"
     }
+  ],
+  "applied": [
+    {
+      "index": 0,
+      "type": "image_lead_ad",
+      "ok": true,
+      "at": "2026-10-14T20:27+03:00",
+      "result": {
+        "campaign_id": "120245939439290740",
+        "adset_id": "120252155857190740",
+        "ad_id": "120252155858160740",
+        "form_id": "831087803308460",
+        "page_id": "459554967250420",
+        "start_time": null
+      }
+    },
+    {
+      "index": 1,
+      "type": "add_lead_ads",
+      "ok": false,
+      "at": "2026-10-14T20:28+03:00",
+      "error": "POST act_1886192278456348/adcreatives -> 400: {\"error\":{\"message\":\"Invalid parameter\",\"type\":\"OAuthException\",\"code\":100,\"error_subcode\":1487390,\"is_transient\":false,\"error_user_title\":\"\\u05e0\\u05db\\u05e9\\u05dc\\u05d4 \\u05d9\\u05e6\\u05d9\\u05e8\\u05ea Adcreative\",\"error_user_msg\":\"\\u05e0\\u05db\\u05e9\\u05dc\\u05d4 \\u05d9\\u05e6\\u05d9\\u05e8\\u05ea \\u05e7\\u05e8\\u05d9\\u05d0\\u05d9\\u05d9\\u05d8\\u05d9\\u05d1 \\u05de\\u05d5\\u05d3\\u05e2\\u05d5\\u05ea \\u05de\\u05d4\\u05e1\\u05d9\\u05d1\\u05d4 \\u05d4\\u05d1\\u05d0\\u05d4: \\u200f\\u05de\\u05e9\\u05d4\\u05d5 \\u05d4\\u05e9\\u05ea\\u05d1\\u05e9. \\u05d9\\u05e9 \\u05dc\\u05e0\\u05e1\\u05d5\\u05ea \\u05e9\\u05d5\\u05d1 \\u05de\\u05d0\\u05d5\\u05d7\\u05e8 \\u05d9\\u05d5\\u05ea\\u05e8.\\u200f\",\"fbtrace_id\":\"Ando2fFflWqKrD2u75pnE81\"}}"
+    },
+    {
+      "index": 2,
+      "type": "set_adset_budget",
+      "ok": true,
+      "at": "2026-10-14T20:28+03:00",
+      "result": {
+        "campaign_id": "120245939439290740",
+        "level": "adset",
+        "adsets": [
+          {
+            "adset_id": "120245939439310740",
+            "name": "סדרת מודעות לידים חדשה",
+            "daily_budget_ils": 50
+          }
+        ]
+      }
+    },
+    {
+      "index": 3,
+      "type": "set_adset_budget",
+      "ok": true,
+      "at": "2026-10-14T20:28+03:00",
+      "result": {
+        "campaign_id": "120216039932250740",
+        "level": "campaign",
+        "daily_budget_ils": 100
+      }
+    },
+    {
+      "index": 4,
+      "type": "check",
+      "ok": true,
+      "at": "2026-10-14T20:28+03:00",
+      "result": {
+        "lines": [
+          "CHECK campaign HK Studio · יועצים · טופס לידים | budget 0 | today spend 0 impr 0 clicks 0 leads 0",
+          "CHECK campaign HK Studio · יועצים · כניסות לדף | budget 0 | today spend 0 impr 0 clicks 0 leads 0",
+          "CHECK campaign קמפיין לידים אייל | budget 0 | today spend 115.44 impr 665 clicks 15 leads 1",
+          "CHECK   adset טלפון · KAI + מנהל תזרים · בעלי עסקים דומה 1-4% · 2026-10 [ACTIVE] budget 80 ",
+          "CHECK     ad 2026-W42-PH2 · form [IN_PROCESS]  ",
+          "CHECK     ad 2026-W42-PH1 · form [IN_PROCESS]  ",
+          "CHECK   adset סדרת מודעות לידים חדשה [ACTIVE] budget 50 ",
+          "CHECK     ad מיקונוס מקוצר · 30s · מנהל תזרים [ACTIVE]  "
+        ]
+      }
+    }
   ]
 }
