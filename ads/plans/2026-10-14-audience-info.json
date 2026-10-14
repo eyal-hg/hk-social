@@ -1,1 +1,28 @@
-{"requested_by":"קריאה בלבד: מה זה קהל אפריל 26","approved":true,"approved_by":"קריאה בלבד","actions":[{"type":"audience_info","ids":["120245943759880740","120246050525520740"]}]}
+{
+  "requested_by": "קריאה בלבד: מה זה קהל אפריל 26",
+  "approved": true,
+  "approved_by": "קריאה בלבד",
+  "actions": [
+    {
+      "type": "audience_info",
+      "ids": [
+        "120245943759880740",
+        "120246050525520740"
+      ]
+    }
+  ],
+  "applied": [
+    {
+      "index": 0,
+      "type": "audience_info",
+      "ok": true,
+      "at": "2026-10-14T19:22+03:00",
+      "result": {
+        "lines": [
+          "AINFO {\"name\": \"קהל אפריל 26\", \"subtype\": \"CUSTOM\", \"description\": \"קהל אפריל 26\", \"approximate_count_lower_bound\": 25500, \"approximate_count_upper_bound\": 30000, \"time_created\": 1777235997, \"data_source\": {\"type\": \"UNKNOWN\", \"sub_type\": \"ANYTHING\", \"creation_params\": \"[]\"}, \"id\": \"120245943759880740\"}",
+          "AINFO {\"name\": \"דומה (1%) - קהל אפריל 26\", \"subtype\": \"LOOKALIKE\", \"description\": \"\", \"approximate_count_lower_bound\": -1, \"approximate_count_upper_bound\": -1, \"time_created\": 1777402930, \"data_source\": {\"type\": \"SEED_BASED\", \"sub_type\": \"CUSTOM_AUDIENCE_USERS\", \"creation_params\": \"[]\"}, \"lookalike_spec\": {\"origin\": [{\"id\": \"120245943759880740\", \"name\": \"קהל אפריל 26\", \"type\": \"custom_audience\"}], \"ratio\": 0.01, \"type\": \"custom_ratio\"}, \"id\": \"120246050525520740\"}"
+        ]
+      }
+    }
+  ]
+}
