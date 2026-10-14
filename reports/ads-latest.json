@@ -1,5 +1,5 @@
 {
- "generated": "14.10.2026 10:59",
+ "generated": "14.10.2026 12:24",
  "account": {
   "name": "HK",
   "currency": "ILS",
@@ -343,14 +343,14 @@
     "landing_page_views": 0.0
    },
    "lifetime": {
-    "spend": 16564.35,
-    "impressions": 113449,
+    "spend": 16572.3,
+    "impressions": 113510,
     "reach": 28577,
-    "clicks": 2381,
-    "ctr": 2.09874,
-    "cpc": 6.956888,
+    "clicks": 2382,
+    "ctr": 2.098494,
+    "cpc": 6.957305,
     "leads": 198.0,
-    "cost_per_lead": 83.658333,
+    "cost_per_lead": 83.698485,
     "landing_page_views": 0.0
    },
    "ads_last7": [
@@ -484,14 +484,14 @@
     {
      "adset": "סדרת מודעות לידים חדשה",
      "name": "סרטון מיקונוס 11.5",
-     "spend": 3235.69,
-     "impressions": 22423,
-     "reach": 10440,
+     "spend": 3238.52,
+     "impressions": 22446,
+     "reach": 10457,
      "clicks": 420,
-     "ctr": 1.873077,
-     "cpc": 7.704024,
+     "ctr": 1.871157,
+     "cpc": 7.710762,
      "leads": 37.0,
-     "cost_per_lead": 87.451081,
+     "cost_per_lead": 87.527568,
      "landing_page_views": 0.0
     },
     {
@@ -614,12 +614,12 @@
     {
      "adset": "סדרת מודעות לידים חדשה",
      "name": "סרטון יום שישי · חזרה 13.10",
-     "spend": 78.22,
-     "impressions": 458,
-     "reach": 409,
-     "clicks": 10,
-     "ctr": 2.183406,
-     "cpc": 7.822,
+     "spend": 83.34,
+     "impressions": 496,
+     "reach": 442,
+     "clicks": 11,
+     "ctr": 2.217742,
+     "cpc": 7.576364,
      "leads": 0.0,
      "cost_per_lead": null,
      "landing_page_views": 0.0
@@ -1587,14 +1587,14 @@
     "landing_page_views": 1.0
    },
    "lifetime": {
-    "spend": 25006.55,
-    "impressions": 245214,
-    "reach": 49129,
-    "clicks": 4790,
-    "ctr": 1.953396,
-    "cpc": 5.220574,
-    "leads": 436.0,
-    "cost_per_lead": 57.354472,
+    "spend": 25015.45,
+    "impressions": 245262,
+    "reach": 49131,
+    "clicks": 4793,
+    "ctr": 1.954237,
+    "cpc": 5.219163,
+    "leads": 437.0,
+    "cost_per_lead": 57.243593,
     "landing_page_views": 1.0
    },
    "ads_last7": [
@@ -2073,14 +2073,14 @@
     {
      "adset": "‏‏‏קהל פתוח || 25+ || מיקומים אוטומטים || סרטונים 1-10",
      "name": "וידיאו 1 || 3 טקסטים",
-     "spend": 17399.9,
-     "impressions": 156935,
-     "reach": 41934,
-     "clicks": 2345,
-     "ctr": 1.494249,
-     "cpc": 7.42,
-     "leads": 312.0,
-     "cost_per_lead": 55.76891,
+     "spend": 17408.54,
+     "impressions": 156982,
+     "reach": 41936,
+     "clicks": 2348,
+     "ctr": 1.495713,
+     "cpc": 7.414199,
+     "leads": 313.0,
+     "cost_per_lead": 55.618339,
      "landing_page_views": 1.0
     },
     {
@@ -2255,12 +2255,12 @@
     {
      "adset": "LAL 1% · קהל אפריל 26 · וידיאו 1",
      "name": "וידיאו 1 || 3 טקסטים · LAL אפריל 26",
-     "spend": 32.44,
-     "impressions": 164,
-     "reach": 126,
+     "spend": 32.7,
+     "impressions": 165,
+     "reach": 127,
      "clicks": 4,
-     "ctr": 2.439024,
-     "cpc": 8.11,
+     "ctr": 2.424242,
+     "cpc": 8.175,
      "leads": 0.0,
      "cost_per_lead": null,
      "landing_page_views": 0.0
@@ -3615,25 +3615,25 @@
  },
  "today": {
   "120216039932250740": {
-   "spend": 16.1,
-   "impressions": 60,
-   "reach": 57,
-   "clicks": 0,
-   "ctr": 0.0,
-   "cpc": 0.0,
-   "leads": 0.0,
-   "cost_per_lead": null,
+   "spend": 25.0,
+   "impressions": 108,
+   "reach": 94,
+   "clicks": 3,
+   "ctr": 2.777778,
+   "cpc": 8.333333,
+   "leads": 1.0,
+   "cost_per_lead": 25.0,
    "landing_page_views": 0.0
   },
   "120245939439290740": {
-   "spend": 51.6,
-   "impressions": 256,
-   "reach": 225,
-   "clicks": 9,
-   "ctr": 3.515625,
-   "cpc": 5.733333,
+   "spend": 59.55,
+   "impressions": 317,
+   "reach": 281,
+   "clicks": 10,
+   "ctr": 3.154574,
+   "cpc": 5.955,
    "leads": 1.0,
-   "cost_per_lead": 51.6,
+   "cost_per_lead": 59.55,
    "landing_page_views": 0.0
   }
  },
@@ -3693,7 +3693,7 @@
    "name": "HK Pixel",
    "last_fired_time": "2026-10-13T18:20:06+0300",
    "events_3d": {
-    "PageView": 38
+    "PageView": 37
    }
   }
  ],
