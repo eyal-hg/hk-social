@@ -231,7 +231,7 @@ def apply_plan(plan_path):
         try:
             res = {"set_adset_budget": set_budget, "create_campaign": create_campaign, "revive": revive,
                    "add_ads": add_ads, "pause_ads": pause_ads, "set_targeting": set_targeting, "create_pixel": create_pixel, "clone_adset": clone_adset,
-                   "pause_adset": pause_adset, "create_lead_campaign": create_lead_campaign, "resume_ads": resume_ads, "check": check, "copy_ad": copy_ad, "inspect_ads": inspect_ads, "daily": daily, "image_lead_ad": image_lead_ad, "history": history, "add_lead_ads": add_lead_ads, "ad_ranking": ad_ranking, "audiences": audiences, "audience_info": audience_info, "video_lead_ad": video_lead_ad, "create_lookalike": create_lookalike, "today_ads": today_ads}[a["type"]](a)
+                   "pause_adset": pause_adset, "create_lead_campaign": create_lead_campaign, "resume_ads": resume_ads, "check": check, "copy_ad": copy_ad, "inspect_ads": inspect_ads, "daily": daily, "image_lead_ad": image_lead_ad, "history": history, "add_lead_ads": add_lead_ads, "ad_ranking": ad_ranking, "audiences": audiences, "audience_info": audience_info, "video_lead_ad": video_lead_ad, "create_lookalike": create_lookalike, "today_ads": today_ads, "lead_times": lead_times}[a["type"]](a)
             applied.append({"index": i, "type": a["type"], "ok": True, "at": datetime.now(ZoneInfo("Asia/Jerusalem")).isoformat(timespec="minutes"), "result": res})
             print("ok", i, a["type"], res)
         except Exception as e:  # noqa: BLE001
@@ -584,6 +584,22 @@ def today_ads(a):
     out = [f"TODAY {r.get('campaign_name')} | {r.get('adset_name')} | {r.get('ad_name')} | spend {r.get('spend')} | impr {r.get('impressions')} | leads {lead(r):.0f}" for r in rows]
     for l in out: print(l)
     return {"lines": out}
+
+
+def lead_times(a):
+    """Read-only, no personal data: creation time (Israel) of today's leads per ad. Never reads field_data."""
+    lead = lambda r: sum(float(x.get("value", 0)) for x in r.get("actions", []) or [] if x.get("action_type") == "lead")
+    rows = call("GET", f"{ACCT}/insights", level="ad", date_preset="today", fields="ad_id,ad_name,adset_name,actions", limit=200).get("data", [])
+    out = []
+    for r in rows:
+        if not lead(r):
+            continue
+        for l in call("GET", f"{r['ad_id']}/leads", fields="created_time", limit=25).get("data", []):
+            t = datetime.fromisoformat(l["created_time"].replace("+0000", "+00:00")).astimezone(ZoneInfo("Asia/Jerusalem"))
+            if t.date() == datetime.now(ZoneInfo("Asia/Jerusalem")).date():
+                out.append(f"LEADTIME {t:%H:%M} | {r['adset_name']} | {r['ad_name']}")
+    for l in sorted(out): print(l)
+    return {"lines": sorted(out)}
 
 
 def video_lead_ad(a):
