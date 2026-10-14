@@ -1,1 +1,19 @@
-{"requested_by":"קריאה בלבד: שעת כניסה של לידי היום לפי מודעה (בלי פרטים אישיים)","approved":true,"approved_by":"קריאה בלבד, בלי כסף","actions":[{"type":"lead_times"}]}
+{
+  "requested_by": "קריאה בלבד: שעת כניסה של לידי היום לפי מודעה (בלי פרטים אישיים)",
+  "approved": true,
+  "approved_by": "קריאה בלבד, בלי כסף",
+  "actions": [
+    {
+      "type": "lead_times"
+    }
+  ],
+  "applied": [
+    {
+      "index": 0,
+      "type": "lead_times",
+      "ok": false,
+      "at": "2026-10-14T21:04+03:00",
+      "error": "GET 120217396577080740/leads -> 400: {\"error\":{\"message\":\"(#100) Requires pages_manage_ads or leads_retrieval permission to manage the object\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"ArFS-KG1qm4o26E0CHQI0po\"}}"
+    }
+  ]
+}
