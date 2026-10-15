@@ -39,7 +39,7 @@ def safe_inline(text):
 
 
 def render(post, chrome):
-    data = {k: v for k, v in post.items() if k in ("layout", "kicker", "body", "logo", "photo", "chat", "steps", "left", "right", "url", "kicker_size")}
+    data = {k: v for k, v in post.items() if k in ("layout", "kicker", "body", "logo", "photo", "chat", "steps", "left", "right", "url", "kicker_size", "nomock")}
     if post.get("aud"):  # שורת קהל היעד בקריאייטיבים של הסטודיו — טקסט בלבד
         data["aud"] = html.escape(post["aud"], quote=False)
     data["title"] = safe_inline(post.get("title", ""))

@@ -139,6 +139,18 @@
   .l-studio-mock .main:has(.aud) .sm-ben { margin-top: 26px; margin-bottom: 30px; }
   .l-studio-secret .aud { position: absolute; top: 40px; left: 48px; }
   .l-studio-secret .ss-logo { height: 50px; }
+  /* בלי מערכת במודעה (אייל 15.10): nomock — מסתיר את המוקאפים ומגדיל את המסר */
+  .l-studio-mock .main.nomock .sm-mock { display: none; }
+  .l-studio-mock .main.nomock .title span { display: block; }
+  .l-studio-mock .main.nomock .title { font-size: 84px; margin-top: 90px; line-height: 1.14; }
+  .l-studio-mock .main.nomock .sm-sub { font-size: 40px; margin-top: 50px; }
+  .l-studio-mock .main.nomock .sm-line { font-size: 32px; margin-top: 14px; }
+  .l-studio-mock .main.nomock .sm-ben { margin-top: 120px; gap: 26px; }
+  .l-studio-mock .main.nomock .sm-ben div { width: 300px; padding: 34px 18px 30px; border-radius: 26px; background: #F4F8FC; border: 2px solid #E3EAF3; font-size: 31px; }
+  .l-studio-mock .main.nomock .sm-ben svg { width: 72px; height: 72px; background: #fff; }
+  .l-studio-secret .main.nomock .ss-lap, .l-studio-secret .main.nomock .ss-ph { display: none; }
+  .l-studio-secret .main.nomock .ss-sub { right: 64px; left: 64px; width: auto; top: 110px; text-align: center; font-size: 64px; line-height: 1.15; }
+  .l-studio-secret .main.nomock .ss-plus { right: 64px; left: 64px; width: auto; top: 320px; text-align: center; font-size: 36px; }
 </style>
 </head>
 <body>
@@ -165,7 +177,7 @@
   const svc = document.getElementById('svc');
   const logos = { hkmoney: 'assets/hkmoney-logo.png', hkpro: 'assets/hkpro-logo.png', studio: 'assets/studio-logo.png' };
   if (logos[P.logo]) svc.src = logos[P.logo]; else svc.remove();
-  const main = document.getElementById('main');
+  const main = document.getElementById('main'); if (P.nomock) main.classList.add('nomock');
   const h = P.title ? `<h1 class="title">${P.title}</h1>` : '';
   if (layout === 'chat') {
     main.innerHTML = h + '<div class="chat">' + (P.chat || []).map(m =>
