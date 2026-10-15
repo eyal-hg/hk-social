@@ -1,4 +1,4 @@
-# דוח מודעות · HK · 15.10.2026 10:42
+# דוח מודעות · HK · 15.10.2026 12:03
 
 מצב חשבון: 1 · מטבע: ILS · הוצאה מצטברת: 83,358 ₪
 
@@ -54,7 +54,7 @@
 |---|---|---|---|---|---|---|
 | 7 ימים | 1,199 ₪ | 6,554 | 140 | 2.14% | 6 | 200 ₪ |
 | 30 ימים | 2,176 ₪ | 12,678 | 282 | 2.22% | 19 | 115 ₪ |
-| כל הזמן | 16,724 ₪ | 114,518 | 2,396 | 2.09% | 198 | 84 ₪ |
+| כל הזמן | 16,728 ₪ | 114,530 | 2,398 | 2.09% | 198 | 84 ₪ |
 
 מודעות (כל הזמן, 5 הגדולות):
 - ‏סדרת מודעות לידים חדשה‏ - בעלי עסקים › סרטון יום שישי: 4,396 ₪, 814 קליקים, CTR 2.24%, 67 לידים, עלות לליד 66 ₪
@@ -209,10 +209,10 @@
 |---|---|---|---|---|---|---|
 | 7 ימים | 543 ₪ | 2,725 | 69 | 2.53% | 10 | 54 ₪ |
 | 30 ימים | 1,437 ₪ | 9,237 | 220 | 2.38% | 25 | 57 ₪ |
-| כל הזמן | 25,164 ₪ | 245,864 | 4,802 | 1.95% | 439 | 57 ₪ |
+| כל הזמן | 25,166 ₪ | 245,872 | 4,802 | 1.95% | 439 | 57 ₪ |
 
 מודעות (כל הזמן, 5 הגדולות):
-- ‏‏‏קהל פתוח || 25+ || מיקומים אוטומטים || סרטונים 1-10 › וידיאו 1 || 3 טקסטים: 17,557 ₪, 2357 קליקים, CTR 1.50%, 315 לידים, עלות לליד 56 ₪
+- ‏‏‏קהל פתוח || 25+ || מיקומים אוטומטים || סרטונים 1-10 › וידיאו 1 || 3 טקסטים: 17,559 ₪, 2357 קליקים, CTR 1.50%, 315 לידים, עלות לליד 56 ₪
 - ‏‏קהל תחומי עניין || 25+ || מיקומים ידניים || סרטונים 1-10‏‏ › וידיאו 1 || 3 טקסטים: 1,959 ₪, 398 קליקים, CTR 1.67%, 36 לידים, עלות לליד 54 ₪
 - ‏‏‏קהל פתוח || 25+ || מיקומים אוטומטים || סרטונים 1-10 › ‏‏וידיאו 4 || 3 טקסטים‏: 1,123 ₪, 408 קליקים, CTR 3.41%, 11 לידים, עלות לליד 102 ₪
 - ‏‏קהל תחומי עניין || 25+ || מיקומים ידניים || סרטונים 1-10‏‏ › ‏‏וידיאו 4 || 3 טקסטים‏: 1,034 ₪, 493 קליקים, CTR 3.54%, 11 לידים, עלות לליד 94 ₪
@@ -386,18 +386,18 @@
   - מודעה ‏‏וידיאו 5 || 3 טקסטים‏‏ - עותק (120216040036430740): ACTIVE/ADSET_PAUSED
   - מודעה ‏‏וידיאו 9 || 3 טקסטים‏ (120216039932290740): ACTIVE/ADSET_PAUSED
 
-## היום עד עכשיו (15.10.2026 10:42)
+## היום עד עכשיו (15.10.2026 12:03)
 
 - HK Studio · יועצים · טופס לידים: —, 0 חשיפות, 0 קליקים, 0 צפיות בדף, 0 לידים (—/ליד)
 - HK Studio · יועצים · כניסות לדף: —, 0 חשיפות, 0 קליקים, 0 צפיות בדף, 0 לידים (—/ליד)
-- קמפיין לידים אייל: 51 ₪, 367 חשיפות, 3 קליקים, 0 צפיות בדף, 0 לידים (—/ליד)
-  - מיקונוס מקוצר · 30s · מנהל תזרים: 21 ₪, 0 קליקים, 0 לידים
-  - 2026-W42-PH1 · form: 19 ₪, 3 קליקים, 0 לידים
+- קמפיין לידים אייל: 55 ₪, 379 חשיפות, 5 קליקים, 0 צפיות בדף, 0 לידים (—/ליד)
+  - מיקונוס מקוצר · 30s · מנהל תזרים: 23 ₪, 2 קליקים, 0 לידים
+  - 2026-W42-PH1 · form: 20 ₪, 3 קליקים, 0 לידים
   - 2026-W42-PH2 · form: 3 ₪, 0 קליקים, 0 לידים
-  - 2026-W42-PH3 · form: 6 ₪, 0 קליקים, 0 לידים
+  - 2026-W42-PH3 · form: 7 ₪, 0 קליקים, 0 לידים
   - 2026-W42-PH4 · form: 2 ₪, 0 קליקים, 0 לידים
-- ‏טופס לידים || ניהול תזרים ||: 54 ₪, 142 חשיפות, 3 קליקים, 0 צפיות בדף, 0 לידים (—/ליד)
-  - וידיאו 1 || 3 טקסטים: 54 ₪, 3 קליקים, 0 לידים
+- ‏טופס לידים || ניהול תזרים ||: 55 ₪, 150 חשיפות, 3 קליקים, 0 צפיות בדף, 0 לידים (—/ליד)
+  - וידיאו 1 || 3 טקסטים: 55 ₪, 3 קליקים, 0 לידים
 
 ## אבחון אי-הצגה
 
@@ -405,26 +405,26 @@
 - קמפיין HK Studio · יועצים · טופס לידים: {"id": "120251977931170740", "configured_status": "ACTIVE", "effective_status": "ACTIVE", "start_time": "2026-10-03T14:11:44+0300", "special_ad_categories": []}
   - קבוצה HK Studio · יועצים · טופס לידים · קבוצה 2 · דף HK Money: {"effective_status": "PAUSED", "configured_status": "PAUSED", "learning_stage_info": {"attribution_windows": ["1d_click"], "last_sig_edit_ts": 1791026754}, "start_time": "2026-10-03T14:25:34+0300", "daily_budget": "5000", "bid_strategy": "LOWEST_COST_WITHOUT_CAP", "optimization_goal": "LEAD_GENERATION", "billing_event": "IMPRESSIONS", "targeting": {"age_max": 65, "age_min": 28, "flexible_spec": [{"interests": [{"id": "6002984410123", "name": "רואה חשבון"}, {"id": "6003274244908", "name": "ייעוץ אסטרטגי"}, {"id": "6003649965713", "name": "הנהלת חשבונות"}, {"id": "6006252868071", "name": "Consulting firm"}]}, {"interests": [{"id": "6002884511422", "name": "עסק קטן (עסקים ופיננסים)"}, {"id": "6003184559502", "name": "Professional services"}, {"id": "6003280183843", "name": "פיתוח עסקי (פעילויות עסקיות)"}]}], "geo_locations": {"countries": ["IL"], "location_types": ["home"]}, "targeting_automation": {"advantage_audience": 0}}}
   - קבוצה HK Studio · יועצים · טופס לידים · קבוצה 1: {"effective_status": "PAUSED", "configured_status": "PAUSED", "learning_stage_info": {"attribution_windows": ["1d_click"], "last_sig_edit_ts": 1791025924}, "start_time": "2026-10-03T14:11:44+0300", "daily_budget": "5000", "bid_strategy": "LOWEST_COST_WITHOUT_CAP", "optimization_goal": "LEAD_GENERATION", "billing_event": "IMPRESSIONS", "targeting": {"age_max": 65, "age_min": 28, "flexible_spec": [{"interests": [{"id": "6002984410123", "name": "רואה חשבון"}, {"id": "6003274244908", "name": "ייעוץ אסטרטגי"}, {"id": "6003649965713", "name": "הנהלת חשבונות"}, {"id": "6006252868071", "name": "Consulting firm"}]}, {"interests": [{"id": "6002884511422", "name": "עסק קטן (עסקים ופיננסים)"}, {"id": "6003184559502", "name": "Professional services"}, {"id": "6003280183843", "name": "פיתוח עסקי (פעילויות עסקיות)"}]}], "geo_locations": {"countries": ["IL"], "location_types": ["home"]}, "targeting_automation": {"advantage_audience": 0}}}
-  - מודעה 2026-W41-SA4 · form: {"effective_status": "ADSET_PAUSED", "configured_status": "ACTIVE", "preview_shareable_link": "https://fb.me/1U2CuCQrfIMETBT", "created_time": "2026-10-04T13:11:47+0300", "updated_time": "2026-10-04T13:14:34+0300"}
-  - מודעה 2026-W40-SA3 · form: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/2aZfqXQYAJROS8o", "created_time": "2026-10-03T14:25:38+0300", "updated_time": "2026-10-04T13:12:42+0300"}
-  - מודעה 2026-W40-SA2 · form: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/2734wJEkid9EH7Q", "created_time": "2026-10-03T14:25:42+0300", "updated_time": "2026-10-04T13:12:40+0300"}
-  - מודעה 2026-W40-SA3 · std: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/2hlzZcWZ4jjoOOa", "created_time": "2026-10-03T14:30:01+0300", "updated_time": "2026-10-03T14:51:25+0300"}
-  - מודעה 2026-W40-SA2 · std: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/2e16RIScDqpvMkx", "created_time": "2026-10-03T14:30:05+0300", "updated_time": "2026-10-03T14:51:22+0300"}
-  - מודעה 2026-W40-SA3 · form: {"effective_status": "ADSET_PAUSED", "configured_status": "ACTIVE", "preview_shareable_link": "https://fb.me/2Jh0gUVvGtSZzsb", "created_time": "2026-10-03T14:11:48+0300", "updated_time": "2026-10-03T14:17:57+0300"}
-  - מודעה 2026-W40-SA2 · form: {"effective_status": "ADSET_PAUSED", "configured_status": "ACTIVE", "preview_shareable_link": "https://fb.me/2cRWXJcyFmU7vly", "created_time": "2026-10-03T14:11:53+0300", "updated_time": "2026-10-03T14:14:52+0300"}
+  - מודעה 2026-W41-SA4 · form: {"effective_status": "ADSET_PAUSED", "configured_status": "ACTIVE", "preview_shareable_link": "https://fb.me/25dSHsFbxDM9kS0", "created_time": "2026-10-04T13:11:47+0300", "updated_time": "2026-10-04T13:14:34+0300"}
+  - מודעה 2026-W40-SA3 · form: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/1TxlJvWoODM9pZv", "created_time": "2026-10-03T14:25:38+0300", "updated_time": "2026-10-04T13:12:42+0300"}
+  - מודעה 2026-W40-SA2 · form: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/23v1zi5IZV0DU0C", "created_time": "2026-10-03T14:25:42+0300", "updated_time": "2026-10-04T13:12:40+0300"}
+  - מודעה 2026-W40-SA3 · std: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/22kwKHZdkYNefm3", "created_time": "2026-10-03T14:30:01+0300", "updated_time": "2026-10-03T14:51:25+0300"}
+  - מודעה 2026-W40-SA2 · std: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/2bJCN2ZbamJm0e7", "created_time": "2026-10-03T14:30:05+0300", "updated_time": "2026-10-03T14:51:22+0300"}
+  - מודעה 2026-W40-SA3 · form: {"effective_status": "ADSET_PAUSED", "configured_status": "ACTIVE", "preview_shareable_link": "https://fb.me/1SGobYCtJTtZOHz", "created_time": "2026-10-03T14:11:48+0300", "updated_time": "2026-10-03T14:17:57+0300"}
+  - מודעה 2026-W40-SA2 · form: {"effective_status": "ADSET_PAUSED", "configured_status": "ACTIVE", "preview_shareable_link": "https://fb.me/24a0kyK6F8WSvl3", "created_time": "2026-10-03T14:11:53+0300", "updated_time": "2026-10-03T14:14:52+0300"}
 - קמפיין HK Studio · יועצים · כניסות לדף: {"id": "120251876259960740", "configured_status": "ACTIVE", "effective_status": "ACTIVE", "start_time": "2026-09-27T15:32:33+0300", "special_ad_categories": []}
   - קבוצה HK Studio · יועצים · כניסות לדף · קבוצה 1: {"effective_status": "PAUSED", "configured_status": "PAUSED", "learning_stage_info": {"attribution_windows": ["1d_click"], "last_sig_edit_ts": 1790568093}, "start_time": "2026-09-27T15:32:33+0300", "daily_budget": "5000", "bid_strategy": "LOWEST_COST_WITHOUT_CAP", "optimization_goal": "LANDING_PAGE_VIEWS", "billing_event": "IMPRESSIONS", "targeting": {"age_max": 65, "age_min": 28, "flexible_spec": [{"interests": [{"id": "6002984410123", "name": "רואה חשבון"}, {"id": "6003274244908", "name": "ייעוץ אסטרטגי"}, {"id": "6003649965713", "name": "הנהלת חשבונות"}, {"id": "6006252868071", "name": "Consulting firm"}]}, {"interests": [{"id": "6002884511422", "name": "עסק קטן (עסקים ופיננסים)"}, {"id": "6003184559502", "name": "Professional services"}, {"id": "6003280183843", "name": "פיתוח עסקי (פעילויות עסקיות)"}]}], "geo_locations": {"countries": ["IL"], "location_types": ["frequently_in", "home"]}, "targeting_automation": {"advantage_audience": 0}, "user_age_unknown": false}}
-  - מודעה 2026-W40-SA1 · live: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/1SVwsDRooWAhBrZ", "created_time": "2026-09-29T16:56:34+0300", "updated_time": "2026-10-01T00:17:55+0300"}
-  - מודעה 2026-W40-SA3 · live: {"effective_status": "ADSET_PAUSED", "configured_status": "ACTIVE", "preview_shareable_link": "https://fb.me/27sy6PY1bzLMwCd", "created_time": "2026-09-29T16:56:46+0300", "updated_time": "2026-09-29T16:59:38+0300"}
-  - מודעה 2026-W40-SA2 · live: {"effective_status": "ADSET_PAUSED", "configured_status": "ACTIVE", "preview_shareable_link": "https://fb.me/236RnO7Tgn6t53c", "created_time": "2026-09-29T16:56:41+0300", "updated_time": "2026-09-29T16:59:30+0300"}
-  - מודעה 2026-W40-SA1: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/1TSGDvgA7HPtFEw", "created_time": "2026-09-27T15:48:29+0300", "updated_time": "2026-09-29T16:58:20+0300"}
-  - מודעה 2026-W40-SA3: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/2358lZb2NlfUuWP", "created_time": "2026-09-27T15:48:39+0300", "updated_time": "2026-09-29T16:58:18+0300"}
-  - מודעה 2026-W40-SA2: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/2d92mePtDtswn3k", "created_time": "2026-09-27T15:48:34+0300", "updated_time": "2026-09-29T16:58:16+0300"}
-  - מודעה 2026-W40-SA1 · b: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/1W0SeugmMLkGZi6", "created_time": "2026-09-27T21:42:49+0300", "updated_time": "2026-09-28T09:46:34+0300"}
-  - מודעה 2026-W40-S3: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/2csFAQVaBUuj67G", "created_time": "2026-09-27T15:35:51+0300", "updated_time": "2026-09-28T07:04:02+0300"}
-  - מודעה 2026-W40-S2: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/2lri1QUMnX70ysZ", "created_time": "2026-09-27T15:36:06+0300", "updated_time": "2026-09-28T07:03:58+0300"}
-  - מודעה 2026-W40-S5: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/2aKVJz5egQ7IjlD", "created_time": "2026-09-27T15:36:13+0300", "updated_time": "2026-09-28T07:03:51+0300"}
-  - מודעה 2026-W40-S4: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/2ceLtIB53MB5Vje", "created_time": "2026-09-27T15:35:58+0300", "updated_time": "2026-09-28T07:03:33+0300"}
+  - מודעה 2026-W40-SA1 · live: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/1WaokiHlpZ1cZ10", "created_time": "2026-09-29T16:56:34+0300", "updated_time": "2026-10-01T00:17:55+0300"}
+  - מודעה 2026-W40-SA3 · live: {"effective_status": "ADSET_PAUSED", "configured_status": "ACTIVE", "preview_shareable_link": "https://fb.me/240TXY8a2aZuSsU", "created_time": "2026-09-29T16:56:46+0300", "updated_time": "2026-09-29T16:59:38+0300"}
+  - מודעה 2026-W40-SA2 · live: {"effective_status": "ADSET_PAUSED", "configured_status": "ACTIVE", "preview_shareable_link": "https://fb.me/qCi1eaoasWl9CQd", "created_time": "2026-09-29T16:56:41+0300", "updated_time": "2026-09-29T16:59:30+0300"}
+  - מודעה 2026-W40-SA1: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/28KfU5AGWeX24tJ", "created_time": "2026-09-27T15:48:29+0300", "updated_time": "2026-09-29T16:58:20+0300"}
+  - מודעה 2026-W40-SA3: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/23cVGrezcB5v4AR", "created_time": "2026-09-27T15:48:39+0300", "updated_time": "2026-09-29T16:58:18+0300"}
+  - מודעה 2026-W40-SA2: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/1SGE0H8TdgblZok", "created_time": "2026-09-27T15:48:34+0300", "updated_time": "2026-09-29T16:58:16+0300"}
+  - מודעה 2026-W40-SA1 · b: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/2kbzPPq3ZvyrNGy", "created_time": "2026-09-27T21:42:49+0300", "updated_time": "2026-09-28T09:46:34+0300"}
+  - מודעה 2026-W40-S3: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/2XN0bMgRIDebnFM", "created_time": "2026-09-27T15:35:51+0300", "updated_time": "2026-09-28T07:04:02+0300"}
+  - מודעה 2026-W40-S2: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/2nPdHRNn7ze8XHZ", "created_time": "2026-09-27T15:36:06+0300", "updated_time": "2026-09-28T07:03:58+0300"}
+  - מודעה 2026-W40-S5: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/2Hq2wSXAXhTmlz9", "created_time": "2026-09-27T15:36:13+0300", "updated_time": "2026-09-28T07:03:51+0300"}
+  - מודעה 2026-W40-S4: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/1Wq8lD69nLguQZj", "created_time": "2026-09-27T15:35:58+0300", "updated_time": "2026-09-28T07:03:33+0300"}
 
 ## לידים לפי שעה (3 ימים אחרונים)
 
@@ -440,5 +440,5 @@
 ## פיקסל
 
 - פיקסל, משפך VSL דף נחיתה (4161502784179798): ירה לאחרונה 2026-05-10T12:24 · 3 ימים: אין אירועים
-- HK Pixel (1750634382895124): ירה לאחרונה 2026-10-14T23:28 · 3 ימים: PageView 30
+- HK Pixel (1750634382895124): ירה לאחרונה 2026-10-14T23:28 · 3 ימים: PageView 31
 
