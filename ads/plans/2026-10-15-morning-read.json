@@ -1,1 +1,111 @@
-{"requested_by":"קריאה בלבד: מצב מטא בבוקר 15.10","approved":true,"approved_by":"קריאה בלבד, בלי כסף","actions":[{"type":"daily","days":2},{"type":"lead_times"},{"type":"audience_info","ids":["120252155846370740","120252155829030740"]},{"type":"check"}]}
+{
+  "requested_by": "קריאה בלבד: מצב מטא בבוקר 15.10",
+  "approved": true,
+  "approved_by": "קריאה בלבד, בלי כסף",
+  "actions": [
+    {
+      "type": "daily",
+      "days": 2
+    },
+    {
+      "type": "lead_times"
+    },
+    {
+      "type": "audience_info",
+      "ids": [
+        "120252155846370740",
+        "120252155829030740"
+      ]
+    },
+    {
+      "type": "check"
+    }
+  ],
+  "applied": [
+    {
+      "index": 0,
+      "type": "daily",
+      "ok": true,
+      "at": "2026-10-15T07:02+03:00",
+      "result": {
+        "lines": [
+          "DAILY קמפיין לידים אייל | 2026-10-14 | spend 158 | impr 950 | reach 814 | freq 1.17 | cpm 166 | clicks 21 | link 10 | leads 1",
+          "DAILY קמפיין לידים אייל | 2026-10-15 | spend 41 | impr 304 | reach 256 | freq 1.19 | cpm 133 | clicks 2 | link 1 | leads 0",
+          "HOURLY קמפיין לידים אייל | 00:00 | spend 21.2 | impr 153 | clicks 1 | leads 0",
+          "HOURLY קמפיין לידים אייל | 01:00 | spend 8.2 | impr 56 | clicks 0 | leads 0",
+          "HOURLY קמפיין לידים אייל | 02:00 | spend 1.8 | impr 29 | clicks 0 | leads 0",
+          "HOURLY קמפיין לידים אייל | 03:00 | spend 0.9 | impr 13 | clicks 0 | leads 0",
+          "HOURLY קמפיין לידים אייל | 04:00 | spend 0.5 | impr 7 | clicks 0 | leads 0",
+          "HOURLY קמפיין לידים אייל | 05:00 | spend 4.8 | impr 18 | clicks 0 | leads 0",
+          "HOURLY קמפיין לידים אייל | 06:00 | spend 3.1 | impr 28 | clicks 1 | leads 0",
+          "DAILY ‏טופס לידים || ניהול תזרים || | 2026-10-14 | spend 119 | impr 564 | reach 493 | freq 1.14 | cpm 211 | clicks 9 | link 7 | leads 3",
+          "DAILY ‏טופס לידים || ניהול תזרים || | 2026-10-15 | spend 35 | impr 93 | reach 89 | freq 1.04 | cpm 374 | clicks 1 | link 1 | leads 0",
+          "HOURLY ‏טופס לידים || ניהול תזרים || | 00:00 | spend 8.4 | impr 27 | clicks 0 | leads 0",
+          "HOURLY ‏טופס לידים || ניהול תזרים || | 01:00 | spend 2.4 | impr 7 | clicks 0 | leads 0",
+          "HOURLY ‏טופס לידים || ניהול תזרים || | 02:00 | spend 1.6 | impr 8 | clicks 0 | leads 0",
+          "HOURLY ‏טופס לידים || ניהול תזרים || | 03:00 | spend 0.3 | impr 3 | clicks 0 | leads 0",
+          "HOURLY ‏טופס לידים || ניהול תזרים || | 04:00 | spend 3.4 | impr 7 | clicks 0 | leads 0",
+          "HOURLY ‏טופס לידים || ניהול תזרים || | 05:00 | spend 9.4 | impr 15 | clicks 0 | leads 0",
+          "HOURLY ‏טופס לידים || ניהול תזרים || | 06:00 | spend 9.2 | impr 26 | clicks 1 | leads 0"
+        ]
+      }
+    },
+    {
+      "index": 1,
+      "type": "lead_times",
+      "ok": true,
+      "at": "2026-10-15T07:02+03:00",
+      "result": {
+        "lines": []
+      }
+    },
+    {
+      "index": 2,
+      "type": "audience_info",
+      "ok": true,
+      "at": "2026-10-15T07:02+03:00",
+      "result": {
+        "lines": [
+          "AINFO {\"name\": \"דומה 1-4% · בעלי עסקים bizibox (קהל אפריל 26)\", \"subtype\": \"LOOKALIKE\", \"approximate_count_lower_bound\": 1000, \"approximate_count_upper_bound\": 1000, \"time_created\": 1791998796, \"time_content_updated\": 1791999355, \"operation_status\": {\"code\": 300, \"description\": \"מעדכן\"}, \"delivery_status\": {\"code\": 300, \"description\": \"הקהל קטן מכדי לשמש ליצירת קמפיין\"}, \"data_source\": {\"type\": \"SEED_BASED\", \"sub_type\": \"CUSTOM_AUDIENCE_USERS\", \"creation_params\": \"[]\"}, \"lookalike_spec\": {\"country\": \"IL\", \"origin\": [{\"id\": \"120245943759880740\", \"name\": \"קהל אפריל 26\", \"type\": \"custom_audience\"}], \"starting_ratio\": 0.01, \"ratio\": 0.04, \"type\": \"custom_ratio\"}, \"id\": \"120252155846370740\"}",
+          "AINFO {\"name\": \"HK-business-owners-fixed.csv\", \"subtype\": \"CUSTOM\", \"approximate_count_lower_bound\": 27600, \"approximate_count_upper_bound\": 32500, \"time_created\": 1791998598, \"time_content_updated\": 1791998623, \"operation_status\": {\"code\": 200, \"description\": \"רגיל\"}, \"delivery_status\": {\"code\": 200, \"description\": \"קהל זה מוכן לשימוש.\"}, \"data_source\": {\"type\": \"UNKNOWN\", \"sub_type\": \"ANYTHING\", \"creation_params\": \"[]\"}, \"id\": \"120252155829030740\"}"
+        ]
+      }
+    },
+    {
+      "index": 3,
+      "type": "check",
+      "ok": true,
+      "at": "2026-10-15T07:02+03:00",
+      "result": {
+        "lines": [
+          "CHECK campaign HK Studio · יועצים · טופס לידים | budget 0 | today spend 0 impr 0 clicks 0 leads 0",
+          "CHECK campaign HK Studio · יועצים · כניסות לדף | budget 0 | today spend 0 impr 0 clicks 0 leads 0",
+          "CHECK campaign קמפיין לידים אייל | budget 0 | today spend 40.55 impr 304 clicks 2 leads 0",
+          "CHECK   adset טלפון · KAI + מנהל תזרים · בעלי עסקים דומה 1-4% · 2026-10 [ACTIVE] budget 80 ",
+          "CHECK     ad 2026-W42-PH3 · form [ACTIVE]  ",
+          "CHECK     ad 2026-W42-PH4 · form [ACTIVE]  ",
+          "CHECK     ad 2026-W42-PH2 · form [ACTIVE]  ",
+          "CHECK     ad 2026-W42-PH1 · form [ACTIVE]  ",
+          "CHECK   adset סדרת מודעות לידים חדשה [ACTIVE] budget 50 ",
+          "CHECK     ad מיקונוס מקוצר · 30s · מנהל תזרים [ACTIVE]  ",
+          "CHECK campaign ‏טופס לידים || ניהול תזרים || | budget 100 | today spend 34.78 impr 93 clicks 1 leads 0",
+          "CHECK   adset LAL 1% · קהל אפריל 26 · וידיאו 1 [ACTIVE] budget 0 ",
+          "CHECK     ad וידיאו 1 || 3 טקסטים · LAL אפריל 26 [ACTIVE]  ",
+          "CHECK   adset ‏‏‏קהל פתוח || 25+ || מיקומים אוטומטים || סרטונים 1-10 [ACTIVE] budget 0 ",
+          "CHECK     ad וידיאו 1 || 3 טקסטים [ACTIVE]  ",
+          "CHECK   adset ‏רימרקטינג רשימה מותאמת || 21+ || כל המיקומים || סרטונים 1-10‏ [WITH_ISSUES] budget 0 [{\"level\": \"AD_SET\", \"error_code\": 4469003, \"error_summary\": \"מודעה זו אינה מציגה\", \"error_message\": \"מודעה זו אינה מציגה: מודעה זו אינה מוצגת. יש לנסות ליצור סדרת מודעות חדשה עם הגדרות שונות כדי להתחיל להציג מודעות לקהל שלך.\", \"error_type\": \"HARD_ERROR\"}]",
+          "CHECK     ad ‏‏‏וידיאו 4 || 3 טקסטים‏‏ - עותק [WITH_ISSUES] [{\"level\": \"AD_SET\", \"error_code\": 4469003, \"error_summary\": \"מודעה זו אינה מציגה\", \"error_message\": \"מודעה זו אינה מציגה: מודעה זו אינה מוצגת. יש לנסות ליצור סדרת מודעות חדשה עם הגדרות שונות כדי להתחיל להציג מודעות לקהל שלך.\", \"error_type\": \"HARD_ERROR\"}] ",
+          "CHECK     ad ‏‏וידיאו 5 || 3 טקסטים‏‏ - עותק [WITH_ISSUES] [{\"level\": \"AD\", \"error_code\": 4469003, \"error_summary\": \"מודעה זו אינה מציגה\", \"error_message\": \"מודעה זו אינה מציגה: מודעה זו אינה מוצגת. יש לנסות ליצור סדרת מודעות חדשה עם הגדרות שונות כדי להתחיל להציג מודעות לקהל שלך.\", \"error_type\": \"HARD_ERROR\"}, {\"level\": \"AD_SET\", \"error_code\": 4469003, \"error_summary\": \"מודעה זו אינה מציגה\", \"error_message\": \"מודעה זו אינה מציגה: מודעה זו אינה מוצגת. יש לנסות ליצור סדרת מודעות חדשה עם הגדרות שונות כדי להתחיל להציג מודעות לקהל שלך.\", \"error_type\": \"HARD_ERROR\"}] ",
+          "CHECK     ad וידיאו 6 || 3 טקסטים [WITH_ISSUES] [{\"level\": \"AD\", \"error_code\": 4469003, \"error_summary\": \"מודעה זו אינה מציגה\", \"error_message\": \"מודעה זו אינה מציגה: מודעה זו אינה מוצגת. יש לנסות ליצור סדרת מודעות חדשה עם הגדרות שונות כדי להתחיל להציג מודעות לקהל שלך.\", \"error_type\": \"HARD_ERROR\"}, {\"level\": \"AD_SET\", \"error_code\": 4469003, \"error_summary\": \"מודעה זו אינה מציגה\", \"error_message\": \"מודעה זו אינה מציגה: מודעה זו אינה מוצגת. יש לנסות ליצור סדרת מודעות חדשה עם הגדרות שונות כדי להתחיל להציג מודעות לקהל שלך.\", \"error_type\": \"HARD_ERROR\"}] ",
+          "CHECK     ad ‏וידיאו 1 || 3 טקסטים‏ - עותק [WITH_ISSUES] [{\"level\": \"AD\", \"error_code\": 4469003, \"error_summary\": \"מודעה זו אינה מציגה\", \"error_message\": \"מודעה זו אינה מציגה: מודעה זו אינה מוצגת. יש לנסות ליצור סדרת מודעות חדשה עם הגדרות שונות כדי להתחיל להציג מודעות לקהל שלך.\", \"error_type\": \"HARD_ERROR\"}, {\"level\": \"AD_SET\", \"error_code\": 4469003, \"error_summary\": \"מודעה זו אינה מציגה\", \"error_message\": \"מודעה זו אינה מציגה: מודעה זו אינה מוצגת. יש לנסות ליצור סדרת מודעות חדשה עם הגדרות שונות כדי להתחיל להציג מודעות לקהל שלך.\", \"error_type\": \"HARD_ERROR\"}] ",
+          "CHECK     ad ‏‏וידיאו 9 || 3 טקסטים‏ [WITH_ISSUES] [{\"level\": \"AD\", \"error_code\": 4469003, \"error_summary\": \"מודעה זו אינה מציגה\", \"error_message\": \"מודעה זו אינה מציגה: מודעה זו אינה מוצגת. יש לנסות ליצור סדרת מודעות חדשה עם הגדרות שונות כדי להתחיל להציג מודעות לקהל שלך.\", \"error_type\": \"HARD_ERROR\"}, {\"level\": \"AD_SET\", \"error_code\": 4469003, \"error_summary\": \"מודעה זו אינה מציגה\", \"error_message\": \"מודעה זו אינה מציגה: מודעה זו אינה מוצגת. יש לנסות ליצור סדרת מודעות חדשה עם הגדרות שונות כדי להתחיל להציג מודעות לקהל שלך.\", \"error_type\": \"HARD_ERROR\"}] ",
+          "CHECK     ad ‏‏וידיאו 3 || 3 טקסטים‏ - עותק [WITH_ISSUES] [{\"level\": \"AD\", \"error_code\": 4469003, \"error_summary\": \"מודעה זו אינה מציגה\", \"error_message\": \"מודעה זו אינה מציגה: מודעה זו אינה מוצגת. יש לנסות ליצור סדרת מודעות חדשה עם הגדרות שונות כדי להתחיל להציג מודעות לקהל שלך.\", \"error_type\": \"HARD_ERROR\"}, {\"level\": \"AD_SET\", \"error_code\": 4469003, \"error_summary\": \"מודעה זו אינה מציגה\", \"error_message\": \"מודעה זו אינה מציגה: מודעה זו אינה מוצגת. יש לנסות ליצור סדרת מודעות חדשה עם הגדרות שונות כדי להתחיל להציג מודעות לקהל שלך.\", \"error_type\": \"HARD_ERROR\"}] ",
+          "CHECK     ad ‏וידיאו 8 || 3 טקסטים [WITH_ISSUES] [{\"level\": \"AD\", \"error_code\": 4469003, \"error_summary\": \"מודעה זו אינה מציגה\", \"error_message\": \"מודעה זו אינה מציגה: מודעה זו אינה מוצגת. יש לנסות ליצור סדרת מודעות חדשה עם הגדרות שונות כדי להתחיל להציג מודעות לקהל שלך.\", \"error_type\": \"HARD_ERROR\"}, {\"level\": \"AD_SET\", \"error_code\": 4469003, \"error_summary\": \"מודעה זו אינה מציגה\", \"error_message\": \"מודעה זו אינה מציגה: מודעה זו אינה מוצגת. יש לנסות ליצור סדרת מודעות חדשה עם הגדרות שונות כדי להתחיל להציג מודעות לקהל שלך.\", \"error_type\": \"HARD_ERROR\"}] ",
+          "CHECK     ad ‏וידיאו 10 || 3 טקסטים‏ [WITH_ISSUES] [{\"level\": \"AD\", \"error_code\": 4469003, \"error_summary\": \"מודעה זו אינה מציגה\", \"error_message\": \"מודעה זו אינה מציגה: מודעה זו אינה מוצגת. יש לנסות ליצור סדרת מודעות חדשה עם הגדרות שונות כדי להתחיל להציג מודעות לקהל שלך.\", \"error_type\": \"HARD_ERROR\"}, {\"level\": \"AD_SET\", \"error_code\": 4469003, \"error_summary\": \"מודעה זו אינה מציגה\", \"error_message\": \"מודעה זו אינה מציגה: מודעה זו אינה מוצגת. יש לנסות ליצור סדרת מודעות חדשה עם הגדרות שונות כדי להתחיל להציג מודעות לקהל שלך.\", \"error_type\": \"HARD_ERROR\"}] ",
+          "CHECK     ad ‏‏וידיאו 2 || 3 טקסטים‏ - עותק [WITH_ISSUES] [{\"level\": \"AD\", \"error_code\": 4469003, \"error_summary\": \"מודעה זו אינה מציגה\", \"error_message\": \"מודעה זו אינה מציגה: מודעה זו אינה מוצגת. יש לנסות ליצור סדרת מודעות חדשה עם הגדרות שונות כדי להתחיל להציג מודעות לקהל שלך.\", \"error_type\": \"HARD_ERROR\"}, {\"level\": \"AD_SET\", \"error_code\": 4469003, \"error_summary\": \"מודעה זו אינה מציגה\", \"error_message\": \"מודעה זו אינה מציגה: מודעה זו אינה מוצגת. יש לנסות ליצור סדרת מודעות חדשה עם הגדרות שונות כדי להתחיל להציג מודעות לקהל שלך.\", \"error_type\": \"HARD_ERROR\"}] ",
+          "CHECK     ad ‏וידיאו 7 || 3 טקסטים [WITH_ISSUES] [{\"level\": \"AD\", \"error_code\": 4469003, \"error_summary\": \"מודעה זו אינה מציגה\", \"error_message\": \"מודעה זו אינה מציגה: מודעה זו אינה מוצגת. יש לנסות ליצור סדרת מודעות חדשה עם הגדרות שונות כדי להתחיל להציג מודעות לקהל שלך.\", \"error_type\": \"HARD_ERROR\"}, {\"level\": \"AD_SET\", \"error_code\": 4469003, \"error_summary\": \"מודעה זו אינה מציגה\", \"error_message\": \"מודעה זו אינה מציגה: מודעה זו אינה מוצגת. יש לנסות ליצור סדרת מודעות חדשה עם הגדרות שונות כדי להתחיל להציג מודעות לקהל שלך.\", \"error_type\": \"HARD_ERROR\"}] "
+        ]
+      }
+    }
+  ]
+}
