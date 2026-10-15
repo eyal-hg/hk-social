@@ -1,0 +1,4 @@
+{"requested_by":"0 לידים ממטא היום; סרטון 1 ב-CPM 348; מודעות הטלפון כמעט לא רצות על 4 אלף איש","approved":true,"approved_by":"אייל בצ׳אט 15.10 ערב: \"1 + 3\" (1 = סרטון 1 מ-100 ל-40 ₪; 3 = להסיר מהטלפון את החרגת קהל אפריל והדומה שלו)","actions":[
+{"type":"set_adset_budget","campaign_name":"טופס לידים || ניהול תזרים ||","daily_budget_ils":40},
+{"type":"set_targeting","campaign_name":"קמפיין לידים אייל","adset_name":"טלפון · KAI + מנהל תזרים · בעלי עסקים דומה 1-4% · 2026-10","targeting":{"geo_locations":{"countries":["IL"]},"age_min":25,"age_max":65,"custom_audiences":[{"id":"120252155829030740"}],"excluded_custom_audiences":[{"id":"120252120707080740"}],"targeting_automation":{"advantage_audience":0}}},
+{"type":"check"}]}
