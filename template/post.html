@@ -130,6 +130,15 @@
   .ss-feat b { display: block; font-family: 'Rubik', sans-serif; font-weight: 800; font-size: 27px; margin: 8px 0 2px; color: var(--navy); }
   .ss-feat span { font-size: 21px; color: var(--muted); line-height: 1.3; display: block; }
   .ss-cta { position: absolute; bottom: 40px; left: 50%; transform: translateX(-50%); background: #E8635A; color: #fff; font-family: 'Rubik', sans-serif; font-weight: 800; font-size: 38px; padding: 18px 70px; border-radius: 60px; box-shadow: 0 14px 30px rgba(232,99,90,.35); white-space: nowrap; }
+  /* קהל היעד — שורה בולטת למעלה בקריאייטיבים של הסטודיו (אייל 15.10: "אף מודעה לא מבינים שזה של יועץ עסקי") */
+  .aud { display: inline-block; background: #E8635A; color: #fff; font-family: 'Rubik', sans-serif; font-weight: 800; font-size: 36px; padding: 12px 30px; border-radius: 50px; letter-spacing: .01em; white-space: nowrap; }
+  .aud b { color: #8fd0f3; font-weight: 800; }
+  .l-studio-mock .aud { margin-bottom: 26px; }
+  .l-studio-mock .sm-logo { height: 54px; margin-bottom: 22px; }
+  .l-studio-mock .main:has(.aud) .sm-mock { width: 700px; margin-top: 24px; }
+  .l-studio-mock .main:has(.aud) .sm-ben { margin-top: 26px; margin-bottom: 30px; }
+  .l-studio-secret .aud { position: absolute; top: 40px; left: 48px; }
+  .l-studio-secret .ss-logo { height: 50px; }
 </style>
 </head>
 <body>
@@ -171,7 +180,7 @@
     const ic = { keep: '<path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="m16 11 2 2 4-4"/>',
                  full: '<path d="M12 2 2 7l10 5 10-5-10-5z"/><path d="m2 17 10 5 10-5"/><path d="m2 12 10 5 10-5"/>',
                  load: '<path d="M12 5v14"/><path d="m19 12-7 7-7-7"/>' };
-    main.innerHTML = '<img class="sm-logo" src="assets/studio-logo.png" alt="">' + h +
+    main.innerHTML = '<img class="sm-logo" src="assets/studio-logo.png" alt="">' + (P.aud ? `<div class="aud">${P.aud}</div>` : '') + h +
       (P.body ? `<div class="sm-sub">${P.body}</div>` : '') + (P.kicker ? `<div class="sm-line">${P.kicker}</div>` : '') +
       `<div class="sm-mock"><div class="sm-screen"><img src="${P.photo || 'assets/studio-timeline.jpg'}" alt=""></div><div class="sm-base"></div></div>` +
       '<div class="sm-ben">' + (P.steps || []).map(b => `<div><svg viewBox="0 0 24 24">${ic[b.text] || ic.full}</svg>${b.title}</div>`).join('') + '</div>' +
@@ -194,7 +203,7 @@
       '<path d="M146 296h44M146 314h44" stroke="#082f4d" stroke-width="3.5" opacity=".3"/>' +
       '<path d="M262 104q14-10 22-26M274 134q16-4 28-14M254 78q6-14 8-30" stroke="#E8635A" stroke-width="6"/></svg>';
     const t = (P.title || '').split('|');
-    main.innerHTML = '<img class="ss-logo" src="assets/studio-logo.png" alt="">' + fig +
+    main.innerHTML = '<img class="ss-logo" src="assets/studio-logo.png" alt="">' + (P.aud ? `<div class="aud">${P.aud}</div>` : '') + fig +
       `<div class="ss-head"><span class="sh">${P.kicker || ''}</span><span class="t">${t[0] || ''}</span><span class="t">${t[1] || ''}</span><span class="u">${t[2] || ''}</span></div>` +
       `<div class="ss-band">${tear.replace('TT','top')}<div class="ss-sub">${P.body || ''}</div><div class="ss-plus">${(P.left && P.left.title) || ''}</div>` +
       `<div class="ss-lap"><div class="scr"><img src="${P.photo || 'assets/studio-timeline.jpg'}" alt=""></div><div class="base"></div></div><div class="ss-ph"><img src="assets/studio-app-home.jpg" alt=""></div>${tear.replace('TT','bot')}</div>` +
