@@ -1,1 +1,107 @@
-{"requested_by":"קריאה בלבד: ניתוח יום טוב במטא 18.10","approved":true,"approved_by":"קריאה בלבד, בלי כסף","actions":[{"type":"today_ads"},{"type":"lead_times"},{"type":"daily","days":5}]}
+{
+  "requested_by": "קריאה בלבד: ניתוח יום טוב במטא 18.10",
+  "approved": true,
+  "approved_by": "קריאה בלבד, בלי כסף",
+  "actions": [
+    {
+      "type": "today_ads"
+    },
+    {
+      "type": "lead_times"
+    },
+    {
+      "type": "daily",
+      "days": 5
+    }
+  ],
+  "applied": [
+    {
+      "index": 0,
+      "type": "today_ads",
+      "ok": true,
+      "at": "2026-10-18T17:26+03:00",
+      "result": {
+        "lines": [
+          "TODAY ‏טופס לידים || ניהול תזרים || | ‏‏‏קהל פתוח || 25+ || מיקומים אוטומטים || סרטונים 1-10 | וידיאו 1 || 3 טקסטים | spend 53.43 | impr 158 | leads 1",
+          "TODAY קמפיין לידים אייל | לקוחות bizibox · קהל מותאם · 2026-10 | 2026-W42-BZA · form | spend 79.43 | impr 434 | leads 2",
+          "TODAY קמפיין לידים אייל | סדרת מודעות לידים חדשה | מיקונוס מקוצר · 30s · מנהל תזרים | spend 44.26 | impr 173 | leads 0",
+          "TODAY קמפיין לידים אייל | טלפון · KAI + מנהל תזרים · בעלי עסקים דומה 1-4% · 2026-10 | 2026-W42-PH1 · form | spend 55.72 | impr 418 | leads 2",
+          "TODAY קמפיין לידים אייל | טלפון · KAI + מנהל תזרים · בעלי עסקים דומה 1-4% · 2026-10 | 2026-W42-PH2 · form | spend 15.82 | impr 102 | leads 0",
+          "TODAY קמפיין לידים אייל | טלפון · KAI + מנהל תזרים · בעלי עסקים דומה 1-4% · 2026-10 | 2026-W42-PH3 · form | spend 0.86 | impr 10 | leads 0",
+          "TODAY קמפיין לידים אייל | טלפון · KAI + מנהל תזרים · בעלי עסקים דומה 1-4% · 2026-10 | 2026-W42-PH4 · form | spend 21.27 | impr 69 | leads 0"
+        ]
+      }
+    },
+    {
+      "index": 1,
+      "type": "lead_times",
+      "ok": true,
+      "at": "2026-10-18T17:26+03:00",
+      "result": {
+        "lines": [
+          "LEADHOUR 02:00 | לקוחות bizibox · קהל מותאם · 2026-10 | 2026-W42-BZA · form | 1",
+          "LEADHOUR 05:00 | ‏‏‏קהל פתוח || 25+ || מיקומים אוטומטים || סרטונים 1-10 | וידיאו 1 || 3 טקסטים | 1",
+          "LEADHOUR 12:00 | טלפון · KAI + מנהל תזרים · בעלי עסקים דומה 1-4% · 2026-10 | 2026-W42-PH1 · form | 1",
+          "LEADHOUR 12:00 | לקוחות bizibox · קהל מותאם · 2026-10 | 2026-W42-BZA · form | 1",
+          "LEADHOUR 14:00 | טלפון · KAI + מנהל תזרים · בעלי עסקים דומה 1-4% · 2026-10 | 2026-W42-PH1 · form | 1"
+        ]
+      }
+    },
+    {
+      "index": 2,
+      "type": "daily",
+      "ok": true,
+      "at": "2026-10-18T17:26+03:00",
+      "result": {
+        "lines": [
+          "DAILY קמפיין לידים אייל | 2026-10-14 | spend 160 | impr 959 | reach 822 | freq 1.17 | cpm 167 | clicks 21 | link 10 | leads 1",
+          "DAILY קמפיין לידים אייל | 2026-10-15 | spend 132 | impr 726 | reach 555 | freq 1.31 | cpm 182 | clicks 11 | link 6 | leads 0",
+          "DAILY קמפיין לידים אייל | 2026-10-16 | spend 139 | impr 642 | reach 414 | freq 1.55 | cpm 217 | clicks 12 | link 8 | leads 0",
+          "DAILY קמפיין לידים אייל | 2026-10-17 | spend 105 | impr 475 | reach 334 | freq 1.42 | cpm 220 | clicks 12 | link 6 | leads 0",
+          "DAILY קמפיין לידים אייל | 2026-10-18 | spend 217 | impr 1206 | reach 746 | freq 1.62 | cpm 180 | clicks 50 | link 12 | leads 4",
+          "HOURLY קמפיין לידים אייל | 00:00 | spend 4.8 | impr 39 | clicks 2 | leads 0",
+          "HOURLY קמפיין לידים אייל | 01:00 | spend 8.8 | impr 38 | clicks 3 | leads 0",
+          "HOURLY קמפיין לידים אייל | 02:00 | spend 5.9 | impr 32 | clicks 2 | leads 1",
+          "HOURLY קמפיין לידים אייל | 03:00 | spend 4.3 | impr 26 | clicks 1 | leads 0",
+          "HOURLY קמפיין לידים אייל | 04:00 | spend 7.6 | impr 32 | clicks 1 | leads 0",
+          "HOURLY קמפיין לידים אייל | 05:00 | spend 12.1 | impr 50 | clicks 3 | leads 0",
+          "HOURLY קמפיין לידים אייל | 06:00 | spend 19.2 | impr 77 | clicks 6 | leads 0",
+          "HOURLY קמפיין לידים אייל | 07:00 | spend 26.9 | impr 107 | clicks 5 | leads 0",
+          "HOURLY קמפיין לידים אייל | 08:00 | spend 18.0 | impr 87 | clicks 5 | leads 0",
+          "HOURLY קמפיין לידים אייל | 09:00 | spend 8.7 | impr 59 | clicks 2 | leads 0",
+          "HOURLY קמפיין לידים אייל | 10:00 | spend 9.2 | impr 55 | clicks 1 | leads 0",
+          "HOURLY קמפיין לידים אייל | 11:00 | spend 10.6 | impr 55 | clicks 3 | leads 0",
+          "HOURLY קמפיין לידים אייל | 12:00 | spend 15.6 | impr 83 | clicks 5 | leads 2",
+          "HOURLY קמפיין לידים אייל | 13:00 | spend 12.6 | impr 94 | clicks 4 | leads 0",
+          "HOURLY קמפיין לידים אייל | 14:00 | spend 21.3 | impr 100 | clicks 5 | leads 1",
+          "HOURLY קמפיין לידים אייל | 15:00 | spend 14.8 | impr 121 | clicks 1 | leads 0",
+          "HOURLY קמפיין לידים אייל | 16:00 | spend 11.8 | impr 102 | clicks 0 | leads 0",
+          "HOURLY קמפיין לידים אייל | 17:00 | spend 5.4 | impr 49 | clicks 1 | leads 0",
+          "DAILY ‏טופס לידים || ניהול תזרים || | 2026-10-14 | spend 120 | impr 568 | reach 497 | freq 1.14 | cpm 211 | clicks 9 | link 7 | leads 3",
+          "DAILY ‏טופס לידים || ניהול תזרים || | 2026-10-15 | spend 98 | impr 371 | reach 337 | freq 1.10 | cpm 265 | clicks 6 | link 4 | leads 0",
+          "DAILY ‏טופס לידים || ניהול תזרים || | 2026-10-16 | spend 53 | impr 199 | reach 174 | freq 1.14 | cpm 268 | clicks 7 | link 4 | leads 0",
+          "DAILY ‏טופס לידים || ניהול תזרים || | 2026-10-17 | spend 25 | impr 94 | reach 87 | freq 1.08 | cpm 269 | clicks 6 | link 4 | leads 1",
+          "DAILY ‏טופס לידים || ניהול תזרים || | 2026-10-18 | spend 53 | impr 158 | reach 146 | freq 1.08 | cpm 338 | clicks 3 | link 1 | leads 1",
+          "HOURLY ‏טופס לידים || ניהול תזרים || | 00:00 | spend 3.9 | impr 17 | clicks 0 | leads 0",
+          "HOURLY ‏טופס לידים || ניהול תזרים || | 01:00 | spend 13.8 | impr 16 | clicks 0 | leads 0",
+          "HOURLY ‏טופס לידים || ניהול תזרים || | 02:00 | spend 0.9 | impr 7 | clicks 0 | leads 0",
+          "HOURLY ‏טופס לידים || ניהול תזרים || | 03:00 | spend 3.0 | impr 7 | clicks 0 | leads 0",
+          "HOURLY ‏טופס לידים || ניהול תזרים || | 04:00 | spend 0.2 | impr 3 | clicks 0 | leads 0",
+          "HOURLY ‏טופס לידים || ניהול תזרים || | 05:00 | spend 4.0 | impr 10 | clicks 2 | leads 1",
+          "HOURLY ‏טופס לידים || ניהול תזרים || | 06:00 | spend 6.4 | impr 9 | clicks 1 | leads 0",
+          "HOURLY ‏טופס לידים || ניהול תזרים || | 07:00 | spend 7.0 | impr 20 | clicks 0 | leads 0",
+          "HOURLY ‏טופס לידים || ניהול תזרים || | 08:00 | spend 1.7 | impr 6 | clicks 0 | leads 0",
+          "HOURLY ‏טופס לידים || ניהול תזרים || | 09:00 | spend 0.7 | impr 5 | clicks 0 | leads 0",
+          "HOURLY ‏טופס לידים || ניהול תזרים || | 10:00 | spend 1.3 | impr 6 | clicks 0 | leads 0",
+          "HOURLY ‏טופס לידים || ניהול תזרים || | 11:00 | spend 2.5 | impr 9 | clicks 0 | leads 0",
+          "HOURLY ‏טופס לידים || ניהול תזרים || | 12:00 | spend 1.6 | impr 5 | clicks 0 | leads 0",
+          "HOURLY ‏טופס לידים || ניהול תזרים || | 13:00 | spend 0.8 | impr 5 | clicks 0 | leads 0",
+          "HOURLY ‏טופס לידים || ניהול תזרים || | 14:00 | spend 0.5 | impr 2 | clicks 0 | leads 0",
+          "HOURLY ‏טופס לידים || ניהול תזרים || | 15:00 | spend 1.6 | impr 10 | clicks 0 | leads 0",
+          "HOURLY ‏טופס לידים || ניהול תזרים || | 16:00 | spend 3.0 | impr 15 | clicks 0 | leads 0",
+          "HOURLY ‏טופס לידים || ניהול תזרים || | 17:00 | spend 0.4 | impr 6 | clicks 0 | leads 0"
+        ]
+      }
+    }
+  ]
+}
