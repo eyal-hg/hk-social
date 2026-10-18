@@ -1,0 +1,5 @@
+{"requested_by":"18.10: 4 מתוך 5 לידים ממודעות סטטיות (PH1 ב-28 ₪, BZA ב-40 ₪); מיקונוס המקוצר בלי לידים מאז 15.10","approved":true,"approved_by":"אייל בצ׳אט 18.10: כן (מיקונוס מקוצר עוצר, טלפון 80→110, ביזיבוקס 53→73, סרטון 1 נשאר 40)","actions":[
+{"type":"pause_adset","campaign_name":"קמפיין לידים אייל","adset_name":"סדרת מודעות לידים חדשה"},
+{"type":"set_adset_budget","campaign_name":"קמפיין לידים אייל","adset_name":"טלפון · KAI + מנהל תזרים · בעלי עסקים דומה 1-4% · 2026-10","daily_budget_ils":110},
+{"type":"set_adset_budget","campaign_name":"קמפיין לידים אייל","adset_name":"לקוחות bizibox · קהל מותאם · 2026-10","daily_budget_ils":73},
+{"type":"check"}]}
