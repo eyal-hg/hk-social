@@ -67,5 +67,140 @@
         ]
       }
     }
+  ],
+  "applied": [
+    {
+      "index": 0,
+      "type": "set_targeting",
+      "ok": true,
+      "at": "2026-10-18T20:31+03:00",
+      "result": {
+        "campaign_id": "120251977931170740",
+        "adset_id": "120252210355580740",
+        "targeting": {
+          "geo_locations": {
+            "countries": [
+              "IL"
+            ],
+            "location_types": [
+              "home"
+            ]
+          },
+          "age_min": 28,
+          "age_max": 65,
+          "targeting_automation": {
+            "advantage_audience": 0
+          },
+          "flexible_spec": [
+            {
+              "work_positions": [
+                {
+                  "id": "112303612129140",
+                  "name": "Business consultant"
+                },
+                {
+                  "id": "775020095880331",
+                  "name": "Business Management Consultant"
+                },
+                {
+                  "id": "599903136775985",
+                  "name": "Business Process Consultant"
+                },
+                {
+                  "id": "108173379210853",
+                  "name": "Financial adviser"
+                },
+                {
+                  "id": "113837198626859",
+                  "name": "Independent Financial Adviser"
+                }
+              ],
+              "interests": [
+                {
+                  "id": "6003274244908",
+                  "name": "Management consulting"
+                },
+                {
+                  "id": "6006252868071",
+                  "name": "Consulting firm"
+                },
+                {
+                  "id": "6899293316073",
+                  "name": "Consulting"
+                },
+                {
+                  "id": "6003282114841",
+                  "name": "Certified Financial Planner"
+                }
+              ]
+            }
+          ]
+        },
+        "before": {
+          "age_max": 65,
+          "age_min": 28,
+          "flexible_spec": [
+            {
+              "interests": [
+                {
+                  "id": "6003274244908",
+                  "name": "ייעוץ אסטרטגי"
+                },
+                {
+                  "id": "6003282114841",
+                  "name": "Certified Financial Planner"
+                },
+                {
+                  "id": "6006252868071",
+                  "name": "Consulting firm"
+                },
+                {
+                  "id": "6899293316073",
+                  "name": "ייעוץ (עסקים ופיננסים)"
+                }
+              ],
+              "work_positions": [
+                {
+                  "id": "108173379210853",
+                  "name": "Financial adviser"
+                },
+                {
+                  "id": "112303612129140",
+                  "name": "Business consultant"
+                },
+                {
+                  "id": "113837198626859",
+                  "name": "Independent Financial Adviser"
+                },
+                {
+                  "id": "599903136775985",
+                  "name": "Business Process Consultant"
+                },
+                {
+                  "id": "775020095880331",
+                  "name": "Business Management Consultant"
+                }
+              ]
+            }
+          ],
+          "geo_locations": {
+            "countries": [
+              "IL"
+            ],
+            "location_types": [
+              "home"
+            ]
+          },
+          "targeting_automation": {
+            "advantage_audience": 0
+          }
+        },
+        "estimate": {
+          "estimate_mau_lower_bound": 172000,
+          "estimate_mau_upper_bound": 202300,
+          "estimate_ready": true
+        }
+      }
+    }
   ]
 }
