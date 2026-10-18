@@ -191,7 +191,9 @@
   } else if (layout === 'studio-mock') {
     const ic = { keep: '<path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="m16 11 2 2 4-4"/>',
                  full: '<path d="M12 2 2 7l10 5 10-5-10-5z"/><path d="m2 17 10 5 10-5"/><path d="m2 12 10 5 10-5"/>',
-                 load: '<path d="M12 5v14"/><path d="m19 12-7 7-7-7"/>' };
+                 load: '<path d="M12 5v14"/><path d="m19 12-7 7-7-7"/>',
+                 ai: '<path d="M12 3l1.8 4.7 4.7 1.8-4.7 1.8L12 16l-1.8-4.7L5.5 9.5l4.7-1.8z"/><path d="M19 15l.8 2.2L22 18l-2.2.8L19 21l-.8-2.2L16 18l2.2-.8z"/>',
+                 eye: '<path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/>' };
     main.innerHTML = '<img class="sm-logo" src="assets/studio-logo.png" alt="">' + (P.aud ? `<div class="aud">${P.aud}</div>` : '') + h +
       (P.body ? `<div class="sm-sub">${P.body}</div>` : '') + (P.kicker ? `<div class="sm-line">${P.kicker}</div>` : '') +
       `<div class="sm-mock"><div class="sm-screen"><img src="${P.photo || 'assets/studio-timeline.jpg'}" alt=""></div><div class="sm-base"></div></div>` +
