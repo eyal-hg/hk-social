@@ -1,0 +1,17 @@
+{
+  "requested_by": "קריאה בלבד: ניתוח היום במטא 19.10 (אחרי טלפון 110, ביזיבוקס 73, מיקונוס עצר)",
+  "approved": true,
+  "approved_by": "קריאה בלבד, בלי כסף",
+  "actions": [
+    {
+      "type": "today_ads"
+    },
+    {
+      "type": "lead_times"
+    },
+    {
+      "type": "daily",
+      "days": 6
+    }
+  ]
+}
