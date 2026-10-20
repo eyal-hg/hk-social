@@ -1,0 +1,17 @@
+{
+  "requested_by": "קריאה בלבד: ביצועי היום 20.10 לפי מודעה",
+  "approved": true,
+  "approved_by": "קריאה בלבד, בלי כסף",
+  "actions": [
+    {
+      "type": "today_ads"
+    },
+    {
+      "type": "lead_times"
+    },
+    {
+      "type": "daily",
+      "days": 3
+    }
+  ]
+}
