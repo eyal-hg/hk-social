@@ -1,0 +1,9 @@
+{
+  "requested_by": "קריאה בלבד: לוודא שקמפיין סרטון 1 פעיל על 100 ₪ אחרי השינוי",
+  "approved": true,
+  "approved_by": "קריאה בלבד, בלי כסף",
+  "actions": [
+    {"type": "inspect_ads", "campaign_name": "טופס לידים || ניהול תזרים ||"},
+    {"type": "check"}
+  ]
+}
