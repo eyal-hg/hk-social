@@ -1,0 +1,12 @@
+{
+  "requested_by": "קריאה בלבד: למה אין לידים יומיים (20–21.10) אחרי 18–19.10 טובים",
+  "approved": true,
+  "approved_by": "קריאה בלבד, בלי כסף",
+  "actions": [
+    {"type": "today_ads"},
+    {"type": "daily", "days": 8},
+    {"type": "check"},
+    {"type": "inspect_ads", "campaign_name": "קמפיין לידים אייל"},
+    {"type": "inspect_ads", "campaign_name": "‏טופס לידים || ניהול תזרים ||"}
+  ]
+}
