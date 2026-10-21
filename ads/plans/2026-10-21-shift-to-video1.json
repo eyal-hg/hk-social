@@ -1,0 +1,27 @@
+{
+  "requested_by": "21.10: שבוע 14–20.10 — סרטון 1 ~51 ₪ לליד (9 לידים), טלפון+ביזיבוקס ~169 ₪ לליד; PH2–PH4 0 לידים על ~240 ₪",
+  "approved": true,
+  "approved_by": "אייל בצ׳אט 21.10: \"כן: סרטון 1 מ-40 ל-100 ₪ ביום, טלפון רק PH1 על 30 ₪ (לעצור PH2, PH3 ו-PH4), ביזיבוקס נשאר 73.\"",
+  "actions": [
+    {
+      "type": "set_adset_budget",
+      "campaign_name": "טופס לידים || ניהול תזרים ||",
+      "daily_budget_ils": 100
+    },
+    {
+      "type": "pause_ads",
+      "campaign_name": "קמפיין לידים אייל",
+      "adset_name": "טלפון · KAI + מנהל תזרים · בעלי עסקים דומה 1-4% · 2026-10",
+      "ad_names": ["2026-W42-PH2 · form", "2026-W42-PH3 · form", "2026-W42-PH4 · form"]
+    },
+    {
+      "type": "set_adset_budget",
+      "campaign_name": "קמפיין לידים אייל",
+      "adset_name": "טלפון · KAI + מנהל תזרים · בעלי עסקים דומה 1-4% · 2026-10",
+      "daily_budget_ils": 30
+    },
+    {
+      "type": "check"
+    }
+  ]
+}
