@@ -1,5 +1,5 @@
 {
- "generated": "22.10.2026 10:55",
+ "generated": "22.10.2026 12:18",
  "account": {
   "name": "HK",
   "currency": "ILS",
@@ -430,14 +430,14 @@
     "landing_page_views": 1.0
    },
    "lifetime": {
-    "spend": 17855.61,
-    "impressions": 121704,
-    "reach": 29319,
+    "spend": 17858.11,
+    "impressions": 121736,
+    "reach": 29320,
     "clicks": 2584,
-    "ctr": 2.123184,
-    "cpc": 6.910066,
+    "ctr": 2.122626,
+    "cpc": 6.911033,
     "leads": 207.0,
-    "cost_per_lead": 86.258986,
+    "cost_per_lead": 86.271063,
     "landing_page_views": 1.0
    },
    "ads_last7": [
@@ -660,14 +660,14 @@
     {
      "adset": "לקוחות bizibox · קהל מותאם · 2026-10",
      "name": "2026-W42-BZA · form",
-     "spend": 361.29,
-     "impressions": 2624,
-     "reach": 682,
+     "spend": 363.01,
+     "impressions": 2642,
+     "reach": 683,
      "clicks": 102,
-     "ctr": 3.887195,
-     "cpc": 3.542059,
+     "ctr": 3.860712,
+     "cpc": 3.558922,
      "leads": 5.0,
-     "cost_per_lead": 72.258,
+     "cost_per_lead": 72.602,
      "landing_page_views": 1.0
     },
     {
@@ -712,14 +712,14 @@
     {
      "adset": "טלפון · KAI + מנהל תזרים · בעלי עסקים דומה 1-4% · 2026-10",
      "name": "2026-W42-PH1 · form",
-     "spend": 416.26,
-     "impressions": 3130,
-     "reach": 1205,
+     "spend": 417.04,
+     "impressions": 3144,
+     "reach": 1207,
      "clicks": 61,
-     "ctr": 1.948882,
-     "cpc": 6.823934,
+     "ctr": 1.940204,
+     "cpc": 6.836721,
      "leads": 4.0,
-     "cost_per_lead": 104.065,
+     "cost_per_lead": 104.26,
      "landing_page_views": 0.0
     },
     {
@@ -1724,14 +1724,14 @@
     "landing_page_views": 1.0
    },
    "lifetime": {
-    "spend": 25582.7,
-    "impressions": 247533,
-    "reach": 49530,
+    "spend": 25584.08,
+    "impressions": 247546,
+    "reach": 49531,
     "clicks": 4851,
-    "ctr": 1.959739,
-    "cpc": 5.273696,
+    "ctr": 1.959636,
+    "cpc": 5.273981,
     "leads": 447.0,
-    "cost_per_lead": 57.231991,
+    "cost_per_lead": 57.235078,
     "landing_page_views": 1.0
    },
    "ads_last7": [
@@ -2210,14 +2210,14 @@
     {
      "adset": "‏‏‏קהל פתוח || 25+ || מיקומים אוטומטים || סרטונים 1-10",
      "name": "וידיאו 1 || 3 טקסטים",
-     "spend": 17975.71,
-     "impressions": 159252,
+     "spend": 17977.09,
+     "impressions": 159265,
      "reach": 42300,
      "clicks": 2406,
-     "ctr": 1.510813,
-     "cpc": 7.471201,
+     "ctr": 1.51069,
+     "cpc": 7.471775,
      "leads": 323.0,
-     "cost_per_lead": 55.652353,
+     "cost_per_lead": 55.656625,
      "landing_page_views": 1.0
     },
     {
@@ -3822,23 +3822,23 @@
  },
  "today": {
   "120216039932250740": {
-   "spend": 42.21,
-   "impressions": 134,
-   "reach": 129,
+   "spend": 43.59,
+   "impressions": 147,
+   "reach": 139,
    "clicks": 2,
-   "ctr": 1.492537,
-   "cpc": 21.105,
+   "ctr": 1.360544,
+   "cpc": 21.795,
    "leads": 0.0,
    "cost_per_lead": null,
    "landing_page_views": 0.0
   },
   "120245939439290740": {
-   "spend": 32.74,
-   "impressions": 221,
-   "reach": 192,
+   "spend": 35.24,
+   "impressions": 253,
+   "reach": 211,
    "clicks": 4,
-   "ctr": 1.809955,
-   "cpc": 8.185,
+   "ctr": 1.581028,
+   "cpc": 8.81,
    "leads": 0.0,
    "cost_per_lead": null,
    "landing_page_views": 0.0
