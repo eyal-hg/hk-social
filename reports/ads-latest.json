@@ -1,5 +1,5 @@
 {
- "generated": "23.10.2026 10:54",
+ "generated": "23.10.2026 12:14",
  "account": {
   "name": "HK",
   "currency": "ILS",
@@ -430,14 +430,14 @@
     "landing_page_views": 1.0
    },
    "lifetime": {
-    "spend": 17970.5,
-    "impressions": 122558,
-    "reach": 29435,
-    "clicks": 2603,
-    "ctr": 2.123892,
-    "cpc": 6.903765,
+    "spend": 17975.83,
+    "impressions": 122615,
+    "reach": 29436,
+    "clicks": 2605,
+    "ctr": 2.124536,
+    "cpc": 6.900511,
     "leads": 209.0,
-    "cost_per_lead": 85.983254,
+    "cost_per_lead": 86.008756,
     "landing_page_views": 1.0
    },
    "ads_last7": [
@@ -660,14 +660,14 @@
     {
      "adset": "לקוחות bizibox · קהל מותאם · 2026-10",
      "name": "2026-W42-BZA · form",
-     "spend": 437.22,
-     "impressions": 3259,
-     "reach": 777,
-     "clicks": 120,
-     "ctr": 3.682111,
-     "cpc": 3.6435,
+     "spend": 441.15,
+     "impressions": 3307,
+     "reach": 787,
+     "clicks": 122,
+     "ctr": 3.689144,
+     "cpc": 3.615984,
      "leads": 7.0,
-     "cost_per_lead": 62.46,
+     "cost_per_lead": 63.021429,
      "landing_page_views": 1.0
     },
     {
@@ -712,14 +712,14 @@
     {
      "adset": "טלפון · KAI + מנהל תזרים · בעלי עסקים דומה 1-4% · 2026-10",
      "name": "2026-W42-PH1 · form",
-     "spend": 455.22,
-     "impressions": 3349,
-     "reach": 1238,
+     "spend": 456.62,
+     "impressions": 3358,
+     "reach": 1240,
      "clicks": 62,
-     "ctr": 1.851299,
-     "cpc": 7.342258,
+     "ctr": 1.846337,
+     "cpc": 7.364839,
      "leads": 4.0,
-     "cost_per_lead": 113.805,
+     "cost_per_lead": 114.155,
      "landing_page_views": 0.0
     },
     {
@@ -1724,14 +1724,14 @@
     "landing_page_views": 1.0
    },
    "lifetime": {
-    "spend": 25678.83,
-    "impressions": 247977,
-    "reach": 49531,
-    "clicks": 4869,
-    "ctr": 1.963489,
-    "cpc": 5.273943,
+    "spend": 25683.4,
+    "impressions": 248001,
+    "reach": 49530,
+    "clicks": 4870,
+    "ctr": 1.963702,
+    "cpc": 5.273799,
     "leads": 449.0,
-    "cost_per_lead": 57.191158,
+    "cost_per_lead": 57.201336,
     "landing_page_views": 1.0
    },
    "ads_last7": [
@@ -2210,14 +2210,14 @@
     {
      "adset": "‏‏‏קהל פתוח || 25+ || מיקומים אוטומטים || סרטונים 1-10",
      "name": "וידיאו 1 || 3 טקסטים",
-     "spend": 18071.84,
-     "impressions": 159696,
+     "spend": 18076.41,
+     "impressions": 159720,
      "reach": 42300,
-     "clicks": 2424,
-     "ctr": 1.517884,
-     "cpc": 7.45538,
+     "clicks": 2425,
+     "ctr": 1.518282,
+     "cpc": 7.45419,
      "leads": 325.0,
-     "cost_per_lead": 55.605662,
+     "cost_per_lead": 55.619723,
      "landing_page_views": 1.0
     },
     {
@@ -3822,25 +3822,25 @@
  },
  "today": {
   "120216039932250740": {
-   "spend": 41.06,
-   "impressions": 146,
-   "reach": 136,
-   "clicks": 5,
-   "ctr": 3.424658,
-   "cpc": 8.212,
+   "spend": 45.63,
+   "impressions": 170,
+   "reach": 159,
+   "clicks": 6,
+   "ctr": 3.529412,
+   "cpc": 7.605,
    "leads": 0.0,
    "cost_per_lead": null,
    "landing_page_views": 0.0
   },
   "120245939439290740": {
-   "spend": 50.03,
-   "impressions": 326,
-   "reach": 269,
-   "clicks": 10,
-   "ctr": 3.067485,
-   "cpc": 5.003,
+   "spend": 55.36,
+   "impressions": 383,
+   "reach": 302,
+   "clicks": 12,
+   "ctr": 3.133159,
+   "cpc": 4.613333,
    "leads": 1.0,
-   "cost_per_lead": 50.03,
+   "cost_per_lead": 55.36,
    "landing_page_views": 0.0
   }
  },
@@ -3914,7 +3914,7 @@
    "name": "HK Pixel",
    "last_fired_time": "2026-10-22T14:08:11+0300",
    "events_3d": {
-    "PageView": 39
+    "PageView": 40
    }
   }
  ],
