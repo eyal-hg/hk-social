@@ -1,0 +1,10 @@
+{
+  "requested_by": "קריאה בלבד: תמונת מצב לידים 25.10 לבקשת אייל — 28 ימים לפי קמפיין, מה פעיל, תקציבים",
+  "approved": true,
+  "approved_by": "קריאה בלבד, בלי כסף",
+  "actions": [
+    {"type": "daily", "days": 28},
+    {"type": "check"},
+    {"type": "history", "months": 2}
+  ]
+}
