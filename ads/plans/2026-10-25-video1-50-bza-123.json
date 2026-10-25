@@ -1,0 +1,21 @@
+{
+  "requested_by": "25.10: סרטון 1 עייף (23–25.10: 228 ₪, 0 לידים, CPM 265–308); ביזיבוקס מביא בקביעות. אותה הוצאה כוללת, חלוקה אחרת.",
+  "approved": true,
+  "approved_by": "אייל דרך הסשן «אייל» 25.10: \"1\" לצעד 3 — סרטון 1 מ-100 ל-50, ה-50 לביזיבוקס BZA מ-73 ל-123",
+  "actions": [
+    {
+      "type": "set_adset_budget",
+      "campaign_name": "טופס לידים || ניהול תזרים ||",
+      "daily_budget_ils": 50
+    },
+    {
+      "type": "set_adset_budget",
+      "campaign_name": "קמפיין לידים אייל",
+      "adset_name": "לקוחות bizibox · קהל מותאם · 2026-10",
+      "daily_budget_ils": 123
+    },
+    {
+      "type": "check"
+    }
+  ]
+}
