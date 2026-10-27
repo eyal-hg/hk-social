@@ -21,5 +21,64 @@
     {
       "type": "check"
     }
+  ],
+  "applied": [
+    {
+      "index": 0,
+      "type": "pause_adset",
+      "ok": true,
+      "at": "2026-10-27T12:05+02:00",
+      "result": {
+        "campaign_id": "120216039932250740",
+        "adset_id": "120251977929100740",
+        "status": "PAUSED"
+      }
+    },
+    {
+      "index": 1,
+      "type": "pause_adset",
+      "ok": true,
+      "at": "2026-10-27T12:05+02:00",
+      "result": {
+        "campaign_id": "120216039932250740",
+        "adset_id": "120217396577120740",
+        "status": "PAUSED"
+      }
+    },
+    {
+      "index": 2,
+      "type": "pause_adset",
+      "ok": true,
+      "at": "2026-10-27T12:06+02:00",
+      "result": {
+        "campaign_id": "120216039932250740",
+        "adset_id": "120216040142310740",
+        "status": "PAUSED"
+      }
+    },
+    {
+      "index": 3,
+      "type": "check",
+      "ok": true,
+      "at": "2026-10-27T12:06+02:00",
+      "result": {
+        "lines": [
+          "CHECK campaign HK Studio · יועצים · טופס לידים | budget 0 | today spend 0 impr 0 clicks 0 leads 0",
+          "CHECK   adset HK Studio · יועצים · טופס לידים · קבוצה 3 · יועצים עסקיים ופיננסיים [ACTIVE] budget 75 ",
+          "CHECK     ad 2026-W43-SA6 · form [ACTIVE]  ",
+          "CHECK     ad 2026-W43-SA8 · form [ACTIVE]  ",
+          "CHECK     ad 2026-W43-SA7 · form [ACTIVE]  ",
+          "CHECK campaign HK Studio · יועצים · כניסות לדף | budget 0 | today spend 0 impr 0 clicks 0 leads 0",
+          "CHECK campaign קמפיין לידים אייל | budget 0 | today spend 105.12 impr 731 clicks 11 leads 0",
+          "CHECK   adset טלפון · KAI + מנהל תזרים · בעלי עסקים דומה 1-4% · 2026-10 [ACTIVE] budget 80 ",
+          "CHECK     ad 2026-W44-WA · שאלה אחת בוואטסאפ · form [ACTIVE]  ",
+          "CHECK     ad 2026-W44-PL1 · form [ACTIVE]  ",
+          "CHECK     ad 2026-W42-PH1 · form [ACTIVE]  ",
+          "CHECK   adset לקוחות bizibox · קהל מותאם · 2026-10 [ACTIVE] budget 123 ",
+          "CHECK     ad 2026-W42-BZA · form [ACTIVE]  ",
+          "CHECK campaign ‏טופס לידים || ניהול תזרים || | budget 50 | today spend 25.8 impr 90 clicks 0 leads 0"
+        ]
+      }
+    }
   ]
 }
