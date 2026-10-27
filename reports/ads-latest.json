@@ -1,10 +1,10 @@
 {
- "generated": "27.10.2026 10:21",
+ "generated": "27.10.2026 11:43",
  "account": {
   "name": "HK",
   "currency": "ILS",
   "account_status": 1,
-  "amount_spent": "8630611",
+  "amount_spent": "8630626",
   "id": "act_1886192278456348"
  },
  "campaigns": [
@@ -408,36 +408,36 @@
     }
    ],
    "last7": {
-    "spend": 989.37,
-    "impressions": 7909,
+    "spend": 989.52,
+    "impressions": 7910,
     "reach": 2197,
     "clicks": 205,
-    "ctr": 2.591984,
-    "cpc": 4.826195,
+    "ctr": 2.591656,
+    "cpc": 4.826927,
     "leads": 12.0,
-    "cost_per_lead": 82.4475,
+    "cost_per_lead": 82.46,
     "landing_page_views": 0.0
    },
    "last30": {
-    "spend": 3962.33,
-    "impressions": 25133,
+    "spend": 3962.48,
+    "impressions": 25134,
     "reach": 7174,
     "clicks": 598,
-    "ctr": 2.379342,
-    "cpc": 6.62597,
+    "ctr": 2.379247,
+    "cpc": 6.626221,
     "leads": 36.0,
-    "cost_per_lead": 110.064722,
+    "cost_per_lead": 110.068889,
     "landing_page_views": 1.0
    },
    "lifetime": {
-    "spend": 18656.21,
-    "impressions": 128079,
-    "reach": 30081,
-    "clicks": 2741,
-    "ctr": 2.140085,
-    "cpc": 6.806352,
+    "spend": 18669.67,
+    "impressions": 128193,
+    "reach": 30118,
+    "clicks": 2742,
+    "ctr": 2.138962,
+    "cpc": 6.808778,
     "leads": 216.0,
-    "cost_per_lead": 86.371343,
+    "cost_per_lead": 86.433657,
     "landing_page_views": 1.0
    },
    "ads_last7": [
@@ -445,14 +445,14 @@
      "id": "120252120866880740",
      "adset": "לקוחות bizibox · קהל מותאם · 2026-10",
      "name": "2026-W42-BZA · form",
-     "spend": 597.9,
-     "impressions": 5123,
+     "spend": 598.05,
+     "impressions": 5124,
      "reach": 1145,
      "clicks": 147,
-     "ctr": 2.869412,
-     "cpc": 4.067347,
+     "ctr": 2.868852,
+     "cpc": 4.068367,
      "leads": 7.0,
-     "cost_per_lead": 85.414286,
+     "cost_per_lead": 85.435714,
      "landing_page_views": 0.0
     },
     {
@@ -674,14 +674,14 @@
     {
      "adset": "לקוחות bizibox · קהל מותאם · 2026-10",
      "name": "2026-W42-BZA · form",
-     "spend": 854.97,
-     "impressions": 6768,
-     "reach": 1246,
-     "clicks": 214,
-     "ctr": 3.161939,
-     "cpc": 3.995187,
+     "spend": 862.83,
+     "impressions": 6836,
+     "reach": 1252,
+     "clicks": 215,
+     "ctr": 3.145114,
+     "cpc": 4.013163,
      "leads": 10.0,
-     "cost_per_lead": 85.497,
+     "cost_per_lead": 86.283,
      "landing_page_views": 1.0
     },
     {
@@ -726,14 +726,14 @@
     {
      "adset": "טלפון · KAI + מנהל תזרים · בעלי עסקים דומה 1-4% · 2026-10",
      "name": "2026-W42-PH1 · form",
-     "spend": 553.92,
-     "impressions": 4025,
+     "spend": 555.22,
+     "impressions": 4029,
      "reach": 1398,
      "clicks": 73,
-     "ctr": 1.813665,
-     "cpc": 7.587945,
+     "ctr": 1.811864,
+     "cpc": 7.605753,
      "leads": 5.0,
-     "cost_per_lead": 110.784,
+     "cost_per_lead": 111.044,
      "landing_page_views": 0.0
     },
     {
@@ -778,21 +778,21 @@
     {
      "adset": "טלפון · KAI + מנהל תזרים · בעלי עסקים דומה 1-4% · 2026-10",
      "name": "2026-W44-PL1 · form",
-     "spend": 166.34,
-     "impressions": 1314,
-     "reach": 694,
+     "spend": 170.54,
+     "impressions": 1355,
+     "reach": 713,
      "clicks": 33,
-     "ctr": 2.511416,
-     "cpc": 5.040606,
+     "ctr": 2.435424,
+     "cpc": 5.167879,
      "leads": 3.0,
-     "cost_per_lead": 55.446667,
+     "cost_per_lead": 56.846667,
      "landing_page_views": 0.0
     },
     {
      "adset": "טלפון · KAI + מנהל תזרים · בעלי עסקים דומה 1-4% · 2026-10",
      "name": "2026-W44-WA · שאלה אחת בוואטסאפ · form",
-     "spend": 2.92,
-     "impressions": 22,
+     "spend": 3.02,
+     "impressions": 23,
      "reach": 16,
      "clicks": 0,
      "ctr": 0.0,
@@ -1764,14 +1764,14 @@
     "landing_page_views": 1.0
    },
    "lifetime": {
-    "spend": 25990.82,
-    "impressions": 249262,
-    "reach": 49753,
+    "spend": 25991.86,
+    "impressions": 249269,
+    "reach": 49754,
     "clicks": 4884,
-    "ctr": 1.959384,
-    "cpc": 5.321626,
+    "ctr": 1.959329,
+    "cpc": 5.321839,
     "leads": 449.0,
-    "cost_per_lead": 57.886013,
+    "cost_per_lead": 57.88833,
     "landing_page_views": 1.0
    },
    "ads_last7": [
@@ -2250,14 +2250,14 @@
     {
      "adset": "‏‏‏קהל פתוח || 25+ || מיקומים אוטומטים || סרטונים 1-10",
      "name": "וידיאו 1 || 3 טקסטים",
-     "spend": 18383.81,
-     "impressions": 160980,
-     "reach": 42556,
+     "spend": 18384.85,
+     "impressions": 160987,
+     "reach": 42555,
      "clicks": 2439,
-     "ctr": 1.515095,
-     "cpc": 7.537437,
+     "ctr": 1.515029,
+     "cpc": 7.537864,
      "leads": 325.0,
-     "cost_per_lead": 56.565569,
+     "cost_per_lead": 56.568769,
      "landing_page_views": 1.0
     },
     {
@@ -3876,9 +3876,9 @@
  },
  "today": {
   "120216039932250740": {
-   "spend": 24.52,
-   "impressions": 81,
-   "reach": 74,
+   "spend": 25.56,
+   "impressions": 88,
+   "reach": 80,
    "clicks": 0,
    "ctr": 0.0,
    "cpc": 0.0,
@@ -3887,12 +3887,12 @@
    "landing_page_views": 0.0
   },
   "120245939439290740": {
-   "spend": 89.36,
-   "impressions": 595,
-   "reach": 485,
-   "clicks": 10,
-   "ctr": 1.680672,
-   "cpc": 8.936,
+   "spend": 102.67,
+   "impressions": 708,
+   "reach": 556,
+   "clicks": 11,
+   "ctr": 1.553672,
+   "cpc": 9.333636,
    "leads": 0.0,
    "cost_per_lead": null,
    "landing_page_views": 0.0
@@ -3961,7 +3961,7 @@
    "name": "HK Pixel",
    "last_fired_time": "2026-10-27T01:58:15+0200",
    "events_3d": {
-    "PageView": 53
+    "PageView": 54
    }
   }
  ],
@@ -3980,26 +3980,26 @@
     "landing_page_views": 0.0
    },
    "120245939439290740": {
-    "spend": 240.84,
-    "impressions": 1814,
+    "spend": 240.99,
+    "impressions": 1815,
     "reach": 1164,
     "clicks": 54,
-    "ctr": 2.976847,
-    "cpc": 4.46,
+    "ctr": 2.975207,
+    "cpc": 4.462778,
     "leads": 4.0,
-    "cost_per_lead": 60.21,
+    "cost_per_lead": 60.2475,
     "landing_page_views": 0.0
    }
   },
   "total": {
-   "spend": 292.7,
-   "impressions": 2020,
+   "spend": 292.85,
+   "impressions": 2021,
    "reach": 1351,
    "clicks": 56,
-   "ctr": 2.7722772277227725,
-   "cpc": 5.226785714285714,
+   "ctr": 2.770905492330529,
+   "cpc": 5.229464285714286,
    "leads": 4.0,
-   "cost_per_lead": 73.175,
+   "cost_per_lead": 73.2125,
    "landing_page_views": 0.0
   }
  }
