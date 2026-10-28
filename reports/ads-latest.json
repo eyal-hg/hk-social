@@ -1,5 +1,5 @@
 {
- "generated": "28.10.2026 10:56",
+ "generated": "28.10.2026 12:28",
  "account": {
   "name": "HK",
   "currency": "ILS",
@@ -73,14 +73,14 @@
     "landing_page_views": 1.0
    },
    "lifetime": {
-    "spend": 532.16,
-    "impressions": 8870,
-    "reach": 7282,
+    "spend": 535.32,
+    "impressions": 8961,
+    "reach": 7326,
     "clicks": 104,
-    "ctr": 1.172492,
-    "cpc": 5.116923,
+    "ctr": 1.160585,
+    "cpc": 5.147308,
     "leads": 5.0,
-    "cost_per_lead": 106.432,
+    "cost_per_lead": 107.064,
     "landing_page_views": 1.0
    },
    "ads_last7": [
@@ -170,12 +170,12 @@
     {
      "adset": "HK Studio · יועצים · טופס לידים · קבוצה 3 · יועצים עסקיים ופיננסיים",
      "name": "2026-W43-SA6 · form",
-     "spend": 16.09,
-     "impressions": 244,
-     "reach": 193,
+     "spend": 16.14,
+     "impressions": 245,
+     "reach": 194,
      "clicks": 4,
-     "ctr": 1.639344,
-     "cpc": 4.0225,
+     "ctr": 1.632653,
+     "cpc": 4.035,
      "leads": 0.0,
      "cost_per_lead": null,
      "landing_page_views": 0.0
@@ -183,27 +183,27 @@
     {
      "adset": "HK Studio · יועצים · טופס לידים · קבוצה 3 · יועצים עסקיים ופיננסיים",
      "name": "2026-W43-SA7 · form",
-     "spend": 208.58,
-     "impressions": 4779,
-     "reach": 4215,
+     "spend": 211.68,
+     "impressions": 4867,
+     "reach": 4265,
      "clicks": 50,
-     "ctr": 1.046244,
-     "cpc": 4.1716,
+     "ctr": 1.027327,
+     "cpc": 4.2336,
      "leads": 3.0,
-     "cost_per_lead": 69.526667,
+     "cost_per_lead": 70.56,
      "landing_page_views": 0.0
     },
     {
      "adset": "HK Studio · יועצים · טופס לידים · קבוצה 3 · יועצים עסקיים ופיננסיים",
      "name": "2026-W43-SA8 · form",
-     "spend": 83.4,
-     "impressions": 2457,
+     "spend": 83.41,
+     "impressions": 2459,
      "reach": 2345,
      "clicks": 15,
-     "ctr": 0.610501,
-     "cpc": 5.56,
+     "ctr": 0.610004,
+     "cpc": 5.560667,
      "leads": 1.0,
-     "cost_per_lead": 83.4,
+     "cost_per_lead": 83.41,
      "landing_page_views": 1.0
     }
    ]
@@ -430,14 +430,14 @@
     "landing_page_views": 1.0
    },
    "lifetime": {
-    "spend": 18846.73,
-    "impressions": 130052,
+    "spend": 18852.62,
+    "impressions": 130136,
     "reach": 30359,
     "clicks": 2774,
-    "ctr": 2.132993,
-    "cpc": 6.794063,
+    "ctr": 2.131616,
+    "cpc": 6.796186,
     "leads": 220.0,
-    "cost_per_lead": 85.666955,
+    "cost_per_lead": 85.693727,
     "landing_page_views": 1.0
    },
    "ads_last7": [
@@ -674,14 +674,14 @@
     {
      "adset": "לקוחות bizibox · קהל מותאם · 2026-10",
      "name": "2026-W42-BZA · form",
-     "spend": 969.58,
-     "impressions": 7965,
-     "reach": 1362,
+     "spend": 973.26,
+     "impressions": 8012,
+     "reach": 1364,
      "clicks": 234,
-     "ctr": 2.937853,
-     "cpc": 4.143504,
+     "ctr": 2.920619,
+     "cpc": 4.159231,
      "leads": 13.0,
-     "cost_per_lead": 74.583077,
+     "cost_per_lead": 74.866154,
      "landing_page_views": 1.0
     },
     {
@@ -726,14 +726,14 @@
     {
      "adset": "טלפון · KAI + מנהל תזרים · בעלי עסקים דומה 1-4% · 2026-10",
      "name": "2026-W42-PH1 · form",
-     "spend": 576.82,
-     "impressions": 4200,
-     "reach": 1440,
+     "spend": 577.14,
+     "impressions": 4207,
+     "reach": 1444,
      "clicks": 78,
-     "ctr": 1.857143,
-     "cpc": 7.395128,
+     "ctr": 1.854053,
+     "cpc": 7.399231,
      "leads": 6.0,
-     "cost_per_lead": 96.136667,
+     "cost_per_lead": 96.19,
      "landing_page_views": 0.0
     },
     {
@@ -778,14 +778,14 @@
     {
      "adset": "טלפון · KAI + מנהל תזרים · בעלי עסקים דומה 1-4% · 2026-10",
      "name": "2026-W44-PL1 · form",
-     "spend": 218.91,
-     "impressions": 1906,
-     "reach": 921,
+     "spend": 220.8,
+     "impressions": 1936,
+     "reach": 934,
      "clicks": 41,
-     "ctr": 2.151102,
-     "cpc": 5.339268,
+     "ctr": 2.117769,
+     "cpc": 5.385366,
      "leads": 3.0,
-     "cost_per_lead": 72.97,
+     "cost_per_lead": 73.6,
      "landing_page_views": 0.0
     },
     {
@@ -3795,23 +3795,23 @@
  },
  "today": {
   "120245939439290740": {
-   "spend": 54.35,
-   "impressions": 561,
-   "reach": 471,
+   "spend": 60.24,
+   "impressions": 645,
+   "reach": 537,
    "clicks": 9,
-   "ctr": 1.604278,
-   "cpc": 6.038889,
+   "ctr": 1.395349,
+   "cpc": 6.693333,
    "leads": 2.0,
-   "cost_per_lead": 27.175,
+   "cost_per_lead": 30.12,
    "landing_page_views": 0.0
   },
   "120251977931170740": {
-   "spend": 34.1,
-   "impressions": 745,
-   "reach": 711,
+   "spend": 37.26,
+   "impressions": 836,
+   "reach": 792,
    "clicks": 9,
-   "ctr": 1.208054,
-   "cpc": 3.788889,
+   "ctr": 1.076555,
+   "cpc": 4.14,
    "leads": 0.0,
    "cost_per_lead": null,
    "landing_page_views": 0.0
@@ -3892,9 +3892,9 @@
   {
    "id": "1750634382895124",
    "name": "HK Pixel",
-   "last_fired_time": "2026-10-28T00:55:30+0200",
+   "last_fired_time": "2026-10-28T10:55:51+0200",
    "events_3d": {
-    "PageView": 51
+    "PageView": 53
    }
   }
  ],
