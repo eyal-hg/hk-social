@@ -1,10 +1,10 @@
 {
- "generated": "27.10.2026 11:43",
+ "generated": "28.10.2026 03:38",
  "account": {
   "name": "HK",
   "currency": "ILS",
   "account_status": 1,
-  "amount_spent": "8630626",
+  "amount_spent": "8663392",
   "id": "act_1886192278456348"
  },
  "campaigns": [
@@ -17,13 +17,13 @@
    "lifetime_budget": null,
    "start_time": "2026-10-03T14:11:44+0300",
    "stop_time": null,
-   "updated_time": "2026-10-03T14:11:42+0300",
+   "updated_time": "2026-10-27T11:50:46+0200",
    "adsets": [
     {
      "campaign_id": "120251977931170740",
      "name": "HK Studio · יועצים · טופס לידים · קבוצה 3 · יועצים עסקיים ופיננסיים",
-     "effective_status": "PAUSED",
-     "daily_budget": "10000",
+     "effective_status": "ACTIVE",
+     "daily_budget": "7500",
      "optimization_goal": "LEAD_GENERATION",
      "destination_type": "ON_AD",
      "start_time": "2026-10-18T20:28:34+0300",
@@ -51,36 +51,36 @@
     }
    ],
    "last7": {
-    "spend": 14.69,
-    "impressions": 582,
-    "reach": 551,
-    "clicks": 2,
-    "ctr": 0.343643,
-    "cpc": 7.345,
-    "leads": 0.0,
-    "cost_per_lead": null,
+    "spend": 75.86,
+    "impressions": 2011,
+    "reach": 1890,
+    "clicks": 29,
+    "ctr": 1.442069,
+    "cpc": 2.615862,
+    "leads": 2.0,
+    "cost_per_lead": 37.93,
     "landing_page_views": 0.0
    },
    "last30": {
-    "spend": 422.14,
-    "impressions": 6109,
-    "reach": 5153,
-    "clicks": 66,
-    "ctr": 1.080373,
-    "cpc": 6.396061,
-    "leads": 3.0,
-    "cost_per_lead": 140.713333,
+    "spend": 498.0,
+    "impressions": 8120,
+    "reach": 6931,
+    "clicks": 95,
+    "ctr": 1.169951,
+    "cpc": 5.242105,
+    "leads": 5.0,
+    "cost_per_lead": 99.6,
     "landing_page_views": 1.0
    },
    "lifetime": {
-    "spend": 422.14,
-    "impressions": 6109,
-    "reach": 4878,
-    "clicks": 66,
-    "ctr": 1.080373,
-    "cpc": 6.396061,
-    "leads": 3.0,
-    "cost_per_lead": 140.713333,
+    "spend": 519.4,
+    "impressions": 8610,
+    "reach": 7043,
+    "clicks": 101,
+    "ctr": 1.173055,
+    "cpc": 5.142574,
+    "leads": 5.0,
+    "cost_per_lead": 103.88,
     "landing_page_views": 1.0
    },
    "ads_last7": [
@@ -88,12 +88,12 @@
      "id": "120252210357910740",
      "adset": "HK Studio · יועצים · טופס לידים · קבוצה 3 · יועצים עסקיים ופיננסיים",
      "name": "2026-W43-SA6 · form",
-     "spend": 0.27,
-     "impressions": 14,
-     "reach": 14,
-     "clicks": 0,
-     "ctr": 0.0,
-     "cpc": 0.0,
+     "spend": 7.63,
+     "impressions": 129,
+     "reach": 108,
+     "clicks": 2,
+     "ctr": 1.550388,
+     "cpc": 3.815,
      "leads": 0.0,
      "cost_per_lead": null,
      "landing_page_views": 0.0
@@ -102,26 +102,26 @@
      "id": "120252210359610740",
      "adset": "HK Studio · יועצים · טופס לידים · קבוצה 3 · יועצים עסקיים ופיננסיים",
      "name": "2026-W43-SA7 · form",
-     "spend": 8.82,
-     "impressions": 320,
-     "reach": 308,
-     "clicks": 1,
-     "ctr": 0.3125,
-     "cpc": 8.82,
-     "leads": 0.0,
-     "cost_per_lead": null,
+     "spend": 66.56,
+     "impressions": 1834,
+     "reach": 1746,
+     "clicks": 26,
+     "ctr": 1.417666,
+     "cpc": 2.56,
+     "leads": 2.0,
+     "cost_per_lead": 33.28,
      "landing_page_views": 0.0
     },
     {
      "id": "120252210360310740",
      "adset": "HK Studio · יועצים · טופס לידים · קבוצה 3 · יועצים עסקיים ופיננסיים",
      "name": "2026-W43-SA8 · form",
-     "spend": 5.6,
-     "impressions": 248,
-     "reach": 244,
+     "spend": 1.67,
+     "impressions": 48,
+     "reach": 48,
      "clicks": 1,
-     "ctr": 0.403226,
-     "cpc": 5.6,
+     "ctr": 2.083333,
+     "cpc": 1.67,
      "leads": 0.0,
      "cost_per_lead": null,
      "landing_page_views": 0.0
@@ -170,12 +170,12 @@
     {
      "adset": "HK Studio · יועצים · טופס לידים · קבוצה 3 · יועצים עסקיים ופיננסיים",
      "name": "2026-W43-SA6 · form",
-     "spend": 7.83,
-     "impressions": 98,
-     "reach": 85,
-     "clicks": 2,
-     "ctr": 2.040816,
-     "cpc": 3.915,
+     "spend": 15.74,
+     "impressions": 236,
+     "reach": 190,
+     "clicks": 4,
+     "ctr": 1.694915,
+     "cpc": 3.935,
      "leads": 0.0,
      "cost_per_lead": null,
      "landing_page_views": 0.0
@@ -183,27 +183,27 @@
     {
      "adset": "HK Studio · יועצים · טופס לידים · קבוצה 3 · יועצים עסקיים ופיננסיים",
      "name": "2026-W43-SA7 · form",
-     "spend": 110.72,
-     "impressions": 2277,
-     "reach": 2079,
-     "clicks": 17,
-     "ctr": 0.746596,
-     "cpc": 6.512941,
-     "leads": 1.0,
-     "cost_per_lead": 110.72,
+     "spend": 196.85,
+     "impressions": 4549,
+     "reach": 4026,
+     "clicks": 47,
+     "ctr": 1.033194,
+     "cpc": 4.188298,
+     "leads": 3.0,
+     "cost_per_lead": 65.616667,
      "landing_page_views": 0.0
     },
     {
      "adset": "HK Studio · יועצים · טופס לידים · קבוצה 3 · יועצים עסקיים ופיננסיים",
      "name": "2026-W43-SA8 · form",
-     "spend": 79.5,
-     "impressions": 2344,
-     "reach": 2229,
-     "clicks": 12,
-     "ctr": 0.511945,
-     "cpc": 6.625,
+     "spend": 82.72,
+     "impressions": 2435,
+     "reach": 2321,
+     "clicks": 15,
+     "ctr": 0.616016,
+     "cpc": 5.514667,
      "leads": 1.0,
-     "cost_per_lead": 79.5,
+     "cost_per_lead": 82.72,
      "landing_page_views": 1.0
     }
    ]
@@ -408,36 +408,36 @@
     }
    ],
    "last7": {
-    "spend": 989.52,
-    "impressions": 7910,
-    "reach": 2197,
-    "clicks": 205,
-    "ctr": 2.591656,
-    "cpc": 4.826927,
-    "leads": 12.0,
-    "cost_per_lead": 82.46,
+    "spend": 1096.37,
+    "impressions": 9017,
+    "reach": 2481,
+    "clicks": 211,
+    "ctr": 2.340024,
+    "cpc": 5.196066,
+    "leads": 14.0,
+    "cost_per_lead": 78.312143,
     "landing_page_views": 0.0
    },
    "last30": {
-    "spend": 3962.48,
-    "impressions": 25134,
-    "reach": 7174,
-    "clicks": 598,
-    "ctr": 2.379247,
-    "cpc": 6.626221,
-    "leads": 36.0,
-    "cost_per_lead": 110.068889,
+    "spend": 4139.31,
+    "impressions": 26867,
+    "reach": 7321,
+    "clicks": 626,
+    "ctr": 2.329996,
+    "cpc": 6.612316,
+    "leads": 38.0,
+    "cost_per_lead": 108.929211,
     "landing_page_views": 1.0
    },
    "lifetime": {
-    "spend": 18669.67,
-    "impressions": 128193,
-    "reach": 30118,
-    "clicks": 2742,
-    "ctr": 2.138962,
-    "cpc": 6.808778,
-    "leads": 216.0,
-    "cost_per_lead": 86.433657,
+    "spend": 18813.14,
+    "impressions": 129652,
+    "reach": 30336,
+    "clicks": 2767,
+    "ctr": 2.134175,
+    "cpc": 6.799111,
+    "leads": 218.0,
+    "cost_per_lead": 86.298807,
     "landing_page_views": 1.0
    },
    "ads_last7": [
@@ -445,37 +445,37 @@
      "id": "120252120866880740",
      "adset": "לקוחות bizibox · קהל מותאם · 2026-10",
      "name": "2026-W42-BZA · form",
-     "spend": 598.05,
-     "impressions": 5124,
-     "reach": 1145,
-     "clicks": 147,
-     "ctr": 2.868852,
-     "cpc": 4.068367,
-     "leads": 7.0,
-     "cost_per_lead": 85.435714,
+     "spend": 674.95,
+     "impressions": 5764,
+     "reach": 1266,
+     "clicks": 144,
+     "ctr": 2.498265,
+     "cpc": 4.687153,
+     "leads": 8.0,
+     "cost_per_lead": 84.36875,
      "landing_page_views": 0.0
     },
     {
      "id": "120252155858160740",
      "adset": "טלפון · KAI + מנהל תזרים · בעלי עסקים דומה 1-4% · 2026-10",
      "name": "2026-W42-PH1 · form",
-     "spend": 239.58,
-     "impressions": 1609,
-     "reach": 772,
+     "spend": 213.24,
+     "impressions": 1429,
+     "reach": 727,
      "clicks": 27,
-     "ctr": 1.678061,
-     "cpc": 8.873333,
-     "leads": 2.0,
-     "cost_per_lead": 119.79,
+     "ctr": 1.889433,
+     "cpc": 7.897778,
+     "leads": 3.0,
+     "cost_per_lead": 71.08,
      "landing_page_views": 0.0
     },
     {
      "id": "120252155859770740",
      "adset": "טלפון · KAI + מנהל תזרים · בעלי עסקים דומה 1-4% · 2026-10",
      "name": "2026-W42-PH2 · form",
-     "spend": 2.46,
-     "impressions": 14,
-     "reach": 12,
+     "spend": 0.59,
+     "impressions": 6,
+     "reach": 6,
      "clicks": 0,
      "ctr": 0.0,
      "cpc": 0.0,
@@ -487,9 +487,9 @@
      "id": "120252155876540740",
      "adset": "טלפון · KAI + מנהל תזרים · בעלי עסקים דומה 1-4% · 2026-10",
      "name": "2026-W42-PH3 · form",
-     "spend": 0.81,
-     "impressions": 8,
-     "reach": 7,
+     "spend": 0.27,
+     "impressions": 3,
+     "reach": 2,
      "clicks": 0,
      "ctr": 0.0,
      "cpc": 0.0,
@@ -501,9 +501,9 @@
      "id": "120252155877190740",
      "adset": "טלפון · KAI + מנהל תזרים · בעלי עסקים דומה 1-4% · 2026-10",
      "name": "2026-W42-PH4 · form",
-     "spend": 6.56,
-     "impressions": 32,
-     "reach": 26,
+     "spend": 2.25,
+     "impressions": 10,
+     "reach": 10,
      "clicks": 0,
      "ctr": 0.0,
      "cpc": 0.0,
@@ -515,23 +515,23 @@
      "id": "120252336732580740",
      "adset": "טלפון · KAI + מנהל תזרים · בעלי עסקים דומה 1-4% · 2026-10",
      "name": "2026-W44-PL1 · form",
-     "spend": 139.37,
-     "impressions": 1104,
-     "reach": 593,
-     "clicks": 31,
-     "ctr": 2.807971,
-     "cpc": 4.495806,
+     "spend": 201.71,
+     "impressions": 1774,
+     "reach": 895,
+     "clicks": 40,
+     "ctr": 2.254791,
+     "cpc": 5.04275,
      "leads": 3.0,
-     "cost_per_lead": 46.456667,
+     "cost_per_lead": 67.236667,
      "landing_page_views": 0.0
     },
     {
      "id": "120252336733040740",
      "adset": "טלפון · KAI + מנהל תזרים · בעלי עסקים דומה 1-4% · 2026-10",
      "name": "2026-W44-WA · שאלה אחת בוואטסאפ · form",
-     "spend": 2.69,
-     "impressions": 19,
-     "reach": 14,
+     "spend": 3.36,
+     "impressions": 31,
+     "reach": 19,
      "clicks": 0,
      "ctr": 0.0,
      "cpc": 0.0,
@@ -674,14 +674,14 @@
     {
      "adset": "לקוחות bizibox · קהל מותאם · 2026-10",
      "name": "2026-W42-BZA · form",
-     "spend": 862.83,
-     "impressions": 6836,
-     "reach": 1252,
-     "clicks": 215,
-     "ctr": 3.145114,
-     "cpc": 4.013163,
-     "leads": 10.0,
-     "cost_per_lead": 86.283,
+     "spend": 948.59,
+     "impressions": 7694,
+     "reach": 1349,
+     "clicks": 227,
+     "ctr": 2.950351,
+     "cpc": 4.178811,
+     "leads": 11.0,
+     "cost_per_lead": 86.235455,
      "landing_page_views": 1.0
     },
     {
@@ -726,14 +726,14 @@
     {
      "adset": "טלפון · KAI + מנהל תזרים · בעלי עסקים דומה 1-4% · 2026-10",
      "name": "2026-W42-PH1 · form",
-     "spend": 555.22,
-     "impressions": 4029,
-     "reach": 1398,
-     "clicks": 73,
-     "ctr": 1.811864,
-     "cpc": 7.605753,
-     "leads": 5.0,
-     "cost_per_lead": 111.044,
+     "spend": 572.74,
+     "impressions": 4159,
+     "reach": 1428,
+     "clicks": 78,
+     "ctr": 1.875451,
+     "cpc": 7.342821,
+     "leads": 6.0,
+     "cost_per_lead": 95.456667,
      "landing_page_views": 0.0
     },
     {
@@ -778,22 +778,22 @@
     {
      "adset": "טלפון · KAI + מנהל תזרים · בעלי עסקים דומה 1-4% · 2026-10",
      "name": "2026-W44-PL1 · form",
-     "spend": 170.54,
-     "impressions": 1355,
-     "reach": 713,
-     "clicks": 33,
-     "ctr": 2.435424,
-     "cpc": 5.167879,
+     "spend": 210.39,
+     "impressions": 1818,
+     "reach": 891,
+     "clicks": 41,
+     "ctr": 2.255226,
+     "cpc": 5.131463,
      "leads": 3.0,
-     "cost_per_lead": 56.846667,
+     "cost_per_lead": 70.13,
      "landing_page_views": 0.0
     },
     {
      "adset": "טלפון · KAI + מנהל תזרים · בעלי עסקים דומה 1-4% · 2026-10",
      "name": "2026-W44-WA · שאלה אחת בוואטסאפ · form",
-     "spend": 3.02,
-     "impressions": 23,
-     "reach": 16,
+     "spend": 3.36,
+     "impressions": 31,
+     "reach": 19,
      "clicks": 0,
      "ctr": 0.0,
      "cpc": 0.0,
@@ -1689,7 +1689,7 @@
     {
      "campaign_id": "120216039932250740",
      "name": "LAL 1% · קהל אפריל 26 · וידיאו 1",
-     "effective_status": "ACTIVE",
+     "effective_status": "PAUSED",
      "optimization_goal": "LEAD_GENERATION",
      "destination_type": "ON_AD",
      "start_time": "2026-10-03T14:11:32+0300",
@@ -1707,7 +1707,7 @@
     {
      "campaign_id": "120216039932250740",
      "name": "‏‏‏קהל פתוח || 25+ || מיקומים אוטומטים || סרטונים 1-10",
-     "effective_status": "ACTIVE",
+     "effective_status": "PAUSED",
      "optimization_goal": "LEAD_GENERATION",
      "destination_type": "ON_AD",
      "start_time": "2025-02-13T12:18:21+0200",
@@ -1725,7 +1725,7 @@
     {
      "campaign_id": "120216039932250740",
      "name": "‏רימרקטינג רשימה מותאמת || 21+ || כל המיקומים || סרטונים 1-10‏",
-     "effective_status": "WITH_ISSUES",
+     "effective_status": "PAUSED",
      "optimization_goal": "LEAD_GENERATION",
      "destination_type": "ON_AD",
      "start_time": "2025-01-13T15:22:16+0200",
@@ -1742,36 +1742,36 @@
     }
    ],
    "last7": {
-    "spend": 560.72,
-    "impressions": 2340,
-    "reach": 1641,
-    "clicks": 51,
-    "ctr": 2.179487,
-    "cpc": 10.99451,
+    "spend": 543.34,
+    "impressions": 2253,
+    "reach": 1597,
+    "clicks": 47,
+    "ctr": 2.086107,
+    "cpc": 11.560426,
     "leads": 4.0,
-    "cost_per_lead": 140.18,
+    "cost_per_lead": 135.835,
     "landing_page_views": 0.0
    },
    "last30": {
-    "spend": 2293.24,
-    "impressions": 12696,
-    "reach": 5386,
-    "clicks": 305,
-    "ctr": 2.402331,
-    "cpc": 7.51882,
+    "spend": 2290.64,
+    "impressions": 12522,
+    "reach": 5347,
+    "clicks": 301,
+    "ctr": 2.403769,
+    "cpc": 7.6101,
     "leads": 35.0,
-    "cost_per_lead": 65.521143,
+    "cost_per_lead": 65.446857,
     "landing_page_views": 1.0
    },
    "lifetime": {
-    "spend": 25991.86,
-    "impressions": 249269,
-    "reach": 49754,
+    "spend": 25992.95,
+    "impressions": 249275,
+    "reach": 49753,
     "clicks": 4884,
-    "ctr": 1.959329,
-    "cpc": 5.321839,
+    "ctr": 1.959282,
+    "cpc": 5.322062,
     "leads": 449.0,
-    "cost_per_lead": 57.88833,
+    "cost_per_lead": 57.890757,
     "landing_page_views": 1.0
    },
    "ads_last7": [
@@ -1779,23 +1779,23 @@
      "id": "120217396577080740",
      "adset": "‏‏‏קהל פתוח || 25+ || מיקומים אוטומטים || סרטונים 1-10",
      "name": "וידיאו 1 || 3 טקסטים",
-     "spend": 560.62,
-     "impressions": 2338,
-     "reach": 1641,
-     "clicks": 51,
-     "ctr": 2.181352,
-     "cpc": 10.992549,
+     "spend": 543.32,
+     "impressions": 2252,
+     "reach": 1597,
+     "clicks": 47,
+     "ctr": 2.087034,
+     "cpc": 11.56,
      "leads": 4.0,
-     "cost_per_lead": 140.155,
+     "cost_per_lead": 135.83,
      "landing_page_views": 0.0
     },
     {
      "id": "120251977930680740",
      "adset": "LAL 1% · קהל אפריל 26 · וידיאו 1",
      "name": "וידיאו 1 || 3 טקסטים · LAL אפריל 26",
-     "spend": 0.1,
-     "impressions": 2,
-     "reach": 2,
+     "spend": 0.02,
+     "impressions": 1,
+     "reach": 1,
      "clicks": 0,
      "ctr": 0.0,
      "cpc": 0.0,
@@ -2250,14 +2250,14 @@
     {
      "adset": "‏‏‏קהל פתוח || 25+ || מיקומים אוטומטים || סרטונים 1-10",
      "name": "וידיאו 1 || 3 טקסטים",
-     "spend": 18384.85,
-     "impressions": 160987,
+     "spend": 18385.94,
+     "impressions": 160993,
      "reach": 42555,
      "clicks": 2439,
-     "ctr": 1.515029,
-     "cpc": 7.537864,
+     "ctr": 1.514973,
+     "cpc": 7.538311,
      "leads": 325.0,
-     "cost_per_lead": 56.568769,
+     "cost_per_lead": 56.572123,
      "landing_page_views": 1.0
     },
     {
@@ -2864,9 +2864,9 @@
    "adsets": [
     {
      "name": "HK Studio · יועצים · טופס לידים · קבוצה 3 · יועצים עסקיים ופיננסיים",
-     "status": "PAUSED",
-     "effective_status": "PAUSED",
-     "daily_budget": "10000",
+     "status": "ACTIVE",
+     "effective_status": "ACTIVE",
+     "daily_budget": "7500",
      "id": "120252210355580740"
     },
     {
@@ -2886,25 +2886,25 @@
    ],
    "ads": [
     {
-     "name": "2026-W43-SA7 · form",
+     "name": "2026-W43-SA6 · form",
      "status": "ACTIVE",
-     "effective_status": "ADSET_PAUSED",
+     "effective_status": "ACTIVE",
      "adset_id": "120252210355580740",
-     "id": "120252210359610740"
+     "id": "120252210357910740"
     },
     {
      "name": "2026-W43-SA8 · form",
      "status": "ACTIVE",
-     "effective_status": "ADSET_PAUSED",
+     "effective_status": "ACTIVE",
      "adset_id": "120252210355580740",
      "id": "120252210360310740"
     },
     {
-     "name": "2026-W43-SA6 · form",
+     "name": "2026-W43-SA7 · form",
      "status": "ACTIVE",
-     "effective_status": "ADSET_PAUSED",
+     "effective_status": "ACTIVE",
      "adset_id": "120252210355580740",
-     "id": "120252210357910740"
+     "id": "120252210359610740"
     },
     {
      "name": "2026-W41-SA4 · form",
@@ -3253,8 +3253,8 @@
    "adsets": [
     {
      "name": "LAL 1% · קהל אפריל 26 · וידיאו 1",
-     "status": "ACTIVE",
-     "effective_status": "ACTIVE",
+     "status": "PAUSED",
+     "effective_status": "PAUSED",
      "id": "120251977929100740"
     },
     {
@@ -3265,8 +3265,8 @@
     },
     {
      "name": "‏‏‏קהל פתוח || 25+ || מיקומים אוטומטים || סרטונים 1-10",
-     "status": "ACTIVE",
-     "effective_status": "ACTIVE",
+     "status": "PAUSED",
+     "effective_status": "PAUSED",
      "id": "120217396577120740"
     },
     {
@@ -3278,16 +3278,7 @@
     {
      "name": "‏רימרקטינג רשימה מותאמת || 21+ || כל המיקומים || סרטונים 1-10‏",
      "status": "PAUSED",
-     "effective_status": "WITH_ISSUES",
-     "issues_info": [
-      {
-       "level": "AD_SET",
-       "error_code": 4469003,
-       "error_summary": "מודעה זו אינה מציגה",
-       "error_message": "מודעה זו אינה מציגה: מודעה זו אינה מוצגת. יש לנסות ליצור סדרת מודעות חדשה עם הגדרות שונות כדי להתחיל להציג מודעות לקהל שלך.",
-       "error_type": "HARD_ERROR"
-      }
-     ],
+     "effective_status": "PAUSED",
      "id": "120216040142310740"
     },
     {
@@ -3301,7 +3292,7 @@
     {
      "name": "וידיאו 1 || 3 טקסטים · LAL אפריל 26",
      "status": "ACTIVE",
-     "effective_status": "ACTIVE",
+     "effective_status": "ADSET_PAUSED",
      "adset_id": "120251977929100740",
      "id": "120251977930680740"
     },
@@ -3322,7 +3313,7 @@
     {
      "name": "וידיאו 1 || 3 טקסטים",
      "status": "ACTIVE",
-     "effective_status": "ACTIVE",
+     "effective_status": "ADSET_PAUSED",
      "adset_id": "120217396577120740",
      "id": "120217396577080740"
     },
@@ -3389,16 +3380,7 @@
     {
      "name": "‏‏‏וידיאו 4 || 3 טקסטים‏‏ - עותק",
      "status": "ACTIVE",
-     "effective_status": "WITH_ISSUES",
-     "issues_info": [
-      {
-       "level": "AD_SET",
-       "error_code": 4469003,
-       "error_summary": "מודעה זו אינה מציגה",
-       "error_message": "מודעה זו אינה מציגה: מודעה זו אינה מוצגת. יש לנסות ליצור סדרת מודעות חדשה עם הגדרות שונות כדי להתחיל להציג מודעות לקהל שלך.",
-       "error_type": "HARD_ERROR"
-      }
-     ],
+     "effective_status": "ADSET_PAUSED",
      "adset_id": "120216040142310740",
      "id": "120216040142320740"
     },
@@ -3409,13 +3391,6 @@
      "issues_info": [
       {
        "level": "AD",
-       "error_code": 4469003,
-       "error_summary": "מודעה זו אינה מציגה",
-       "error_message": "מודעה זו אינה מציגה: מודעה זו אינה מוצגת. יש לנסות ליצור סדרת מודעות חדשה עם הגדרות שונות כדי להתחיל להציג מודעות לקהל שלך.",
-       "error_type": "HARD_ERROR"
-      },
-      {
-       "level": "AD_SET",
        "error_code": 4469003,
        "error_summary": "מודעה זו אינה מציגה",
        "error_message": "מודעה זו אינה מציגה: מודעה זו אינה מוצגת. יש לנסות ליצור סדרת מודעות חדשה עם הגדרות שונות כדי להתחיל להציג מודעות לקהל שלך.",
@@ -3432,13 +3407,6 @@
      "issues_info": [
       {
        "level": "AD",
-       "error_code": 4469003,
-       "error_summary": "מודעה זו אינה מציגה",
-       "error_message": "מודעה זו אינה מציגה: מודעה זו אינה מוצגת. יש לנסות ליצור סדרת מודעות חדשה עם הגדרות שונות כדי להתחיל להציג מודעות לקהל שלך.",
-       "error_type": "HARD_ERROR"
-      },
-      {
-       "level": "AD_SET",
        "error_code": 4469003,
        "error_summary": "מודעה זו אינה מציגה",
        "error_message": "מודעה זו אינה מציגה: מודעה זו אינה מוצגת. יש לנסות ליצור סדרת מודעות חדשה עם הגדרות שונות כדי להתחיל להציג מודעות לקהל שלך.",
@@ -3476,13 +3444,6 @@
      "issues_info": [
       {
        "level": "AD",
-       "error_code": 4469003,
-       "error_summary": "מודעה זו אינה מציגה",
-       "error_message": "מודעה זו אינה מציגה: מודעה זו אינה מוצגת. יש לנסות ליצור סדרת מודעות חדשה עם הגדרות שונות כדי להתחיל להציג מודעות לקהל שלך.",
-       "error_type": "HARD_ERROR"
-      },
-      {
-       "level": "AD_SET",
        "error_code": 4469003,
        "error_summary": "מודעה זו אינה מציגה",
        "error_message": "מודעה זו אינה מציגה: מודעה זו אינה מוצגת. יש לנסות ליצור סדרת מודעות חדשה עם הגדרות שונות כדי להתחיל להציג מודעות לקהל שלך.",
@@ -3621,13 +3582,6 @@
        "error_summary": "מודעה זו אינה מציגה",
        "error_message": "מודעה זו אינה מציגה: מודעה זו אינה מוצגת. יש לנסות ליצור סדרת מודעות חדשה עם הגדרות שונות כדי להתחיל להציג מודעות לקהל שלך.",
        "error_type": "HARD_ERROR"
-      },
-      {
-       "level": "AD_SET",
-       "error_code": 4469003,
-       "error_summary": "מודעה זו אינה מציגה",
-       "error_message": "מודעה זו אינה מציגה: מודעה זו אינה מוצגת. יש לנסות ליצור סדרת מודעות חדשה עם הגדרות שונות כדי להתחיל להציג מודעות לקהל שלך.",
-       "error_type": "HARD_ERROR"
       }
      ],
      "adset_id": "120216040142310740",
@@ -3640,13 +3594,6 @@
      "issues_info": [
       {
        "level": "AD",
-       "error_code": 4469003,
-       "error_summary": "מודעה זו אינה מציגה",
-       "error_message": "מודעה זו אינה מציגה: מודעה זו אינה מוצגת. יש לנסות ליצור סדרת מודעות חדשה עם הגדרות שונות כדי להתחיל להציג מודעות לקהל שלך.",
-       "error_type": "HARD_ERROR"
-      },
-      {
-       "level": "AD_SET",
        "error_code": 4469003,
        "error_summary": "מודעה זו אינה מציגה",
        "error_message": "מודעה זו אינה מציגה: מודעה זו אינה מוצגת. יש לנסות ליצור סדרת מודעות חדשה עם הגדרות שונות כדי להתחיל להציג מודעות לקהל שלך.",
@@ -3667,13 +3614,6 @@
        "error_summary": "מודעה זו אינה מציגה",
        "error_message": "מודעה זו אינה מציגה: מודעה זו אינה מוצגת. יש לנסות ליצור סדרת מודעות חדשה עם הגדרות שונות כדי להתחיל להציג מודעות לקהל שלך.",
        "error_type": "HARD_ERROR"
-      },
-      {
-       "level": "AD_SET",
-       "error_code": 4469003,
-       "error_summary": "מודעה זו אינה מציגה",
-       "error_message": "מודעה זו אינה מציגה: מודעה זו אינה מוצגת. יש לנסות ליצור סדרת מודעות חדשה עם הגדרות שונות כדי להתחיל להציג מודעות לקהל שלך.",
-       "error_type": "HARD_ERROR"
       }
      ],
      "adset_id": "120216040142310740",
@@ -3686,13 +3626,6 @@
      "issues_info": [
       {
        "level": "AD",
-       "error_code": 4469003,
-       "error_summary": "מודעה זו אינה מציגה",
-       "error_message": "מודעה זו אינה מציגה: מודעה זו אינה מוצגת. יש לנסות ליצור סדרת מודעות חדשה עם הגדרות שונות כדי להתחיל להציג מודעות לקהל שלך.",
-       "error_type": "HARD_ERROR"
-      },
-      {
-       "level": "AD_SET",
        "error_code": 4469003,
        "error_summary": "מודעה זו אינה מציגה",
        "error_message": "מודעה זו אינה מציגה: מודעה זו אינה מוצגת. יש לנסות ליצור סדרת מודעות חדשה עם הגדרות שונות כדי להתחיל להציג מודעות לקהל שלך.",
@@ -3713,13 +3646,6 @@
        "error_summary": "מודעה זו אינה מציגה",
        "error_message": "מודעה זו אינה מציגה: מודעה זו אינה מוצגת. יש לנסות ליצור סדרת מודעות חדשה עם הגדרות שונות כדי להתחיל להציג מודעות לקהל שלך.",
        "error_type": "HARD_ERROR"
-      },
-      {
-       "level": "AD_SET",
-       "error_code": 4469003,
-       "error_summary": "מודעה זו אינה מציגה",
-       "error_message": "מודעה זו אינה מציגה: מודעה זו אינה מוצגת. יש לנסות ליצור סדרת מודעות חדשה עם הגדרות שונות כדי להתחיל להציג מודעות לקהל שלך.",
-       "error_type": "HARD_ERROR"
       }
      ],
      "adset_id": "120216040142310740",
@@ -3732,13 +3658,6 @@
      "issues_info": [
       {
        "level": "AD",
-       "error_code": 4469003,
-       "error_summary": "מודעה זו אינה מציגה",
-       "error_message": "מודעה זו אינה מציגה: מודעה זו אינה מוצגת. יש לנסות ליצור סדרת מודעות חדשה עם הגדרות שונות כדי להתחיל להציג מודעות לקהל שלך.",
-       "error_type": "HARD_ERROR"
-      },
-      {
-       "level": "AD_SET",
        "error_code": 4469003,
        "error_summary": "מודעה זו אינה מציגה",
        "error_message": "מודעה זו אינה מציגה: מודעה זו אינה מוצגת. יש לנסות ליצור סדרת מודעות חדשה עם הגדרות שונות כדי להתחיל להציג מודעות לקהל שלך.",
@@ -3875,37 +3794,30 @@
   }
  },
  "today": {
-  "120216039932250740": {
-   "spend": 25.56,
-   "impressions": 88,
-   "reach": 80,
-   "clicks": 0,
-   "ctr": 0.0,
-   "cpc": 0.0,
+  "120245939439290740": {
+   "spend": 20.99,
+   "impressions": 169,
+   "reach": 148,
+   "clicks": 2,
+   "ctr": 1.183432,
+   "cpc": 10.495,
    "leads": 0.0,
    "cost_per_lead": null,
    "landing_page_views": 0.0
   },
-  "120245939439290740": {
-   "spend": 102.67,
-   "impressions": 708,
-   "reach": 556,
-   "clicks": 11,
-   "ctr": 1.553672,
-   "cpc": 9.333636,
+  "120251977931170740": {
+   "spend": 21.4,
+   "impressions": 490,
+   "reach": 466,
+   "clicks": 6,
+   "ctr": 1.22449,
+   "cpc": 3.566667,
    "leads": 0.0,
    "cost_per_lead": null,
    "landing_page_views": 0.0
   }
  },
  "lead_times": [
-  {
-   "date": "2026-10-24",
-   "hour": "12:00",
-   "campaign": "קמפיין לידים אייל",
-   "ad": "2026-W42-BZA · form",
-   "leads": 2
-  },
   {
    "date": "2026-10-25",
    "hour": "06:00",
@@ -3947,6 +3859,27 @@
    "campaign": "קמפיין לידים אייל",
    "ad": "2026-W44-PL1 · form",
    "leads": 2
+  },
+  {
+   "date": "2026-10-27",
+   "hour": "15:00",
+   "campaign": "HK Studio · יועצים · טופס לידים",
+   "ad": "2026-W43-SA7 · form",
+   "leads": 4
+  },
+  {
+   "date": "2026-10-27",
+   "hour": "17:00",
+   "campaign": "קמפיין לידים אייל",
+   "ad": "2026-W42-PH1 · form",
+   "leads": 2
+  },
+  {
+   "date": "2026-10-27",
+   "hour": "23:00",
+   "campaign": "קמפיין לידים אייל",
+   "ad": "2026-W42-BZA · form",
+   "leads": 2
   }
  ],
  "pixels": [
@@ -3959,47 +3892,58 @@
   {
    "id": "1750634382895124",
    "name": "HK Pixel",
-   "last_fired_time": "2026-10-27T01:58:15+0200",
+   "last_fired_time": "2026-10-28T00:55:30+0200",
    "events_3d": {
-    "PageView": 54
+    "PageView": 50
    }
   }
  ],
  "yesterday": {
-  "date": "26.10.2026",
+  "date": "27.10.2026",
   "campaigns": {
    "120216039932250740": {
-    "spend": 51.86,
-    "impressions": 206,
-    "reach": 187,
-    "clicks": 2,
-    "ctr": 0.970874,
-    "cpc": 25.93,
+    "spend": 26.27,
+    "impressions": 93,
+    "reach": 86,
+    "clicks": 0,
+    "ctr": 0.0,
+    "cpc": 0.0,
     "leads": 0.0,
     "cost_per_lead": null,
     "landing_page_views": 0.0
    },
    "120245939439290740": {
-    "spend": 240.99,
-    "impressions": 1815,
-    "reach": 1164,
-    "clicks": 54,
-    "ctr": 2.975207,
-    "cpc": 4.462778,
-    "leads": 4.0,
-    "cost_per_lead": 60.2475,
+    "spend": 225.05,
+    "impressions": 1997,
+    "reach": 1318,
+    "clicks": 34,
+    "ctr": 1.702554,
+    "cpc": 6.619118,
+    "leads": 2.0,
+    "cost_per_lead": 112.525,
+    "landing_page_views": 0.0
+   },
+   "120251977931170740": {
+    "spend": 75.86,
+    "impressions": 2011,
+    "reach": 1890,
+    "clicks": 29,
+    "ctr": 1.442069,
+    "cpc": 2.615862,
+    "leads": 2.0,
+    "cost_per_lead": 37.93,
     "landing_page_views": 0.0
    }
   },
   "total": {
-   "spend": 292.85,
-   "impressions": 2021,
-   "reach": 1351,
-   "clicks": 56,
-   "ctr": 2.770905492330529,
-   "cpc": 5.229464285714286,
+   "spend": 327.18,
+   "impressions": 4101,
+   "reach": 3294,
+   "clicks": 63,
+   "ctr": 1.5362106803218727,
+   "cpc": 5.193333333333333,
    "leads": 4.0,
-   "cost_per_lead": 73.2125,
+   "cost_per_lead": 81.795,
    "landing_page_views": 0.0
   }
  }
