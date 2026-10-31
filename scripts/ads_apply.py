@@ -402,7 +402,7 @@ def daily(a):
     lead = lambda r: sum(float(x.get("value", 0)) for x in r.get("actions", []) or [] if x.get("action_type") == "lead")
     out = []
     for c in call("GET", f"{ACCT}/campaigns", fields="name,effective_status", limit=100)["data"]:
-        if c.get("effective_status") != "ACTIVE": continue
+        if c.get("effective_status") != "ACTIVE" and not a.get("include_paused"): continue  # include_paused: paused campaigns too, for research
         rows = call("GET", f"{c['id']}/insights", time_range=rng, time_increment=1, limit=100,
                     fields="spend,impressions,reach,frequency,cpm,clicks,inline_link_clicks,actions").get("data", [])
         for r in rows:
