@@ -333,6 +333,19 @@
           "TODAY קמפיין לידים אייל | טלפון · KAI + מנהל תזרים · בעלי עסקים דומה 1-4% · 2026-10 | 2026-W44-WA · שאלה אחת בוואטסאפ · form | spend 1.56 | impr 1 | leads 0"
         ]
       }
+    },
+    {
+      "index": 3,
+      "type": "audiences",
+      "ok": true,
+      "at": "2026-11-01T14:55+02:00",
+      "result": {
+        "lines": [
+          "AUD {\"campaign\": \"קמפיין לידים אייל\", \"adset\": \"טלפון · KAI + מנהל תזרים · בעלי עסקים דומה 1-4% · 2026-10\", \"budget\": \"8000\", \"goal\": \"LEAD_GENERATION\", \"age\": [25, 65], \"genders\": null, \"geo\": {\"countries\": [\"IL\"], \"location_types\": [\"home\", \"recent\"]}, \"flexible_spec\": null, \"custom_audiences\": [{\"id\": \"120252155829030740\", \"name\": \"HK-business-owners-fixed.csv\"}], \"excluded_custom_audiences\": [{\"id\": \"120252120707080740\", \"name\": \"active.csv\"}], \"automation\": {\"advantage_audience\": 0}, \"platforms\": null, \"positions\": {}, \"locales\": null, \"estimate\": [24800, 29100]}",
+          "AUD {\"campaign\": \"קמפיין לידים אייל\", \"adset\": \"לקוחות bizibox · קהל מותאם · 2026-10\", \"budget\": \"12300\", \"goal\": \"LEAD_GENERATION\", \"age\": [18, 65], \"genders\": null, \"geo\": {\"countries\": [\"IL\"], \"location_types\": [\"home\", \"recent\"]}, \"flexible_spec\": null, \"custom_audiences\": [{\"id\": \"120252120707080740\", \"name\": \"active.csv\"}], \"excluded_custom_audiences\": null, \"automation\": {\"advantage_audience\": 0}, \"platforms\": null, \"positions\": {}, \"locales\": null, \"estimate\": [2600, 3100]}",
+          "AUD {\"campaign\": \"HK Studio · יועצים · טופס לידים\", \"adset\": \"HK Studio · יועצים · טופס לידים · קבוצה 3 · יועצים עסקיים ופיננסיים\", \"budget\": \"7500\", \"goal\": \"LEAD_GENERATION\", \"age\": [28, 65], \"genders\": null, \"geo\": {\"countries\": [\"IL\"], \"location_types\": [\"home\"]}, \"flexible_spec\": [{\"interests\": [{\"id\": \"6003274244908\", \"name\": \"ייעוץ אסטרטגי\"}, {\"id\": \"6003282114841\", \"name\": \"Certified Financial Planner\"}, {\"id\": \"6006252868071\", \"name\": \"Consulting firm\"}, {\"id\": \"6899293316073\", \"name\": \"ייעוץ (עסקים ופיננסים)\"}], \"work_positions\": [{\"id\": \"108173379210853\", \"name\": \"Financial adviser\"}, {\"id\": \"112303612129140\", \"name\": \"Business consultant\"}, {\"id\": \"113837198626859\", \"name\": \"Independent Financial Adviser\"}, {\"id\": \"599903136775985\", \"name\": \"Business Process Consultant\"}, {\"id\": \"775020095880331\", \"name\": \"Business Management Consultant\"}]}], \"custom_audiences\": null, \"excluded_custom_audiences\": null, \"automation\": {\"advantage_audience\": 0}, \"platforms\": null, \"positions\": {}, \"locales\": null, \"estimate\": [175600, 206600]}"
+        ]
+      }
     }
   ]
 }
