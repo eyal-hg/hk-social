@@ -1,10 +1,10 @@
 {
- "generated": "02.11.2026 03:46",
+ "generated": "02.11.2026 08:46",
  "account": {
   "name": "HK",
   "currency": "ILS",
   "account_status": 1,
-  "amount_spent": "8784873",
+  "amount_spent": "8784909",
   "id": "act_1886192278456348"
  },
  "campaigns": [
@@ -408,36 +408,36 @@
     }
    ],
    "last7": {
-    "spend": 1369.7,
-    "impressions": 11665,
+    "spend": 1370.06,
+    "impressions": 11667,
     "reach": 3217,
     "clicks": 221,
-    "ctr": 1.894556,
-    "cpc": 6.197738,
+    "ctr": 1.894232,
+    "cpc": 6.199367,
     "leads": 13.0,
-    "cost_per_lead": 105.361538,
+    "cost_per_lead": 105.389231,
     "landing_page_views": 2.0
    },
    "last30": {
-    "spend": 4830.65,
-    "impressions": 33430,
+    "spend": 4831.01,
+    "impressions": 33432,
     "reach": 7649,
     "clicks": 725,
-    "ctr": 2.168711,
-    "cpc": 6.662966,
+    "ctr": 2.168581,
+    "cpc": 6.663462,
     "leads": 44.0,
-    "cost_per_lead": 109.7875,
+    "cost_per_lead": 109.795682,
     "landing_page_views": 3.0
    },
    "lifetime": {
-    "spend": 19716.69,
-    "impressions": 137452,
+    "spend": 19759.55,
+    "impressions": 137652,
     "reach": 30844,
-    "clicks": 2900,
-    "ctr": 2.109827,
-    "cpc": 6.798859,
+    "clicks": 2902,
+    "ctr": 2.108215,
+    "cpc": 6.808942,
     "leads": 225.0,
-    "cost_per_lead": 87.629733,
+    "cost_per_lead": 87.820222,
     "landing_page_views": 3.0
    },
    "ads_last7": [
@@ -445,14 +445,14 @@
      "id": "120252120866880740",
      "adset": "לקוחות bizibox · קהל מותאם · 2026-10",
      "name": "2026-W42-BZA · form",
-     "spend": 837.69,
-     "impressions": 7195,
+     "spend": 837.82,
+     "impressions": 7196,
      "reach": 1520,
      "clicks": 139,
-     "ctr": 1.931897,
-     "cpc": 6.026547,
+     "ctr": 1.931629,
+     "cpc": 6.027482,
      "leads": 7.0,
-     "cost_per_lead": 119.67,
+     "cost_per_lead": 119.688571,
      "landing_page_views": 1.0
     },
     {
@@ -473,14 +473,14 @@
      "id": "120252336732580740",
      "adset": "טלפון · KAI + מנהל תזרים · בעלי עסקים דומה 1-4% · 2026-10",
      "name": "2026-W44-PL1 · form",
-     "spend": 325.89,
-     "impressions": 2833,
+     "spend": 326.12,
+     "impressions": 2834,
      "reach": 1260,
      "clicks": 61,
-     "ctr": 2.153194,
-     "cpc": 5.342459,
+     "ctr": 2.152435,
+     "cpc": 5.34623,
      "leads": 3.0,
-     "cost_per_lead": 108.63,
+     "cost_per_lead": 108.706667,
      "landing_page_views": 1.0
     },
     {
@@ -632,14 +632,14 @@
     {
      "adset": "לקוחות bizibox · קהל מותאם · 2026-10",
      "name": "2026-W42-BZA · form",
-     "spend": 1531.96,
-     "impressions": 12754,
-     "reach": 1659,
-     "clicks": 320,
-     "ctr": 2.509017,
-     "cpc": 4.787375,
+     "spend": 1560.72,
+     "impressions": 12889,
+     "reach": 1666,
+     "clicks": 321,
+     "ctr": 2.490496,
+     "cpc": 4.862056,
      "leads": 16.0,
-     "cost_per_lead": 95.7475,
+     "cost_per_lead": 97.545,
      "landing_page_views": 2.0
     },
     {
@@ -684,14 +684,14 @@
     {
      "adset": "טלפון · KAI + מנהל תזרים · בעלי עסקים דומה 1-4% · 2026-10",
      "name": "2026-W42-PH1 · form",
-     "spend": 729.78,
-     "impressions": 5510,
-     "reach": 1771,
-     "clicks": 91,
-     "ctr": 1.651543,
-     "cpc": 8.01956,
+     "spend": 739.8,
+     "impressions": 5538,
+     "reach": 1787,
+     "clicks": 92,
+     "ctr": 1.66125,
+     "cpc": 8.041304,
      "leads": 7.0,
-     "cost_per_lead": 104.254286,
+     "cost_per_lead": 105.685714,
      "landing_page_views": 0.0
     },
     {
@@ -736,14 +736,14 @@
     {
      "adset": "טלפון · KAI + מנהל תזרים · בעלי עסקים דומה 1-4% · 2026-10",
      "name": "2026-W44-PL1 · form",
-     "spend": 371.72,
-     "impressions": 3201,
-     "reach": 1299,
+     "spend": 375.8,
+     "impressions": 3238,
+     "reach": 1306,
      "clicks": 68,
-     "ctr": 2.124336,
-     "cpc": 5.466471,
+     "ctr": 2.100062,
+     "cpc": 5.526471,
      "leads": 4.0,
-     "cost_per_lead": 92.93,
+     "cost_per_lead": 93.95,
      "landing_page_views": 1.0
     },
     {
@@ -3739,12 +3739,12 @@
  },
  "today": {
   "120245939439290740": {
-   "spend": 20.98,
-   "impressions": 117,
-   "reach": 105,
-   "clicks": 2,
-   "ctr": 1.709402,
-   "cpc": 10.49,
+   "spend": 63.48,
+   "impressions": 315,
+   "reach": 292,
+   "clicks": 4,
+   "ctr": 1.269841,
+   "cpc": 15.87,
    "leads": 0.0,
    "cost_per_lead": null,
    "landing_page_views": 0.0
@@ -3799,7 +3799,7 @@
    "name": "HK Pixel",
    "last_fired_time": "2026-11-01T23:30:57+0200",
    "events_3d": {
-    "PageView": 28,
+    "PageView": 27,
     "Lead": 2
    }
   }
@@ -3808,14 +3808,14 @@
   "date": "01.11.2026",
   "campaigns": {
    "120245939439290740": {
-    "spend": 192.71,
-    "impressions": 1841,
+    "spend": 193.07,
+    "impressions": 1843,
     "reach": 1262,
     "clicks": 30,
-    "ctr": 1.629549,
-    "cpc": 6.423667,
+    "ctr": 1.627781,
+    "cpc": 6.435667,
     "leads": 1.0,
-    "cost_per_lead": 192.71,
+    "cost_per_lead": 193.07,
     "landing_page_views": 0.0
    },
    "120251977931170740": {
@@ -3831,14 +3831,14 @@
    }
   },
   "total": {
-   "spend": 235.10000000000002,
-   "impressions": 2782,
+   "spend": 235.45999999999998,
+   "impressions": 2784,
    "reach": 2097,
    "clicks": 41,
-   "ctr": 1.4737598849748381,
-   "cpc": 5.734146341463415,
+   "ctr": 1.4727011494252873,
+   "cpc": 5.742926829268292,
    "leads": 1.0,
-   "cost_per_lead": 235.10000000000002,
+   "cost_per_lead": 235.45999999999998,
    "landing_page_views": 0.0
   }
  }
