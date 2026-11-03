@@ -1,11 +1,11 @@
 {
- "generated": "03.11.2026 11:59",
+ "generated": "03.11.2026 13:47",
  "account": {
-  "name": "HK",
+  "id": "act_1886192278456348",
   "currency": "ILS",
   "account_status": 1,
-  "amount_spent": "8804058",
-  "id": "act_1886192278456348"
+  "name": "HK",
+  "amount_spent": "8804058"
  },
  "campaigns": [
   {
@@ -430,14 +430,14 @@
     "landing_page_views": 4.0
    },
    "lifetime": {
-    "spend": 19960.3,
-    "impressions": 139224,
-    "reach": 30844,
+    "spend": 19967.87,
+    "impressions": 139340,
+    "reach": 30846,
     "clicks": 2925,
-    "ctr": 2.100931,
-    "cpc": 6.824034,
+    "ctr": 2.099182,
+    "cpc": 6.826622,
     "leads": 225.0,
-    "cost_per_lead": 88.712444,
+    "cost_per_lead": 88.746089,
     "landing_page_views": 4.0
    },
    "ads_last7": [
@@ -632,14 +632,14 @@
     {
      "adset": "לקוחות bizibox · קהל מותאם · 2026-10",
      "name": "2026-W42-BZA · form",
-     "spend": 1655.13,
-     "impressions": 13741,
-     "reach": 1700,
+     "spend": 1659.14,
+     "impressions": 13818,
+     "reach": 1707,
      "clicks": 329,
-     "ctr": 2.394294,
-     "cpc": 5.03079,
+     "ctr": 2.380952,
+     "cpc": 5.042979,
      "leads": 16.0,
-     "cost_per_lead": 103.445625,
+     "cost_per_lead": 103.69625,
      "landing_page_views": 3.0
     },
     {
@@ -684,14 +684,14 @@
     {
      "adset": "טלפון · KAI + מנהל תזרים · בעלי עסקים דומה 1-4% · 2026-10",
      "name": "2026-W42-PH1 · form",
-     "spend": 802.64,
-     "impressions": 5908,
-     "reach": 1863,
+     "spend": 804.68,
+     "impressions": 5923,
+     "reach": 1867,
      "clicks": 96,
-     "ctr": 1.624915,
-     "cpc": 8.360833,
+     "ctr": 1.6208,
+     "cpc": 8.382083,
      "leads": 7.0,
-     "cost_per_lead": 114.662857,
+     "cost_per_lead": 114.954286,
      "landing_page_views": 0.0
     },
     {
@@ -736,14 +736,14 @@
     {
      "adset": "טלפון · KAI + מנהל תזרים · בעלי עסקים דומה 1-4% · 2026-10",
      "name": "2026-W44-PL1 · form",
-     "spend": 418.69,
-     "impressions": 3584,
-     "reach": 1390,
+     "spend": 420.16,
+     "impressions": 3607,
+     "reach": 1392,
      "clicks": 79,
-     "ctr": 2.204241,
-     "cpc": 5.299873,
+     "ctr": 2.190186,
+     "cpc": 5.318481,
      "leads": 4.0,
-     "cost_per_lead": 104.6725,
+     "cost_per_lead": 105.04,
      "landing_page_views": 1.0
     },
     {
@@ -3739,12 +3739,12 @@
  },
  "today": {
   "120245939439290740": {
-   "spend": 72.75,
-   "impressions": 452,
-   "reach": 392,
+   "spend": 80.32,
+   "impressions": 568,
+   "reach": 469,
    "clicks": 9,
-   "ctr": 1.99115,
-   "cpc": 8.083333,
+   "ctr": 1.584507,
+   "cpc": 8.924444,
    "leads": 0.0,
    "cost_per_lead": null,
    "landing_page_views": 0.0
