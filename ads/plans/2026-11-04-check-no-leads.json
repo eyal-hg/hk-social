@@ -1,10 +1,96 @@
 {
- "requested_by": "#931: אייל 04.11 \"אין לידים\". קריאה בלבד: הוצאה ולידים ב-10 הימים האחרונים לפי יום, היום לפי מודעה, ומצב החשבון.",
- "approved": true,
- "approved_by": "קריאה בלבד, בלי שינוי בחשבון. אייל בצ'אט 04.11: \"אין לידים\"",
- "actions": [
-  {"type": "check"},
-  {"type": "daily", "days": 10},
-  {"type": "today_ads"}
- ]
+  "requested_by": "#931: אייל 04.11 \"אין לידים\". קריאה בלבד: הוצאה ולידים ב-10 הימים האחרונים לפי יום, היום לפי מודעה, ומצב החשבון.",
+  "approved": true,
+  "approved_by": "קריאה בלבד, בלי שינוי בחשבון. אייל בצ'אט 04.11: \"אין לידים\"",
+  "actions": [
+    {
+      "type": "check"
+    },
+    {
+      "type": "daily",
+      "days": 10
+    },
+    {
+      "type": "today_ads"
+    }
+  ],
+  "applied": [
+    {
+      "index": 0,
+      "type": "check",
+      "ok": true,
+      "at": "2026-11-04T14:46+02:00",
+      "result": {
+        "lines": [
+          "CHECK campaign HK Studio · יועצים · טופס לידים | budget 0 | today spend 0 impr 0 clicks 0 leads 0",
+          "CHECK campaign HK Studio · יועצים · כניסות לדף | budget 0 | today spend 0 impr 0 clicks 0 leads 0",
+          "CHECK campaign קמפיין לידים אייל | budget 0 | today spend 56.41 impr 360 clicks 1 leads 0",
+          "CHECK   adset טלפון · KAI + מנהל תזרים · בעלי עסקים דומה 1-4% · 2026-10 [ACTIVE] budget 80 ",
+          "CHECK     ad 2026-W44-WA · שאלה אחת בוואטסאפ · form [ACTIVE]  ",
+          "CHECK     ad 2026-W44-PL1 · form [ACTIVE]  ",
+          "CHECK     ad 2026-W42-PH1 · form [ACTIVE]  ",
+          "CHECK   adset לקוחות bizibox · קהל מותאם · 2026-10 [ACTIVE] budget 123 ",
+          "CHECK     ad 2026-W42-BZA · form [ACTIVE]  ",
+          "CHECK campaign ‏טופס לידים || ניהול תזרים || | budget 50 | today spend 0 impr 0 clicks 0 leads 0"
+        ]
+      }
+    },
+    {
+      "index": 1,
+      "type": "daily",
+      "ok": true,
+      "at": "2026-11-04T14:46+02:00",
+      "result": {
+        "lines": [
+          "DAILY HK Studio · יועצים · טופס לידים | 2026-10-27 | spend 76 | impr 2018 | reach 1901 | freq 1.06 | cpm 38 | clicks 29 | link 23 | leads 2",
+          "DAILY HK Studio · יועצים · טופס לידים | 2026-10-28 | spend 78 | impr 1955 | reach 1725 | freq 1.13 | cpm 40 | clicks 20 | link 15 | leads 0",
+          "DAILY HK Studio · יועצים · טופס לידים | 2026-10-29 | spend 64 | impr 1180 | reach 1051 | freq 1.12 | cpm 55 | clicks 14 | link 11 | leads 1",
+          "DAILY HK Studio · יועצים · טופס לידים | 2026-10-30 | spend 66 | impr 1951 | reach 1760 | freq 1.11 | cpm 34 | clicks 24 | link 18 | leads 1",
+          "DAILY HK Studio · יועצים · טופס לידים | 2026-10-31 | spend 59 | impr 1391 | reach 1178 | freq 1.18 | cpm 43 | clicks 23 | link 20 | leads 2",
+          "DAILY HK Studio · יועצים · טופס לידים | 2026-11-01 | spend 42 | impr 942 | reach 835 | freq 1.13 | cpm 45 | clicks 11 | link 9 | leads 0",
+          "DAILY קמפיין לידים אייל | 2026-10-26 | spend 241 | impr 1816 | reach 1164 | freq 1.56 | cpm 133 | clicks 54 | link 27 | leads 4",
+          "DAILY קמפיין לידים אייל | 2026-10-27 | spend 227 | impr 2006 | reach 1320 | freq 1.52 | cpm 113 | clicks 34 | link 16 | leads 2",
+          "DAILY קמפיין לידים אייל | 2026-10-28 | spend 162 | impr 1794 | reach 1227 | freq 1.46 | cpm 90 | clicks 32 | link 11 | leads 3",
+          "DAILY קמפיין לידים אייל | 2026-10-29 | spend 191 | impr 1645 | reach 1207 | freq 1.36 | cpm 116 | clicks 29 | link 13 | leads 2",
+          "DAILY קמפיין לידים אייל | 2026-10-30 | spend 192 | impr 1382 | reach 966 | freq 1.43 | cpm 139 | clicks 22 | link 10 | leads 1",
+          "DAILY קמפיין לידים אייל | 2026-10-31 | spend 164 | impr 1181 | reach 822 | freq 1.44 | cpm 139 | clicks 20 | link 10 | leads 0",
+          "DAILY קמפיין לידים אייל | 2026-11-01 | spend 193 | impr 1845 | reach 1262 | freq 1.46 | cpm 105 | clicks 30 | link 15 | leads 1",
+          "DAILY קמפיין לידים אייל | 2026-11-02 | spend 191 | impr 1433 | reach 1041 | freq 1.38 | cpm 134 | clicks 18 | link 9 | leads 0",
+          "DAILY קמפיין לידים אייל | 2026-11-03 | spend 199 | impr 1638 | reach 1177 | freq 1.39 | cpm 122 | clicks 25 | link 11 | leads 0",
+          "DAILY קמפיין לידים אייל | 2026-11-04 | spend 56 | impr 360 | reach 303 | freq 1.19 | cpm 157 | clicks 1 | link 1 | leads 0",
+          "HOURLY קמפיין לידים אייל | 00:00 | spend 8.0 | impr 25 | clicks 0 | leads 0",
+          "HOURLY קמפיין לידים אייל | 01:00 | spend 7.0 | impr 29 | clicks 0 | leads 0",
+          "HOURLY קמפיין לידים אייל | 02:00 | spend 1.2 | impr 4 | clicks 0 | leads 0",
+          "HOURLY קמפיין לידים אייל | 03:00 | spend 1.4 | impr 9 | clicks 0 | leads 0",
+          "HOURLY קמפיין לידים אייל | 04:00 | spend 6.0 | impr 12 | clicks 1 | leads 0",
+          "HOURLY קמפיין לידים אייל | 05:00 | spend 4.2 | impr 21 | clicks 0 | leads 0",
+          "HOURLY קמפיין לידים אייל | 06:00 | spend 10.2 | impr 29 | clicks 0 | leads 0",
+          "HOURLY קמפיין לידים אייל | 07:00 | spend 2.7 | impr 29 | clicks 0 | leads 0",
+          "HOURLY קמפיין לידים אייל | 08:00 | spend 2.5 | impr 24 | clicks 0 | leads 0",
+          "HOURLY קמפיין לידים אייל | 09:00 | spend 1.4 | impr 21 | clicks 0 | leads 0",
+          "HOURLY קמפיין לידים אייל | 10:00 | spend 2.0 | impr 26 | clicks 0 | leads 0",
+          "HOURLY קמפיין לידים אייל | 11:00 | spend 3.1 | impr 39 | clicks 0 | leads 0",
+          "HOURLY קמפיין לידים אייל | 12:00 | spend 2.5 | impr 37 | clicks 0 | leads 0",
+          "HOURLY קמפיין לידים אייל | 13:00 | spend 2.5 | impr 26 | clicks 0 | leads 0",
+          "HOURLY קמפיין לידים אייל | 14:00 | spend 1.4 | impr 29 | clicks 0 | leads 0",
+          "DAILY ‏טופס לידים || ניהול תזרים || | 2026-10-26 | spend 52 | impr 207 | reach 188 | freq 1.10 | cpm 252 | clicks 2 | link 1 | leads 0",
+          "DAILY ‏טופס לידים || ניהול תזרים || | 2026-10-27 | spend 26 | impr 93 | reach 86 | freq 1.08 | cpm 282 | clicks 0 | link 0 | leads 0"
+        ]
+      }
+    },
+    {
+      "index": 2,
+      "type": "today_ads",
+      "ok": true,
+      "at": "2026-11-04T14:46+02:00",
+      "result": {
+        "lines": [
+          "TODAY קמפיין לידים אייל | לקוחות bizibox · קהל מותאם · 2026-10 | 2026-W42-BZA · form | spend 39.11 | impr 229 | leads 0",
+          "TODAY קמפיין לידים אייל | טלפון · KAI + מנהל תזרים · בעלי עסקים דומה 1-4% · 2026-10 | 2026-W42-PH1 · form | spend 7.71 | impr 59 | leads 0",
+          "TODAY קמפיין לידים אייל | טלפון · KAI + מנהל תזרים · בעלי עסקים דומה 1-4% · 2026-10 | 2026-W44-PL1 · form | spend 8.81 | impr 67 | leads 0",
+          "TODAY קמפיין לידים אייל | טלפון · KAI + מנהל תזרים · בעלי עסקים דומה 1-4% · 2026-10 | 2026-W44-WA · שאלה אחת בוואטסאפ · form | spend 0.78 | impr 5 | leads 0"
+        ]
+      }
+    }
+  ]
 }
