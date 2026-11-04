@@ -578,10 +578,10 @@ def audience_info(a):
 
 
 def today_ads(a):
-    """Read-only: today's spend, impressions and leads per ad (Israel time), ads with any delivery only."""
+    """Read-only: today's spend, impressions and leads per ad (Israel time), ads with any delivery only. date_preset (e.g. last_14d) widens the window."""
     lead = lambda r: sum(float(x.get("value", 0)) for x in r.get("actions", []) or [] if x.get("action_type") == "lead")
-    rows = call("GET", f"{ACCT}/insights", level="ad", date_preset="today", fields="campaign_name,adset_name,ad_name,spend,impressions,actions", limit=200).get("data", [])
-    out = [f"TODAY {r.get('campaign_name')} | {r.get('adset_name')} | {r.get('ad_name')} | spend {r.get('spend')} | impr {r.get('impressions')} | leads {lead(r):.0f}" for r in rows]
+    rows = call("GET", f"{ACCT}/insights", level="ad", date_preset=a.get("date_preset", "today"), fields="campaign_name,adset_name,ad_name,spend,impressions,clicks,actions", limit=200).get("data", [])
+    out = [f"TODAY {r.get('campaign_name')} | {r.get('adset_name')} | {r.get('ad_name')} | spend {r.get('spend')} | impr {r.get('impressions')} | clicks {r.get('clicks')} | leads {lead(r):.0f}" for r in rows]
     for l in out: print(l)
     return {"lines": out}
 
