@@ -1,5 +1,5 @@
 {
- "generated": "05.11.2026 11:48",
+ "generated": "05.11.2026 14:04",
  "account": {
   "name": "HK",
   "currency": "ILS",
@@ -430,14 +430,14 @@
     "landing_page_views": 4.0
    },
    "lifetime": {
-    "spend": 20362.33,
-    "impressions": 142180,
-    "reach": 30995,
+    "spend": 20379.36,
+    "impressions": 142340,
+    "reach": 31109,
     "clicks": 2958,
-    "ctr": 2.080461,
-    "cpc": 6.883817,
+    "ctr": 2.078123,
+    "cpc": 6.889574,
     "leads": 225.0,
-    "cost_per_lead": 90.499244,
+    "cost_per_lead": 90.574933,
     "landing_page_views": 4.0
    },
    "ads_last7": [
@@ -515,14 +515,14 @@
     {
      "adset": "סדרת מודעות לידים חדשה",
      "name": "סרטון מיקונוס 11.5",
-     "spend": 3298.77,
-     "impressions": 22844,
-     "reach": 10593,
+     "spend": 3309.35,
+     "impressions": 22935,
+     "reach": 10610,
      "clicks": 423,
-     "ctr": 1.85169,
-     "cpc": 7.798511,
+     "ctr": 1.844343,
+     "cpc": 7.823522,
      "leads": 37.0,
-     "cost_per_lead": 89.155946,
+     "cost_per_lead": 89.441892,
      "landing_page_views": 0.0
     },
     {
@@ -632,14 +632,14 @@
     {
      "adset": "לקוחות bizibox · קהל מותאם · 2026-10",
      "name": "2026-W42-BZA · form",
-     "spend": 1877.71,
-     "impressions": 15430,
-     "reach": 1811,
+     "spend": 1880.56,
+     "impressions": 15467,
+     "reach": 1813,
      "clicks": 350,
-     "ctr": 2.268308,
-     "cpc": 5.364886,
+     "ctr": 2.262882,
+     "cpc": 5.373029,
      "leads": 16.0,
-     "cost_per_lead": 117.356875,
+     "cost_per_lead": 117.535,
      "landing_page_views": 3.0
     },
     {
@@ -684,14 +684,14 @@
     {
      "adset": "טלפון · KAI + מנהל תזרים · בעלי עסקים דומה 1-4% · 2026-10",
      "name": "2026-W42-PH1 · form",
-     "spend": 866.07,
-     "impressions": 6382,
+     "spend": 869.06,
+     "impressions": 6402,
      "reach": 1956,
      "clicks": 101,
-     "ctr": 1.582576,
-     "cpc": 8.574951,
+     "ctr": 1.577632,
+     "cpc": 8.604554,
      "leads": 7.0,
-     "cost_per_lead": 123.724286,
+     "cost_per_lead": 124.151429,
      "landing_page_views": 0.0
     },
     {
@@ -736,14 +736,14 @@
     {
      "adset": "טלפון · KAI + מנהל תזרים · בעלי עסקים דומה 1-4% · 2026-10",
      "name": "2026-W44-PL1 · form",
-     "spend": 494.51,
-     "impressions": 4112,
-     "reach": 1507,
+     "spend": 495.12,
+     "impressions": 4124,
+     "reach": 1510,
      "clicks": 84,
-     "ctr": 2.042802,
-     "cpc": 5.887024,
+     "ctr": 2.036857,
+     "cpc": 5.894286,
      "leads": 4.0,
-     "cost_per_lead": 123.6275,
+     "cost_per_lead": 123.78,
      "landing_page_views": 1.0
     },
     {
@@ -3724,12 +3724,12 @@
  },
  "today": {
   "120245939439290740": {
-   "spend": 99.44,
-   "impressions": 538,
-   "reach": 465,
+   "spend": 116.47,
+   "impressions": 698,
+   "reach": 616,
    "clicks": 4,
-   "ctr": 0.743494,
-   "cpc": 24.86,
+   "ctr": 0.573066,
+   "cpc": 29.1175,
    "leads": 0.0,
    "cost_per_lead": null,
    "landing_page_views": 0.0
@@ -3748,8 +3748,7 @@
    "name": "HK Pixel",
    "last_fired_time": "2026-11-05T00:39:13+0200",
    "events_3d": {
-    "PageView": 50,
-    "Lead": 1
+    "PageView": 34
    }
   }
  ],
