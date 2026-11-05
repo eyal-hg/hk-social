@@ -231,7 +231,7 @@ def apply_plan(plan_path):
         try:
             res = {"set_adset_budget": set_budget, "create_campaign": create_campaign, "revive": revive,
                    "add_ads": add_ads, "pause_ads": pause_ads, "set_targeting": set_targeting, "create_pixel": create_pixel, "clone_adset": clone_adset,
-                   "pause_adset": pause_adset, "create_lead_campaign": create_lead_campaign, "resume_ads": resume_ads, "check": check, "copy_ad": copy_ad, "inspect_ads": inspect_ads, "daily": daily, "image_lead_ad": image_lead_ad, "history": history, "add_lead_ads": add_lead_ads, "ad_ranking": ad_ranking, "audiences": audiences, "audience_info": audience_info, "video_lead_ad": video_lead_ad, "create_lookalike": create_lookalike, "today_ads": today_ads, "lead_times": lead_times}[a["type"]](a)
+                   "pause_adset": pause_adset, "create_lead_campaign": create_lead_campaign, "resume_ads": resume_ads, "resume_adset": resume_adset, "check": check, "copy_ad": copy_ad, "inspect_ads": inspect_ads, "daily": daily, "image_lead_ad": image_lead_ad, "history": history, "add_lead_ads": add_lead_ads, "ad_ranking": ad_ranking, "audiences": audiences, "audience_info": audience_info, "video_lead_ad": video_lead_ad, "create_lookalike": create_lookalike, "today_ads": today_ads, "lead_times": lead_times}[a["type"]](a)
             applied.append({"index": i, "type": a["type"], "ok": True, "at": datetime.now(ZoneInfo("Asia/Jerusalem")).isoformat(timespec="minutes"), "result": res})
             print("ok", i, a["type"], res)
         except Exception as e:  # noqa: BLE001
@@ -677,6 +677,21 @@ def resume_ads(a):
         if norm(ad["name"]) in wanted and ad.get("status") != "ACTIVE":
             call("POST", ad["id"], status="ACTIVE"); done.append(ad["name"])
     return {"campaign_id": c["id"], "adset_id": adset["id"], "resumed": done}
+
+
+def resume_adset(a):
+    """Turn one paused ad set back on with a daily budget and only the named ads inside it; the campaign's other ad sets are left as they are."""
+    c, adset = _adset(a)
+    wanted, on, off = [norm(n) for n in a["ad_names"]], [], []
+    for ad in call("GET", f"{adset['id']}/ads", fields="name,status", limit=100)["data"]:
+        if norm(ad["name"]) in wanted:
+            call("POST", ad["id"], status="ACTIVE"); on.append(ad["name"])
+        elif ad.get("status") != "PAUSED":
+            call("POST", ad["id"], status="PAUSED"); off.append(ad["name"])
+    if not on:
+        raise RuntimeError("none of the ads found: " + ", ".join(wanted))
+    call("POST", adset["id"], daily_budget=ils(a["daily_budget_ils"]), status="ACTIVE")
+    return {"campaign_id": c["id"], "adset_id": adset["id"], "ads_on": on, "ads_paused_now": off, "daily_budget_ils": a["daily_budget_ils"]}
 
 
 def pause_adset(a):
