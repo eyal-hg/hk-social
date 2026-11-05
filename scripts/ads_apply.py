@@ -169,9 +169,11 @@ def revive(a):
 def daily_total(exclude_adsets=(), exclude_campaigns=()):
     """Sum of daily budgets currently able to spend: active CBO campaigns + active ad sets in non-CBO campaigns."""
     camps = {c["id"]: c for c in call("GET", f"{ACCT}/campaigns", fields="daily_budget,effective_status", limit=200)["data"]}
+    adsets = call("GET", f"{ACCT}/adsets", fields="campaign_id,daily_budget,effective_status", limit=500)["data"]
+    live_camps = {s["campaign_id"] for s in adsets if s.get("effective_status") == "ACTIVE"}  # a CBO campaign with every ad set paused spends nothing
     total = sum(int(c.get("daily_budget") or 0) for cid, c in camps.items()
-                if c.get("effective_status") == "ACTIVE" and cid not in exclude_campaigns)
-    for s in call("GET", f"{ACCT}/adsets", fields="campaign_id,daily_budget,effective_status", limit=500)["data"]:
+                if c.get("effective_status") == "ACTIVE" and cid in live_camps and cid not in exclude_campaigns)
+    for s in adsets:
         if s.get("effective_status") == "ACTIVE" and s["id"] not in exclude_adsets and s["campaign_id"] not in exclude_campaigns \
                 and not camps.get(s["campaign_id"], {}).get("daily_budget"):
             total += int(s.get("daily_budget") or 0)
