@@ -1,11 +1,11 @@
 {
- "generated": "05.11.2026 04:44",
+ "generated": "05.11.2026 09:20",
  "account": {
-  "name": "HK",
+  "id": "act_1886192278456348",
   "currency": "ILS",
   "account_status": 1,
-  "amount_spent": "8841414",
-  "id": "act_1886192278456348"
+  "name": "HK",
+  "amount_spent": "8841590"
  },
  "campaigns": [
   {
@@ -370,7 +370,7 @@
      "campaign_id": "120245939439290740",
      "name": "לקוחות bizibox · קהל מותאם · 2026-10",
      "effective_status": "ACTIVE",
-     "daily_budget": "12300",
+     "daily_budget": "4300",
      "optimization_goal": "LEAD_GENERATION",
      "destination_type": "ON_AD",
      "start_time": "2026-10-12T19:09:17+0300",
@@ -399,8 +399,8 @@
     {
      "campaign_id": "120245939439290740",
      "name": "סדרת מודעות לידים חדשה",
-     "effective_status": "PAUSED",
-     "daily_budget": "5000",
+     "effective_status": "ACTIVE",
+     "daily_budget": "8000",
      "optimization_goal": "LEAD_GENERATION",
      "destination_type": "ON_AD",
      "start_time": "2026-04-29T00:12:18+0300",
@@ -408,36 +408,36 @@
     }
    ],
    "last7": {
-    "spend": 1305.51,
-    "impressions": 10349,
-    "reach": 3086,
+    "spend": 1307.27,
+    "impressions": 10355,
+    "reach": 3088,
     "clicks": 157,
-    "ctr": 1.517055,
-    "cpc": 8.31535,
+    "ctr": 1.516176,
+    "cpc": 8.326561,
     "leads": 4.0,
-    "cost_per_lead": 326.3775,
+    "cost_per_lead": 326.8175,
     "landing_page_views": 3.0
    },
    "last30": {
-    "spend": 5108.16,
-    "impressions": 35738,
-    "reach": 7446,
+    "spend": 5109.92,
+    "impressions": 35744,
+    "reach": 7453,
     "clicks": 736,
-    "ctr": 2.059433,
-    "cpc": 6.940435,
+    "ctr": 2.059087,
+    "cpc": 6.942826,
     "leads": 38.0,
-    "cost_per_lead": 134.425263,
+    "cost_per_lead": 134.471579,
     "landing_page_views": 4.0
    },
    "lifetime": {
-    "spend": 20282.55,
-    "impressions": 141729,
-    "reach": 30941,
+    "spend": 20329.23,
+    "impressions": 141937,
+    "reach": 30985,
     "clicks": 2955,
-    "ctr": 2.084965,
-    "cpc": 6.863807,
+    "ctr": 2.08191,
+    "cpc": 6.879604,
     "leads": 225.0,
-    "cost_per_lead": 90.144667,
+    "cost_per_lead": 90.352133,
     "landing_page_views": 4.0
    },
    "ads_last7": [
@@ -445,14 +445,14 @@
      "id": "120252120866880740",
      "adset": "לקוחות bizibox · קהל מותאם · 2026-10",
      "name": "2026-W42-BZA · form",
-     "spend": 795.19,
-     "impressions": 6498,
+     "spend": 796.9,
+     "impressions": 6501,
      "reach": 1543,
      "clicks": 103,
-     "ctr": 1.585103,
-     "cpc": 7.720291,
+     "ctr": 1.584372,
+     "cpc": 7.736893,
      "leads": 3.0,
-     "cost_per_lead": 265.063333,
+     "cost_per_lead": 265.633333,
      "landing_page_views": 2.0
     },
     {
@@ -473,12 +473,12 @@
      "id": "120252336732580740",
      "adset": "טלפון · KAI + מנהל תזרים · בעלי עסקים דומה 1-4% · 2026-10",
      "name": "2026-W44-PL1 · form",
-     "spend": 245.47,
-     "impressions": 1922,
-     "reach": 1014,
+     "spend": 245.52,
+     "impressions": 1925,
+     "reach": 1016,
      "clicks": 34,
-     "ctr": 1.768991,
-     "cpc": 7.219706,
+     "ctr": 1.766234,
+     "cpc": 7.221176,
      "leads": 0.0,
      "cost_per_lead": null,
      "landing_page_views": 1.0
@@ -515,14 +515,14 @@
     {
      "adset": "סדרת מודעות לידים חדשה",
      "name": "סרטון מיקונוס 11.5",
-     "spend": 3259.71,
-     "impressions": 22588,
-     "reach": 10513,
+     "spend": 3276.48,
+     "impressions": 22676,
+     "reach": 10541,
      "clicks": 421,
-     "ctr": 1.863822,
-     "cpc": 7.742779,
+     "ctr": 1.856588,
+     "cpc": 7.782613,
      "leads": 37.0,
-     "cost_per_lead": 88.10027,
+     "cost_per_lead": 88.553514,
      "landing_page_views": 0.0
     },
     {
@@ -632,14 +632,14 @@
     {
      "adset": "לקוחות bizibox · קהל מותאם · 2026-10",
      "name": "2026-W42-BZA · form",
-     "spend": 1846.48,
-     "impressions": 15297,
-     "reach": 1803,
+     "spend": 1870.2,
+     "impressions": 15376,
+     "reach": 1806,
      "clicks": 349,
-     "ctr": 2.281493,
-     "cpc": 5.290774,
+     "ctr": 2.269771,
+     "cpc": 5.358739,
      "leads": 16.0,
-     "cost_per_lead": 115.405,
+     "cost_per_lead": 116.8875,
      "landing_page_views": 3.0
     },
     {
@@ -684,14 +684,14 @@
     {
      "adset": "טלפון · KAI + מנהל תזרים · בעלי עסקים דומה 1-4% · 2026-10",
      "name": "2026-W42-PH1 · form",
-     "spend": 857.48,
-     "impressions": 6340,
-     "reach": 1943,
+     "spend": 862.88,
+     "impressions": 6364,
+     "reach": 1951,
      "clicks": 101,
-     "ctr": 1.59306,
-     "cpc": 8.489901,
+     "ctr": 1.587052,
+     "cpc": 8.543366,
      "leads": 7.0,
-     "cost_per_lead": 122.497143,
+     "cost_per_lead": 123.268571,
      "landing_page_views": 0.0
     },
     {
@@ -736,14 +736,14 @@
     {
      "adset": "טלפון · KAI + מנהל תזרים · בעלי עסקים דומה 1-4% · 2026-10",
      "name": "2026-W44-PL1 · form",
-     "spend": 493.61,
-     "impressions": 4092,
-     "reach": 1505,
+     "spend": 494.4,
+     "impressions": 4109,
+     "reach": 1507,
      "clicks": 84,
-     "ctr": 2.052786,
-     "cpc": 5.87631,
+     "ctr": 2.044293,
+     "cpc": 5.885714,
      "leads": 4.0,
-     "cost_per_lead": 123.4025,
+     "cost_per_lead": 123.6,
      "landing_page_views": 1.0
     },
     {
@@ -2989,7 +2989,7 @@
      "name": "לקוחות bizibox · קהל מותאם · 2026-10",
      "status": "ACTIVE",
      "effective_status": "ACTIVE",
-     "daily_budget": "12300",
+     "daily_budget": "4300",
      "id": "120252120865840740"
     },
     {
@@ -3008,13 +3008,27 @@
     },
     {
      "name": "סדרת מודעות לידים חדשה",
-     "status": "PAUSED",
-     "effective_status": "PAUSED",
-     "daily_budget": "5000",
+     "status": "ACTIVE",
+     "effective_status": "ACTIVE",
+     "daily_budget": "8000",
      "id": "120245939439310740"
     }
    ],
    "ads": [
+    {
+     "name": "סרטון מיקונוס 11.5",
+     "status": "ACTIVE",
+     "effective_status": "ACTIVE",
+     "adset_id": "120245939439310740",
+     "id": "120246717051220740"
+    },
+    {
+     "name": "מיקונוס מקוצר · 30s · מנהל תזרים",
+     "status": "PAUSED",
+     "effective_status": "PAUSED",
+     "adset_id": "120245939439310740",
+     "id": "120252155208570740"
+    },
     {
      "name": "2026-W44-WA · שאלה אחת בוואטסאפ · form",
      "status": "PAUSED",
@@ -3070,20 +3084,6 @@
      "effective_status": "ACTIVE",
      "adset_id": "120252155857190740",
      "id": "120252155858160740"
-    },
-    {
-     "name": "מיקונוס מקוצר · 30s · מנהל תזרים",
-     "status": "ACTIVE",
-     "effective_status": "ADSET_PAUSED",
-     "adset_id": "120245939439310740",
-     "id": "120252155208570740"
-    },
-    {
-     "name": "סרטון מיקונוס 11.5",
-     "status": "PAUSED",
-     "effective_status": "PAUSED",
-     "adset_id": "120245939439310740",
-     "id": "120246717051220740"
     },
     {
      "name": "סרטון יום שישי · חזרה 13.10",
@@ -3724,12 +3724,12 @@
  },
  "today": {
   "120245939439290740": {
-   "spend": 21.44,
-   "impressions": 94,
-   "reach": 78,
+   "spend": 66.36,
+   "impressions": 296,
+   "reach": 255,
    "clicks": 1,
-   "ctr": 1.06383,
-   "cpc": 21.44,
+   "ctr": 0.337838,
+   "cpc": 66.36,
    "leads": 0.0,
    "cost_per_lead": null,
    "landing_page_views": 0.0
@@ -3757,24 +3757,24 @@
   "date": "04.11.2026",
   "campaigns": {
    "120245939439290740": {
-    "spend": 173.64,
-    "impressions": 1224,
-    "reach": 869,
+    "spend": 175.4,
+    "impressions": 1230,
+    "reach": 870,
     "clicks": 12,
-    "ctr": 0.980392,
-    "cpc": 14.47,
+    "ctr": 0.97561,
+    "cpc": 14.616667,
     "leads": 0.0,
     "cost_per_lead": null,
     "landing_page_views": 0.0
    }
   },
   "total": {
-   "spend": 173.64,
-   "impressions": 1224,
-   "reach": 869,
+   "spend": 175.4,
+   "impressions": 1230,
+   "reach": 870,
    "clicks": 12,
-   "ctr": 0.9803921568627451,
-   "cpc": 14.469999999999999,
+   "ctr": 0.975609756097561,
+   "cpc": 14.616666666666667,
    "leads": 0.0,
    "cost_per_lead": null,
    "landing_page_views": 0.0
