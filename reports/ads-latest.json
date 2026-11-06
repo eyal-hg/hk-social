@@ -1,10 +1,10 @@
 {
- "generated": "05.11.2026 14:04",
+ "generated": "06.11.2026 04:46",
  "account": {
   "name": "HK",
   "currency": "ILS",
   "account_status": 1,
-  "amount_spent": "8841592",
+  "amount_spent": "8871615",
   "id": "act_1886192278456348"
  },
  "campaigns": [
@@ -51,25 +51,25 @@
     }
    ],
    "last7": {
-    "spend": 232.71,
-    "impressions": 5464,
-    "reach": 4244,
-    "clicks": 72,
-    "ctr": 1.317716,
-    "cpc": 3.232083,
-    "leads": 4.0,
-    "cost_per_lead": 58.1775,
+    "spend": 168.22,
+    "impressions": 4284,
+    "reach": 3474,
+    "clicks": 58,
+    "ctr": 1.353875,
+    "cpc": 2.900345,
+    "leads": 3.0,
+    "cost_per_lead": 56.073333,
     "landing_page_views": 2.0
    },
    "last30": {
-    "spend": 675.71,
-    "impressions": 14732,
-    "reach": 12228,
-    "clicks": 161,
-    "ctr": 1.092859,
-    "cpc": 4.196957,
+    "spend": 618.66,
+    "impressions": 14477,
+    "reach": 12125,
+    "clicks": 160,
+    "ctr": 1.105201,
+    "cpc": 3.866625,
     "leads": 9.0,
-    "cost_per_lead": 75.078889,
+    "cost_per_lead": 68.74,
     "landing_page_views": 3.0
    },
    "lifetime": {
@@ -88,12 +88,12 @@
      "id": "120252210357910740",
      "adset": "HK Studio · יועצים · טופס לידים · קבוצה 3 · יועצים עסקיים ופיננסיים",
      "name": "2026-W43-SA6 · form",
-     "spend": 8.86,
-     "impressions": 89,
-     "reach": 63,
-     "clicks": 3,
-     "ctr": 3.370787,
-     "cpc": 2.953333,
+     "spend": 7.16,
+     "impressions": 56,
+     "reach": 45,
+     "clicks": 2,
+     "ctr": 3.571429,
+     "cpc": 3.58,
      "leads": 0.0,
      "cost_per_lead": null,
      "landing_page_views": 0.0
@@ -102,26 +102,26 @@
      "id": "120252210359610740",
      "adset": "HK Studio · יועצים · טופס לידים · קבוצה 3 · יועצים עסקיים ופיננסיים",
      "name": "2026-W43-SA7 · form",
-     "spend": 213.04,
-     "impressions": 5059,
-     "reach": 4006,
-     "clicks": 65,
-     "ctr": 1.284839,
-     "cpc": 3.277538,
-     "leads": 4.0,
-     "cost_per_lead": 53.26,
+     "spend": 156.9,
+     "impressions": 4095,
+     "reach": 3337,
+     "clicks": 56,
+     "ctr": 1.367521,
+     "cpc": 2.801786,
+     "leads": 3.0,
+     "cost_per_lead": 52.3,
      "landing_page_views": 2.0
     },
     {
      "id": "120252210360310740",
      "adset": "HK Studio · יועצים · טופס לידים · קבוצה 3 · יועצים עסקיים ופיננסיים",
      "name": "2026-W43-SA8 · form",
-     "spend": 10.81,
-     "impressions": 316,
-     "reach": 301,
-     "clicks": 4,
-     "ctr": 1.265823,
-     "cpc": 2.7025,
+     "spend": 4.16,
+     "impressions": 133,
+     "reach": 127,
+     "clicks": 0,
+     "ctr": 0.0,
+     "cpc": 0.0,
      "leads": 0.0,
      "cost_per_lead": null,
      "landing_page_views": 0.0
@@ -369,7 +369,7 @@
     {
      "campaign_id": "120245939439290740",
      "name": "לקוחות bizibox · קהל מותאם · 2026-10",
-     "effective_status": "ACTIVE",
+     "effective_status": "PAUSED",
      "daily_budget": "4300",
      "optimization_goal": "LEAD_GENERATION",
      "destination_type": "ON_AD",
@@ -400,7 +400,7 @@
      "campaign_id": "120245939439290740",
      "name": "סדרת מודעות לידים חדשה",
      "effective_status": "ACTIVE",
-     "daily_budget": "8000",
+     "daily_budget": "12300",
      "optimization_goal": "LEAD_GENERATION",
      "destination_type": "ON_AD",
      "start_time": "2026-04-29T00:12:18+0300",
@@ -408,87 +408,101 @@
     }
    ],
    "last7": {
-    "spend": 1307.29,
-    "impressions": 10356,
-    "reach": 3088,
-    "clicks": 157,
-    "ctr": 1.516029,
-    "cpc": 8.326688,
-    "leads": 4.0,
-    "cost_per_lead": 326.8225,
+    "spend": 1368.28,
+    "impressions": 10252,
+    "reach": 3598,
+    "clicks": 149,
+    "ctr": 1.453375,
+    "cpc": 9.183087,
+    "leads": 5.0,
+    "cost_per_lead": 273.656,
     "landing_page_views": 3.0
    },
    "last30": {
-    "spend": 5109.94,
-    "impressions": 35745,
-    "reach": 7453,
-    "clicks": 736,
-    "ctr": 2.059029,
-    "cpc": 6.942853,
-    "leads": 38.0,
-    "cost_per_lead": 134.472105,
+    "spend": 5227.37,
+    "impressions": 36613,
+    "reach": 7806,
+    "clicks": 743,
+    "ctr": 2.029334,
+    "cpc": 7.035491,
+    "leads": 40.0,
+    "cost_per_lead": 130.68425,
     "landing_page_views": 4.0
    },
    "lifetime": {
-    "spend": 20379.36,
-    "impressions": 142340,
-    "reach": 31109,
-    "clicks": 2958,
-    "ctr": 2.078123,
-    "cpc": 6.889574,
-    "leads": 225.0,
-    "cost_per_lead": 90.574933,
+    "spend": 20548.06,
+    "impressions": 143326,
+    "reach": 31315,
+    "clicks": 2982,
+    "ctr": 2.080572,
+    "cpc": 6.890698,
+    "leads": 230.0,
+    "cost_per_lead": 89.339391,
     "landing_page_views": 4.0
    },
    "ads_last7": [
     {
+     "id": "120246717051220740",
+     "adset": "סדרת מודעות לידים חדשה",
+     "name": "סרטון מיקונוס 11.5",
+     "spend": 110.5,
+     "impressions": 681,
+     "reach": 623,
+     "clicks": 7,
+     "ctr": 1.0279,
+     "cpc": 15.785714,
+     "leads": 1.0,
+     "cost_per_lead": 110.5,
+     "landing_page_views": 0.0
+    },
+    {
      "id": "120252120866880740",
      "adset": "לקוחות bizibox · קהל מותאם · 2026-10",
      "name": "2026-W42-BZA · form",
-     "spend": 796.92,
-     "impressions": 6502,
-     "reach": 1543,
-     "clicks": 103,
-     "ctr": 1.584128,
-     "cpc": 7.737087,
-     "leads": 3.0,
-     "cost_per_lead": 265.64,
+     "spend": 731.68,
+     "impressions": 5809,
+     "reach": 1480,
+     "clicks": 85,
+     "ctr": 1.463247,
+     "cpc": 8.608,
+     "leads": 1.0,
+     "cost_per_lead": 731.68,
      "landing_page_views": 2.0
     },
     {
      "id": "120252155858160740",
      "adset": "טלפון · KAI + מנהל תזרים · בעלי עסקים דומה 1-4% · 2026-10",
      "name": "2026-W42-PH1 · form",
-     "spend": 261.52,
-     "impressions": 1914,
-     "reach": 1021,
-     "clicks": 20,
-     "ctr": 1.044932,
-     "cpc": 13.076,
-     "leads": 1.0,
-     "cost_per_lead": 261.52,
+     "spend": 280.32,
+     "impressions": 1995,
+     "reach": 1059,
+     "clicks": 23,
+     "ctr": 1.152882,
+     "cpc": 12.187826,
+     "leads": 2.0,
+     "cost_per_lead": 140.16,
      "landing_page_views": 0.0
     },
     {
      "id": "120252336732580740",
      "adset": "טלפון · KAI + מנהל תזרים · בעלי עסקים דומה 1-4% · 2026-10",
      "name": "2026-W44-PL1 · form",
-     "spend": 245.52,
-     "impressions": 1925,
-     "reach": 1016,
+     "spend": 242.47,
+     "impressions": 1753,
+     "reach": 940,
      "clicks": 34,
-     "ctr": 1.766234,
-     "cpc": 7.221176,
-     "leads": 0.0,
-     "cost_per_lead": null,
+     "ctr": 1.939532,
+     "cpc": 7.131471,
+     "leads": 1.0,
+     "cost_per_lead": 242.47,
      "landing_page_views": 1.0
     },
     {
      "id": "120252336733040740",
      "adset": "טלפון · KAI + מנהל תזרים · בעלי עסקים דומה 1-4% · 2026-10",
      "name": "2026-W44-WA · שאלה אחת בוואטסאפ · form",
-     "spend": 3.33,
-     "impressions": 15,
+     "spend": 3.31,
+     "impressions": 14,
      "reach": 12,
      "clicks": 0,
      "ctr": 0.0,
@@ -515,14 +529,14 @@
     {
      "adset": "סדרת מודעות לידים חדשה",
      "name": "סרטון מיקונוס 11.5",
-     "spend": 3309.35,
-     "impressions": 22935,
-     "reach": 10610,
-     "clicks": 423,
-     "ctr": 1.844343,
-     "cpc": 7.823522,
-     "leads": 37.0,
-     "cost_per_lead": 89.441892,
+     "spend": 3396.29,
+     "impressions": 23360,
+     "reach": 10772,
+     "clicks": 435,
+     "ctr": 1.862158,
+     "cpc": 7.807563,
+     "leads": 40.0,
+     "cost_per_lead": 84.90725,
      "landing_page_views": 0.0
     },
     {
@@ -632,14 +646,14 @@
     {
      "adset": "לקוחות bizibox · קהל מותאם · 2026-10",
      "name": "2026-W42-BZA · form",
-     "spend": 1880.56,
-     "impressions": 15467,
-     "reach": 1813,
-     "clicks": 350,
-     "ctr": 2.262882,
-     "cpc": 5.373029,
+     "spend": 1895.97,
+     "impressions": 15613,
+     "reach": 1823,
+     "clicks": 353,
+     "ctr": 2.260936,
+     "cpc": 5.37102,
      "leads": 16.0,
-     "cost_per_lead": 117.535,
+     "cost_per_lead": 118.498125,
      "landing_page_views": 3.0
     },
     {
@@ -684,14 +698,14 @@
     {
      "adset": "טלפון · KAI + מנהל תזרים · בעלי עסקים דומה 1-4% · 2026-10",
      "name": "2026-W42-PH1 · form",
-     "spend": 869.06,
-     "impressions": 6402,
-     "reach": 1956,
-     "clicks": 101,
-     "ctr": 1.577632,
-     "cpc": 8.604554,
-     "leads": 7.0,
-     "cost_per_lead": 124.151429,
+     "spend": 911.93,
+     "impressions": 6701,
+     "reach": 2024,
+     "clicks": 106,
+     "ctr": 1.581853,
+     "cpc": 8.603113,
+     "leads": 8.0,
+     "cost_per_lead": 113.99125,
      "landing_page_views": 0.0
     },
     {
@@ -736,14 +750,14 @@
     {
      "adset": "טלפון · KAI + מנהל תזרים · בעלי עסקים דומה 1-4% · 2026-10",
      "name": "2026-W44-PL1 · form",
-     "spend": 495.12,
-     "impressions": 4124,
-     "reach": 1510,
-     "clicks": 84,
-     "ctr": 2.036857,
-     "cpc": 5.894286,
-     "leads": 4.0,
-     "cost_per_lead": 123.78,
+     "spend": 518.6,
+     "impressions": 4240,
+     "reach": 1532,
+     "clicks": 88,
+     "ctr": 2.075472,
+     "cpc": 5.893182,
+     "leads": 5.0,
+     "cost_per_lead": 103.72,
      "landing_page_views": 1.0
     },
     {
@@ -1166,13 +1180,13 @@
   {
    "id": "120234694036040740",
    "name": "‏קמפיין כספים AI טופס לידים || HK Money‏",
-   "status": "PAUSED",
+   "status": "ACTIVE",
    "objective": "OUTCOME_LEADS",
    "daily_budget": null,
    "lifetime_budget": null,
    "start_time": "2025-09-14T17:23:49+0300",
    "stop_time": null,
-   "updated_time": "2026-04-27T10:29:32+0300",
+   "updated_time": "2026-11-05T18:59:00+0200",
    "adsets": [
     {
      "campaign_id": "120234694036040740",
@@ -1207,8 +1221,8 @@
     {
      "campaign_id": "120234694036040740",
      "name": "‏תחומי עניין בעלי עסקים ועצמאיים || 25+ || מיקומים ידניים",
-     "effective_status": "PAUSED",
-     "daily_budget": "5000",
+     "effective_status": "ACTIVE",
+     "daily_budget": "10000",
      "optimization_goal": "LEAD_GENERATION",
      "destination_type": "ON_AD",
      "start_time": "2025-09-14T17:23:49+0300",
@@ -1216,77 +1230,120 @@
     }
    ],
    "last7": {
-    "spend": 0.0,
-    "impressions": 0,
-    "reach": 0,
-    "clicks": 0,
-    "ctr": 0.0,
-    "cpc": 0.0,
+    "spend": 47.8,
+    "impressions": 235,
+    "reach": 216,
+    "clicks": 3,
+    "ctr": 1.276596,
+    "cpc": 15.933333,
     "leads": 0.0,
     "cost_per_lead": null,
     "landing_page_views": 0.0
    },
    "last30": {
-    "spend": 0.0,
-    "impressions": 0,
-    "reach": 0,
-    "clicks": 0,
-    "ctr": 0.0,
-    "cpc": 0.0,
+    "spend": 47.8,
+    "impressions": 235,
+    "reach": 216,
+    "clicks": 3,
+    "ctr": 1.276596,
+    "cpc": 15.933333,
     "leads": 0.0,
     "cost_per_lead": null,
     "landing_page_views": 0.0
    },
    "lifetime": {
-    "spend": 23379.08,
-    "impressions": 170219,
-    "reach": 49791,
-    "clicks": 3549,
-    "ctr": 2.084961,
-    "cpc": 6.587512,
-    "leads": 379.0,
-    "cost_per_lead": 61.686227,
+    "spend": 23444.78,
+    "impressions": 170561,
+    "reach": 50007,
+    "clicks": 3559,
+    "ctr": 2.086643,
+    "cpc": 6.587463,
+    "leads": 381.0,
+    "cost_per_lead": 61.534856,
     "landing_page_views": 2.0
    },
-   "ads_last7": [],
+   "ads_last7": [
+    {
+     "id": "120234694036050740",
+     "adset": "‏תחומי עניין בעלי עסקים ועצמאיים || 25+ || מיקומים ידניים",
+     "name": "‏סרטון 3 - אתה נוסע קרוב לשוליים",
+     "spend": 11.25,
+     "impressions": 63,
+     "reach": 58,
+     "clicks": 0,
+     "ctr": 0.0,
+     "cpc": 0.0,
+     "leads": 0.0,
+     "cost_per_lead": null,
+     "landing_page_views": 0.0
+    },
+    {
+     "id": "120234695642600740",
+     "adset": "‏תחומי עניין בעלי עסקים ועצמאיים || 25+ || מיקומים ידניים",
+     "name": "סרטון 2 תיקון - מהפכת ה AI",
+     "spend": 2.92,
+     "impressions": 6,
+     "reach": 6,
+     "clicks": 0,
+     "ctr": 0.0,
+     "cpc": 0.0,
+     "leads": 0.0,
+     "cost_per_lead": null,
+     "landing_page_views": 0.0
+    },
+    {
+     "id": "120234695642610740",
+     "adset": "‏תחומי עניין בעלי עסקים ועצמאיים || 25+ || מיקומים ידניים",
+     "name": "סרטון 4 תיקון - בקיצור אני יושב במיקונוס",
+     "spend": 33.63,
+     "impressions": 166,
+     "reach": 158,
+     "clicks": 3,
+     "ctr": 1.807229,
+     "cpc": 11.21,
+     "leads": 0.0,
+     "cost_per_lead": null,
+     "landing_page_views": 0.0
+    }
+   ],
    "ads_lifetime": [
     {
      "adset": "‏תחומי עניין בעלי עסקים ועצמאיים || 25+ || מיקומים ידניים",
      "name": "‏סרטון 3 - אתה נוסע קרוב לשוליים",
-     "spend": 541.25,
-     "impressions": 4219,
-     "reach": 2077,
+     "spend": 556.99,
+     "impressions": 4294,
+     "reach": 2127,
      "clicks": 117,
-     "ctr": 2.773169,
-     "cpc": 4.626068,
+     "ctr": 2.724732,
+     "cpc": 4.760598,
      "leads": 4.0,
-     "cost_per_lead": 135.3125,
+     "cost_per_lead": 139.2475,
      "landing_page_views": 0.0
     },
     {
      "adset": "‏תחומי עניין בעלי עסקים ועצמאיים || 25+ || מיקומים ידניים",
      "name": "סרטון 2 תיקון - מהפכת ה AI",
-     "spend": 1760.9,
-     "impressions": 9349,
-     "reach": 3654,
+     "spend": 1763.82,
+     "impressions": 9355,
+     "reach": 3660,
      "clicks": 242,
-     "ctr": 2.588512,
-     "cpc": 7.276446,
+     "ctr": 2.586852,
+     "cpc": 7.288512,
      "leads": 34.0,
-     "cost_per_lead": 51.791176,
+     "cost_per_lead": 51.877059,
      "landing_page_views": 1.0
     },
     {
      "adset": "‏תחומי עניין בעלי עסקים ועצמאיים || 25+ || מיקומים ידניים",
      "name": "סרטון 4 תיקון - בקיצור אני יושב במיקונוס",
-     "spend": 10528.65,
-     "impressions": 73471,
-     "reach": 30598,
-     "clicks": 1618,
-     "ctr": 2.202229,
-     "cpc": 6.5072,
-     "leads": 187.0,
-     "cost_per_lead": 56.302941,
+     "spend": 10575.69,
+     "impressions": 73732,
+     "reach": 30689,
+     "clicks": 1628,
+     "ctr": 2.207997,
+     "cpc": 6.496124,
+     "leads": 189.0,
+     "cost_per_lead": 55.956032,
      "landing_page_views": 1.0
     },
     {
@@ -1711,14 +1768,14 @@
     "landing_page_views": 0.0
    },
    "last30": {
-    "spend": 1654.26,
-    "impressions": 7646,
-    "reach": 3967,
-    "clicks": 180,
-    "ctr": 2.354172,
-    "cpc": 9.190333,
-    "leads": 23.0,
-    "cost_per_lead": 71.924348,
+    "spend": 1553.14,
+    "impressions": 7016,
+    "reach": 3784,
+    "clicks": 170,
+    "ctr": 2.423033,
+    "cpc": 9.136118,
+    "leads": 22.0,
+    "cost_per_lead": 70.597273,
     "landing_page_views": 0.0
    },
    "lifetime": {
@@ -2987,8 +3044,8 @@
     },
     {
      "name": "לקוחות bizibox · קהל מותאם · 2026-10",
-     "status": "ACTIVE",
-     "effective_status": "ACTIVE",
+     "status": "PAUSED",
+     "effective_status": "PAUSED",
      "daily_budget": "4300",
      "id": "120252120865840740"
     },
@@ -3010,7 +3067,7 @@
      "name": "סדרת מודעות לידים חדשה",
      "status": "ACTIVE",
      "effective_status": "ACTIVE",
-     "daily_budget": "8000",
+     "daily_budget": "12300",
      "id": "120245939439310740"
     }
    ],
@@ -3074,7 +3131,7 @@
     {
      "name": "2026-W42-BZA · form",
      "status": "ACTIVE",
-     "effective_status": "ACTIVE",
+     "effective_status": "ADSET_PAUSED",
      "adset_id": "120252120865840740",
      "id": "120252120866880740"
     },
@@ -3175,6 +3232,124 @@
      "effective_status": "PAUSED",
      "adset_id": "120245939439310740",
      "id": "120246721485810740"
+    }
+   ]
+  },
+  "120234694036040740": {
+   "adsets": [
+    {
+     "name": "קהל פתוח || 25+ || מיקומים ידניים‏ || טסט 3",
+     "status": "PAUSED",
+     "effective_status": "PAUSED",
+     "daily_budget": "317",
+     "id": "120241559852010740"
+    },
+    {
+     "name": "‏‏תחומי עניין בעלי עסקים ועצמאיים || 25+ ||  ‏Advantage+",
+     "status": "PAUSED",
+     "effective_status": "PAUSED",
+     "daily_budget": "317",
+     "id": "120241432103880740"
+    },
+    {
+     "name": "קהל פתוח || 25+ || מיקומים אוטומטים‏",
+     "status": "PAUSED",
+     "effective_status": "PAUSED",
+     "daily_budget": "5000",
+     "id": "120234695696030740"
+    },
+    {
+     "name": "‏תחומי עניין בעלי עסקים ועצמאיים || 25+ || מיקומים ידניים",
+     "status": "ACTIVE",
+     "effective_status": "ACTIVE",
+     "daily_budget": "10000",
+     "id": "120234694036140740"
+    }
+   ],
+   "ads": [
+    {
+     "name": "סרטון 2 תיקון - מהפכת ה AI",
+     "status": "ACTIVE",
+     "effective_status": "ACTIVE",
+     "adset_id": "120234694036140740",
+     "id": "120234695642600740"
+    },
+    {
+     "name": "‏סרטון 3 - אתה נוסע קרוב לשוליים",
+     "status": "ACTIVE",
+     "effective_status": "ACTIVE",
+     "adset_id": "120234694036140740",
+     "id": "120234694036050740"
+    },
+    {
+     "name": "סרטון 4 תיקון - בקיצור אני יושב במיקונוס",
+     "status": "ACTIVE",
+     "effective_status": "ACTIVE",
+     "adset_id": "120234694036140740",
+     "id": "120234695642610740"
+    },
+    {
+     "name": "‏סרטון 3 - אתה נוסע קרוב לשוליים",
+     "status": "PAUSED",
+     "effective_status": "PAUSED",
+     "adset_id": "120234695696030740",
+     "id": "120234695696020740"
+    },
+    {
+     "name": "סרטון 2 תיקון - מהפכת ה AI",
+     "status": "ACTIVE",
+     "effective_status": "ADSET_PAUSED",
+     "adset_id": "120234695696030740",
+     "id": "120234695696050740"
+    },
+    {
+     "name": "סרטון 4 תיקון - בקיצור אני יושב במיקונוס",
+     "status": "ACTIVE",
+     "effective_status": "ADSET_PAUSED",
+     "adset_id": "120234695696030740",
+     "id": "120234695696040740"
+    },
+    {
+     "name": "‏סרטון 3 - אתה נוסע קרוב לשוליים",
+     "status": "PAUSED",
+     "effective_status": "PAUSED",
+     "adset_id": "120241559852010740",
+     "id": "120241559851980740"
+    },
+    {
+     "name": "סרטון 4 תיקון - בקיצור אני יושב במיקונוס",
+     "status": "ACTIVE",
+     "effective_status": "ADSET_PAUSED",
+     "adset_id": "120241559852010740",
+     "id": "120241559852000740"
+    },
+    {
+     "name": "סרטון 2 תיקון - מהפכת ה AI",
+     "status": "ACTIVE",
+     "effective_status": "ADSET_PAUSED",
+     "adset_id": "120241559852010740",
+     "id": "120241559851990740"
+    },
+    {
+     "name": "סרטון 2 תיקון - מהפכת ה AI",
+     "status": "ACTIVE",
+     "effective_status": "ADSET_PAUSED",
+     "adset_id": "120241432103880740",
+     "id": "120241432103900740"
+    },
+    {
+     "name": "‏סרטון 3 - אתה נוסע קרוב לשוליים",
+     "status": "PAUSED",
+     "effective_status": "PAUSED",
+     "adset_id": "120241432103880740",
+     "id": "120241432103910740"
+    },
+    {
+     "name": "סרטון 4 תיקון - בקיצור אני יושב במיקונוס",
+     "status": "ACTIVE",
+     "effective_status": "ADSET_PAUSED",
+     "adset_id": "120241432103880740",
+     "id": "120241432103890740"
     }
    ]
   },
@@ -3723,19 +3898,52 @@
   }
  },
  "today": {
+  "120234694036040740": {
+   "spend": 17.9,
+   "impressions": 107,
+   "reach": 100,
+   "clicks": 7,
+   "ctr": 6.542056,
+   "cpc": 2.557143,
+   "leads": 2.0,
+   "cost_per_lead": 8.95,
+   "landing_page_views": 0.0
+  },
   "120245939439290740": {
-   "spend": 116.47,
-   "impressions": 698,
-   "reach": 616,
-   "clicks": 4,
-   "ctr": 0.573066,
-   "cpc": 29.1175,
-   "leads": 0.0,
-   "cost_per_lead": null,
+   "spend": 32.74,
+   "impressions": 143,
+   "reach": 132,
+   "clicks": 7,
+   "ctr": 4.895105,
+   "cpc": 4.677143,
+   "leads": 2.0,
+   "cost_per_lead": 16.37,
    "landing_page_views": 0.0
   }
  },
- "lead_times": [],
+ "lead_times": [
+  {
+   "date": "2026-11-05",
+   "hour": "15:00",
+   "campaign": "קמפיין לידים אייל",
+   "ad": "סרטון מיקונוס 11.5",
+   "leads": 2
+  },
+  {
+   "date": "2026-11-05",
+   "hour": "17:00",
+   "campaign": "קמפיין לידים אייל",
+   "ad": "2026-W42-PH1 · form",
+   "leads": 2
+  },
+  {
+   "date": "2026-11-05",
+   "hour": "17:00",
+   "campaign": "קמפיין לידים אייל",
+   "ad": "2026-W44-PL1 · form",
+   "leads": 2
+  }
+ ],
  "pixels": [
   {
    "id": "4161502784179798",
@@ -3746,36 +3954,47 @@
   {
    "id": "1750634382895124",
    "name": "HK Pixel",
-   "last_fired_time": "2026-11-05T00:39:13+0200",
+   "last_fired_time": "2026-11-06T01:43:46+0200",
    "events_3d": {
-    "PageView": 34
+    "PageView": 36
    }
   }
  ],
  "yesterday": {
-  "date": "04.11.2026",
+  "date": "05.11.2026",
   "campaigns": {
-   "120245939439290740": {
-    "spend": 175.42,
-    "impressions": 1231,
-    "reach": 870,
-    "clicks": 12,
-    "ctr": 0.974817,
-    "cpc": 14.618333,
+   "120234694036040740": {
+    "spend": 47.8,
+    "impressions": 235,
+    "reach": 216,
+    "clicks": 3,
+    "ctr": 1.276596,
+    "cpc": 15.933333,
     "leads": 0.0,
     "cost_per_lead": null,
+    "landing_page_views": 0.0
+   },
+   "120245939439290740": {
+    "spend": 252.43,
+    "impressions": 1541,
+    "reach": 1292,
+    "clicks": 21,
+    "ctr": 1.362751,
+    "cpc": 12.020476,
+    "leads": 3.0,
+    "cost_per_lead": 84.143333,
     "landing_page_views": 0.0
    }
   },
   "total": {
-   "spend": 175.42,
-   "impressions": 1231,
-   "reach": 870,
-   "clicks": 12,
-   "ctr": 0.974817221770918,
-   "cpc": 14.618333333333332,
-   "leads": 0.0,
-   "cost_per_lead": null,
+   "spend": 300.23,
+   "impressions": 1776,
+   "reach": 1508,
+   "clicks": 24,
+   "ctr": 1.3513513513513513,
+   "cpc": 12.509583333333333,
+   "leads": 3.0,
+   "cost_per_lead": 100.07666666666667,
    "landing_page_views": 0.0
   }
  }
