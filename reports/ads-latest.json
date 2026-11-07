@@ -1,11 +1,11 @@
 {
- "generated": "07.11.2026 08:33",
+ "generated": "07.11.2026 11:11",
  "account": {
-  "name": "HK",
+  "id": "act_1886192278456348",
   "currency": "ILS",
   "account_status": 1,
-  "amount_spent": "8905082",
-  "id": "act_1886192278456348"
+  "name": "HK",
+  "amount_spent": "8905082"
  },
  "campaigns": [
   {
@@ -430,14 +430,14 @@
     "landing_page_views": 4.0
    },
    "lifetime": {
-    "spend": 20792.29,
-    "impressions": 144589,
+    "spend": 20813.45,
+    "impressions": 144695,
     "reach": 31548,
     "clicks": 3003,
-    "ctr": 2.076921,
-    "cpc": 6.923839,
+    "ctr": 2.0754,
+    "cpc": 6.930886,
     "leads": 231.0,
-    "cost_per_lead": 90.009913,
+    "cost_per_lead": 90.101515,
     "landing_page_views": 4.0
    },
    "ads_last7": [
@@ -529,14 +529,14 @@
     {
      "adset": "סדרת מודעות לידים חדשה",
      "name": "סרטון מיקונוס 11.5",
-     "spend": 3535.16,
-     "impressions": 24077,
-     "reach": 11098,
+     "spend": 3548.84,
+     "impressions": 24137,
+     "reach": 11104,
      "clicks": 452,
-     "ctr": 1.87731,
-     "cpc": 7.82115,
+     "ctr": 1.872644,
+     "cpc": 7.851416,
      "leads": 41.0,
-     "cost_per_lead": 86.223415,
+     "cost_per_lead": 86.557073,
      "landing_page_views": 0.0
     },
     {
@@ -698,14 +698,14 @@
     {
      "adset": "טלפון · KAI + מנהל תזרים · בעלי עסקים דומה 1-4% · 2026-10",
      "name": "2026-W42-PH1 · form",
-     "spend": 976.76,
-     "impressions": 7003,
-     "reach": 2093,
+     "spend": 982.15,
+     "impressions": 7029,
+     "reach": 2096,
      "clicks": 107,
-     "ctr": 1.527917,
-     "cpc": 9.128598,
+     "ctr": 1.522265,
+     "cpc": 9.178972,
      "leads": 8.0,
-     "cost_per_lead": 122.095,
+     "cost_per_lead": 122.76875,
      "landing_page_views": 0.0
     },
     {
@@ -750,14 +750,14 @@
     {
      "adset": "טלפון · KAI + מנהל תזרים · בעלי עסקים דומה 1-4% · 2026-10",
      "name": "2026-W44-PL1 · form",
-     "spend": 559.11,
-     "impressions": 4483,
-     "reach": 1586,
+     "spend": 561.2,
+     "impressions": 4503,
+     "reach": 1592,
      "clicks": 91,
-     "ctr": 2.029891,
-     "cpc": 6.144066,
+     "ctr": 2.020875,
+     "cpc": 6.167033,
      "leads": 5.0,
-     "cost_per_lead": 111.822,
+     "cost_per_lead": 112.24,
      "landing_page_views": 1.0
     },
     {
@@ -1252,14 +1252,14 @@
     "landing_page_views": 0.0
    },
    "lifetime": {
-    "spend": 23527.92,
-    "impressions": 171178,
+    "spend": 23532.22,
+    "impressions": 171208,
     "reach": 50164,
-    "clicks": 3574,
-    "ctr": 2.087885,
-    "cpc": 6.583078,
+    "clicks": 3575,
+    "ctr": 2.088103,
+    "cpc": 6.582439,
     "leads": 381.0,
-    "cost_per_lead": 61.753071,
+    "cost_per_lead": 61.764357,
     "landing_page_views": 2.0
    },
    "ads_last7": [
@@ -1336,14 +1336,14 @@
     {
      "adset": "‏תחומי עניין בעלי עסקים ועצמאיים || 25+ || מיקומים ידניים",
      "name": "סרטון 4 תיקון - בקיצור אני יושב במיקונוס",
-     "spend": 10653.44,
-     "impressions": 74323,
+     "spend": 10657.74,
+     "impressions": 74353,
      "reach": 30905,
-     "clicks": 1643,
-     "ctr": 2.210621,
-     "cpc": 6.484139,
+     "clicks": 1644,
+     "ctr": 2.211074,
+     "cpc": 6.48281,
      "leads": 189.0,
-     "cost_per_lead": 56.367407,
+     "cost_per_lead": 56.390159,
      "landing_page_views": 1.0
     },
     {
@@ -3899,25 +3899,25 @@
  },
  "today": {
   "120234694036040740": {
-   "spend": 1.22,
-   "impressions": 7,
-   "reach": 6,
-   "clicks": 1,
-   "ctr": 14.285714,
-   "cpc": 1.22,
+   "spend": 5.52,
+   "impressions": 37,
+   "reach": 35,
+   "clicks": 2,
+   "ctr": 5.405405,
+   "cpc": 2.76,
    "leads": 0.0,
    "cost_per_lead": null,
    "landing_page_views": 0.0
   },
   "120245939439290740": {
-   "spend": 42.12,
-   "impressions": 175,
-   "reach": 162,
+   "spend": 63.28,
+   "impressions": 281,
+   "reach": 261,
    "clicks": 6,
-   "ctr": 3.428571,
-   "cpc": 7.02,
+   "ctr": 2.135231,
+   "cpc": 10.546667,
    "leads": 1.0,
-   "cost_per_lead": 42.12,
+   "cost_per_lead": 63.28,
    "landing_page_views": 0.0
   }
  },
@@ -3977,7 +3977,7 @@
    "name": "HK Pixel",
    "last_fired_time": "2026-11-06T18:59:11+0200",
    "events_3d": {
-    "PageView": 30
+    "PageView": 31
    }
   }
  ],
