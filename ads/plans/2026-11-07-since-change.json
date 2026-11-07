@@ -3,8 +3,57 @@
   "approved": true,
   "approved_by": "קריאה בלבד, בלי שינוי בחשבון. אייל בצ'אט 07.11",
   "actions": [
-    {"type": "today_ads", "date_preset": "yesterday"},
-    {"type": "today_ads"},
-    {"type": "lead_times"}
+    {
+      "type": "today_ads",
+      "date_preset": "yesterday"
+    },
+    {
+      "type": "today_ads"
+    },
+    {
+      "type": "lead_times"
+    }
+  ],
+  "applied": [
+    {
+      "index": 0,
+      "type": "today_ads",
+      "ok": true,
+      "at": "2026-11-07T11:15+02:00",
+      "result": {
+        "lines": [
+          "TODAY ‏קמפיין כספים AI טופס לידים || HK Money‏ | ‏תחומי עניין בעלי עסקים ועצמאיים || 25+ || מיקומים ידניים | ‏סרטון 3 - אתה נוסע קרוב לשוליים | spend 9.87 | impr 37 | clicks 0 | leads 0",
+          "TODAY ‏קמפיין כספים AI טופס לידים || HK Money‏ | ‏תחומי עניין בעלי עסקים ועצמאיים || 25+ || מיקומים ידניים | סרטון 4 תיקון - בקיצור אני יושב במיקונוס | spend 89.92 | impr 678 | clicks 21 | leads 2",
+          "TODAY קמפיין לידים אייל | סדרת מודעות לידים חדשה | סרטון מיקונוס 11.5 | spend 138.65 | impr 692 | clicks 19 | leads 2",
+          "TODAY קמפיין לידים אייל | טלפון · KAI + מנהל תזרים · בעלי עסקים דומה 1-4% · 2026-10 | 2026-W42-PH1 · form | spend 63.08 | impr 311 | clicks 0 | leads 0",
+          "TODAY קמפיין לידים אייל | טלפון · KAI + מנהל תזרים · בעלי עסקים דומה 1-4% · 2026-10 | 2026-W44-PL1 · form | spend 32.27 | impr 223 | clicks 3 | leads 0"
+        ]
+      }
+    },
+    {
+      "index": 1,
+      "type": "today_ads",
+      "ok": true,
+      "at": "2026-11-07T11:15+02:00",
+      "result": {
+        "lines": [
+          "TODAY ‏קמפיין כספים AI טופס לידים || HK Money‏ | ‏תחומי עניין בעלי עסקים ועצמאיים || 25+ || מיקומים ידניים | סרטון 4 תיקון - בקיצור אני יושב במיקונוס | spend 5.59 | impr 38 | clicks 2 | leads 0",
+          "TODAY קמפיין לידים אייל | סדרת מודעות לידים חדשה | סרטון מיקונוס 11.5 | spend 42.82 | impr 182 | clicks 5 | leads 1",
+          "TODAY קמפיין לידים אייל | טלפון · KAI + מנהל תזרים · בעלי עסקים דומה 1-4% · 2026-10 | 2026-W42-PH1 · form | spend 11.97 | impr 55 | clicks 1 | leads 0",
+          "TODAY קמפיין לידים אייל | טלפון · KAI + מנהל תזרים · בעלי עסקים דומה 1-4% · 2026-10 | 2026-W44-PL1 · form | spend 11.63 | impr 52 | clicks 0 | leads 0"
+        ]
+      }
+    },
+    {
+      "index": 2,
+      "type": "lead_times",
+      "ok": true,
+      "at": "2026-11-07T11:15+02:00",
+      "result": {
+        "lines": [
+          "LEADHOUR 06:00 | סדרת מודעות לידים חדשה | סרטון מיקונוס 11.5 | 1"
+        ]
+      }
+    }
   ]
 }
