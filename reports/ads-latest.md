@@ -1,6 +1,6 @@
-# דוח מודעות · HK · 06.11.2026 13:57
+# דוח מודעות · HK · 07.11.2026 04:19
 
-מצב חשבון: 1 · מטבע: ILS · הוצאה מצטברת: 88,717 ₪
+מצב חשבון: 1 · מטבע: ILS · הוצאה מצטברת: 89,051 ₪
 
 ## HK Studio · יועצים · טופס לידים  (ACTIVE, OUTCOME_LEADS)
 תקציב: יומי — · כולל — · התחלה 2026-10-03 · עדכון אחרון 2026-10-27
@@ -11,8 +11,8 @@
 
 | טווח | הוצאה | חשיפות | קליקים | CTR | לידים | עלות לליד |
 |---|---|---|---|---|---|---|
-| 7 ימים | 168 ₪ | 4,284 | 58 | 1.35% | 3 | 56 ₪ |
-| 30 ימים | 619 ₪ | 14,477 | 160 | 1.11% | 9 | 69 ₪ |
+| 7 ימים | 102 ₪ | 2,333 | 34 | 1.46% | 2 | 51 ₪ |
+| 30 ימים | 585 ₪ | 14,156 | 152 | 1.07% | 8 | 73 ₪ |
 | כל הזמן | 809 ₪ | 15,546 | 187 | 1.20% | 9 | 90 ₪ |
 
 מודעות (כל הזמן, 5 הגדולות):
@@ -23,9 +23,9 @@
 - HK Studio · יועצים · טופס לידים · קבוצה 3 · יועצים עסקיים ופיננסיים › 2026-W43-SA6 · form: 26 ₪, 7 קליקים, CTR 1.94%, 0 לידים, עלות לליד —
 
 מודעות (7 ימים):
-- HK Studio · יועצים · טופס לידים · קבוצה 3 · יועצים עסקיים ופיננסיים › 2026-W43-SA7 · form: 157 ₪, 56 קליקים, 3 לידים, עלות לליד 52 ₪
-- HK Studio · יועצים · טופס לידים · קבוצה 3 · יועצים עסקיים ופיננסיים › 2026-W43-SA6 · form: 7 ₪, 2 קליקים, 0 לידים, עלות לליד —
-- HK Studio · יועצים · טופס לידים · קבוצה 3 · יועצים עסקיים ופיננסיים › 2026-W43-SA8 · form: 4 ₪, 0 קליקים, 0 לידים, עלות לליד —
+- HK Studio · יועצים · טופס לידים · קבוצה 3 · יועצים עסקיים ופיננסיים › 2026-W43-SA7 · form: 96 ₪, 32 קליקים, 2 לידים, עלות לליד 48 ₪
+- HK Studio · יועצים · טופס לידים · קבוצה 3 · יועצים עסקיים ופיננסיים › 2026-W43-SA6 · form: 5 ₪, 2 קליקים, 0 לידים, עלות לליד —
+- HK Studio · יועצים · טופס לידים · קבוצה 3 · יועצים עסקיים ופיננסיים › 2026-W43-SA8 · form: 1 ₪, 0 קליקים, 0 לידים, עלות לליד —
 
 ## HK Studio · יועצים · כניסות לדף  (ACTIVE, OUTCOME_TRAFFIC)
 תקציב: יומי — · כולל — · התחלה 2026-09-27 · עדכון אחרון 2026-09-27
@@ -58,22 +58,22 @@
 
 | טווח | הוצאה | חשיפות | קליקים | CTR | לידים | עלות לליד |
 |---|---|---|---|---|---|---|
-| 7 ימים | 1,369 ₪ | 10,256 | 149 | 1.45% | 5 | 274 ₪ |
-| 30 ימים | 5,228 ₪ | 36,617 | 743 | 2.03% | 40 | 131 ₪ |
-| כל הזמן | 20,644 ₪ | 143,776 | 2,991 | 2.08% | 230 | 90 ₪ |
+| 7 ימים | 1,411 ₪ | 10,101 | 149 | 1.48% | 6 | 235 ₪ |
+| 30 ימים | 5,276 ₪ | 36,817 | 744 | 2.02% | 38 | 139 ₪ |
+| כל הזמן | 20,766 ₪ | 144,504 | 2,999 | 2.08% | 230 | 90 ₪ |
 
 מודעות (כל הזמן, 5 הגדולות):
 - ‏סדרת מודעות לידים חדשה‏ - בעלי עסקים › סרטון יום שישי: 4,396 ₪, 814 קליקים, CTR 2.24%, 67 לידים, עלות לליד 66 ₪
 - סדרת מודעות לידים חדשה › סרטון יום שישי: 4,041 ₪, 732 קליקים, CTR 2.65%, 58 לידים, עלות לליד 70 ₪
 - סדרת מודעות לידים חדשה › מודעת לידים אייל: 3,992 ₪, 320 קליקים, CTR 1.43%, 31 לידים, עלות לליד 129 ₪
-- סדרת מודעות לידים חדשה › סרטון מיקונוס 11.5: 3,462 ₪, 444 קליקים, CTR 1.88%, 40 לידים, עלות לליד 87 ₪
+- סדרת מודעות לידים חדשה › סרטון מיקונוס 11.5: 3,520 ₪, 449 קליקים, CTR 1.87%, 40 לידים, עלות לליד 88 ₪
 - לקוחות bizibox · קהל מותאם · 2026-10 › 2026-W42-BZA · form: 1,896 ₪, 353 קליקים, CTR 2.26%, 16 לידים, עלות לליד 118 ₪
 
 מודעות (7 ימים):
-- לקוחות bizibox · קהל מותאם · 2026-10 › 2026-W42-BZA · form: 732 ₪, 85 קליקים, 1 לידים, עלות לליד 732 ₪
-- טלפון · KAI + מנהל תזרים · בעלי עסקים דומה 1-4% · 2026-10 › 2026-W42-PH1 · form: 280 ₪, 23 קליקים, 2 לידים, עלות לליד 140 ₪
-- טלפון · KAI + מנהל תזרים · בעלי עסקים דומה 1-4% · 2026-10 › 2026-W44-PL1 · form: 243 ₪, 34 קליקים, 1 לידים, עלות לליד 243 ₪
-- סדרת מודעות לידים חדשה › סרטון מיקונוס 11.5: 111 ₪, 7 קליקים, 1 לידים, עלות לליד 111 ₪
+- לקוחות bizibox · קהל מותאם · 2026-10 › 2026-W42-BZA · form: 611 ₪, 72 קליקים, 1 לידים, עלות לליד 611 ₪
+- טלפון · KAI + מנהל תזרים · בעלי עסקים דומה 1-4% · 2026-10 › 2026-W42-PH1 · form: 321 ₪, 19 קליקים, 1 לידים, עלות לליד 321 ₪
+- סדרת מודעות לידים חדשה › סרטון מיקונוס 11.5: 249 ₪, 26 קליקים, 3 לידים, עלות לליד 83 ₪
+- טלפון · KAI + מנהל תזרים · בעלי עסקים דומה 1-4% · 2026-10 › 2026-W44-PL1 · form: 226 ₪, 32 קליקים, 1 לידים, עלות לליד 226 ₪
 - טלפון · KAI + מנהל תזרים · בעלי עסקים דומה 1-4% · 2026-10 › 2026-W44-WA · שאלה אחת בוואטסאפ · form: 3 ₪, 0 קליקים, 0 לידים, עלות לליד —
 
 ## קמפיין VSL - תנועה, מיקסום צפיות בדף נחיתה  (PAUSED, OUTCOME_TRAFFIC)
@@ -145,20 +145,20 @@
 
 | טווח | הוצאה | חשיפות | קליקים | CTR | לידים | עלות לליד |
 |---|---|---|---|---|---|---|
-| 7 ימים | 48 ₪ | 237 | 3 | 1.27% | 0 | — |
-| 30 ימים | 48 ₪ | 237 | 3 | 1.27% | 0 | — |
-| כל הזמן | 23,496 ₪ | 170,899 | 3,568 | 2.09% | 381 | 62 ₪ |
+| 7 ימים | 148 ₪ | 951 | 24 | 2.52% | 2 | 74 ₪ |
+| 30 ימים | 148 ₪ | 951 | 24 | 2.52% | 2 | 74 ₪ |
+| כל הזמן | 23,527 ₪ | 171,170 | 3,573 | 2.09% | 381 | 62 ₪ |
 
 מודעות (כל הזמן, 5 הגדולות):
-- ‏תחומי עניין בעלי עסקים ועצמאיים || 25+ || מיקומים ידניים › סרטון 4 תיקון - בקיצור אני יושב במיקונוס: 10,622 ₪, 1637 קליקים, CTR 2.21%, 189 לידים, עלות לליד 56 ₪
+- ‏תחומי עניין בעלי עסקים ועצמאיים || 25+ || מיקומים ידניים › סרטון 4 תיקון - בקיצור אני יושב במיקונוס: 10,652 ₪, 1642 קליקים, CTR 2.21%, 189 לידים, עלות לליד 56 ₪
 - קהל פתוח || 25+ || מיקומים אוטומטים‏ › סרטון 4 תיקון - בקיצור אני יושב במיקונוס: 9,321 ₪, 1398 קליקים, CTR 1.85%, 139 לידים, עלות לליד 67 ₪
 - ‏תחומי עניין בעלי עסקים ועצמאיים || 25+ || מיקומים ידניים › סרטון 2 תיקון - מהפכת ה AI: 1,764 ₪, 242 קליקים, CTR 2.59%, 34 לידים, עלות לליד 52 ₪
 - ‏תחומי עניין בעלי עסקים ועצמאיים || 25+ || מיקומים ידניים › ‏סרטון 3 - אתה נוסע קרוב לשוליים: 562 ₪, 117 קליקים, CTR 2.71%, 4 לידים, עלות לליד 141 ₪
 - קהל פתוח || 25+ || מיקומים אוטומטים‏ › סרטון 2 תיקון - מהפכת ה AI: 495 ₪, 66 קליקים, CTR 2.31%, 7 לידים, עלות לליד 71 ₪
 
 מודעות (7 ימים):
-- ‏תחומי עניין בעלי עסקים ועצמאיים || 25+ || מיקומים ידניים › סרטון 4 תיקון - בקיצור אני יושב במיקונוס: 34 ₪, 3 קליקים, 0 לידים, עלות לליד —
-- ‏תחומי עניין בעלי עסקים ועצמאיים || 25+ || מיקומים ידניים › ‏סרטון 3 - אתה נוסע קרוב לשוליים: 11 ₪, 0 קליקים, 0 לידים, עלות לליד —
+- ‏תחומי עניין בעלי עסקים ועצמאיים || 25+ || מיקומים ידניים › סרטון 4 תיקון - בקיצור אני יושב במיקונוס: 124 ₪, 24 קליקים, 2 לידים, עלות לליד 62 ₪
+- ‏תחומי עניין בעלי עסקים ועצמאיים || 25+ || מיקומים ידניים › ‏סרטון 3 - אתה נוסע קרוב לשוליים: 21 ₪, 0 קליקים, 0 לידים, עלות לליד —
 - ‏תחומי עניין בעלי עסקים ועצמאיים || 25+ || מיקומים ידניים › סרטון 2 תיקון - מהפכת ה AI: 3 ₪, 0 קליקים, 0 לידים, עלות לליד —
 
 ## קמפיין לידים לאתר || HK Money  (PAUSED, OUTCOME_LEADS)
@@ -209,7 +209,7 @@
 | טווח | הוצאה | חשיפות | קליקים | CTR | לידים | עלות לליד |
 |---|---|---|---|---|---|---|
 | 7 ימים | — | 0 | 0 | 0.00% | 0 | — |
-| 30 ימים | 1,553 ₪ | 7,016 | 170 | 2.42% | 22 | 71 ₪ |
+| 30 ימים | 1,426 ₪ | 6,278 | 154 | 2.45% | 20 | 71 ₪ |
 | כל הזמן | 25,993 ₪ | 249,275 | 4,884 | 1.96% | 449 | 58 ₪ |
 
 מודעות (כל הזמן, 5 הגדולות):
@@ -398,17 +398,15 @@
   - מודעה ‏‏וידיאו 5 || 3 טקסטים‏‏ - עותק (120216040036430740): ACTIVE/ADSET_PAUSED
   - מודעה ‏‏וידיאו 9 || 3 טקסטים‏ (120216039932290740): ACTIVE/ADSET_PAUSED
 
-## היום עד עכשיו (06.11.2026 13:57)
+## היום עד עכשיו (07.11.2026 04:19)
 
 - HK Studio · יועצים · טופס לידים: —, 0 חשיפות, 0 קליקים, 0 צפיות בדף, 0 לידים (—/ליד)
 - HK Studio · יועצים · כניסות לדף: —, 0 חשיפות, 0 קליקים, 0 צפיות בדף, 0 לידים (—/ליד)
-- קמפיין לידים אייל: 128 ₪, 589 חשיפות, 16 קליקים, 0 צפיות בדף, 2 לידים (64 ₪/ליד)
-  - סרטון מיקונוס 11.5: 92 ₪, 16 קליקים, 2 לידים
-  - 2026-W42-PH1 · form: 25 ₪, 0 קליקים, 0 לידים
-  - 2026-W44-PL1 · form: 11 ₪, 0 קליקים, 0 לידים
-- ‏קמפיין כספים AI טופס לידים || HK Money‏: 69 ₪, 443 חשיפות, 16 קליקים, 0 צפיות בדף, 2 לידים (35 ₪/ליד)
-  - ‏סרטון 3 - אתה נוסע קרוב לשוליים: 10 ₪, 0 קליקים, 0 לידים
-  - סרטון 4 תיקון - בקיצור אני יושב במיקונוס: 60 ₪, 16 קליקים, 2 לידים
+- קמפיין לידים אייל: 16 ₪, 90 חשיפות, 2 קליקים, 0 צפיות בדף, 0 לידים (—/ליד)
+  - סרטון מיקונוס 11.5: 11 ₪, 2 קליקים, 0 לידים
+  - 2026-W42-PH1 · form: 1 ₪, 0 קליקים, 0 לידים
+  - 2026-W44-PL1 · form: 4 ₪, 0 קליקים, 0 לידים
+- ‏קמפיין כספים AI טופס לידים || HK Money‏: —, 0 חשיפות, 0 קליקים, 0 צפיות בדף, 0 לידים (—/ליד)
 - ‏טופס לידים || ניהול תזרים ||: —, 0 חשיפות, 0 קליקים, 0 צפיות בדף, 0 לידים (—/ליד)
 
 ## אבחון אי-הצגה
@@ -418,29 +416,46 @@
   - קבוצה HK Studio · יועצים · טופס לידים · קבוצה 3 · יועצים עסקיים ופיננסיים: {"effective_status": "PAUSED", "configured_status": "PAUSED", "learning_stage_info": {"attribution_windows": ["1d_click"], "last_sig_edit_ts": 1793094644}, "start_time": "2026-10-18T20:28:34+0300", "daily_budget": "7500", "bid_strategy": "LOWEST_COST_WITHOUT_CAP", "optimization_goal": "LEAD_GENERATION", "billing_event": "IMPRESSIONS", "targeting": {"age_max": 65, "age_min": 28, "flexible_spec": [{"interests": [{"id": "6003274244908", "name": "ייעוץ אסטרטגי"}, {"id": "6003282114841", "name": "Certified Financial Planner"}, {"id": "6006252868071", "name": "Consulting firm"}, {"id": "6899293316073", "name": "ייעוץ (עסקים ופיננסים)"}], "work_positions": [{"id": "108173379210853", "name": "Financial adviser"}, {"id": "112303612129140", "name": "Business consultant"}, {"id": "113837198626859", "name": "Independent Financial Adviser"}, {"id": "599903136775985", "name": "Business Process Consultant"}, {"id": "775020095880331", "name": "Business Management Consultant"}]}], "geo_locations": {"countries": ["IL"], "location_types": ["home"]}, "targeting_automation": {"advantage_audience": 0}}}
   - קבוצה HK Studio · יועצים · טופס לידים · קבוצה 2 · דף HK Money: {"effective_status": "PAUSED", "configured_status": "PAUSED", "learning_stage_info": {"attribution_windows": ["1d_click"], "last_sig_edit_ts": 1791026754}, "start_time": "2026-10-03T14:25:34+0300", "daily_budget": "5000", "bid_strategy": "LOWEST_COST_WITHOUT_CAP", "optimization_goal": "LEAD_GENERATION", "billing_event": "IMPRESSIONS", "targeting": {"age_max": 65, "age_min": 28, "flexible_spec": [{"interests": [{"id": "6002984410123", "name": "רואה חשבון"}, {"id": "6003274244908", "name": "ייעוץ אסטרטגי"}, {"id": "6003649965713", "name": "הנהלת חשבונות"}, {"id": "6006252868071", "name": "Consulting firm"}]}, {"interests": [{"id": "6002884511422", "name": "עסק קטן (עסקים ופיננסים)"}, {"id": "6003184559502", "name": "Professional services"}, {"id": "6003280183843", "name": "פיתוח עסקי (פעילויות עסקיות)"}]}], "geo_locations": {"countries": ["IL"], "location_types": ["home"]}, "targeting_automation": {"advantage_audience": 0}}}
   - קבוצה HK Studio · יועצים · טופס לידים · קבוצה 1: {"effective_status": "PAUSED", "configured_status": "PAUSED", "learning_stage_info": {"attribution_windows": ["1d_click"], "last_sig_edit_ts": 1791025924}, "start_time": "2026-10-03T14:11:44+0300", "daily_budget": "5000", "bid_strategy": "LOWEST_COST_WITHOUT_CAP", "optimization_goal": "LEAD_GENERATION", "billing_event": "IMPRESSIONS", "targeting": {"age_max": 65, "age_min": 28, "flexible_spec": [{"interests": [{"id": "6002984410123", "name": "רואה חשבון"}, {"id": "6003274244908", "name": "ייעוץ אסטרטגי"}, {"id": "6003649965713", "name": "הנהלת חשבונות"}, {"id": "6006252868071", "name": "Consulting firm"}]}, {"interests": [{"id": "6002884511422", "name": "עסק קטן (עסקים ופיננסים)"}, {"id": "6003184559502", "name": "Professional services"}, {"id": "6003280183843", "name": "פיתוח עסקי (פעילויות עסקיות)"}]}], "geo_locations": {"countries": ["IL"], "location_types": ["home"]}, "targeting_automation": {"advantage_audience": 0}}}
-  - מודעה 2026-W43-SA6 · form: {"effective_status": "ADSET_PAUSED", "configured_status": "ACTIVE", "preview_shareable_link": "https://fb.me/1Wwi9mFLJjVBiAf", "created_time": "2026-10-18T20:28:40+0300", "updated_time": "2026-10-27T11:51:02+0200"}
-  - מודעה 2026-W43-SA8 · form: {"effective_status": "ADSET_PAUSED", "configured_status": "ACTIVE", "preview_shareable_link": "https://fb.me/28E2YLxhgkJZlud", "created_time": "2026-10-18T20:28:51+0300", "updated_time": "2026-10-27T11:50:58+0200"}
-  - מודעה 2026-W43-SA7 · form: {"effective_status": "ADSET_PAUSED", "configured_status": "ACTIVE", "preview_shareable_link": "https://fb.me/1VYgX4bRQX2cHT3", "created_time": "2026-10-18T20:28:46+0300", "updated_time": "2026-10-27T11:50:55+0200"}
-  - מודעה 2026-W41-SA4 · form: {"effective_status": "ADSET_PAUSED", "configured_status": "ACTIVE", "preview_shareable_link": "https://fb.me/288ylN5gztaTZVi", "created_time": "2026-10-04T13:11:47+0300", "updated_time": "2026-10-04T13:14:34+0300"}
-  - מודעה 2026-W40-SA3 · form: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/2bM4QhJZl9GsheT", "created_time": "2026-10-03T14:25:38+0300", "updated_time": "2026-10-04T13:12:42+0300"}
-  - מודעה 2026-W40-SA2 · form: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/1WVeVCwrV1V9lye", "created_time": "2026-10-03T14:25:42+0300", "updated_time": "2026-10-04T13:12:40+0300"}
-  - מודעה 2026-W40-SA3 · std: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/2P55M3xhQJFElry", "created_time": "2026-10-03T14:30:01+0300", "updated_time": "2026-10-03T14:51:25+0300"}
-  - מודעה 2026-W40-SA2 · std: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/22MLEU3I8SjJyaN", "created_time": "2026-10-03T14:30:05+0300", "updated_time": "2026-10-03T14:51:22+0300"}
-  - מודעה 2026-W40-SA3 · form: {"effective_status": "ADSET_PAUSED", "configured_status": "ACTIVE", "preview_shareable_link": "https://fb.me/2gUi1GfCHJ6dWWR", "created_time": "2026-10-03T14:11:48+0300", "updated_time": "2026-10-03T14:17:57+0300"}
-  - מודעה 2026-W40-SA2 · form: {"effective_status": "ADSET_PAUSED", "configured_status": "ACTIVE", "preview_shareable_link": "https://fb.me/2bOSx67167JlY6U", "created_time": "2026-10-03T14:11:53+0300", "updated_time": "2026-10-03T14:14:52+0300"}
+  - מודעה 2026-W43-SA6 · form: {"effective_status": "ADSET_PAUSED", "configured_status": "ACTIVE", "preview_shareable_link": "https://fb.me/2b5GZiFigVKX4qF", "created_time": "2026-10-18T20:28:40+0300", "updated_time": "2026-10-27T11:51:02+0200"}
+  - מודעה 2026-W43-SA8 · form: {"effective_status": "ADSET_PAUSED", "configured_status": "ACTIVE", "preview_shareable_link": "https://fb.me/22CYksiEmYo6iAh", "created_time": "2026-10-18T20:28:51+0300", "updated_time": "2026-10-27T11:50:58+0200"}
+  - מודעה 2026-W43-SA7 · form: {"effective_status": "ADSET_PAUSED", "configured_status": "ACTIVE", "preview_shareable_link": "https://fb.me/2vzNATf3jl784sJ", "created_time": "2026-10-18T20:28:46+0300", "updated_time": "2026-10-27T11:50:55+0200"}
+  - מודעה 2026-W41-SA4 · form: {"effective_status": "ADSET_PAUSED", "configured_status": "ACTIVE", "preview_shareable_link": "https://fb.me/z8HJoDQvWmHyhdI", "created_time": "2026-10-04T13:11:47+0300", "updated_time": "2026-10-04T13:14:34+0300"}
+  - מודעה 2026-W40-SA3 · form: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/2epuI1uVz0tTKdp", "created_time": "2026-10-03T14:25:38+0300", "updated_time": "2026-10-04T13:12:42+0300"}
+  - מודעה 2026-W40-SA2 · form: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/2juBzhIRhK9HyjF", "created_time": "2026-10-03T14:25:42+0300", "updated_time": "2026-10-04T13:12:40+0300"}
+  - מודעה 2026-W40-SA3 · std: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/1UsPvY9Ava9sb3m", "created_time": "2026-10-03T14:30:01+0300", "updated_time": "2026-10-03T14:51:25+0300"}
+  - מודעה 2026-W40-SA2 · std: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/1WRASqS4nz0ERDl", "created_time": "2026-10-03T14:30:05+0300", "updated_time": "2026-10-03T14:51:22+0300"}
+  - מודעה 2026-W40-SA3 · form: {"effective_status": "ADSET_PAUSED", "configured_status": "ACTIVE", "preview_shareable_link": "https://fb.me/27KLjA8YmHnhWXZ", "created_time": "2026-10-03T14:11:48+0300", "updated_time": "2026-10-03T14:17:57+0300"}
+  - מודעה 2026-W40-SA2 · form: {"effective_status": "ADSET_PAUSED", "configured_status": "ACTIVE", "preview_shareable_link": "https://fb.me/2aShq4uiTK1iJmP", "created_time": "2026-10-03T14:11:53+0300", "updated_time": "2026-10-03T14:14:52+0300"}
 - קמפיין HK Studio · יועצים · כניסות לדף: {"id": "120251876259960740", "configured_status": "ACTIVE", "effective_status": "ACTIVE", "start_time": "2026-09-27T15:32:33+0300", "special_ad_categories": []}
   - קבוצה HK Studio · יועצים · כניסות לדף · קבוצה 1: {"effective_status": "PAUSED", "configured_status": "PAUSED", "learning_stage_info": {"attribution_windows": ["1d_click"], "last_sig_edit_ts": 1790568093}, "start_time": "2026-09-27T15:32:33+0300", "daily_budget": "5000", "bid_strategy": "LOWEST_COST_WITHOUT_CAP", "optimization_goal": "LANDING_PAGE_VIEWS", "billing_event": "IMPRESSIONS", "targeting": {"age_max": 65, "age_min": 28, "flexible_spec": [{"interests": [{"id": "6002984410123", "name": "רואה חשבון"}, {"id": "6003274244908", "name": "ייעוץ אסטרטגי"}, {"id": "6003649965713", "name": "הנהלת חשבונות"}, {"id": "6006252868071", "name": "Consulting firm"}]}, {"interests": [{"id": "6002884511422", "name": "עסק קטן (עסקים ופיננסים)"}, {"id": "6003184559502", "name": "Professional services"}, {"id": "6003280183843", "name": "פיתוח עסקי (פעילויות עסקיות)"}]}], "geo_locations": {"countries": ["IL"], "location_types": ["frequently_in", "home"]}, "targeting_automation": {"advantage_audience": 0}, "user_age_unknown": false}}
-  - מודעה 2026-W40-SA1 · live: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/qxhx2C3y6mvx2x4", "created_time": "2026-09-29T16:56:34+0300", "updated_time": "2026-10-01T00:17:55+0300"}
-  - מודעה 2026-W40-SA3 · live: {"effective_status": "ADSET_PAUSED", "configured_status": "ACTIVE", "preview_shareable_link": "https://fb.me/1X4CRAvyG0RqpQM", "created_time": "2026-09-29T16:56:46+0300", "updated_time": "2026-09-29T16:59:38+0300"}
-  - מודעה 2026-W40-SA2 · live: {"effective_status": "ADSET_PAUSED", "configured_status": "ACTIVE", "preview_shareable_link": "https://fb.me/1Xgkp7pNQTqNIBc", "created_time": "2026-09-29T16:56:41+0300", "updated_time": "2026-09-29T16:59:30+0300"}
-  - מודעה 2026-W40-SA1: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/2idSYxX05GyU7Iu", "created_time": "2026-09-27T15:48:29+0300", "updated_time": "2026-09-29T16:58:20+0300"}
-  - מודעה 2026-W40-SA3: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/2ccoq63IaKrf81o", "created_time": "2026-09-27T15:48:39+0300", "updated_time": "2026-09-29T16:58:18+0300"}
-  - מודעה 2026-W40-SA2: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/2aPfp7cJHMNOqWM", "created_time": "2026-09-27T15:48:34+0300", "updated_time": "2026-09-29T16:58:16+0300"}
-  - מודעה 2026-W40-SA1 · b: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/1Wl4IWsoXL2AznW", "created_time": "2026-09-27T21:42:49+0300", "updated_time": "2026-09-28T09:46:34+0300"}
-  - מודעה 2026-W40-S3: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/2aP97oEYRLQVaEZ", "created_time": "2026-09-27T15:35:51+0300", "updated_time": "2026-09-28T07:04:02+0300"}
-  - מודעה 2026-W40-S2: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/qAGRx2loRdtEbVQ", "created_time": "2026-09-27T15:36:06+0300", "updated_time": "2026-09-28T07:03:58+0300"}
-  - מודעה 2026-W40-S5: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/1TLeBeI6PiDEAVo", "created_time": "2026-09-27T15:36:13+0300", "updated_time": "2026-09-28T07:03:51+0300"}
-  - מודעה 2026-W40-S4: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/2thncnGVQquyaes", "created_time": "2026-09-27T15:35:58+0300", "updated_time": "2026-09-28T07:03:33+0300"}
+  - מודעה 2026-W40-SA1 · live: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/25CPhewjruptxaa", "created_time": "2026-09-29T16:56:34+0300", "updated_time": "2026-10-01T00:17:55+0300"}
+  - מודעה 2026-W40-SA3 · live: {"effective_status": "ADSET_PAUSED", "configured_status": "ACTIVE", "preview_shareable_link": "https://fb.me/2tTHcimZe1fSUSh", "created_time": "2026-09-29T16:56:46+0300", "updated_time": "2026-09-29T16:59:38+0300"}
+  - מודעה 2026-W40-SA2 · live: {"effective_status": "ADSET_PAUSED", "configured_status": "ACTIVE", "preview_shareable_link": "https://fb.me/1XsTiyw32EULFdK", "created_time": "2026-09-29T16:56:41+0300", "updated_time": "2026-09-29T16:59:30+0300"}
+  - מודעה 2026-W40-SA1: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/27jgjKQLqDqhH7k", "created_time": "2026-09-27T15:48:29+0300", "updated_time": "2026-09-29T16:58:20+0300"}
+  - מודעה 2026-W40-SA3: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/2jszWdS86HNaGEy", "created_time": "2026-09-27T15:48:39+0300", "updated_time": "2026-09-29T16:58:18+0300"}
+  - מודעה 2026-W40-SA2: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/1WRCcIzYhL2jDnw", "created_time": "2026-09-27T15:48:34+0300", "updated_time": "2026-09-29T16:58:16+0300"}
+  - מודעה 2026-W40-SA1 · b: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/2e8JNcMCaaPjHcC", "created_time": "2026-09-27T21:42:49+0300", "updated_time": "2026-09-28T09:46:34+0300"}
+  - מודעה 2026-W40-S3: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/25rqe7rvGcP30IS", "created_time": "2026-09-27T15:35:51+0300", "updated_time": "2026-09-28T07:04:02+0300"}
+  - מודעה 2026-W40-S2: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/1RNIWaLElaECnJX", "created_time": "2026-09-27T15:36:06+0300", "updated_time": "2026-09-28T07:03:58+0300"}
+  - מודעה 2026-W40-S5: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/25yfYdT74vgap3O", "created_time": "2026-09-27T15:36:13+0300", "updated_time": "2026-09-28T07:03:51+0300"}
+  - מודעה 2026-W40-S4: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/28z4VMKa4Hg0IGY", "created_time": "2026-09-27T15:35:58+0300", "updated_time": "2026-09-28T07:03:33+0300"}
+- קמפיין ‏קמפיין כספים AI טופס לידים || HK Money‏: {"id": "120234694036040740", "configured_status": "ACTIVE", "effective_status": "ACTIVE", "start_time": "2025-09-14T17:23:49+0300", "special_ad_categories": []}
+  - קבוצה קהל פתוח || 25+ || מיקומים ידניים‏ || טסט 3: {"effective_status": "PAUSED", "configured_status": "PAUSED", "learning_stage_info": {"attribution_windows": ["1d_click"], "last_sig_edit_ts": 1768830384}, "start_time": "2026-01-19T15:46:18+0200", "daily_budget": "317", "bid_strategy": "LOWEST_COST_WITHOUT_CAP", "optimization_goal": "LEAD_GENERATION", "billing_event": "IMPRESSIONS", "targeting": {"age_max": 65, "age_min": 25, "age_range": [25, 65], "geo_locations": {"countries": ["IL"], "location_types": ["home", "recent"]}, "locales": [6, 17, 24, 29], "targeting_automation": {"advantage_audience": 1, "individual_setting": {"age": 1, "gender": 1}}, "publisher_platforms": ["facebook", "instagram"], "facebook_positions": ["feed", "story", "facebook_reels", "profile_feed"], "instagram_positions": ["stream", "story", "explore", "reels", "profile_feed", "profile_reels"], "device_platforms": ["mobile", "desktop"]}}
+  - קבוצה ‏‏תחומי עניין בעלי עסקים ועצמאיים || 25+ ||  ‏Advantage+: {"effective_status": "PAUSED", "configured_status": "PAUSED", "learning_stage_info": {"attribution_windows": ["1d_click"], "last_sig_edit_ts": 1768485986}, "start_time": "2026-01-15T16:06:19+0200", "daily_budget": "317", "bid_strategy": "LOWEST_COST_WITHOUT_CAP", "optimization_goal": "LEAD_GENERATION", "billing_event": "IMPRESSIONS", "targeting": {"age_max": 65, "age_min": 25, "age_range": [25, 65], "flexible_spec": [{"interests": [{"id": "6002884511422", "name": "עסק קטן (עסקים ופיננסים)"}, {"id": "6003136069408", "name": "ארגונים קטנים ובינוניים (עסקים ופיננסים)"}, {"id": "6003214937861", "name": "עצמאים (משרות)"}, {"id": "6003371567474", "name": "יזמות (עסקים ופיננסים)"}, {"id": "6003374632277", "name": "פרילאנסרים (משרות)"}, {"id": "6003402305839", "name": "עסקים (עסקים ופיננסים)"}, {"id": "6003605501620", "name": "עסק ביתי (עסקים ופיננסים)"}], "behaviors": [{"id": "6002714898572", "name": "Small business owners"}, {"id": "6020530281783", "name": "Business page admins"}], "work_employers": [{"id": "104096132959364", "name": "Business"}, {"id": "109288035760640", "name": "Business Owner"}, {"id": "110967352262619", "name": "my own company"}, {"id": "111926488822704", "name": "Freelancer"}, {"id": "117014888316786", "name": "i have my own bussiness"}, {"id": "117677474946712", "name": "Owner/Manager/CEO"}, {"id": "133337610036491", "name": "Founder, Director, CEO"}, {"id": "137642586254132", "name": "Owner at own business"}, {"id": "138050029568986", "name": "Owner and Foun
+  - קבוצה קהל פתוח || 25+ || מיקומים אוטומטים‏: {"effective_status": "PAUSED", "configured_status": "PAUSED", "learning_stage_info": {"attribution_windows": ["1d_click"], "last_sig_edit_ts": 1770588097}, "start_time": "2025-09-14T17:23:50+0300", "daily_budget": "5000", "bid_strategy": "LOWEST_COST_WITHOUT_CAP", "optimization_goal": "LEAD_GENERATION", "billing_event": "IMPRESSIONS", "targeting": {"age_max": 65, "age_min": 18, "age_range": [25, 65], "geo_locations": {"countries": ["IL"], "location_types": ["home", "recent"]}, "targeting_automation": {"advantage_audience": 1}}}
+  - קבוצה ‏תחומי עניין בעלי עסקים ועצמאיים || 25+ || מיקומים ידניים: {"effective_status": "ACTIVE", "configured_status": "ACTIVE", "learning_stage_info": {"attribution_windows": ["1d_click"], "conversions": 2, "last_sig_edit_ts": 1793897938, "status": "LEARNING"}, "start_time": "2025-09-14T17:23:49+0300", "daily_budget": "10000", "bid_strategy": "LOWEST_COST_WITHOUT_CAP", "optimization_goal": "LEAD_GENERATION", "billing_event": "IMPRESSIONS", "targeting": {"age_max": 65, "age_min": 25, "flexible_spec": [{"interests": [{"id": "6002884511422", "name": "עסק קטן (עסקים ופיננסים)"}, {"id": "6003136069408", "name": "ארגונים קטנים ובינוניים (עסקים ופיננסים)"}, {"id": "6003214937861", "name": "עצמאים (משרות)"}, {"id": "6003371567474", "name": "יזמות (עסקים ופיננסים)"}, {"id": "6003374632277", "name": "פרילאנסרים (משרות)"}, {"id": "6003402305839", "name": "עסקים (עסקים ופיננסים)"}, {"id": "6003605501620", "name": "עסק ביתי (עסקים ופיננסים)"}], "behaviors": [{"id": "6002714898572", "name": "Small business owners"}, {"id": "6020530281783", "name": "Business page admins"}], "work_employers": [{"id": "104096132959364", "name": "Business"}, {"id": "109288035760640", "name": "Business Owner"}, {"id": "110967352262619", "name": "my own company"}, {"id": "111926488822704", "name": "Freelancer"}, {"id": "117014888316786", "name": "i have my own bussiness"}, {"id": "137642586254132", "name": "Owner at own business"}, {"id": "1393087040960895", "name": "Business Owners"}, {"id": "140296506001448", "name": "Own Business"}, {"id": "164608847064376", "name": "Owner"
+  - מודעה סרטון 2 תיקון - מהפכת ה AI: {"effective_status": "ACTIVE", "configured_status": "ACTIVE", "preview_shareable_link": "https://fb.me/2l15U9u9Bc8Fdu3", "created_time": "2025-09-14T17:23:57+0300", "updated_time": "2026-11-05T18:59:14+0200"}
+  - מודעה ‏סרטון 3 - אתה נוסע קרוב לשוליים: {"effective_status": "ACTIVE", "configured_status": "ACTIVE", "preview_shareable_link": "https://fb.me/1VVuVhAEeUquGZY", "created_time": "2025-09-14T17:23:51+0300", "updated_time": "2026-11-05T18:59:14+0200"}
+  - מודעה סרטון 4 תיקון - בקיצור אני יושב במיקונוס: {"effective_status": "ACTIVE", "configured_status": "ACTIVE", "preview_shareable_link": "https://fb.me/1VYeOC0ijjnsYHg", "created_time": "2025-09-14T17:23:51+0300", "updated_time": "2026-11-05T18:59:11+0200"}
+  - מודעה ‏סרטון 3 - אתה נוסע קרוב לשוליים: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/2nZvuvl2LD19ULe", "created_time": "2025-09-14T17:23:51+0300", "updated_time": "2026-04-16T17:22:38+0300"}
+  - מודעה סרטון 2 תיקון - מהפכת ה AI: {"effective_status": "ADSET_PAUSED", "configured_status": "ACTIVE", "preview_shareable_link": "https://fb.me/2cYVErF7gsNXRQ4", "created_time": "2025-09-14T17:23:51+0300", "updated_time": "2026-02-08T20:22:31+0200"}
+  - מודעה סרטון 4 תיקון - בקיצור אני יושב במיקונוס: {"effective_status": "ADSET_PAUSED", "configured_status": "ACTIVE", "preview_shareable_link": "https://fb.me/2c1oWZPTwoqnMOx", "created_time": "2025-09-14T17:23:57+0300", "updated_time": "2026-02-08T20:22:17+0200"}
+  - מודעה ‏סרטון 3 - אתה נוסע קרוב לשוליים: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/1Rh6C5XlL5Otj1d", "created_time": "2026-01-19T15:46:19+0200", "updated_time": "2026-01-19T15:48:26+0200"}
+  - מודעה סרטון 4 תיקון - בקיצור אני יושב במיקונוס: {"effective_status": "ADSET_PAUSED", "configured_status": "ACTIVE", "preview_shareable_link": "https://fb.me/1WDmXlAnbjjl1JT", "created_time": "2026-01-19T15:46:19+0200", "updated_time": "2026-01-19T15:48:14+0200"}
+  - מודעה סרטון 2 תיקון - מהפכת ה AI: {"effective_status": "ADSET_PAUSED", "configured_status": "ACTIVE", "preview_shareable_link": "https://fb.me/2uwcvTEgkE9HT8l", "created_time": "2026-01-19T15:46:19+0200", "updated_time": "2026-01-19T15:48:09+0200"}
+  - מודעה סרטון 2 תיקון - מהפכת ה AI: {"effective_status": "ADSET_PAUSED", "configured_status": "ACTIVE", "preview_shareable_link": "https://fb.me/2ecL6AYRjfkSH1z", "created_time": "2026-01-15T16:06:21+0200", "updated_time": "2026-01-15T16:10:55+0200"}
+  - מודעה ‏סרטון 3 - אתה נוסע קרוב לשוליים: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/qEfcKRtfl1TizTI", "created_time": "2026-01-15T16:06:21+0200", "updated_time": "2026-01-15T16:09:40+0200"}
+  - מודעה סרטון 4 תיקון - בקיצור אני יושב במיקונוס: {"effective_status": "ADSET_PAUSED", "configured_status": "ACTIVE", "preview_shareable_link": "https://fb.me/zaGBbdtFiKfVi9r", "created_time": "2026-01-15T16:06:21+0200", "updated_time": "2026-01-15T16:08:57+0200"}
 - קמפיין ‏טופס לידים || ניהול תזרים ||: {"id": "120216039932250740", "configured_status": "ACTIVE", "effective_status": "ACTIVE", "start_time": "2025-01-13T15:22:16+0200", "daily_budget": "5000", "special_ad_categories": []}
   - קבוצה LAL 1% · קהל אפריל 26 · וידיאו 1: {"effective_status": "PAUSED", "configured_status": "PAUSED", "learning_stage_info": {"attribution_windows": ["1d_click"], "last_sig_edit_ts": 1792583426}, "start_time": "2026-10-03T14:11:32+0300", "optimization_goal": "LEAD_GENERATION", "billing_event": "IMPRESSIONS", "targeting": {"age_max": 65, "age_min": 25, "custom_audiences": [{"id": "120246050525520740", "name": "דומה (1%) - קהל אפריל 26"}], "geo_locations": {"countries": ["IL"], "location_types": ["home", "recent"]}, "targeting_relaxation_types": {"lookalike": 1, "custom_audience": 0}, "targeting_automation": {"advantage_audience": 0}}}
   - קבוצה ‏‏‏‏קהל בעלי עסקים || 25+ || מיקומים אוטומטים || סרטונים 1-10‏ || טסט: {"effective_status": "PAUSED", "configured_status": "PAUSED", "learning_stage_info": {"attribution_windows": ["1d_click"], "last_sig_edit_ts": 1792583426}, "start_time": "2025-06-08T14:05:08+0300", "optimization_goal": "LEAD_GENERATION", "billing_event": "IMPRESSIONS", "targeting": {"age_max": 65, "age_min": 25, "age_range": [25, 65], "excluded_custom_audiences": [{"id": "120216244354130740", "name": "פתחו טופס ושלחו אותו​ חזות קריספין 90 יום"}], "flexible_spec": [{"interests": [{"id": "6002884511422", "name": "עסק קטן (עסקים ופיננסים)"}, {"id": "6003136069408", "name": "ארגונים קטנים ובינוניים (עסקים ופיננסים)"}, {"id": "6003214937861", "name": "עצמאים (משרות)"}, {"id": "6003325004380", "name": "חברת סטארטאפ (עסקים ופיננסים)"}, {"id": "6003371567474", "name": "יזמות (עסקים ופיננסים)"}, {"id": "6003374632277", "name": "פרילאנסרים (משרות)"}, {"id": "6003402305839", "name": "עסקים (עסקים ופיננסים)"}], "behaviors": [{"id": "6002714898572", "name": "Small business owners"}], "work_employers": [{"id": "109288035760640", "name": "Business Owner"}, {"id": "111926488822704", "name": "Freelancer"}, {"id": "137642586254132", "name": "Owner at own business"}, {"id": "1393087040960895", "name": "Business Owners"}, {"id": "140296506001448", "name": "Own Business"}, {"id": "353386506511", "name": "Freelancer"}, {"id": "680461205375055", "name": "Business Owner"}], "work_positions": [{"id": "104096132959364", "name": "Business"}, {"id": "105563979478424", "name": "Executive director"}, {"id
@@ -448,35 +463,38 @@
   - קבוצה ‏‏קהל תחומי עניין || 25+ || מיקומים ידניים || סרטונים 1-10‏‏: {"effective_status": "PAUSED", "configured_status": "PAUSED", "learning_stage_info": {"attribution_windows": ["1d_click"], "last_sig_edit_ts": 1792583426}, "start_time": "2025-02-05T14:01:24+0200", "optimization_goal": "LEAD_GENERATION", "billing_event": "IMPRESSIONS", "targeting": {"age_max": 65, "age_min": 25, "age_range": [25, 65], "excluded_custom_audiences": [{"id": "120216244354130740", "name": "פתחו טופס ושלחו אותו​ חזות קריספין 90 יום"}], "flexible_spec": [{"interests": [{"id": "6002884511422", "name": "עסק קטן (עסקים ופיננסים)"}, {"id": "6003136069408", "name": "ארגונים קטנים ובינוניים (עסקים ופיננסים)"}, {"id": "6003214937861", "name": "עצמאים (משרות)"}, {"id": "6003344597780", "name": "Freelancers (film)"}, {"id": "6003371567474", "name": "יזמות (עסקים ופיננסים)"}, {"id": "6003374632277", "name": "פרילאנסרים (משרות)"}, {"id": "6003402305839", "name": "עסקים (עסקים ופיננסים)"}, {"id": "6003605501620", "name": "עסק ביתי (עסקים ופיננסים)"}], "behaviors": [{"id": "6002714898572", "name": "Small business owners"}], "work_employers": [{"id": "109288035760640", "name": "Business Owner"}, {"id": "110967352262619", "name": "my own company"}, {"id": "111926488822704", "name": "Freelancer"}, {"id": "117014888316786", "name": "i have my own bussiness"}, {"id": "137642586254132", "name": "Owner at own business"}, {"id": "1393087040960895", "name": "Business Owners"}, {"id": "140296506001448", "name": "Own Business"}, {"id": "164608847064376", "name": "Owner"}, {"id": "258016310
   - קבוצה ‏רימרקטינג רשימה מותאמת || 21+ || כל המיקומים || סרטונים 1-10‏: {"effective_status": "PAUSED", "configured_status": "PAUSED", "learning_stage_info": {"attribution_windows": ["1d_click"], "last_sig_edit_ts": 1792583426}, "start_time": "2025-01-13T15:22:16+0200", "optimization_goal": "LEAD_GENERATION", "billing_event": "IMPRESSIONS", "targeting": {"age_max": 65, "age_min": 22, "excluded_custom_audiences": [{"id": "120216244354130740", "name": "פתחו טופס ושלחו אותו​ חזות קריספין 90 יום"}], "custom_audiences": [{"id": "120216036829110740", "name": "lead_csv.csv"}], "geo_locations": {"countries": ["IL"], "location_types": ["home", "recent"]}, "targeting_optimization": "expansion_all", "brand_safety_content_filter_levels": ["FACEBOOK_STANDARD"], "targeting_relaxation_types": {"lookalike": 0, "custom_audience": 0}, "targeting_automation": {"advantage_audience": 0}}}
   - קבוצה רימרקטינג רשתות || 21+ || כל המיקומים || סרטונים 1-10: {"effective_status": "PAUSED", "configured_status": "PAUSED", "learning_stage_info": {"attribution_windows": ["1d_click"], "last_sig_edit_ts": 1792583426}, "start_time": "2025-01-13T15:22:16+0200", "optimization_goal": "LEAD_GENERATION", "billing_event": "IMPRESSIONS", "targeting": {"age_max": 65, "age_min": 21, "excluded_custom_audiences": [{"id": "120216036829110740", "name": "lead_csv.csv"}], "custom_audiences": [{"id": "120216039890350740", "name": "כל מי שיצר אינטראקציה עם חשבון אינסטגרם hk 365"}, {"id": "120216039921900740", "name": "כל מי שהפגין מעורבות בדף פייסבוק hk 365"}], "geo_locations": {"countries": ["IL"], "location_types": ["home", "recent"]}, "locales": [6, 17, 24, 29], "targeting_optimization": "none", "brand_safety_content_filter_levels": ["FACEBOOK_STANDARD"], "targeting_relaxation_types": {"lookalike": 0, "custom_audience": 0}, "targeting_automation": {"advantage_audience": 0}}}
-  - מודעה וידיאו 1 || 3 טקסטים · LAL אפריל 26: {"effective_status": "ADSET_PAUSED", "configured_status": "ACTIVE", "preview_shareable_link": "https://fb.me/2b7uRJA6UBtWXmC", "created_time": "2026-10-03T14:11:34+0300", "updated_time": "2026-10-03T14:15:33+0300"}
-  - מודעה ‏וידיאו 2 || 3 טקסטים: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/2rUw412JlE8ZJsL", "created_time": "2025-02-13T12:18:24+0200", "updated_time": "2026-09-27T15:26:50+0300"}
-  - מודעה ‏וידיאו 6 || 3 טקסטים‏ - עותק: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/2csaSrjmaDikJEK", "created_time": "2025-02-13T12:18:24+0200", "updated_time": "2026-09-27T15:26:46+0300"}
-  - מודעה וידיאו 1 || 3 טקסטים: {"effective_status": "ADSET_PAUSED", "configured_status": "ACTIVE", "preview_shareable_link": "https://fb.me/1T44LJVK3PfjCdy", "created_time": "2025-02-13T12:18:24+0200", "updated_time": "2026-09-27T15:26:40+0300"}
-  - מודעה ‏‏‏וידיאו 9 || 3 טקסטים‏‏ - עותק: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/23Wx8S0hyV02h0D", "created_time": "2025-02-13T12:18:24+0200", "updated_time": "2026-09-27T15:26:35+0300"}
-  - מודעה ‏‏וידיאו 7 || 3 טקסטים‏ - עותק: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/2l0e4tNTsoYhdux", "created_time": "2025-02-13T12:18:24+0200", "updated_time": "2026-09-27T15:26:32+0300"}
-  - מודעה ‏‏וידיאו 10 || 3 טקסטים‏‏ - עותק: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/29AgCandqRA9wc1", "created_time": "2025-02-13T12:18:24+0200", "updated_time": "2026-09-27T15:26:28+0300"}
-  - מודעה ‏‏וידיאו 4 || 3 טקסטים‏: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/23Ei8fjXhRFV7sR", "created_time": "2025-02-13T12:18:24+0200", "updated_time": "2025-09-30T15:39:02+0300"}
-  - מודעה ‏‏וידיאו 2 || 3 טקסטים‏ - עותק: {"effective_status": "WITH_ISSUES", "configured_status": "PAUSED", "issues_info": [{"level": "AD", "error_code": 4469003, "error_summary": "מודעה זו אינה מציגה", "error_message": "מודעה זו אינה מציגה: מודעה זו אינה מוצגת. יש לנסות ליצור סדרת מודעות חדשה עם הגדרות שונות כדי להתחיל להציג מודעות לקהל שלך.", "error_type": "HARD_ERROR"}], "preview_shareable_link": "https://fb.me/295OFv9NZ5OdzaJ", "created_time": "2025-01-13T15:28:45+0200", "updated_time": "2025-08-26T14:36:49+0300"}
-  - מודעה וידיאו 6 || 3 טקסטים: {"effective_status": "WITH_ISSUES", "configured_status": "PAUSED", "issues_info": [{"level": "AD", "error_code": 4469003, "error_summary": "מודעה זו אינה מציגה", "error_message": "מודעה זו אינה מציגה: מודעה זו אינה מוצגת. יש לנסות ליצור סדרת מודעות חדשה עם הגדרות שונות כדי להתחיל להציג מודעות לקהל שלך.", "error_type": "HARD_ERROR"}], "preview_shareable_link": "https://fb.me/2ksPyQ4Wu93Glen", "created_time": "2025-01-13T15:22:18+0200", "updated_time": "2025-08-26T14:36:49+0300"}
-  - מודעה ‏‏‏וידיאו 4 || 3 טקסטים‏‏ - עותק: {"effective_status": "ADSET_PAUSED", "configured_status": "ACTIVE", "preview_shareable_link": "https://fb.me/2mNLIPBrjQP0Tol", "created_time": "2025-01-13T15:28:39+0200", "updated_time": "2025-08-15T17:08:59+0300"}
-  - מודעה ‏‏וידיאו 5 || 3 טקסטים‏‏ - עותק: {"effective_status": "WITH_ISSUES", "configured_status": "PAUSED", "issues_info": [{"level": "AD", "error_code": 4469003, "error_summary": "מודעה זו אינה מציגה", "error_message": "מודעה זו אינה מציגה: מודעה זו אינה מוצגת. יש לנסות ליצור סדרת מודעות חדשה עם הגדרות שונות כדי להתחיל להציג מודעות לקהל שלך.", "error_type": "HARD_ERROR"}], "preview_shareable_link": "https://fb.me/2g1DjmsjRrztyq7", "created_time": "2025-01-13T15:22:18+0200", "updated_time": "2025-08-11T12:52:00+0300"}
-  - מודעה וידיאו 6 || 3 טקסטים: {"effective_status": "WITH_ISSUES", "configured_status": "PAUSED", "issues_info": [{"level": "AD", "error_code": 4469003, "error_summary": "מודעה זו אינה מציגה", "error_message": "מודעה זו אינה מציגה: מודעה זו אינה מוצגת. יש לנסות ליצור סדרת מודעות חדשה עם הגדרות שונות כדי להתחיל להציג מודעות לקהל שלך.", "error_type": "HARD_ERROR"}], "preview_shareable_link": "https://fb.me/2kTrxAXMgF1dtae", "created_time": "2025-01-13T15:28:39+0200", "updated_time": "2025-07-24T13:38:03+0300"}
-  - מודעה ‏וידיאו 3 || 3 טקסטים: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/24gokoeJmrG5CcV", "created_time": "2025-02-13T12:18:24+0200", "updated_time": "2025-07-23T12:58:56+0300"}
-  - מודעה ‏‏וידיאו 8 || 3 טקסטים‏ - עותק: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/1U9DBly8J9ZwjqF", "created_time": "2025-02-13T12:18:24+0200", "updated_time": "2025-07-15T17:36:25+0300"}
-  - מודעה ‏וידיאו 5 || 3 טקסטים‏: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/2hP0uE8YNVSR073", "created_time": "2025-02-13T12:18:24+0200", "updated_time": "2025-07-15T17:22:35+0300"}
-  - מודעה ‏וידיאו 1 || 3 טקסטים‏ - עותק: {"effective_status": "WITH_ISSUES", "configured_status": "PAUSED", "issues_info": [{"level": "AD", "error_code": 4469003, "error_summary": "מודעה זו אינה מציגה", "error_message": "מודעה זו אינה מציגה: מודעה זו אינה מוצגת. יש לנסות ליצור סדרת מודעות חדשה עם הגדרות שונות כדי להתחיל להציג מודעות לקהל שלך.", "error_type": "HARD_ERROR"}], "preview_shareable_link": "https://fb.me/27UCHOK2Zap2MQk", "created_time": "2025-01-13T15:28:38+0200", "updated_time": "2025-06-08T15:24:27+0300"}
-  - מודעה ‏וידיאו 2 || 3 טקסטים: {"effective_status": "ADSET_PAUSED", "configured_status": "ACTIVE", "preview_shareable_link": "https://fb.me/284ZRDXu7c5wFlB", "created_time": "2025-06-08T14:05:09+0300", "updated_time": "2025-06-08T14:21:14+0300"}
-  - מודעה ‏‏וידיאו 8 || 3 טקסטים‏ - עותק: {"effective_status": "ADSET_PAUSED", "configured_status": "ACTIVE", "preview_shareable_link": "https://fb.me/2nd1TXZyzHATHLy", "created_time": "2025-06-08T14:05:09+0300", "updated_time": "2025-06-08T14:18:23+0300"}
-  - מודעה ‏וידיאו 3 || 3 טקסטים: {"effective_status": "ADSET_PAUSED", "configured_status": "ACTIVE", "preview_shareable_link": "https://fb.me/2cWVLYwtPsdwnuf", "created_time": "2025-06-08T14:05:09+0300", "updated_time": "2025-06-08T14:17:43+0300"}
+  - מודעה וידיאו 1 || 3 טקסטים · LAL אפריל 26: {"effective_status": "ADSET_PAUSED", "configured_status": "ACTIVE", "preview_shareable_link": "https://fb.me/2463UwF1Me1l7A8", "created_time": "2026-10-03T14:11:34+0300", "updated_time": "2026-10-03T14:15:33+0300"}
+  - מודעה ‏וידיאו 2 || 3 טקסטים: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/2n1mY7ToorrQOKT", "created_time": "2025-02-13T12:18:24+0200", "updated_time": "2026-09-27T15:26:50+0300"}
+  - מודעה ‏וידיאו 6 || 3 טקסטים‏ - עותק: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/qyDQSdW3kuvX4LK", "created_time": "2025-02-13T12:18:24+0200", "updated_time": "2026-09-27T15:26:46+0300"}
+  - מודעה וידיאו 1 || 3 טקסטים: {"effective_status": "ADSET_PAUSED", "configured_status": "ACTIVE", "preview_shareable_link": "https://fb.me/24ghtKMwlS2ZXId", "created_time": "2025-02-13T12:18:24+0200", "updated_time": "2026-09-27T15:26:40+0300"}
+  - מודעה ‏‏‏וידיאו 9 || 3 טקסטים‏‏ - עותק: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/1XwazKXywZppr45", "created_time": "2025-02-13T12:18:24+0200", "updated_time": "2026-09-27T15:26:35+0300"}
+  - מודעה ‏‏וידיאו 7 || 3 טקסטים‏ - עותק: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/23oHNxkq2wWTqhy", "created_time": "2025-02-13T12:18:24+0200", "updated_time": "2026-09-27T15:26:32+0300"}
+  - מודעה ‏‏וידיאו 10 || 3 טקסטים‏‏ - עותק: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/28CQKIRSDbQArhJ", "created_time": "2025-02-13T12:18:24+0200", "updated_time": "2026-09-27T15:26:28+0300"}
+  - מודעה ‏‏וידיאו 4 || 3 טקסטים‏: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/2scYTBsXbrLrVKM", "created_time": "2025-02-13T12:18:24+0200", "updated_time": "2025-09-30T15:39:02+0300"}
+  - מודעה ‏‏וידיאו 2 || 3 טקסטים‏ - עותק: {"effective_status": "WITH_ISSUES", "configured_status": "PAUSED", "issues_info": [{"level": "AD", "error_code": 4469003, "error_summary": "מודעה זו אינה מציגה", "error_message": "מודעה זו אינה מציגה: מודעה זו אינה מוצגת. יש לנסות ליצור סדרת מודעות חדשה עם הגדרות שונות כדי להתחיל להציג מודעות לקהל שלך.", "error_type": "HARD_ERROR"}], "preview_shareable_link": "https://fb.me/1WJbcVK5zhD8XMI", "created_time": "2025-01-13T15:28:45+0200", "updated_time": "2025-08-26T14:36:49+0300"}
+  - מודעה וידיאו 6 || 3 טקסטים: {"effective_status": "WITH_ISSUES", "configured_status": "PAUSED", "issues_info": [{"level": "AD", "error_code": 4469003, "error_summary": "מודעה זו אינה מציגה", "error_message": "מודעה זו אינה מציגה: מודעה זו אינה מוצגת. יש לנסות ליצור סדרת מודעות חדשה עם הגדרות שונות כדי להתחיל להציג מודעות לקהל שלך.", "error_type": "HARD_ERROR"}], "preview_shareable_link": "https://fb.me/28sdeRvNb6FACnH", "created_time": "2025-01-13T15:22:18+0200", "updated_time": "2025-08-26T14:36:49+0300"}
+  - מודעה ‏‏‏וידיאו 4 || 3 טקסטים‏‏ - עותק: {"effective_status": "ADSET_PAUSED", "configured_status": "ACTIVE", "preview_shareable_link": "https://fb.me/26nCq0ckR2levfE", "created_time": "2025-01-13T15:28:39+0200", "updated_time": "2025-08-15T17:08:59+0300"}
+  - מודעה ‏‏וידיאו 5 || 3 טקסטים‏‏ - עותק: {"effective_status": "WITH_ISSUES", "configured_status": "PAUSED", "issues_info": [{"level": "AD", "error_code": 4469003, "error_summary": "מודעה זו אינה מציגה", "error_message": "מודעה זו אינה מציגה: מודעה זו אינה מוצגת. יש לנסות ליצור סדרת מודעות חדשה עם הגדרות שונות כדי להתחיל להציג מודעות לקהל שלך.", "error_type": "HARD_ERROR"}], "preview_shareable_link": "https://fb.me/2CVOGA7T43M04zI", "created_time": "2025-01-13T15:22:18+0200", "updated_time": "2025-08-11T12:52:00+0300"}
+  - מודעה וידיאו 6 || 3 טקסטים: {"effective_status": "WITH_ISSUES", "configured_status": "PAUSED", "issues_info": [{"level": "AD", "error_code": 4469003, "error_summary": "מודעה זו אינה מציגה", "error_message": "מודעה זו אינה מציגה: מודעה זו אינה מוצגת. יש לנסות ליצור סדרת מודעות חדשה עם הגדרות שונות כדי להתחיל להציג מודעות לקהל שלך.", "error_type": "HARD_ERROR"}], "preview_shareable_link": "https://fb.me/23QVe4kuyM0afIn", "created_time": "2025-01-13T15:28:39+0200", "updated_time": "2025-07-24T13:38:03+0300"}
+  - מודעה ‏וידיאו 3 || 3 טקסטים: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/1UEOQBH1TRAqYUL", "created_time": "2025-02-13T12:18:24+0200", "updated_time": "2025-07-23T12:58:56+0300"}
+  - מודעה ‏‏וידיאו 8 || 3 טקסטים‏ - עותק: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/2hIfU2e6QkhqWDr", "created_time": "2025-02-13T12:18:24+0200", "updated_time": "2025-07-15T17:36:25+0300"}
+  - מודעה ‏וידיאו 5 || 3 טקסטים‏: {"effective_status": "PAUSED", "configured_status": "PAUSED", "preview_shareable_link": "https://fb.me/25UWFQPd7BcDWee", "created_time": "2025-02-13T12:18:24+0200", "updated_time": "2025-07-15T17:22:35+0300"}
+  - מודעה ‏וידיאו 1 || 3 טקסטים‏ - עותק: {"effective_status": "WITH_ISSUES", "configured_status": "PAUSED", "issues_info": [{"level": "AD", "error_code": 4469003, "error_summary": "מודעה זו אינה מציגה", "error_message": "מודעה זו אינה מציגה: מודעה זו אינה מוצגת. יש לנסות ליצור סדרת מודעות חדשה עם הגדרות שונות כדי להתחיל להציג מודעות לקהל שלך.", "error_type": "HARD_ERROR"}], "preview_shareable_link": "https://fb.me/2T1BJCho1QLIUBl", "created_time": "2025-01-13T15:28:38+0200", "updated_time": "2025-06-08T15:24:27+0300"}
+  - מודעה ‏וידיאו 2 || 3 טקסטים: {"effective_status": "ADSET_PAUSED", "configured_status": "ACTIVE", "preview_shareable_link": "https://fb.me/2lkwpVnDck3C60e", "created_time": "2025-06-08T14:05:09+0300", "updated_time": "2025-06-08T14:21:14+0300"}
+  - מודעה ‏‏וידיאו 8 || 3 טקסטים‏ - עותק: {"effective_status": "ADSET_PAUSED", "configured_status": "ACTIVE", "preview_shareable_link": "https://fb.me/28V184Rjj8Silwm", "created_time": "2025-06-08T14:05:09+0300", "updated_time": "2025-06-08T14:18:23+0300"}
+  - מודעה ‏וידיאו 3 || 3 טקסטים: {"effective_status": "ADSET_PAUSED", "configured_status": "ACTIVE", "preview_shareable_link": "https://fb.me/21ZkZeq6LqjyL56", "created_time": "2025-06-08T14:05:09+0300", "updated_time": "2025-06-08T14:17:43+0300"}
 
 ## לידים לפי שעה (3 ימים אחרונים)
 
 - 2026-11-05 15:00 · קמפיין לידים אייל › סרטון מיקונוס 11.5: 2
 - 2026-11-05 17:00 · קמפיין לידים אייל › 2026-W42-PH1 · form: 2
 - 2026-11-05 17:00 · קמפיין לידים אייל › 2026-W44-PL1 · form: 2
+- 2026-11-06 01:00 · ‏קמפיין כספים AI טופס לידים || HK Money‏ › סרטון 4 תיקון - בקיצור אני יושב במיקונוס: 4
+- 2026-11-06 02:00 · קמפיין לידים אייל › סרטון מיקונוס 11.5: 2
+- 2026-11-06 04:00 · קמפיין לידים אייל › סרטון מיקונוס 11.5: 2
 
 ## פיקסל
 
 - פיקסל, משפך VSL דף נחיתה (4161502784179798): ירה לאחרונה 2026-05-10T12:24 · 3 ימים: אין אירועים
-- HK Pixel (1750634382895124): ירה לאחרונה 2026-11-06T01:43 · 3 ימים: PageView 37
+- HK Pixel (1750634382895124): ירה לאחרונה 2026-11-06T18:59 · 3 ימים: PageView 32
 
