@@ -1,5 +1,5 @@
 {
- "generated": "07.11.2026 11:11",
+ "generated": "07.11.2026 12:57",
  "account": {
   "id": "act_1886192278456348",
   "currency": "ILS",
@@ -359,7 +359,7 @@
     {
      "campaign_id": "120245939439290740",
      "name": "טלפון · KAI + מנהל תזרים · בעלי עסקים דומה 1-4% · 2026-10",
-     "effective_status": "ACTIVE",
+     "effective_status": "PAUSED",
      "daily_budget": "8000",
      "optimization_goal": "LEAD_GENERATION",
      "destination_type": "ON_AD",
@@ -430,14 +430,14 @@
     "landing_page_views": 4.0
    },
    "lifetime": {
-    "spend": 20813.45,
-    "impressions": 144695,
-    "reach": 31548,
+    "spend": 20825.23,
+    "impressions": 144755,
+    "reach": 31549,
     "clicks": 3003,
-    "ctr": 2.0754,
-    "cpc": 6.930886,
+    "ctr": 2.07454,
+    "cpc": 6.934809,
     "leads": 231.0,
-    "cost_per_lead": 90.101515,
+    "cost_per_lead": 90.152511,
     "landing_page_views": 4.0
    },
    "ads_last7": [
@@ -529,14 +529,14 @@
     {
      "adset": "סדרת מודעות לידים חדשה",
      "name": "סרטון מיקונוס 11.5",
-     "spend": 3548.84,
-     "impressions": 24137,
-     "reach": 11104,
+     "spend": 3559.31,
+     "impressions": 24188,
+     "reach": 11113,
      "clicks": 452,
-     "ctr": 1.872644,
-     "cpc": 7.851416,
+     "ctr": 1.868695,
+     "cpc": 7.87458,
      "leads": 41.0,
-     "cost_per_lead": 86.557073,
+     "cost_per_lead": 86.812439,
      "landing_page_views": 0.0
     },
     {
@@ -698,14 +698,14 @@
     {
      "adset": "טלפון · KAI + מנהל תזרים · בעלי עסקים דומה 1-4% · 2026-10",
      "name": "2026-W42-PH1 · form",
-     "spend": 982.15,
-     "impressions": 7029,
+     "spend": 983.09,
+     "impressions": 7034,
      "reach": 2096,
      "clicks": 107,
-     "ctr": 1.522265,
-     "cpc": 9.178972,
+     "ctr": 1.521183,
+     "cpc": 9.187757,
      "leads": 8.0,
-     "cost_per_lead": 122.76875,
+     "cost_per_lead": 122.88625,
      "landing_page_views": 0.0
     },
     {
@@ -750,14 +750,14 @@
     {
      "adset": "טלפון · KAI + מנהל תזרים · בעלי עסקים דומה 1-4% · 2026-10",
      "name": "2026-W44-PL1 · form",
-     "spend": 561.2,
-     "impressions": 4503,
-     "reach": 1592,
+     "spend": 561.57,
+     "impressions": 4507,
+     "reach": 1593,
      "clicks": 91,
-     "ctr": 2.020875,
-     "cpc": 6.167033,
+     "ctr": 2.019081,
+     "cpc": 6.171099,
      "leads": 5.0,
-     "cost_per_lead": 112.24,
+     "cost_per_lead": 112.314,
      "landing_page_views": 1.0
     },
     {
@@ -1252,14 +1252,14 @@
     "landing_page_views": 0.0
    },
    "lifetime": {
-    "spend": 23532.22,
-    "impressions": 171208,
-    "reach": 50164,
+    "spend": 23541.22,
+    "impressions": 171260,
+    "reach": 50219,
     "clicks": 3575,
-    "ctr": 2.088103,
-    "cpc": 6.582439,
+    "ctr": 2.087469,
+    "cpc": 6.584957,
     "leads": 381.0,
-    "cost_per_lead": 61.764357,
+    "cost_per_lead": 61.787979,
     "landing_page_views": 2.0
    },
    "ads_last7": [
@@ -1336,14 +1336,14 @@
     {
      "adset": "‏תחומי עניין בעלי עסקים ועצמאיים || 25+ || מיקומים ידניים",
      "name": "סרטון 4 תיקון - בקיצור אני יושב במיקונוס",
-     "spend": 10657.74,
-     "impressions": 74353,
-     "reach": 30905,
+     "spend": 10666.74,
+     "impressions": 74405,
+     "reach": 30929,
      "clicks": 1644,
-     "ctr": 2.211074,
-     "cpc": 6.48281,
+     "ctr": 2.209529,
+     "cpc": 6.488285,
      "leads": 189.0,
-     "cost_per_lead": 56.390159,
+     "cost_per_lead": 56.437778,
      "landing_page_views": 1.0
     },
     {
@@ -3037,8 +3037,8 @@
    "adsets": [
     {
      "name": "טלפון · KAI + מנהל תזרים · בעלי עסקים דומה 1-4% · 2026-10",
-     "status": "ACTIVE",
-     "effective_status": "ACTIVE",
+     "status": "PAUSED",
+     "effective_status": "PAUSED",
      "daily_budget": "8000",
      "id": "120252155857190740"
     },
@@ -3096,7 +3096,7 @@
     {
      "name": "2026-W44-PL1 · form",
      "status": "ACTIVE",
-     "effective_status": "ACTIVE",
+     "effective_status": "ADSET_PAUSED",
      "adset_id": "120252155857190740",
      "id": "120252336732580740"
     },
@@ -3138,7 +3138,7 @@
     {
      "name": "2026-W42-PH1 · form",
      "status": "ACTIVE",
-     "effective_status": "ACTIVE",
+     "effective_status": "ADSET_PAUSED",
      "adset_id": "120252155857190740",
      "id": "120252155858160740"
     },
@@ -3899,25 +3899,25 @@
  },
  "today": {
   "120234694036040740": {
-   "spend": 5.52,
-   "impressions": 37,
-   "reach": 35,
+   "spend": 14.52,
+   "impressions": 89,
+   "reach": 77,
    "clicks": 2,
-   "ctr": 5.405405,
-   "cpc": 2.76,
+   "ctr": 2.247191,
+   "cpc": 7.26,
    "leads": 0.0,
    "cost_per_lead": null,
    "landing_page_views": 0.0
   },
   "120245939439290740": {
-   "spend": 63.28,
-   "impressions": 281,
-   "reach": 261,
+   "spend": 75.06,
+   "impressions": 341,
+   "reach": 314,
    "clicks": 6,
-   "ctr": 2.135231,
-   "cpc": 10.546667,
+   "ctr": 1.759531,
+   "cpc": 12.51,
    "leads": 1.0,
-   "cost_per_lead": 63.28,
+   "cost_per_lead": 75.06,
    "landing_page_views": 0.0
   }
  },
