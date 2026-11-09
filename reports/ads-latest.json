@@ -1,5 +1,5 @@
 {
- "generated": "09.11.2026 12:16",
+ "generated": "09.11.2026 14:43",
  "account": {
   "name": "HK",
   "currency": "ILS",
@@ -387,14 +387,14 @@
     "landing_page_views": 4.0
    },
    "lifetime": {
-    "spend": 21062.04,
-    "impressions": 146024,
-    "reach": 31973,
-    "clicks": 3028,
-    "ctr": 2.073632,
-    "cpc": 6.95576,
+    "spend": 21069.12,
+    "impressions": 146067,
+    "reach": 31975,
+    "clicks": 3029,
+    "ctr": 2.073706,
+    "cpc": 6.955801,
     "leads": 235.0,
-    "cost_per_lead": 89.625702,
+    "cost_per_lead": 89.65583,
     "landing_page_views": 4.0
    },
    "ads_last7": [
@@ -486,14 +486,14 @@
     {
      "adset": "סדרת מודעות לידים חדשה",
      "name": "סרטון מיקונוס 11.5",
-     "spend": 3793.99,
-     "impressions": 25452,
-     "reach": 11579,
-     "clicks": 477,
-     "ctr": 1.874116,
-     "cpc": 7.953857,
+     "spend": 3801.07,
+     "impressions": 25495,
+     "reach": 11598,
+     "clicks": 478,
+     "ctr": 1.874877,
+     "cpc": 7.952029,
      "leads": 45.0,
-     "cost_per_lead": 84.310889,
+     "cost_per_lead": 84.468222,
      "landing_page_views": 0.0
     },
     {
@@ -1209,14 +1209,14 @@
     "landing_page_views": 0.0
    },
    "lifetime": {
-    "spend": 23710.04,
-    "impressions": 172370,
+    "spend": 23712.98,
+    "impressions": 172393,
     "reach": 50580,
     "clicks": 3599,
-    "ctr": 2.08795,
-    "cpc": 6.587952,
+    "ctr": 2.087672,
+    "cpc": 6.588769,
     "leads": 383.0,
-    "cost_per_lead": 61.90611,
+    "cost_per_lead": 61.913786,
     "landing_page_views": 2.0
    },
    "ads_last7": [
@@ -1280,27 +1280,27 @@
     {
      "adset": "‏תחומי עניין בעלי עסקים ועצמאיים || 25+ || מיקומים ידניים",
      "name": "סרטון 2 תיקון - מהפכת ה AI",
-     "spend": 1764.75,
-     "impressions": 9365,
+     "spend": 1764.95,
+     "impressions": 9366,
      "reach": 3678,
      "clicks": 242,
-     "ctr": 2.58409,
-     "cpc": 7.292355,
+     "ctr": 2.583814,
+     "cpc": 7.293182,
      "leads": 34.0,
-     "cost_per_lead": 51.904412,
+     "cost_per_lead": 51.910294,
      "landing_page_views": 1.0
     },
     {
      "adset": "‏תחומי עניין בעלי עסקים ועצמאיים || 25+ || מיקומים ידניים",
      "name": "סרטון 4 תיקון - בקיצור אני יושב במיקונוס",
-     "spend": 10834.42,
-     "impressions": 75502,
-     "reach": 31322,
+     "spend": 10837.16,
+     "impressions": 75524,
+     "reach": 31352,
      "clicks": 1668,
-     "ctr": 2.209213,
-     "cpc": 6.495456,
+     "ctr": 2.208569,
+     "cpc": 6.497098,
      "leads": 191.0,
-     "cost_per_lead": 56.724712,
+     "cost_per_lead": 56.739058,
      "landing_page_views": 1.0
     },
     {
@@ -3856,25 +3856,25 @@
  },
  "today": {
   "120234694036040740": {
-   "spend": 39.13,
-   "impressions": 150,
-   "reach": 145,
+   "spend": 42.07,
+   "impressions": 173,
+   "reach": 167,
    "clicks": 5,
-   "ctr": 3.333333,
-   "cpc": 7.826,
+   "ctr": 2.890173,
+   "cpc": 8.414,
    "leads": 0.0,
    "cost_per_lead": null,
    "landing_page_views": 0.0
   },
   "120245939439290740": {
-   "spend": 56.23,
-   "impressions": 246,
-   "reach": 236,
-   "clicks": 8,
-   "ctr": 3.252033,
-   "cpc": 7.02875,
+   "spend": 63.31,
+   "impressions": 289,
+   "reach": 270,
+   "clicks": 9,
+   "ctr": 3.114187,
+   "cpc": 7.034444,
    "leads": 2.0,
-   "cost_per_lead": 28.115,
+   "cost_per_lead": 31.655,
    "landing_page_views": 0.0
   }
  },
