@@ -1,5 +1,5 @@
 {
- "generated": "09.11.2026 09:08",
+ "generated": "09.11.2026 12:16",
  "account": {
   "name": "HK",
   "currency": "ILS",
@@ -387,14 +387,14 @@
     "landing_page_views": 4.0
    },
    "lifetime": {
-    "spend": 21053.1,
-    "impressions": 145969,
-    "reach": 31975,
-    "clicks": 3025,
-    "ctr": 2.072358,
-    "cpc": 6.959702,
-    "leads": 234.0,
-    "cost_per_lead": 89.970513,
+    "spend": 21062.04,
+    "impressions": 146024,
+    "reach": 31973,
+    "clicks": 3028,
+    "ctr": 2.073632,
+    "cpc": 6.95576,
+    "leads": 235.0,
+    "cost_per_lead": 89.625702,
     "landing_page_views": 4.0
    },
    "ads_last7": [
@@ -486,14 +486,14 @@
     {
      "adset": "סדרת מודעות לידים חדשה",
      "name": "סרטון מיקונוס 11.5",
-     "spend": 3785.05,
-     "impressions": 25397,
-     "reach": 11555,
-     "clicks": 474,
-     "ctr": 1.866362,
-     "cpc": 7.985338,
-     "leads": 44.0,
-     "cost_per_lead": 86.023864,
+     "spend": 3793.99,
+     "impressions": 25452,
+     "reach": 11579,
+     "clicks": 477,
+     "ctr": 1.874116,
+     "cpc": 7.953857,
+     "leads": 45.0,
+     "cost_per_lead": 84.310889,
      "landing_page_views": 0.0
     },
     {
@@ -1209,14 +1209,14 @@
     "landing_page_views": 0.0
    },
    "lifetime": {
-    "spend": 23701.95,
-    "impressions": 172353,
-    "reach": 50581,
+    "spend": 23710.04,
+    "impressions": 172370,
+    "reach": 50580,
     "clicks": 3599,
-    "ctr": 2.088156,
-    "cpc": 6.585704,
+    "ctr": 2.08795,
+    "cpc": 6.587952,
     "leads": 383.0,
-    "cost_per_lead": 61.884987,
+    "cost_per_lead": 61.90611,
     "landing_page_views": 2.0
    },
    "ads_last7": [
@@ -1293,14 +1293,14 @@
     {
      "adset": "‏תחומי עניין בעלי עסקים ועצמאיים || 25+ || מיקומים ידניים",
      "name": "סרטון 4 תיקון - בקיצור אני יושב במיקונוס",
-     "spend": 10826.33,
-     "impressions": 75485,
-     "reach": 31323,
+     "spend": 10834.42,
+     "impressions": 75502,
+     "reach": 31322,
      "clicks": 1668,
-     "ctr": 2.209711,
-     "cpc": 6.490606,
+     "ctr": 2.209213,
+     "cpc": 6.495456,
      "leads": 191.0,
-     "cost_per_lead": 56.682356,
+     "cost_per_lead": 56.724712,
      "landing_page_views": 1.0
     },
     {
@@ -3856,25 +3856,25 @@
  },
  "today": {
   "120234694036040740": {
-   "spend": 31.04,
-   "impressions": 133,
-   "reach": 126,
+   "spend": 39.13,
+   "impressions": 150,
+   "reach": 145,
    "clicks": 5,
-   "ctr": 3.759399,
-   "cpc": 6.208,
+   "ctr": 3.333333,
+   "cpc": 7.826,
    "leads": 0.0,
    "cost_per_lead": null,
    "landing_page_views": 0.0
   },
   "120245939439290740": {
-   "spend": 47.29,
-   "impressions": 191,
-   "reach": 175,
-   "clicks": 5,
-   "ctr": 2.617801,
-   "cpc": 9.458,
-   "leads": 1.0,
-   "cost_per_lead": 47.29,
+   "spend": 56.23,
+   "impressions": 246,
+   "reach": 236,
+   "clicks": 8,
+   "ctr": 3.252033,
+   "cpc": 7.02875,
+   "leads": 2.0,
+   "cost_per_lead": 28.115,
    "landing_page_views": 0.0
   }
  },
@@ -3948,7 +3948,7 @@
    "name": "HK Pixel",
    "last_fired_time": "2026-11-09T01:03:16+0200",
    "events_3d": {
-    "PageView": 32
+    "PageView": 33
    }
   }
  ],
