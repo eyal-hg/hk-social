@@ -1,11 +1,11 @@
 {
- "generated": "10.11.2026 12:19",
+ "generated": "10.11.2026 14:24",
  "account": {
-  "name": "HK",
+  "id": "act_1886192278456348",
   "currency": "ILS",
   "account_status": 1,
-  "amount_spent": "8968940",
-  "id": "act_1886192278456348"
+  "name": "HK",
+  "amount_spent": "8968975"
  },
  "campaigns": [
   {
@@ -365,36 +365,36 @@
     }
    ],
    "last7": {
-    "spend": 1250.5,
-    "impressions": 7795,
-    "reach": 4416,
+    "spend": 1250.85,
+    "impressions": 7796,
+    "reach": 4419,
     "clicks": 121,
-    "ctr": 1.552277,
-    "cpc": 10.334711,
+    "ctr": 1.552078,
+    "cpc": 10.337603,
     "leads": 12.0,
-    "cost_per_lead": 104.208333,
+    "cost_per_lead": 104.2375,
     "landing_page_views": 0.0
    },
    "last30": {
-    "spend": 5214.56,
-    "impressions": 36768,
+    "spend": 5214.91,
+    "impressions": 36769,
     "reach": 8099,
     "clicks": 736,
-    "ctr": 2.001741,
-    "cpc": 7.085,
+    "ctr": 2.001686,
+    "cpc": 7.085476,
     "leads": 43.0,
-    "cost_per_lead": 121.268837,
+    "cost_per_lead": 121.276977,
     "landing_page_views": 4.0
    },
    "lifetime": {
-    "spend": 21180.07,
-    "impressions": 146803,
-    "reach": 32169,
-    "clicks": 3043,
-    "ctr": 2.072846,
-    "cpc": 6.96026,
+    "spend": 21186.5,
+    "impressions": 146860,
+    "reach": 32170,
+    "clicks": 3045,
+    "ctr": 2.073403,
+    "cpc": 6.9578,
     "leads": 237.0,
-    "cost_per_lead": 89.367384,
+    "cost_per_lead": 89.394515,
     "landing_page_views": 4.0
    },
    "ads_last7": [
@@ -402,14 +402,14 @@
      "id": "120246717051220740",
      "adset": "סדרת מודעות לידים חדשה",
      "name": "סרטון מיקונוס 11.5",
-     "spend": 610.29,
-     "impressions": 3407,
-     "reach": 2485,
+     "spend": 610.64,
+     "impressions": 3408,
+     "reach": 2486,
      "clicks": 65,
-     "ctr": 1.907837,
-     "cpc": 9.389077,
+     "ctr": 1.907277,
+     "cpc": 9.394462,
      "leads": 10.0,
-     "cost_per_lead": 61.029,
+     "cost_per_lead": 61.064,
      "landing_page_views": 0.0
     },
     {
@@ -486,14 +486,14 @@
     {
      "adset": "סדרת מודעות לידים חדשה",
      "name": "סרטון מיקונוס 11.5",
-     "spend": 3912.02,
-     "impressions": 26231,
-     "reach": 11847,
-     "clicks": 492,
-     "ctr": 1.875643,
-     "cpc": 7.95126,
+     "spend": 3918.45,
+     "impressions": 26288,
+     "reach": 11849,
+     "clicks": 494,
+     "ctr": 1.879184,
+     "cpc": 7.932085,
      "leads": 47.0,
-     "cost_per_lead": 83.234468,
+     "cost_per_lead": 83.371277,
      "landing_page_views": 0.0
     },
     {
@@ -1209,14 +1209,14 @@
     "landing_page_views": 0.0
    },
    "lifetime": {
-    "spend": 23795.22,
-    "impressions": 172837,
-    "reach": 50727,
+    "spend": 23799.56,
+    "impressions": 172862,
+    "reach": 50726,
     "clicks": 3604,
-    "ctr": 2.085202,
-    "cpc": 6.602447,
+    "ctr": 2.0849,
+    "cpc": 6.603652,
     "leads": 384.0,
-    "cost_per_lead": 61.966719,
+    "cost_per_lead": 61.978021,
     "landing_page_views": 2.0
    },
    "ads_last7": [
@@ -1280,27 +1280,27 @@
     {
      "adset": "‏תחומי עניין בעלי עסקים ועצמאיים || 25+ || מיקומים ידניים",
      "name": "סרטון 2 תיקון - מהפכת ה AI",
-     "spend": 1765.31,
-     "impressions": 9372,
+     "spend": 1765.72,
+     "impressions": 9376,
      "reach": 3684,
      "clicks": 242,
-     "ctr": 2.58216,
-     "cpc": 7.294669,
+     "ctr": 2.581058,
+     "cpc": 7.296364,
      "leads": 34.0,
-     "cost_per_lead": 51.920882,
+     "cost_per_lead": 51.932941,
      "landing_page_views": 1.0
     },
     {
      "adset": "‏תחומי עניין בעלי עסקים ועצמאיים || 25+ || מיקומים ידניים",
      "name": "סרטון 4 תיקון - בקיצור אני יושב במיקונוס",
-     "spend": 10918.37,
-     "impressions": 75960,
+     "spend": 10922.3,
+     "impressions": 75981,
      "reach": 31493,
      "clicks": 1673,
-     "ctr": 2.202475,
-     "cpc": 6.526222,
+     "ctr": 2.201866,
+     "cpc": 6.528571,
      "leads": 192.0,
-     "cost_per_lead": 56.86651,
+     "cost_per_lead": 56.886979,
      "landing_page_views": 1.0
     },
     {
@@ -3856,9 +3856,9 @@
  },
  "today": {
   "120234694036040740": {
-   "spend": 17.82,
-   "impressions": 88,
-   "reach": 81,
+   "spend": 22.16,
+   "impressions": 113,
+   "reach": 106,
    "clicks": 0,
    "ctr": 0.0,
    "cpc": 0.0,
@@ -3867,12 +3867,12 @@
    "landing_page_views": 0.0
   },
   "120245939439290740": {
-   "spend": 42.02,
-   "impressions": 236,
-   "reach": 217,
-   "clicks": 6,
-   "ctr": 2.542373,
-   "cpc": 7.003333,
+   "spend": 48.1,
+   "impressions": 292,
+   "reach": 262,
+   "clicks": 8,
+   "ctr": 2.739726,
+   "cpc": 6.0125,
    "leads": 0.0,
    "cost_per_lead": null,
    "landing_page_views": 0.0
@@ -3981,26 +3981,26 @@
     "landing_page_views": 0.0
    },
    "120245939439290740": {
-    "spend": 132.24,
-    "impressions": 789,
-    "reach": 738,
+    "spend": 132.59,
+    "impressions": 790,
+    "reach": 740,
     "clicks": 17,
-    "ctr": 2.154626,
-    "cpc": 7.778824,
+    "ctr": 2.151899,
+    "cpc": 7.799412,
     "leads": 4.0,
-    "cost_per_lead": 33.06,
+    "cost_per_lead": 33.1475,
     "landing_page_views": 0.0
    }
   },
   "total": {
-   "spend": 238.73000000000002,
-   "impressions": 1318,
-   "reach": 1238,
+   "spend": 239.07999999999998,
+   "impressions": 1319,
+   "reach": 1240,
    "clicks": 27,
-   "ctr": 2.04855842185129,
-   "cpc": 8.841851851851853,
+   "ctr": 2.047005307050796,
+   "cpc": 8.854814814814814,
    "leads": 5.0,
-   "cost_per_lead": 47.746,
+   "cost_per_lead": 47.815999999999995,
    "landing_page_views": 0.0
   }
  }
