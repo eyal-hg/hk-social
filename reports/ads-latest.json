@@ -1,11 +1,11 @@
 {
- "generated": "10.11.2026 09:42",
+ "generated": "10.11.2026 12:19",
  "account": {
-  "id": "act_1886192278456348",
+  "name": "HK",
   "currency": "ILS",
   "account_status": 1,
-  "name": "HK",
-  "amount_spent": "8968940"
+  "amount_spent": "8968940",
+  "id": "act_1886192278456348"
  },
  "campaigns": [
   {
@@ -387,14 +387,14 @@
     "landing_page_views": 4.0
    },
    "lifetime": {
-    "spend": 21173.72,
-    "impressions": 146760,
+    "spend": 21180.07,
+    "impressions": 146803,
     "reach": 32169,
-    "clicks": 3042,
-    "ctr": 2.072772,
-    "cpc": 6.96046,
+    "clicks": 3043,
+    "ctr": 2.072846,
+    "cpc": 6.96026,
     "leads": 237.0,
-    "cost_per_lead": 89.340591,
+    "cost_per_lead": 89.367384,
     "landing_page_views": 4.0
    },
    "ads_last7": [
@@ -486,14 +486,14 @@
     {
      "adset": "סדרת מודעות לידים חדשה",
      "name": "סרטון מיקונוס 11.5",
-     "spend": 3905.67,
-     "impressions": 26188,
+     "spend": 3912.02,
+     "impressions": 26231,
      "reach": 11847,
-     "clicks": 491,
-     "ctr": 1.874905,
-     "cpc": 7.954521,
+     "clicks": 492,
+     "ctr": 1.875643,
+     "cpc": 7.95126,
      "leads": 47.0,
-     "cost_per_lead": 83.099362,
+     "cost_per_lead": 83.234468,
      "landing_page_views": 0.0
     },
     {
@@ -1209,14 +1209,14 @@
     "landing_page_views": 0.0
    },
    "lifetime": {
-    "spend": 23791.04,
-    "impressions": 172816,
-    "reach": 50726,
+    "spend": 23795.22,
+    "impressions": 172837,
+    "reach": 50727,
     "clicks": 3604,
-    "ctr": 2.085455,
-    "cpc": 6.601287,
+    "ctr": 2.085202,
+    "cpc": 6.602447,
     "leads": 384.0,
-    "cost_per_lead": 61.955833,
+    "cost_per_lead": 61.966719,
     "landing_page_views": 2.0
    },
    "ads_last7": [
@@ -1267,14 +1267,14 @@
     {
      "adset": "‏תחומי עניין בעלי עסקים ועצמאיים || 25+ || מיקומים ידניים",
      "name": "‏סרטון 3 - אתה נוסע קרוב לשוליים",
-     "spend": 563.23,
-     "impressions": 4324,
+     "spend": 563.26,
+     "impressions": 4325,
      "reach": 2158,
      "clicks": 117,
-     "ctr": 2.705828,
-     "cpc": 4.813932,
+     "ctr": 2.705202,
+     "cpc": 4.814188,
      "leads": 4.0,
-     "cost_per_lead": 140.8075,
+     "cost_per_lead": 140.815,
      "landing_page_views": 0.0
     },
     {
@@ -1293,14 +1293,14 @@
     {
      "adset": "‏תחומי עניין בעלי עסקים ועצמאיים || 25+ || מיקומים ידניים",
      "name": "סרטון 4 תיקון - בקיצור אני יושב במיקונוס",
-     "spend": 10914.22,
-     "impressions": 75940,
+     "spend": 10918.37,
+     "impressions": 75960,
      "reach": 31493,
      "clicks": 1673,
-     "ctr": 2.203055,
-     "cpc": 6.523742,
+     "ctr": 2.202475,
+     "cpc": 6.526222,
      "leads": 192.0,
-     "cost_per_lead": 56.844896,
+     "cost_per_lead": 56.86651,
      "landing_page_views": 1.0
     },
     {
@@ -3856,9 +3856,9 @@
  },
  "today": {
   "120234694036040740": {
-   "spend": 13.64,
-   "impressions": 67,
-   "reach": 64,
+   "spend": 17.82,
+   "impressions": 88,
+   "reach": 81,
    "clicks": 0,
    "ctr": 0.0,
    "cpc": 0.0,
@@ -3867,12 +3867,12 @@
    "landing_page_views": 0.0
   },
   "120245939439290740": {
-   "spend": 35.67,
-   "impressions": 193,
-   "reach": 178,
-   "clicks": 5,
-   "ctr": 2.590674,
-   "cpc": 7.134,
+   "spend": 42.02,
+   "impressions": 236,
+   "reach": 217,
+   "clicks": 6,
+   "ctr": 2.542373,
+   "cpc": 7.003333,
    "leads": 0.0,
    "cost_per_lead": null,
    "landing_page_views": 0.0
