@@ -3,8 +3,100 @@
   "approved": true,
   "approved_by": "קריאה בלבד, בלי שינוי בחשבון. אייל 11.11",
   "actions": [
-    {"type": "ad_ranking", "limit": 40},
-    {"type": "today_ads"},
-    {"type": "today_ads", "date_preset": "last_7d"}
+    {
+      "type": "ad_ranking",
+      "limit": 40
+    },
+    {
+      "type": "today_ads"
+    },
+    {
+      "type": "today_ads",
+      "date_preset": "last_7d"
+    }
+  ],
+  "applied": [
+    {
+      "index": 0,
+      "type": "ad_ranking",
+      "ok": true,
+      "at": "2026-11-11T18:56+02:00",
+      "result": {
+        "lines": [
+          "RANK {\"ad\": \"וידיאו 1 || 3 טקסטים\", \"adset\": \"‏‏‏קהל פתוח || 25+ || מיקומים אוטומטים || סרטונים 1-10\", \"campaign\": \"‏טופס לידים || ניהול תזרים ||\", \"maximum\": {\"spend\": 18386, \"leads\": 325, \"cpl\": 57}, \"last_90d\": {\"spend\": 2287, \"leads\": 35, \"cpl\": 65}, \"status\": \"ADSET_PAUSED\", \"created\": \"2025-02-13\", \"preview\": \"https://fb.me/1TnxuUxUxLNmQUs\"}",
+          "RANK {\"ad\": \"סרטון 4 תיקון - בקיצור אני יושב במיקונוס\", \"adset\": \"‏תחומי עניין בעלי עסקים ועצמאיים || 25+ || מיקומים ידניים\", \"campaign\": \"‏קמפיין כספים AI טופס לידים || HK Money‏\", \"maximum\": {\"spend\": 11043, \"leads\": 192, \"cpl\": 58}, \"last_90d\": {\"spend\": 445, \"leads\": 5, \"cpl\": 89}, \"status\": \"ACTIVE\", \"created\": \"2025-09-14\", \"preview\": \"https://fb.me/1TthomUZlyFCn01\"}",
+          "RANK {\"ad\": \"סרטון 4 תיקון - בקיצור אני יושב במיקונוס\", \"adset\": \"קהל פתוח || 25+ || מיקומים אוטומטים‏\", \"campaign\": \"‏קמפיין כספים AI טופס לידים || HK Money‏\", \"maximum\": {\"spend\": 9321, \"leads\": 139, \"cpl\": 67}, \"status\": \"ADSET_PAUSED\", \"created\": \"2025-09-14\", \"preview\": \"https://fb.me/23BPw4JwoGrpX4X\"}",
+          "RANK {\"ad\": \"סרטון 4 תיקון - בקיצור אני יושב במיקונוס\", \"adset\": \"‏תחומי עניין מסעדות || 25+ || מיקומים ידניים\", \"campaign\": \"‏‏קמפיין כספים AI טופס לידים | טסט 2 | HK Money‏‏\", \"maximum\": {\"spend\": 8265, \"leads\": 75, \"cpl\": 110}, \"status\": \"CAMPAIGN_PAUSED\", \"created\": \"2026-01-27\", \"preview\": \"https://fb.me/2c3hczOWBf749Eb\"}",
+          "RANK {\"ad\": \"סרטון יום שישי\", \"adset\": \"‏סדרת מודעות לידים חדשה‏ - בעלי עסקים\", \"campaign\": \"קמפיין לידים אייל\", \"maximum\": {\"spend\": 4396, \"leads\": 67, \"cpl\": 66}, \"last_90d\": {\"spend\": 711, \"leads\": 8, \"cpl\": 89}, \"status\": \"PAUSED\", \"created\": \"2026-06-16\", \"preview\": \"https://fb.me/27XQmMibSHSb9Dw\"}",
+          "RANK {\"ad\": \"סרטון יום שישי\", \"adset\": \"סדרת מודעות לידים חדשה\", \"campaign\": \"קמפיין לידים אייל\", \"maximum\": {\"spend\": 4041, \"leads\": 58, \"cpl\": 70}, \"status\": \"PAUSED\", \"created\": \"2026-05-15\", \"preview\": \"https://fb.me/28LnhPCz3galL3V\"}",
+          "RANK {\"ad\": \"סרטון מיקונוס 11.5\", \"adset\": \"סדרת מודעות לידים חדשה\", \"campaign\": \"קמפיין לידים אייל\", \"maximum\": {\"spend\": 4035, \"leads\": 47, \"cpl\": 86}, \"last_90d\": {\"spend\": 1548, \"leads\": 22, \"cpl\": 70}, \"status\": \"ACTIVE\", \"created\": \"2026-05-11\", \"preview\": \"https://fb.me/2aCP8G0BMXaNA8s\"}",
+          "RANK {\"ad\": \"וידיאו 1 || 3 טקסטים\", \"adset\": \"‏‏קהל תחומי עניין || 25+ || מיקומים ידניים || סרטונים 1-10‏‏\", \"campaign\": \"‏טופס לידים || ניהול תזרים ||\", \"maximum\": {\"spend\": 1959, \"leads\": 36, \"cpl\": 54}, \"status\": \"ADSET_PAUSED\", \"created\": \"2025-02-05\", \"preview\": \"https://fb.me/2lOQSrOPV6z7LMs\"}",
+          "RANK {\"ad\": \"סרטון 2 תיקון - מהפכת ה AI\", \"adset\": \"‏תחומי עניין בעלי עסקים ועצמאיים || 25+ || מיקומים ידניים\", \"campaign\": \"‏קמפיין כספים AI טופס לידים || HK Money‏\", \"maximum\": {\"spend\": 1770, \"leads\": 34, \"cpl\": 52}, \"last_90d\": {\"spend\": 8, \"leads\": 0, \"cpl\": null}, \"status\": \"ACTIVE\", \"created\": \"2025-09-14\", \"preview\": \"https://fb.me/2o6Ql1hmhkFWtgI\"}",
+          "RANK {\"ad\": \"מודעת לידים אייל\", \"adset\": \"סדרת מודעות לידים חדשה\", \"campaign\": \"קמפיין לידים אייל\", \"maximum\": {\"spend\": 3992, \"leads\": 31, \"cpl\": 129}, \"status\": \"PAUSED\", \"created\": \"2026-04-29\", \"preview\": \"https://fb.me/2ci2pHt8YbUIuj0\"}",
+          "RANK {\"ad\": \"‏וידיאו 1 || 3 טקסטים‏ - עותק\", \"adset\": \"רימרקטינג רשתות || 21+ || כל המיקומים || סרטונים 1-10\", \"campaign\": \"‏טופס לידים || ניהול תזרים ||\", \"maximum\": {\"spend\": 184, \"leads\": 19, \"cpl\": 10}, \"status\": \"ADSET_PAUSED\", \"created\": \"2025-01-13\", \"preview\": \"https://fb.me/1XmdF5jO0JDbUyv\"}",
+          "RANK {\"ad\": \"2026-W42-BZA · form\", \"adset\": \"לקוחות bizibox · קהל מותאם · 2026-10\", \"campaign\": \"קמפיין לידים אייל\", \"maximum\": {\"spend\": 1896, \"leads\": 16, \"cpl\": 118}, \"last_90d\": {\"spend\": 1896, \"leads\": 16, \"cpl\": 118}, \"status\": \"ADSET_PAUSED\", \"created\": \"2026-10-12\", \"preview\": \"https://fb.me/2r3OhaHZgqyg4lX\"}",
+          "RANK {\"ad\": \"‏‏וידיאו 4 || 3 טקסטים‏\", \"adset\": \"‏קהל תחומי עניין || ערים גדולות || 25+ || מיקומים אוטומטיים || סרטונים 1-10‏\", \"campaign\": \"טופס לידים || ניהול תזרים || קהל חדש || טסט\", \"maximum\": {\"spend\": 1281, \"leads\": 14, \"cpl\": 91}, \"status\": \"WITH_ISSUES\", \"created\": \"2025-01-20\", \"preview\": \"https://fb.me/23yX4RDGpxrcQSP\"}",
+          "RANK {\"ad\": \"‏‏‏וידיאו 4 || 3 טקסטים‏‏ - עותק\", \"adset\": \"‏רימרקטינג רשימה מותאמת || 21+ || כל המיקומים || סרטונים 1-10‏\", \"campaign\": \"‏טופס לידים || ניהול תזרים ||\", \"maximum\": {\"spend\": 725, \"leads\": 11, \"cpl\": 66}, \"status\": \"ADSET_PAUSED\", \"created\": \"2025-01-13\", \"preview\": \"https://fb.me/1WNWPJE0HT6idnv\"}",
+          "RANK {\"ad\": \"‏‏וידיאו 4 || 3 טקסטים‏\", \"adset\": \"‏‏קהל תחומי עניין || 25+ || מיקומים ידניים || סרטונים 1-10‏‏\", \"campaign\": \"‏טופס לידים || ניהול תזרים ||\", \"maximum\": {\"spend\": 1034, \"leads\": 11, \"cpl\": 94}, \"status\": \"ADSET_PAUSED\", \"created\": \"2025-02-05\", \"preview\": \"https://fb.me/2op9xyknelto04G\"}",
+          "RANK {\"ad\": \"‏‏וידיאו 4 || 3 טקסטים‏\", \"adset\": \"‏‏‏קהל פתוח || 25+ || מיקומים אוטומטים || סרטונים 1-10\", \"campaign\": \"‏טופס לידים || ניהול תזרים ||\", \"maximum\": {\"spend\": 1123, \"leads\": 11, \"cpl\": 102}, \"status\": \"PAUSED\", \"created\": \"2025-02-13\", \"preview\": \"https://fb.me/21jMULRRRMtq7Ze\"}",
+          "RANK {\"ad\": \"‏וידיאו 2 || 3 טקסטים\", \"adset\": \"‏‏‏קהל פתוח || 25+ || מיקומים אוטומטים || סרטונים 1-10\", \"campaign\": \"‏טופס לידים || ניהול תזרים ||\", \"maximum\": {\"spend\": 483, \"leads\": 8, \"cpl\": 60}, \"status\": \"PAUSED\", \"created\": \"2025-02-13\", \"preview\": \"https://fb.me/28RYxymZ3Z1SMHy\"}",
+          "RANK {\"ad\": \"2026-W42-PH1 · form\", \"adset\": \"טלפון · KAI + מנהל תזרים · בעלי עסקים דומה 1-4% · 2026-10\", \"campaign\": \"קמפיין לידים אייל\", \"maximum\": {\"spend\": 984, \"leads\": 8, \"cpl\": 123}, \"last_90d\": {\"spend\": 984, \"leads\": 8, \"cpl\": 123}, \"status\": \"ADSET_PAUSED\", \"created\": \"2026-10-14\", \"preview\": \"https://fb.me/1XF9JgwZJG1osCG\"}",
+          "RANK {\"ad\": \"סרטון 2 תיקון - מהפכת ה AI\", \"adset\": \"קהל פתוח || 25+ || מיקומים אוטומטים‏\", \"campaign\": \"‏קמפיין כספים AI טופס לידים || HK Money‏\", \"maximum\": {\"spend\": 495, \"leads\": 7, \"cpl\": 71}, \"status\": \"ADSET_PAUSED\", \"created\": \"2025-09-14\", \"preview\": \"https://fb.me/24v2cHAE8OUTedT\"}",
+          "RANK {\"ad\": \"‏סרטון 3 - אתה נוסע קרוב לשוליים\", \"adset\": \"‏תחומי עניין מסעדות || 25+ || מיקומים ידניים\", \"campaign\": \"‏‏קמפיין כספים AI טופס לידים | טסט 2 | HK Money‏‏\", \"maximum\": {\"spend\": 532, \"leads\": 7, \"cpl\": 76}, \"status\": \"PAUSED\", \"created\": \"2026-01-27\", \"preview\": \"https://fb.me/1WMSOkTZ3vk818y\"}",
+          "RANK {\"ad\": \"סרטון 4 תיקון - בקיצור אני יושב במיקונוס\", \"adset\": \"קהל פתוח || 25+ || מיקומים אוטומטים‏\", \"campaign\": \"‏‏קמפיין כספים AI טופס לידים | טסט 2 | HK Money‏‏\", \"maximum\": {\"spend\": 612, \"leads\": 7, \"cpl\": 87}, \"status\": \"PAUSED\", \"created\": \"2026-01-27\", \"preview\": \"https://fb.me/2keqc9xf4tPoaIU\"}",
+          "RANK {\"ad\": \"תמונת השוואה\", \"adset\": \"ישראל | 25-55 |מיקום חופשי | ידני, מיקוד מפורט| 120₪\", \"campaign\": \"קמפיין טופס לידים 14.4 |רילקס|\", \"maximum\": {\"spend\": 896, \"leads\": 7, \"cpl\": 128}, \"status\": \"PAUSED\", \"created\": \"2026-04-14\", \"preview\": \"https://fb.me/2vpRJbX5gG07Hdu\"}",
+          "RANK {\"ad\": \"2026-W43-SA7 · form\", \"adset\": \"HK Studio · יועצים · טופס לידים · קבוצה 3 · יועצים עסקיים ופיננסיים\", \"campaign\": \"HK Studio · יועצים · טופס לידים\", \"maximum\": {\"spend\": 462, \"leads\": 7, \"cpl\": 66}, \"last_90d\": {\"spend\": 462, \"leads\": 7, \"cpl\": 66}, \"status\": \"ADSET_PAUSED\", \"created\": \"2026-10-18\", \"preview\": \"https://fb.me/1VzNyLsjP978AKO\"}",
+          "RANK {\"ad\": \"‏סרטון 3 - אתה נוסע קרוב לשוליים\", \"adset\": \"קהל פתוח || 25+ || מיקומים אוטומטים‏\", \"campaign\": \"‏קמפיין כספים AI טופס לידים || HK Money‏\", \"maximum\": {\"spend\": 315, \"leads\": 6, \"cpl\": 52}, \"status\": \"PAUSED\", \"created\": \"2025-09-14\", \"preview\": \"https://fb.me/ysIKMx1Bb3FB1De\"}",
+          "RANK {\"ad\": \"‏‏‏וידיאו 9 || 3 טקסטים‏‏ - עותק\", \"adset\": \"‏‏‏קהל פתוח || 25+ || מיקומים אוטומטים || סרטונים 1-10\", \"campaign\": \"‏טופס לידים || ניהול תזרים ||\", \"maximum\": {\"spend\": 343, \"leads\": 5, \"cpl\": 69}, \"status\": \"PAUSED\", \"created\": \"2025-02-13\", \"preview\": \"https://fb.me/1WNzdlw2Q2EbTFz\"}",
+          "RANK {\"ad\": \"תמונת השוואה- 2.0\", \"adset\": \"ישראל | 25-55| מיקום חופשי | קהל A+ | 220₪ מעודכן\", \"campaign\": \"קמפיין טופס לידים 14.4 |רילקס|\", \"maximum\": {\"spend\": 1238, \"leads\": 5, \"cpl\": 248}, \"status\": \"CAMPAIGN_PAUSED\", \"created\": \"2026-04-26\", \"preview\": \"https://fb.me/2mEP9Fq8CROSSBQ\"}",
+          "RANK {\"ad\": \"2026-W44-PL1 · form\", \"adset\": \"טלפון · KAI + מנהל תזרים · בעלי עסקים דומה 1-4% · 2026-10\", \"campaign\": \"קמפיין לידים אייל\", \"maximum\": {\"spend\": 563, \"leads\": 5, \"cpl\": 113}, \"last_90d\": {\"spend\": 563, \"leads\": 5, \"cpl\": 113}, \"status\": \"ADSET_PAUSED\", \"created\": \"2026-10-25\", \"preview\": \"https://fb.me/29b0Jr8eIGrcYDS\"}",
+          "RANK {\"ad\": \"‏‏וידיאו 10 || 3 טקסטים‏‏ - עותק\", \"adset\": \"‏‏‏קהל פתוח || 25+ || מיקומים אוטומטים || סרטונים 1-10\", \"campaign\": \"‏טופס לידים || ניהול תזרים ||\", \"maximum\": {\"spend\": 188, \"leads\": 4, \"cpl\": 47}, \"status\": \"PAUSED\", \"created\": \"2025-02-13\", \"preview\": \"https://fb.me/1UqIfKsxNRZtjML\"}",
+          "RANK {\"ad\": \"‏סרטון 3 - אתה נוסע קרוב לשוליים\", \"adset\": \"‏תחומי עניין בעלי עסקים ועצמאיים || 25+ || מיקומים ידניים\", \"campaign\": \"‏קמפיין כספים AI טופס לידים || HK Money‏\", \"maximum\": {\"spend\": 565, \"leads\": 4, \"cpl\": 141}, \"last_90d\": {\"spend\": 23, \"leads\": 0, \"cpl\": null}, \"status\": \"ACTIVE\", \"created\": \"2025-09-14\", \"preview\": \"https://fb.me/2lkw5MgwA8jvDhb\"}",
+          "RANK {\"ad\": \"‏סרטון 4 תיקון - בקיצור אני יושב במיקונוס‏ - קופי 2\", \"adset\": \"‏תחומי עניין מסעדות || 25+ || מיקומים ידניים\", \"campaign\": \"‏‏קמפיין כספים AI טופס לידים | טסט 2 | HK Money‏‏\", \"maximum\": {\"spend\": 587, \"leads\": 3, \"cpl\": 196}, \"status\": \"CAMPAIGN_PAUSED\", \"created\": \"2026-04-26\", \"preview\": \"https://fb.me/29uMqFFZRfYWyfz\"}",
+          "RANK {\"ad\": \"2026-W41-MA1 · form\", \"adset\": \"כושר פיננסי · מודעת תמונה · 2026-10\", \"campaign\": \"קמפיין לידים אייל\", \"maximum\": {\"spend\": 364, \"leads\": 3, \"cpl\": 121}, \"last_90d\": {\"spend\": 364, \"leads\": 3, \"cpl\": 121}, \"status\": \"PAUSED\", \"created\": \"2026-10-05\", \"preview\": \"https://fb.me/2cmFr1zFT3MtNLl\"}",
+          "RANK {\"ad\": \"‏וידיאו 2 || 3 טקסטים\", \"adset\": \"קהל פתוח 21+ || מיקומים ידניים || סרטונים 1-5\", \"campaign\": \"טופס לידים || ניהול תזרים || קהל חדש || טסט\", \"maximum\": {\"spend\": 96, \"leads\": 2, \"cpl\": 48}, \"status\": \"WITH_ISSUES\", \"created\": \"2025-01-13\", \"preview\": \"https://fb.me/24rmPz9ROAClf3Z\"}",
+          "RANK {\"ad\": \"‏‏וידיאו 4 || 3 טקסטים‏\", \"adset\": \"קהל פתוח 21+ || מיקומים ידניים || סרטונים 1-5\", \"campaign\": \"טופס לידים || ניהול תזרים || קהל חדש || טסט\", \"maximum\": {\"spend\": 265, \"leads\": 2, \"cpl\": 133}, \"status\": \"WITH_ISSUES\", \"created\": \"2025-01-13\", \"preview\": \"https://fb.me/1XPL2o5M55uf5g5\"}",
+          "RANK {\"ad\": \"‏‏וידיאו 5 || 3 טקסטים‏‏ - עותק\", \"adset\": \"‏רימרקטינג רשימה מותאמת || 21+ || כל המיקומים || סרטונים 1-10‏\", \"campaign\": \"‏טופס לידים || ניהול תזרים ||\", \"maximum\": {\"spend\": 65, \"leads\": 2, \"cpl\": 32}, \"status\": \"WITH_ISSUES\", \"created\": \"2025-01-13\", \"preview\": \"https://fb.me/2PT7m1C5zQ2bAng\"}",
+          "RANK {\"ad\": \"‏וידיאו 1 || 3 טקסטים‏ - עותק\", \"adset\": \"‏רימרקטינג רשימה מותאמת || 21+ || כל המיקומים || סרטונים 1-10‏\", \"campaign\": \"‏טופס לידים || ניהול תזרים ||\", \"maximum\": {\"spend\": 63, \"leads\": 2, \"cpl\": 32}, \"status\": \"WITH_ISSUES\", \"created\": \"2025-01-13\", \"preview\": \"https://fb.me/z2DyT6UlJMP3H6q\"}",
+          "RANK {\"ad\": \"וידיאו 6 || 3 טקסטים\", \"adset\": \"‏רימרקטינג רשימה מותאמת || 21+ || כל המיקומים || סרטונים 1-10‏\", \"campaign\": \"‏טופס לידים || ניהול תזרים ||\", \"maximum\": {\"spend\": 84, \"leads\": 2, \"cpl\": 42}, \"status\": \"WITH_ISSUES\", \"created\": \"2025-01-13\", \"preview\": \"https://fb.me/1WMtGgtNUzarHyV\"}",
+          "RANK {\"ad\": \"‏‏וידיאו 8 || 3 טקסטים‏ - עותק\", \"adset\": \"‏‏קהל תחומי עניין || 25+ || מיקומים ידניים || סרטונים 1-10‏‏\", \"campaign\": \"‏טופס לידים || ניהול תזרים ||\", \"maximum\": {\"spend\": 56, \"leads\": 2, \"cpl\": 28}, \"status\": \"ADSET_PAUSED\", \"created\": \"2025-02-05\", \"preview\": \"https://fb.me/34ZevtKtSI9xK8C\"}",
+          "RANK {\"ad\": \"‏וידיאו 2 || 3 טקסטים\", \"adset\": \"‏‏קהל תחומי עניין || 25+ || מיקומים ידניים || סרטונים 1-10‏‏\", \"campaign\": \"‏טופס לידים || ניהול תזרים ||\", \"maximum\": {\"spend\": 207, \"leads\": 2, \"cpl\": 103}, \"status\": \"ADSET_PAUSED\", \"created\": \"2025-02-05\", \"preview\": \"https://fb.me/2nDM3BMTBpIH9bh\"}",
+          "RANK {\"ad\": \"‏וידיאו 6 || 3 טקסטים‏ - עותק\", \"adset\": \"‏‏‏קהל פתוח || 25+ || מיקומים אוטומטים || סרטונים 1-10\", \"campaign\": \"‏טופס לידים || ניהול תזרים ||\", \"maximum\": {\"spend\": 196, \"leads\": 2, \"cpl\": 98}, \"status\": \"PAUSED\", \"created\": \"2025-02-13\", \"preview\": \"https://fb.me/2a7yXLCc81ML456\"}",
+          "RANK {\"ad\": \"‏וידיאו 3 || 3 טקסטים\", \"adset\": \"‏‏‏קהל פתוח || 25+ || מיקומים אוטומטים || סרטונים 1-10\", \"campaign\": \"‏טופס לידים || ניהול תזרים ||\", \"maximum\": {\"spend\": 174, \"leads\": 2, \"cpl\": 87}, \"status\": \"PAUSED\", \"created\": \"2025-02-13\", \"preview\": \"https://fb.me/2OBqBVZWDH6TQgs\"}"
+        ]
+      }
+    },
+    {
+      "index": 1,
+      "type": "today_ads",
+      "ok": true,
+      "at": "2026-11-11T18:56+02:00",
+      "result": {
+        "lines": [
+          "TODAY ‏קמפיין כספים AI טופס לידים || HK Money‏ | ‏תחומי עניין בעלי עסקים ועצמאיים || 25+ || מיקומים ידניים | ‏סרטון 3 - אתה נוסע קרוב לשוליים | spend 0.91 | impr 7 | clicks 1 | leads 0",
+          "TODAY ‏קמפיין כספים AI טופס לידים || HK Money‏ | ‏תחומי עניין בעלי עסקים ועצמאיים || 25+ || מיקומים ידניים | סרטון 2 תיקון - מהפכת ה AI | spend 0.92 | impr 4 | clicks 0 | leads 0",
+          "TODAY ‏קמפיין כספים AI טופס לידים || HK Money‏ | ‏תחומי עניין בעלי עסקים ועצמאיים || 25+ || מיקומים ידניים | סרטון 4 תיקון - בקיצור אני יושב במיקונוס | spend 69.35 | impr 241 | clicks 7 | leads 0",
+          "TODAY קמפיין לידים אייל | סדרת מודעות לידים חדשה | סרטון מיקונוס 11.5 | spend 73.06 | impr 456 | clicks 4 | leads 0"
+        ]
+      }
+    },
+    {
+      "index": 2,
+      "type": "today_ads",
+      "ok": true,
+      "at": "2026-11-11T18:56+02:00",
+      "result": {
+        "lines": [
+          "TODAY ‏קמפיין כספים AI טופס לידים || HK Money‏ | ‏תחומי עניין בעלי עסקים ועצמאיים || 25+ || מיקומים ידניים | ‏סרטון 3 - אתה נוסע קרוב לשוליים | spend 22.76 | impr 112 | clicks 1 | leads 0",
+          "TODAY ‏קמפיין כספים AI טופס לידים || HK Money‏ | ‏תחומי עניין בעלי עסקים ועצמאיים || 25+ || מיקומים ידניים | סרטון 2 תיקון - מהפכת ה AI | spend 7.93 | impr 35 | clicks 0 | leads 0",
+          "TODAY ‏קמפיין כספים AI טופס לידים || HK Money‏ | ‏תחומי עניין בעלי עסקים ועצמאיים || 25+ || מיקומים ידניים | סרטון 4 תיקון - בקיצור אני יושב במיקונוס | spend 444.97 | impr 2736 | clicks 57 | leads 5",
+          "TODAY קמפיין לידים אייל | סדרת מודעות לידים חדשה | סרטון מיקונוס 11.5 | spend 702.29 | impr 4050 | clicks 80 | leads 10",
+          "TODAY קמפיין לידים אייל | לקוחות bizibox · קהל מותאם · 2026-10 | 2026-W42-BZA · form | spend 162.41 | impr 1107 | clicks 13 | leads 0",
+          "TODAY קמפיין לידים אייל | טלפון · KAI + מנהל תזרים · בעלי עסקים דומה 1-4% · 2026-10 | 2026-W42-PH1 · form | spend 156.9 | impr 911 | clicks 8 | leads 1",
+          "TODAY קמפיין לידים אייל | טלפון · KAI + מנהל תזרים · בעלי עסקים דומה 1-4% · 2026-10 | 2026-W44-PL1 · form | spend 120.2 | impr 726 | clicks 9 | leads 1",
+          "TODAY קמפיין לידים אייל | טלפון · KAI + מנהל תזרים · בעלי עסקים דומה 1-4% · 2026-10 | 2026-W44-WA · שאלה אחת בוואטסאפ · form | spend 0.78 | impr 5 | clicks 0 | leads 0"
+        ]
+      }
+    }
   ]
 }
