@@ -1,11 +1,11 @@
 {
- "generated": "13.11.2026 09:13",
+ "generated": "13.11.2026 11:55",
  "account": {
   "id": "act_1886192278456348",
   "currency": "ILS",
   "account_status": 1,
   "name": "HK",
-  "amount_spent": "9042401"
+  "amount_spent": "9042404"
  },
  "campaigns": [
   {
@@ -387,14 +387,14 @@
     "landing_page_views": 4.0
    },
    "lifetime": {
-    "spend": 21515.77,
-    "impressions": 149006,
-    "reach": 32588,
+    "spend": 21534.66,
+    "impressions": 149081,
+    "reach": 32587,
     "clicks": 3077,
-    "ctr": 2.065018,
-    "cpc": 6.99245,
+    "ctr": 2.063979,
+    "cpc": 6.99859,
     "leads": 238.0,
-    "cost_per_lead": 90.402395,
+    "cost_per_lead": 90.481765,
     "landing_page_views": 4.0
    },
    "ads_last7": [
@@ -458,14 +458,14 @@
     {
      "adset": "סדרת מודעות לידים חדשה",
      "name": "סרטון מיקונוס 11.5",
-     "spend": 4247.72,
-     "impressions": 28434,
-     "reach": 12407,
+     "spend": 4266.61,
+     "impressions": 28509,
+     "reach": 12423,
      "clicks": 526,
-     "ctr": 1.849898,
-     "cpc": 8.075513,
+     "ctr": 1.845031,
+     "cpc": 8.111426,
      "leads": 48.0,
-     "cost_per_lead": 88.494167,
+     "cost_per_lead": 88.887708,
      "landing_page_views": 0.0
     },
     {
@@ -1159,36 +1159,36 @@
     }
    ],
    "last7": {
-    "spend": 605.48,
-    "impressions": 3347,
-    "reach": 2499,
+    "spend": 605.51,
+    "impressions": 3348,
+    "reach": 2501,
     "clicks": 80,
-    "ctr": 2.3902,
-    "cpc": 7.5685,
+    "ctr": 2.389486,
+    "cpc": 7.568875,
     "leads": 6.0,
-    "cost_per_lead": 100.913333,
+    "cost_per_lead": 100.918333,
     "landing_page_views": 0.0
    },
    "last30": {
-    "spend": 653.31,
-    "impressions": 3584,
-    "reach": 2625,
+    "spend": 653.34,
+    "impressions": 3585,
+    "reach": 2627,
     "clicks": 83,
-    "ctr": 2.315848,
-    "cpc": 7.871205,
+    "ctr": 2.315202,
+    "cpc": 7.871566,
     "leads": 6.0,
-    "cost_per_lead": 108.885,
+    "cost_per_lead": 108.89,
     "landing_page_views": 0.0
    },
    "lifetime": {
-    "spend": 24070.09,
-    "impressions": 173903,
+    "spend": 24075.99,
+    "impressions": 173919,
     "reach": 50892,
     "clicks": 3636,
-    "ctr": 2.090821,
-    "cpc": 6.619937,
+    "ctr": 2.090628,
+    "cpc": 6.621559,
     "leads": 386.0,
-    "cost_per_lead": 62.357746,
+    "cost_per_lead": 62.373031,
     "landing_page_views": 2.0
    },
    "ads_last7": [
@@ -1224,14 +1224,14 @@
      "id": "120234695642610740",
      "adset": "‏תחומי עניין בעלי עסקים ועצמאיים || 25+ || מיקומים ידניים",
      "name": "סרטון 4 תיקון - בקיצור אני יושב במיקונוס",
-     "spend": 583.98,
-     "impressions": 3225,
-     "reach": 2481,
+     "spend": 584.01,
+     "impressions": 3226,
+     "reach": 2483,
      "clicks": 75,
-     "ctr": 2.325581,
-     "cpc": 7.7864,
+     "ctr": 2.324861,
+     "cpc": 7.7868,
      "leads": 6.0,
-     "cost_per_lead": 97.33,
+     "cost_per_lead": 97.335,
      "landing_page_views": 0.0
     }
    ],
@@ -1239,14 +1239,14 @@
     {
      "adset": "‏תחומי עניין בעלי עסקים ועצמאיים || 25+ || מיקומים ידניים",
      "name": "‏סרטון 3 - אתה נוסע קרוב לשוליים",
-     "spend": 567.44,
-     "impressions": 4363,
+     "spend": 567.76,
+     "impressions": 4364,
      "reach": 2167,
      "clicks": 119,
-     "ctr": 2.727481,
-     "cpc": 4.768403,
+     "ctr": 2.726856,
+     "cpc": 4.771092,
      "leads": 4.0,
-     "cost_per_lead": 141.86,
+     "cost_per_lead": 141.94,
      "landing_page_views": 0.0
     },
     {
@@ -1265,14 +1265,14 @@
     {
      "adset": "‏תחומי עניין בעלי עסקים ועצמאיים || 25+ || מיקומים ידניים",
      "name": "סרטון 4 תיקון - בקיצור אני יושב במיקונוס",
-     "spend": 11183.98,
-     "impressions": 76963,
+     "spend": 11189.56,
+     "impressions": 76978,
      "reach": 31898,
      "clicks": 1700,
-     "ctr": 2.208854,
-     "cpc": 6.578812,
+     "ctr": 2.208423,
+     "cpc": 6.582094,
      "leads": 194.0,
-     "cost_per_lead": 57.649381,
+     "cost_per_lead": 57.678144,
      "landing_page_views": 1.0
     },
     {
@@ -1708,14 +1708,14 @@
     "landing_page_views": 0.0
    },
    "lifetime": {
-    "spend": 26146.18,
-    "impressions": 250082,
+    "spend": 26150.36,
+    "impressions": 250119,
     "reach": 49999,
     "clicks": 4912,
-    "ctr": 1.964156,
-    "cpc": 5.322919,
+    "ctr": 1.963865,
+    "cpc": 5.32377,
     "leads": 450.0,
-    "cost_per_lead": 58.102622,
+    "cost_per_lead": 58.111911,
     "landing_page_views": 1.0
    },
    "ads_last7": [
@@ -2180,14 +2180,14 @@
     {
      "adset": "‏‏‏קהל פתוח || 25+ || מיקומים אוטומטים || סרטונים 1-10",
      "name": "וידיאו 1 || 3 טקסטים",
-     "spend": 18539.17,
-     "impressions": 161800,
+     "spend": 18543.35,
+     "impressions": 161837,
      "reach": 42734,
      "clicks": 2467,
-     "ctr": 1.524722,
-     "cpc": 7.514864,
+     "ctr": 1.524373,
+     "cpc": 7.516559,
      "leads": 326.0,
-     "cost_per_lead": 56.86862,
+     "cost_per_lead": 56.881442,
      "landing_page_views": 1.0
     },
     {
@@ -3843,34 +3843,34 @@
  },
  "today": {
   "120216039932250740": {
-   "spend": 20.98,
-   "impressions": 113,
-   "reach": 101,
+   "spend": 25.16,
+   "impressions": 150,
+   "reach": 134,
    "clicks": 4,
-   "ctr": 3.539823,
-   "cpc": 5.245,
+   "ctr": 2.666667,
+   "cpc": 6.29,
    "leads": 0.0,
    "cost_per_lead": null,
    "landing_page_views": 0.0
   },
   "120234694036040740": {
-   "spend": 37.7,
-   "impressions": 100,
-   "reach": 99,
+   "spend": 43.57,
+   "impressions": 115,
+   "reach": 113,
    "clicks": 4,
-   "ctr": 4.0,
-   "cpc": 9.425,
+   "ctr": 3.478261,
+   "cpc": 10.8925,
    "leads": 1.0,
-   "cost_per_lead": 37.7,
+   "cost_per_lead": 43.57,
    "landing_page_views": 0.0
   },
   "120245939439290740": {
-   "spend": 30.35,
-   "impressions": 233,
-   "reach": 216,
+   "spend": 49.24,
+   "impressions": 308,
+   "reach": 294,
    "clicks": 3,
-   "ctr": 1.287554,
-   "cpc": 10.116667,
+   "ctr": 0.974026,
+   "cpc": 16.413333,
    "leads": 0.0,
    "cost_per_lead": null,
    "landing_page_views": 0.0
@@ -3911,7 +3911,7 @@
    "name": "HK Pixel",
    "last_fired_time": "2026-11-13T01:55:01+0200",
    "events_3d": {
-    "PageView": 43
+    "PageView": 45
    }
   }
  ],
@@ -3930,14 +3930,14 @@
     "landing_page_views": 0.0
    },
    "120234694036040740": {
-    "spend": 66.22,
-    "impressions": 294,
-    "reach": 268,
+    "spend": 66.25,
+    "impressions": 295,
+    "reach": 269,
     "clicks": 13,
-    "ctr": 4.421769,
-    "cpc": 5.093846,
+    "ctr": 4.40678,
+    "cpc": 5.096154,
     "leads": 1.0,
-    "cost_per_lead": 66.22,
+    "cost_per_lead": 66.25,
     "landing_page_views": 0.0
    },
    "120245939439290740": {
@@ -3953,14 +3953,14 @@
    }
   },
   "total": {
-   "spend": 279.37,
-   "impressions": 1566,
-   "reach": 1358,
+   "spend": 279.4,
+   "impressions": 1567,
+   "reach": 1359,
    "clicks": 40,
-   "ctr": 2.554278416347382,
-   "cpc": 6.98425,
+   "ctr": 2.5526483726866624,
+   "cpc": 6.984999999999999,
    "leads": 2.0,
-   "cost_per_lead": 139.685,
+   "cost_per_lead": 139.7,
    "landing_page_views": 0.0
   }
  }
