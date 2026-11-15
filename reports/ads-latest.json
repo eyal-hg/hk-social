@@ -1,5 +1,5 @@
 {
- "generated": "15.11.2026 11:51",
+ "generated": "15.11.2026 13:51",
  "account": {
   "id": "act_1886192278456348",
   "currency": "ILS",
@@ -387,14 +387,14 @@
     "landing_page_views": 4.0
    },
    "lifetime": {
-    "spend": 21762.78,
-    "impressions": 150320,
+    "spend": 21767.86,
+    "impressions": 150378,
     "reach": 32806,
-    "clicks": 3097,
-    "ctr": 2.060271,
-    "cpc": 7.027052,
+    "clicks": 3098,
+    "ctr": 2.060142,
+    "cpc": 7.026424,
     "leads": 239.0,
-    "cost_per_lead": 91.057657,
+    "cost_per_lead": 91.078912,
     "landing_page_views": 4.0
    },
    "ads_last7": [
@@ -430,14 +430,14 @@
     {
      "adset": "סדרת מודעות לידים חדשה",
      "name": "סרטון מיקונוס 11.5",
-     "spend": 4494.73,
-     "impressions": 29748,
-     "reach": 12783,
-     "clicks": 546,
-     "ctr": 1.835418,
-     "cpc": 8.232106,
+     "spend": 4499.81,
+     "impressions": 29806,
+     "reach": 12811,
+     "clicks": 547,
+     "ctr": 1.835201,
+     "cpc": 8.226344,
      "leads": 49.0,
-     "cost_per_lead": 91.729184,
+     "cost_per_lead": 91.832857,
      "landing_page_views": 0.0
     },
     {
@@ -1153,14 +1153,14 @@
     "landing_page_views": 0.0
    },
    "lifetime": {
-    "spend": 24209.5,
-    "impressions": 174389,
+    "spend": 24215.31,
+    "impressions": 174411,
     "reach": 50960,
-    "clicks": 3647,
-    "ctr": 2.091302,
-    "cpc": 6.638196,
+    "clicks": 3648,
+    "ctr": 2.091611,
+    "cpc": 6.637969,
     "leads": 386.0,
-    "cost_per_lead": 62.718912,
+    "cost_per_lead": 62.733964,
     "landing_page_views": 2.0
    },
    "ads_last7": [
@@ -1237,14 +1237,14 @@
     {
      "adset": "‏תחומי עניין בעלי עסקים ועצמאיים || 25+ || מיקומים ידניים",
      "name": "סרטון 4 תיקון - בקיצור אני יושב במיקונוס",
-     "spend": 11322.05,
-     "impressions": 77445,
-     "reach": 32071,
-     "clicks": 1711,
-     "ctr": 2.20931,
-     "cpc": 6.617212,
+     "spend": 11327.49,
+     "impressions": 77466,
+     "reach": 32108,
+     "clicks": 1712,
+     "ctr": 2.210002,
+     "cpc": 6.616525,
      "leads": 194.0,
-     "cost_per_lead": 58.361082,
+     "cost_per_lead": 58.389124,
      "landing_page_views": 1.0
     },
     {
@@ -1680,14 +1680,14 @@
     "landing_page_views": 0.0
    },
    "lifetime": {
-    "spend": 26307.5,
-    "impressions": 250837,
-    "reach": 50018,
+    "spend": 26312.26,
+    "impressions": 250864,
+    "reach": 50017,
     "clicks": 4934,
-    "ctr": 1.967014,
-    "cpc": 5.331881,
+    "ctr": 1.966803,
+    "cpc": 5.332846,
     "leads": 452.0,
-    "cost_per_lead": 58.202434,
+    "cost_per_lead": 58.212965,
     "landing_page_views": 1.0
    },
    "ads_last7": [
@@ -2152,14 +2152,14 @@
     {
      "adset": "‏‏‏קהל פתוח || 25+ || מיקומים אוטומטים || סרטונים 1-10",
      "name": "וידיאו 1 || 3 טקסטים",
-     "spend": 18700.49,
-     "impressions": 162555,
-     "reach": 42806,
+     "spend": 18705.36,
+     "impressions": 162583,
+     "reach": 42805,
      "clicks": 2489,
-     "ctr": 1.531174,
-     "cpc": 7.513254,
+     "ctr": 1.53091,
+     "cpc": 7.515211,
      "leads": 328.0,
-     "cost_per_lead": 57.013689,
+     "cost_per_lead": 57.028537,
      "landing_page_views": 1.0
     },
     {
@@ -3815,36 +3815,36 @@
  },
  "today": {
   "120216039932250740": {
-   "spend": 55.18,
-   "impressions": 240,
-   "reach": 219,
+   "spend": 59.94,
+   "impressions": 267,
+   "reach": 245,
    "clicks": 7,
-   "ctr": 2.916667,
-   "cpc": 7.882857,
+   "ctr": 2.621723,
+   "cpc": 8.562857,
    "leads": 0.0,
    "cost_per_lead": null,
    "landing_page_views": 0.0
   },
   "120234694036040740": {
-   "spend": 48.82,
-   "impressions": 155,
-   "reach": 149,
-   "clicks": 4,
-   "ctr": 2.580645,
-   "cpc": 12.205,
+   "spend": 54.63,
+   "impressions": 177,
+   "reach": 170,
+   "clicks": 5,
+   "ctr": 2.824859,
+   "cpc": 10.926,
    "leads": 0.0,
    "cost_per_lead": null,
    "landing_page_views": 0.0
   },
   "120245939439290740": {
-   "spend": 37.82,
-   "impressions": 193,
-   "reach": 189,
-   "clicks": 5,
-   "ctr": 2.590674,
-   "cpc": 7.564,
+   "spend": 42.9,
+   "impressions": 251,
+   "reach": 242,
+   "clicks": 6,
+   "ctr": 2.390438,
+   "cpc": 7.15,
    "leads": 1.0,
-   "cost_per_lead": 37.82,
+   "cost_per_lead": 42.9,
    "landing_page_views": 0.0
   }
  },
