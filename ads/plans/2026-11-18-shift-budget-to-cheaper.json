@@ -23,5 +23,49 @@
     {
       "type": "check"
     }
+  ],
+  "applied": [
+    {
+      "index": 0,
+      "type": "set_adset_budget",
+      "ok": true,
+      "at": "2026-11-18T18:38+02:00",
+      "result": {
+        "campaign_id": "120245939439290740",
+        "level": "adset",
+        "adsets": [
+          {
+            "adset_id": "120245939439310740",
+            "name": "סדרת מודעות לידים חדשה",
+            "daily_budget_ils": 88
+          }
+        ]
+      }
+    },
+    {
+      "index": 1,
+      "type": "set_adset_budget",
+      "ok": false,
+      "at": "2026-11-18T18:38+02:00",
+      "error": "GET 120234694036040740/adsets -> 400: {\"error\":{\"message\":\"User request limit reached\",\"type\":\"OAuthException\",\"is_transient\":false,\"code\":17,\"error_subcode\":2446079,\"error_user_title\":\"\\u05d1\\u05d7\\u05e9\\u05d1\\u05d5\\u05df \\u05d4\\u05de\\u05d5\\u05d3\\u05e2\\u05d5\\u05ea \\u05d9\\u05e9 \\u05e9\\u05d9\\u05d7\\u05d5\\u05ea API \\u05e8\\u05d1\\u05d5\\u05ea \\u05de\\u05d3\\u05d9\",\"error_user_msg\":\"\\u05d4\\u05d9\\u05d5 \\u05e7\\u05e8\\u05d9\\u05d0\\u05d5\\u05ea \\u05e8\\u05d1\\u05d5\\u05ea \\u05de\\u05d3\\u05d9 \\u05de\\u05d7\\u05e9\\u05d1\\u05d5\\u05df \\u05de\\u05d5\\u05d3\\u05e2\\u05d5\\u05ea \\u05d6\\u05d4. \\u05d9\\u05e9 \\u05dc\\u05d4\\u05de\\u05ea\\u05d9\\u05df \\u05de\\u05e2\\u05d8 \\u05d5\\u05dc\\u05e0\\u05e1\\u05d5\\u05ea \\u05e9\\u05d5\\u05d1.\",\"fbtrace_id\":\"AKXR2RRRH5sYCoT0olIJL4u\"}}"
+    },
+    {
+      "index": 2,
+      "type": "set_adset_budget",
+      "ok": true,
+      "at": "2026-11-18T18:38+02:00",
+      "result": {
+        "campaign_id": "120216039932250740",
+        "level": "campaign",
+        "daily_budget_ils": 100
+      }
+    },
+    {
+      "index": 3,
+      "type": "check",
+      "ok": false,
+      "at": "2026-11-18T18:38+02:00",
+      "error": "GET 120251977931170740/ads -> 400: {\"error\":{\"message\":\"User request limit reached\",\"type\":\"OAuthException\",\"is_transient\":false,\"code\":17,\"error_subcode\":2446079,\"error_user_title\":\"\\u05d1\\u05d7\\u05e9\\u05d1\\u05d5\\u05df \\u05d4\\u05de\\u05d5\\u05d3\\u05e2\\u05d5\\u05ea \\u05d9\\u05e9 \\u05e9\\u05d9\\u05d7\\u05d5\\u05ea API \\u05e8\\u05d1\\u05d5\\u05ea \\u05de\\u05d3\\u05d9\",\"error_user_msg\":\"\\u05d4\\u05d9\\u05d5 \\u05e7\\u05e8\\u05d9\\u05d0\\u05d5\\u05ea \\u05e8\\u05d1\\u05d5\\u05ea \\u05de\\u05d3\\u05d9 \\u05de\\u05d7\\u05e9\\u05d1\\u05d5\\u05df \\u05de\\u05d5\\u05d3\\u05e2\\u05d5\\u05ea \\u05d6\\u05d4. \\u05d9\\u05e9 \\u05dc\\u05d4\\u05de\\u05ea\\u05d9\\u05df \\u05de\\u05e2\\u05d8 \\u05d5\\u05dc\\u05e0\\u05e1\\u05d5\\u05ea \\u05e9\\u05d5\\u05d1.\",\"fbtrace_id\":\"A81mr7b5m80dMTBRcDE8KAW\"}}"
+    }
   ]
 }
