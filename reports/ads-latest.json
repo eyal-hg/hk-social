@@ -1,5 +1,5 @@
 {
- "generated": "20.11.2026 09:42",
+ "generated": "20.11.2026 12:26",
  "account": {
   "name": "HK",
   "currency": "ILS",
@@ -387,14 +387,14 @@
     "landing_page_views": 3.0
    },
    "lifetime": {
-    "spend": 22393.12,
-    "impressions": 154229,
-    "reach": 33815,
-    "clicks": 3171,
-    "ctr": 2.056034,
-    "cpc": 7.061848,
+    "spend": 22408.74,
+    "impressions": 154306,
+    "reach": 33817,
+    "clicks": 3173,
+    "ctr": 2.056304,
+    "cpc": 7.06232,
     "leads": 243.0,
-    "cost_per_lead": 92.152757,
+    "cost_per_lead": 92.217037,
     "landing_page_views": 4.0
    },
    "ads_last7": [
@@ -430,14 +430,14 @@
     {
      "adset": "סדרת מודעות לידים חדשה",
      "name": "סרטון מיקונוס 11.5",
-     "spend": 5125.07,
-     "impressions": 33657,
-     "reach": 14184,
+     "spend": 5128.75,
+     "impressions": 33669,
+     "reach": 14183,
      "clicks": 620,
-     "ctr": 1.842113,
-     "cpc": 8.266242,
+     "ctr": 1.841457,
+     "cpc": 8.272177,
      "leads": 53.0,
-     "cost_per_lead": 96.699434,
+     "cost_per_lead": 96.768868,
      "landing_page_views": 0.0
     },
     {
@@ -670,6 +670,19 @@
      "clicks": 0,
      "ctr": 0.0,
      "cpc": 0.0,
+     "leads": 0.0,
+     "cost_per_lead": null,
+     "landing_page_views": 0.0
+    },
+    {
+     "adset": "סדרת מודעות לידים חדשה",
+     "name": "סוכנות 010 · שלומי, אפשר להעביר מחר · 43s",
+     "spend": 11.94,
+     "impressions": 65,
+     "reach": 63,
+     "clicks": 2,
+     "ctr": 3.076923,
+     "cpc": 5.97,
      "leads": 0.0,
      "cost_per_lead": null,
      "landing_page_views": 0.0
@@ -1153,14 +1166,14 @@
     "landing_page_views": 0.0
    },
    "lifetime": {
-    "spend": 24621.73,
-    "impressions": 176168,
-    "reach": 51250,
-    "clicks": 3693,
-    "ctr": 2.096294,
-    "cpc": 6.667135,
+    "spend": 24627.22,
+    "impressions": 176193,
+    "reach": 51332,
+    "clicks": 3694,
+    "ctr": 2.096565,
+    "cpc": 6.666816,
     "leads": 390.0,
-    "cost_per_lead": 63.132641,
+    "cost_per_lead": 63.146718,
     "landing_page_views": 2.0
    },
    "ads_last7": [
@@ -1237,14 +1250,14 @@
     {
      "adset": "‏תחומי עניין בעלי עסקים ועצמאיים || 25+ || מיקומים ידניים",
      "name": "סרטון 4 תיקון - בקיצור אני יושב במיקונוס",
-     "spend": 11721.31,
-     "impressions": 79167,
-     "reach": 32602,
-     "clicks": 1753,
-     "ctr": 2.214306,
-     "cpc": 6.686429,
+     "spend": 11726.8,
+     "impressions": 79192,
+     "reach": 32635,
+     "clicks": 1754,
+     "ctr": 2.21487,
+     "cpc": 6.685747,
      "leads": 198.0,
-     "cost_per_lead": 59.198535,
+     "cost_per_lead": 59.226263,
      "landing_page_views": 1.0
     },
     {
@@ -1680,14 +1693,14 @@
     "landing_page_views": 1.0
    },
    "lifetime": {
-    "spend": 26785.99,
-    "impressions": 253260,
-    "reach": 50180,
+    "spend": 26794.04,
+    "impressions": 253307,
+    "reach": 50179,
     "clicks": 4995,
-    "ctr": 1.972281,
-    "cpc": 5.362561,
+    "ctr": 1.971916,
+    "cpc": 5.364172,
     "leads": 459.0,
-    "cost_per_lead": 58.357277,
+    "cost_per_lead": 58.374815,
     "landing_page_views": 2.0
    },
    "ads_last7": [
@@ -2152,14 +2165,14 @@
     {
      "adset": "‏‏‏קהל פתוח || 25+ || מיקומים אוטומטים || סרטונים 1-10",
      "name": "וידיאו 1 || 3 טקסטים",
-     "spend": 19178.98,
-     "impressions": 164978,
-     "reach": 43182,
+     "spend": 19187.03,
+     "impressions": 165025,
+     "reach": 43183,
      "clicks": 2550,
-     "ctr": 1.545661,
-     "cpc": 7.521169,
+     "ctr": 1.54522,
+     "cpc": 7.524325,
      "leads": 335.0,
-     "cost_per_lead": 57.250687,
+     "cost_per_lead": 57.274716,
      "landing_page_views": 2.0
     },
     {
@@ -2989,9 +3002,16 @@
    ],
    "ads": [
     {
-     "name": "סרטון מיקונוס 11.5",
+     "name": "סוכנות 010 · שלומי, אפשר להעביר מחר · 43s",
      "status": "ACTIVE",
      "effective_status": "ACTIVE",
+     "adset_id": "120245939439310740",
+     "id": "120252744703750740"
+    },
+    {
+     "name": "סרטון מיקונוס 11.5",
+     "status": "PAUSED",
+     "effective_status": "PAUSED",
      "adset_id": "120245939439310740",
      "id": "120246717051220740"
     },
@@ -3815,36 +3835,36 @@
  },
  "today": {
   "120216039932250740": {
-   "spend": 31.43,
-   "impressions": 137,
-   "reach": 126,
+   "spend": 39.48,
+   "impressions": 184,
+   "reach": 169,
    "clicks": 5,
-   "ctr": 3.649635,
-   "cpc": 6.286,
+   "ctr": 2.717391,
+   "cpc": 7.896,
    "leads": 1.0,
-   "cost_per_lead": 31.43,
+   "cost_per_lead": 39.48,
    "landing_page_views": 0.0
   },
   "120234694036040740": {
-   "spend": 37.16,
-   "impressions": 119,
-   "reach": 113,
-   "clicks": 1,
-   "ctr": 0.840336,
-   "cpc": 37.16,
+   "spend": 42.65,
+   "impressions": 144,
+   "reach": 136,
+   "clicks": 2,
+   "ctr": 1.388889,
+   "cpc": 21.325,
    "leads": 0.0,
    "cost_per_lead": null,
    "landing_page_views": 0.0
   },
   "120245939439290740": {
-   "spend": 29.89,
-   "impressions": 104,
-   "reach": 98,
-   "clicks": 4,
-   "ctr": 3.846154,
-   "cpc": 7.4725,
+   "spend": 45.51,
+   "impressions": 181,
+   "reach": 164,
+   "clicks": 6,
+   "ctr": 3.314917,
+   "cpc": 7.585,
    "leads": 1.0,
-   "cost_per_lead": 29.89,
+   "cost_per_lead": 45.51,
    "landing_page_views": 0.0
   }
  },
@@ -3911,8 +3931,7 @@
    "name": "HK Pixel",
    "last_fired_time": "2026-11-19T15:38:30+0200",
    "events_3d": {
-    "PageView": 41,
-    "Lead": 1
+    "PageView": 37
    }
   }
  ],
