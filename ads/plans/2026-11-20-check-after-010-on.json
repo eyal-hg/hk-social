@@ -3,6 +3,33 @@
   "approved": true,
   "approved_by": "קריאה בלבד, בלי שינוי בחשבון",
   "actions": [
-    { "type": "check" }
+    {
+      "type": "check"
+    }
+  ],
+  "applied": [
+    {
+      "index": 0,
+      "type": "check",
+      "ok": true,
+      "at": "2026-11-20T10:33+02:00",
+      "result": {
+        "lines": [
+          "CHECK campaign HK Studio · יועצים · טופס לידים | budget 0 | today spend 0 impr 0 clicks 0 leads 0",
+          "CHECK campaign HK Studio · יועצים · כניסות לדף | budget 0 | today spend 0 impr 0 clicks 0 leads 0",
+          "CHECK campaign קמפיין לידים אייל | budget 0 | today spend 32.68 impr 113 clicks 4 leads 1",
+          "CHECK   adset סדרת מודעות לידים חדשה [ACTIVE] budget 88 ",
+          "CHECK     ad סוכנות 010 · שלומי, אפשר להעביר מחר · 43s [ACTIVE]  ",
+          "CHECK campaign ‏קמפיין כספים AI טופס לידים || HK Money‏ | budget 0 | today spend 38.45 impr 125 clicks 1 leads 0",
+          "CHECK   adset ‏תחומי עניין בעלי עסקים ועצמאיים || 25+ || מיקומים ידניים [ACTIVE] budget 85 ",
+          "CHECK     ad סרטון 2 תיקון - מהפכת ה AI [ACTIVE]  ",
+          "CHECK     ad ‏סרטון 3 - אתה נוסע קרוב לשוליים [ACTIVE]  ",
+          "CHECK     ad סרטון 4 תיקון - בקיצור אני יושב במיקונוס [ACTIVE]  ",
+          "CHECK campaign ‏טופס לידים || ניהול תזרים || | budget 100 | today spend 36.1 impr 156 clicks 5 leads 1",
+          "CHECK   adset ‏‏‏קהל פתוח || 25+ || מיקומים אוטומטים || סרטונים 1-10 [ACTIVE] budget 0 ",
+          "CHECK     ad וידיאו 1 || 3 טקסטים [ACTIVE]  "
+        ]
+      }
+    }
   ]
 }
