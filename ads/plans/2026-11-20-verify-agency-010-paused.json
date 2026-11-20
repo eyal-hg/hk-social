@@ -3,6 +3,22 @@
   "approved": true,
   "approved_by": "קריאה בלבד, בלי שינוי בחשבון",
   "actions": [
-    { "type": "inspect_ads", "campaign_name": "קמפיין לידים אייל" }
+    {
+      "type": "inspect_ads",
+      "campaign_name": "קמפיין לידים אייל"
+    }
+  ],
+  "applied": [
+    {
+      "index": 0,
+      "type": "inspect_ads",
+      "ok": true,
+      "at": "2026-11-20T10:25+02:00",
+      "result": {
+        "lines": [
+          "INSPECT {\"ad\": \"סרטון מיקונוס 11.5\", \"spend\": \"5127.86\", \"impressions\": \"33666\", \"reach\": \"14369\", \"clicks_all\": \"620\", \"link_clicks\": \"357\", \"unique_link_clicks\": \"336\", \"actions\": {\"offsite_complete_registration_add_meta_leads\": \"53\", \"link_click\": \"357\", \"offsite_search_add_meta_leads\": \"53\", \"post_reaction\": \"32\", \"onsite_conversion.messaging_conversation_replied_7d\": \"36\", \"onsite_conversion.total_messaging_connection\": \"45\", \"onsite_conversion.post_unlike\": \"6\", \"post_engagement\": \"7534\", \"like\": \"2\", \"post_interaction_gross\": \"59\", \"comment\": \"1\", \"page_engagement\": \"7536\", \"post_interaction_net\": \"53\", \"onsite_conversion.messaging_user_depth_2_message_send\": \"5\", \"onsite_conversion.messaging_first_reply\": \"41\", \"post\": \"16\", \"onsite_conversion.post_save\": \"10\", \"onsite_conversion.post_net_comment\": \"1\", \"onsite_conversion.messaging_user_depth_3_message_send\": \"5\", \"onsite_conversion.post_net_save\": \"10\", \"onsite_conversion.post_net_like\": \"26\", \"lead\": \"53\", \"offsite_content_view_add_meta_leads\": \"53\", \"onsite_conversion.messaging_conversation_started_7d\": \"46\", \"onsite_conversion.lead_grouped\": \"53\", \"video_view\": \"7118\"}, \"cta\": {\"type\": \"LEARN_MORE\", \"value\": {\"lead_gen_form_id\": \"831087803308460\", \"link\": \"http://fb.me/\"}}, \"page\": \"459554967250420\", \"link\": null, \"story\": \"459554967250420_122165048174678494\", \"preview\": \"https://fb.me/z8k6fJ27MaDWmSP\"}"
+        ]
+      }
+    }
   ]
 }
