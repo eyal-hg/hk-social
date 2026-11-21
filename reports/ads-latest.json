@@ -1,10 +1,10 @@
 {
- "generated": "21.11.2026 05:25",
+ "generated": "21.11.2026 09:39",
  "account": {
   "name": "HK",
   "currency": "ILS",
   "account_status": 1,
-  "amount_spent": "9275141",
+  "amount_spent": "9275154",
   "id": "act_1886192278456348"
  },
  "campaigns": [
@@ -387,14 +387,14 @@
     "landing_page_views": 3.0
    },
    "lifetime": {
-    "spend": 22442.53,
-    "impressions": 154566,
+    "spend": 22473.01,
+    "impressions": 154634,
     "reach": 33815,
-    "clicks": 3176,
-    "ctr": 2.054786,
-    "cpc": 7.066288,
+    "clicks": 3177,
+    "ctr": 2.054529,
+    "cpc": 7.073658,
     "leads": 243.0,
-    "cost_per_lead": 92.356091,
+    "cost_per_lead": 92.481523,
     "landing_page_views": 4.0
    },
    "ads_last7": [
@@ -691,12 +691,12 @@
     {
      "adset": "סדרת מודעות לידים חדשה",
      "name": "סוכנות 010 · שלומי, אפשר להעביר מחר · 43s",
-     "spend": 45.02,
-     "impressions": 323,
-     "reach": 280,
-     "clicks": 5,
-     "ctr": 1.547988,
-     "cpc": 9.004,
+     "spend": 75.5,
+     "impressions": 391,
+     "reach": 333,
+     "clicks": 6,
+     "ctr": 1.534527,
+     "cpc": 12.583333,
      "leads": 0.0,
      "cost_per_lead": null,
      "landing_page_views": 0.0
@@ -1158,36 +1158,36 @@
     }
    ],
    "last7": {
-    "spend": 556.83,
-    "impressions": 2285,
+    "spend": 556.96,
+    "impressions": 2286,
     "reach": 1945,
     "clicks": 66,
-    "ctr": 2.888403,
-    "cpc": 8.436818,
+    "ctr": 2.887139,
+    "cpc": 8.438788,
     "leads": 5.0,
-    "cost_per_lead": 111.366,
+    "cost_per_lead": 111.392,
     "landing_page_views": 0.0
    },
    "last30": {
-    "spend": 1292.44,
-    "impressions": 6123,
+    "spend": 1292.57,
+    "impressions": 6124,
     "reach": 4323,
     "clicks": 154,
-    "ctr": 2.515107,
-    "cpc": 8.392468,
+    "ctr": 2.514696,
+    "cpc": 8.393312,
     "leads": 12.0,
-    "cost_per_lead": 107.703333,
+    "cost_per_lead": 107.714167,
     "landing_page_views": 0.0
    },
    "lifetime": {
-    "spend": 24693.05,
-    "impressions": 176378,
-    "reach": 51407,
-    "clicks": 3703,
-    "ctr": 2.099468,
-    "cpc": 6.66839,
+    "spend": 24715.11,
+    "impressions": 176439,
+    "reach": 51416,
+    "clicks": 3705,
+    "ctr": 2.099876,
+    "cpc": 6.670745,
     "leads": 391.0,
-    "cost_per_lead": 63.153581,
+    "cost_per_lead": 63.21,
     "landing_page_views": 2.0
    },
    "ads_last7": [
@@ -1223,14 +1223,14 @@
      "id": "120234695642610740",
      "adset": "‏תחומי עניין בעלי עסקים ועצמאיים || 25+ || מיקומים ידניים",
      "name": "סרטון 4 תיקון - בקיצור אני יושב במיקונוס",
-     "spend": 542.78,
-     "impressions": 2224,
+     "spend": 542.91,
+     "impressions": 2225,
      "reach": 1923,
      "clicks": 62,
-     "ctr": 2.78777,
-     "cpc": 8.754516,
+     "ctr": 2.786517,
+     "cpc": 8.756613,
      "leads": 5.0,
-     "cost_per_lead": 108.556,
+     "cost_per_lead": 108.582,
      "landing_page_views": 0.0
     }
    ],
@@ -1264,14 +1264,14 @@
     {
      "adset": "‏תחומי עניין בעלי עסקים ועצמאיים || 25+ || מיקומים ידניים",
      "name": "סרטון 4 תיקון - בקיצור אני יושב במיקונוס",
-     "spend": 11792.57,
-     "impressions": 79376,
-     "reach": 32770,
-     "clicks": 1763,
-     "ctr": 2.221074,
-     "cpc": 6.688922,
+     "spend": 11814.63,
+     "impressions": 79437,
+     "reach": 32872,
+     "clicks": 1765,
+     "ctr": 2.221887,
+     "cpc": 6.693841,
      "leads": 199.0,
-     "cost_per_lead": 59.259146,
+     "cost_per_lead": 59.37,
      "landing_page_views": 1.0
     },
     {
@@ -1707,14 +1707,14 @@
     "landing_page_views": 2.0
    },
    "lifetime": {
-    "spend": 26872.55,
-    "impressions": 253649,
-    "reach": 50228,
+    "spend": 26881.6,
+    "impressions": 253690,
+    "reach": 50229,
     "clicks": 5003,
-    "ctr": 1.972411,
-    "cpc": 5.371287,
+    "ctr": 1.972092,
+    "cpc": 5.373096,
     "leads": 460.0,
-    "cost_per_lead": 58.418587,
+    "cost_per_lead": 58.438261,
     "landing_page_views": 3.0
    },
    "ads_last7": [
@@ -2179,14 +2179,14 @@
     {
      "adset": "‏‏‏קהל פתוח || 25+ || מיקומים אוטומטים || סרטונים 1-10",
      "name": "וידיאו 1 || 3 טקסטים",
-     "spend": 19265.54,
-     "impressions": 165367,
-     "reach": 43218,
+     "spend": 19274.59,
+     "impressions": 165408,
+     "reach": 43219,
      "clicks": 2558,
-     "ctr": 1.546862,
-     "cpc": 7.531486,
+     "ctr": 1.546479,
+     "cpc": 7.535023,
      "leads": 336.0,
-     "cost_per_lead": 57.337917,
+     "cost_per_lead": 57.364851,
      "landing_page_views": 3.0
     },
     {
@@ -3849,9 +3849,9 @@
  },
  "today": {
   "120216039932250740": {
-   "spend": 14.4,
-   "impressions": 63,
-   "reach": 59,
+   "spend": 23.45,
+   "impressions": 104,
+   "reach": 96,
    "clicks": 0,
    "ctr": 0.0,
    "cpc": 0.0,
@@ -3860,23 +3860,23 @@
    "landing_page_views": 0.0
   },
   "120234694036040740": {
-   "spend": 21.53,
-   "impressions": 36,
-   "reach": 36,
-   "clicks": 0,
-   "ctr": 0.0,
-   "cpc": 0.0,
+   "spend": 43.46,
+   "impressions": 96,
+   "reach": 91,
+   "clicks": 2,
+   "ctr": 2.083333,
+   "cpc": 21.73,
    "leads": 0.0,
    "cost_per_lead": null,
    "landing_page_views": 0.0
   },
   "120245939439290740": {
-   "spend": 1.79,
-   "impressions": 26,
-   "reach": 23,
-   "clicks": 0,
-   "ctr": 0.0,
-   "cpc": 0.0,
+   "spend": 32.27,
+   "impressions": 94,
+   "reach": 85,
+   "clicks": 1,
+   "ctr": 1.06383,
+   "cpc": 32.27,
    "leads": 0.0,
    "cost_per_lead": null,
    "landing_page_views": 0.0
@@ -3945,7 +3945,7 @@
    "name": "HK Pixel",
    "last_fired_time": "2026-11-21T01:17:10+0200",
    "events_3d": {
-    "PageView": 33
+    "PageView": 30
    }
   }
  ],
@@ -3964,14 +3964,14 @@
     "landing_page_views": 1.0
    },
    "120234694036040740": {
-    "spend": 86.95,
-    "impressions": 293,
-    "reach": 276,
+    "spend": 87.08,
+    "impressions": 294,
+    "reach": 277,
     "clicks": 11,
-    "ctr": 3.754266,
-    "cpc": 7.904545,
+    "ctr": 3.741497,
+    "cpc": 7.916364,
     "leads": 1.0,
-    "cost_per_lead": 86.95,
+    "cost_per_lead": 87.08,
     "landing_page_views": 0.0
    },
    "120245939439290740": {
@@ -3987,14 +3987,14 @@
    }
   },
   "total": {
-   "spend": 267.82,
-   "impressions": 1170,
-   "reach": 1038,
+   "spend": 267.95,
+   "impressions": 1171,
+   "reach": 1039,
    "clicks": 33,
-   "ctr": 2.8205128205128207,
-   "cpc": 8.115757575757575,
+   "ctr": 2.818104184457728,
+   "cpc": 8.11969696969697,
    "leads": 4.0,
-   "cost_per_lead": 66.955,
+   "cost_per_lead": 66.9875,
    "landing_page_views": 1.0
   }
  }
