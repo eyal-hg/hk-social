@@ -1,5 +1,5 @@
 {
- "generated": "21.11.2026 12:09",
+ "generated": "21.11.2026 14:22",
  "account": {
   "name": "HK",
   "currency": "ILS",
@@ -357,7 +357,7 @@
      "campaign_id": "120245939439290740",
      "name": "סדרת מודעות לידים חדשה",
      "effective_status": "ACTIVE",
-     "daily_budget": "8800",
+     "daily_budget": "17300",
      "optimization_goal": "LEAD_GENERATION",
      "destination_type": "ON_AD",
      "start_time": "2026-04-29T00:12:18+0300",
@@ -387,14 +387,14 @@
     "landing_page_views": 3.0
    },
    "lifetime": {
-    "spend": 22490.05,
-    "impressions": 154715,
-    "reach": 33840,
-    "clicks": 3182,
-    "ctr": 2.056685,
-    "cpc": 7.067898,
+    "spend": 22507.14,
+    "impressions": 154836,
+    "reach": 33842,
+    "clicks": 3184,
+    "ctr": 2.056369,
+    "cpc": 7.068825,
     "leads": 243.0,
-    "cost_per_lead": 92.551646,
+    "cost_per_lead": 92.621975,
     "landing_page_views": 4.0
    },
    "ads_last7": [
@@ -691,12 +691,12 @@
     {
      "adset": "סדרת מודעות לידים חדשה",
      "name": "סוכנות 010 · שלומי, אפשר להעביר מחר · 43s",
-     "spend": 92.54,
-     "impressions": 472,
-     "reach": 390,
-     "clicks": 11,
-     "ctr": 2.330508,
-     "cpc": 8.412727,
+     "spend": 109.63,
+     "impressions": 593,
+     "reach": 488,
+     "clicks": 13,
+     "ctr": 2.192243,
+     "cpc": 8.433077,
      "leads": 0.0,
      "cost_per_lead": null,
      "landing_page_views": 0.0
@@ -1149,7 +1149,7 @@
     {
      "campaign_id": "120234694036040740",
      "name": "‏תחומי עניין בעלי עסקים ועצמאיים || 25+ || מיקומים ידניים",
-     "effective_status": "ACTIVE",
+     "effective_status": "PAUSED",
      "daily_budget": "8500",
      "optimization_goal": "LEAD_GENERATION",
      "destination_type": "ON_AD",
@@ -1180,14 +1180,14 @@
     "landing_page_views": 0.0
    },
    "lifetime": {
-    "spend": 24726.7,
-    "impressions": 176474,
-    "reach": 51416,
+    "spend": 24729.46,
+    "impressions": 176483,
+    "reach": 51415,
     "clicks": 3705,
-    "ctr": 2.099459,
-    "cpc": 6.673873,
+    "ctr": 2.099352,
+    "cpc": 6.674618,
     "leads": 391.0,
-    "cost_per_lead": 63.239642,
+    "cost_per_lead": 63.246701,
     "landing_page_views": 2.0
    },
    "ads_last7": [
@@ -1264,14 +1264,14 @@
     {
      "adset": "‏תחומי עניין בעלי עסקים ועצמאיים || 25+ || מיקומים ידניים",
      "name": "סרטון 4 תיקון - בקיצור אני יושב במיקונוס",
-     "spend": 11826.08,
-     "impressions": 79470,
+     "spend": 11828.84,
+     "impressions": 79479,
      "reach": 32882,
      "clicks": 1765,
-     "ctr": 2.220964,
-     "cpc": 6.700329,
+     "ctr": 2.220712,
+     "cpc": 6.701892,
      "leads": 199.0,
-     "cost_per_lead": 59.427538,
+     "cost_per_lead": 59.441407,
      "landing_page_views": 1.0
     },
     {
@@ -1707,14 +1707,14 @@
     "landing_page_views": 2.0
    },
    "lifetime": {
-    "spend": 26886.38,
-    "impressions": 253712,
-    "reach": 50228,
-    "clicks": 5003,
-    "ctr": 1.971921,
-    "cpc": 5.374052,
+    "spend": 26892.84,
+    "impressions": 253731,
+    "reach": 50229,
+    "clicks": 5004,
+    "ctr": 1.972167,
+    "cpc": 5.374269,
     "leads": 460.0,
-    "cost_per_lead": 58.448652,
+    "cost_per_lead": 58.462696,
     "landing_page_views": 3.0
    },
    "ads_last7": [
@@ -2179,14 +2179,14 @@
     {
      "adset": "‏‏‏קהל פתוח || 25+ || מיקומים אוטומטים || סרטונים 1-10",
      "name": "וידיאו 1 || 3 טקסטים",
-     "spend": 19279.37,
-     "impressions": 165430,
+     "spend": 19285.83,
+     "impressions": 165449,
      "reach": 43218,
-     "clicks": 2558,
-     "ctr": 1.546273,
-     "cpc": 7.536892,
+     "clicks": 2559,
+     "ctr": 1.5467,
+     "cpc": 7.536471,
      "leads": 336.0,
-     "cost_per_lead": 57.379077,
+     "cost_per_lead": 57.398304,
      "landing_page_views": 3.0
     },
     {
@@ -3010,7 +3010,7 @@
      "name": "סדרת מודעות לידים חדשה",
      "status": "ACTIVE",
      "effective_status": "ACTIVE",
-     "daily_budget": "8800",
+     "daily_budget": "17300",
      "id": "120245939439310740"
     }
    ],
@@ -3210,8 +3210,8 @@
     },
     {
      "name": "‏תחומי עניין בעלי עסקים ועצמאיים || 25+ || מיקומים ידניים",
-     "status": "ACTIVE",
-     "effective_status": "ACTIVE",
+     "status": "PAUSED",
+     "effective_status": "PAUSED",
      "daily_budget": "8500",
      "id": "120234694036140740"
     }
@@ -3220,21 +3220,21 @@
     {
      "name": "סרטון 2 תיקון - מהפכת ה AI",
      "status": "ACTIVE",
-     "effective_status": "ACTIVE",
+     "effective_status": "ADSET_PAUSED",
      "adset_id": "120234694036140740",
      "id": "120234695642600740"
     },
     {
      "name": "‏סרטון 3 - אתה נוסע קרוב לשוליים",
      "status": "ACTIVE",
-     "effective_status": "ACTIVE",
+     "effective_status": "ADSET_PAUSED",
      "adset_id": "120234694036140740",
      "id": "120234694036050740"
     },
     {
      "name": "סרטון 4 תיקון - בקיצור אני יושב במיקונוס",
      "status": "ACTIVE",
-     "effective_status": "ACTIVE",
+     "effective_status": "ADSET_PAUSED",
      "adset_id": "120234694036140740",
      "id": "120234695642610740"
     },
@@ -3849,34 +3849,34 @@
  },
  "today": {
   "120216039932250740": {
-   "spend": 28.3,
-   "impressions": 127,
-   "reach": 119,
-   "clicks": 0,
-   "ctr": 0.0,
-   "cpc": 0.0,
+   "spend": 34.69,
+   "impressions": 145,
+   "reach": 134,
+   "clicks": 1,
+   "ctr": 0.689655,
+   "cpc": 34.69,
    "leads": 0.0,
    "cost_per_lead": null,
    "landing_page_views": 0.0
   },
   "120234694036040740": {
-   "spend": 55.05,
-   "impressions": 131,
-   "reach": 124,
+   "spend": 57.81,
+   "impressions": 140,
+   "reach": 133,
    "clicks": 2,
-   "ctr": 1.526718,
-   "cpc": 27.525,
+   "ctr": 1.428571,
+   "cpc": 28.905,
    "leads": 0.0,
    "cost_per_lead": null,
    "landing_page_views": 0.0
   },
   "120245939439290740": {
-   "spend": 49.31,
-   "impressions": 175,
-   "reach": 160,
-   "clicks": 6,
-   "ctr": 3.428571,
-   "cpc": 8.218333,
+   "spend": 66.4,
+   "impressions": 296,
+   "reach": 257,
+   "clicks": 8,
+   "ctr": 2.702703,
+   "cpc": 8.3,
    "leads": 0.0,
    "cost_per_lead": null,
    "landing_page_views": 0.0
@@ -3945,7 +3945,7 @@
    "name": "HK Pixel",
    "last_fired_time": "2026-11-21T01:17:10+0200",
    "events_3d": {
-    "PageView": 29
+    "PageView": 28
    }
   }
  ],
