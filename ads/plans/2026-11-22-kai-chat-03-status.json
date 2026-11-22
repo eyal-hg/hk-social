@@ -3,7 +3,45 @@
   "approved": true,
   "approved_by": "קריאה בלבד, בלי שינוי בחשבון",
   "actions": [
-    {"type": "inspect_ads", "campaign_name": "קמפיין לידים אייל"},
-    {"type": "check"}
+    {
+      "type": "inspect_ads",
+      "campaign_name": "קמפיין לידים אייל"
+    },
+    {
+      "type": "check"
+    }
+  ],
+  "applied": [
+    {
+      "index": 0,
+      "type": "inspect_ads",
+      "ok": true,
+      "at": "2026-11-22T07:03+02:00",
+      "result": {
+        "lines": [
+          "INSPECT {\"ad\": \"סוכנות 010 · שלומי, אפשר להעביר מחר · 43s\", \"spend\": \"232.56\", \"impressions\": \"1464\", \"reach\": \"1028\", \"clicks_all\": \"36\", \"link_clicks\": \"17\", \"unique_link_clicks\": \"17\", \"actions\": {\"offsite_complete_registration_add_meta_leads\": \"2\", \"link_click\": \"17\", \"offsite_search_add_meta_leads\": \"2\", \"post_reaction\": \"1\", \"onsite_conversion.messaging_conversation_replied_7d\": \"1\", \"onsite_conversion.total_messaging_connection\": \"3\", \"post_engagement\": \"465\", \"like\": \"1\", \"post_interaction_gross\": \"1\", \"page_engagement\": \"466\", \"post_interaction_net\": \"1\", \"onsite_conversion.messaging_first_reply\": \"1\", \"onsite_conversion.post_net_like\": \"1\", \"lead\": \"2\", \"offsite_content_view_add_meta_leads\": \"2\", \"onsite_conversion.messaging_conversation_started_7d\": \"2\", \"onsite_conversion.lead_grouped\": \"2\", \"video_view\": \"447\"}, \"cta\": {\"type\": \"LEARN_MORE\", \"value\": {\"lead_gen_form_id\": \"831087803308460\"}}, \"page\": \"459554967250420\", \"link\": null, \"story\": \"459554967250420_122182477478678494\", \"preview\": \"https://fb.me/1XfJrDgvPPbHbYe\"}"
+        ]
+      }
+    },
+    {
+      "index": 1,
+      "type": "check",
+      "ok": true,
+      "at": "2026-11-22T07:03+02:00",
+      "result": {
+        "lines": [
+          "CHECK campaign HK Studio · יועצים · טופס לידים | budget 0 | today spend 0 impr 0 clicks 0 leads 0",
+          "CHECK campaign HK Studio · יועצים · כניסות לדף | budget 0 | today spend 0 impr 0 clicks 0 leads 0",
+          "CHECK campaign קמפיין לידים אייל | budget 0 | today spend 38.01 impr 303 clicks 4 leads 0",
+          "CHECK   adset סדרת מודעות לידים חדשה [ACTIVE] budget 173 ",
+          "CHECK     ad KAI צ'אט 03 · משכורות ב-03:07 · 17s [IN_PROCESS]  ",
+          "CHECK     ad סוכנות 010 · שלומי, אפשר להעביר מחר · 43s [ACTIVE]  ",
+          "CHECK campaign ‏קמפיין כספים AI טופס לידים || HK Money‏ | budget 0 | today spend 0 impr 0 clicks 0 leads 0",
+          "CHECK campaign ‏טופס לידים || ניהול תזרים || | budget 100 | today spend 33.23 impr 119 clicks 2 leads 0",
+          "CHECK   adset ‏‏‏קהל פתוח || 25+ || מיקומים אוטומטים || סרטונים 1-10 [ACTIVE] budget 0 ",
+          "CHECK     ad וידיאו 1 || 3 טקסטים [ACTIVE]  "
+        ]
+      }
+    }
   ]
 }
