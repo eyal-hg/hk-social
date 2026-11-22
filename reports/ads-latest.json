@@ -1,5 +1,5 @@
 {
- "generated": "22.11.2026 04:37",
+ "generated": "22.11.2026 09:24",
  "account": {
   "name": "HK",
   "currency": "ILS",
@@ -387,14 +387,14 @@
     "landing_page_views": 3.0
    },
    "lifetime": {
-    "spend": 22621.71,
-    "impressions": 155624,
-    "reach": 33867,
-    "clicks": 3206,
-    "ctr": 2.060094,
-    "cpc": 7.056054,
+    "spend": 22660.4,
+    "impressions": 155910,
+    "reach": 33889,
+    "clicks": 3212,
+    "ctr": 2.060163,
+    "cpc": 7.054919,
     "leads": 245.0,
-    "cost_per_lead": 92.33351,
+    "cost_per_lead": 92.491429,
     "landing_page_views": 4.0
    },
    "ads_last7": [
@@ -691,14 +691,27 @@
     {
      "adset": "סדרת מודעות לידים חדשה",
      "name": "סוכנות 010 · שלומי, אפשר להעביר מחר · 43s",
-     "spend": 224.2,
-     "impressions": 1381,
-     "reach": 981,
-     "clicks": 35,
-     "ctr": 2.534395,
-     "cpc": 6.405714,
+     "spend": 256.76,
+     "impressions": 1613,
+     "reach": 1121,
+     "clicks": 39,
+     "ctr": 2.417855,
+     "cpc": 6.58359,
      "leads": 2.0,
-     "cost_per_lead": 112.1,
+     "cost_per_lead": 128.38,
+     "landing_page_views": 0.0
+    },
+    {
+     "adset": "סדרת מודעות לידים חדשה",
+     "name": "KAI צ'אט 03 · משכורות ב-03:07 · 17s",
+     "spend": 6.13,
+     "impressions": 54,
+     "reach": 54,
+     "clicks": 2,
+     "ctr": 3.703704,
+     "cpc": 3.065,
+     "leads": 0.0,
+     "cost_per_lead": null,
      "landing_page_views": 0.0
     }
    ]
@@ -1707,14 +1720,14 @@
     "landing_page_views": 2.0
    },
    "lifetime": {
-    "spend": 26935.06,
-    "impressions": 253957,
+    "spend": 26967.87,
+    "impressions": 254067,
     "reach": 50228,
-    "clicks": 5004,
-    "ctr": 1.970412,
-    "cpc": 5.382706,
+    "clicks": 5007,
+    "ctr": 1.97074,
+    "cpc": 5.386034,
     "leads": 460.0,
-    "cost_per_lead": 58.554478,
+    "cost_per_lead": 58.625804,
     "landing_page_views": 3.0
    },
    "ads_last7": [
@@ -2179,14 +2192,14 @@
     {
      "adset": "‏‏‏קהל פתוח || 25+ || מיקומים אוטומטים || סרטונים 1-10",
      "name": "וידיאו 1 || 3 טקסטים",
-     "spend": 19328.05,
-     "impressions": 165675,
-     "reach": 43218,
-     "clicks": 2559,
-     "ctr": 1.54459,
-     "cpc": 7.55297,
+     "spend": 19360.86,
+     "impressions": 165785,
+     "reach": 43220,
+     "clicks": 2562,
+     "ctr": 1.545375,
+     "cpc": 7.556932,
      "leads": 336.0,
-     "cost_per_lead": 57.523958,
+     "cost_per_lead": 57.621607,
      "landing_page_views": 3.0
     },
     {
@@ -3015,6 +3028,13 @@
     }
    ],
    "ads": [
+    {
+     "name": "KAI צ'אט 03 · משכורות ב-03:07 · 17s",
+     "status": "ACTIVE",
+     "effective_status": "ACTIVE",
+     "adset_id": "120245939439310740",
+     "id": "120252768905170740"
+    },
     {
      "name": "סוכנות 010 · שלומי, אפשר להעביר מחר · 43s",
      "status": "ACTIVE",
@@ -3849,23 +3869,23 @@
  },
  "today": {
   "120216039932250740": {
-   "spend": 16.64,
-   "impressions": 81,
-   "reach": 77,
-   "clicks": 0,
-   "ctr": 0.0,
-   "cpc": 0.0,
+   "spend": 49.45,
+   "impressions": 191,
+   "reach": 171,
+   "clicks": 3,
+   "ctr": 1.570681,
+   "cpc": 16.483333,
    "leads": 0.0,
    "cost_per_lead": null,
    "landing_page_views": 0.0
   },
   "120245939439290740": {
-   "spend": 29.87,
-   "impressions": 224,
-   "reach": 201,
-   "clicks": 3,
-   "ctr": 1.339286,
-   "cpc": 9.956667,
+   "spend": 68.56,
+   "impressions": 510,
+   "reach": 429,
+   "clicks": 9,
+   "ctr": 1.764706,
+   "cpc": 7.617778,
    "leads": 0.0,
    "cost_per_lead": null,
    "landing_page_views": 0.0
@@ -3941,7 +3961,7 @@
    "name": "HK Pixel",
    "last_fired_time": "2026-11-21T23:20:40+0200",
    "events_3d": {
-    "PageView": 26
+    "PageView": 27
    }
   }
  ],
