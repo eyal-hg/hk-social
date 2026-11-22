@@ -2,5 +2,77 @@
   "requested_by": "#931: קריאה בלבד. אייל שאל מה הביא וידיאו 1; הוצאה ולידים לפי יום, 14 ימים, בכל הקמפיינים הפעילים.",
   "approved": true,
   "approved_by": "קריאה בלבד, בלי שינוי בחשבון",
-  "actions": [{"type": "daily", "days": 14}]
+  "actions": [
+    {
+      "type": "daily",
+      "days": 14
+    }
+  ],
+  "applied": [
+    {
+      "index": 0,
+      "type": "daily",
+      "ok": true,
+      "at": "2026-11-22T07:10+02:00",
+      "result": {
+        "lines": [
+          "DAILY קמפיין לידים אייל | 2026-11-09 | spend 133 | impr 790 | reach 740 | freq 1.07 | cpm 168 | clicks 17 | link 11 | leads 4",
+          "DAILY קמפיין לידים אייל | 2026-11-10 | spend 92 | impr 643 | reach 595 | freq 1.08 | cpm 143 | clicks 15 | link 11 | leads 0",
+          "DAILY קמפיין לידים אייל | 2026-11-11 | spend 128 | impr 797 | reach 699 | freq 1.14 | cpm 161 | clicks 10 | link 6 | leads 0",
+          "DAILY קמפיין לידים אייל | 2026-11-12 | spend 127 | impr 767 | reach 685 | freq 1.12 | cpm 165 | clicks 12 | link 8 | leads 1",
+          "DAILY קמפיין לידים אייל | 2026-11-13 | spend 116 | impr 749 | reach 674 | freq 1.11 | cpm 155 | clicks 11 | link 7 | leads 0",
+          "DAILY קמפיין לידים אייל | 2026-11-14 | spend 123 | impr 603 | reach 542 | freq 1.11 | cpm 204 | clicks 7 | link 4 | leads 0",
+          "DAILY קמפיין לידים אייל | 2026-11-15 | spend 156 | impr 932 | reach 855 | freq 1.09 | cpm 167 | clicks 13 | link 8 | leads 1",
+          "DAILY קמפיין לידים אייל | 2026-11-16 | spend 133 | impr 746 | reach 671 | freq 1.11 | cpm 179 | clicks 16 | link 8 | leads 1",
+          "DAILY קמפיין לידים אייל | 2026-11-17 | spend 144 | impr 936 | reach 875 | freq 1.07 | cpm 153 | clicks 19 | link 14 | leads 2",
+          "DAILY קמפיין לידים אייל | 2026-11-18 | spend 127 | impr 875 | reach 781 | freq 1.12 | cpm 145 | clicks 19 | link 13 | leads 0",
+          "DAILY קמפיין לידים אייל | 2026-11-19 | spend 79 | impr 509 | reach 469 | freq 1.09 | cpm 155 | clicks 8 | link 6 | leads 0",
+          "DAILY קמפיין לידים אייל | 2026-11-20 | spend 78 | impr 416 | reach 361 | freq 1.15 | cpm 186 | clicks 9 | link 2 | leads 1",
+          "DAILY קמפיין לידים אייל | 2026-11-21 | spend 151 | impr 859 | reach 689 | freq 1.25 | cpm 176 | clicks 27 | link 13 | leads 2",
+          "DAILY קמפיין לידים אייל | 2026-11-22 | spend 40 | impr 317 | reach 262 | freq 1.21 | cpm 125 | clicks 4 | link 3 | leads 0",
+          "HOURLY קמפיין לידים אייל | 00:00 | spend 15.1 | impr 130 | clicks 3 | leads 0",
+          "HOURLY קמפיין לידים אייל | 01:00 | spend 7.7 | impr 50 | clicks 0 | leads 0",
+          "HOURLY קמפיין לידים אייל | 02:00 | spend 2.1 | impr 24 | clicks 0 | leads 0",
+          "HOURLY קמפיין לידים אייל | 03:00 | spend 4.2 | impr 18 | clicks 0 | leads 0",
+          "HOURLY קמפיין לידים אייל | 04:00 | spend 1.6 | impr 10 | clicks 0 | leads 0",
+          "HOURLY קמפיין לידים אייל | 05:00 | spend 1.8 | impr 20 | clicks 0 | leads 0",
+          "HOURLY קמפיין לידים אייל | 06:00 | spend 6.4 | impr 57 | clicks 1 | leads 0",
+          "HOURLY קמפיין לידים אייל | 07:00 | spend 0.7 | impr 8 | clicks 0 | leads 0",
+          "DAILY ‏קמפיין כספים AI טופס לידים || HK Money‏ | 2026-11-09 | spend 106 | impr 529 | reach 500 | freq 1.06 | cpm 201 | clicks 10 | link 5 | leads 1",
+          "DAILY ‏קמפיין כספים AI טופס לידים || HK Money‏ | 2026-11-10 | spend 77 | impr 353 | reach 328 | freq 1.08 | cpm 219 | clicks 3 | link 1 | leads 0",
+          "DAILY ‏קמפיין כספים AI טופס לידים || HK Money‏ | 2026-11-11 | spend 111 | impr 407 | reach 379 | freq 1.07 | cpm 274 | clicks 12 | link 9 | leads 0",
+          "DAILY ‏קמפיין כספים AI טופס לידים || HK Money‏ | 2026-11-12 | spend 66 | impr 295 | reach 269 | freq 1.10 | cpm 225 | clicks 13 | link 8 | leads 1",
+          "DAILY ‏קמפיין כספים AI טופס לידים || HK Money‏ | 2026-11-13 | spend 82 | impr 253 | reach 241 | freq 1.05 | cpm 325 | clicks 5 | link 4 | leads 1",
+          "DAILY ‏קמפיין כספים AI טופס לידים || HK Money‏ | 2026-11-14 | spend 46 | impr 177 | reach 172 | freq 1.03 | cpm 260 | clicks 6 | link 3 | leads 0",
+          "DAILY ‏קמפיין כספים AI טופס לידים || HK Money‏ | 2026-11-15 | spend 99 | impr 423 | reach 404 | freq 1.05 | cpm 234 | clicks 11 | link 10 | leads 0",
+          "DAILY ‏קמפיין כספים AI טופס לידים || HK Money‏ | 2026-11-16 | spend 94 | impr 379 | reach 368 | freq 1.03 | cpm 249 | clicks 18 | link 8 | leads 3",
+          "DAILY ‏קמפיין כספים AI טופס לידים || HK Money‏ | 2026-11-17 | spend 81 | impr 374 | reach 354 | freq 1.06 | cpm 217 | clicks 7 | link 5 | leads 1",
+          "DAILY ‏קמפיין כספים AI טופס לידים || HK Money‏ | 2026-11-18 | spend 45 | impr 237 | reach 226 | freq 1.05 | cpm 191 | clicks 5 | link 4 | leads 0",
+          "DAILY ‏קמפיין כספים AI טופס לידים || HK Money‏ | 2026-11-19 | spend 104 | impr 402 | reach 375 | freq 1.07 | cpm 259 | clicks 8 | link 7 | leads 0",
+          "DAILY ‏קמפיין כספים AI טופס לידים || HK Money‏ | 2026-11-20 | spend 87 | impr 294 | reach 277 | freq 1.06 | cpm 296 | clicks 11 | link 6 | leads 1",
+          "DAILY ‏קמפיין כספים AI טופס לידים || HK Money‏ | 2026-11-21 | spend 59 | impr 142 | reach 135 | freq 1.05 | cpm 418 | clicks 3 | link 2 | leads 0",
+          "DAILY ‏טופס לידים || ניהול תזרים || | 2026-11-11 | spend 46 | impr 187 | reach 167 | freq 1.12 | cpm 244 | clicks 9 | link 5 | leads 1",
+          "DAILY ‏טופס לידים || ניהול תזרים || | 2026-11-12 | spend 87 | impr 507 | reach 408 | freq 1.24 | cpm 171 | clicks 15 | link 11 | leads 0",
+          "DAILY ‏טופס לידים || ניהול תזרים || | 2026-11-13 | spend 69 | impr 369 | reach 299 | freq 1.23 | cpm 188 | clicks 10 | link 7 | leads 1",
+          "DAILY ‏טופס לידים || ניהול תזרים || | 2026-11-14 | spend 58 | impr 260 | reach 225 | freq 1.16 | cpm 224 | clicks 9 | link 5 | leads 1",
+          "DAILY ‏טופס לידים || ניהול תזרים || | 2026-11-15 | spend 114 | impr 683 | reach 567 | freq 1.20 | cpm 167 | clicks 17 | link 8 | leads 2",
+          "DAILY ‏טופס לידים || ניהול תזרים || | 2026-11-16 | spend 89 | impr 422 | reach 347 | freq 1.22 | cpm 211 | clicks 6 | link 2 | leads 0",
+          "DAILY ‏טופס לידים || ניהול תזרים || | 2026-11-17 | spend 93 | impr 436 | reach 377 | freq 1.16 | cpm 214 | clicks 7 | link 4 | leads 1",
+          "DAILY ‏טופס לידים || ניהול תזרים || | 2026-11-18 | spend 98 | impr 519 | reach 448 | freq 1.16 | cpm 190 | clicks 14 | link 9 | leads 1",
+          "DAILY ‏טופס לידים || ניהול תזרים || | 2026-11-19 | spend 107 | impr 466 | reach 391 | freq 1.19 | cpm 230 | clicks 19 | link 13 | leads 2",
+          "DAILY ‏טופס לידים || ניהול תזרים || | 2026-11-20 | spend 103 | impr 462 | reach 401 | freq 1.15 | cpm 224 | clicks 13 | link 7 | leads 2",
+          "DAILY ‏טופס לידים || ניהול תזרים || | 2026-11-21 | spend 60 | impr 290 | reach 275 | freq 1.05 | cpm 208 | clicks 1 | link 1 | leads 0",
+          "DAILY ‏טופס לידים || ניהול תזרים || | 2026-11-22 | spend 33 | impr 120 | reach 112 | freq 1.07 | cpm 278 | clicks 2 | link 1 | leads 0",
+          "HOURLY ‏טופס לידים || ניהול תזרים || | 00:00 | spend 4.0 | impr 27 | clicks 0 | leads 0",
+          "HOURLY ‏טופס לידים || ניהול תזרים || | 01:00 | spend 5.4 | impr 20 | clicks 0 | leads 0",
+          "HOURLY ‏טופס לידים || ניהול תזרים || | 02:00 | spend 3.0 | impr 22 | clicks 0 | leads 0",
+          "HOURLY ‏טופס לידים || ניהול תזרים || | 03:00 | spend 1.5 | impr 7 | clicks 0 | leads 0",
+          "HOURLY ‏טופס לידים || ניהול תזרים || | 04:00 | spend 6.0 | impr 10 | clicks 0 | leads 0",
+          "HOURLY ‏טופס לידים || ניהול תזרים || | 05:00 | spend 3.0 | impr 15 | clicks 0 | leads 0",
+          "HOURLY ‏טופס לידים || ניהול תזרים || | 06:00 | spend 10.3 | impr 18 | clicks 2 | leads 0",
+          "HOURLY ‏טופס לידים || ניהול תזרים || | 07:00 | spend 0.1 | impr 1 | clicks 0 | leads 0"
+        ]
+      }
+    }
+  ]
 }
