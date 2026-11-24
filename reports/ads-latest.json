@@ -1,5 +1,5 @@
 {
- "generated": "24.11.2026 14:53",
+ "generated": "24.11.2026 16:43",
  "account": {
   "name": "HK",
   "currency": "ILS",
@@ -387,14 +387,14 @@
     "landing_page_views": 3.0
    },
    "lifetime": {
-    "spend": 23031.22,
-    "impressions": 158923,
-    "reach": 34101,
+    "spend": 23042.63,
+    "impressions": 159033,
+    "reach": 34100,
     "clicks": 3267,
-    "ctr": 2.055713,
-    "cpc": 7.049654,
+    "ctr": 2.054291,
+    "cpc": 7.053147,
     "leads": 247.0,
-    "cost_per_lead": 93.243806,
+    "cost_per_lead": 93.29,
     "landing_page_views": 4.0
    },
    "ads_last7": [
@@ -705,27 +705,27 @@
     {
      "adset": "סדרת מודעות לידים חדשה",
      "name": "סוכנות 010 · שלומי, אפשר להעביר מחר · 43s",
-     "spend": 524.3,
-     "impressions": 3519,
-     "reach": 2089,
+     "spend": 532.67,
+     "impressions": 3598,
+     "reach": 2108,
      "clicks": 80,
-     "ctr": 2.273373,
-     "cpc": 6.55375,
+     "ctr": 2.223457,
+     "cpc": 6.658375,
      "leads": 3.0,
-     "cost_per_lead": 174.766667,
+     "cost_per_lead": 177.556667,
      "landing_page_views": 0.0
     },
     {
      "adset": "סדרת מודעות לידים חדשה",
      "name": "KAI צ'אט 03 · משכורות ב-03:07 · 17s",
-     "spend": 109.41,
-     "impressions": 1161,
-     "reach": 709,
+     "spend": 112.45,
+     "impressions": 1192,
+     "reach": 729,
      "clicks": 16,
-     "ctr": 1.378122,
-     "cpc": 6.838125,
+     "ctr": 1.342282,
+     "cpc": 7.028125,
      "leads": 1.0,
-     "cost_per_lead": 109.41,
+     "cost_per_lead": 112.45,
      "landing_page_views": 0.0
     }
    ]
@@ -1734,14 +1734,14 @@
     "landing_page_views": 2.0
    },
    "lifetime": {
-    "spend": 27225.8,
-    "impressions": 255480,
+    "spend": 27229.33,
+    "impressions": 255512,
     "reach": 50499,
     "clicks": 5032,
-    "ctr": 1.969626,
-    "cpc": 5.410533,
+    "ctr": 1.969379,
+    "cpc": 5.411234,
     "leads": 464.0,
-    "cost_per_lead": 58.676293,
+    "cost_per_lead": 58.683901,
     "landing_page_views": 3.0
    },
    "ads_last7": [
@@ -2206,14 +2206,14 @@
     {
      "adset": "‏‏‏קהל פתוח || 25+ || מיקומים אוטומטים || סרטונים 1-10",
      "name": "וידיאו 1 || 3 טקסטים",
-     "spend": 19618.79,
-     "impressions": 167198,
-     "reach": 43518,
+     "spend": 19622.32,
+     "impressions": 167230,
+     "reach": 43517,
      "clicks": 2587,
-     "ctr": 1.547267,
-     "cpc": 7.583606,
+     "ctr": 1.546971,
+     "cpc": 7.584971,
      "leads": 340.0,
-     "cost_per_lead": 57.702324,
+     "cost_per_lead": 57.712706,
      "landing_page_views": 3.0
     },
     {
@@ -3883,23 +3883,23 @@
  },
  "today": {
   "120216039932250740": {
-   "spend": 65.81,
-   "impressions": 269,
-   "reach": 232,
+   "spend": 69.34,
+   "impressions": 301,
+   "reach": 258,
    "clicks": 8,
-   "ctr": 2.973978,
-   "cpc": 8.22625,
+   "ctr": 2.657807,
+   "cpc": 8.6675,
    "leads": 0.0,
    "cost_per_lead": null,
    "landing_page_views": 0.0
   },
   "120245939439290740": {
-   "spend": 92.38,
-   "impressions": 674,
-   "reach": 569,
+   "spend": 103.79,
+   "impressions": 784,
+   "reach": 658,
    "clicks": 13,
-   "ctr": 1.928783,
-   "cpc": 7.106154,
+   "ctr": 1.658163,
+   "cpc": 7.983846,
    "leads": 0.0,
    "cost_per_lead": null,
    "landing_page_views": 0.0
@@ -3975,7 +3975,7 @@
    "name": "HK Pixel",
    "last_fired_time": "2026-11-23T21:44:15+0200",
    "events_3d": {
-    "PageView": 41
+    "PageView": 40
    }
   }
  ],
